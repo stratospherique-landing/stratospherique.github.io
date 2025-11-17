@@ -3,35 +3,211 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>stratospherique</title>
+<title>stratospherique // boot sequence</title>
 <style>
+  :root {
+    --bg: #ffffff;
+    --fg: #000000;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin: 0;
-    background: #ffffff;
-    color: #000000;
+    background: var(--bg);
+    color: var(--fg);
     font-family: "JetBrains Mono", "Fira Code", monospace;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-size: 1.8rem;
+    padding: 24px;
+  }
+
+  .shell {
+    max-width: 720px;
+    width: 100%;
+    font-size: 1rem;
     letter-spacing: 0.06em;
     text-transform: lowercase;
   }
-  .cursor {
-    border-bottom: 2px solid #000;
-    width: 0.6em;
-    display: inline-block;
-    animation: blink 1s steps(1) infinite;
-    transform: translateY(3px);
+
+  .line {
+    white-space: nowrap;
+    overflow: hidden;
   }
+
+  .cursor {
+    display: inline-block;
+    width: 0.6em;
+    border-bottom: 2px solid var(--fg);
+    transform: translateY(3px);
+    animation: blink 1s steps(1) infinite;
+  }
+
   @keyframes blink {
     0%, 49% { opacity: 1; }
     50%, 100% { opacity: 0; }
   }
+
+  .newsletter {
+    margin-top: 32px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    opacity: 0.7;
+  }
+
+  .newsletter form {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    max-width: 360px;
+  }
+
+  .newsletter input[type="email"] {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 6px 8px;
+    font-family: inherit;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+
+  .newsletter button {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 6px 10px;
+    font-family: inherit;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+  }
+
+  .newsletter button:hover {
+    opacity: 0.8;
+  }
+
+  .secret {
+    margin-top: 24px;
+    font-size: 0.7rem;
+    opacity: 0.3;
+  }
+
+  .easter-egg {
+    margin-top: 16px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .easter-egg.visible {
+    opacity: 1;
+  }
+
+  @media (max-width: 480px) {
+    .shell {
+      font-size: 0.9rem;
+    }
+    .newsletter form {
+      flex-direction: column;
+    }
+  }
 </style>
 </head>
 <body>
-  system_boot: landing_soon <span class="cursor"></span>
+  <div class="shell" id="shell">
+    <!-- les lignes de boot seront injectées ici -->
+  </div>
+
+  <div class="newsletter">
+    <div>subscribe to the flight log</div>
+    <!-- Remplace l'URL Substack par la tienne quand elle sera créée -->
+    <form action="https://stratospherique.substack.com/api/v1/free" method="post" target="_blank">
+      <input type="email" name="email" placeholder="email" required>
+      <button type="submit">join</button>
+    </form>
+  </div>
+
+  <div class="secret">
+    hint: ↑ ↑ ↓ ↓ ← → ← → b a
+  </div>
+
+  <div class="easter-egg" id="easter-egg">
+    access granted // stratos lab online<br>
+    welcome, operator.
+  </div>
+
+<script>
+  // --- boot sequence typing ---
+  const lines = [
+    "> initializing stratos mission...",
+    "> loading altitude maps...",
+    "> calibrating ikigai engines...",
+    "> syncing neural interfaces...",
+    "> system status: landing_soon"
+  ];
+
+  const shell = document.getElementById("shell");
+  let lineIndex = 0;
+  let charIndex = 0;
+  let currentLineEl = null;
+
+  function typeNextChar() {
+    if (!currentLineEl) {
+      currentLineEl = document.createElement("div");
+      currentLineEl.className = "line";
+      shell.appendChild(currentLineEl);
+    }
+
+    const currentText = lines[lineIndex];
+    currentLineEl.textContent = currentText.slice(0, charIndex);
+
+    charIndex++;
+
+    if (charIndex <= currentText.length) {
+      setTimeout(typeNextChar, 40);
+    } else {
+      // ajouter curseur sur la dernière ligne seulement
+      if (lineIndex === lines.length - 1) {
+        const cursor = document.createElement("span");
+        cursor.className = "cursor";
+        currentLineEl.appendChild(document.createTextNode(" "));
+        currentLineEl.appendChild(cursor);
+      }
+      lineIndex++;
+      charIndex = 0;
+      currentLineEl = null;
+      if (lineIndex < lines.length) {
+        setTimeout(typeNextChar, 200);
+      }
+    }
+  }
+
+  typeNextChar();
+
+  // --- easter egg : Konami code ---
+  const easter = document.getElementById("easter-egg");
+  const konami = [38,38,40,40,37,39,37,39,66,65];
+  let position = 0;
+
+  window.addEventListener("keydown", function(e) {
+    const key = e.keyCode;
+    if (key === konami[position]) {
+      position++;
+      if (position === konami.length) {
+        easter.classList.add("visible");
+        position = 0;
+      }
+    } else {
+      position = 0;
+    }
+  });
+</script>
 </body>
 </html>
