@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>stratospherique // landing_soon_page/title>
+<title>stratospherique // boot sequence</title>
 <style>
   :root {
     --bg: #ffffff;
@@ -61,15 +61,44 @@
     opacity: 0.7;
   }
 
-  /* wrapper de l'embed Substack */
-  .newsletter #substack-embed {
+  .newsletter form {
     margin-top: 8px;
+    display: flex;
+    gap: 8px;
     max-width: 360px;
   }
 
-  .newsletter #substack-embed iframe {
-    width: 100% !important;
-    max-width: 360px;
+  .newsletter input[type="email"] {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 6px 8px;
+    font-family: inherit;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+
+  .newsletter button {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 6px 10px;
+    font-family: inherit;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+  }
+
+  .newsletter button:hover {
+    opacity: 0.8;
+  }
+
+  .feedback {
+    margin-top: 6px;
+    font-size: 0.7rem;
+    opacity: 0.6;
+    text-transform: none;
+    letter-spacing: 0.05em;
   }
 
   .secret {
@@ -173,6 +202,9 @@
     .shell {
       font-size: 0.9rem;
     }
+    .newsletter form {
+      flex-direction: column;
+    }
   }
 </style>
 </head>
@@ -181,21 +213,14 @@
     <!-- les lignes de boot seront injectées ici -->
   </div>
 
-  <!-- Newsletter / Substack embed -->
+  <!-- NEWSLETTER -->
   <div class="newsletter">
     <div>subscribe to the landing log</div>
-
-    <div id="substack-embed"></div>
-    <script>
-      window.SubstackWidget = {
-        embed: "subscribe",
-        substackUrl: "nathaliebeuge.substack.com",
-        placeholder: "enter commlink id",
-        buttonText: "init uplink",
-        theme: "custom"
-      };
-    </script>
-    <script src="https://substackapi.com/widget.js"></script>
+    <form id="newsletter-form">
+      <input type="email" name="email" placeholder="enter commlink id" required>
+      <button type="submit">init uplink</button>
+    </form>
+    <div id="newsletter-feedback" class="feedback"></div>
   </div>
 
   <div class="secret">
@@ -205,7 +230,7 @@
   <div class="easter-egg" id="easter-egg">
     <div class="egg-text">
       access granted // stratos lab online<br>
-      welcome!
+      welcome, operator.
     </div>
 
     <div class="egg-scene">
@@ -264,7 +289,7 @@
 
   typeNextChar();
 
-  // --- easter egg  ---
+  // --- easter egg : Konami code ---
   const easter = document.getElementById("easter-egg");
   const konami = [38,38,40,40,37,39,37,39,66,65];
   let position = 0;
@@ -281,6 +306,39 @@
       position = 0;
     }
   });
+
+  // --- newsletter → Substack ---
+  const newsletterForm = document.getElementById("newsletter-form");
+  const feedback = document.getElementById("newsletter-feedback");
+
+  if (newsletterForm) {
+    newsletterForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const email = newsletterForm.email.value.trim();
+      if (!email) return;
+
+      // log terminal-style
+      const log1 = document.createElement("div");
+      log1.className = "line";
+      log1.textContent = `> uplink request from ${email}`;
+      shell.appendChild(log1);
+
+      const log2 = document.createElement("div");
+      log2.className = "line";
+      log2.textContent = "> opening transmission node (substack)…";
+      shell.appendChild(log2);
+
+      // message utilisateur clair
+      feedback.textContent = "> uplink sent. check your inbox to confirm subscription.";
+      
+      // ouvrir la page d’inscription Substack avec l’email pré-rempli
+      const base = "https://nathaliebeuge.substack.com/subscribe";
+      const url = base + "?email=" + encodeURIComponent(email);
+      window.open(url, "_blank");
+
+      newsletterForm.reset();
+    });
+  }
 </script>
 </body>
 </html>
