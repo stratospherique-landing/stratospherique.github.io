@@ -110,6 +110,86 @@
     opacity: 1;
   }
 
+    .egg-text {
+    margin-bottom: 8px;
+  }
+
+  .egg-scene {
+    position: relative;
+    height: 120px;
+    max-width: 220px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin-top: 8px;
+    padding-top: 8px;
+    font-size: 1.5rem;
+  }
+
+  .mountain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    opacity: 0.7;
+  }
+
+  .dino,
+  .rocket,
+  .moon {
+    position: absolute;
+  }
+
+  .dino {
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+
+  .rocket {
+    bottom: 0;
+    right: 10px;
+  }
+
+  .moon {
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+    opacity: 0;
+  }
+
+  /* animations déclenchées quand l'easter egg devient visible */
+  .easter-egg.visible .dino {
+    animation: climb 3s ease-out forwards;
+  }
+
+  .easter-egg.visible .rocket {
+    animation: launch 2.4s ease-in forwards;
+    animation-delay: 0.4s;
+  }
+
+  .easter-egg.visible .moon {
+    animation: moon-glow 3s ease-out forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes climb {
+    0%   { transform: translate(0, 0); }
+    40%  { transform: translate(40px, 20px); }
+    100% { transform: translate(90px, -40px); }
+  }
+
+  @keyframes launch {
+    0%   { transform: translateY(0); opacity: 1; }
+    60%  { transform: translateY(-70px); opacity: 1; }
+    100% { transform: translateY(-120px); opacity: 0; }
+  }
+
+  @keyframes moon-glow {
+    0%   { opacity: 0; transform: scale(0.8); }
+    60%  { opacity: 1; transform: scale(1.05); }
+    100% { opacity: 0.9; transform: scale(1); }
+  }
+
   @media (max-width: 480px) {
     .shell {
       font-size: 0.9rem;
@@ -125,12 +205,11 @@
     <!-- les lignes de boot seront injectées ici -->
   </div>
 
-  <div class="newsletter">
-    <div>subscribe to the flight log</div>
-    <!-- Remplace l'URL Substack par la tienne quand elle sera créée -->
-    <form action="https://stratospherique.substack.com/api/v1/free" method="post" target="_blank">
-      <input type="email" name="email" placeholder="email" required>
-      <button type="submit">join</button>
+    <div class="newsletter">
+    <div>subscribe to the landing log</div>
+    <form id="newsletter-form">
+      <input type="email" name="email" placeholder="enter commlink id" required>
+      <button type="submit">init uplink</button>
     </form>
   </div>
 
@@ -139,9 +218,19 @@
   </div>
 
   <div class="easter-egg" id="easter-egg">
-    access granted // stratos lab online<br>
-    welcome, operator.
+    <div class="egg-text">
+      access granted // stratos lab online<br>
+      welcome, operator.
+    </div>
+
+    <div class="egg-scene">
+      <div class="mountain">▲ ▲ ▲</div>
+      <div class="dino">🦖</div>
+      <div class="rocket">🚀</div>
+      <div class="moon">🌕</div>
+    </div>
   </div>
+
 
 <script>
   // --- boot sequence typing ---
@@ -208,6 +297,40 @@
       position = 0;
     }
   });
+
+  // --- newsletter ritual / hacker style ---
+  const newsletterForm = document.getElementById("newsletter-form");
+
+  if (newsletterForm) {
+    newsletterForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const email = newsletterForm.email.value.trim();
+      if (!email) return;
+
+      // petite séquence "terminal"
+      const log1 = document.createElement("div");
+      log1.className = "line";
+      log1.textContent = `> uplink request from ${email}`;
+      shell.appendChild(log1);
+
+      const log2 = document.createElement("div");
+      log2.className = "line";
+      log2.textContent = "> opening transmission node (substack)…";
+      shell.appendChild(log2);
+
+      // ouvrir Substack dans un nouvel onglet (à adapter quand ta newsletter existe)
+      setTimeout(function () {
+        const base = "https://stratospherique.substack.com/subscribe";
+        const url = base + "?email=" + encodeURIComponent(email);
+        window.open(url, "_blank");
+      }, 700);
+
+      // on peut vider le champ après
+      newsletterForm.reset();
+    });
+  }
+
+  
 </script>
 </body>
 </html>
