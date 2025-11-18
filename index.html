@@ -320,8 +320,8 @@
 
      // ouvrir Substack dans un nouvel onglet
 setTimeout(function () {
-  const base = "https://nathaliebeuge.substack.com";
-  const url = base + "/subscribe?email=" + encodeURIComponent(email);
+  const base = "https://nathaliebeuge.substack.com/subscribe";
+  const url = base + "?email=" + encodeURIComponent(email);
   window.open(url, "_blank");
 }, 700);
 
