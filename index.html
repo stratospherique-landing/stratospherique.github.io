@@ -61,36 +61,15 @@
     opacity: 0.7;
   }
 
-  .newsletter form {
+  /* wrapper de l'embed Substack */
+  .newsletter #substack-embed {
     margin-top: 8px;
-    display: flex;
-    gap: 8px;
     max-width: 360px;
   }
 
-  .newsletter input[type="email"] {
-    flex: 1;
-    border: 1px solid #000;
-    padding: 6px 8px;
-    font-family: inherit;
-    font-size: 0.8rem;
-    background: transparent;
-  }
-
-  .newsletter button {
-    border: 1px solid #000;
-    background: #000;
-    color: #fff;
-    padding: 6px 10px;
-    font-family: inherit;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    cursor: pointer;
-  }
-
-  .newsletter button:hover {
-    opacity: 0.8;
+  .newsletter #substack-embed iframe {
+    width: 100% !important;
+    max-width: 360px;
   }
 
   .secret {
@@ -110,7 +89,7 @@
     opacity: 1;
   }
 
-    .egg-text {
+  .egg-text {
     margin-bottom: 8px;
   }
 
@@ -194,9 +173,6 @@
     .shell {
       font-size: 0.9rem;
     }
-    .newsletter form {
-      flex-direction: column;
-    }
   }
 </style>
 </head>
@@ -205,12 +181,21 @@
     <!-- les lignes de boot seront injectées ici -->
   </div>
 
-    <div class="newsletter">
+  <!-- Newsletter / Substack embed -->
+  <div class="newsletter">
     <div>subscribe to the landing log</div>
-    <form id="newsletter-form">
-      <input type="email" name="email" placeholder="enter commlink id" required>
-      <button type="submit">init uplink</button>
-    </form>
+
+    <div id="substack-embed"></div>
+    <script>
+      window.SubstackWidget = {
+        embed: "subscribe",
+        substackUrl: "nathaliebeuge.substack.com",
+        placeholder: "enter commlink id",
+        buttonText: "init uplink",
+        theme: "custom"
+      };
+    </script>
+    <script src="https://substackapi.com/widget.js"></script>
   </div>
 
   <div class="secret">
@@ -230,7 +215,6 @@
       <div class="moon">🌕</div>
     </div>
   </div>
-
 
 <script>
   // --- boot sequence typing ---
@@ -297,40 +281,6 @@
       position = 0;
     }
   });
-
-  // --- newsletter ---
-  const newsletterForm = document.getElementById("newsletter-form");
-
-  if (newsletterForm) {
-    newsletterForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const email = newsletterForm.email.value.trim();
-      if (!email) return;
-
-      // petite séquence "terminal"
-      const log1 = document.createElement("div");
-      log1.className = "line";
-      log1.textContent = `> uplink request from ${email}`;
-      shell.appendChild(log1);
-
-      const log2 = document.createElement("div");
-      log2.className = "line";
-      log2.textContent = "> opening transmission node (substack)…";
-      shell.appendChild(log2);
-
-     // ouvrir Substack dans un nouvel onglet
-setTimeout(function () {
-  const base = "https://nathaliebeuge.substack.com/subscribe";
-  const url = base + "?email=" + encodeURIComponent(email);
-  window.open(url, "_blank");
-}, 700);
-
-      // on peut vider le champ après
-      newsletterForm.reset();
-    });
-  }
-
-  
 </script>
 </body>
 </html>
