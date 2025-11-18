@@ -165,7 +165,6 @@
     opacity: 0;
   }
 
-  /* animations déclenchées quand l'easter egg devient visible */
   .easter-egg.visible .dino {
     animation: climb 3s ease-out forwards;
   }
@@ -271,7 +270,6 @@
     if (charIndex <= currentText.length) {
       setTimeout(typeNextChar, 40);
     } else {
-      // ajouter curseur sur la dernière ligne seulement
       if (lineIndex === lines.length - 1) {
         const cursor = document.createElement("span");
         cursor.className = "cursor";
@@ -317,10 +315,9 @@
       const email = newsletterForm.email.value.trim();
       if (!email) return;
 
-      // log terminal-style
       const log1 = document.createElement("div");
       log1.className = "line";
-      log1.textContent = `> uplink request from ${email}`;
+      log1.textContent = "> uplink request from " + email;
       shell.appendChild(log1);
 
       const log2 = document.createElement("div");
@@ -328,10 +325,8 @@
       log2.textContent = "> opening transmission node (substack)…";
       shell.appendChild(log2);
 
-      // message utilisateur clair
       feedback.textContent = "> uplink sent. check your inbox to confirm subscription.";
-      
-      // ouvrir la page d’inscription Substack avec l’email pré-rempli
+
       const base = "https://nathaliebeuge.substack.com/subscribe";
       const url = base + "?email=" + encodeURIComponent(email);
       window.open(url, "_blank");
