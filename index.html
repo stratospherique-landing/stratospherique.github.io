@@ -298,7 +298,7 @@
     }
   });
 
-  // --- newsletter ritual / hacker style ---
+  // --- newsletter ---
   const newsletterForm = document.getElementById("newsletter-form");
 
   if (newsletterForm) {
@@ -318,12 +318,12 @@
       log2.textContent = "> opening transmission node (substack)…";
       shell.appendChild(log2);
 
-      // ouvrir Substack dans un nouvel onglet (à adapter quand ta newsletter existe)
-      setTimeout(function () {
-        const base = "https://nathaliebeuge.substack.com/subscribe";
-        const url = base + "?email=" + encodeURIComponent(email);
-        window.open(url, "_blank");
-      }, 700);
+     // ouvrir Substack dans un nouvel onglet
+setTimeout(function () {
+  const base = "https://nathaliebeuge.substack.com";
+  const url = base + "/subscribe?email=" + encodeURIComponent(email);
+  window.open(url, "_blank");
+}, 700);
 
       // on peut vider le champ après
       newsletterForm.reset();
