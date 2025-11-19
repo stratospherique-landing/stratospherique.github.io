@@ -282,3 +282,96 @@
 
   function typeNextChar() {
     if (!currentLineEl) {
+      currentLineEl = document.createElement("div");
+      currentLineEl.className = "line";
+      shell.appendChild(currentLineEl);
+    }
+
+    const currentText = lines[lineIndex];
+    currentLineEl.textContent = currentText.slice(0, charIndex);
+
+    charIndex++;
+
+    if (charIndex <= currentText.length) {
+      setTimeout(typeNextChar, 40);
+    } else {
+      if (lineIndex === lines.length - 1) {
+        const cursor = document.createElement("span");
+        cursor.className = "cursor";
+        currentLineEl.appendChild(document.createTextNode(" "));
+        currentLineEl.appendChild(cursor);
+      }
+      lineIndex++;
+      charIndex = 0;
+      currentLineEl = null;
+      if (lineIndex < lines.length) {
+        setTimeout(typeNextChar, 200);
+      }
+    }
+  }
+
+  typeNextChar();
+
+  // --- easter egg : Konami code + hint + glyph click ---
+  const easter = document.getElementById("easter-egg");
+  const glyph = document.getElementById("easter-glyph");
+  const secretHint = document.getElementById("secret-hint");
+  const konami = [38,38,40,40,37,39,37,39,66,65];
+  let position = 0;
+
+  function revealEasterEgg() {
+    easter.classList.add("visible");
+  }
+
+  window.addEventListener("keydown", function(e) {
+    const key = e.keyCode;
+    if (key === konami[position]) {
+      position++;
+      if (position === konami.length) {
+        revealEasterEgg();
+        position = 0;
+      }
+    } else {
+      position = 0;
+    }
+  });
+
+  if (glyph) {
+    glyph.addEventListener("click", revealEasterEgg);
+  }
+  if (secretHint) {
+    secretHint.addEventListener("click", revealEasterEgg);
+  }
+
+  // --- newsletter → Substack ---
+  const newsletterForm = document.getElementById("newsletter-form");
+  const feedback = document.getElementById("newsletter-feedback");
+
+  if (newsletterForm) {
+    newsletterForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const email = newsletterForm.email.value.trim();
+      if (!email) return;
+
+      const log1 = document.createElement("div");
+      log1.className = "line";
+      log1.textContent = "> uplink request from " + email;
+      shell.appendChild(log1);
+
+      const log2 = document.createElement("div");
+      log2.className = "line";
+      log2.textContent = "> opening transmission node (substack)…";
+      shell.appendChild(log2);
+
+      feedback.textContent = "> uplink sent. check your inbox to confirm subscription.";
+
+      const base = "https://nathaliebeuge.substack.com/subscribe";
+      const url = base + "?email=" + encodeURIComponent(email);
+      window.open(url, "_blank");
+
+      newsletterForm.reset();
+    });
+  }
+</script>
+</body>
+</html>
