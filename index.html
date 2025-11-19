@@ -105,19 +105,28 @@
     margin-top: 24px;
     font-size: 0.7rem;
     opacity: 0.3;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .secret:hover {
+    opacity: 0.45;
+    transform: translateY(-1px);
   }
 
   .glyph {
     margin-top: 4px;
-    font-size: 0.6rem;
-    opacity: 0.15;
+    font-size: 0.9rem;
+    opacity: 0.35;
     cursor: pointer;
     user-select: none;
     transition: opacity 0.2s ease, transform 0.2s ease;
+    text-align: center;
   }
 
   .glyph:hover {
-    opacity: 0.4;
+    opacity: 0.6;
     transform: translateY(-1px);
   }
 
@@ -236,11 +245,40 @@
     <div id="newsletter-feedback" class="feedback"></div>
   </div>
 
-  <div class="secret">
+  <div class="secret" id="secret-hint">
     hint: clarity is altitude
   </div>
   <div class="glyph" id="easter-glyph">▲</div>
 
   <div class="easter-egg" id="easter-egg">
     <div class="egg-text">
-      access granted // s
+      access granted // stratos lab online<br>
+      welcome, operator.
+    </div>
+
+    <div class="egg-scene">
+      <div class="mountain">▲ ▲ ▲</div>
+      <div class="dino">🦖</div>
+      <div class="rocket">🚀</div>
+      <div class="moon">🌕</div>
+    </div>
+  </div>
+
+<script>
+  // --- boot sequence typing ---
+  const lines = [
+    "> booting strategy_core...",
+    "> loading altitude maps & long-term vision...",
+    "> stabilizing ground_truth sensors...",
+    "> powering ikigai module: meaning, coherence, courage...",
+    "> merging human insight with ai analysis...",
+    "> status: stratospheric_launch_preparing"
+  ];
+
+  const shell = document.getElementById("shell");
+  let lineIndex = 0;
+  let charIndex = 0;
+  let currentLineEl = null;
+
+  function typeNextChar() {
+    if (!currentLineEl) {
