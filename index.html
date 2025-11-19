@@ -245,11 +245,17 @@
     <div id="newsletter-feedback" class="feedback"></div>
   </div>
 
-  <div class="secret" id="secret-hint">
+  <!-- HINT + GLYPH (cliquables en inline) -->
+  <div class="secret"
+       onclick="document.getElementById('easter-egg').classList.add('visible')">
     hint: clarity is altitude
   </div>
-  <div class="glyph" id="easter-glyph">▲</div>
+  <div class="glyph"
+       onclick="document.getElementById('easter-egg').classList.add('visible')">
+    ▲
+  </div>
 
+  <!-- EASTER EGG -->
   <div class="easter-egg" id="easter-egg">
     <div class="egg-text">
       access granted // stratos lab online<br>
@@ -312,36 +318,23 @@
 
   typeNextChar();
 
-  // --- easter egg : Konami code + hint + glyph click ---
+  // --- easter egg : Konami code (option geek) ---
   const easter = document.getElementById("easter-egg");
-  const glyph = document.getElementById("easter-glyph");
-  const secretHint = document.getElementById("secret-hint");
   const konami = [38,38,40,40,37,39,37,39,66,65];
   let position = 0;
-
-  function revealEasterEgg() {
-    easter.classList.add("visible");
-  }
 
   window.addEventListener("keydown", function(e) {
     const key = e.keyCode;
     if (key === konami[position]) {
       position++;
       if (position === konami.length) {
-        revealEasterEgg();
+        easter.classList.add("visible");
         position = 0;
       }
     } else {
       position = 0;
     }
   });
-
-  if (glyph) {
-    glyph.addEventListener("click", revealEasterEgg);
-  }
-  if (secretHint) {
-    secretHint.addEventListener("click", revealEasterEgg);
-  }
 
   // --- newsletter → Substack ---
   const newsletterForm = document.getElementById("newsletter-form");
