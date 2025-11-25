@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>stratospherique // landing soon</title>
+<title>stratosphérique // where clarity takes off</title>
+
 <style>
   :root {
     --bg: #ffffff;
     --fg: #000000;
+    --accent: #00aaff;
   }
 
-  * {
-    box-sizing: border-box;
-  }
+  * { box-sizing: border-box; }
 
   body {
     margin: 0;
@@ -22,349 +22,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 24px;
+    padding: 32px;
   }
 
   .shell {
-    max-width: 720px;
+    max-width: 780px;
     width: 100%;
     font-size: 1rem;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     text-transform: lowercase;
+    line-height: 1.5;
   }
 
-  .line {
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  .cursor {
-    display: inline-block;
-    width: 0.6em;
-    border-bottom: 2px solid var(--fg);
-    transform: translateY(3px);
-    animation: blink 1s steps(1) infinite;
-  }
-
-  @keyframes blink {
-    0%, 49% { opacity: 1; }
-    50%, 100% { opacity: 0; }
-  }
-
-  .newsletter {
-    margin-top: 32px;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    opacity: 0.7;
-  }
-
-  .newsletter form {
-    margin-top: 8px;
-    display: flex;
-    gap: 8px;
-    max-width: 360px;
-  }
-
-  .newsletter input[type="email"] {
-    flex: 1;
-    border: 1px solid #000;
-    padding: 6px 8px;
-    font-family: inherit;
-    font-size: 0.8rem;
-    background: transparent;
-  }
-
-  .newsletter button {
-    border: 1px solid #000;
-    background: #000;
-    color: #fff;
-    padding: 6px 10px;
-    font-family: inherit;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+  .title {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
     cursor: pointer;
   }
 
-  .newsletter button:hover {
-    opacity: 0.8;
+  .section { margin-top: 32px; }
+  .accent { color: var(--accent); font-weight: bold; }
+
+  .separator {
+    margin: 32px 0;
+    border-bottom: 1px dashed #ddd;
   }
 
-  .feedback {
-    margin-top: 6px;
-    font-size: 0.7rem;
-    opacity: 0.6;
-    text-transform: none;
-    letter-spacing: 0.05em;
+  a {
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--fg);
   }
 
-  .secret {
-    margin-top: 24px;
-    font-size: 0.7rem;
-    opacity: 0.3;
-    text-align: center;
-    cursor: pointer;
-    transition: opacity 0.2s ease, transform 0.2s ease;
+  a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
   }
 
-  .secret:hover {
-    opacity: 0.45;
-    transform: translateY(-1px);
-  }
-
-  .glyph {
-    margin-top: 4px;
-    font-size: 0.9rem;
-    opacity: 0.35;
-    cursor: pointer;
-    user-select: none;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    text-align: center;
-  }
-
-  .glyph:hover {
-    opacity: 0.6;
-    transform: translateY(-1px);
-  }
-
-  .easter-egg {
-    margin-top: 16px;
-    font-size: 0.8rem;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-  }
-
-  .easter-egg.visible {
-    opacity: 1;
-  }
-
-  .egg-text {
-    margin-bottom: 8px;
-  }
-
-  .egg-scene {
-    position: relative;
-    height: 120px;
-    max-width: 220px;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    margin-top: 8px;
-    padding-top: 8px;
-    font-size: 1.5rem;
-  }
-
-  .mountain {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 1rem;
-    letter-spacing: 0.2em;
-    opacity: 0.7;
-  }
-
-  .dino,
-  .rocket,
-  .moon {
-    position: absolute;
-  }
-
-  .dino {
-    bottom: 0;
-    left: 0;
-    transform: translate(0, 0);
-  }
-
-  .rocket {
-    bottom: 0;
-    right: 10px;
-  }
-
-  .moon {
-    top: 0;
-    right: 0;
-    font-size: 1.2rem;
-    opacity: 0;
-  }
-
-  .easter-egg.visible .dino {
-    animation: climb 3s ease-out forwards;
-  }
-
-  .easter-egg.visible .rocket {
-    animation: launch 2.4s ease-in forwards;
-    animation-delay: 0.4s;
-  }
-
-  .easter-egg.visible .moon {
-    animation: moon-glow 3s ease-out forwards;
-    animation-delay: 1s;
-  }
-
-  @keyframes climb {
-    0%   { transform: translate(0, 0); }
-    40%  { transform: translate(40px, 20px); }
-    100% { transform: translate(90px, -40px); }
-  }
-
-  @keyframes launch {
-    0%   { transform: translateY(0); opacity: 1; }
-    60%  { transform: translateY(-70px); opacity: 1; }
-    100% { transform: translateY(-120px); opacity: 0; }
-  }
-
-  @keyframes moon-glow {
-    0%   { opacity: 0; transform: scale(0.8); }
-    60%  { opacity: 1; transform: scale(1.05); }
-    100% { opacity: 0.9; transform: scale(1); }
-  }
-
-  @media (max-width: 480px) {
-    .shell {
-      font-size: 0.9rem;
-    }
-    .newsletter form {
-      flex-direction: column;
-    }
-  }
-</style>
-</head>
-<body>
-  <div class="shell" id="shell">
-    <!-- les lignes de boot seront injectées ici -->
-  </div>
-
-  <!-- NEWSLETTER -->
-  <div class="newsletter">
-    <div>subscribe to the landing log</div>
-    <form id="newsletter-form">
-      <input type="email" name="email" placeholder="enter commlink id" required>
-      <button type="submit">init uplink</button>
-    </form>
-    <div id="newsletter-feedback" class="feedback"></div>
-  </div>
-
-  <!-- HINT + GLYPH (cliquables en inline) -->
-  <div class="secret"
-       onclick="document.getElementById('easter-egg').classList.add('visible')">
-    hint: clarity is altitude
-  </div>
-  <div class="glyph"
-       onclick="document.getElementById('easter-egg').classList.add('visible')">
-    ▲
-  </div>
-
-  <!-- EASTER EGG -->
-  <div class="easter-egg" id="easter-egg">
-    <div class="egg-text">
-      access granted // stratos lab online<br>
-      welcome, operator.
-    </div>
-
-    <div class="egg-scene">
-      <div class="mountain">▲ ▲ ▲</div>
-      <div class="dino">🦖</div>
-      <div class="rocket">🚀</div>
-      <div class="moon">🌕</div>
-    </div>
-  </div>
-
-<script>
-  // --- boot sequence typing ---
-  const lines = [
-    "> booting strategy_core...",
-    "> loading altitude maps & long-term vision...",
-    "> stabilizing ground_truth sensors...",
-    "> powering ikigai module: meaning, coherence, courage...",
-    "> merging human insight with ai analysis...",
-    "> status: stratospheric_launch_preparing"
-  ];
-
-  const shell = document.getElementById("shell");
-  let lineIndex = 0;
-  let charIndex = 0;
-  let currentLineEl = null;
-
-  function typeNextChar() {
-    if (!currentLineEl) {
-      currentLineEl = document.createElement("div");
-      currentLineEl.className = "line";
-      shell.appendChild(currentLineEl);
-    }
-
-    const currentText = lines[lineIndex];
-    currentLineEl.textContent = currentText.slice(0, charIndex);
-
-    charIndex++;
-
-    if (charIndex <= currentText.length) {
-      setTimeout(typeNextChar, 40);
-    } else {
-      if (lineIndex === lines.length - 1) {
-        const cursor = document.createElement("span");
-        cursor.className = "cursor";
-        currentLineEl.appendChild(document.createTextNode(" "));
-        currentLineEl.appendChild(cursor);
-      }
-      lineIndex++;
-      charIndex = 0;
-      currentLineEl = null;
-      if (lineIndex < lines.length) {
-        setTimeout(typeNextChar, 200);
-      }
-    }
-  }
-
-  typeNextChar();
-
-  // --- easter egg : Konami code (option geek) ---
-  const easter = document.getElementById("easter-egg");
-  const konami = [38,38,40,40,37,39,37,39,66,65];
-  let position = 0;
-
-  window.addEventListener("keydown", function(e) {
-    const key = e.keyCode;
-    if (key === konami[position]) {
-      position++;
-      if (position === konami.length) {
-        easter.classList.add("visible");
-        position = 0;
-      }
-    } else {
-      position = 0;
-    }
-  });
-
-  // --- newsletter → Substack ---
-  const newsletterForm = document.getElementById("newsletter-form");
-  const feedback = document.getElementById("newsletter-feedback");
-
-  if (newsletterForm) {
-    newsletterForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const email = newsletterForm.email.value.trim();
-      if (!email) return;
-
-      const log1 = document.createElement("div");
-      log1.className = "line";
-      log1.textContent = "> uplink request from " + email;
-      shell.appendChild(log1);
-
-      const log2 = document.createElement("div");
-      log2.className = "line";
-      log2.textContent = "> opening transmission node (substack)…";
-      shell.appendChild(log2);
-
-      feedback.textContent = "> uplink sent. check your inbox to confirm subscription.";
-
-      const base = "https://nathaliebeuge.substack.com/subscribe";
-      const url = base + "?email=" + encodeURIComponent(email);
-      window.open(url, "_blank");
-
-      newsletterForm.reset();
-    });
-  }
-</script>
-</body>
-</html>
+  /
