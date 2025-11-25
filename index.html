@@ -59,4 +59,98 @@
     border-bottom-color: var(--accent);
   }
 
-  /
+  /* ---- EASTER EGG ---- */
+  #easter-egg {
+    display: none;
+    white-space: pre;
+    background: #000;
+    color: #00ffea;
+    padding: 20px;
+    margin-top: 24px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border: 1px solid #00ffea;
+  }
+</style>
+</head>
+
+<body>
+<div class="shell">
+
+  <!-- Title with Easter Egg trigger -->
+  <div class="title" id="trigger-ee">
+    stratosphérique // <span class="accent">where clarity takes off</span>
+  </div>
+
+  <!-- Hidden Easter Egg Terminal -->
+  <div id="easter-egg">
+ascension mode enabled…
+clarity altitude +400m
+system check: ok
+keep going →
+
+        /\ 
+       /  \   /\   altitude++
+      /    \_/  \ 
+     /           \
+    /_____________\
+  </div>
+
+  <div>
+    une pratique stratégique et opérationnelle qui aide les leaders & organisations à révéler leur vision,
+    clarifier leur stratégie et exécuter 5× plus efficacement — en combinant intelligence humaine, design, systèmes, data & ia.
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="section">
+    <span class="accent">positionnement</span><br>
+    altitude dans la vision. exécution nette. organisations amplifiées par l’humain & l’ia.
+  </div>
+
+  <div class="section">
+    <span class="accent">offre</span>
+
+    <p><strong>1. travail de vision & clarté</strong><br>
+    révélation de l’adn ; définition du cap ; mise en cohérence ; principes directeurs ; vision partageable & incarnable.</p>
+
+    <p><strong>2. stratégie & modèles opératoires</strong><br>
+    transformation de la vision en stratégie actionnable ; okr ; priorisation ; architecture décisionnelle ; alignement produit/design/tech/ops.</p>
+
+    <p><strong>3. exécution & design des systèmes</strong><br>
+    rituels ; mécanismes d’alignement ; documentation vivante ; design ops / product ops ; réduction du flou & de la friction ; exécution 5× plus efficace.</p>
+
+    <p><strong>4. leadership & coaching exécutif</strong><br>
+    prise de hauteur ; prise de décision ; styles de leadership ; intelligence émotionnelle ; alignement personnel & professionnel.</p>
+
+    <p><strong>5. ia pour la clarté & l’exécution</strong><br>
+    usage de l’ia pour amplifier la pensée, structurer, accélérer l’exécution, améliorer les décisions.
+    l’ia est un miroir : si on scale le flou, on scale le flou.</p>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="section">
+    <span class="accent">signature</span><br>
+    je révèle la vision, j’aligne les humains, je structure le système, j’accélère l’exécution.
+  </div>
+
+  <div class="section" style="margin-bottom: 80px;">
+    <span class="accent">contact</span><br>
+    <a href="mailto:nathalie@stratospherique.com">nathalie@stratospherique.com</a><br>
+    <a href="https://www.linkedin.com/in/nathaliebeuge" target="_blank">linkedin</a><br>
+    <a href="https://nathaliebeuge.substack.com" target="_blank">substack</a>
+  </div>
+
+</div>
+
+<script>
+  document.getElementById("trigger-ee").addEventListener("click", function () {
+    const egg = document.getElementById("easter-egg");
+    egg.style.display = egg.style.display === "block" ? "none" : "block";
+  });
+</script>
+
+</body>
+</html>
