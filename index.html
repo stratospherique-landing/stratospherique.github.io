@@ -34,6 +34,7 @@
     letter-spacing: 0.02em;
     border-top: 4px solid var(--accent);
     padding-top: 16px;
+    position: relative;
   }
 
   .masthead {
@@ -70,13 +71,13 @@
 
   .tagline {
     margin-top: 18px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     color: var(--accent);
   }
 
-  /* --- GRID MODULES --- */
+  /* --- GRID MODULES (OFFRE) --- */
   .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -117,17 +118,39 @@
     border-color: var(--accent);
   }
 
-  .block-title {
+  .block-label {
     font-size: 0.8rem;
     font-weight: bold;
     color: var(--accent);
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin-bottom: 8px;
     letter-spacing: 0.08em;
   }
 
   .block-body {
     font-size: 0.9rem;
+  }
+
+  /* --- MÉTHODE (4 ÉTAPES) --- */
+  .method {
+    margin-top: 8px;
+    font-size: 0.9rem;
+  }
+
+  .step {
+    border-left: 2px solid var(--grid);
+    padding-left: 12px;
+    margin-bottom: 14px;
+  }
+
+  .step-label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+  }
+
+  .step-body {
+    margin-top: 4px;
   }
 
   a {
@@ -151,18 +174,41 @@
     margin-top: 10px;
   }
 
-  /* ---- EASTER EGG ---- */
+  /* ---- EASTER EGG LIGHT & ANIMÉ ---- */
   #easter-egg {
-    display: none;
-    white-space: pre;
+    position: absolute;
+    right: 8px;
+    top: 8px;
     background: #000;
     color: #00ffea;
-    padding: 18px;
-    margin-top: 18px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    line-height: 1.4;
-    border: 1px solid #00ffea;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #easter-egg.active {
+    animation: floatPing 2.4s ease-out forwards;
+  }
+
+  @keyframes floatPing {
+    0% {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(-4px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
   }
 </style>
 </head>
@@ -170,7 +216,12 @@
 <body>
 <div class="shell">
 
-  <!-- HEADER / EASTER EGG TRIGGER -->
+  <!-- EASTER EGG BUBBLE -->
+  <div id="easter-egg">
+    altitude +100m · clarity up
+  </div>
+
+  <!-- HEADER / TRIGGER -->
   <div class="masthead">
     <div class="title" id="trigger-ee">
       stratosphérique // <span class="accent">mission clarity</span>
@@ -183,25 +234,10 @@
     </div>
   </div>
 
-  <!-- HIDDEN EASTER EGG -->
-  <div id="easter-egg">
-system boot // ascension protocol  
-clarity altitude +400m  
-signal: stable  
-trajectory: locked  
-continue ascent →
-
-        /\ 
-       /  \   /\   altitude++
-      /    \_/  \ 
-     /           \
-    /_____________\
-  </div>
-
   <!-- INTRO + TAGLINE -->
   <div>
     stratosphérique conçoit et ajuste des systèmes de vision, de stratégie et d’exécution
-    pour des organisations qui veulent gagner en clarté, en cohérence et en vitesse réelle.
+    pour des organisations qui veulent plus de clarté, moins de chaos et une vitesse d’exécution qui tient dans le temps.
   </div>
 
   <div class="tagline">
@@ -210,56 +246,95 @@ continue ascent →
 
   <div class="separator"></div>
 
-  <!-- MODULES EN COLONNES -->
+  <!-- OFFRE EN 3 BLOCS (COMPRÉHENSIBLE CEO) -->
   <div class="grid-3">
-    <!-- MODULE 01 -->
+    <!-- CLARIFIER LA VISION -->
     <div class="block">
-      <div class="block-title">module 01 // vision</div>
+      <div class="block-label">01 · clarifier la vision</div>
       <div class="block-body">
-        révélation de l’ADN stratégique<br>
-        clarification du cap et des non-choix<br>
-        principes de décision explicites<br>
-        architecture du sens et du récit<br>
-        vision partageable, incarnable, mesurable<br>
-        réduction du bruit et des injonctions contradictoires
+        remettre de la netteté dans la direction à long terme et dans ce qui compte maintenant.
+        <br><br>
+        · révélation de l’ADN stratégique<br>
+        · clarification de la vision en quelques phrases claires<br>
+        · définition des priorités et des non-choix<br>
+        · principes de décision explicites pour le top management<br>
+        · même message pour le board, les équipes et le terrain
       </div>
     </div>
 
-    <!-- MODULE 02 -->
+    <!-- ALIGNER LA STRATÉGIE -->
     <div class="block">
-      <div class="block-title">module 02 // stratégie</div>
+      <div class="block-label">02 · aligner la stratégie</div>
       <div class="block-body">
-        transformation du cap en trajectoire actionnable<br>
-        modèles opératoires (okr, cadences, décisions)<br>
-        priorisation d’impact à court, moyen, long terme<br>
-        alignement produit · design · tech · ops<br>
-        cohérence entre portefeuilles de projets<br>
-        boucles d’apprentissage et d’ajustement
+        traduire la vision en trajectoire concrète, compréhensible par toutes les équipes.
+        <br><br>
+        · structuration d’OKR cohérents et réalistes<br>
+        · articulation claire entre produit, tech, design, ops, revenue<br>
+        · identification des 10% d’initiatives qui génèrent 90% d’impact<br>
+        · architecture de décision (qui décide quoi, quand, sur quels critères)<br>
+        · lisibilité du plan pour suivre les avancées sans micro-management
       </div>
     </div>
 
-    <!-- MODULE 03 -->
+    <!-- ACCÉLÉRER L’EXÉCUTION -->
     <div class="block">
-      <div class="block-title">module 03 // exécution</div>
+      <div class="block-label">03 · accélérer l’exécution</div>
       <div class="block-body">
-        design des systèmes internes et des rituels<br>
-        documentation vivante, partageable, maintenable<br>
-        design ops & coordination transverse fine<br>
-        réduction du flou, de la friction et de la dette<br>
-        autonomisation des équipes sur le terrain<br>
-        exécution 5× plus efficace, plus lisible, plus sereine
+        faire en sorte que tout le monde avance dans le même sens, plus vite, avec moins de friction.
+        <br><br>
+        · rituels simples et utiles (pas de réunions décoratives)<br>
+        · coordination plus fluide entre équipes et métiers<br>
+        · documentation vivante qui évite de tout réexpliquer<br>
+        · réduction de la dette organisationnelle (lenteurs, flou, doublons)<br>
+        · exécution 3 à 5× plus efficace en quelques mois
       </div>
     </div>
   </div>
 
   <div class="separator"></div>
 
-  <!-- CLOSING LINE / SIGNATURE EN ANGLAIS -->
-  <div class="closing">
-    we reveal the vision, align people, structure the system and accelerate execution.
+  <!-- MÉTHODE D’ACCOMPAGNEMENT (4 ÉTAPES) -->
+  <div class="method">
+    <div class="step">
+      <div class="step-label">01 · altitude check</div>
+      <div class="step-body">
+        diagnostic rapide des blocages : vision floue, priorités qui bougent, manque d’alignement, dette organisationnelle.
+        livrable : une carte claire des problèmes qui freinent la performance.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-label">02 · trajectory design</div>
+      <div class="step-body">
+        co-construction de la vision, des choix et des priorités avec la direction et les équipes clés.
+        livrable : une vision nette et un plan simple, lisible et partageable.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-label">03 · operating system upgrade</div>
+      <div class="step-body">
+        mise en place du système d’exécution : rituels, responsabilités, decisions, OKR, documentation et outils.
+        livrable : un modèle d’exécution qui aligne et accélère sans surcharger.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-label">04 · execution coaching</div>
+      <div class="step-body">
+        accompagnement des leaders et des équipes pendant plusieurs semaines pour que le système vive, s’ajuste et devienne naturel.
+        livrable : autonomie, vitesse et cohérence durable.
+      </div>
+    </div>
   </div>
 
-  <!-- CONTACT EN LIGNE -->
+  <div class="separator"></div>
+
+  <!-- CLOSING + CONTACT -->
+  <div class="closing">
+    we clarify, we align, we accelerate. we reveal the vision, align people, structure the system and accelerate execution.
+  </div>
+
   <div class="contact-line">
     for missions, collaborations & questions → 
     <a href="mailto:contact@stratospherique.com">contact@stratospherique.com</a> ·
@@ -270,9 +345,16 @@ continue ascent →
 </div>
 
 <script>
-  document.getElementById("trigger-ee").addEventListener("click", function () {
-    const egg = document.getElementById("easter-egg");
-    egg.style.display = egg.style.display === "block" ? "none" : "block";
+  const trigger = document.getElementById("trigger-ee");
+  const egg = document.getElementById("easter-egg");
+
+  trigger.addEventListener("click", function () {
+    egg.classList.remove("active"); // reset animation
+    void egg.offsetWidth;           // force reflow
+    egg.classList.add("active");
+    setTimeout(() => {
+      egg.classList.remove("active");
+    }, 2500);
   });
 </script>
 
