@@ -7,10 +7,11 @@
 
 <style>
   :root {
-    --bg: #ffffff;
+    --bg: #f4f7fb;
     --fg: #0a0a0a;
-    --accent: #0066ff;      /* bleu NASA */
-    --grid: #d0d0d0;
+    --accent: #0b3d91;   /* nasa blue */
+    --accent2: #fc3d21;  /* nasa red */
+    --grid: #d0d4e0;
   }
 
   * { box-sizing: border-box; }
@@ -23,53 +24,110 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
+    padding: 32px 20px;
   }
 
   .shell {
-    max-width: 920px;
+    max-width: 960px;
     width: 100%;
-    letter-spacing: 0.02em;
-    text-transform: lowercase;
     line-height: 1.55;
+    letter-spacing: 0.02em;
+    border-top: 4px solid var(--accent);
+    padding-top: 16px;
+  }
+
+  .masthead {
+    margin-bottom: 16px;
   }
 
   .title {
-    font-size: 1.4rem;
-    margin-bottom: 12px;
+    font-size: 1.45rem;
     cursor: pointer;
   }
 
-  .accent { color: var(--accent); font-weight: bold; }
+  .accent {
+    color: var(--accent);
+    font-weight: bold;
+  }
+
+  .meta {
+    font-size: 0.75rem;
+    margin-top: 6px;
+    color: var(--accent2);
+    text-transform: uppercase;
+  }
+
+  .coords {
+    font-size: 0.75rem;
+    margin-top: 4px;
+    color: #555a6a;
+  }
 
   .separator {
-    margin: 32px 0;
+    margin: 28px 0;
     border-bottom: 1px solid var(--grid);
   }
 
-  /* --- GRID NASA STYLE ---- */
+  .tagline {
+    margin-top: 18px;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+  }
+
+  /* --- GRID MODULES --- */
   .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-    margin-top: 28px;
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
   }
 
   .block {
     border: 1px solid var(--grid);
-    padding: 20px;
+    padding: 18px 18px 20px;
     border-radius: 6px;
-    background: #fafafa;
-    min-height: 240px;
+    background: #ffffff;
+    min-height: 210px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.18s ease-out, box-shadow 0.18s ease-out, border-color 0.18s ease-out;
+  }
+
+  .block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38%;
+    height: 2px;
+    background: linear-gradient(to right, var(--accent2), var(--accent));
+  }
+
+  .block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+    border-color: var(--accent);
   }
 
   .block-title {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
     color: var(--accent);
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
+  }
+
+  .block-body {
+    font-size: 0.9rem;
   }
 
   a {
@@ -83,14 +141,24 @@
     border-bottom-color: var(--accent);
   }
 
+  .closing {
+    font-size: 0.92rem;
+    margin-top: 8px;
+  }
+
+  .contact-line {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
   /* ---- EASTER EGG ---- */
   #easter-egg {
     display: none;
     white-space: pre;
     background: #000;
     color: #00ffea;
-    padding: 20px;
-    margin-top: 24px;
+    padding: 18px;
+    margin-top: 18px;
     border-radius: 8px;
     font-size: 0.9rem;
     line-height: 1.4;
@@ -103,10 +171,19 @@
 <div class="shell">
 
   <!-- HEADER / EASTER EGG TRIGGER -->
-  <div class="title" id="trigger-ee">
-    stratosphérique // <span class="accent">mission clarity</span>
+  <div class="masthead">
+    <div class="title" id="trigger-ee">
+      stratosphérique // <span class="accent">mission clarity</span>
+    </div>
+    <div class="meta">
+      flight plan v1.0 · strategy & execution systems
+    </div>
+    <div class="coords">
+      ref: chamonix sector · lat 45.9°n · long 6.7°e
+    </div>
   </div>
 
+  <!-- HIDDEN EASTER EGG -->
   <div id="easter-egg">
 system boot // ascension protocol  
 clarity altitude +400m  
@@ -121,88 +198,6 @@ continue ascent →
     /_____________\
   </div>
 
-  <!-- INTRO -->
+  <!-- INTRO + TAGLINE -->
   <div>
-    une pratique stratégique inspirée des logiques spatiales : précision, intention, trajectoire.
-    j’aide les leaders & organisations à révéler leur vision, structurer leur stratégie et aligner une exécution 5× plus efficace.
-  </div>
-
-  <div class="separator"></div>
-
-  <!-- POSITIONNEMENT -->
-  <div>
-    <span class="accent">positionnement</span><br>
-    altitude dans la vision ; rigueur dans les systèmes ; exécution nette ; humain & ia en amplification.
-  </div>
-
-  <div class="separator"></div>
-
-  <!-- OFFRE NASA STYLE en colonnes -->
-  <div class="accent" style="font-size: 1rem; margin-bottom: 8px;">
-    modules d’intervention
-  </div>
-
-  <div class="grid-3">
-    <!-- MODULE 1 -->
-    <div class="block">
-      <div class="block-title">module 01 // vision</div>
-      révélation de l’adn  
-      clarification du cap  
-      principes directeurs  
-      architecture du sens  
-      vision partageable & incarnable  
-      réduction du bruit stratégique  
-    </div>
-
-    <!-- MODULE 2 -->
-    <div class="block">
-      <div class="block-title">module 02 // stratégie</div>
-      transformation du cap en stratégie  
-      modèles opératoires (okr, rites, décisions)  
-      priorisation d’impact  
-      alignement produit | design | tech | ops  
-      cohérence inter-systèmes  
-      trajectoire mesurable  
-    </div>
-
-    <!-- MODULE 3 -->
-    <div class="block">
-      <div class="block-title">module 03 // exécution</div>
-      design des systèmes internes  
-      rituels & cadence  
-      documentation vivante  
-      design ops & coordination fine  
-      autonomie des équipes  
-      exécution 5× plus efficace  
-    </div>
-  </div>
-
-  <div class="separator"></div>
-
-  <!-- SIGNE -->
-  <div>
-    <span class="accent">signe</span><br>
-    je révèle la vision, j’aligne les humains, je structure le système, j’accélère l’exécution.
-  </div>
-
-  <div class="separator"></div>
-
-  <!-- CONTACT -->
-  <div style="margin-bottom: 80px;">
-    <span class="accent">contact</span><br>
-    <a href="mailto:contact@stratospherique.com">contact@stratospherique.com</a><br>
-    <a href="https://www.linkedin.com/in/nathaliebeuge" target="_blank">linkedin</a><br>
-    <a href="https://nathaliebeuge.substack.com" target="_blank">substack</a>
-  </div>
-
-</div>
-
-<script>
-  document.getElementById("trigger-ee").addEventListener("click", function () {
-    const egg = document.getElementById("easter-egg");
-    egg.style.display = egg.style.display === "block" ? "none" : "block";
-  });
-</script>
-
-</body>
-</html>
+    stratosphérique conçoit et aju
