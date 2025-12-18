@@ -1,28 +1,19 @@
-# Stratosphérique — GitHub Pages (v2)
+# Stratosphérique — GitHub Pages (DA-aligned)
 
-Ce dossier contient une homepage *corporate / enterprise* (inspiration Pearson/Citrix),
-alignée avec la DA du deck (NASA-like grid + dualité "clarity meets audacity").
+This folder contains a static website (HTML/CSS/JS) ready to deploy on GitHub Pages.
 
-## Déployer sur GitHub Pages
+## DA
+Aligned with the **Stratosphérique Agency Deck** (slides 1, 2, 14, 15):
+- Primary blue: **#244A9A**
+- White / minimal grid language
+- Logo mark used in header + hero
+- Typography: **Bebas Neue** (wordmark), **Inter** (system), **Space Mono** (labels)
 
-1. Copiez ces fichiers dans votre repo GitHub Pages (souvent `stratospherique.github.io` ou branche `gh-pages`).
-2. Gardez `index.html` à la racine.
-3. Vérifiez que GitHub Pages sert bien depuis la racine / ou `/docs` selon votre config.
+## Files
+- `index.html` — single-page site
+- `styles.css` — design system / layout
+- `script.js` — mobile nav + reveal animations + year
+- `/assets` — logo, favicon, PDF decks
 
-## À personnaliser
-
-- `assets/Stratospherique_Agency_Deck.pdf` : remplacez par votre deck à jour.
-- Section “Case snapshots” : remplacez les 3 placeholders par vos cas réels.
-- Liens LinkedIn/Substack : mettez les URLs exactes.
-- Option : ajouter `assets/hero.jpg` et l’utiliser en hero (actuellement la hero est typographique + grid).
-
-## Structure
-
-- Hero: posture + promesse
-- Problème: Fog / Friction + AI paradox
-- Offre: Diagnostic / Workshop / Roadmap
-- Méthode: Vision → Direction → Action → Impact
-- Edge: Clarity Engine + Velocity Method
-- Proof + Insights + Contact
-
-Bon lancement 🚀
+## Deploy
+Upload these files to your GitHub Pages repo root (or `/docs`, depending on your Pages settings).

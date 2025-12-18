@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0B0F1A" />
+  <meta name="theme-color" content="#244A9A" />
   <title>Stratosphérique — Where Clarity Takes Off</title>
-  <meta name="description" content="Conseil en stratégie & exécution augmentée (Humain × IA). Nous clarifions la direction, structurons l'exécution et amplifions l'impact." />
+  <meta name="description" content="Stratosphérique conçoit des systèmes de clarté (vision, décisions, exécution) pour les organisations qui doivent livrer vite… sans se perdre." />
 
-  <!-- Fonts (Google Fonts) -->
+  <!-- Typography (close to Agency Deck) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,300..700&family=JetBrains+Mono:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300..900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
@@ -24,11 +24,7 @@
     <div class="container topbar__inner">
       <a class="brand" href="#top" aria-label="Stratosphérique — Accueil">
         <span class="brand__mark" aria-hidden="true">
-          <!-- Minimal mark inspired by your deck geometry (inline, no external deps) -->
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14 2.5L24.5 8.5V19.5L14 25.5L3.5 19.5V8.5L14 2.5Z" stroke="currentColor" stroke-width="1.6"/>
-            <path d="M9 10.2H16.5C18.9 10.2 20.2 11.5 20.2 13.7C20.2 15.9 18.9 17.2 16.5 17.2H13.2L9.8 20.6V17.2H9C7.2 17.2 6 16 6 14.2V13.2C6 11.4 7.2 10.2 9 10.2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
-          </svg>
+          <img src="./assets/logo-mark-blue.png" alt="" />
         </span>
         <span class="brand__text">
           <span class="brand__name">STRATOSPHÉRIQUE</span>
@@ -45,10 +41,10 @@
         </button>
 
         <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#difference">Positionnement</a>
           <a class="nav__link" href="#offer">Offre</a>
           <a class="nav__link" href="#method">Méthode</a>
-          <a class="nav__link" href="#edge">Edge</a>
-          <a class="nav__link" href="#proof">Preuves</a>
+          <a class="nav__link" href="#proof">Livrables</a>
           <a class="nav__link" href="#insights">Insights</a>
           <a class="nav__cta" href="#contact">Contact</a>
         </div>
@@ -56,133 +52,132 @@
     </div>
   </header>
 
-  <!-- Background -->
-  <div class="bg" aria-hidden="true">
-    <div class="bg__grid"></div>
-    <div class="bg__glow"></div>
-    <div class="bg__stars"></div>
-  </div>
-
   <main id="content">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero__inner">
-        <div class="hero__kicker">
-          <span class="pill">flight plan v2.0</span>
-          <span class="mono">strategy & execution systems · human × ai</span>
-        </div>
 
-        <h1 class="hero__title">
-          Prenez de l’altitude pour clarifier.
-          <span class="accent">Revenez vite pour exécuter.</span>
-        </h1>
+    <!-- HERO (slide 2 vibe) -->
+    <section class="heroBrand" aria-label="Hero">
+      <div class="container heroBrand__inner">
+        <div class="heroBrand__logo">
+          <img src="./assets/logo-mark-white.png" alt="Logo Stratosphérique" />
+          <h1 class="wordmark">STRATOSPHÉRIQUE</h1>
+          <p class="tagline">WHERE CLARITY TAKES OFF</p>
 
-        <p class="hero__subtitle">
-          Stratosphérique conçoit et ajuste des systèmes de vision, de décision et d’exécution
-          pour des organisations qui doivent livrer vite… sans se perdre.
-        </p>
-
-        <div class="hero__stats">
-          <div class="stat">
-            <div class="stat__label mono">Promise</div>
-            <div class="stat__value">See higher · Execute sharper · Amplify</div>
-          </div>
-          <div class="stat">
-            <div class="stat__label mono">Inputs</div>
-            <div class="stat__value">Human intuition × AI scaling</div>
-          </div>
-          <div class="stat">
-            <div class="stat__label mono">Targets</div>
-            <div class="stat__value">Directeur·rice projet · COMEX · Innovation</div>
+          <div class="heroBrand__actions">
+            <a class="btn btn--white" href="#contact">Book a Clarity Scan</a>
+            <a class="btn btn--ghostWhite" href="./assets/Stratospherique_Agency_Deck.pdf" download>Voir le deck</a>
           </div>
         </div>
 
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="#contact">Book a Clarity Scan</a>
-          <a class="btn btn--ghost" href="./assets/Stratospherique_Agency_Deck.pdf" download>Voir le deck</a>
-        </div>
-
-        <div class="hero__meta mono">
-          ref: chamonix sector · lat 45.9°n · long 6.7°e · signal &gt; noise
+        <div class="scrollHint" aria-hidden="true">
+          <div class="mono">Scroll</div>
+          <div class="scrollHint__dot"></div>
         </div>
       </div>
     </section>
 
-    <!-- PROBLEM -->
-    <section class="section" id="problem">
+    <!-- DIFFERENCE (slide 14/15 vibe) -->
+    <section class="section" id="difference">
       <div class="container">
         <div class="section__head">
-          <h2>Le brouillard coûte plus cher que l’échec.</h2>
+          <div>
+            <div class="kicker mono">THE EDGE</div>
+            <h2>La clarté devient un système.</h2>
+          </div>
           <p>
-            Quand la vision est floue, l’effort se dilue, l’alignement casse, l’exécution ralentit
-            et la dette organisationnelle explose.
+            Nous révélons la direction, structurons les décisions et stabilisons l’exécution — avec une
+            approche rigoureuse, visuelle, et opérable par les équipes.
           </p>
         </div>
 
-        <div class="grid grid--2">
-          <article class="card reveal">
-            <div class="card__kicker mono">THE FOG</div>
-            <h3>Manque de clarté & de direction</h3>
-            <ul class="list">
-              <li>Désalignement stratégique entre équipes</li>
-              <li>Décisions opaques, arbitrages instables</li>
-              <li>Vision noyée dans le bruit du quotidien</li>
-            </ul>
-          </article>
+        <div class="split">
+          <div class="card reveal">
+            <div class="card__kicker mono">THE STRATOSPHÉRIQUE DIFFERENCE</div>
+            <h3>Altitude, précision, structure.</h3>
+            <p>
+              Là où la plupart des organisations s’épuisent à “faire plus”, Stratosphérique installe un
+              cadre qui permet de décider mieux — puis d’exécuter plus vite, sans perdre le sens.
+            </p>
 
-          <article class="card reveal">
-            <div class="card__kicker mono">THE FRICTION</div>
-            <h3>Exécution lente & actions dispersées</h3>
-            <ul class="list">
-              <li>Trop d’initiatives concurrentes (effort dilué)</li>
-              <li>Rework, comités, dettes de coordination</li>
-              <li>Lancements tardifs, vélocité non durable</li>
-            </ul>
-          </article>
-        </div>
+            <div class="rule"></div>
 
-        <div class="callout reveal">
-          <div class="callout__title mono">AI PARADOX</div>
-          <div class="callout__body">
-            L’IA ne répare pas le flou. Elle l’amplifie.
-            <span class="muted">Plus la direction est nette, plus l’IA devient un accélérateur structurant.</span>
+            <div class="grid grid--2">
+              <div>
+                <div class="kicker mono">Altitude</div>
+                <p>Revenir au cap : vision, priorités, “no list”, north star.</p>
+              </div>
+              <div>
+                <div class="kicker mono">Précision</div>
+                <p>Règles de décision, arbitrages, langage commun, governance.</p>
+              </div>
+              <div>
+                <div class="kicker mono">Structure</div>
+                <p>Operating rhythm, ownership, artefacts, documentation vivante.</p>
+              </div>
+              <div>
+                <div class="kicker mono">Humain × IA</div>
+                <p>Accélérer l’exécution sans amplifier le flou (workflows & guardrails).</p>
+              </div>
+            </div>
           </div>
+
+          <aside class="visualCard reveal" aria-label="Visual language">
+            <div class="visualCard__top">
+              <div class="visualCard__mark" aria-hidden="true">
+                <img src="./assets/logo-mark-blue.png" alt="" />
+              </div>
+              <div class="mono visualCard__label">VISUAL LANGUAGE</div>
+            </div>
+
+            <div class="visualCard__big">
+              “High-stakes clarity” — la rigueur d’un système froid,
+              avec une audace contrôlée.
+            </div>
+
+            <div class="visualCard__bottom">
+              <span class="pill mono">ALTITUDE</span>
+              <span class="pill mono">PRECISION</span>
+              <span class="pill mono">STRUCTURE</span>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
 
     <!-- OFFER -->
-    <section class="section section--alt" id="offer">
+    <section class="section section--tight" id="offer">
       <div class="container">
         <div class="section__head">
-          <h2>L’offre Stratosphérique</h2>
-          <p>3 formats, un même objectif : transformer la direction en structure actionnable, puis stabiliser la vélocité.</p>
+          <div>
+            <div class="kicker mono">OFFER</div>
+            <h2>L’offre Stratosphérique</h2>
+          </div>
+          <p>3 formats. Un même objectif : transformer la direction en structure exécutable.</p>
         </div>
 
         <div class="grid grid--3">
-          <article class="card card--offer reveal">
+          <article class="card reveal">
             <div class="card__kicker mono">01 · DIAGNOSTIC</div>
             <h3>Clarity Scan</h3>
-            <p class="muted">Où est le brouillard, où est le signal ?</p>
+            <p>Identifier où est le brouillard, où est le signal, et quoi traiter d’abord.</p>
             <ul class="list">
-              <li>System mapping (vision / décisions / exécution)</li>
-              <li>Fog & friction hotspots</li>
-              <li>Risques, quick wins, recommandations</li>
+              <li>Mapping vision / décisions / exécution</li>
+              <li>Hotspots de friction + quick wins</li>
+              <li>Recommandations & next steps</li>
             </ul>
             <div class="card__footer">
               <span class="badge mono">Outcome</span>
-              <span>Savoir où agir d’abord.</span>
+              <span>Une priorité nette.</span>
             </div>
           </article>
 
-          <article class="card card--offer reveal">
+          <article class="card reveal">
             <div class="card__kicker mono">02 · WORKSHOP</div>
             <h3>Direction Sprint</h3>
-            <p class="muted">North Star + arbitrages + principes.</p>
+            <p>Clarifier la destination, les choix, et les règles d’arbitrage.</p>
             <ul class="list">
-              <li>North star & métriques d’impact</li>
-              <li>Principes de décision & “no list”</li>
-              <li>Règles d’arbitrage COMEX</li>
+              <li>North Star + métriques d’impact</li>
+              <li>Principes & “no list”</li>
+              <li>Decision rules (COMEX / leadership)</li>
             </ul>
             <div class="card__footer">
               <span class="badge mono">Outcome</span>
@@ -190,18 +185,18 @@
             </div>
           </article>
 
-          <article class="card card--offer reveal">
-            <div class="card__kicker mono">03 · ROADMAP</div>
+          <article class="card reveal">
+            <div class="card__kicker mono">03 · SYSTEM</div>
             <h3>Operating System Upgrade</h3>
-            <p class="muted">Roadmap, rythme, ownership, IA use cases.</p>
+            <p>Installer le rythme, les artefacts et les workflows (Humain × IA).</p>
             <ul class="list">
               <li>Roadmap & priorisation</li>
-              <li>Operating rhythm (rituels & responsabilités)</li>
-              <li>Accélération Humain × IA (workflows & guardrails)</li>
+              <li>Operating rhythm & ownership</li>
+              <li>IA: workflows, guardrails, templates</li>
             </ul>
             <div class="card__footer">
               <span class="badge mono">Outcome</span>
-              <span>Exécution stable + accélérable.</span>
+              <span>Vélocité stable.</span>
             </div>
           </article>
         </div>
@@ -209,9 +204,9 @@
         <div class="ctaStrip reveal">
           <div>
             <div class="ctaStrip__title">Prêt·e à clarifier en 10 jours ?</div>
-            <div class="ctaStrip__sub mono">Diagnostic → Direction → Rythme d’exécution</div>
+            <div class="ctaStrip__sub mono">Diagnostic → Direction → Rythme</div>
           </div>
-          <a class="btn btn--primary" href="#contact">Parler de votre contexte</a>
+          <a class="btn btn--blue" href="#contact">Parler de votre contexte</a>
         </div>
       </div>
     </section>
@@ -220,135 +215,47 @@
     <section class="section" id="method">
       <div class="container">
         <div class="section__head">
-          <h2>La méthode : Vision → Direction → Action → Impact</h2>
-          <p>Un parcours court, net, et opérable par les équipes. (Pas une “stratégie en slide”.)</p>
-        </div>
-
-        <div class="timeline">
-          <div class="step reveal">
-            <div class="step__num mono">01</div>
-            <div class="step__body">
-              <h3>Vision</h3>
-              <p>Définir la destination et le “non négociable” avec une clarté absolue.</p>
-            </div>
+          <div>
+            <div class="kicker mono">METHOD</div>
+            <h2>Vision → Décision → Exécution → Apprentissage</h2>
           </div>
-          <div class="step reveal">
-            <div class="step__num mono">02</div>
-            <div class="step__body">
-              <h3>Direction</h3>
-              <p>Tracer la course : choix, arbitrages, principes, métriques, gouvernance.</p>
-            </div>
-          </div>
-          <div class="step reveal">
-            <div class="step__num mono">03</div>
-            <div class="step__body">
-              <h3>Action</h3>
-              <p>Installer l’engine : roadmap, rituels, ownership, documentation vivante.</p>
-            </div>
-          </div>
-          <div class="step reveal">
-            <div class="step__num mono">04</div>
-            <div class="step__body">
-              <h3>Impact</h3>
-              <p>Mesurer, apprendre, itérer. Des résultats tangibles, pas des intentions.</p>
-            </div>
-          </div>
+          <p>Un parcours court, net, et opérable (pas une “stratégie en slides”).</p>
         </div>
 
         <div class="grid grid--2">
           <article class="card reveal">
-            <div class="card__kicker mono">FIELDS OF ACTION</div>
-            <h3>Strategy · Design · Execution</h3>
-            <p class="muted">Nous intervenons là où l’exécution se décide vraiment :</p>
-            <ul class="list">
-              <li><b>Strategy</b> — Vision definition, brand platform, architecture</li>
-              <li><b>Design</b> — Clarity mapping, visual systems, information design</li>
-              <li><b>Execution</b> — Roadmaps & priorisation, process, fast & learn delivery</li>
-            </ul>
+            <div class="card__kicker mono">01</div>
+            <h3>Vision</h3>
+            <p>Définir la destination et le non négociable avec une clarté absolue.</p>
           </article>
-
           <article class="card reveal">
-            <div class="card__kicker mono">AMPLIFICATION STRATEGY</div>
-            <h3>Humain × IA</h3>
-            <p class="muted">Deux moteurs, un seul cap.</p>
-            <div class="split">
-              <div>
-                <div class="split__title mono">HUMAN</div>
-                <ul class="list">
-                  <li>Intuition & nuance</li>
-                  <li>Empathie & alignement</li>
-                  <li>Design thinking (problèmes réels)</li>
-                </ul>
-              </div>
-              <div>
-                <div class="split__title mono">AI</div>
-                <ul class="list">
-                  <li>Acceleration (prototypage & génération)</li>
-                  <li>Structuring (organiser le chaos)</li>
-                  <li>Exploration (divergence à grande échelle)</li>
-                </ul>
-              </div>
-            </div>
+            <div class="card__kicker mono">02</div>
+            <h3>Décision</h3>
+            <p>Tracer la course : choix, principes, règles d’arbitrage, gouvernance.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDGE -->
-    <section class="section section--alt" id="edge">
-      <div class="container">
-        <div class="section__head">
-          <h2>The Edge</h2>
-          <p>Clarity meets audacity. Un système froid et rigoureux — avec une touche d’audace contrôlée.</p>
-        </div>
-
-        <div class="grid grid--2">
           <article class="card reveal">
-            <div class="card__kicker mono">CLARITY ENGINE</div>
-            <h3>Enlever le bruit. Révéler le signal.</h3>
-            <p class="muted">
-              Une approche systémique : décisions, langage, architecture de priorités, rituels. L’objectif : rendre la stratégie “exécutable”.
-            </p>
-            <div class="chips">
-              <span class="chip mono">signal mapping</span>
-              <span class="chip mono">no list</span>
-              <span class="chip mono">decision rules</span>
-              <span class="chip mono">system coherence</span>
-            </div>
+            <div class="card__kicker mono">03</div>
+            <h3>Exécution</h3>
+            <p>Installer l’engine : roadmap, rituels, ownership, artefacts.</p>
           </article>
-
           <article class="card reveal">
-            <div class="card__kicker mono">VELOCITY METHOD</div>
-            <h3>Conçu pour la vitesse (qui tient).</h3>
-            <p class="muted">
-              Workflows optimisés inspirés des environnements “high-stakes” (aérospatial / tech) :
-              grille, précision, responsabilité explicite, et cycles d’apprentissage courts.
-            </p>
-            <div class="chips">
-              <span class="chip mono">operating rhythm</span>
-              <span class="chip mono">fast & learn</span>
-              <span class="chip mono">guardrails</span>
-              <span class="chip mono">ownership</span>
-            </div>
+            <div class="card__kicker mono">04</div>
+            <h3>Apprentissage</h3>
+            <p>Mesurer, apprendre, itérer. Des résultats tangibles, pas des intentions.</p>
           </article>
-        </div>
-
-        <div class="quote reveal">
-          <div class="quote__bar"></div>
-          <div class="quote__text">
-            “High-altitude strategy. Augmented execution.”
-          </div>
-          <div class="quote__meta mono">STRATOSPHÉRIQUE</div>
         </div>
       </div>
     </section>
 
     <!-- PROOF -->
-    <section class="section" id="proof">
+    <section class="section section--tight" id="proof">
       <div class="container">
         <div class="section__head">
-          <h2>Preuves & formats</h2>
-          <p>Du concret : livrables, routines, artefacts — utilisables par vos équipes dès la semaine 1.</p>
+          <div>
+            <div class="kicker mono">PROOF</div>
+            <h2>Livrables & artefacts</h2>
+          </div>
+          <p>Du concret : routines, docs, templates — utilisables par vos équipes dès la semaine 1.</p>
         </div>
 
         <div class="grid grid--3">
@@ -374,7 +281,7 @@
 
           <article class="card reveal">
             <div class="card__kicker mono">DELIVERABLES</div>
-            <h3>Accélération Humain × IA</h3>
+            <h3>Humain × IA</h3>
             <ul class="list">
               <li>Cas d’usage IA prioritaires</li>
               <li>Workflows & guardrails</li>
@@ -383,56 +290,46 @@
           </article>
         </div>
 
-        <div class="miniCases reveal">
-          <div class="miniCases__head">
-            <h3>Case snapshots</h3>
-            <p class="muted">À enrichir (format court, type “Citrix spotlight”).</p>
+        <div class="ctaStrip reveal" style="margin-top:18px;">
+          <div>
+            <div class="ctaStrip__title">Deck complet (PDF)</div>
+            <div class="ctaStrip__sub mono">agency · offer</div>
           </div>
-          <div class="grid grid--3">
-            <a class="caseCard" href="#" aria-label="Case 01 (placeholder)">
-              <div class="caseCard__tag mono">CASE 01</div>
-              <div class="caseCard__title">Programme multi-équipes : stabiliser l’arbitrage</div>
-              <div class="caseCard__meta mono">fog → decision rules → velocity</div>
-            </a>
-            <a class="caseCard" href="#" aria-label="Case 02 (placeholder)">
-              <div class="caseCard__tag mono">CASE 02</div>
-              <div class="caseCard__title">COMEX : “no list” et métriques d’impact</div>
-              <div class="caseCard__meta mono">north star → principles → alignment</div>
-            </a>
-            <a class="caseCard" href="#" aria-label="Case 03 (placeholder)">
-              <div class="caseCard__tag mono">CASE 03</div>
-              <div class="caseCard__title">IA : passer de l’usage gadget à l’usage structurel</div>
-              <div class="caseCard__meta mono">clarity → workflows → scaling</div>
-            </a>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
+            <a class="btn btn--outline" href="./assets/Stratospherique_Agency_Deck.pdf" download>Agency deck</a>
+            <a class="btn btn--outline" href="./assets/Stratospherique_Offer_Deck.pdf" download>Offer deck</a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- INSIGHTS -->
-    <section class="section section--alt" id="insights">
+    <section class="section" id="insights">
       <div class="container">
         <div class="section__head">
-          <h2>Insights</h2>
-          <p>Une idée simple : dans une ère d’accélération, la clarté est un avantage structurel.</p>
+          <div>
+            <div class="kicker mono">INSIGHTS</div>
+            <h2>Altitude Notes</h2>
+          </div>
+          <p>Stratégie, exécution, IA — sans bruit. Une idée : la clarté est un avantage structurel.</p>
         </div>
 
         <div class="grid grid--2">
           <article class="card reveal">
             <div class="card__kicker mono">NEWSLETTER</div>
-            <h3>Altitude Notes</h3>
-            <p class="muted">Stratégie, exécution, IA, et posture — sans buzzwords.</p>
+            <h3>Substack</h3>
+            <p>Articles courts, frameworks actionnables, exemples concrets.</p>
             <div class="card__footer">
-              <a class="link" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noreferrer">Lire sur Substack →</a>
+              <a class="btn btn--outline" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noreferrer">Lire →</a>
             </div>
           </article>
 
           <article class="card reveal">
             <div class="card__kicker mono">LINKEDIN</div>
-            <h3>Posts & frameworks</h3>
-            <p class="muted">Des formats courts : exemples, méthodes, punchlines actionnables.</p>
+            <h3>Posts & punchlines</h3>
+            <p>Formats courts : idées qui se copient dans un doc de travail — pas juste des opinions.</p>
             <div class="card__footer">
-              <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Voir LinkedIn →</a>
+              <a class="btn btn--outline" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Voir →</a>
             </div>
           </article>
         </div>
@@ -440,42 +337,51 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="section" id="contact">
+    <section class="section section--tight" id="contact">
       <div class="container">
         <div class="section__head">
-          <h2>Ready to launch?</h2>
-          <p>Racontez-nous votre contexte. On vous répond vite — avec un plan clair.</p>
+          <div>
+            <div class="kicker mono">CONTACT</div>
+            <h2>Ready to launch?</h2>
+          </div>
+          <p>Dites-nous où vous en êtes. On répond vite — avec un plan clair.</p>
         </div>
 
-        <div class="contactCard reveal">
-          <div class="contactCard__col">
-            <div class="mono muted">Email</div>
-            <a class="contactCard__big" href="mailto:contact@stratospherique.com">contact@stratospherique.com</a>
-            <div class="mono muted">Timing</div>
-            <div>Premier échange 30 min · 48h max pour cadrer la suite.</div>
+        <div class="grid grid--2">
+          <div class="card reveal">
+            <div class="card__kicker mono">EMAIL</div>
+            <h3>contact@stratospherique.com</h3>
+            <p>Premier échange 30 min · 48h max pour cadrer la suite.</p>
+            <div class="rule"></div>
+            <a class="btn btn--blue" href="mailto:contact@stratospherique.com?subject=Stratosph%C3%A9rique%20—%20Clarity%20Scan&body=Bonjour%2C%0A%0AContexte%20%3A%20%0AObjectif%20%3A%20%0A%C3%89ch%C3%A9ance%20%3A%20%0A%0AMerci%20%21">Envoyer un email</a>
           </div>
 
-          <div class="contactCard__col">
-            <div class="mono muted">Ce qu’on vous enverra</div>
+          <div class="card reveal">
+            <div class="card__kicker mono">WHAT YOU GET</div>
+            <h3>Réponse structurée</h3>
             <ul class="list">
               <li>2–3 angles de diagnostic</li>
-              <li>un format (scan / sprint / OS upgrade)</li>
+              <li>un format recommandé (scan / sprint / OS)</li>
               <li>une estimation de charge & rythme</li>
             </ul>
           </div>
         </div>
 
         <footer class="footer">
-          <div class="mono">
-            © <span id="year"></span> STRATOSPHÉRIQUE · clarity takes off
-          </div>
-          <div class="footer__links mono">
-            <a href="#top">Top ↑</a>
-            <a href="./assets/Stratospherique_Agency_Deck.pdf" download>Deck</a>
+          <div class="container footer__inner">
+            <div>
+              <div class="mono">© <span id="year"></span> STRATOSPHÉRIQUE</div>
+              <div style="margin-top:10px; color:var(--muted);">Chamonix · Paris · Remote</div>
+            </div>
+            <div class="footer__right mono">
+              <a href="#top">Top ↑</a>
+              <a href="./assets/Stratospherique_Agency_Deck.pdf" download>Deck</a>
+            </div>
           </div>
         </footer>
       </div>
     </section>
+
   </main>
 
   <script src="./script.js" defer></script>
