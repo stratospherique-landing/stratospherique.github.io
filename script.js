@@ -1,43 +1,49 @@
-(function(){
-  const year = document.getElementById('year');
-  if(year) year.textContent = String(new Date().getFullYear());
+(function () {
+  // Année dynamique
+  var y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
 
-  // Mobile nav toggle
-  const toggle = document.querySelector('.nav__toggle');
-  const menu = document.getElementById('navMenu');
-  if(toggle && menu){
-    toggle.addEventListener('click', () => {
-      const open = menu.classList.toggle('is-open');
+  // Fond de nav au scroll
+  var nav = document.getElementById('nav');
+  function onScroll() {
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 40);
+  }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Menu mobile
+  var toggle = document.querySelector('.nav__toggle');
+  var menu = document.getElementById('navMenu');
+  if (toggle && menu) {
+    toggle.addEventListener('click', function () {
+      var open = menu.classList.toggle('open');
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-    // close on click
-    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-      menu.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded','false');
-    }));
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        menu.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
   }
 
-  // Reveal on scroll
-  const items = Array.from(document.querySelectorAll('.reveal'));
-  if(items.length){
-    const io = new IntersectionObserver((entries) => {
-      for(const e of entries){
-        if(e.isIntersecting){
-          e.target.classList.add('is-visible');
-          io.unobserve(e.target);
-        }
-      }
+  // Révélation au scroll
+  var els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
     }, { threshold: 0.12 });
-    items.forEach(el => io.observe(el));
+    els.forEach(function (el) { io.observe(el); });
+  } else {
+    els.forEach(function (el) { el.classList.add('in'); });
   }
 
-  // Subtle parallax grid
-  const grid = document.querySelector('.bg__grid');
-  if(grid){
-    window.addEventListener('mousemove', (ev) => {
-      const x = (ev.clientX / window.innerWidth - 0.5) * 12;
-      const y = (ev.clientY / window.innerHeight - 0.5) * 8;
-      grid.style.transform = `perspective(900px) rotateX(64deg) translateY(-120px) translateX(${x}px) translateZ(${y}px)`;
-    }, { passive:true });
-  }
+  // Le hero apparaît au chargement
+  window.addEventListener('load', function () {
+    document.querySelectorAll('header#top .reveal').forEach(function (el) {
+      el.classList.add('in');
+    });
+  });
 })();
