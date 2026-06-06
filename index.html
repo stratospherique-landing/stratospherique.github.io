@@ -1,295 +1,442 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0E1B33" />
-  <title>Stratosphérique — Prise d'altitude stratégique & exécution scalée à l'IA</title>
-  <meta name="description" content="Stratosphérique : méthode propriétaire de stratégie organique, éprouvée chez Decathlon, Pennylane et Columbia, enseignée à l'ESSEC. Prise d'altitude, exécution d'excellence, IA bien calibrée." />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#0C0C0C" />
+<title>Stratosphérique, conseil en stratégie et exécution à l'ère de l'IA</title>
+<meta name="description" content="Stratosphérique. Conseil en stratégie et exécution pour dirigeants. Clarifier la vision, installer le système qui la met en oeuvre, brancher l'IA là où elle accélère vraiment." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/favicon.png" type="image/png" />
+<style>
+:root{
+  --ink:#141414;--ink-soft:#3a3a3a;--muted:#5d5d5d;
+  --paper:#F6F4EE;--paper-2:#EDEAE1;--black:#0C0C0C;--white:#F6F4EE;
+  --line:rgba(20,20,20,.16);--line-inv:rgba(246,244,238,.20);
+  --display:'Instrument Serif',Georgia,serif;
+  --sans:'Hanken Grotesk',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',monospace;
+  --maxw:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 30px}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+.label{font-family:var(--mono);font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);font-weight:500;display:inline-block}
+.label--inv{color:var(--paper)}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;letter-spacing:0}
+.display{font-family:var(--display)}
 
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="icon" href="./assets/favicon.png" type="image/png" />
-  <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
+/* brush ink strokes */
+.brush{fill:currentColor}
+.brush-underline{display:block;width:clamp(180px,28vw,320px);height:18px;color:var(--ink);margin-top:6px}
+.enso{color:var(--ink)}
+
+/* NAV */
+nav#nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px 30px;transition:.4s ease;background:transparent}
+nav#nav.scrolled{background:rgba(246,244,238,.9);backdrop-filter:blur(10px);padding:14px 30px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:11px}
+.brand__mark{width:24px;height:24px;object-fit:contain;filter:grayscale(1) brightness(0)}
+nav#nav.scrolled .brand__mark{filter:grayscale(1) brightness(0)}
+.brand__name{font-family:var(--display);font-size:1.4rem;letter-spacing:.01em}
+.nav__menu{display:flex;gap:30px;align-items:center}
+.nav__menu a{font-size:.82rem;font-family:var(--mono);letter-spacing:.06em;color:var(--ink-soft);transition:.2s}
+.nav__menu a:hover{color:var(--ink)}
+.cta-nav{border:1px solid var(--ink);padding:9px 16px;color:var(--ink)!important;transition:.25s}
+.cta-nav:hover{background:var(--ink);color:var(--paper)!important}
+.nav__toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.nav__toggle span{width:24px;height:2px;background:var(--ink);display:block}
+@media(max-width:880px){
+  .nav__toggle{display:flex}
+  .nav__menu{position:absolute;top:100%;right:18px;flex-direction:column;align-items:flex-start;gap:10px;background:var(--paper);border:1px solid var(--line);padding:20px 24px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.25s}
+  .nav__menu.open{opacity:1;transform:none;pointer-events:auto}
+}
+
+/* HERO */
+header#top{position:relative;min-height:100vh;display:flex;align-items:center;padding:140px 0 80px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.55fr .85fr;gap:54px;align-items:center}
+.hero h1{font-size:clamp(3rem,8vw,6.6rem);line-height:.98}
+.hero h1 .it{font-style:italic}
+.hero .sub{font-size:1.18rem;max-width:50ch;margin-top:30px;color:var(--ink-soft)}
+.btn-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}
+.btn{display:inline-flex;align-items:center;gap:.55em;padding:15px 26px;font-weight:600;font-size:.95rem;font-family:var(--sans);border:1px solid var(--ink);transition:.25s ease;cursor:pointer}
+.btn-primary{background:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:transparent;color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+.hero-side{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center}
+.hero-side .enso{width:min(280px,70%)}
+.hero-side .caption{font-family:var(--mono);font-size:.74rem;letter-spacing:.22em;color:var(--ink-soft);line-height:2.2}
+@media(max-width:880px){.hero-grid{grid-template-columns:1fr;gap:36px}.hero-side{order:-1;align-items:flex-start}.hero-side .caption{text-align:left}}
+
+/* SECTIONS */
+section{padding:120px 0;position:relative}
+section.no-top{padding-top:0}
+.divider{display:flex;justify-content:center;padding:8px 0}
+.divider svg{width:130px;height:20px;color:var(--ink);opacity:.7}
+.sec-head{max-width:780px;margin-bottom:58px}
+.sec-head h2{font-size:clamp(2.1rem,4.6vw,3.6rem);margin-top:16px}
+.sec-head p{margin-top:20px;font-size:1.1rem;color:var(--muted);max-width:62ch}
+
+/* dark blocks */
+.dark{background:var(--black);color:var(--paper)}
+.dark .sec-head h2,.dark h2,.dark h3{color:var(--paper)}
+.dark .sec-head p{color:rgba(246,244,238,.72)}
+
+/* CONSTAT */
+.constat .big{font-size:clamp(2.3rem,5vw,4rem);line-height:1.04;max-width:20ch;margin-top:14px}
+.constat .big .it{font-style:italic}
+.constat .cols{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:50px}
+.constat .cols p{color:rgba(246,244,238,.82);font-size:1.06rem}
+.constat .cols b{color:var(--paper);font-weight:600}
+@media(max-width:760px){.constat .cols{grid-template-columns:1fr;gap:28px}}
+
+/* PILLARS */
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.pillar{padding:36px 30px 36px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pillar:last-child{border-right:none}
+.pillar .num{font-family:var(--mono);font-size:.76rem;letter-spacing:.1em;color:var(--muted)}
+.pillar h3{font-size:1.7rem;margin:12px 0 12px}
+.pillar p{font-size:.98rem;color:var(--ink-soft)}
+@media(max-width:900px){.pillars{grid-template-columns:1fr 1fr}.pillar{border-right:none;padding-right:0}.pillar:nth-child(odd){padding-right:30px;border-right:1px solid var(--line)}}
+@media(max-width:520px){.pillars{grid-template-columns:1fr}.pillar:nth-child(odd){border-right:none;padding-right:0}}
+
+/* METHOD */
+.method{background:var(--paper-2)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.step{background:var(--paper);border:1px solid var(--line);padding:28px;position:relative;overflow:hidden}
+.step::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;background:var(--ink);transform:scaleX(0);transform-origin:left;transition:.5s}
+.step:hover::after{transform:scaleX(1)}
+.step .n{font-family:var(--display);font-size:3rem;line-height:1}
+.step h3{font-size:1.4rem;margin:6px 0 10px}
+.step p{font-size:.94rem;color:var(--ink-soft)}
+.method-note{margin-top:40px;font-family:var(--display);font-style:italic;font-size:1.7rem;color:var(--ink);max-width:24ch;line-height:1.2}
+@media(max-width:820px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+
+/* IA USE CASES */
+.ia-intro{font-family:var(--display);font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.2;max-width:30ch;margin-bottom:50px;color:var(--paper)}
+.uses{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line-inv)}
+.use{padding:34px 30px;border-right:1px solid var(--line-inv);border-bottom:1px solid var(--line-inv)}
+.use:nth-child(3n){border-right:none}
+.use:nth-last-child(-n+3){border-bottom:none}
+.use .uno{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;color:rgba(246,244,238,.55)}
+.use h3{font-size:1.3rem;margin:12px 0 10px;color:var(--paper)}
+.use p{font-size:.95rem;color:rgba(246,244,238,.74)}
+.ia-rule{margin-top:46px;padding-top:28px;border-top:1px solid var(--line-inv);font-family:var(--display);font-style:italic;font-size:1.35rem;color:var(--paper);max-width:46ch}
+@media(max-width:860px){.uses{grid-template-columns:1fr 1fr}.use:nth-child(3n){border-right:1px solid var(--line-inv)}.use:nth-child(2n){border-right:none}.use:nth-last-child(-n+3){border-bottom:1px solid var(--line-inv)}.use:nth-last-child(-n+2){border-bottom:none}}
+@media(max-width:540px){.uses{grid-template-columns:1fr}.use{border-right:none!important;border-bottom:1px solid var(--line-inv)!important}.use:last-child{border-bottom:none!important}}
+
+/* OFFER */
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.offer{border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;background:var(--paper);transition:.3s ease}
+.offer:hover{transform:translateY(-4px);box-shadow:0 26px 50px -34px rgba(0,0,0,.55)}
+.offer .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.offer h3{font-size:1.8rem;margin:12px 0 4px}
+.offer .dur{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-bottom:20px}
+.offer ul{list-style:none;margin:6px 0 24px;display:flex;flex-direction:column;gap:11px}
+.offer li{font-size:.93rem;padding-left:20px;position:relative;color:var(--ink-soft)}
+.offer li::before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;background:var(--ink);border-radius:50%}
+.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line)}
+.offer .res b{font-family:var(--display);font-style:italic;font-weight:400;font-size:1.2rem}
+.offer .price{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-top:8px}
+.offer-wide{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--black);color:var(--paper);border:none}
+.offer-wide:hover{transform:none;box-shadow:none}
+.offer-wide h3{color:var(--paper);margin:6px 0}
+.offer-wide .tag{color:rgba(246,244,238,.6)}
+.offer-wide p{color:rgba(246,244,238,.78);font-size:.95rem;max-width:52ch}
+.offer-wide .btn{border-color:var(--paper);color:var(--paper);background:transparent}
+.offer-wide .btn:hover{background:var(--paper);color:var(--black)}
+@media(max-width:920px){.offers{grid-template-columns:1fr;max-width:560px}.offer-wide{flex-direction:column;align-items:flex-start}}
+
+/* LIVRABLES */
+.deliv{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.deliv>div{padding:32px;border-right:1px solid var(--line)}
+.deliv>div:last-child{border-right:none}
+.deliv h3{font-size:1.3rem;margin-bottom:16px}
+.deliv ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.deliv li{font-size:.93rem;color:var(--ink-soft);padding-left:18px;position:relative}
+.deliv li::before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;background:var(--ink);border-radius:50%}
+@media(max-width:820px){.deliv{grid-template-columns:1fr}.deliv>div{border-right:none;border-bottom:1px solid var(--line)}.deliv>div:last-child{border-bottom:none}}
+
+/* BOOK */
+.book{display:grid;grid-template-columns:.75fr 1.25fr;gap:54px;align-items:center}
+.book-cover{aspect-ratio:3/4.2;background:var(--black);color:var(--paper);padding:32px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;border:1px solid var(--ink)}
+.book-cover .bc-top{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em}
+.book-cover .bc-title{font-family:var(--display);font-size:2.4rem;line-height:1}
+.book-cover .bc-author{font-family:var(--mono);font-size:.76rem;color:rgba(246,244,238,.7)}
+.book-cover .bc-brush{position:absolute;right:-10%;top:30%;width:70%;color:rgba(246,244,238,.16)}
+.book h3{font-size:2.1rem;margin:12px 0}
+.book p{color:var(--ink-soft);font-size:1.05rem;margin-bottom:10px}
+.book .quote{font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--ink);margin:18px 0 26px;line-height:1.25}
+@media(max-width:760px){.book{grid-template-columns:1fr;gap:32px}.book-cover{max-width:280px}}
+
+/* RESSOURCES */
+.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.res-card{border:1px solid var(--line);padding:32px;transition:.25s}
+.res-card:hover{background:var(--ink);color:var(--paper)}
+.res-card:hover .tag,.res-card:hover p,.res-card:hover .arrow{color:rgba(246,244,238,.85)}
+.res-card .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.res-card h3{font-size:1.5rem;margin:10px 0 8px}
+.res-card p{font-size:.95rem;color:var(--ink-soft);margin-bottom:16px}
+.res-card .arrow{font-family:var(--mono);font-size:.82rem}
+@media(max-width:680px){.res-grid{grid-template-columns:1fr}}
+
+/* CONTACT */
+.contact{text-align:center}
+.contact h2{font-size:clamp(2.4rem,5.5vw,4.4rem);margin-top:14px}
+.contact .enso{width:120px;margin:0 auto 10px;color:var(--paper)}
+.contact .em{font-family:var(--mono);font-size:1.15rem;color:var(--paper);margin:26px 0 6px}
+.contact .meta{font-size:.92rem;color:rgba(246,244,238,.65)}
+.contact .btn-row{justify-content:center}
+.contact .btn-primary{background:var(--paper);color:var(--black);border-color:var(--paper)}
+.contact .btn-primary:hover{background:transparent;color:var(--paper)}
+.contact-promise{margin-top:52px;border-top:1px solid var(--line-inv);padding-top:34px;display:flex;gap:34px;justify-content:center;flex-wrap:wrap;font-family:var(--mono);font-size:.82rem;color:rgba(246,244,238,.7)}
+
+/* FOOTER */
+footer{background:var(--black);color:rgba(246,244,238,.6);padding:36px 0;font-size:.82rem;border-top:1px solid var(--line-inv)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-family:var(--mono)}
+.foot a{color:rgba(246,244,238,.78)}
+.foot a:hover{color:var(--paper)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+</style>
 </head>
 
 <body>
-  <a class="skip" href="#content">Découvrir</a>
+<a class="skip" href="#content">Découvrir</a>
 
-  <!-- NAV -->
-  <nav id="nav" aria-label="Navigation">
-    <a class="brand" href="#top" aria-label="Stratosphérique — Accueil">
-      <img class="brand__mark" src="./assets/logo-mark-blue.png" alt="" aria-hidden="true" />
-      <span class="brand__name">Stratosphérique</span>
-    </a>
+<nav id="nav" aria-label="Navigation">
+  <a class="brand" href="#top" aria-label="Stratosphérique, accueil">
+    <img class="brand__mark" src="./assets/logo-mark-blue.png" alt="" aria-hidden="true" />
+    <span class="brand__name">Stratosphérique</span>
+  </a>
+  <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Menu"><span></span><span></span><span></span></button>
+  <div class="nav__menu" id="navMenu">
+    <a href="#constat">Constat</a>
+    <a href="#approche">Approche</a>
+    <a href="#methode">Méthode</a>
+    <a href="#ia">IA</a>
+    <a href="#offre">Offre</a>
+    <a class="cta-nav" href="#contact">Réserver 30 min</a>
+  </div>
+</nav>
 
-    <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
+<main id="content">
 
-    <div class="nav__menu" id="navMenu">
-      <a href="#constat">Constat</a>
-      <a href="#approche">Approche</a>
-      <a href="#methode">Méthode</a>
-      <a href="#offre">Offre</a>
-      <a href="#preuve">Références</a>
-      <a class="cta-nav" href="#contact">Réserver 30 min</a>
-    </div>
-  </nav>
-
-  <main id="content">
-
-  <!-- HERO -->
-  <header id="top">
-    <svg class="topo" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-      <path d="M-50,720 C300,640 520,760 760,690 C1020,615 1240,700 1500,640"/>
-      <path d="M-50,640 C300,560 520,680 760,610 C1020,535 1240,620 1500,560"/>
-      <path d="M-50,560 C320,490 540,600 780,535 C1040,465 1250,545 1500,485"/>
-      <path d="M-50,480 C340,420 560,520 800,460 C1060,395 1260,470 1500,415"/>
-      <path d="M-50,400 C360,350 580,440 820,388 C1080,330 1280,398 1500,350"/>
-      <path d="M-50,320 C380,285 600,360 840,318 C1100,272 1300,330 1500,290"/>
-      <path d="M-50,240 C400,220 620,282 860,250 C1120,214 1320,262 1500,232"/>
-      <path d="M-50,160 C420,150 640,200 880,180 C1140,158 1340,196 1500,176"/>
-    </svg>
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="container hero-grid">
-      <div class="hero">
-        <span class="label reveal">Stratégie · Exécution · IA</span>
-        <h1 class="reveal d1">On ne copie pas<br>son futur.<br><em>On le révèle.</em></h1>
-        <p class="sub reveal d2">Prise d'altitude stratégique et exécution d'excellence, scalées à l'IA. Une méthode propriétaire — la <b>stratégie organique</b> — éprouvée chez Decathlon, Pennylane et Columbia, enseignée à l'ESSEC.</p>
-        <div class="btn-row reveal d3">
-          <a href="#contact" class="btn btn-primary">Réserver un échange de 30 min →</a>
-          <a href="./assets/Stratospherique_Offer_Deck.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Télécharger le deck</a>
-        </div>
-      </div>
-      <div class="hero-side reveal d4">
-        <span class="alt">3 700 m</span>
-        ALTITUDE — la vision claire<br>
-        PRÉCISION — l'arbitrage net<br>
-        STRUCTURE — le rythme tenu<br>
-        HUMAIN × IA — la vélocité<br><br>
-        Chamonix · Paris · Remote
-      </div>
-    </div>
-    <div class="scrolltag" aria-hidden="true">DÉFILER ↓</div>
-  </header>
-
-  <!-- CONSTAT -->
-  <section class="constat" id="constat">
-    <div class="container">
-      <span class="label reveal">Le constat</span>
-      <h2 class="big reveal d1">À l'ère de l'IA, le moindre flou se paie <em>au coefficient de l'époque.</em></h2>
-      <div class="cols">
-        <p class="reveal d2">Une vision floue donne une exécution fragmentée. L'IA n'invente pas la clarté : elle l'<b>amplifie</b> — le bon comme le trouble. Au moindre désalignement, elle accélère la sortie de route.</p>
-        <p class="reveal d3">Les cycles raccourcissent, les concurrents surgissent en moins de deux ans. <b>Stratégie = vision + exécution.</b> La clarté humaine reste le seul avantage compétitif qui ne se copie pas.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- APPROCHE -->
-  <section id="approche">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="label">La différence Stratosphérique</span>
-        <h2>Décider mieux, exécuter plus vite, dans un récit qui fédère.</h2>
-        <p>Là où la plupart des organisations s'épuisent à « faire plus », nous installons un cadre qui transforme la direction en système d'exécution — et qui intègre l'IA à sa juste place.</p>
-      </div>
-      <div class="pillars">
-        <div class="pillar reveal"><div class="num">01</div><h3>Altitude</h3><p>Clarifier la vision : raison d'être, north star, mission. Voir l'éléphant là où la plupart voient un chapeau.</p></div>
-        <div class="pillar reveal d1"><div class="num">02</div><h3>Précision</h3><p>Règles d'arbitrage, langage commun, gouvernance. Une direction décidable, pas un slide.</p></div>
-        <div class="pillar reveal d2"><div class="num">03</div><h3>Structure</h3><p>Rythme d'exécution, rituels, ownership, indicateurs vivants. La cordée tient parce qu'elle est attachée.</p></div>
-        <div class="pillar reveal d3"><div class="num">04</div><h3>Humain × IA</h3><p>Intégrer l'IA au bon endroit, bien calibrée. Human first, tools later. La stratégie tire l'IA — jamais l'inverse.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- METHODE -->
-  <section class="method" id="methode">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="label">La méthode</span>
-        <h2>Vision &rarr; Décision &rarr; Exécution &rarr; Apprentissage</h2>
-        <p>Un parcours court, net et opérable — pas une « stratégie en slides ». Une stratégie organique : vivante, ancrée dans vos valeurs vécues, révélée par le design thinking et filtrée par l'ikigai.</p>
-      </div>
-      <div class="steps">
-        <div class="step reveal"><div class="n">01</div><h3>Vision</h3><p>Révéler la raison d'être et le non-négociable. L'ikigai de l'entreprise, pas un plan plaqué d'en haut.</p></div>
-        <div class="step reveal d1"><div class="n">02</div><h3>Décision</h3><p>Tracer la voie : choix, principes, règles d'arbitrage, gouvernance des décisions.</p></div>
-        <div class="step reveal d2"><div class="n">03</div><h3>Exécution</h3><p>Installer la cordée : roadmap, rituels opérationnels, ownership, IA calibrée.</p></div>
-        <div class="step reveal d3"><div class="n">04</div><h3>Apprentissage</h3><p>Mesurer ce qui compte — indicateurs vivants et financiers. Lire les incidents avant l'accident.</p></div>
-      </div>
-      <p class="method-note reveal">« Une stratégie ne se décrète pas. Elle se vit. Elle se révèle. Elle s'incarne. »</p>
-    </div>
-  </section>
-
-  <!-- OFFRE -->
-  <section id="offre">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="label">L'offre</span>
-        <h2>Trois formats. Un objectif : transformer la direction en système d'exécution.</h2>
-        <p>Un chemin clair : Diagnostic &rarr; Direction &rarr; Rythme. À chaque étape, des livrables concrets et un résultat décidable.</p>
-      </div>
-      <div class="offers">
-        <!-- Tarifs : remplacer la ligne .price par vos montants si souhaité -->
-        <article class="offer reveal">
-          <span class="tag">01 · Diagnostic</span>
-          <h3>Clarity Scan</h3>
-          <div class="dur">&asymp; 2 semaines</div>
-          <ul>
-            <li>Mapping vision / décisions / exécution</li>
-            <li>Hotspots de friction + quick wins</li>
-            <li>Recommandations &amp; next steps</li>
-          </ul>
-          <div class="res"><b>Une stratégie claire &amp; exécutable.</b><div class="price">Tarif sur devis · estimation sous 48 h</div></div>
-        </article>
-        <article class="offer reveal d1">
-          <span class="tag">02 · Atelier</span>
-          <h3>Direction Sprint</h3>
-          <div class="dur">2 jours</div>
-          <ul>
-            <li>North Star + métriques d'impact</li>
-            <li>Principes &amp; « no-list »</li>
-            <li>Règles d'arbitrage (COMEX / leadership)</li>
-          </ul>
-          <div class="res"><b>Une direction décidable.</b><div class="price">Tarif sur devis · estimation sous 48 h</div></div>
-        </article>
-        <article class="offer reveal d2">
-          <span class="tag">03 · Système</span>
-          <h3>Système d'exécution</h3>
-          <div class="dur">8 &ndash; 12 semaines</div>
-          <ul>
-            <li>Roadmap &amp; priorisation</li>
-            <li>Operating rhythm &amp; ownership</li>
-            <li>IA : workflows, garde-fous, templates</li>
-          </ul>
-          <div class="res"><b>Vélocité stable.</b><div class="price">Tarif sur devis · estimation sous 48 h</div></div>
-        </article>
-        <article class="offer offer-wide reveal d3">
-          <div>
-            <span class="tag">04 · Prise de parole</span>
-            <h3>Conférences &amp; masterclass</h3>
-            <p>Stratégie organique, ikigai d'entreprise, clarté à l'ère de l'IA. Pour COMEX, accélérateurs, écoles (ESSEC, Masters).</p>
-          </div>
-          <a href="#contact" class="btn btn-primary">Demander une intervention →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- LIVRABLES -->
-  <section class="no-top">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="label">Ce que vous repartez avec</span>
-        <h2>Livrables</h2>
-      </div>
-      <div class="deliv reveal">
-        <div><h3>Direction &amp; gouvernance</h3><ul><li>North Star &amp; principes</li><li>Règles d'arbitrage</li><li>Architecture de décision</li></ul></div>
-        <div><h3>Système d'exécution</h3><ul><li>Roadmap &amp; priorisation</li><li>Rituels &amp; responsabilités</li><li>Documentation d'exécution</li></ul></div>
-        <div><h3>Humain × IA</h3><ul><li>Cas d'usage IA prioritaires</li><li>Workflows &amp; garde-fous</li><li>Templates &amp; playbooks</li></ul></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PREUVE -->
-  <section class="proof" id="preuve">
-    <div class="container">
-      <div class="sec-head reveal" style="max-width:none">
-        <span class="label">Références &amp; terrain</span>
-        <h2>20 ans de terrain, pas de théorie en chambre.</h2>
-      </div>
-      <div class="logos reveal d1">
-        <span>Decathlon</span><i>·</i><span>Pennylane</span><i>·</i><span>Columbia</span><i>·</i><span>ESSEC</span><i>·</i><span>Le Slip Français</span>
-      </div>
-      <div class="stats">
-        <div class="stat reveal"><div class="v">15 ans</div><div class="k">chez Decathlon — écosystèmes Outdoor, dizaines de millions d'utilisateurs</div></div>
-        <div class="stat reveal d1"><div class="v">×3</div><div class="k">le chiffre d'affaires de Columbia EMEA, EBITDA négatif &rarr; croissance à deux chiffres en &lt;5 ans</div></div>
-        <div class="stat reveal d2"><div class="v">+23 %</div><div class="k">de profitabilité pour les équipes fortement engagées (méta-analyse Gallup Q12)</div></div>
-        <div class="stat reveal d3"><div class="v">50 &rarr; 80 %</div><div class="k">de réussite sur les projets innovants, design thinking + filtre ikigai</div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- LIVRE -->
-  <section id="livre">
-    <div class="container">
-      <div class="book reveal">
-        <div class="book-cover" aria-hidden="true">
-          <div class="bc-top">ÉDITIONS INVERSE</div>
-          <div class="bc-title">Stratégie<br>Ikigai</div>
-          <div class="bc-author">Nathalie Beugé</div>
-        </div>
-        <div>
-          <span class="label">Le livre</span>
-          <h3>Stratégie Ikigai</h3>
-          <p>Manifeste pour une stratégie vivante, incarnée, unique. Pour scaler votre entreprise à l'ère de l'IA.</p>
-          <p class="quote">« La stratégie n'est pas un plan à imiter. C'est une identité à clarifier. »</p>
-          <a href="#contact" class="btn btn-primary">Découvrir le livre →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESSOURCES -->
-  <section class="no-top" id="ressources">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="label">Ressources</span>
-        <h2>Altitude Notes</h2>
-        <p>Stratégie, exécution, IA — sans bruit. Une idée : la clarté est un avantage structurel.</p>
-      </div>
-      <div class="res-grid">
-        <a class="res-card reveal" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
-          <span class="tag">Newsletter · Substack</span>
-          <h3>Articles &amp; frameworks</h3>
-          <p>Formats courts, frameworks actionnables, exemples concrets.</p>
-          <span class="arrow">Lire →</span>
-        </a>
-        <a class="res-card reveal d1" href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">
-          <span class="tag">LinkedIn</span>
-          <h3>Posts &amp; punchlines</h3>
-          <p>Des idées qui se copient dans un doc de travail — pas juste des opinions.</p>
-          <span class="arrow">Voir →</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <span class="label reveal" style="justify-content:center">Contact</span>
-      <h2 class="reveal d1">Prêts à décoller ?</h2>
-      <div class="em reveal d2">nathalie@stratospherique.com</div>
-      <div class="meta reveal d2">Premier échange · 30 minutes · sans engagement</div>
+<header id="top">
+  <div class="container hero-grid">
+    <div class="hero">
+      <span class="label reveal">Stratégie · Exécution · IA</span>
+      <h1 class="reveal d1">On ne copie pas son futur.<br><span class="it">On le révèle.</span></h1>
+      <svg class="brush-underline reveal d1" viewBox="0 0 320 18" preserveAspectRatio="none" aria-hidden="true"><path class="brush" d="M3 10 C 50 4, 95 14, 150 8 C 205 2, 260 13, 318 7 C 262 17, 206 11, 150 15 C 96 19, 50 12, 3 10 Z"/></svg>
+      <p class="sub reveal d2">Conseil en stratégie et exécution pour dirigeants. Je clarifie la vision, j'installe le système qui la met en oeuvre, et je branche l'IA là où elle accélère vraiment.</p>
       <div class="btn-row reveal d3">
-        <a class="btn btn-primary" href="mailto:nathalie@stratospherique.com?subject=Stratosph%C3%A9rique%20%E2%80%94%20%C3%A9change%2030%20min&body=Bonjour%20Nathalie%2C%0A%0AContexte%20%3A%20%0AEnjeu%20%3A%20%0A%C3%89ch%C3%A9ance%20%3A%20%0AFormat%20envisag%C3%A9%20(Scan%20%2F%20Sprint%20%2F%20Syst%C3%A8me)%20%3A%20%0A%0AMerci%2C">Envoyer un email →</a>
-      </div>
-      <div class="contact-promise reveal d4">
-        <span>2–3 angles de diagnostic</span>
-        <span>un format recommandé</span>
-        <span>une estimation de charge &amp; rythme</span>
+        <a href="#contact" class="btn btn-primary">Réserver un échange de 30 min</a>
+        <a href="./assets/Stratospherique_Offer_Deck.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Télécharger le deck</a>
       </div>
     </div>
-  </section>
+    <div class="hero-side reveal d4">
+      <svg class="enso" viewBox="0 0 220 220" aria-hidden="true">
+        <path fill="none" stroke="currentColor" stroke-width="13" stroke-linecap="round" d="M158 48 C 96 12, 22 52, 26 116 C 30 182, 128 204, 176 156 C 198 134, 196 96, 162 78"/>
+        <path fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" opacity=".5" d="M160 50 C 100 18, 30 56, 33 116 C 36 176, 124 196, 170 152"/>
+      </svg>
+      <div class="caption">VISION<br>EXÉCUTION<br>IA</div>
+    </div>
+  </div>
+</header>
 
-  </main>
+<section class="dark constat" id="constat">
+  <div class="container">
+    <span class="label label--inv reveal">Le constat</span>
+    <h2 class="big reveal d1">À l'ère de l'IA, le flou coûte <span class="it">cher.</span></h2>
+    <div class="cols">
+      <p class="reveal d2">Une vision imprécise produit une exécution dispersée. L'IA n'invente pas la clarté : bien cadrée, elle accélère ; mal cadrée, elle <b>amplifie le désordre</b>, plus vite et plus loin.</p>
+      <p class="reveal d3">Les cycles raccourcissent, un concurrent peut s'installer en moins de deux ans. <b>La stratégie tient sur deux jambes : une vision nette et une exécution disciplinée.</b></p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <div class="container foot">
-      <div>© <span id="year"></span> Stratosphérique — Chamonix · Paris · Remote</div>
-      <div class="foot__links">
-        <a href="./assets/Stratospherique_Offer_Deck.pdf" target="_blank" rel="noopener">Deck</a> ·
-        <a href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Substack</a> ·
-        <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
-        <a href="#top">Haut ↑</a>
+<section id="approche">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">L'approche</span>
+      <h2>Décider mieux, exécuter plus vite, dans une direction que tout le monde comprend.</h2>
+      <p>Là où beaucoup d'organisations cherchent à « faire plus », j'installe un cadre qui transforme la direction en système d'exécution, et qui place l'IA à la bonne hauteur.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal"><div class="num">01</div><h3>Altitude</h3><p>Clarifier la vision : raison d'être, cap, mission. Une direction que chacun peut répéter en une phrase.</p></div>
+      <div class="pillar reveal d1"><div class="num">02</div><h3>Précision</h3><p>Règles d'arbitrage et gouvernance. On sait qui décide quoi, et sur quels critères.</p></div>
+      <div class="pillar reveal d2"><div class="num">03</div><h3>Structure</h3><p>Rythme d'exécution : rituels hebdomadaires, responsabilités claires, indicateurs suivis.</p></div>
+      <div class="pillar reveal d3"><div class="num">04</div><h3>Humain et IA</h3><p>Brancher l'IA aux bons endroits. Vous gardez le jugement, elle exécute et fait gagner du temps.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg viewBox="0 0 140 18" preserveAspectRatio="none" aria-hidden="true"><path class="brush" d="M2 9 C 30 4, 60 13, 90 8 C 115 4, 130 11, 138 8 C 122 14, 100 10, 78 13 C 52 16, 28 11, 2 9 Z"/></svg></div>
+
+<section class="method" id="methode">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">La méthode</span>
+      <h2>Vision, Décision, Exécution, Apprentissage</h2>
+      <p>Un parcours court, net et opérable. Pas une stratégie qui finit en slides. On part de ce que l'entreprise est déjà, on en tire une direction, on l'exécute, on apprend.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="n">01</div><h3>Vision</h3><p>Révéler la raison d'être et les choix non négociables, à partir de ce que l'entreprise sait déjà faire.</p></div>
+      <div class="step reveal d1"><div class="n">02</div><h3>Décision</h3><p>Tracer la voie : choix, principes, règles d'arbitrage, gouvernance des décisions.</p></div>
+      <div class="step reveal d2"><div class="n">03</div><h3>Exécution</h3><p>Installer le système : roadmap, rituels, responsabilités, IA calibrée.</p></div>
+      <div class="step reveal d3"><div class="n">04</div><h3>Apprentissage</h3><p>Mesurer ce qui compte : engagement des équipes et résultats. Repérer tôt ce qui dérive.</p></div>
+    </div>
+    <p class="method-note reveal">Une stratégie ne se décrète pas. Elle se vit, elle se révèle, elle s'incarne.</p>
+  </div>
+</section>
+
+<section class="dark" id="ia">
+  <div class="container">
+    <div class="sec-head reveal" style="max-width:none">
+      <span class="label label--inv">Cas d'usage IA</span>
+      <p class="ia-intro" style="margin-top:18px">L'IA n'invente pas votre stratégie. Bien cadrée, elle l'exécute plus vite. Voici où je la branche, concrètement.</p>
+    </div>
+    <div class="uses">
+      <div class="use reveal"><div class="uno">01</div><h3>Veille élargie</h3><p>Croiser en quelques heures des champs éloignés (sciences, design, économie, histoire) pour nourrir la vision, là où il fallait plusieurs jours.</p></div>
+      <div class="use reveal d1"><div class="uno">02</div><h3>Contradicteur</h3><p>Soumettre un raisonnement à l'IA pour faire ressortir les angles morts, les contre-exemples et les failles, avant un comité de direction.</p></div>
+      <div class="use reveal d2"><div class="uno">03</div><h3>Idéation sans biais</h3><p>Sortir des idées convenues. Sur un sprint produit pour enfants, l'IA a remplacé la énième montre connectée par des compagnons numériques qui guident l'enfant dehors.</p></div>
+      <div class="use reveal"><div class="uno">04</div><h3>Tests de messages</h3><p>Comparer des angles de communication et des accroches, raccourcir les boucles d'apprentissage avant un lancement.</p></div>
+      <div class="use reveal d1"><div class="uno">05</div><h3>Signaux faibles</h3><p>Surveiller les frictions et les incidents qui annoncent une dérive, avant qu'elle ne coûte cher.</p></div>
+      <div class="use reveal d2"><div class="uno">06</div><h3>Personnalisation</h3><p>Adapter le récit et les supports par métier et par niveau, sans tout réécrire à chaque fois.</p></div>
+    </div>
+    <p class="ia-rule reveal">Une règle simple : formuler sa position avant de demander à l'IA. Elle renforce le jugement, elle ne le remplace pas.</p>
+  </div>
+</section>
+
+<section id="offre">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">L'offre</span>
+      <h2>Trois formats. Un objectif : transformer la direction en système d'exécution.</h2>
+      <p>Un chemin clair : Diagnostic, Direction, Rythme. À chaque étape, des livrables concrets et un résultat décidable.</p>
+    </div>
+    <div class="offers">
+      <article class="offer reveal">
+        <span class="tag">01 · Diagnostic</span><h3>Clarity Scan</h3><div class="dur">2 semaines environ</div>
+        <ul><li>Cartographie vision, décisions, exécution</li><li>Points de friction et quick wins</li><li>Recommandations et prochaines étapes</li></ul>
+        <div class="res"><b>Une stratégie claire et exécutable.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer reveal d1">
+        <span class="tag">02 · Atelier</span><h3>Direction Sprint</h3><div class="dur">2 jours</div>
+        <ul><li>Cap et métriques d'impact</li><li>Principes et liste des renoncements</li><li>Règles d'arbitrage pour le comité de direction</li></ul>
+        <div class="res"><b>Une direction décidable.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer reveal d2">
+        <span class="tag">03 · Système</span><h3>Système d'exécution</h3><div class="dur">8 à 12 semaines</div>
+        <ul><li>Roadmap et priorisation</li><li>Rythme opérationnel et responsabilités</li><li>IA : workflows, garde-fous, modèles</li></ul>
+        <div class="res"><b>Vélocité stable.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer offer-wide reveal d3">
+        <div><span class="tag">04 · Prise de parole</span><h3>Conférences et masterclass</h3><p>Stratégie, exécution et IA. Pour comités de direction, accélérateurs et écoles.</p></div>
+        <a href="#contact" class="btn">Demander une intervention</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="no-top">
+  <div class="container">
+    <div class="sec-head reveal"><span class="label">Ce que vous repartez avec</span><h2>Livrables</h2></div>
+    <div class="deliv reveal">
+      <div><h3>Direction et gouvernance</h3><ul><li>Cap et principes</li><li>Règles d'arbitrage</li><li>Architecture de décision</li></ul></div>
+      <div><h3>Système d'exécution</h3><ul><li>Roadmap et priorisation</li><li>Rituels et responsabilités</li><li>Documentation d'exécution</li></ul></div>
+      <div><h3>Humain et IA</h3><ul><li>Cas d'usage IA prioritaires</li><li>Workflows et garde-fous</li><li>Modèles et playbooks</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="livre">
+  <div class="container">
+    <div class="book reveal">
+      <div class="book-cover">
+        <svg class="bc-brush" viewBox="0 0 120 220" aria-hidden="true"><path fill="currentColor" d="M70 6 C 40 40, 78 70, 55 110 C 36 144, 80 168, 52 214 C 84 176, 50 150, 74 112 C 92 80, 54 52, 84 14 C 80 12, 74 9, 70 6 Z"/></svg>
+        <div class="bc-top">ÉDITIONS INVERSE</div>
+        <div class="bc-title">Stratégie<br>Ikigai</div>
+        <div class="bc-author">Nathalie Beugé</div>
+      </div>
+      <div>
+        <span class="label">Le livre</span>
+        <h3>Stratégie Ikigai</h3>
+        <p>Manifeste pour une stratégie vivante, incarnée, unique. Pour scaler votre entreprise à l'ère de l'IA.</p>
+        <p class="quote">La stratégie n'est pas un plan à imiter. C'est une identité à clarifier.</p>
+        <a href="#contact" class="btn btn-primary">Découvrir le livre</a>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="./script.js" defer></script>
+<section class="no-top" id="ressources">
+  <div class="container">
+    <div class="sec-head reveal"><span class="label">Ressources</span><h2>Notes</h2><p>Stratégie, exécution et IA, sans bruit. Une idée : la clarté est un avantage structurel.</p></div>
+    <div class="res-grid">
+      <a class="res-card reveal" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener"><span class="tag">Newsletter, Substack</span><h3>Articles et frameworks</h3><p>Formats courts, frameworks actionnables, exemples concrets.</p><span class="arrow">Lire</span></a>
+      <a class="res-card reveal d1" href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener"><span class="tag">LinkedIn</span><h3>Posts et punchlines</h3><p>Des idées qui se copient dans un document de travail, pas juste des opinions.</p><span class="arrow">Voir</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="dark contact" id="contact">
+  <div class="container">
+    <svg class="enso reveal" viewBox="0 0 220 220" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="13" stroke-linecap="round" d="M158 48 C 96 12, 22 52, 26 116 C 30 182, 128 204, 176 156 C 198 134, 196 96, 162 78"/></svg>
+    <span class="label label--inv reveal">Contact</span>
+    <h2 class="reveal d1">Prêts à décoller ?</h2>
+    <div class="em reveal d2">nathalie@stratospherique.com</div>
+    <div class="meta reveal d2">Premier échange, 30 minutes, sans engagement.</div>
+    <div class="btn-row reveal d3"><a class="btn btn-primary" href="mailto:nathalie@stratospherique.com?subject=Stratosph%C3%A9rique%2C%20%C3%A9change%2030%20min&body=Bonjour%20Nathalie%2C%0A%0AContexte%20%3A%20%0AEnjeu%20%3A%20%0A%C3%89ch%C3%A9ance%20%3A%20%0AFormat%20envisag%C3%A9%20(Scan%20%2F%20Sprint%20%2F%20Syst%C3%A8me)%20%3A%20%0A%0AMerci%2C">Envoyer un email</a></div>
+    <div class="contact-promise reveal d4"><span>2 à 3 angles de diagnostic</span><span>un format recommandé</span><span>une estimation de charge et de rythme</span></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© <span id="year"></span> Stratosphérique · Chamonix · Paris · Remote</div>
+    <div>
+      <a href="./assets/Stratospherique_Offer_Deck.pdf" target="_blank" rel="noopener">Deck</a> ·
+      <a href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Substack</a> ·
+      <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="#top">Haut</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var nav=document.getElementById('nav');
+  function onScroll(){ if(nav) nav.classList.toggle('scrolled', window.scrollY>40); }
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+  var toggle=document.querySelector('.nav__toggle'), menu=document.getElementById('navMenu');
+  if(toggle&&menu){
+    toggle.addEventListener('click',function(){ var o=menu.classList.toggle('open'); toggle.setAttribute('aria-expanded',o?'true':'false'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }); });
+  }
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){ entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }); },{threshold:.12});
+    els.forEach(function(el){ io.observe(el); });
+  } else { els.forEach(function(el){ el.classList.add('in'); }); }
+  window.addEventListener('load',function(){ document.querySelectorAll('header#top .reveal').forEach(function(el){ el.classList.add('in'); }); });
+})();
+</script>
 </body>
 </html>
