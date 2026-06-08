@@ -227,11 +227,11 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 .foot a{color:var(--paper)}
 .foot a:hover{opacity:.7}
 
-/* reveal */
-.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
-.reveal.in{opacity:1;transform:none}
-.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
-@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+/* reveal (CSS pur : le contenu reste visible meme si le JS echoue) */
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .7s ease both}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
 </style>
 </head>
 
@@ -529,3 +529,17 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
       document.getElementById('az-result').style.display='block';
       document.getElementById('az-result').scrollIntoView({behavior:'smooth',block:'nearest'});
     });
+  }
+  var copy=document.getElementById('az-copy');
+  if(copy){
+    copy.addEventListener('click',function(){
+      var out=document.getElementById('az-out'); out.select();
+      if(navigator.clipboard){ navigator.clipboard.writeText(out.value); }
+      else { document.execCommand('copy'); }
+      copy.textContent='Copié'; setTimeout(function(){ copy.textContent='Copier le prompt'; },1800);
+    });
+  }
+})();
+</script>
+</body>
+</html>
