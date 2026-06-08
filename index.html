@@ -109,6 +109,12 @@ section{padding:130px 0;position:relative}
 .witem:nth-last-child(-n+3){border-bottom:none}
 .witem .wt{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 .witem p{font-size:1rem;color:var(--ink);margin-top:12px;line-height:1.5}
+.witem--link{cursor:pointer;transition:background .25s,color .25s}
+.witem--link:hover{background:var(--ink);color:var(--paper)}
+.witem--link:hover .wt,.witem--link:hover .wgo{color:var(--paper-muted)}
+.witem--link:hover p{color:var(--paper)}
+.wgo{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);transition:.25s}
+.work-cta{margin-top:32px}
 @media(max-width:860px){.work{grid-template-columns:1fr 1fr}.witem:nth-child(3n){border-right:1px solid var(--line)}.witem:nth-child(2n){border-right:none}.witem:nth-last-child(-n+3){border-bottom:1px solid var(--line)}.witem:nth-last-child(-n+2){border-bottom:none}}
 @media(max-width:540px){.work{grid-template-columns:1fr}.witem{border-right:none!important;border-bottom:1px solid var(--line)!important}.witem:last-child{border-bottom:none!important}}
 
@@ -316,13 +322,14 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
       <p>VR, digital, applications, données, IA. Le point commun n'est jamais l'outil. C'est ce qu'il permet aux équipes, aux clients et au terrain.</p>
     </div>
     <div class="work reveal">
-      <div class="witem"><div class="wt">VR · Conception</div><p>Chez Decathlon, une chaîne de conception en 3D et réalité virtuelle, pour créer et valider les produits sans multiplier les prototypes.</p></div>
-      <div class="witem"><div class="wt">VR · Magasin</div><p>Visiter une tente grandeur nature en magasin, sans la monter. Se projeter avant d'acheter.</p></div>
-      <div class="witem"><div class="wt">Digital · Nature</div><p>Des expériences digitales pour remettre les enfants dehors et reconnecter les familles à la nature.</p></div>
-      <div class="witem"><div class="wt">Apps · Performance</div><p>Aider les coureurs à préparer un marathon sans se blesser, et les sportifs à progresser chez eux avec leurs objets connectés.</p></div>
-      <div class="witem"><div class="wt">Apps · Mobilité</div><p>Aider les utilisateurs de vélo électrique à ne plus perdre leur vélo et à gérer les vitesses sans y penser.</p></div>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener"><div class="wt">VR · Conception</div><p>Chez Decathlon, une chaîne de conception en 3D et réalité virtuelle, pour créer et valider les produits sans multiplier les prototypes.</p><span class="wgo">Voir le projet</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/179288099/Designing-immersive-retail-experiences-for-Decathlon" target="_blank" rel="noopener"><div class="wt">VR · Magasin</div><p>Visiter une tente grandeur nature en magasin, sans la monter. Se projeter avant d'acheter.</p><span class="wgo">Voir le projet</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener"><div class="wt">Digital · Nature</div><p>Des expériences digitales pour remettre les enfants dehors et reconnecter les familles à la nature.</p><span class="wgo">Voir le projet</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Apps · Performance</div><p>Aider les coureurs à préparer un marathon sans se blesser, et les sportifs à progresser chez eux avec leurs objets connectés.</p><span class="wgo">Voir le projet</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Apps · Mobilité</div><p>Aider les utilisateurs de vélo électrique à ne plus perdre leur vélo et à gérer les vitesses sans y penser.</p><span class="wgo">Voir le projet</span></a>
       <div class="witem"><div class="wt">IA · Productivité</div><p>Chez Pennylane, l'IA pour diviser par trois le temps des cabinets comptables sur les tâches sans valeur ajoutée.</p></div>
     </div>
+    <div class="work-cta reveal"><a class="btn" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Voir tous les projets sur Behance</a></div>
   </div>
 </section>
 
