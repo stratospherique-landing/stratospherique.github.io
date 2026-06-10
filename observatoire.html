@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#0E0E0C" />
+<title>Observatoire IA — Stratosphérique</title>
+<meta name="description" content="L'Observatoire de Stratosphérique : la veille du marché de l'IA — capital, capabilities, postures, usages — rassemblée chaque matin, lue d'un coup d'œil." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/favicon-ikigai-512.png" type="image/png" />
+<style>
+:root{
+  --ink:#0E0E0C;--paper:#FAFAF7;--carbon:#1A1A18;--mist:#ECECEA;
+  --line:rgba(14,14,12,.14);--line-soft:rgba(14,14,12,.08);--muted:rgba(14,14,12,.55);
+  --paper-line:rgba(250,250,247,.18);--paper-muted:rgba(250,250,247,.6);
+  --display:'Cormorant Garamond',Georgia,serif;
+  --sans:'Inter Tight',system-ui,sans-serif;
+  --mono:'JetBrains Mono',monospace;
+  --gutter:clamp(20px,5vw,72px);
+  --maxw:1280px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
+.label{font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);font-weight:500;display:inline-block}
+.label--inv{color:var(--paper-muted)}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.04;letter-spacing:.005em;text-wrap:balance}
+.it{font-style:italic;font-weight:400}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:14px 26px;font-family:var(--sans);font-weight:500;font-size:.92rem;border:1px solid var(--ink);transition:.25s ease;cursor:pointer;background:transparent;color:var(--ink)}
+.btn-primary{background:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+
+/* HEADER (identique au site) */
+header.site{position:fixed;top:0;left:0;right:0;z-index:60;background:rgba(250,250,247,.78);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:.3s}
+.site .bar{max-width:var(--maxw);margin:0 auto;padding:14px var(--gutter);display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}
+.brand .mark{width:34px;height:auto}
+.brand .word{font-family:var(--display);font-size:1.5rem;font-weight:500;letter-spacing:.01em}
+.menu{display:flex;align-items:center;gap:28px}
+.menu a{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:.2s}
+.menu a:hover,.menu a.current{color:var(--ink)}
+.menu .btn{padding:9px 16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:24px;height:1.5px;background:var(--ink);display:block;transition:.3s}
+@media(max-width:980px){
+  .burger{display:flex}
+  .menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:14px;background:var(--paper);border:1px solid var(--line);padding:22px 26px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.25s}
+  .menu.open{opacity:1;transform:none;pointer-events:auto}
+}
+
+section{padding:130px 0;position:relative}
+.head{max-width:820px;margin-bottom:48px}
+.head h1{font-size:clamp(2.2rem,5.4vw,3.9rem);margin-top:16px}
+.head p{margin-top:20px;font-size:1.08rem;color:var(--muted);max-width:64ch}
+
+/* OBSERVATOIRE */
+.obs-top{padding-top:172px;padding-bottom:48px}
+.sync{display:flex;align-items:center;gap:10px;margin-top:26px}
+.sync .dot{width:7px;height:7px;border-radius:50%;background:var(--muted);flex:0 0 auto}
+.sync .dot.live{background:var(--ink)}
+.sync .t{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+
+.obs-body{padding-top:0;padding-bottom:110px}
+
+/* couloirs — grille a filets facon .pillars */
+.lanes{display:flex;flex-wrap:wrap;border-top:1px solid var(--line);border-left:1px solid var(--line);margin-bottom:30px}
+.lane{flex:1 1 auto;min-width:150px;display:flex;flex-direction:column;gap:6px;padding:18px 20px;text-align:left;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent;transition:.2s}
+.lane:hover{background:var(--mist)}
+.lane.active{background:var(--ink);color:var(--paper)}
+.lane.active .lane-n,.lane.active .lane-c{color:var(--paper-muted)}
+.lane-n{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;color:var(--muted)}
+.lane-l{font-family:var(--display);font-size:1.32rem;line-height:1.05}
+.lane-c{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+
+/* controles */
+.controls{display:flex;align-items:stretch;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.seg{display:flex;border:1px solid var(--line)}
+.seg button{padding:0 16px;height:46px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-right:1px solid var(--line);background:transparent;cursor:pointer}
+.seg button:last-child{border-right:none}
+.seg button.on{background:var(--ink);color:var(--paper)}
+.search{flex:1;min-width:220px;display:flex;align-items:center;gap:10px;border:1px solid var(--line);padding:0 16px;height:46px}
+.search .ic{font-family:var(--mono);color:var(--muted)}
+.search input{flex:1;border:none;background:transparent;font-family:var(--sans);font-size:.95rem;color:var(--ink)}
+.search input:focus{outline:none}
+.search input::placeholder{color:var(--muted)}
+.saved-toggle{border:1px solid var(--line);background:transparent;cursor:pointer;padding:0 18px;height:46px;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.saved-toggle[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+.lanehead{margin:34px 0 6px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.lanehead .t{font-family:var(--display);font-style:italic;font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.1}
+.lanehead .h{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin-top:8px}
+
+/* flux */
+.feed{display:flex;flex-direction:column}
+.card{position:relative;padding:26px 0;border-bottom:1px solid var(--line-soft)}
+.card:first-child{border-top:1px solid var(--line-soft)}
+.card .meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.card .cat{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink)}
+.card .src{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.card .when{font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-left:auto}
+.card .ttl{font-family:var(--sans);font-weight:500;font-size:1.28rem;line-height:1.32;letter-spacing:-.005em;max-width:64ch}
+.card .ttl a{background-image:linear-gradient(var(--ink),var(--ink));background-size:0 1px;background-repeat:no-repeat;background-position:0 1.18em;transition:background-size .25s}
+.card .ttl a:hover{background-size:100% 1px}
+.card .snip{margin-top:9px;color:var(--muted);font-size:1rem;line-height:1.55;max-width:72ch}
+.card .row{display:flex;align-items:center;gap:22px;margin-top:14px}
+.card .act{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:none;border:none;cursor:pointer;padding:0}
+.card .act:hover{color:var(--ink)}
+.card .star.on{color:var(--ink)}
+.card .note{display:none;margin-top:14px}
+.card .note.open{display:block}
+.card .note textarea{width:100%;border:1px solid var(--line);background:var(--mist);padding:12px 14px;font-family:var(--display);font-style:italic;font-size:1.15rem;line-height:1.4;color:var(--ink);resize:vertical;min-height:58px}
+.card .note textarea:focus{outline:none;border-color:var(--ink)}
+.card .note textarea::placeholder{color:var(--muted)}
+.card.is-saved{padding-left:18px}
+.card.is-saved::before{content:"";position:absolute;left:0;top:26px;bottom:26px;width:2px;background:var(--ink)}
+
+.empty{padding:64px 0;text-align:center;color:var(--muted)}
+.empty .big{font-family:var(--display);font-style:italic;font-size:1.7rem;color:var(--ink);margin-bottom:10px}
+.empty .sm{font-size:.98rem;max-width:48ch;margin:0 auto;line-height:1.55}
+
+footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-size:.8rem}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.04em}
+.foot a{color:var(--paper)}
+.foot a:hover{opacity:.7}
+
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .7s ease both}.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
+@media(max-width:720px){
+  .lanes{flex-direction:column}
+  .lane{flex-direction:row;align-items:baseline;gap:12px;border-right:none}
+  .lane-l{flex:1}
+  .card .when{margin-left:0;width:100%;order:3}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#content">Aller au contenu</a>
+
+<!-- mark ikigai partage -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ikigai" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="24" cy="17" r="12"/><circle cx="24" cy="31" r="12"/><circle cx="17" cy="24" r="12"/><circle cx="31" cy="24" r="12"/></g></symbol>
+</svg>
+
+<header class="site" id="site">
+  <div class="bar">
+    <a class="brand" href="./" aria-label="Stratosphérique, accueil">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#ikigai"/></svg>
+      <span class="word">Stratosphérique</span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Navigation">
+      <a href="./#approche">Approche</a>
+      <a href="./#realisations">Réalisations</a>
+      <a href="./#methode">Méthode</a>
+      <a href="./#ia">Humain × IA</a>
+      <a href="./observatoire.html" class="current" aria-current="page">Observatoire</a>
+      <a class="btn" href="./#contact">Prendre contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+
+<section class="obs-top" id="top">
+  <div class="wrap">
+    <span class="label reveal">Observatoire IA</span>
+    <h1 class="reveal d1" style="margin-top:16px">Le terrain de l'IA,<br><span class="it">lu chaque matin.</span></h1>
+    <p class="head-p reveal d2" style="margin-top:20px;font-size:1.08rem;color:var(--muted);max-width:60ch">Capital, capabilities, postures, usages. Une veille rassemblée et triée automatiquement chaque matin — pour lire le marché d'un coup d'œil, et garder ce qui compte.</p>
+    <div class="sync reveal d2"><span class="dot" id="syncDot"></span><span class="t" id="syncText">synchronisation…</span></div>
+  </div>
+</section>
+
+<section class="obs-body">
+  <div class="wrap">
+    <nav class="lanes reveal" id="lanes" aria-label="Couloirs"></nav>
+
+    <div class="controls reveal">
+      <div class="seg" id="ranges" role="group" aria-label="Période">
+        <button data-r="today">Aujourd'hui</button>
+        <button data-r="7d" class="on">7 jours</button>
+        <button data-r="all">Tout</button>
+      </div>
+      <label class="search">
+        <span class="ic" aria-hidden="true">⌕</span>
+        <input type="text" id="search" placeholder="Chercher un signal, un acteur…" autocomplete="off">
+      </label>
+      <button class="saved-toggle" id="savedToggle" aria-pressed="false">★ Retenus</button>
+    </div>
+
+    <div class="lanehead" id="lanehead"></div>
+    <section class="feed" id="feed" aria-live="polite"></section>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Stratosphérique · Chamonix · Paris · À distance</div>
+    <div>
+      <a href="./">Accueil</a> ·
+      <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="#top">Haut</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   Observatoire IA — données auto-actualisées (GitHub Action)
+   Si ce site N'EST PAS hébergé depuis le dépôt GitHub,
+   remplace l'URL par le fichier brut GitHub, ex :
+   const DATA_URL = "https://raw.githubusercontent.com/TON-PSEUDO/TON-REPO/main/data/feeds.json";
+   ============================================================ */
+const DATA_URL = "./data/feeds.json";
+const STORE_KEY = "strato_obs_v1";
+
+let DATA = { items: [], categories: [], generatedAt: null, count: 0 };
+let state = { lane: null, range: "7d", search: "", savedOnly: false };
+let saved = (function(){ try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch(e){ return {}; } })();
+const $ = (s) => document.querySelector(s);
+function persistSaved(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(saved)); }catch(e){} }
+
+function relTime(ts){
+  if(!ts) return "—";
+  const diff=(Date.now()-ts)/1000;
+  if(diff<3600) return "il y a "+Math.max(1,Math.floor(diff/60))+" min";
+  if(diff<86400) return "il y a "+Math.floor(diff/3600)+" h";
+  const d=Math.floor(diff/86400);
+  if(d===1) return "hier";
+  if(d<7) return "il y a "+d+" j";
+  return new Date(ts).toLocaleDateString("fr-FR",{day:"numeric",month:"short"});
+}
+function inRange(ts){
+  if(state.range==="all") return true;
+  if(!ts) return false;
+  const now=new Date();
+  if(state.range==="today"){const d=new Date(ts);return d.getDate()===now.getDate()&&d.getMonth()===now.getMonth()&&d.getFullYear()===now.getFullYear();}
+  return Date.now()-ts<=7*86400000;
+}
+function esc(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function catLabel(id){const c=DATA.categories.find(x=>x.id===id);return c?c.label:id;}
+
+function render(){renderLanes();renderLaneHead();renderFeed();}
+
+function renderLanes(){
+  const counts={};DATA.items.forEach(i=>counts[i.category]=(counts[i.category]||0)+1);
+  let h=`<button class="lane ${state.lane===null?"active":""}" data-lane="all"><span class="lane-n">00</span><span class="lane-l">Tout le terrain</span><span class="lane-c">${DATA.items.length}</span></button>`;
+  DATA.categories.forEach((c,i)=>{
+    h+=`<button class="lane ${state.lane===c.id?"active":""}" data-lane="${c.id}"><span class="lane-n">${String(i+1).padStart(2,"0")}</span><span class="lane-l">${esc(c.label)}</span><span class="lane-c">${counts[c.id]||0}</span></button>`;
+  });
+  const el=$("#lanes");el.innerHTML=h;
+  el.querySelectorAll(".lane").forEach(b=>b.onclick=()=>{state.lane=b.dataset.lane==="all"?null:b.dataset.lane;render();});
+}
+function renderLaneHead(){
+  const el=$("#lanehead");
+  if(state.savedOnly){el.innerHTML=`<div class="t">Tes signaux retenus</div><div class="h">★ ce que tu as choisi de garder</div>`;return;}
+  if(state.lane){el.innerHTML=`<div class="t">${esc(catLabel(state.lane))}</div><div class="h">${DATA.items.filter(i=>i.category===state.lane).length} signaux dans ce couloir</div>`;}
+  else{el.innerHTML=`<div class="t">Tout le terrain</div><div class="h">Tous couloirs · du plus récent</div>`;}
+}
+function renderFeed(){
+  let list=DATA.items.slice();
+  if(state.savedOnly) list=list.filter(i=>saved[i.id]);
+  if(state.lane) list=list.filter(i=>i.category===state.lane);
+  list=list.filter(i=>inRange(i.ts));
+  if(state.search.trim()){const q=state.search.toLowerCase();list=list.filter(i=>(i.title||"").toLowerCase().includes(q)||(i.snippet||"").toLowerCase().includes(q)||(i.source||"").toLowerCase().includes(q)||(saved[i.id]&&(saved[i.id].note||"").toLowerCase().includes(q)));}
+  const feed=$("#feed");
+  if(!list.length){
+    let m;
+    if(DATA.generatedAt===null) m={b:"Première synchro en attente.",s:"Lance la GitHub Action « Update feeds » (onglet Actions → Run workflow), ou attends demain matin : le terrain se remplira tout seul."};
+    else if(state.savedOnly) m={b:"Rien de retenu pour l'instant.",s:"Étoile un signal pour le garder ici, et pose ta note — le « so what » stratège."};
+    else m={b:"Rien dans cette vue.",s:"Élargis la période (« Tout ») ou change de couloir."};
+    feed.innerHTML=`<div class="empty"><div class="big">${m.b}</div><div class="sm">${m.s}</div></div>`;return;
+  }
+  feed.innerHTML=list.map(i=>{
+    const isSaved=!!saved[i.id];const note=isSaved?(saved[i.id].note||""):"";
+    return `<article class="card ${isSaved?"is-saved":""}" data-id="${esc(i.id)}">
+      <div class="meta"><span class="cat">${esc(catLabel(i.category))}</span><span class="src">· ${esc(i.source)}</span><span class="when">${relTime(i.ts)}</span></div>
+      <div class="ttl"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></div>
+      ${i.snippet?`<div class="snip">${esc(i.snippet)}</div>`:""}
+      <div class="row"><button class="act star ${isSaved?"on":""}" data-act="star">${isSaved?"★ retenu":"☆ garder"}</button><a class="act" href="${esc(i.link)}" target="_blank" rel="noopener">lire ↗</a></div>
+      <div class="note ${isSaved?"open":""}"><textarea placeholder="Ta note — le so what, l'angle stratège…">${esc(note)}</textarea></div>
+    </article>`;
+  }).join("");
+  feed.querySelectorAll(".card").forEach(card=>{
+    const id=card.dataset.id;
+    card.querySelector('[data-act="star"]').onclick=()=>{ if(saved[id])delete saved[id]; else saved[id]={note:"",at:Date.now()}; persistSaved(); render(); };
+    const ta=card.querySelector("textarea");
+    if(ta) ta.oninput=()=>{ if(!saved[id])saved[id]={note:"",at:Date.now()}; saved[id].note=ta.value; persistSaved(); };
+  });
+}
+function renderSync(){
+  const dot=$("#syncDot"),txt=$("#syncText");
+  if(!DATA.generatedAt){dot.className="dot";txt.textContent="en attente de la première synchro";return;}
+  const d=new Date(DATA.generatedAt);
+  dot.className="dot "+((Date.now()-d.getTime()<36*3600000)?"live":"");
+  txt.textContent="dernière synchro · "+d.toLocaleString("fr-FR",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+}
+
+/* controles */
+$("#ranges").querySelectorAll("button").forEach(b=>b.onclick=()=>{state.range=b.dataset.r;$("#ranges").querySelectorAll("button").forEach(x=>x.classList.remove("on"));b.classList.add("on");renderFeed();});
+$("#search").addEventListener("input",e=>{state.search=e.target.value;renderFeed();});
+$("#savedToggle").onclick=()=>{state.savedOnly=!state.savedOnly;$("#savedToggle").setAttribute("aria-pressed",String(state.savedOnly));render();};
+
+/* header : ombre au scroll + burger (comme le site) */
+(function(){
+  const y=$("#year"); if(y) y.textContent=new Date().getFullYear();
+  const site=$("#site");
+  const onScroll=()=>{ if(site) site.style.boxShadow=window.scrollY>30?"0 10px 30px -24px rgba(0,0,0,.5)":"none"; };
+  onScroll();window.addEventListener("scroll",onScroll,{passive:true});
+  const burger=document.querySelector(".burger"),menu=$("#menu");
+  if(burger&&menu){burger.addEventListener("click",()=>{const o=menu.classList.toggle("open");burger.setAttribute("aria-expanded",o?"true":"false");});}
+})();
+
+/* boot */
+(async function(){
+  try{ const r=await fetch(DATA_URL,{cache:"no-store"}); DATA=await r.json(); }
+  catch(e){ DATA={items:[],categories:[],generatedAt:null,count:0}; }
+  if(!DATA.categories)DATA.categories=[];if(!DATA.items)DATA.items=[];
+  renderSync();render();
+})();
+</script>
+</body>
+</html>
