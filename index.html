@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#0E0E0C" />
+<title>Stratosphérique, la technologie au service de l'usage</title>
+<meta name="description" content="Stratosphérique, cabinet de conseil. La technologie au service de l'usage : réalité virtuelle, numérique, applications, données, intelligence artificielle, mises au service d'usages concrets, pour les équipes, les clients et le terrain." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/favicon-ikigai-512.png" type="image/png" />
+<style>
+:root{
+  --ink:#0E0E0C;--paper:#FAFAF7;--carbon:#1A1A18;--mist:#ECECEA;
+  --line:rgba(14,14,12,.14);--line-soft:rgba(14,14,12,.08);--muted:rgba(14,14,12,.55);
+  --paper-line:rgba(250,250,247,.18);--paper-muted:rgba(250,250,247,.6);
+  --display:'Cormorant Garamond',Georgia,serif;
+  --sans:'Inter Tight',system-ui,sans-serif;
+  --mono:'JetBrains Mono',monospace;
+  --gutter:clamp(20px,5vw,72px);
+  --maxw:1280px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
+
+.label{font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);font-weight:500;display:inline-block}
+.label--inv{color:var(--paper-muted)}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.04;letter-spacing:.005em;text-wrap:balance}
+.it{font-style:italic;font-weight:400}
+
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:14px 26px;font-family:var(--sans);font-weight:500;font-size:.92rem;border:1px solid var(--ink);transition:.25s ease;cursor:pointer;background:transparent;color:var(--ink)}
+.btn-primary{background:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+
+/* HEADER */
+header.site{position:fixed;top:0;left:0;right:0;z-index:60;background:rgba(250,250,247,.78);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:.3s}
+.site .bar{max-width:var(--maxw);margin:0 auto;padding:14px var(--gutter);display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}
+.brand .mark{width:34px;height:auto}
+.brand .word{font-family:var(--display);font-size:1.5rem;font-weight:500;letter-spacing:.01em}
+.menu{display:flex;align-items:center;gap:28px}
+.menu a{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:.2s}
+.menu a:hover{color:var(--ink)}
+.menu .btn{padding:9px 16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:24px;height:1.5px;background:var(--ink);display:block;transition:.3s}
+@media(max-width:980px){
+  .burger{display:flex}
+  .menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:14px;background:var(--paper);border:1px solid var(--line);padding:22px 26px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.25s}
+  .menu.open{opacity:1;transform:none;pointer-events:auto}
+}
+
+section{padding:130px 0;position:relative}
+.no-top{padding-top:0}
+.dark{background:var(--ink);color:var(--paper)}
+.dark .label{color:var(--paper-muted)}
+.head{max-width:780px;margin-bottom:64px}
+.head h2{font-size:clamp(2rem,5vw,3.6rem);margin-top:16px}
+.head p{margin-top:20px;font-size:1.08rem;color:var(--muted);max-width:62ch}
+.dark .head p{color:var(--paper-muted)}
+
+/* HERO */
+.hero{padding-top:180px;padding-bottom:120px}
+.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:1}
+.hero .lede{font-size:1.2rem;color:var(--muted);max-width:48ch;margin-top:28px}
+.hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
+.hero-visual{display:flex;flex-direction:column;align-items:center;gap:18px}
+.hero-visual .caption{font-family:var(--mono);font-size:.68rem;letter-spacing:.26em;color:var(--muted);text-transform:uppercase}
+.compass{width:min(420px,88%);height:auto;color:var(--ink)}
+.compass .petal{fill:none;stroke:currentColor;stroke-width:1.3;opacity:.85}
+.compass .ring{fill:none;stroke:currentColor;stroke-width:1}
+.compass .ring-text{font-family:var(--mono);font-size:12.5px;letter-spacing:.3em;fill:currentColor;text-transform:uppercase}
+.compass .core{fill:currentColor}
+.compass-spin{transform-origin:210px 210px;animation:spin 80s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:980px){.hero .grid{grid-template-columns:1fr;gap:48px}.hero-visual{order:-1}.compass-spin{animation:none}}
+@media(prefers-reduced-motion:reduce){.compass-spin{animation:none}}
+
+/* CONSTAT */
+.constat .big{font-size:clamp(2.2rem,5.5vw,4rem);line-height:1.04;max-width:20ch;margin-top:14px}
+.constat .cols{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px}
+.constat .cols p{color:var(--paper-muted);font-size:1.06rem}
+.constat .cols b{color:var(--paper);font-weight:600}
+@media(max-width:760px){.constat .cols{grid-template-columns:1fr;gap:28px}}
+
+/* PILLARS */
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.pillar{padding:36px 32px 36px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pillar:last-child{border-right:none}
+.pillar .n{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;color:var(--muted)}
+.pillar h3{font-size:1.6rem;margin:12px 0 12px}
+.pillar p{font-size:.97rem;color:var(--muted)}
+@media(max-width:900px){.pillars{grid-template-columns:1fr 1fr}.pillar{border-right:none;padding-right:0}.pillar:nth-child(odd){padding-right:32px;border-right:1px solid var(--line)}}
+@media(max-width:520px){.pillars{grid-template-columns:1fr}.pillar:nth-child(odd){border-right:none;padding-right:0}}
+.approche-quote{margin-top:72px;max-width:24ch;font-family:var(--display);font-style:italic;font-size:clamp(2rem,4.8vw,3.4rem);line-height:1.12;color:var(--ink)}
+.approche-quote .aq-cite{display:block;margin-top:18px;font-family:var(--mono);font-style:normal;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+/* REALISATIONS */
+.work{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.witem{padding:34px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.witem:nth-child(3n){border-right:none}
+.witem:nth-last-child(-n+3){border-bottom:none}
+.witem .wt{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.witem p{font-size:1rem;color:var(--ink);margin-top:12px;line-height:1.5}
+.witem--link{cursor:pointer;transition:background .25s,color .25s}
+.witem--link:hover{background:var(--ink);color:var(--paper)}
+.witem--link:hover .wt{color:var(--paper-muted)}
+.witem--link:hover .wgo{color:var(--paper);border-color:var(--paper-line)}
+.witem--link:hover p{color:var(--paper)}
+.wgo{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:.25s}
+.work-cta{margin-top:32px}
+@media(max-width:860px){.work{grid-template-columns:1fr 1fr}.witem:nth-child(3n){border-right:1px solid var(--line)}.witem:nth-child(2n){border-right:none}.witem:nth-last-child(-n+3){border-bottom:1px solid var(--line)}.witem:nth-last-child(-n+2){border-bottom:none}}
+@media(max-width:540px){.work{grid-template-columns:1fr}.witem{border-right:none!important;border-bottom:1px solid var(--line)!important}.witem:last-child{border-bottom:none!important}}
+
+/* METHOD */
+.method{background:var(--mist)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.step{background:var(--paper);border:1px solid var(--line);padding:30px;transition:.25s}
+.step:hover{background:#fff;box-shadow:0 24px 50px -34px rgba(0,0,0,.4)}
+.step .num{font-family:var(--display);font-size:3rem;line-height:1;color:var(--ink)}
+.step h3{font-size:1.5rem;margin:6px 0 10px}
+.step p{font-size:.92rem;color:var(--muted)}
+.method-note{margin-top:48px;font-family:var(--display);font-style:italic;font-size:clamp(1.4rem,3vw,2rem);max-width:30ch;line-height:1.2}
+.mn-cite{display:block;margin-top:12px;font-family:var(--mono);font-style:normal;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+@media(max-width:820px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+
+/* IA USE CASES */
+.ia-intro{font-family:var(--display);font-size:clamp(1.6rem,3.6vw,2.6rem);line-height:1.18;max-width:32ch;margin-bottom:56px;color:var(--paper)}
+.uses{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--paper-line)}
+.use{padding:34px 30px;border-right:1px solid var(--paper-line);border-bottom:1px solid var(--paper-line)}
+.use:nth-child(3n){border-right:none}
+.use:nth-last-child(-n+3){border-bottom:none}
+.use .un{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;color:var(--paper-muted)}
+.use h3{font-size:1.4rem;margin:12px 0 10px;color:var(--paper)}
+.use p{font-size:.94rem;color:var(--paper-muted)}
+.ia-rule{margin-top:48px;padding-top:30px;border-top:1px solid var(--paper-line);font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--paper);max-width:48ch}
+@media(max-width:860px){.uses{grid-template-columns:1fr 1fr}.use:nth-child(3n){border-right:1px solid var(--paper-line)}.use:nth-child(2n){border-right:none}.use:nth-last-child(-n+3){border-bottom:1px solid var(--paper-line)}.use:nth-last-child(-n+2){border-bottom:none}}
+@media(max-width:540px){.uses{grid-template-columns:1fr}.use{border-right:none!important;border-bottom:1px solid var(--paper-line)!important}.use:last-child{border-bottom:none!important}}
+
+/* ANALYSE EXPRESS */
+.az-form{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:760px}
+.az-field.full{grid-column:1/-1}
+.az-field label{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.az-field input,.az-field textarea{width:100%;background:transparent;border:1px solid var(--line);padding:13px 14px;font-family:var(--sans);font-size:.95rem;color:var(--ink)}
+.az-field textarea{min-height:86px;resize:vertical}
+.az-field input:focus,.az-field textarea:focus{outline:none;border-color:var(--ink)}
+.az-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.az-result{display:none;margin-top:26px;max-width:760px}
+.az-out{width:100%;min-height:230px;background:var(--mist);border:1px solid var(--line);padding:18px;font-family:var(--mono);font-size:.8rem;line-height:1.65;color:var(--ink);resize:vertical}
+.az-note{margin-top:14px;font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:var(--muted)}
+@media(max-width:620px){.az-form{grid-template-columns:1fr}}
+
+/* OFFER */
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.offer{border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;background:var(--paper);transition:.3s ease}
+.offer:hover{transform:translateY(-4px);box-shadow:0 26px 50px -34px rgba(0,0,0,.5)}
+.offer .tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.offer h3{font-size:1.8rem;margin:12px 0 4px}
+.offer .dur{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-bottom:22px}
+.offer ul{list-style:none;margin:6px 0 26px;display:flex;flex-direction:column;gap:11px}
+.offer li{font-size:.93rem;padding-left:20px;position:relative;color:var(--muted)}
+.offer li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;background:var(--ink);border-radius:50%}
+.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line)}
+.offer .res b{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.25rem;color:var(--ink)}
+.offer .price{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-top:8px;letter-spacing:.04em}
+.offer-wide{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--ink);color:var(--paper);border:none}
+.offer-wide:hover{transform:none;box-shadow:none}
+.offer-wide h3{color:var(--paper);margin:6px 0}
+.offer-wide .tag{color:var(--paper-muted)}
+.offer-wide p{color:var(--paper-muted);font-size:.95rem;max-width:52ch}
+.offer-wide .btn{border-color:var(--paper);color:var(--paper)}
+.offer-wide .btn:hover{background:var(--paper);color:var(--ink)}
+@media(max-width:920px){.offers{grid-template-columns:1fr;max-width:560px}.offer-wide{flex-direction:column;align-items:flex-start}}
+
+/* LIVRABLES */
+.deliv{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.deliv>div{padding:32px;border-right:1px solid var(--line)}
+.deliv>div:last-child{border-right:none}
+.deliv h3{font-size:1.4rem;margin-bottom:16px}
+.deliv ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.deliv li{font-size:.92rem;color:var(--muted);padding-left:18px;position:relative}
+.deliv li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;background:var(--ink);border-radius:50%}
+@media(max-width:820px){.deliv{grid-template-columns:1fr}.deliv>div{border-right:none;border-bottom:1px solid var(--line)}.deliv>div:last-child{border-bottom:none}}
+
+/* BOOK */
+.book{display:grid;grid-template-columns:.72fr 1.28fr;gap:56px;align-items:center}
+.book-cover{aspect-ratio:3/4.2;background:var(--ink);color:var(--paper);padding:34px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--ink)}
+.book-cover .bc-top{font-family:var(--mono);font-size:.66rem;letter-spacing:.24em}
+.book-cover .bc-title{font-family:var(--display);font-size:2.6rem;line-height:1}
+.book-cover .bc-author{font-family:var(--mono);font-size:.72rem;color:var(--paper-muted)}
+.book h3{font-size:2.2rem;margin:12px 0}
+.book p{color:var(--muted);font-size:1.05rem;margin-bottom:10px}
+.book .quote{font-family:var(--display);font-style:italic;font-size:1.6rem;color:var(--ink);margin:18px 0 28px;line-height:1.25}
+@media(max-width:760px){.book{grid-template-columns:1fr;gap:32px}.book-cover{max-width:280px}}
+
+/* RESSOURCES */
+.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.res-card{border:1px solid var(--line);padding:32px;transition:.25s}
+.res-card:hover{background:var(--ink);color:var(--paper)}
+.res-card:hover .tag,.res-card:hover p,.res-card:hover .arrow{color:var(--paper-muted)}
+.res-card .tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.res-card h3{font-size:1.6rem;margin:10px 0 8px}
+.res-card p{font-size:.95rem;color:var(--muted);margin-bottom:16px}
+.res-card .arrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase}
+@media(max-width:680px){.res-grid{grid-template-columns:1fr}}
+
+/* CONTACT */
+.contact{text-align:center}
+.contact h2{font-size:clamp(2.4rem,6vw,4.6rem);margin-top:14px}
+.contact .em{font-family:var(--mono);font-size:1.1rem;color:var(--paper);margin:26px 0 6px;letter-spacing:.04em}
+.contact .meta{font-size:.92rem;color:var(--paper-muted)}
+.contact .actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:30px}
+.contact .btn{border-color:var(--paper);color:var(--paper)}
+.contact .btn:hover{background:var(--paper);color:var(--ink)}
+.contact-promise{margin-top:54px;border-top:1px solid var(--paper-line);padding-top:34px;display:flex;gap:34px;justify-content:center;flex-wrap:wrap;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;color:var(--paper-muted);text-transform:uppercase}
+
+/* FOOTER */
+footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-size:.8rem}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.04em}
+.foot a{color:var(--paper)}
+.foot a:hover{opacity:.7}
+
+/* reveal (CSS pur : le contenu reste visible meme si le JS echoue) */
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .7s ease both}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#content">Découvrir</a>
+
+<header class="site" id="site">
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="Stratosphérique, accueil">
+      <svg class="mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="24" cy="17" r="12"/><circle cx="24" cy="31" r="12"/><circle cx="17" cy="24" r="12"/><circle cx="31" cy="24" r="12"/></svg>
+      <span class="word">Stratosphérique</span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Navigation">
+      <a href="#approche">Approche</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#methode">Méthode</a>
+      <a href="#ia">Humain × IA</a>
+      <a href="#offre">Offre</a>
+      <a href="./observatoire.html">Observatoire</a>
+      <a class="btn" href="#contact">Prendre contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+
+<section class="hero" id="top">
+  <div class="wrap grid">
+    <div>
+      <span class="label reveal">Catalyseur technologique</span>
+      <h1 class="reveal d1" style="margin-top:18px">La bonne technologie, au bon endroit.<br><span class="it">Et l'usage décolle.</span></h1>
+      <p class="lede reveal d2">Nous aidons vos équipes à adopter la technologie qui leur fait vraiment gagner du temps.</p>
+      <div class="actions reveal d3">
+        <a href="https://calendly.com/nathalie-stratospherique/30min" target="_blank" rel="noopener" class="btn btn-primary">Réserver un échange de 30 min</a>
+        <a href="#analyse" class="btn btn-ghost">Analyse express par IA</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal d4">
+      <svg class="compass" viewBox="0 0 420 420" aria-hidden="true">
+        <defs><path id="ringpath" d="M210,210 m-180,0 a180,180 0 1,1 360,0 a180,180 0 1,1 -360,0"/></defs>
+        <g class="compass-spin">
+          <circle class="ring" cx="210" cy="210" r="200"/>
+          <text class="ring-text"><textPath href="#ringpath" startOffset="0"> ·  ·  ·  </textPath></text>
+        </g>
+        <g class="petal-group">
+          <circle class="petal" cx="210" cy="158" r="96"/>
+          <circle class="petal" cx="210" cy="262" r="96"/>
+          <circle class="petal" cx="158" cy="210" r="96"/>
+          <circle class="petal" cx="262" cy="210" r="96"/>
+        </g>
+        <circle class="core" cx="210" cy="210" r="3.5"/>
+      </svg>
+      <div class="caption">Humain × IA augmentée</div>
+    </div>
+  </div>
+</section>
+
+<section class="dark constat" id="constat">
+  <div class="wrap">
+    <span class="label label--inv reveal">Le constat</span>
+    <h2 class="big reveal d1">La technologie ne transforme rien <span class="it">toute seule.</span></h2>
+    <div class="cols">
+      <p class="reveal d2" style="grid-column:1 / -1;max-width:40ch">Branchée sur un usage réel, la technologie devient un levier puissant ; <b>sans usage clair, elle n'ajoute que du coût et de la complexité.</b></p>
+    </div>
+  </div>
+</section>
+
+<section id="approche">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">L'approche</span>
+      <h2>Partir de l'usage, choisir la bonne technologie, la faire adopter.</h2>
+      <p>Nous travaillons avec vos équipes, au plus près du terrain. Quatre principes, du premier cadrage jusqu'à l'usage quotidien.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal"><div class="n">01</div><h3>L'usage d'abord</h3><p>Travailler avec les équipes sur le terrain, à partir de leurs usages réels, jamais de l'outil.</p></div>
+      <div class="pillar reveal d1"><div class="n">02</div><h3>L'écosystème</h3><p>Cartographier le réseau de partenaires, les systèmes et les valeurs avant de décider.</p></div>
+      <div class="pillar reveal d2"><div class="n">03</div><h3>Le bon levier</h3><p>Choisir la technologie qui crée de la valeur, réalité virtuelle, applications, données ou intelligence artificielle, et écarter le reste.</p></div>
+      <div class="pillar reveal d3"><div class="n">04</div><h3>L'adoption</h3><p>Installer, accompagner, mesurer. La technologie ne transforme que si elle est adoptée.</p></div>
+    </div>
+    <p class="approche-quote reveal">« Aucun vent n'est favorable à celui qui ne sait où il va. »<span class="aq-cite">Sénèque</span></p>
+  </div>
+</section>
+
+<section id="realisations">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">Réalisations</span>
+      <h2>Vingt ans à brancher la technologie sur des usages réels.</h2>
+      <p>Réalité virtuelle, numérique, applications, données, intelligence artificielle. Le point commun n'est jamais l'outil, mais ce qu'il permet.</p>
+    </div>
+    <div class="work reveal">
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener"><div class="wt">VR · Conception</div><p>Chez Decathlon, une chaîne de conception en 3D et réalité virtuelle, pour créer et valider les produits sans multiplier les prototypes.</p><span class="wgo">Voir le projet →</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/179288099/Designing-immersive-retail-experiences-for-Decathlon" target="_blank" rel="noopener"><div class="wt">VR · Magasin</div><p>Visiter une tente grandeur nature en magasin, sans la monter. Se projeter avant d'acheter.</p><span class="wgo">Voir le projet →</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener"><div class="wt">Numérique · Nature</div><p>Des expériences numériques pour remettre les enfants dehors et reconnecter les familles à la nature.</p><span class="wgo">Voir le projet →</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Applications · Performance</div><p>Aider les coureurs à préparer un marathon sans se blesser, et les sportifs à progresser chez eux avec leurs objets connectés.</p><span class="wgo">Voir le projet →</span></a>
+      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Applications · Mobilité</div><p>Aider les utilisateurs de vélo électrique à ne plus perdre leur vélo et à gérer les vitesses sans y penser.</p><span class="wgo">Voir le projet →</span></a>
+      <div class="witem"><div class="wt">IA · Productivité</div><p>Chez Pennylane, l'IA pour diviser par trois le temps des cabinets comptables sur les tâches sans valeur ajoutée.</p></div>
+    </div>
+    <div class="work-cta reveal"><a class="btn" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Voir tous les projets sur Behance</a></div>
+  </div>
+</section>
+
+<section class="method" id="methode">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">La méthode</span>
+      <h2>Comprendre, Cibler, Déployer, Ancrer</h2>
+      <p>Un parcours clair, du terrain à l'usage. Nous lisons l'entreprise telle qu'elle est, ciblons où la technologie aide vraiment, déployons, puis veillons à ce que l'usage s'installe.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="num">01</div><h3>Comprendre</h3><p>Immersion : systèmes technologiques, équipes, écosystème, partenaires, valeurs.</p></div>
+      <div class="step reveal d1"><div class="num">02</div><h3>Cibler</h3><p>Identifier où la technologie peut être un vrai levier, et où elle n'apporte rien.</p></div>
+      <div class="step reveal d2"><div class="num">03</div><h3>Déployer</h3><p>Lancer et exécuter : mise en oeuvre, intégration, accompagnement des équipes.</p></div>
+      <div class="step reveal d3"><div class="num">04</div><h3>Ancrer</h3><p>Mesurer l'usage et l'adoption. Une techno ne vaut que si elle est utilisée.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="ia">
+  <div class="wrap">
+    <div class="head reveal" style="max-width:none">
+      <span class="label label--inv">Humain × IA</span>
+      <p class="ia-intro" style="margin-top:18px">L'IA est un levier parmi d'autres. Bien cadrée, elle fait gagner du temps et ouvre des angles. Voici où nous la branchons, concrètement.</p>
+    </div>
+    <div class="uses">
+      <div class="use reveal"><div class="un">01</div><h3>Veille élargie</h3><p>Croiser en quelques heures des champs éloignés (sciences, design, économie, histoire) pour nourrir la réflexion, là où il fallait plusieurs jours.</p></div>
+      <div class="use reveal d1"><div class="un">02</div><h3>Contradicteur</h3><p>Soumettre un raisonnement à l'IA pour faire ressortir les angles morts, les contre-exemples et les failles, avant un comité de direction.</p></div>
+      <div class="use reveal d2"><div class="un">03</div><h3>Idéation sans biais</h3><p>Sortir des idées convenues. Sur un atelier produit pour enfants, l'IA a remplacé la énième montre connectée par des compagnons numériques qui guident l'enfant dehors.</p></div>
+      <div class="use reveal"><div class="un">04</div><h3>Automatisation utile</h3><p>Réduire le temps passé sur les tâches sans valeur ajoutée, comme les heures rendues aux cabinets comptables.</p></div>
+      <div class="use reveal d1"><div class="un">05</div><h3>Signaux faibles</h3><p>Surveiller les frictions et les incidents qui annoncent une dérive, avant qu'elle ne coûte cher.</p></div>
+      <div class="use reveal d2"><div class="un">06</div><h3>Personnalisation</h3><p>Adapter le produit, le service ou le message par profil et par usage, sans tout refaire à chaque fois.</p></div>
+    </div>
+    <p class="ia-rule reveal">Une règle simple : formuler sa position avant de demander à l'IA. Elle renforce le jugement, elle ne le remplace pas.</p>
+  </div>
+</section>
+
+<section id="analyse">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">Analyse express</span>
+      <h2>Où la technologie peut vous servir, en deux minutes.</h2>
+      <p>Donnez deux ou trois éléments. Nous générons une requête prête à l'emploi : copiez-la dans l'outil d'IA de votre choix et repartez avec une première lecture, concrète, des leviers technologiques possibles chez vous.</p>
+    </div>
+    <div class="az-form reveal">
+      <div class="az-field"><label for="az-name">Votre entreprise</label><input id="az-name" type="text" placeholder="Nom de l'entreprise" /></div>
+      <div class="az-field"><label for="az-sector">Site ou secteur</label><input id="az-sector" type="text" placeholder="ex. commerce en ligne plein air, logiciel RH..." /></div>
+      <div class="az-field full"><label for="az-goal">Votre enjeu du moment (optionnel)</label><textarea id="az-goal" placeholder="ex. trop de temps perdu sur des tâches manuelles"></textarea></div>
+    </div>
+    <div class="az-actions reveal">
+      <button class="btn btn-primary" id="az-gen" type="button">Générer la requête</button>
+    </div>
+    <div class="az-result reveal" id="az-result">
+      <textarea class="az-out" id="az-out" readonly aria-label="Requête générée"></textarea>
+      <div class="az-actions">
+        <a class="btn btn-primary" id="az-gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">Ouvrir dans ChatGPT</a>
+        <a class="btn btn-ghost" id="az-claude" href="https://claude.ai/new" target="_blank" rel="noopener">Ouvrir dans Claude</a>
+        <button class="btn btn-ghost" id="az-copy" type="button">Copier la requête</button>
+      </div>
+      <p class="az-note">La requête est aussi copiée dans votre presse-papiers : collez-la si besoin.</p>
+    </div>
+  </div>
+</section>
+
+<section id="offre">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">L'offre</span>
+      <h2>Nous intervenons dans l'entreprise et avançons par étapes.</h2>
+      <p>De la recherche sur le terrain jusqu'à l'adoption. À chaque étape, des livrables concrets et un résultat clair.</p>
+    </div>
+    <div class="offers">
+      <article class="offer reveal">
+        <span class="tag">01 · Recherche</span><h3>Immersion & terrain</h3><div class="dur">2 à 3 semaines</div>
+        <ul><li>Cartographie des systèmes technologiques</li><li>Entretiens avec les collaborateurs</li><li>Cartographie de l'écosystème et des partenaires</li><li>Lecture des valeurs</li></ul>
+        <div class="res"><b>Une lecture claire de votre terrain.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer reveal d1">
+        <span class="tag">02 · Audit</span><h3>Audit & recommandations</h3><div class="dur">1 à 2 semaines</div>
+        <ul><li>Où la technologie est un vrai levier (et où non)</li><li>Cas d'usage chiffrés et priorisés</li><li>Feuille de route</li></ul>
+        <div class="res"><b>Des recommandations applicables.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer reveal d2">
+        <span class="tag">03 · Déploiement</span><h3>Lancement & exécution</h3><div class="dur">accompagnement sur mesure</div>
+        <ul><li>Mise en oeuvre et intégration</li><li>Accompagnement des équipes</li><li>Pilotage, mesure de l'usage et de l'impact</li></ul>
+        <div class="res"><b>Une technologie adoptée et utile.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
+      </article>
+      <article class="offer offer-wide reveal d3">
+        <div><span class="tag">04 · Prise de parole</span><h3>Conférences et formations</h3><p>La technologie au service de l'usage, et le rôle de l'Humain × IA. Pour comités de direction, accélérateurs et écoles.</p></div>
+        <a href="#contact" class="btn">Demander une intervention</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="no-top">
+  <div class="wrap">
+    <div class="head reveal"><span class="label">Ce que vous repartez avec</span><h2>Livrables</h2></div>
+    <div class="deliv reveal">
+      <div><h3>Recherche & lecture</h3><ul><li>Cartographie des systèmes technologiques</li><li>Synthèse des entretiens</li><li>Écosystème et partenaires</li><li>Lecture des valeurs</li></ul></div>
+      <div><h3>Audit & cap</h3><ul><li>Opportunités où la technologie crée de la valeur</li><li>Cas d'usage chiffrés</li><li>Feuille de route priorisée</li></ul></div>
+      <div><h3>Déploiement & adoption</h3><ul><li>Plan de mise en oeuvre</li><li>Accompagnement des équipes</li><li>Indicateurs d'usage et d'impact</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="livre">
+  <div class="wrap">
+    <div class="book reveal">
+      <div class="book-cover">
+        <div class="bc-top">ÉDITIONS INVERSE</div>
+        <div class="bc-title">Stratégie<br>Ikigai</div>
+        <div class="bc-author">Nathalie Beugé</div>
+      </div>
+      <div>
+        <span class="label">Le livre</span>
+        <h3>Stratégie Ikigai</h3>
+        <p>Manifeste pour une stratégie vivante, incarnée, unique. Pour faire grandir votre entreprise à l'ère de l'IA.</p>
+        <p class="quote">La stratégie n'est pas un plan à imiter. C'est une identité à clarifier.</p>
+        <a href="https://beugenathalie.gumroad.com/l/ymeuu" class="btn btn-primary" target="_blank" rel="noopener">Acheter la pré vente</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="no-top" id="ressources">
+  <div class="wrap">
+    <div class="head reveal"><span class="label">Ressources</span><h2>Notes</h2><p>Technologie, usage, exécution. Sans bruit.</p></div>
+    <div class="res-grid">
+      <a class="res-card reveal" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener"><span class="tag">Infolettre, Substack</span><h3>Articles et méthodes</h3><p>Formats courts, méthodes applicables, exemples concrets.</p><span class="arrow">Lire</span></a>
+      <a class="res-card reveal d1" href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener"><span class="tag">LinkedIn</span><h3>Idées courtes</h3><p>Des prises de position et des idées applicables, à reprendre dans vos réunions.</p><span class="arrow">Voir</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="dark contact" id="contact">
+  <div class="wrap">
+    <span class="label label--inv reveal">Contact</span>
+    <h2 class="reveal d1">Prêts à décoller ?</h2>
+    <div class="em reveal d2">nathalie@stratospherique.com</div>
+    <div class="meta reveal d2">Premier échange, 30 minutes, sans engagement.</div>
+    <div class="actions reveal d3"><a class="btn" href="https://calendly.com/nathalie-stratospherique/30min" target="_blank" rel="noopener">Réserver un échange de 30 min</a><a class="btn" href="mailto:nathalie@stratospherique.com?subject=Stratosph%C3%A9rique%2C%20%C3%A9change%2030%20min&body=Bonjour%20Nathalie%2C%0A%0AContexte%20%3A%20%0AEnjeu%20%3A%20%0A%C3%89ch%C3%A9ance%20%3A%20%0A%0AMerci%2C">Envoyer un email</a></div>
+    <div class="contact-promise reveal d4"><span>2 à 3 leviers technologiques identifiés</span><span>un format recommandé</span><span>une estimation de charge et de rythme</span></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Stratosphérique · Chamonix · Paris · À distance</div>
+    <div>
+      <a href="./mentions-legales.html">Mentions légales</a> ·
+      <a href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Substack</a> ·
+      <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="#top">Haut</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var site=document.getElementById('site');
+  function onScroll(){ if(site) site.style.boxShadow = window.scrollY>30 ? '0 10px 30px -24px rgba(0,0,0,.5)' : 'none'; }
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  var burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){ var o=menu.classList.toggle('open'); burger.setAttribute('aria-expanded',o?'true':'false'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
+  }
+
+  var gen=document.getElementById('az-gen');
+  if(gen){
+    gen.addEventListener('click',function(){
+      var n=(document.getElementById('az-name').value||'votre entreprise').trim();
+      var s=(document.getElementById('az-sector').value||'secteur non précisé').trim();
+      var g=(document.getElementById('az-goal').value||'').trim();
+      var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu précis identifié pour l'instant.";
+      var p="Tu es le cabinet Stratosphérique : la technologie au service de l'usage, jamais l'inverse. Style direct, concret, sans jargon.\n\n"
+        +"Entreprise : "+n+" ("+s+").\n"+goalLine+"\n\n"
+        +"Donne-moi une analyse synthétique et applicable :\n"
+        +"1. En une phrase, l'usage central que sert cette entreprise.\n"
+        +"2. Trois leviers technologiques concrets (automatisation, données, intelligence artificielle, application, réalité virtuelle) qui feraient gagner du temps ou de la valeur. Pour chacun : ce que cela change pour les équipes ou les clients, et l'effort estimé (faible, moyen, élevé).\n"
+        +"3. La première action à lancer ce mois-ci : le moins d'effort pour le plus d'impact.\n"
+        +"4. Deux fausses bonnes idées technologiques à éviter ici, et pourquoi.\n"
+        +"Reste synthétique : phrases courtes, pas de blabla.";
+      var out=document.getElementById('az-out');
+      out.value=p;
+      try{ if(navigator.clipboard){ navigator.clipboard.writeText(p); } }catch(e){}
+      var enc=encodeURIComponent(p);
+      var gpt=document.getElementById('az-gpt'); if(gpt){ gpt.href='https://chatgpt.com/?q='+enc; }
+      var cla=document.getElementById('az-claude'); if(cla){ cla.href='https://claude.ai/new?q='+enc; }
+      document.getElementById('az-result').style.display='block';
+      document.getElementById('az-result').scrollIntoView({behavior:'smooth',block:'nearest'});
+    });
+  }
+  var copy=document.getElementById('az-copy');
+  if(copy){
+    copy.addEventListener('click',function(){
+      var out=document.getElementById('az-out'); out.select();
+      if(navigator.clipboard){ navigator.clipboard.writeText(out.value); }
+      else { document.execCommand('copy'); }
+      copy.textContent='Copié'; setTimeout(function(){ copy.textContent='Copier la requête'; },1800);
+    });
+  }
+})();
+</script>
+</body>
+</html>
