@@ -27,6 +27,7 @@ const CATEGORIES = [
   { id: "usages", label: "Usages & analyse critique", sources: [
     { name: "AI Snake Oil", url: "https://www.aisnakeoil.com/feed", aiOnly: true },
     { name: "Hacker News", url: "https://hnrss.org/frontpage?points=100" } ] },
+  { name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" },
   { id: "france", label: "France & Europe", sources: [
     { name: "Numerama", url: "https://www.numerama.com/feed/" },
     { name: "Siècle Digital", url: "https://siecledigital.fr/feed/" },
