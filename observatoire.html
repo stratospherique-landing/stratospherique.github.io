@@ -58,6 +58,16 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 .foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.04em}
 .foot a{color:var(--paper)}
 .foot a:hover{opacity:.7}
+  /* ===== Radar : en-tête + légende partageables ===== */
+.radar-frame{width:min(1180px,100%);display:flex;flex-direction:column;gap:18px}
+.obs-radar-head .sec-eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.obs-radar-head h2{font-family:var(--display);font-weight:500;font-size:clamp(1.5rem,3.2vw,2.1rem);margin-top:8px;line-height:1.05}
+.obs-radar-head .intro{margin-top:10px;color:var(--muted);max-width:62ch;font-size:.98rem}
+.radar-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px}
+.radar-legend .lg{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink)}
+.radar-legend .lg i{width:12px;height:12px;border-radius:3px;display:inline-block;flex-shrink:0}
+.radar-legend .lg-axis{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-left:auto}
+@media(max-width:600px){.radar-legend .lg-axis{margin-left:0;width:100%}}
 /* ===== Sources ===== */
 .obs-sources{border-top:1px solid var(--line);padding:64px 0 96px}
 .obs-sources .sec-eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
@@ -252,7 +262,13 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
       <p class="hero-sub">Capital, capabilities, postures, usages. Une veille triée chaque matin, pour lire le marché d'un coup d'œil et garder ce qui compte.</p>
     </div>
   </section>
-  <div class="altitude-stage">
+<div class="altitude-stage">
+  <div class="radar-frame">
+    <div class="obs-radar-head">
+      <div class="sec-eyebrow">Radar IA · <span id="radarDate"></span></div>
+      <h2>Ce qui <span class="it">chauffe</span>, ce matin</h2>
+      <p class="intro">Chaque signal est placé par altitude&nbsp;: plus il monte, plus il compte. Quatre couloirs de lecture, relevés et triés chaque matin.</p>
+    </div>
 <div class="deck">
   <div class="bar">
     <span class="badge"><span class="live"></span><span id="syncLab">synchro</span></span>
@@ -296,6 +312,14 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
     <span><span class="spin" id="spin">◐</span> live</span>
   </div>
 </div>
+  <div class="radar-legend">
+      <span class="lg"><i style="background:#EAFF00"></i>Capital</span>
+      <span class="lg"><i style="background:#4DFF2F"></i>Capabilities</span>
+      <span class="lg"><i style="background:#A64DFF"></i>Postures</span>
+      <span class="lg"><i style="background:#FF3CC7"></i>Usages</span>
+      <span class="lg-axis">↑ altitude = chaleur du signal</span>
+    </div>
+  </div>
   </div>
 </main>
 
@@ -361,11 +385,27 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
         </ul>
       </div>
       <div class="src-col">
+        <h3>Infrastructure &amp; compute</h3>
+        <ul>
+          <li><a href="https://www.semianalysis.com/" target="_blank" rel="noopener">SemiAnalysis</a></li>
+          <li><a href="https://spectrum.ieee.org/" target="_blank" rel="noopener">IEEE Spectrum</a></li>
+        </ul>
+      </div>
+      <div class="src-col">
+        <h3>Chine &amp; hors-bulle</h3>
+        <ul>
+          <li><a href="https://www.chinatalk.media/" target="_blank" rel="noopener">ChinaTalk</a></li>
+          <li><a href="https://www.technologyreview.com/" target="_blank" rel="noopener">MIT Technology Review</a></li>
+          <li><a href="https://restofworld.org/" target="_blank" rel="noopener">Rest of World</a></li>
+        </ul>
+      </div>
+      <div class="src-col">
         <h3>Usages &amp; analyse critique</h3>
         <ul>
           <li><a href="https://www.aisnakeoil.com/" target="_blank" rel="noopener">AI Snake Oil <span class="ai">IA</span></a></li>
           <li><a href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a></li>
           <li><a href="https://www.nytimes.com/section/technology" target="_blank" rel="noopener">The New York Times · Technology</a></li>
+          <li><a href="https://simonwillison.net/" target="_blank" rel="noopener">Simon Willison</a></li>
         </ul>
       </div>
       <div class="src-col">
@@ -377,7 +417,8 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
         </ul>
       </div>
     </div>
-    <div class="src-foot">15 sources · 5 couloirs · relevées chaque matin</div>
+    <p class="intro" style="margin-top:28px;font-size:.92rem">Hors flux automatisé · lecture recommandée : <a href="https://www.theinformation.com/" target="_blank" rel="noopener" style="text-decoration:underline">The Information</a> n'expose pas de RSS public — le deal flow IA se suit à la main, mais c'est la référence capital &amp; marché.</p>
+    <div class="src-foot">21 sources · 7 couloirs · relevées chaque matin</div>
   </div>
 </section>
 <footer>
@@ -455,7 +496,7 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
     if(/mod[èe]le|model|benchmark|release|sortie|version|open source|multimodal|raisonnement|gpt|llm|agent/.test(text)) return 'capabilities';
     return 'usages';
   }
-  const CATMAP={radar:'postures',capital:'capital',capab:'capabilities',capabilities:'capabilities',usages:'usages',usage:'usages',postures:'postures'};
+  const CATMAP={radar:'postures',capital:'capital',capab:'capabilities',capabilities:'capabilities',infra:'capabilities',usages:'usages',usage:'usages',postures:'postures'};
   const mapCat=(cat,text)=> (cat&&CATMAP[cat]) ? CATMAP[cat] : retheme(text);
 
   function buildItems(raw){
@@ -614,8 +655,8 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
   requestAnimationFrame(frame);
 
   /* ===== Synthèse par couloir (depuis feeds.json) ===== */
-  const SYN_LABEL={radar:'Radar',capital:'Capital',capab:'Capabilities',usages:'Usages',france:'France'};
-  const SYN_ORDER=['radar','capital','capab','usages','france'];
+const SYN_LABEL={radar:'Radar',capital:'Capital',capab:'Capabilities',infra:'Infrastructure',asie:'Chine & monde',usages:'Usages',france:'France'};
+  const SYN_ORDER=['radar','capital','capab','infra','asie','usages','france'];
   function renderSynTabs(){
     const tabs=document.getElementById('synTabs'), box=document.getElementById('synBody'); if(!tabs||!box) return;
     const keys=SYN_ORDER.filter(k=>SYN[k]&&SYN[k].titre);
@@ -642,8 +683,8 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 
 /* chrome : année, ombre header au scroll, menu mobile */
 (function(){
-  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
-  const site=document.getElementById('site');
+const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  const rd=document.getElementById('radarDate'); if(rd) rd.textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});  const site=document.getElementById('site');
   const onScroll=()=>{ if(site) site.style.boxShadow=window.scrollY>30?'0 10px 30px -24px rgba(0,0,0,.5)':'none'; };
   onScroll();window.addEventListener('scroll',onScroll,{passive:true});
   const burger=document.querySelector('.burger'),menu=document.getElementById('menu');
