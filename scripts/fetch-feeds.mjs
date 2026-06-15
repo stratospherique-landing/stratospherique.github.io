@@ -19,15 +19,21 @@ const CATEGORIES = [
   { id: "capital", label: "Capital & marché", sources: [
     { name: "TechCrunch", url: "https://techcrunch.com/feed/" },
     { name: "Crunchbase News", url: "https://news.crunchbase.com/feed/" },
-    { name: "Sifted", url: "https://sifted.eu/feed/" } ] },
-  { id: "capab", label: "Capabilities & releases", sources: [
+    { name: "Sifted", url: "https://sifted.eu/feed/" },
+    { name: "The Information", url: "https://www.theinformation.com/feed" } ] },
+  { id: "capab", label: "Capabilities & compute", sources: [
     { name: "The Verge", url: "https://www.theverge.com/rss/index.xml" },
     { name: "Ars Technica", url: "https://feeds.arstechnica.com/arstechnica/index" },
-    { name: "Hugging Face", url: "https://huggingface.co/blog/feed.xml", aiOnly: true } ] },
+    { name: "Hugging Face", url: "https://huggingface.co/blog/feed.xml", aiOnly: true },
+    { name: "SemiAnalysis", url: "https://semianalysis.com/feed/" } ] },
   { id: "usages", label: "Usages & analyse critique", sources: [
     { name: "AI Snake Oil", url: "https://www.aisnakeoil.com/feed", aiOnly: true },
-    { name: "Hacker News", url: "https://hnrss.org/frontpage?points=100" } ] },
-  { name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" },
+    { name: "Hacker News", url: "https://hnrss.org/frontpage?points=100" },
+    { name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" } ] },
+  { id: "monde", label: "Monde & géopolitique", sources: [
+    { name: "ChinaTalk", url: "https://chinatalk.substack.com/feed" },
+    { name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/" },
+    { name: "Rest of World", url: "https://restofworld.org/feed/latest" } ] },
   { id: "france", label: "France & Europe", sources: [
     { name: "Numerama", url: "https://www.numerama.com/feed/" },
     { name: "Siècle Digital", url: "https://siecledigital.fr/feed/" },
@@ -39,7 +45,7 @@ const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = "claude-haiku-4-5";
 
 // Filtre de pertinence IA (pour les sources generalistes uniquement)
-const AI_RE = /\b(ia|intelligence artificielle|artificial intelligence|machine learning|deep learning|neural|r[ée]seaux? de neurones|llm|gpt|chatgpt|openai|anthropic|claude|gemini|mistral|llama|hugging\s?face|copilot|midjourney|stable diffusion|nvidia|gpu|g[ée]n[ée]ratives?|generative|genai|agentique|agentic|inf[ée]rence|inference|transformer|fine[\s-]?tun|rag|chatbot|deepfake|deepseek|grok|perplexity|sora|dall-?e)\b/i;
+const AI_RE = /\b(ia|intelligence artificielle|artificial intelligence|machine learning|deep learning|neural|r[ée]seaux? de neurones|llm|gpt|chatgpt|openai|anthropic|claude|gemini|mistral|llama|qwen|kimi|deepmind|hugging\s?face|copilot|midjourney|stable diffusion|nvidia|gpu|tpu|cuda|h100|h200|b200|gb200|blackwell|hopper|hbm|data ?center|tsmc|exaflop|g[ée]n[ée]ratives?|generative|genai|agentique|agentic|inf[ée]rence|inference|transformer|frontier model|foundation model|reasoning model|mod[èe]le de raisonnement|superintelligence|rlhf|fine[\s-]?tun|rag|chatbot|deepfake|deepseek|grok|perplexity|sora|dall-?e)\b/i;
 function isAI(title, snippet) {
   const raw = title + " " + snippet;
   if (/\bAI\b/.test(raw)) return true;        // "AI" en capitales (anglais), sans matcher "j'ai"
