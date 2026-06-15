@@ -74,14 +74,22 @@ async function synthese(label, items) {
   const prompt = `Tu es analyste pour le cabinet de conseil Stratosphérique. À partir des actualités IA ci-dessous (couloir « ${label} »), rédige une note stratégique en français.
 Réponds UNIQUEMENT par un objet JSON valide, sans texte autour, sans balises de code, avec EXACTEMENT cette forme :
 {
-  "titre": "une phrase qui résume l'information principale",
+  "titre": "une phrase qui résume l'information principale, en mots simples",
   "resume": "résumé exécutif de 3 à 5 phrases : l'essentiel pour qui ne lit que ça",
   "faits": ["3 à 7 faits marquants, une phrase courte chacun"],
   "implications": [{"fait": "le fait", "pourquoi": "pourquoi c'est important / impact potentiel"}],
   "signaux": ["signaux faibles à surveiller : nouveaux acteurs, réglementation, mouvements de talents, technos émergentes"],
-  "conclusion": "une seule phrase forte, à retenir"
+  "conclusion": "une seule phrase claire et concrète, à retenir"
 }
-Style : concis, direct, sans jargon, niveau comité de direction. Pas de bla-bla. N'invente rien qui ne soit pas étayé par les actualités.
+
+RÈGLES DE CLARTÉ (impératif, priment sur tout le reste) :
+- Écris pour un dirigeant pressé qui n'est PAS expert en IA. Chaque phrase doit se comprendre du premier coup, sans relecture.
+- Concret avant tout : dis QUI fait QUOI et POURQUOI ça compte. Une affirmation sans exemple, acteur ou chiffre n'a pas sa place.
+- Bannis les formules abstraites de conseil ou de finance. Interdits, par exemple : « asymétrie intenable », « extraction de valeur », « la valorisation s'accélère là où les risques se concentrent », « risques systémiques sous-régulés ». Dis plutôt, en clair, ce qui se passe et ce que ça change.
+- Pas de jargon nu. Si un terme technique est indispensable, glisse une définition de 3 à 5 mots entre parenthèses juste après. Exemples : « deepfakes (fausses vidéos très réalistes) », « inférence (le coût de faire tourner un modèle) », « private equity (fonds d'investissement) ».
+- Phrases courtes, voix active, mots simples. Pas de slogan vague.
+- La conclusion n'est pas une punchline abstraite : c'est une phrase qui dit, en clair, ce qu'il faut retenir et pourquoi ça compte pour une entreprise.
+- N'invente rien. Si un chiffre, une date ou un horizon de temps (ex. « 18-36 mois ») n'est pas dans les actualités, ne l'écris pas.
 
 ACTUALITÉS :
 ${list}`;
