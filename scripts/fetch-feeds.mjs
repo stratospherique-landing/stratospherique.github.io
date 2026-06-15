@@ -75,7 +75,7 @@ async function synthese(label, items) {
 Réponds UNIQUEMENT par un objet JSON valide, sans texte autour, sans balises de code, avec EXACTEMENT cette forme :
 {
   "titre": "une phrase qui résume l'information principale, en mots simples",
-  "resume": "résumé exécutif de 3 à 5 phrases : l'essentiel pour qui ne lit que ça",
+  "resume": "résumé clair en 3 à 5 phrases courtes, une idée par phrase : l'essentiel pour qui ne lit que ça",
   "faits": ["3 à 7 faits marquants, une phrase courte chacun"],
   "implications": [{"fait": "le fait", "pourquoi": "pourquoi c'est important / impact potentiel"}],
   "signaux": ["signaux faibles à surveiller : nouveaux acteurs, réglementation, mouvements de talents, technos émergentes"],
@@ -90,6 +90,14 @@ RÈGLES DE CLARTÉ (impératif, priment sur tout le reste) :
 - Phrases courtes, voix active, mots simples. Pas de slogan vague.
 - La conclusion n'est pas une punchline abstraite : c'est une phrase qui dit, en clair, ce qu'il faut retenir et pourquoi ça compte pour une entreprise.
 - N'invente rien. Si un chiffre, une date ou un horizon de temps (ex. « 18-36 mois ») n'est pas dans les actualités, ne l'écris pas.
+
+EXEMPLE — transforme l'abstrait en concret :
+- À NE PAS écrire : « La valorisation s'accélère là où les risques sont concentrés et sous-régulés. »
+  À écrire : « Les investisseurs financent surtout les outils qui rapportent vite (juridique, RH) et très peu ceux qui gèrent les dangers comme les deepfakes. Le risque reste à la charge de la société. »
+- À NE PAS écrire : « créant une asymétrie intenable de 18-36 mois. »
+  À écrire : rien, si aucune source ne donne ce chiffre.
+
+AVANT DE RÉPONDRE : relis chaque phrase. Si un lecteur non-expert doit la relire pour la comprendre, réécris-la plus simplement.
 
 ACTUALITÉS :
 ${list}`;
