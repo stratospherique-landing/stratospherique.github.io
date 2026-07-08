@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#0B0B0C" />
+<title>À propos — Stratosphérique</title>
+<meta name="description" content="À propos de Stratosphérique et de Nathalie Beugé : la vision, la méthode, l'usage de l'IA, le framework Stratégie Ikigai et le livre." />
+<link rel="canonical" href="https://www.stratospherique.com/manifeste.html" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "url": "https://www.stratospherique.com/manifeste.html",
+      "name": "À propos — Stratosphérique",
+      "about": { "@type": "Organization", "name": "Stratosphérique", "url": "https://www.stratospherique.com/" }
+    },
+    {
+      "@type": "Book",
+      "name": "Stratégie Ikigai",
+      "author": { "@type": "Person", "name": "Nathalie Beugé", "url": "https://www.stratospherique.com/" },
+      "publisher": "Éditions Inverse",
+      "inLanguage": "fr",
+      "url": "https://www.stratospherique.com/manifeste.html"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/logo_black.svg" type="image/svg+xml" />
+<style>
+:root{
+  --paper:#FFFFFF;--ink:#0B0B0C;--slate:#6B6E76;--line:#E7E7E4;--wash:#F4F4F2;--carbon:#111113;
+  --display:'Archivo',system-ui,sans-serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace;
+  --gutter:clamp(20px,5vw,80px);--maxw:1320px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1;text-wrap:balance}
+.label{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--slate);display:inline-block}
+.label--inv{color:rgba(255,255,255,.6)}
+.btn{display:inline-flex;align-items:center;gap:.55em;padding:15px 28px;font-family:var(--sans);font-weight:600;font-size:.95rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;transition:.2s ease}
+.btn:hover{background:transparent;color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--ink)}.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+.arrow-link{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border-bottom:1.5px solid var(--ink);padding-bottom:3px;transition:.2s}
+.arrow-link:hover{opacity:.6}
+
+header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{max-width:var(--maxw);margin:0 auto;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mark{width:32px;height:32px}
+.brand .word{font-family:var(--display);font-size:1.32rem;font-weight:700;letter-spacing:-.02em}
+.menu{display:flex;align-items:center;gap:26px}
+.menu a{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);transition:.2s}
+.menu a:hover,.menu a.current{color:var(--ink)}
+.menu .btn{padding:10px 18px;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:24px;height:2px;background:var(--ink);display:block}
+@media(max-width:1040px){.burger{display:flex}.menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:16px;background:var(--paper);border:1px solid var(--line);padding:24px 28px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.22s}.menu.open{opacity:1;transform:none;pointer-events:auto}}
+
+section{padding:clamp(72px,11vw,140px) 0;position:relative}
+.dark{background:var(--ink);color:var(--paper)}.dark .label{color:rgba(255,255,255,.55)}
+.wash{background:var(--wash)}
+.eyebrow{margin-bottom:22px}
+.lead{max-width:64ch}
+.lead h2{font-size:clamp(1.8rem,4vw,3rem)}
+.lead p{color:var(--slate);margin-top:18px;font-size:1.05rem}
+
+/* HERO */
+.mhero{padding-top:clamp(140px,17vw,200px);padding-bottom:clamp(40px,7vw,80px)}
+.mhero h1{font-size:clamp(2.6rem,7vw,5rem);font-weight:800;max-width:16ch}
+.mhero .sub{font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--slate);max-width:52ch;margin-top:24px}
+
+/* CONVICTIONS */
+.credo{border-top:2px solid var(--ink);margin-top:8px}
+.credo .item{display:grid;grid-template-columns:64px 1fr;gap:28px;padding:36px 0;border-bottom:1px solid var(--line);align-items:start}
+.credo .n{font-family:var(--mono);font-size:.8rem;color:var(--slate);padding-top:8px}
+.credo h3{font-size:clamp(1.4rem,3.2vw,2.1rem);max-width:26ch}
+.credo p{margin-top:12px;color:var(--slate);font-size:1.02rem;max-width:58ch}
+@media(max-width:640px){.credo .item{grid-template-columns:1fr;gap:8px}}
+
+/* IKIGAI (fin) */
+.ik{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center;margin-top:40px}
+.ik .qs{list-style:none;display:flex;flex-direction:column}
+.ik .qs li{font-family:var(--display);font-weight:600;font-size:clamp(1.3rem,2.6vw,1.9rem);padding:16px 0;border-bottom:1px solid var(--line);color:var(--ink)}
+.ik .qs li:last-child{border-bottom:none}
+.ik .synth{font-family:var(--display);font-weight:700;font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.1;max-width:16ch}
+.ik .synth .mk{width:34px;height:34px;margin-bottom:18px;color:var(--ink)}
+.ik .synth .mk circle{fill:none;stroke:currentColor;stroke-width:1.3}
+.ik .synth .mk .core{fill:currentColor}
+.ik .synth small{display:block;margin-top:16px;font-family:var(--mono);font-weight:500;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+@media(max-width:820px){.ik{grid-template-columns:1fr;gap:32px}}
+
+/* METHODE */
+.method-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:40px;border-top:2px solid var(--ink)}
+.mstep{padding:28px 24px 32px 0;border-right:1px solid var(--line)}
+.mstep:last-child{border-right:none;padding-right:0}
+.mstep .mn{font-family:var(--mono);font-size:.72rem;color:var(--slate)}
+.mstep h3{font-size:1.5rem;margin:14px 0 12px}
+.mstep p{font-size:.95rem;color:var(--slate)}
+.method-foot{margin-top:34px;font-family:var(--mono);font-size:.8rem;color:var(--slate)}
+@media(max-width:820px){.method-grid{grid-template-columns:1fr 1fr}.mstep{padding-right:24px;border-right:1px solid var(--line)}.mstep:nth-child(2n){border-right:none;padding-right:0}}
+@media(max-width:480px){.method-grid{grid-template-columns:1fr}.mstep{border-right:none;padding-right:0;border-bottom:1px solid var(--line)}.mstep:last-child{border-bottom:none}}
+
+/* IA */
+.ia-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:40px}
+.ia-c .un{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:rgba(255,255,255,.5)}
+.ia-c h3{font-size:1.2rem;font-weight:600;color:var(--paper);margin:8px 0}
+.ia-c p{font-size:.92rem;color:rgba(255,255,255,.66)}
+.ia-rule{margin-top:38px;font-family:var(--display);font-weight:600;font-size:clamp(1.3rem,2.6vw,1.8rem);color:var(--paper);max-width:40ch;line-height:1.2}
+.ia-obs{margin-top:20px}
+@media(max-width:900px){.ia-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.ia-grid{grid-template-columns:1fr}}
+
+/* QUI */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;margin-top:8px}
+.who h3{font-size:1.6rem;margin-bottom:16px}
+.who p{color:var(--slate);font-size:1.04rem;margin-bottom:14px}
+.who p b{color:var(--ink);font-weight:600}
+@media(max-width:760px){.who{grid-template-columns:1fr;gap:36px}}
+
+/* INFLUENCES */
+.infl{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin-top:36px}
+.infl div{padding:24px 26px 24px 0;border-bottom:1px solid var(--line)}
+.infl .nm{font-family:var(--display);font-weight:600;font-size:1.3rem}
+.infl .ds{margin-top:6px;font-size:.9rem;color:var(--slate)}
+@media(max-width:680px){.infl{grid-template-columns:1fr}}
+
+/* BOOK */
+.book{display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:center;margin-top:8px}
+.bt-cover{aspect-ratio:3/4.2;background:var(--ink);color:var(--paper);padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+.bt-cover .t1{font-family:var(--mono);font-size:.58rem;letter-spacing:.2em}
+.bt-cover .t2{font-family:var(--display);font-weight:700;font-size:2rem;line-height:1}
+.bt-cover .t3{font-family:var(--mono);font-size:.64rem;color:rgba(255,255,255,.6)}
+.book h3{font-size:clamp(1.6rem,3vw,2.2rem);margin:10px 0}
+.book p{color:var(--slate);margin-bottom:12px;max-width:52ch}
+.book .q{font-family:var(--display);font-weight:600;font-size:1.4rem;margin:14px 0 24px;max-width:30ch}
+@media(max-width:640px){.book{grid-template-columns:1fr;gap:26px}.bt-cover{max-width:180px}}
+
+/* CTA */
+.endcta{text-align:left}
+.endcta h2{font-size:clamp(2rem,5vw,3.6rem);font-weight:800;max-width:18ch;color:var(--paper)}
+.endcta .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.endcta .btn{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.endcta .btn:hover{background:transparent;color:var(--paper)}
+.endcta .btn-ghost{background:transparent;color:var(--paper);border-color:rgba(255,255,255,.4)}
+.endcta .btn-ghost:hover{background:var(--paper);color:var(--ink)}
+
+footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-size:.8rem}
+.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.03em}
+.foot a{color:var(--paper)}.foot a:hover{opacity:.7}
+
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .6s ease both}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#content">Aller au contenu</a>
+
+<header class="site" id="site">
+  <div class="bar">
+    <a class="brand" href="./" aria-label="Stratosphérique, accueil">
+      <img class="mark" src="./assets/logo_black.svg" alt="" width="32" height="32" />
+      <span class="word">Stratosphérique</span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Navigation">
+      <a href="./#travaux">Réalisations</a>
+      <a href="./#terrains">Secteurs</a>
+      <a href="./#offre">Offre</a>
+      <a href="./#idees">Publications</a>
+      <a href="./manifeste.html" class="current" aria-current="page">À propos</a>
+      <a href="./observatoire.html">Observatoire</a>
+      <a class="btn" href="./#contact">Prendre contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+
+<!-- HERO -->
+<section class="mhero" id="top">
+  <div class="wrap">
+    <span class="label eyebrow reveal">À propos</span>
+    <h1 class="reveal">La stratégie ne s'imite pas. Elle se clarifie.</h1>
+    <p class="sub reveal">Ce que je crois, comment je travaille, et d'où ça vient.</p>
+  </div>
+</section>
+
+<!-- CONVICTIONS -->
+<section class="wash">
+  <div class="wrap">
+    <div class="lead reveal"><span class="label eyebrow">Convictions</span></div>
+    <div class="credo reveal">
+      <div class="item"><div class="n">01</div><div><h3>L'usage d'abord, l'outil ensuite.</h3><p>Une stratégie ne vit pas dans un slide, mais dans ce que les équipes font chaque jour.</p></div></div>
+      <div class="item"><div class="n">02</div><div><h3>Une stratégie ne s'imite pas, elle s'incarne.</h3><p>Copier le plan d'un concurrent, c'est hériter de sa moyenne. La vôtre part de ce qui vous est propre.</p></div></div>
+      <div class="item"><div class="n">03</div><div><h3>L'exécution est la stratégie.</h3><p>Une intention non exécutée ne vaut rien. Je vais jusqu'à l'adoption, pas jusqu'à la reco.</p></div></div>
+      <div class="item"><div class="n">04</div><div><h3>L'IA est un levier, pas une destination.</h3><p>Branchée là où elle sert, elle fait gagner du temps. Ailleurs, elle ajoute du coût.</p></div></div>
+      <div class="item"><div class="n">05</div><div><h3>Seul on va vite, en cordée on va loin.</h3><p>Je reste hands-on : je cadre, je fais, et j'active un collectif quand le projet le demande.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- IKIGAI (fin) -->
+<section id="ikigai">
+  <div class="wrap">
+    <div class="lead reveal">
+      <span class="label eyebrow">Le cadre</span>
+      <h2>Stratégie Ikigai</h2>
+      <p>Une stratégie qui tient ne s'invente pas, elle se trouve. Au croisement de quatre questions simples.</p>
+    </div>
+    <div class="ik reveal">
+      <ul class="qs">
+        <li>Ce que vous faites mieux que quiconque.</li>
+        <li>Ce dont votre marché a vraiment besoin.</li>
+        <li>Ce pour quoi on vous paie.</li>
+        <li>Ce qui vous fait avancer.</li>
+      </ul>
+      <div class="synth">
+        <svg class="mk" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="17" r="12"/><circle cx="24" cy="31" r="12"/><circle cx="17" cy="24" r="12"/><circle cx="31" cy="24" r="12"/><circle class="core" cx="24" cy="24" r="1.6"/></svg>
+        Au centre, une direction que vous seul pouvez tenir.
+        <small>C'est là que je travaille.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHODE (rapatriée de la home) -->
+<section class="wash" id="methode">
+  <div class="wrap">
+    <div class="lead reveal">
+      <span class="label eyebrow">La méthode</span>
+      <h2>Comprendre. Cibler. Déployer. Ancrer.</h2>
+      <p>Du terrain à l'usage. Je lis l'entreprise telle qu'elle est, je cible où la tech aide vraiment, je déploie, puis je veille à ce que l'usage s'installe.</p>
+    </div>
+    <div class="method-grid reveal">
+      <div class="mstep"><div class="mn">01</div><h3>Comprendre</h3><p>Systèmes, équipes, écosystème, valeurs.</p></div>
+      <div class="mstep"><div class="mn">02</div><h3>Cibler</h3><p>Où la tech est un vrai levier, et où non.</p></div>
+      <div class="mstep"><div class="mn">03</div><h3>Déployer</h3><p>Mise en œuvre, intégration, accompagnement.</p></div>
+      <div class="mstep"><div class="mn">04</div><h3>Ancrer</h3><p>Mesurer l'usage et l'adoption.</p></div>
+    </div>
+    <p class="method-foot reveal">Une méthode que je transmets à l'ESSEC.</p>
+  </div>
+</section>
+
+<!-- IA (rapatriée de la home) -->
+<section class="dark" id="ia">
+  <div class="wrap">
+    <div class="lead reveal" style="max-width:60ch">
+      <span class="label label--inv eyebrow">Humain × IA</span>
+      <h2 style="color:var(--paper)">L'IA comme levier, jamais comme destination.</h2>
+    </div>
+    <div class="ia-grid reveal">
+      <div class="ia-c"><div class="un">01</div><h3>Veille élargie</h3><p>Croiser des champs éloignés en quelques heures.</p></div>
+      <div class="ia-c"><div class="un">02</div><h3>Contradicteur</h3><p>Faire ressortir les angles morts avant un comité.</p></div>
+      <div class="ia-c"><div class="un">03</div><h3>Idéation</h3><p>Sortir des idées convenues, ouvrir des pistes.</p></div>
+      <div class="ia-c"><div class="un">04</div><h3>Automatisation</h3><p>Rendre du temps sur les tâches sans valeur.</p></div>
+    </div>
+    <p class="ia-rule reveal">Formuler sa position avant de demander à l'IA. Elle renforce le jugement, elle ne le remplace pas.</p>
+    <p class="ia-obs reveal"><a class="arrow-link" href="./observatoire.html" style="color:var(--paper);border-color:rgba(255,255,255,.4)">Ma veille, chaque matin : l'Observatoire</a></p>
+  </div>
+</section>
+
+<!-- QUI -->
+<section id="qui">
+  <div class="wrap">
+    <div class="lead reveal"><span class="label eyebrow">Qui je suis</span><h2>Nathalie Beugé</h2></div>
+    <div class="who reveal">
+      <div>
+        <h3>Le parcours</h3>
+        <p><b>Head of Product, 15 ans à relier les décisions produit aux résultats business.</b> Decathlon, du e-commerce à la direction de l'innovation digitale, puis Head of Design chez Pennylane.</p>
+        <p>MBA EM Lyon, certifiée THIGA en Product Management et Product Marketing. Intervenante à l'ESSEC. Alpiniste, basée aux Houches.</p>
+      </div>
+      <div>
+        <h3>Comment je travaille</h3>
+        <p>Je reste <b>hands-on</b> : je cadre, je fais, je vais au bout. Selon le périmètre, j'active un collectif de spécialistes, tout en restant votre interlocuteur unique.</p>
+        <p>Pas de couche de juniors, pas de reco qu'on vous laisse exécuter seul. Ce que je propose, je le porte.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFLUENCES -->
+<section class="wash" id="influences">
+  <div class="wrap">
+    <div class="lead reveal"><span class="label eyebrow">Influences</span><h2>Ce qui nourrit la méthode.</h2></div>
+    <div class="infl reveal">
+      <div><div class="nm">Henry Mintzberg</div><div class="ds">La stratégie émergente, contre le plan figé.</div></div>
+      <div><div class="nm">Karl Weick</div><div class="ds">Le sensemaking, comprendre l'organisation en mouvement.</div></div>
+      <div><div class="nm">Edgar Schein</div><div class="ds">La culture comme socle réel de la stratégie.</div></div>
+      <div><div class="nm">April Dunford</div><div class="ds">Le positionnement comme choix délibéré.</div></div>
+      <div><div class="nm">Cagan · Torres</div><div class="ds">La découverte continue, le produit piloté par l'usage.</div></div>
+      <div><div class="nm">Design thinking</div><div class="ds">Partir des personnes, prototyper, apprendre.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section id="livre">
+  <div class="wrap">
+    <div class="lead reveal"><span class="label eyebrow">Le livre</span></div>
+    <div class="book reveal">
+      <div class="bt-cover"><div class="t1">ÉDITIONS INVERSE</div><div class="t2">Stratégie<br>Ikigai</div><div class="t3">Nathalie Beugé</div></div>
+      <div>
+        <h3>Stratégie Ikigai</h3>
+        <p>Comment faire grandir votre entreprise à l'ère de l'IA en partant de ce qui vous est propre, plutôt qu'en copiant le marché.</p>
+        <p class="q">La stratégie n'est pas un plan à imiter. C'est une identité à clarifier.</p>
+        <a href="https://beugenathalie.gumroad.com/l/ymeuu" class="btn" target="_blank" rel="noopener">Acheter la pré-vente</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="dark endcta">
+  <div class="wrap">
+    <span class="label label--inv eyebrow reveal">La suite</span>
+    <h2 class="reveal">Une stratégie à clarifier ?</h2>
+    <div class="actions reveal">
+      <a class="btn" href="https://calendar.app.google/BK3kgHikuWsr1CEn7" target="_blank" rel="noopener">Réserver un échange</a>
+      <a class="btn btn-ghost" href="./#offre">Voir l'offre</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Stratosphérique · Chamonix · Grenoble · Lyon · Paris</div>
+    <div>
+      <a href="./">Accueil</a> ·
+      <a href="./observatoire.html">Observatoire</a> ·
+      <a href="./mentions-legales.html">Mentions légales</a> ·
+      <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var site=document.getElementById('site');
+  function onScroll(){ if(site) site.style.boxShadow = window.scrollY>30 ? '0 8px 30px -24px rgba(0,0,0,.4)' : 'none'; }
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+  var burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){ var o=menu.classList.toggle('open'); burger.setAttribute('aria-expanded',o?'true':'false'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
+  }
+})();
+</script>
+</body>
+</html>
