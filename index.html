@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="fr">
 <head>
@@ -599,23 +598,13 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
       var s=(document.getElementById('az-sector').value||'secteur non précisé').trim();
       var g=(document.getElementById('az-goal').value||'').trim();
       var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu précis pour l'instant.";
-      var p="Tu es Stratosphérique (Nathalie Beugé). Je fais décoller les produits. Ma méthode en 4 temps : Comprendre le terrain, Cibler où la tech est un vrai levier, Déployer, Ancrer l'usage. Style direct, concret, sans jargon.
-
-"
-        +"Entreprise : "+n+" ("+s+").
-"+goalLine+"
-
-"
-        +"Fais un mini-audit IA de cette entreprise, selon ma méthode :
-"
-        +"1. COMPRENDRE : en une phrase, l'usage central que sert l'entreprise, et où le produit risque de plafonner.
-"
-        +"2. CIBLER : trois endroits où l'IA serait un vrai levier (gagner du temps, dérisquer un projet, rendre visible l'avancement), et un endroit où elle n'apporterait rien.
-"
-        +"3. DÉPLOYER : la première action à lancer ce mois-ci, le moins d'effort pour le plus d'impact.
-"
-        +"4. ANCRER : un indicateur simple à suivre pour vérifier que ça décolle.
-"
+      var p="Tu es Stratosphérique (Nathalie Beugé). Je fais décoller les produits. Ma méthode en 4 temps : Comprendre le terrain, Cibler où la tech est un vrai levier, Déployer, Ancrer l'usage. Style direct, concret, sans jargon.\\n\\n"
+        +"Entreprise : "+n+" ("+s+").\\n"+goalLine+"\\n\\n"
+        +"Fais un mini-audit IA de cette entreprise, selon ma méthode :\\n"
+        +"1. COMPRENDRE : en une phrase, l'usage central que sert l'entreprise, et où le produit risque de plafonner.\\n"
+        +"2. CIBLER : trois endroits où l'IA serait un vrai levier (gagner du temps, dérisquer un projet, rendre visible l'avancement), et un endroit où elle n'apporterait rien.\\n"
+        +"3. DÉPLOYER : la première action à lancer ce mois-ci, le moins d'effort pour le plus d'impact.\\n"
+        +"4. ANCRER : un indicateur simple à suivre pour vérifier que ça décolle.\\n"
         +"Phrases courtes, priorisé, concret.";
       if(LEAD_ENDPOINT){ try{ fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,entreprise:n,secteur:s,enjeu:g,source:'analyse-express'})}).catch(function(){}); }catch(e){} }
       var out=document.getElementById('az-out'); out.value=p;
