@@ -1,258 +1,322 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta name="theme-color" content="#0E0E0C" />
-<title>Stratosphérique, la technologie au service de l'usage</title>
-<meta name="description" content="Stratosphérique, cabinet de conseil. La technologie au service de l'usage : réalité virtuelle, numérique, applications, données, intelligence artificielle, mises au service d'usages concrets, pour les équipes, les clients et le terrain." />
+<meta name="theme-color" content="#0B0B0C" />
+<title>Stratosphérique — Conseil produit · Sport &amp; SaaS fintech</title>
+<meta name="description" content="Stratosphérique : je fais décoller vos produits. Diagnostic, stratégie et exécution produit, du sport au SaaS fintech. Par Nathalie Beugé, Head of Product, 15 ans (Decathlon, Pennylane)." />
+<link rel="canonical" href="https://www.stratospherique.com/" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://www.stratospherique.com/#org",
+      "name": "Stratosphérique",
+      "alternateName": "Stratospherique",
+      "description": "Conseil produit : du plan au marché. Des produits dérisqués, organisés et pilotés par la data, qui font du business.",
+      "url": "https://www.stratospherique.com/",
+      "email": "nathalie@stratospherique.com",
+      "identifier": "SIRET 97899900100016",
+      "founder": { "@id": "https://www.stratospherique.com/#nathalie" },
+      "address": { "@type": "PostalAddress", "streetAddress": "442 avenue de la Gare", "postalCode": "74310", "addressLocality": "Les Houches", "addressCountry": "FR" },
+      "areaServed": "FR",
+      "knowsAbout": ["stratégie produit", "product management", "design produit", "user research", "business model", "go-to-market", "intelligence artificielle"],
+      "sameAs": [
+        "https://www.linkedin.com/company/stratospherique/",
+        "https://www.linkedin.com/in/nathaliebeuge/",
+        "https://www.behance.net/natbeuge",
+        "https://nathaliebeuge.substack.com/",
+        "https://www.malt.fr/profile/nathaliebeuge"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.stratospherique.com/#nathalie",
+      "name": "Nathalie Beugé",
+      "jobTitle": "Head of Product",
+      "worksFor": { "@id": "https://www.stratospherique.com/#org" },
+      "alumniOf": ["Decathlon", "Pennylane", "EM Lyon"],
+      "sameAs": ["https://www.linkedin.com/in/nathaliebeuge/", "https://www.behance.net/natbeuge", "https://www.malt.fr/profile/nathaliebeuge"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.stratospherique.com/#website",
+      "url": "https://www.stratospherique.com/",
+      "name": "Stratosphérique",
+      "publisher": { "@id": "https://www.stratospherique.com/#org" }
+    }
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="icon" href="./assets/logo_black.svg" type="image/svg+xml" />
 <style>
 :root{
-  --ink:#0E0E0C;--paper:#FAFAF7;--carbon:#1A1A18;--mist:#ECECEA;
-  --line:rgba(14,14,12,.14);--line-soft:rgba(14,14,12,.08);--muted:rgba(14,14,12,.55);
-  --paper-line:rgba(250,250,247,.18);--paper-muted:rgba(250,250,247,.6);
-  --display:'Cormorant Garamond',Georgia,serif;
-  --sans:'Inter Tight',system-ui,sans-serif;
-  --mono:'JetBrains Mono',monospace;
-  --gutter:clamp(20px,5vw,72px);
-  --maxw:1280px;
+  --paper:#FFFFFF;--ink:#0B0B0C;--slate:#6B6E76;--line:#E7E7E4;--wash:#F4F4F2;--carbon:#111113;
+  --display:'Archivo',system-ui,sans-serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --gutter:clamp(20px,5vw,80px);--maxw:1320px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img,svg{display:block;max-width:100%}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
-.skip{position:absolute;left:-9999px}
-.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:100}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1;text-wrap:balance}
+.label{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--slate);display:inline-block}
+.label--inv{color:rgba(255,255,255,.6)}
 
-.label{font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);font-weight:500;display:inline-block}
-.label--inv{color:var(--paper-muted)}
-h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.04;letter-spacing:.005em;text-wrap:balance}
-.it{font-style:italic;font-weight:400}
-
-.btn{display:inline-flex;align-items:center;gap:.5em;padding:14px 26px;font-family:var(--sans);font-weight:500;font-size:.92rem;border:1px solid var(--ink);transition:.25s ease;cursor:pointer;background:transparent;color:var(--ink)}
-.btn-primary{background:var(--ink);color:var(--paper)}
-.btn-primary:hover{background:transparent;color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:.55em;padding:15px 28px;font-family:var(--sans);font-weight:600;font-size:.95rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;transition:.2s ease}
+.btn:hover{background:transparent;color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--ink)}
 .btn-ghost:hover{background:var(--ink);color:var(--paper)}
+.arrow-link{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border-bottom:1.5px solid var(--ink);padding-bottom:3px;transition:.2s}
+.arrow-link:hover{opacity:.6}
 
 /* HEADER */
-header.site{position:fixed;top:0;left:0;right:0;z-index:60;background:rgba(250,250,247,.78);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:.3s}
-.site .bar{max-width:var(--maxw);margin:0 auto;padding:14px var(--gutter);display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}
-.brand .mark{width:34px;height:auto}
-.brand .word{font-family:var(--display);font-size:1.5rem;font-weight:500;letter-spacing:.01em}
-.menu{display:flex;align-items:center;gap:28px}
-.menu a{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:.2s}
+header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{max-width:var(--maxw);margin:0 auto;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mark{width:32px;height:32px}
+.brand .word{font-family:var(--display);font-size:1.32rem;font-weight:700;letter-spacing:-.02em}
+.menu{display:flex;align-items:center;gap:26px}
+.menu a{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);transition:.2s}
 .menu a:hover{color:var(--ink)}
-.menu .btn{padding:9px 16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.menu .btn{padding:10px 18px;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
-.burger span{width:24px;height:1.5px;background:var(--ink);display:block;transition:.3s}
-@media(max-width:980px){
-  .burger{display:flex}
-  .menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:14px;background:var(--paper);border:1px solid var(--line);padding:22px 26px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.25s}
-  .menu.open{opacity:1;transform:none;pointer-events:auto}
-}
+.burger span{width:24px;height:2px;background:var(--ink);display:block}
+@media(max-width:1040px){.burger{display:flex}.menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:16px;background:var(--paper);border:1px solid var(--line);padding:24px 28px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.22s}.menu.open{opacity:1;transform:none;pointer-events:auto}}
 
-section{padding:130px 0;position:relative}
-.no-top{padding-top:0}
+section{padding:clamp(72px,11vw,150px) 0;position:relative}
 .dark{background:var(--ink);color:var(--paper)}
-.dark .label{color:var(--paper-muted)}
-.head{max-width:780px;margin-bottom:64px}
-.head h2{font-size:clamp(2rem,5vw,3.6rem);margin-top:16px}
-.head p{margin-top:20px;font-size:1.08rem;color:var(--muted);max-width:62ch}
-.dark .head p{color:var(--paper-muted)}
+.dark .label{color:rgba(255,255,255,.55)}
+.wash{background:var(--wash)}
+.eyebrow{margin-bottom:22px}
+.h-lead{max-width:22ch}
 
 /* HERO */
-.hero{padding-top:180px;padding-bottom:120px}
-.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
-.hero h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:1}
-.hero .lede{font-size:1.2rem;color:var(--muted);max-width:48ch;margin-top:28px}
-.hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
-.hero-visual{display:flex;flex-direction:column;align-items:center;gap:18px}
-.hero-visual .caption{font-family:var(--mono);font-size:.68rem;letter-spacing:.26em;color:var(--muted);text-transform:uppercase}
-.compass{width:min(420px,88%);height:auto;color:var(--ink)}
-.compass .petal{fill:none;stroke:currentColor;stroke-width:1.3;opacity:.85}
-.compass .ring{fill:none;stroke:currentColor;stroke-width:1}
-.compass .ring-text{font-family:var(--mono);font-size:12.5px;letter-spacing:.3em;fill:currentColor;text-transform:uppercase}
-.compass .core{fill:currentColor}
-.compass-spin{transform-origin:210px 210px;animation:spin 80s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-@media(max-width:980px){.hero .grid{grid-template-columns:1fr;gap:48px}.hero-visual{order:-1}.compass-spin{animation:none}}
-@media(prefers-reduced-motion:reduce){.compass-spin{animation:none}}
+.hero{padding-top:clamp(130px,17vw,210px);padding-bottom:clamp(60px,9vw,120px);position:relative;overflow:hidden}
+.hero .topo{position:absolute;top:50%;left:50%;transform:translate(-50%,-46%);width:min(1400px,140%);height:auto;color:var(--ink);opacity:.09;z-index:0;pointer-events:none}
+.hero .topo path{fill:none;stroke:currentColor;stroke-width:1.1}
+.hero .inner{position:relative;z-index:1;max-width:40ch}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800}
+.hero .sub{font-size:clamp(1.05rem,1.9vw,1.35rem);color:var(--slate);max-width:44ch;margin-top:26px;line-height:1.45}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}
+.hero .proof{margin-top:clamp(56px,8vw,96px);position:relative;z-index:1;display:flex;gap:16px 36px;flex-wrap:wrap;align-items:flex-start;border-top:1px solid var(--line);padding-top:28px}
+.hero .proof .pitems{display:flex;flex-wrap:wrap;gap:16px 40px}
+.hero .proof .pitems>div{display:flex;flex-direction:column;gap:3px}
+.hero .proof .d{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate)}
+.hero .proof .pl{font-family:var(--mono);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--slate)}
+.hero .proof .n{font-family:var(--display);font-weight:600;font-size:1.2rem;color:var(--ink);line-height:1}
 
-/* CONSTAT */
-.constat .big{font-size:clamp(2.2rem,5.5vw,4rem);line-height:1.04;max-width:20ch;margin-top:14px}
-.constat .cols{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px}
-.constat .cols p{color:var(--paper-muted);font-size:1.06rem}
-.constat .cols b{color:var(--paper);font-weight:600}
-@media(max-width:760px){.constat .cols{grid-template-columns:1fr;gap:28px}}
+/* STATEMENT */
+.statement h2{font-size:clamp(2rem,5.4vw,4.2rem);font-weight:700;max-width:20ch;line-height:1.02}
+.statement .k{color:var(--slate)}
+.smetrics{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:52px;border-top:1px solid var(--line);padding-top:38px}
+.smetrics .v{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,5vw,3.8rem);letter-spacing:-.03em;line-height:1}
+.smetrics .kk{display:block;margin-top:12px;color:var(--slate);font-size:.95rem;max-width:30ch}
+@media(max-width:760px){.smetrics{grid-template-columns:1fr;gap:26px}}
+.case .media + .ck{margin-top:20px}
 
-/* PILLARS */
-.pillars{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
-.pillar{padding:36px 32px 36px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.pillar:last-child{border-right:none}
-.pillar .n{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;color:var(--muted)}
-.pillar h3{font-size:1.6rem;margin:12px 0 12px}
-.pillar p{font-size:.97rem;color:var(--muted)}
-@media(max-width:900px){.pillars{grid-template-columns:1fr 1fr}.pillar{border-right:none;padding-right:0}.pillar:nth-child(odd){padding-right:32px;border-right:1px solid var(--line)}}
-@media(max-width:520px){.pillars{grid-template-columns:1fr}.pillar:nth-child(odd){border-right:none;padding-right:0}}
-.approche-quote{margin-top:72px;max-width:24ch;font-family:var(--display);font-style:italic;font-size:clamp(2rem,4.8vw,3.4rem);line-height:1.12;color:var(--ink)}
-.approche-quote .aq-cite{display:block;margin-top:18px;font-family:var(--mono);font-style:normal;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+/* CASES */
+.cases-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:44px}
+.cases-head h2{font-size:clamp(1.8rem,4vw,3rem)}
+.cases{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.case{display:flex;flex-direction:column}
+.media{position:relative;aspect-ratio:4/3;background:var(--wash);border:1px solid var(--line);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.media::after{content:attr(data-ph);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);padding:0 16px;text-align:center}
+.media.tall{aspect-ratio:3/4}
+.case .num{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,4.4vw,3.4rem);line-height:1;margin-top:22px;letter-spacing:-.03em}
+.case .ck{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-top:14px}
+.case p{font-size:1rem;color:var(--ink);margin-top:8px;max-width:34ch}
+.case .go{margin-top:14px}
+@media(max-width:900px){.cases{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.cases{grid-template-columns:1fr}}
 
-/* REALISATIONS */
-.work{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
-.witem{padding:34px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.witem:nth-child(3n){border-right:none}
-.witem:nth-last-child(-n+3){border-bottom:none}
-.witem .wt{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.witem p{font-size:1rem;color:var(--ink);margin-top:12px;line-height:1.5}
-.witem--link{cursor:pointer;transition:background .25s,color .25s}
-.witem--link:hover{background:var(--ink);color:var(--paper)}
-.witem--link:hover .wt{color:var(--paper-muted)}
-.witem--link:hover .wgo{color:var(--paper);border-color:var(--paper-line)}
-.witem--link:hover p{color:var(--paper)}
-.wgo{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:.25s}
-.work-cta{margin-top:32px}
-@media(max-width:860px){.work{grid-template-columns:1fr 1fr}.witem:nth-child(3n){border-right:1px solid var(--line)}.witem:nth-child(2n){border-right:none}.witem:nth-last-child(-n+3){border-bottom:1px solid var(--line)}.witem:nth-last-child(-n+2){border-bottom:none}}
-@media(max-width:540px){.work{grid-template-columns:1fr}.witem{border-right:none!important;border-bottom:1px solid var(--line)!important}.witem:last-child{border-bottom:none!important}}
+/* TERRAINS */
+.terr{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:44px}
+.terr .card{display:flex;flex-direction:column;gap:18px}
+.terr .media{aspect-ratio:16/11}
+.terr .tk{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.terr h3{font-size:1.7rem;font-weight:700;margin-top:-6px}
+.terr p{color:var(--slate);font-size:.98rem;max-width:36ch}
+@media(max-width:820px){.terr{grid-template-columns:1fr;max-width:520px}}
 
 /* METHOD */
-.method{background:var(--mist)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
-.step{background:var(--paper);border:1px solid var(--line);padding:30px;transition:.25s}
-.step:hover{background:#fff;box-shadow:0 24px 50px -34px rgba(0,0,0,.4)}
-.step .num{font-family:var(--display);font-size:3rem;line-height:1;color:var(--ink)}
-.step h3{font-size:1.5rem;margin:6px 0 10px}
-.step p{font-size:.92rem;color:var(--muted)}
-.method-note{margin-top:48px;font-family:var(--display);font-style:italic;font-size:clamp(1.4rem,3vw,2rem);max-width:30ch;line-height:1.2}
-.mn-cite{display:block;margin-top:12px;font-family:var(--mono);font-style:normal;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-@media(max-width:820px){.steps{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.steps{grid-template-columns:1fr}}
-
-/* IA USE CASES */
-.ia-intro{font-family:var(--display);font-size:clamp(1.6rem,3.6vw,2.6rem);line-height:1.18;max-width:32ch;margin-bottom:56px;color:var(--paper)}
-.uses{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--paper-line)}
-.use{padding:34px 30px;border-right:1px solid var(--paper-line);border-bottom:1px solid var(--paper-line)}
-.use:nth-child(3n){border-right:none}
-.use:nth-last-child(-n+3){border-bottom:none}
-.use .un{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;color:var(--paper-muted)}
-.use h3{font-size:1.4rem;margin:12px 0 10px;color:var(--paper)}
-.use p{font-size:.94rem;color:var(--paper-muted)}
-.ia-rule{margin-top:48px;padding-top:30px;border-top:1px solid var(--paper-line);font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--paper);max-width:48ch}
-@media(max-width:860px){.uses{grid-template-columns:1fr 1fr}.use:nth-child(3n){border-right:1px solid var(--paper-line)}.use:nth-child(2n){border-right:none}.use:nth-last-child(-n+3){border-bottom:1px solid var(--paper-line)}.use:nth-last-child(-n+2){border-bottom:none}}
-@media(max-width:540px){.uses{grid-template-columns:1fr}.use{border-right:none!important;border-bottom:1px solid var(--paper-line)!important}.use:last-child{border-bottom:none!important}}
-
-/* ANALYSE EXPRESS */
-.az-form{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:760px}
-.az-field.full{grid-column:1/-1}
-.az-field label{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
-.az-field input,.az-field textarea{width:100%;background:transparent;border:1px solid var(--line);padding:13px 14px;font-family:var(--sans);font-size:.95rem;color:var(--ink)}
-.az-field textarea{min-height:86px;resize:vertical}
-.az-field input:focus,.az-field textarea:focus{outline:none;border-color:var(--ink)}
-.az-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
-.az-result{display:none;margin-top:26px;max-width:760px}
-.az-out{width:100%;min-height:230px;background:var(--mist);border:1px solid var(--line);padding:18px;font-family:var(--mono);font-size:.8rem;line-height:1.65;color:var(--ink);resize:vertical}
-.az-note{margin-top:14px;font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:var(--muted)}
-@media(max-width:620px){.az-form{grid-template-columns:1fr}}
+.method-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;border-top:2px solid var(--ink)}
+.mstep{padding:30px 26px 34px 0;border-right:1px solid var(--line)}
+.mstep:last-child{border-right:none;padding-right:0}
+.mstep .mn{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--slate)}
+.mstep h3{font-size:1.6rem;font-weight:700;margin:14px 0 12px}
+.mstep p{font-size:.96rem;color:var(--slate)}
+.method-foot{margin-top:38px;font-family:var(--mono);font-size:.8rem;letter-spacing:.02em;color:var(--slate)}
+.method-foot a{color:var(--ink);border-bottom:1px solid var(--line)}
+@media(max-width:820px){.method-grid{grid-template-columns:1fr 1fr}.mstep{padding-right:26px;border-right:1px solid var(--line)}.mstep:nth-child(2n){border-right:none;padding-right:0}}
+@media(max-width:480px){.method-grid{grid-template-columns:1fr}.mstep{border-right:none;padding-right:0;border-bottom:1px solid var(--line)}.mstep:last-child{border-bottom:none}}
 
 /* OFFER */
-.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.offer{border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;background:var(--paper);transition:.3s ease}
-.offer:hover{transform:translateY(-4px);box-shadow:0 26px 50px -34px rgba(0,0,0,.5)}
-.offer .tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.offer h3{font-size:1.8rem;margin:12px 0 4px}
-.offer .dur{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-bottom:22px}
-.offer ul{list-style:none;margin:6px 0 26px;display:flex;flex-direction:column;gap:11px}
-.offer li{font-size:.93rem;padding-left:20px;position:relative;color:var(--muted)}
-.offer li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;background:var(--ink);border-radius:50%}
-.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line)}
-.offer .res b{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.25rem;color:var(--ink)}
-.offer .price{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-top:8px;letter-spacing:.04em}
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.offer{border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;transition:.2s}
+.offer:hover{border-color:var(--ink)}
+.offer .tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.offer h3{font-size:1.5rem;font-weight:700;margin:14px 0 4px}
+.offer .dur{font-family:var(--mono);font-size:.72rem;color:var(--slate);margin-bottom:22px}
+.offer ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.offer li{font-size:.94rem;color:var(--slate);padding-left:18px;position:relative}
+.offer li::before{content:"";position:absolute;left:0;top:.6em;width:5px;height:5px;background:var(--ink)}
+.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line);font-weight:600;font-size:1.02rem}
+.offer .price{font-family:var(--mono);font-size:.7rem;color:var(--slate);margin-top:8px}
 .offer-wide{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--ink);color:var(--paper);border:none}
-.offer-wide:hover{transform:none;box-shadow:none}
-.offer-wide h3{color:var(--paper);margin:6px 0}
-.offer-wide .tag{color:var(--paper-muted)}
-.offer-wide p{color:var(--paper-muted);font-size:.95rem;max-width:52ch}
-.offer-wide .btn{border-color:var(--paper);color:var(--paper)}
-.offer-wide .btn:hover{background:var(--paper);color:var(--ink)}
-@media(max-width:920px){.offers{grid-template-columns:1fr;max-width:560px}.offer-wide{flex-direction:column;align-items:flex-start}}
+.offer-wide:hover{border:none}
+.offer-wide h3{color:var(--paper)}
+.offer-wide .tag{color:rgba(255,255,255,.55)}
+.offer-wide p{color:rgba(255,255,255,.66);max-width:52ch;font-size:.96rem}
+.offer-wide .btn{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.offer-wide .btn:hover{background:transparent;color:var(--paper)}
+.offer-anchor{margin-top:20px;font-family:var(--mono);font-size:.78rem;color:var(--slate)}
+.offer-anchor b{color:var(--ink)}
+@media(max-width:900px){.offers{grid-template-columns:1fr;max-width:520px}.offer-wide{flex-direction:column;align-items:flex-start}}
 
-/* LIVRABLES */
-.deliv{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
-.deliv>div{padding:32px;border-right:1px solid var(--line)}
-.deliv>div:last-child{border-right:none}
-.deliv h3{font-size:1.4rem;margin-bottom:16px}
-.deliv ul{list-style:none;display:flex;flex-direction:column;gap:10px}
-.deliv li{font-size:.92rem;color:var(--muted);padding-left:18px;position:relative}
-.deliv li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;background:var(--ink);border-radius:50%}
-@media(max-width:820px){.deliv{grid-template-columns:1fr}.deliv>div{border-right:none;border-bottom:1px solid var(--line)}.deliv>div:last-child{border-bottom:none}}
+/* IA */
+.ia-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:44px}
+.ia-c h3{font-size:1.25rem;font-weight:600;color:var(--paper);margin-bottom:8px}
+.ia-c .un{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:rgba(255,255,255,.5)}
+.ia-c p{font-size:.92rem;color:rgba(255,255,255,.66);margin-top:8px}
+.ia-rule{margin-top:44px;font-family:var(--display);font-weight:600;font-size:clamp(1.3rem,2.6vw,1.9rem);color:var(--paper);max-width:40ch;line-height:1.2}
+.ia-obs{margin-top:20px}
+@media(max-width:900px){.ia-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.ia-grid{grid-template-columns:1fr}}
 
-/* BOOK */
-.book{display:grid;grid-template-columns:.72fr 1.28fr;gap:56px;align-items:center}
-.book-cover{aspect-ratio:3/4.2;background:var(--ink);color:var(--paper);padding:34px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--ink)}
-.book-cover .bc-top{font-family:var(--mono);font-size:.66rem;letter-spacing:.24em}
-.book-cover .bc-title{font-family:var(--display);font-size:2.6rem;line-height:1}
-.book-cover .bc-author{font-family:var(--mono);font-size:.72rem;color:var(--paper-muted)}
-.book h3{font-size:2.2rem;margin:12px 0}
-.book p{color:var(--muted);font-size:1.05rem;margin-bottom:10px}
-.book .quote{font-family:var(--display);font-style:italic;font-size:1.6rem;color:var(--ink);margin:18px 0 28px;line-height:1.25}
-@media(max-width:760px){.book{grid-template-columns:1fr;gap:32px}.book-cover{max-width:280px}}
+/* ANALYSE */
+.az-form{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:760px;margin-top:40px}
+.az-field.full{grid-column:1/-1}
+.az-field label{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:8px}
+.az-field input,.az-field textarea{width:100%;background:var(--paper);border:1px solid var(--line);padding:14px;font-family:var(--sans);font-size:.95rem;color:var(--ink)}
+.az-field textarea{min-height:84px;resize:vertical}
+.az-field input:focus,.az-field textarea:focus{outline:none;border-color:var(--ink)}
+.az-consent label{display:flex;gap:10px;align-items:flex-start;font-size:.82rem;color:var(--slate);cursor:pointer}
+.az-consent input{width:16px;height:16px;margin-top:2px;flex-shrink:0;accent-color:var(--ink)}
+.az-consent a{color:var(--ink);border-bottom:1px solid var(--line)}
+.az-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;align-items:center}
+.az-err{font-family:var(--mono);font-size:.74rem;color:#b3261e}
+.az-result{display:none;margin-top:26px;max-width:760px}
+.az-out{width:100%;min-height:220px;background:var(--wash);border:1px solid var(--line);padding:18px;font-family:var(--mono);font-size:.8rem;line-height:1.6;color:var(--ink);resize:vertical}
+.az-note{margin-top:14px;font-family:var(--mono);font-size:.7rem;color:var(--slate)}
+@media(max-width:620px){.az-form{grid-template-columns:1fr}}
 
-/* RESSOURCES */
-.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.res-card{border:1px solid var(--line);padding:32px;transition:.25s}
-.res-card:hover{background:var(--ink);color:var(--paper)}
-.res-card:hover .tag,.res-card:hover p,.res-card:hover .arrow{color:var(--paper-muted)}
-.res-card .tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.res-card h3{font-size:1.6rem;margin:10px 0 8px}
-.res-card p{font-size:.95rem;color:var(--muted);margin-bottom:16px}
-.res-card .arrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase}
-@media(max-width:680px){.res-grid{grid-template-columns:1fr}}
+/* BOOK TEASER */
+.book-teaser{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:center;border:1px solid var(--line);padding:40px;transition:.2s}
+.book-teaser:hover{background:var(--ink);color:var(--paper)}
+.book-teaser:hover .label,.book-teaser:hover p{color:rgba(255,255,255,.6)}
+.book-teaser:hover .arrow-link{color:var(--paper);border-color:rgba(255,255,255,.4)}
+.bt-cover{aspect-ratio:3/4.2;background:var(--ink);color:var(--paper);padding:24px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--ink)}
+.book-teaser:hover .bt-cover{border-color:rgba(255,255,255,.3)}
+.bt-cover .t1{font-family:var(--mono);font-size:.56rem;letter-spacing:.2em}
+.bt-cover .t2{font-family:var(--display);font-weight:700;font-size:1.9rem;line-height:1}
+.bt-cover .t3{font-family:var(--mono);font-size:.62rem;color:rgba(255,255,255,.6)}
+.bt-body h3{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;margin:12px 0;line-height:1.08}
+.bt-body p{color:var(--slate);margin-bottom:18px;max-width:48ch}
+@media(max-width:640px){.book-teaser{grid-template-columns:1fr;gap:24px}.bt-cover{max-width:160px}}
+
+/* FAQ */
+.faq{border-top:1px solid var(--line);margin-top:40px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:26px 0;display:flex;justify-content:space-between;gap:24px;align-items:center;font-family:var(--display);font-weight:600;font-size:clamp(1.15rem,2.2vw,1.5rem)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pm{font-family:var(--mono);color:var(--slate);flex-shrink:0;transition:.2s}
+.faq details[open] summary .pm{transform:rotate(45deg)}
+.faq .a{padding:0 0 26px;color:var(--slate);font-size:1.02rem;max-width:70ch}
 
 /* CONTACT */
-.contact{text-align:center}
-.contact h2{font-size:clamp(2.4rem,6vw,4.6rem);margin-top:14px}
-.contact .em{font-family:var(--mono);font-size:1.1rem;color:var(--paper);margin:26px 0 6px;letter-spacing:.04em}
-.contact .meta{font-size:.92rem;color:var(--paper-muted)}
-.contact .actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:30px}
-.contact .btn{border-color:var(--paper);color:var(--paper)}
-.contact .btn:hover{background:var(--paper);color:var(--ink)}
-.contact-promise{margin-top:54px;border-top:1px solid var(--paper-line);padding-top:34px;display:flex;gap:34px;justify-content:center;flex-wrap:wrap;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;color:var(--paper-muted);text-transform:uppercase}
+.contact{text-align:left}
+.contact h2{font-size:clamp(2.2rem,6vw,4.4rem);font-weight:800;max-width:16ch}
+.contact .em{font-family:var(--mono);font-size:1.05rem;color:var(--paper);margin:28px 0 4px}
+.contact .meta{color:rgba(255,255,255,.6)}
+.contact .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.contact .btn{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.contact .btn:hover{background:transparent;color:var(--paper)}
+.contact .btn-ghost{background:transparent;color:var(--paper);border-color:rgba(255,255,255,.4)}
+.contact .btn-ghost:hover{background:var(--paper);color:var(--ink)}
 
-/* FOOTER */
-footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-size:.8rem}
-.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.04em}
-.foot a{color:var(--paper)}
-.foot a:hover{opacity:.7}
+footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-size:.8rem}
+.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.03em}
+.foot a{color:var(--paper)}.foot a:hover{opacity:.7}
 
-/* reveal (CSS pur : le contenu reste visible meme si le JS echoue) */
-@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-.reveal{animation:rise .7s ease both}
-.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}
-@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .6s ease both}
+.d1{animation-delay:.07s}.d2{animation-delay:.14s}.d3{animation-delay:.21s}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}.hero .topo{opacity:.09}}
+
+/* cartes-liens (travaux / idées), sans photo */
+.case{border:1px solid var(--line);background:var(--paper);padding:28px;display:flex;flex-direction:column;gap:12px;min-height:186px;transition:.2s}
+.case:hover{background:var(--ink);color:var(--paper)}
+.case:hover .ck{color:rgba(255,255,255,.55)}
+.case:hover .go{color:var(--paper);border-color:rgba(255,255,255,.5)}
+.case .ct{font-family:var(--display);font-weight:700;font-size:1.4rem;line-height:1.14;color:inherit;text-wrap:balance}
+.case .go{margin-top:auto}
+.terr .card{border-top:2px solid var(--ink);padding-top:20px}
+/* easter egg */
+#egg{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(18px);background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;padding:12px 22px;opacity:0;pointer-events:none;transition:.4s;z-index:200}
+#egg.on{opacity:1;transform:translateX(-50%) translateY(0)}
+.hero .topo.pulse{animation:topopulse 2.6s ease}
+@keyframes topopulse{0%{opacity:.09}30%{opacity:.32}100%{opacity:.09}}
+
+/* facets : product = stratégie + innovation + tech */
+.facets{display:grid;grid-template-columns:repeat(4,1fr);margin-top:40px;border-top:2px solid var(--ink)}
+.facets>div{padding:28px 26px 30px 0;border-right:1px solid var(--line)}
+.facets>div:last-child{border-right:none;padding-right:0}
+.facets .fn{font-family:var(--mono);font-size:.72rem;color:var(--slate)}
+.facets h3{font-family:var(--display);font-weight:700;font-size:1.6rem;margin:14px 0 12px}
+.facets p{font-size:.96rem;color:var(--slate)}
+@media(max-width:960px){.facets{grid-template-columns:1fr 1fr}.facets>div:nth-child(2n){border-right:none}}
+@media(max-width:520px){.facets{grid-template-columns:1fr}.facets>div{border-right:none!important;padding-right:0;border-bottom:1px solid var(--line)}.facets>div:last-child{border-bottom:none}}
+.signame{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:16px}
+.offer-anchor a,.faq .a a{color:var(--ink);border-bottom:1px solid var(--line)}
+.offer .res{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.offer-btn{align-self:stretch;justify-content:center;padding:12px 18px;font-size:.9rem}
+.values{display:grid;grid-template-columns:1fr 1fr;gap:26px 48px;margin-top:40px;max-width:1000px}
+.values>div{font-size:1.06rem;line-height:1.45;color:var(--ink);padding-left:18px;border-left:2px solid var(--ink)}
+@media(max-width:760px){.values{grid-template-columns:1fr}}
+.hero .rotator{position:relative;font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,5.6vw,4.4rem);color:var(--ink);line-height:1.03;margin:0}
+.hero .rotator .rot-sizer{visibility:hidden}
+.hero .rotator .rot-live{position:absolute;left:0;top:0;right:0;transition:opacity .35s ease,transform .35s ease}
+.hero .rotator .rot-live.out{opacity:0;transform:translateY(-8px)}
+.hero .cursor{display:inline-block;width:.55ch;height:.82em;background:var(--ink);margin-left:.14em;animation:blink 1.05s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.hero .byline{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-top:16px}
+@media(prefers-reduced-motion:reduce){.hero .cursor{animation:none}.hero .rotator{transition:none}}
+.mission-lead{font-family:var(--display);font-weight:600;font-size:clamp(1.35rem,2.8vw,2rem);line-height:1.16;margin-top:26px;max-width:30ch;color:var(--ink)}
+.mission-text{margin-top:22px;font-size:1.08rem;line-height:1.55;color:var(--slate);max-width:62ch}
 </style>
 </head>
 
 <body>
-<a class="skip" href="#content">Découvrir</a>
+<a class="skip" href="#content">Aller au contenu</a>
 
 <header class="site" id="site">
   <div class="bar">
     <a class="brand" href="#top" aria-label="Stratosphérique, accueil">
-<img class="mark" src="./assets/logo_black.svg" alt="" width="34" height="34" />      <span class="word">Stratosphérique</span>
+      <img class="mark" src="./assets/logo_black.svg" alt="" width="32" height="32" />
+      <span class="word">Stratosphérique</span>
     </a>
     <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
     <nav class="menu" id="menu" aria-label="Navigation">
-      <a href="#approche">Approche</a>
-      <a href="#realisations">Réalisations</a>
-      <a href="#methode">Méthode</a>
-      <a href="#ia">Humain × IA</a>
+      <a href="#travaux">Réalisations</a>
+      <a href="#terrains">Secteurs</a>
       <a href="#offre">Offre</a>
+      <a href="#idees">Publications</a>
+      <a href="./manifeste.html">À propos</a>
       <a href="./observatoire.html">Observatoire</a>
       <a class="btn" href="#contact">Prendre contact</a>
     </nav>
@@ -261,218 +325,239 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 
 <main id="content">
 
+<!-- HERO -->
 <section class="hero" id="top">
-  <div class="wrap grid">
-    <div>
-      <span class="label reveal">Catalyseur technologique</span>
-      <h1 class="reveal d1" style="margin-top:18px">La bonne technologie, au bon endroit.<br><span class="it">Et l'usage décolle.</span></h1>
-      <p class="lede reveal d2">Nous aidons vos équipes à adopter la technologie qui leur fait vraiment gagner du temps.</p>
-      <div class="actions reveal d3">
-        <a href="https://calendly.com/nathalie-stratospherique/30min" target="_blank" rel="noopener" class="btn btn-primary">Réserver un échange de 30 min</a>
-        <a href="#analyse" class="btn btn-ghost">Analyse express par IA</a>
+  <svg class="topo" viewBox="0 0 1440 700" aria-hidden="true"><path d="M820.4,357.4 L822.7,359.8 L824.4,362.3 L825.4,364.9 L825.8,367.5 L825.4,370.0 L824.4,372.5 L822.9,374.9 L821.0,377.2 L818.8,379.3 L816.3,381.3 L813.6,383.2 L810.8,385.0 L807.8,386.7 L804.7,388.2 L801.4,389.6 L798.0,390.8 L794.4,391.8 L790.7,392.6 L786.9,393.1 L783.0,393.3 L779.1,393.4 L775.3,393.3 L771.6,393.0 L768.1,392.8 L764.8,392.6 L761.6,392.6 L758.6,392.8 L755.6,393.3 L752.7,394.2 L749.6,395.4 L746.2,396.9 L742.6,398.7 L738.6,400.5 L734.2,402.2 L729.5,403.8 L724.6,405.0 L719.7,405.7 L714.8,405.8 L710.3,405.2 L706.2,404.0 L702.8,402.1 L700.1,399.6 L698.3,396.7 L697.2,393.5 L696.9,390.1 L697.2,386.7 L697.8,383.4 L698.7,380.4 L699.5,377.6 L700.0,375.2 L700.0,373.1 L699.5,371.3 L698.3,369.6 L696.4,368.1 L694.0,366.7 L691.0,365.1 L687.9,363.5 L684.6,361.7 L681.5,359.6 L678.7,357.4 L676.4,355.1 L674.7,352.6 L673.7,350.0 L673.4,347.4 L673.7,344.8 L674.7,342.4 L676.2,340.0 L678.1,337.7 L680.3,335.6 L682.8,333.5 L685.5,331.6 L688.3,329.9 L691.3,328.2 L694.4,326.6 L697.7,325.3 L701.1,324.1 L704.7,323.1 L708.4,322.3 L712.2,321.8 L716.1,321.5 L720.0,321.5 L723.8,321.6 L727.5,321.8 L731.0,322.1 L734.4,322.3 L737.5,322.3 L740.5,322.1 L743.5,321.5 L746.5,320.7 L749.6,319.4 L752.9,317.9 L756.6,316.2 L760.6,314.4 L764.9,312.6 L769.6,311.1 L774.5,309.9 L779.4,309.2 L784.3,309.1 L788.8,309.6 L792.9,310.9 L796.3,312.8 L799.0,315.2 L800.9,318.2 L801.9,321.4 L802.2,324.8 L802.0,328.2 L801.3,331.5 L800.4,334.5 L799.7,337.3 L799.1,339.7 L799.1,341.8 L799.6,343.6 L800.8,345.2 L802.7,346.7 L805.2,348.2 L808.1,349.7 L811.3,351.4 L814.5,353.2 L817.6,355.2 L820.4,357.4 Z"/>
+<path d="M840.3,343.5 L839.9,346.6 L840.1,349.8 L840.8,353.0 L841.8,356.4 L842.9,360.0 L843.8,363.7 L844.5,367.5 L844.7,371.4 L844.3,375.3 L843.2,379.1 L841.4,382.9 L839.0,386.4 L835.9,389.8 L832.3,393.0 L828.2,396.0 L823.8,398.7 L819.1,401.3 L814.1,403.7 L808.8,405.8 L803.4,407.8 L797.8,409.5 L792.0,410.9 L786.0,412.0 L779.9,412.8 L773.6,413.2 L767.4,413.1 L761.2,412.6 L755.1,411.7 L749.2,410.4 L743.5,408.9 L738.1,407.2 L733.0,405.6 L728.1,403.9 L723.3,402.5 L718.5,401.4 L713.6,400.6 L708.4,400.2 L702.8,400.1 L696.9,400.2 L690.4,400.5 L683.5,400.8 L676.3,400.8 L668.9,400.6 L661.6,399.9 L654.5,398.6 L648.1,396.8 L642.4,394.2 L637.8,391.1 L634.3,387.4 L632.2,383.3 L631.2,378.9 L631.4,374.4 L632.6,369.8 L634.6,365.4 L637.0,361.2 L639.5,357.2 L642.0,353.4 L644.1,349.9 L645.8,346.6 L646.8,343.5 L647.1,340.3 L646.9,337.2 L646.2,333.9 L645.3,330.5 L644.2,327.0 L643.2,323.3 L642.6,319.4 L642.4,315.5 L642.8,311.6 L643.9,307.8 L645.7,304.1 L648.1,300.5 L651.2,297.1 L654.8,293.9 L658.8,290.9 L663.2,288.2 L668.0,285.6 L673.0,283.3 L678.2,281.1 L683.6,279.1 L689.3,277.4 L695.1,276.0 L701.1,274.9 L707.2,274.1 L713.4,273.8 L719.7,273.8 L725.9,274.3 L732.0,275.3 L737.9,276.5 L743.5,278.0 L748.9,279.7 L754.1,281.4 L759.0,283.0 L763.8,284.4 L768.6,285.5 L773.5,286.3 L778.7,286.7 L784.2,286.8 L790.2,286.7 L796.7,286.4 L803.5,286.2 L810.8,286.1 L818.2,286.3 L825.5,287.0 L832.5,288.3 L839.0,290.2 L844.6,292.7 L849.3,295.8 L852.7,299.5 L854.9,303.6 L855.8,308.0 L855.6,312.5 L854.4,317.1 L852.5,321.5 L850.1,325.8 L847.5,329.8 L845.1,333.5 L842.9,337.0 L841.3,340.3 L840.3,343.5 Z"/>
+<path d="M865.0,332.7 L867.3,337.4 L869.2,342.3 L870.6,347.3 L871.4,352.4 L871.5,357.5 L870.9,362.7 L869.5,367.8 L867.4,372.9 L864.6,377.8 L861.2,382.6 L857.2,387.2 L852.6,391.6 L847.7,395.9 L842.3,399.9 L836.6,403.8 L830.6,407.6 L824.3,411.1 L817.7,414.5 L810.9,417.7 L803.7,420.6 L796.3,423.3 L788.6,425.6 L780.6,427.5 L772.3,429.0 L763.9,430.0 L755.4,430.6 L746.9,430.6 L738.4,430.0 L730.0,429.0 L721.8,427.6 L714.0,425.7 L706.4,423.5 L699.2,421.2 L692.4,418.6 L685.8,416.1 L679.4,413.6 L673.2,411.2 L667.0,409.0 L660.8,407.0 L654.4,405.2 L647.7,403.5 L640.7,401.9 L633.4,400.4 L625.8,398.8 L617.9,397.1 L609.8,395.2 L601.7,393.0 L593.8,390.4 L586.1,387.3 L578.9,383.8 L572.4,379.9 L566.7,375.5 L561.9,370.8 L558.1,365.7 L555.4,360.3 L553.8,354.8 L553.3,349.2 L553.7,343.6 L555.0,338.1 L557.0,332.7 L559.7,327.4 L562.9,322.3 L566.4,317.4 L570.1,312.7 L574.0,308.1 L577.9,303.7 L582.0,299.4 L586.0,295.2 L590.2,291.1 L594.4,287.1 L598.9,283.2 L603.5,279.4 L608.3,275.7 L613.4,272.2 L618.8,268.8 L624.5,265.7 L630.5,262.7 L636.7,260.0 L643.1,257.5 L649.7,255.2 L656.5,253.1 L663.3,251.1 L670.2,249.2 L677.2,247.4 L684.2,245.6 L691.4,243.8 L698.7,242.0 L706.2,240.1 L713.9,238.3 L721.8,236.6 L730.1,235.0 L738.6,233.6 L747.4,232.5 L756.4,231.9 L765.5,231.6 L774.6,232.0 L783.6,232.9 L792.3,234.6 L800.6,236.8 L808.4,239.8 L815.4,243.3 L821.7,247.4 L827.2,252.0 L831.9,256.9 L835.7,262.1 L838.7,267.4 L841.1,272.8 L843.0,278.1 L844.4,283.3 L845.7,288.4 L846.8,293.2 L848.0,297.8 L849.4,302.3 L851.0,306.7 L852.9,310.9 L855.1,315.1 L857.5,319.4 L860.0,323.7 L862.6,328.1 L865.0,332.7 Z"/>
+<path d="M907.8,330.4 L904.1,337.0 L899.6,343.4 L894.6,349.6 L889.2,355.4 L883.6,361.0 L877.9,366.4 L872.3,371.6 L866.8,376.7 L861.4,381.7 L856.1,386.6 L850.9,391.5 L845.6,396.4 L840.3,401.3 L834.8,406.2 L829.0,411.0 L822.8,415.7 L816.3,420.2 L809.3,424.5 L801.8,428.6 L794.0,432.4 L785.7,435.9 L777.0,439.1 L768.0,441.9 L758.8,444.5 L749.2,446.8 L739.5,448.8 L729.6,450.5 L719.6,452.1 L709.3,453.4 L698.9,454.5 L688.4,455.4 L677.6,456.0 L666.8,456.3 L655.8,456.2 L644.8,455.7 L633.8,454.7 L622.9,453.1 L612.4,450.9 L602.2,448.1 L592.5,444.6 L583.5,440.5 L575.3,435.9 L568.0,430.6 L561.5,425.0 L556.0,419.0 L551.5,412.7 L547.7,406.3 L544.7,399.8 L542.3,393.4 L540.3,387.1 L538.6,381.0 L536.9,375.1 L535.2,369.3 L533.2,363.7 L531.0,358.3 L528.5,352.8 L525.6,347.4 L522.5,341.9 L519.1,336.2 L515.8,330.4 L512.6,324.3 L509.7,318.0 L507.4,311.6 L505.7,304.9 L504.9,298.1 L505.1,291.3 L506.3,284.5 L508.7,277.8 L512.1,271.3 L516.6,265.1 L522.1,259.2 L528.5,253.6 L535.6,248.4 L543.5,243.6 L551.8,239.1 L560.5,235.0 L569.6,231.3 L578.9,227.9 L588.3,224.8 L598.0,221.9 L607.7,219.4 L617.6,217.1 L627.5,215.0 L637.6,213.4 L647.8,212.0 L658.0,211.0 L668.3,210.5 L678.6,210.4 L688.8,210.7 L698.9,211.5 L708.9,212.7 L718.6,214.3 L728.1,216.2 L737.3,218.5 L746.2,220.9 L754.9,223.5 L763.4,226.2 L771.8,228.9 L780.1,231.5 L788.5,234.2 L797.0,236.7 L805.7,239.2 L814.7,241.8 L823.8,244.4 L833.2,247.1 L842.8,250.1 L852.4,253.3 L861.8,257.0 L871.0,261.1 L879.8,265.6 L887.8,270.7 L895.0,276.2 L901.1,282.2 L906.1,288.6 L909.7,295.4 L911.9,302.3 L912.8,309.4 L912.3,316.5 L910.6,323.5 L907.8,330.4 Z"/>
+<path d="M925.0,337.6 L927.6,345.4 L929.2,353.2 L929.8,361.2 L929.3,369.2 L927.7,377.1 L925.0,385.0 L921.4,392.7 L916.8,400.2 L911.4,407.6 L905.2,414.7 L898.4,421.5 L890.9,428.1 L883.0,434.5 L874.5,440.6 L865.6,446.5 L856.2,452.1 L846.4,457.3 L836.1,462.2 L825.3,466.7 L814.0,470.8 L802.3,474.2 L790.2,477.2 L777.8,479.4 L765.2,481.1 L752.4,482.0 L739.6,482.3 L726.9,482.0 L714.4,481.1 L702.0,479.8 L690.0,478.0 L678.3,476.0 L667.0,473.8 L655.8,471.5 L644.9,469.2 L634.1,467.0 L623.4,464.9 L612.5,462.9 L601.4,461.1 L590.1,459.3 L578.5,457.5 L566.5,455.5 L554.4,453.4 L542.0,451.0 L529.7,448.1 L517.5,444.6 L505.6,440.6 L494.2,435.9 L483.7,430.6 L474.0,424.6 L465.5,418.0 L458.3,410.9 L452.4,403.2 L447.8,395.3 L444.7,387.1 L442.9,378.7 L442.3,370.3 L442.7,361.9 L444.1,353.7 L446.3,345.6 L449.0,337.6 L452.2,329.9 L455.8,322.4 L459.6,315.0 L463.7,307.8 L467.9,300.7 L472.3,293.8 L477.0,286.9 L481.9,280.2 L487.2,273.6 L493.0,267.1 L499.2,260.8 L505.9,254.7 L513.1,248.8 L520.8,243.2 L529.0,237.8 L537.7,232.8 L546.8,228.0 L556.3,223.5 L566.0,219.2 L576.0,215.2 L586.2,211.3 L596.6,207.5 L607.2,203.9 L618.1,200.4 L629.2,197.0 L640.7,193.7 L652.5,190.5 L664.6,187.6 L677.1,185.1 L690.0,182.9 L703.3,181.3 L716.7,180.3 L730.3,180.0 L743.9,180.5 L757.3,181.9 L770.4,184.2 L783.1,187.4 L795.0,191.5 L806.2,196.3 L816.5,201.9 L825.8,208.0 L834.1,214.7 L841.6,221.6 L848.2,228.7 L854.0,236.0 L859.3,243.1 L864.2,250.2 L868.7,257.1 L873.2,263.9 L877.7,270.4 L882.4,276.9 L887.2,283.2 L892.2,289.5 L897.4,295.9 L902.7,302.3 L907.9,308.9 L912.9,315.8 L917.5,322.8 L921.6,330.1 L925.0,337.6 Z"/>
+<path d="M987.6,351.0 L991.7,360.4 L994.5,370.1 L995.9,379.9 L995.7,389.8 L993.8,399.6 L990.2,409.2 L985.0,418.5 L978.2,427.4 L969.9,435.9 L960.4,443.8 L949.9,451.1 L938.5,457.9 L926.5,464.1 L914.0,469.8 L901.2,475.1 L888.3,479.9 L875.3,484.4 L862.4,488.6 L849.4,492.6 L836.4,496.3 L823.4,499.9 L810.4,503.2 L797.2,506.3 L783.9,509.1 L770.5,511.6 L756.9,513.7 L743.1,515.5 L729.2,516.7 L715.1,517.5 L701.1,517.8 L687.0,517.6 L672.9,517.0 L658.9,515.9 L645.0,514.5 L631.2,512.7 L617.4,510.6 L603.7,508.2 L590.0,505.6 L576.3,502.8 L562.5,499.7 L548.7,496.4 L535.0,492.7 L521.2,488.6 L507.7,484.1 L494.4,479.1 L481.5,473.5 L469.3,467.3 L457.9,460.5 L447.5,453.0 L438.4,445.0 L430.6,436.4 L424.4,427.3 L419.7,417.9 L416.7,408.2 L415.3,398.4 L415.4,388.6 L416.9,378.9 L419.6,369.3 L423.2,360.0 L427.6,351.0 L432.4,342.2 L437.6,333.8 L442.8,325.6 L447.9,317.6 L452.9,309.7 L457.6,301.9 L462.2,294.1 L466.6,286.2 L470.9,278.3 L475.4,270.2 L480.2,262.0 L485.4,253.8 L491.3,245.6 L497.8,237.5 L505.3,229.6 L513.6,221.9 L522.9,214.6 L533.2,207.7 L544.4,201.4 L556.4,195.6 L569.2,190.5 L582.6,186.0 L596.6,182.2 L610.9,178.9 L625.6,176.2 L640.4,174.1 L655.5,172.5 L670.6,171.4 L685.8,170.8 L701.1,170.6 L716.3,170.9 L731.5,171.7 L746.5,173.0 L761.4,174.9 L776.1,177.3 L790.4,180.4 L804.4,184.1 L817.7,188.5 L830.5,193.5 L842.5,199.1 L853.7,205.2 L864.1,211.8 L873.7,218.8 L882.4,226.1 L890.4,233.6 L897.7,241.2 L904.5,248.8 L911.0,256.4 L917.2,263.9 L923.4,271.4 L929.6,278.8 L936.0,286.1 L942.5,293.5 L949.3,300.9 L956.2,308.6 L963.2,316.4 L970.0,324.5 L976.5,333.0 L982.4,341.8 L987.6,351.0 Z"/>
+<path d="M1054.3,363.8 L1047.8,374.3 L1040.7,384.4 L1033.3,394.1 L1025.9,403.5 L1018.8,412.7 L1012.1,421.7 L1005.8,430.7 L999.9,439.8 L994.1,448.9 L988.4,458.2 L982.3,467.5 L975.7,476.9 L968.4,486.1 L960.1,495.2 L950.9,504.0 L940.6,512.5 L929.2,520.4 L916.9,527.8 L903.6,534.6 L889.6,540.9 L874.9,546.6 L859.7,551.8 L843.9,556.3 L827.7,560.4 L811.2,563.9 L794.3,566.7 L777.1,569.0 L759.7,570.4 L742.2,571.0 L724.7,570.8 L707.3,569.5 L690.2,567.3 L673.5,564.1 L657.4,560.1 L642.0,555.2 L627.3,549.7 L613.3,543.7 L599.9,537.5 L587.1,531.2 L574.6,525.0 L562.1,519.0 L549.6,513.2 L536.6,507.8 L523.2,502.5 L509.2,497.4 L494.7,492.2 L479.7,486.8 L464.6,481.0 L449.7,474.5 L435.4,467.4 L422.1,459.4 L410.3,450.6 L400.4,441.0 L392.7,430.7 L387.4,419.8 L384.5,408.6 L384.2,397.2 L386.0,385.9 L389.8,374.7 L395.1,363.8 L401.6,353.3 L408.7,343.2 L416.1,333.5 L423.5,324.1 L430.6,314.9 L437.3,305.9 L443.6,296.9 L449.5,287.8 L455.2,278.7 L461.0,269.4 L467.1,260.1 L473.7,250.7 L481.0,241.5 L489.2,232.4 L498.5,223.6 L508.8,215.2 L520.2,207.2 L532.5,199.8 L545.7,193.0 L559.8,186.7 L574.5,181.0 L589.7,175.9 L605.5,171.3 L621.7,167.2 L638.2,163.7 L655.1,160.9 L672.3,158.7 L689.7,157.2 L707.2,156.6 L724.7,156.8 L742.1,158.1 L759.2,160.3 L775.9,163.5 L792.0,167.5 L807.4,172.4 L822.1,177.9 L836.1,183.9 L849.4,190.1 L862.3,196.4 L874.8,202.6 L887.2,208.6 L899.8,214.4 L912.7,219.8 L926.2,225.1 L940.2,230.2 L954.7,235.4 L969.7,240.8 L984.8,246.6 L999.7,253.1 L1014.0,260.2 L1027.3,268.2 L1039.1,277.0 L1049.0,286.6 L1056.7,296.9 L1062.0,307.8 L1064.8,319.0 L1065.2,330.4 L1063.4,341.7 L1059.6,352.9 L1054.3,363.8 Z"/>
+<path d="M1126.1,369.9 L1129.6,382.4 L1131.2,395.1 L1130.8,407.8 L1128.3,420.4 L1123.7,432.8 L1117.1,444.8 L1108.7,456.4 L1098.5,467.4 L1086.9,477.9 L1074.1,487.7 L1060.3,496.8 L1045.8,505.3 L1030.8,513.3 L1015.4,520.8 L999.8,527.8 L984.1,534.4 L968.3,540.7 L952.4,546.7 L936.4,552.5 L920.3,557.9 L904.0,563.1 L887.4,567.9 L870.6,572.4 L853.4,576.4 L835.9,579.9 L818.2,582.8 L800.2,585.2 L782.0,586.9 L763.6,588.0 L745.2,588.5 L726.7,588.4 L708.3,587.7 L689.8,586.6 L671.5,584.9 L653.1,582.9 L634.8,580.5 L616.5,577.7 L598.2,574.6 L579.9,571.0 L561.6,567.0 L543.4,562.5 L525.4,557.5 L507.6,551.8 L490.3,545.4 L473.6,538.3 L457.8,530.3 L443.1,521.6 L429.8,512.0 L417.9,501.7 L407.8,490.7 L399.5,479.1 L393.1,467.1 L388.6,454.8 L385.9,442.3 L384.9,429.8 L385.5,417.3 L387.3,405.1 L390.2,393.0 L393.9,381.3 L398.1,369.9 L402.6,358.8 L407.2,347.9 L411.8,337.2 L416.2,326.6 L420.5,316.0 L424.7,305.4 L429.0,294.7 L433.5,283.9 L438.3,273.0 L443.7,262.0 L449.8,251.0 L456.9,240.0 L465.0,229.3 L474.4,218.8 L485.1,208.6 L497.0,199.0 L510.2,190.0 L524.5,181.6 L539.9,173.9 L556.3,167.1 L573.5,160.9 L591.3,155.6 L609.7,151.0 L628.4,147.1 L647.5,143.9 L666.8,141.3 L686.3,139.4 L705.9,138.0 L725.5,137.3 L745.2,137.1 L764.8,137.6 L784.4,138.8 L803.7,140.8 L822.8,143.4 L841.6,146.9 L859.8,151.2 L877.4,156.3 L894.3,162.2 L910.4,168.8 L925.6,176.1 L939.9,184.0 L953.3,192.3 L965.7,201.1 L977.4,210.0 L988.4,219.1 L998.8,228.3 L1008.9,237.5 L1018.7,246.7 L1028.5,255.8 L1038.3,265.0 L1048.1,274.2 L1058.1,283.5 L1068.2,293.0 L1078.3,302.8 L1088.1,312.9 L1097.6,323.5 L1106.4,334.4 L1114.2,345.9 L1120.9,357.7 L1126.1,369.9 Z"/>
+<path d="M1167.1,366.3 L1172.9,380.1 L1176.3,394.1 L1177.0,408.3 L1174.9,422.4 L1169.9,436.2 L1162.0,449.5 L1151.6,462.1 L1139.0,474.0 L1124.7,485.0 L1109.0,495.2 L1092.5,504.6 L1075.5,513.4 L1058.5,521.7 L1041.5,529.6 L1024.8,537.3 L1008.3,544.9 L992.1,552.4 L975.9,559.9 L959.6,567.4 L943.0,574.7 L926.1,581.8 L908.6,588.6 L890.5,595.0 L871.8,600.7 L852.5,605.8 L832.6,610.2 L812.2,613.9 L791.4,616.8 L770.3,619.0 L748.9,620.4 L727.4,621.3 L705.7,621.4 L683.9,621.0 L662.0,619.8 L640.2,617.9 L618.6,615.1 L597.2,611.4 L576.3,606.7 L556.2,600.9 L536.9,593.9 L518.9,585.9 L502.3,576.8 L487.3,566.7 L473.8,555.7 L462.0,544.2 L451.7,532.3 L442.6,520.1 L434.5,507.9 L427.1,495.9 L419.9,484.1 L412.6,472.6 L404.9,461.3 L396.5,450.2 L387.5,439.1 L377.8,428.0 L367.6,416.5 L357.4,404.7 L347.5,392.5 L338.4,379.6 L330.8,366.3 L325.0,352.5 L321.6,338.4 L320.8,324.3 L323.0,310.2 L328.0,296.4 L335.9,283.1 L346.3,270.5 L358.9,258.6 L373.2,247.6 L388.9,237.4 L405.4,228.0 L422.4,219.2 L439.4,210.9 L456.4,203.0 L473.1,195.3 L489.6,187.7 L505.8,180.2 L522.0,172.7 L538.3,165.2 L554.8,157.9 L571.8,150.7 L589.3,143.9 L607.4,137.6 L626.1,131.9 L645.4,126.8 L665.3,122.4 L685.7,118.7 L706.5,115.8 L727.6,113.6 L748.9,112.1 L770.5,111.3 L792.2,111.1 L814.0,111.6 L835.9,112.8 L857.7,114.7 L879.3,117.5 L900.7,121.2 L921.6,125.9 L941.7,131.7 L960.9,138.6 L979.0,146.7 L995.6,155.8 L1010.6,165.9 L1024.1,176.8 L1035.9,188.4 L1046.2,200.3 L1055.3,212.5 L1063.4,224.7 L1070.8,236.7 L1078.0,248.5 L1085.3,260.0 L1093.0,271.3 L1101.4,282.4 L1110.4,293.5 L1120.1,304.6 L1130.2,316.0 L1140.5,327.8 L1150.4,340.1 L1159.4,353.0 L1167.1,366.3 Z"/>
+<path d="M1205.8,354.7 L1210.2,370.2 L1210.6,385.8 L1207.0,401.2 L1199.5,416.1 L1188.5,430.3 L1174.8,443.6 L1159.1,456.0 L1142.3,467.6 L1125.1,478.4 L1108.2,488.9 L1092.0,499.1 L1076.8,509.4 L1062.4,519.9 L1048.6,530.7 L1035.1,541.8 L1021.5,553.1 L1007.4,564.4 L992.3,575.6 L976.0,586.3 L958.5,596.4 L939.5,605.5 L919.4,613.6 L898.1,620.6 L875.9,626.5 L853.0,631.3 L829.5,635.0 L805.7,637.7 L781.7,639.4 L757.6,640.1 L733.4,639.7 L709.5,638.3 L685.8,635.8 L662.6,632.1 L640.0,627.3 L618.2,621.5 L597.2,614.7 L577.1,607.3 L557.8,599.4 L539.0,591.3 L520.6,583.3 L502.2,575.5 L483.5,568.0 L464.1,560.9 L444.1,554.0 L423.3,547.0 L401.9,539.8 L380.5,531.9 L359.6,523.1 L339.8,513.2 L322.1,502.0 L307.1,489.4 L295.4,475.6 L287.4,460.9 L283.2,445.4 L282.6,429.6 L285.1,413.8 L290.0,398.3 L296.3,383.2 L303.2,368.7 L309.8,354.7 L315.4,341.1 L319.6,327.7 L322.1,314.3 L323.1,300.6 L323.1,286.5 L322.7,272.0 L322.6,256.9 L323.7,241.6 L326.8,226.2 L332.3,211.1 L340.6,196.5 L351.9,182.8 L366.0,170.3 L382.7,158.9 L401.6,149.0 L422.0,140.3 L443.5,132.7 L465.6,126.2 L488.0,120.4 L510.5,115.3 L532.8,110.5 L554.9,106.1 L577.0,102.0 L599.0,98.2 L621.1,94.7 L643.2,91.6 L665.6,89.0 L688.0,86.9 L710.7,85.3 L733.4,84.2 L756.4,83.6 L779.5,83.3 L802.7,83.4 L826.3,83.9 L850.1,84.9 L874.1,86.4 L898.2,88.6 L922.2,91.9 L945.8,96.3 L968.6,102.2 L990.2,109.6 L1010.1,118.6 L1028.0,129.2 L1043.6,141.1 L1056.8,154.2 L1067.8,168.1 L1076.8,182.3 L1084.4,196.6 L1091.3,210.6 L1098.1,224.2 L1105.4,237.2 L1113.9,249.7 L1123.9,261.8 L1135.4,273.7 L1148.1,285.8 L1161.5,298.3 L1174.9,311.4 L1187.4,325.1 L1198.0,339.6 L1205.8,354.7 Z"/>
+<path d="M1172.0,340.8 L1170.3,355.8 L1168.4,370.8 L1166.2,385.7 L1163.5,400.7 L1160.1,415.8 L1155.9,430.9 L1150.7,446.0 L1144.3,461.0 L1136.5,475.9 L1127.3,490.6 L1116.5,504.9 L1104.2,518.9 L1090.4,532.3 L1075.1,545.2 L1058.5,557.5 L1040.6,569.2 L1021.6,580.2 L1001.6,590.5 L980.7,600.2 L959.0,609.3 L936.5,617.7 L913.4,625.5 L889.6,632.6 L865.2,638.9 L840.3,644.5 L814.7,649.3 L788.8,653.0 L762.4,655.8 L735.8,657.3 L709.0,657.7 L682.3,656.7 L655.8,654.4 L629.8,650.8 L604.4,645.8 L579.9,639.6 L556.3,632.3 L533.7,624.0 L512.3,614.8 L491.9,605.0 L472.6,594.7 L454.2,584.1 L436.6,573.3 L419.6,562.4 L402.9,551.6 L386.5,540.8 L370.2,530.0 L353.8,519.2 L337.3,508.3 L320.7,497.2 L304.2,485.7 L287.8,473.9 L271.7,461.5 L256.3,448.6 L241.9,434.9 L228.8,420.6 L217.2,405.6 L207.6,390.1 L200.0,374.0 L194.8,357.5 L192.0,340.8 L191.7,324.0 L193.8,307.3 L198.3,290.7 L204.9,274.4 L213.5,258.5 L223.9,243.1 L235.8,228.2 L249.0,213.9 L263.3,200.0 L278.6,186.8 L294.6,174.0 L311.4,161.7 L328.8,149.9 L346.8,138.6 L365.5,127.9 L384.8,117.6 L404.9,108.0 L425.6,99.0 L446.9,90.6 L469.0,83.1 L491.6,76.3 L514.8,70.4 L538.4,65.3 L562.4,61.1 L586.6,57.6 L611.0,54.9 L635.5,52.9 L660.0,51.5 L684.5,50.6 L709.0,50.1 L733.6,50.0 L758.3,50.1 L783.1,50.7 L808.2,51.5 L833.5,52.7 L859.1,54.4 L884.9,56.7 L910.9,59.7 L936.8,63.6 L962.6,68.5 L988.0,74.5 L1012.6,81.7 L1036.3,90.2 L1058.7,100.0 L1079.5,111.1 L1098.5,123.4 L1115.4,136.8 L1130.2,151.1 L1142.6,166.2 L1152.9,181.9 L1160.9,198.1 L1167.0,214.4 L1171.3,230.8 L1174.0,247.2 L1175.4,263.4 L1175.8,279.3 L1175.5,295.0 L1174.7,310.5 L1173.5,325.7 L1172.0,340.8 Z"/>
+<path d="M1225.7,331.4 L1231.4,349.0 L1234.3,366.8 L1234.3,384.7 L1231.1,402.5 L1225.1,420.0 L1216.3,437.1 L1205.3,453.6 L1192.2,469.5 L1177.4,484.8 L1161.3,499.5 L1144.0,513.5 L1125.6,526.8 L1106.2,539.5 L1085.8,551.4 L1064.6,562.5 L1042.4,572.8 L1019.6,582.3 L996.1,591.1 L972.3,599.2 L948.2,606.7 L924.1,614.0 L899.9,621.1 L875.7,628.3 L851.3,635.6 L826.6,643.2 L801.4,650.8 L775.4,658.2 L748.5,665.2 L720.6,671.2 L691.9,675.7 L662.5,678.4 L633.0,678.9 L603.7,676.8 L575.1,672.1 L547.8,664.9 L522.1,655.5 L498.2,644.3 L476.2,631.8 L455.7,618.8 L436.4,605.7 L417.8,593.1 L399.1,581.2 L379.9,570.3 L359.6,560.2 L338.0,550.9 L315.0,541.8 L291.1,532.7 L266.7,523.0 L242.6,512.3 L219.6,500.5 L198.8,487.2 L180.9,472.5 L166.4,456.5 L155.9,439.4 L149.3,421.6 L146.5,403.3 L146.9,384.9 L150.1,366.7 L155.3,348.9 L161.7,331.4 L168.8,314.4 L176.1,297.8 L183.4,281.5 L190.4,265.3 L197.3,249.3 L204.4,233.2 L211.9,217.2 L220.2,201.2 L229.4,185.3 L239.9,169.6 L251.6,154.2 L264.8,139.1 L279.3,124.3 L295.1,110.0 L312.2,96.0 L330.5,82.6 L350.0,69.7 L370.7,57.4 L392.8,45.9 L416.2,35.4 L441.0,26.2 L467.1,18.5 L494.4,12.4 L522.5,8.3 L551.2,6.0 L580.1,5.5 L608.9,6.7 L637.2,9.1 L664.9,12.4 L691.9,16.1 L718.2,19.7 L744.2,22.8 L770.1,25.2 L796.3,26.8 L823.2,27.7 L850.9,28.1 L879.5,28.4 L908.9,29.2 L938.8,31.0 L968.4,34.4 L997.3,39.8 L1024.6,47.5 L1049.5,57.6 L1071.5,70.0 L1090.3,84.4 L1105.7,100.4 L1118.0,117.5 L1127.5,135.2 L1134.9,153.1 L1141.1,170.6 L1146.8,187.7 L1152.9,204.2 L1159.8,220.1 L1167.8,235.6 L1177.0,250.8 L1187.2,266.2 L1197.8,281.7 L1208.3,297.8 L1217.8,314.3 L1225.7,331.4 Z"/></svg>
+  <div class="wrap">
+    <div class="inner">
+      <span class="label eyebrow reveal">Stratégie &amp; opérations</span>
+      <h1 class="rotator reveal d1" aria-live="polite"><span class="rot-sizer" aria-hidden="true">Transformer vos idées en plan d'exécution.</span><span class="rot-live"><span id="rot">Dérisquer vos innovations.</span><span class="cursor" aria-hidden="true"></span></span></h1>
+      <div class="byline reveal d2">Nathalie Beugé · Head of Product</div>
+      <p class="sub reveal d2">Mener vos produits au succès, de la stratégie au terrain.</p>
+      <div class="cta reveal d3">
+        <a href="https://calendar.app.google/BK3kgHikuWsr1CEn7" target="_blank" rel="noopener" class="btn">Réserver un échange</a>
+        <a href="#travaux" class="btn btn-ghost">Voir les travaux</a>
       </div>
     </div>
-    <div class="hero-visual reveal d4">
-      <svg class="compass" viewBox="0 0 420 420" aria-hidden="true">
-        <defs><path id="ringpath" d="M210,210 m-180,0 a180,180 0 1,1 360,0 a180,180 0 1,1 -360,0"/></defs>
-        <g class="compass-spin">
-          <circle class="ring" cx="210" cy="210" r="200"/>
-          <text class="ring-text"><textPath href="#ringpath" startOffset="0"> ·  ·  ·  </textPath></text>
-        </g>
-<image href="./assets/logo_black.svg" x="110" y="110" width="200" height="200"/>
-        <circle class="core" cx="210" cy="210" r="3.5"/>
-      </svg>
-      <div class="caption">Humain × IA augmentée</div>
+    <div class="proof reveal">
+      <span class="pl">Track record</span>
+      <div class="pitems">
+        <div><span class="n">Decathlon</span><span class="d">15+ ans</span></div>
+        <div><span class="n">Pennylane</span><span class="d">1 an</span></div>
+        <div><span class="n">ESSEC</span><span class="d">3 ans</span></div>
+        <div><span class="n">OSV</span><span class="d">3 ans</span></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="dark constat" id="constat">
+<!-- STATEMENT -->
+<section class="statement">
   <div class="wrap">
-    <span class="label label--inv reveal">Le constat</span>
-    <h2 class="big reveal d1">La technologie ne transforme rien <span class="it">toute seule.</span></h2>
-    <div class="cols">
-      <p class="reveal d2" style="grid-column:1 / -1;max-width:40ch">Branchée sur un usage réel, la technologie devient un levier puissant ; <b>sans usage clair, elle n'ajoute que du coût et de la complexité.</b></p>
+    <h2 class="reveal">Ma mission : des produits que vos utilisateurs adoptent, et qui font grandir votre entreprise.</h2>
+    <p class="mission-lead reveal">Transformer un système complexe en un produit simple, marquant, unique.</p>
+    <p class="mission-text reveal">Je travaille avec des équipes produit responsabilisées et pluridisciplinaires, capables de livrer des expériences complètes, soignées jusque dans le détail. Les décisions se prennent en découverte continue : expérimentation, données d'usage, écoute permanente des utilisateurs. Et l'IA, pensée autant comme dimension du produit que comme manière plus affûtée de concevoir et de livrer.</p>
+    <div class="smetrics reveal">
+      <div><span class="v">×8</span><span class="kk">de 100K à 800K utilisateurs actifs mensuels (MAU) en un an, via une nouvelle stratégie produit</span></div>
+      <div><span class="v">2 mois</span><span class="kk">gagnés sur le time-to-market en développement produit, grâce à la conception VR des tentes familiales et casques de ski</span></div>
+      <div><span class="v">22 → 50</span><span class="kk">personnes : l'organisation produit portée à l'échelle européenne en 8 mois</span></div>
     </div>
   </div>
 </section>
 
-<section id="approche">
+<!-- LE PRODUIT EN PROFONDEUR : stratégie + innovation + tech -->
+<section id="facets">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="label">L'approche</span>
-      <h2>Partir de l'usage, choisir la bonne technologie, la faire adopter.</h2>
-      <p>Nous travaillons avec vos équipes, au plus près du terrain. Quatre principes, du premier cadrage jusqu'à l'usage quotidien.</p>
+    <div class="lead reveal" style="max-width:62ch">
+      <span class="label eyebrow">Le produit, en profondeur</span>
+      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Stratégie, innovation, tech et management.</h2>
     </div>
-    <div class="pillars">
-      <div class="pillar reveal"><div class="n">01</div><h3>L'usage d'abord</h3><p>Travailler avec les équipes sur le terrain, à partir de leurs usages réels, jamais de l'outil.</p></div>
-      <div class="pillar reveal d1"><div class="n">02</div><h3>L'écosystème</h3><p>Cartographier le réseau de partenaires, les systèmes et les valeurs avant de décider.</p></div>
-      <div class="pillar reveal d2"><div class="n">03</div><h3>Le bon levier</h3><p>Choisir la technologie qui crée de la valeur, réalité virtuelle, applications, données ou intelligence artificielle, et écarter le reste.</p></div>
-      <div class="pillar reveal d3"><div class="n">04</div><h3>L'adoption</h3><p>Installer, accompagner, mesurer. La technologie ne transforme que si elle est adoptée.</p></div>
+    <div class="facets reveal">
+      <div><span class="fn">01</span><h3>Stratégie</h3><p>Vision, priorisation, business model, arbitrages.</p></div>
+      <div><span class="fn">02</span><h3>Innovation</h3><p>Discovery, validation, nouveaux relais de croissance.</p></div>
+      <div><span class="fn">03</span><h3>Tech</h3><p>L'IA et la donnée, branchées là où elles créent de la valeur.</p></div>
+      <div><span class="fn">04</span><h3>Management</h3><p>Je pilote et fais grandir des équipes produit : recrutement, montée en compétences, culture de la qualité.</p></div>
     </div>
-    <p class="approche-quote reveal">« Aucun vent n'est favorable à celui qui ne sait où il va. »<span class="aq-cite">Sénèque</span></p>
   </div>
 </section>
 
-<section id="realisations">
+<!-- TRAVAUX : cas orientés résultat -->
+<section class="wash" id="travaux">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="label">Réalisations</span>
-      <h2>Vingt ans à brancher la technologie sur des usages réels.</h2>
-      <p>Réalité virtuelle, numérique, applications, données, intelligence artificielle. Le point commun n'est jamais l'outil, mais ce qu'il permet.</p>
+    <div class="cases-head reveal">
+      <div><span class="label eyebrow">Réalisations</span><h2>Projets sélectionnés.</h2></div>
+      <a class="arrow-link" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Tout voir sur Behance</a>
     </div>
-    <div class="work reveal">
-      <a class="witem witem--link" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener"><div class="wt">VR · Conception</div><p>Chez Decathlon, une chaîne de conception en 3D et réalité virtuelle, pour créer et valider les produits sans multiplier les prototypes.</p><span class="wgo">Voir le projet →</span></a>
-      <a class="witem witem--link" href="https://www.behance.net/gallery/179288099/Designing-immersive-retail-experiences-for-Decathlon" target="_blank" rel="noopener"><div class="wt">VR · Magasin</div><p>Visiter une tente grandeur nature en magasin, sans la monter. Se projeter avant d'acheter.</p><span class="wgo">Voir le projet →</span></a>
-      <a class="witem witem--link" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener"><div class="wt">Numérique · Nature</div><p>Des expériences numériques pour remettre les enfants dehors et reconnecter les familles à la nature.</p><span class="wgo">Voir le projet →</span></a>
-      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Applications · Performance</div><p>Aider les coureurs à préparer un marathon sans se blesser, et les sportifs à progresser chez eux avec leurs objets connectés.</p><span class="wgo">Voir le projet →</span></a>
-      <a class="witem witem--link" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener"><div class="wt">Applications · Mobilité</div><p>Aider les utilisateurs de vélo électrique à ne plus perdre leur vélo et à gérer les vitesses sans y penser.</p><span class="wgo">Voir le projet →</span></a>
-      <div class="witem"><div class="wt">IA · Productivité</div><p>Chez Pennylane, l'IA pour diviser par trois le temps des cabinets comptables sur les tâches sans valeur ajoutée.</p></div>
+    <div class="cases reveal">
+      <a class="case" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener">
+        <div class="ck">Decathlon · One App</div>
+        <h3 class="ct">Un écosystème produit cohérent</h3>
+        <span class="go arrow-link">Voir sur Behance</span>
+      </a>
+      <a class="case" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener">
+        <div class="ck">Decathlon · Conception VR</div>
+        <h3 class="ct">Une chaîne de conception en réalité virtuelle</h3>
+        <span class="go arrow-link">Voir sur Behance</span>
+      </a>
+      <a class="case" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener">
+        <div class="ck">Outdoor · Nature</div>
+        <h3 class="ct">Remettre les enfants dehors</h3>
+        <span class="go arrow-link">Voir sur Behance</span>
+      </a>
     </div>
-    <div class="work-cta reveal"><a class="btn" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Voir tous les projets sur Behance</a></div>
   </div>
 </section>
 
-<section class="method" id="methode">
+<!-- TERRAINS : positif, façon secteurs -->
+<section id="terrains">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="label">La méthode</span>
-      <h2>Comprendre, Cibler, Déployer, Ancrer</h2>
-      <p>Un parcours clair, du terrain à l'usage. Nous lisons l'entreprise telle qu'elle est, ciblons où la technologie aide vraiment, déployons, puis veillons à ce que l'usage s'installe.</p>
+    <div class="reveal" style="max-width:60ch">
+      <span class="label eyebrow">Secteurs</span>
+      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Domaines d'intervention.</h2>
     </div>
-    <div class="steps">
-      <div class="step reveal"><div class="num">01</div><h3>Comprendre</h3><p>Immersion : systèmes technologiques, équipes, écosystème, partenaires, valeurs.</p></div>
-      <div class="step reveal d1"><div class="num">02</div><h3>Cibler</h3><p>Identifier où la technologie peut être un vrai levier, et où elle n'apporte rien.</p></div>
-      <div class="step reveal d2"><div class="num">03</div><h3>Déployer</h3><p>Lancer et exécuter : mise en oeuvre, intégration, accompagnement des équipes.</p></div>
-      <div class="step reveal d3"><div class="num">04</div><h3>Ancrer</h3><p>Mesurer l'usage et l'adoption. Une techno ne vaut que si elle est utilisée.</p></div>
+    <div class="terr reveal">
+      <div class="card">
+        <div><span class="tk">01</span><h3>Sport &amp; outdoor</h3></div>
+        <p>Du produit grand public à l'équipement de montagne, l'usage réel avant l'outil.</p>
+      </div>
+      <div class="card">
+        <div><span class="tk">02</span><h3>SaaS fintech</h3></div>
+        <p>Activation, rétention, unit economics : le produit qui soutient la croissance.</p>
+      </div>
+      <div class="card">
+        <div><span class="tk">03</span><h3>IA appliquée</h3></div>
+        <p>L'IA branchée là où elle fait gagner du temps et ouvre des angles.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="dark" id="ia">
+<!-- OFFRE -->
+<section id="offre">
   <div class="wrap">
-    <div class="head reveal" style="max-width:none">
-      <span class="label label--inv">Humain × IA</span>
-      <p class="ia-intro" style="margin-top:18px">L'IA est un levier parmi d'autres. Bien cadrée, elle fait gagner du temps et ouvre des angles. Voici où nous la branchons, concrètement.</p>
+    <div class="reveal" style="max-width:64ch">
+      <span class="label eyebrow">L'offre</span>
+      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Un accompagnement structuré, du diagnostic à l'exécution.</h2>
+      <p class="offer-anchor">Premier échange et cadrage <b>offerts</b>. Tarifs et disponibilités sur <a href="https://www.malt.fr/profile/nathaliebeuge" target="_blank" rel="noopener">mon profil Malt</a>.</p>
     </div>
-    <div class="uses">
-      <div class="use reveal"><div class="un">01</div><h3>Veille élargie</h3><p>Croiser en quelques heures des champs éloignés (sciences, design, économie, histoire) pour nourrir la réflexion, là où il fallait plusieurs jours.</p></div>
-      <div class="use reveal d1"><div class="un">02</div><h3>Contradicteur</h3><p>Soumettre un raisonnement à l'IA pour faire ressortir les angles morts, les contre-exemples et les failles, avant un comité de direction.</p></div>
-      <div class="use reveal d2"><div class="un">03</div><h3>Idéation sans biais</h3><p>Sortir des idées convenues. Sur un atelier produit pour enfants, l'IA a remplacé la énième montre connectée par des compagnons numériques qui guident l'enfant dehors.</p></div>
-      <div class="use reveal"><div class="un">04</div><h3>Automatisation utile</h3><p>Réduire le temps passé sur les tâches sans valeur ajoutée, comme les heures rendues aux cabinets comptables.</p></div>
-      <div class="use reveal d1"><div class="un">05</div><h3>Signaux faibles</h3><p>Surveiller les frictions et les incidents qui annoncent une dérive, avant qu'elle ne coûte cher.</p></div>
-      <div class="use reveal d2"><div class="un">06</div><h3>Personnalisation</h3><p>Adapter le produit, le service ou le message par profil et par usage, sans tout refaire à chaque fois.</p></div>
+    <div class="offers reveal">
+      <article class="offer">
+        <span class="tag">01 · Diagnostic</span><h3>Savoir où votre produit décroche</h3><div class="dur">à partir de 6 jours</div>
+        <ul><li>Une carte claire de ce qui bloque vos utilisateurs</li><li>Les points de fuite chiffrés, du plus coûteux au plus mineur</li><li>Les trois chantiers à lancer en premier</li></ul>
+        <div class="res">Vous repartez avec une lecture nette de vos leviers.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+      </article>
+      <article class="offer">
+        <span class="tag">02 · Insights</span><h3>Comprendre pourquoi vos utilisateurs restent ou partent</h3><div class="dur">à partir de 12 jours</div>
+        <ul><li>Ce que vos utilisateurs veulent vraiment, dans leurs mots</li><li>Les vraies raisons du départ et de la fidélité</li><li>Les décisions produit à prendre, étayées</li></ul>
+        <div class="res">Vous décidez sur des faits, plus sur des intuitions.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+      </article>
+      <article class="offer">
+        <span class="tag">03 · Stratégique</span><h3>Un cap produit clair pour vos six prochains mois</h3><div class="dur">à partir de 19 jours</div>
+        <ul><li>Le diagnostic et les insights réunis</li><li>Un modèle économique qui tient : offre, prix</li><li>Une feuille de route priorisée, prête à pitcher</li></ul>
+        <div class="res">Le document qui aligne votre équipe et vos investisseurs.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+      </article>
+      <article class="offer offer-wide">
+        <div><span class="tag">04 · Et après</span><h3>Je reste pour faire décoller le produit avec vos équipes</h3><p>Direction produit à temps partagé, advisor, ou prise en charge d'un chantier prioritaire jusqu'à l'adoption.</p></div>
+        <a href="#contact" class="btn">Contactez-moi</a>
+      </article>
     </div>
-    <p class="ia-rule reveal">Une règle simple : formuler sa position avant de demander à l'IA. Elle renforce le jugement, elle ne le remplace pas.</p>
   </div>
 </section>
 
+<!-- IDÉES : articles Substack -->
+<section class="wash" id="idees">
+  <div class="wrap">
+    <div class="cases-head reveal">
+      <div><span class="label eyebrow">Publications</span><h2>Analyses &amp; points de vue.</h2></div>
+      <a class="arrow-link" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Tout lire sur Substack</a>
+    </div>
+    <div class="cases reveal">
+      <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
+        <div class="ck">Human × AI · 2/4</div>
+        <h3 class="ct">AI isn't replacing us: it's rewriting how work works</h3>
+        <span class="go arrow-link">Lire</span>
+      </a>
+      <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
+        <div class="ck">Human × AI · 1/4</div>
+        <h3 class="ct">Human × AI = where clarity becomes velocity</h3>
+        <span class="go arrow-link">Lire</span>
+      </a>
+      <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
+        <div class="ck">Altitude Note #3</div>
+        <h3 class="ct">The age of acceleration and the cost of not choosing</h3>
+        <span class="go arrow-link">Lire</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ANALYSE EXPRESS (lead magnet) -->
 <section id="analyse">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="label">Analyse express</span>
-      <h2>Où la technologie peut vous servir, en deux minutes.</h2>
-      <p>Donnez deux ou trois éléments. Nous générons une requête prête à l'emploi : copiez-la dans l'outil d'IA de votre choix et repartez avec une première lecture, concrète, des leviers technologiques possibles chez vous.</p>
+    <div class="reveal" style="max-width:60ch">
+      <span class="label eyebrow">Mini-audit IA</span>
+      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Votre entreprise au crible de ma méthode, en deux minutes.</h2>
+      <p style="color:var(--slate);margin-top:18px">Trois infos, et vous repartez avec un mini-audit IA structuré sur ma méthode, prêt à coller dans ChatGPT ou Claude.</p>
     </div>
     <div class="az-form reveal">
       <div class="az-field"><label for="az-name">Votre entreprise</label><input id="az-name" type="text" placeholder="Nom de l'entreprise" /></div>
-      <div class="az-field"><label for="az-sector">Site ou secteur</label><input id="az-sector" type="text" placeholder="ex. commerce en ligne plein air, logiciel RH..." /></div>
-      <div class="az-field full"><label for="az-goal">Votre enjeu du moment (optionnel)</label><textarea id="az-goal" placeholder="ex. trop de temps perdu sur des tâches manuelles"></textarea></div>
+      <div class="az-field"><label for="az-sector">Secteur</label><input id="az-sector" type="text" placeholder="ex. équipement sport, SaaS RH..." /></div>
+      <div class="az-field full"><label for="az-goal">Votre enjeu du moment (optionnel)</label><textarea id="az-goal" placeholder="ex. activation trop faible"></textarea></div>
+      <div class="az-field full"><label for="az-email">Votre email</label><input id="az-email" type="email" placeholder="vous@entreprise.com" required /></div>
+      <div class="az-field full az-consent"><label><input id="az-ok" type="checkbox" /> <span>J'accepte de recevoir mon analyse et, occasionnellement, les notes de Stratosphérique. Désinscription en un clic. <a href="./mentions-legales.html">Vos données</a>.</span></label></div>
     </div>
     <div class="az-actions reveal">
-      <button class="btn btn-primary" id="az-gen" type="button">Générer la requête</button>
+      <button class="btn" id="az-gen" type="button">Recevoir mon analyse</button>
+      <span class="az-err" id="az-err" role="alert"></span>
     </div>
-    <div class="az-result reveal" id="az-result">
-      <textarea class="az-out" id="az-out" readonly aria-label="Requête générée"></textarea>
+    <div class="az-result" id="az-result">
+      <textarea class="az-out" id="az-out" readonly aria-label="Analyse générée"></textarea>
       <div class="az-actions">
-        <a class="btn btn-primary" id="az-gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">Ouvrir dans ChatGPT</a>
+        <a class="btn" id="az-gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">Ouvrir dans ChatGPT</a>
         <a class="btn btn-ghost" id="az-claude" href="https://claude.ai/new" target="_blank" rel="noopener">Ouvrir dans Claude</a>
-        <button class="btn btn-ghost" id="az-copy" type="button">Copier la requête</button>
+        <button class="btn btn-ghost" id="az-copy" type="button">Copier</button>
       </div>
-      <p class="az-note">La requête est aussi copiée dans votre presse-papiers : collez-la si besoin.</p>
+      <p class="az-note">L'analyse est aussi copiée dans votre presse-papiers.</p>
     </div>
   </div>
 </section>
 
-<section id="offre">
+<!-- MÉTHODE : la revendication (le détail vit sur l'à propos) -->
+<section class="wash" id="methode-teaser">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="label">L'offre</span>
-      <h2>Nous intervenons dans l'entreprise et avançons par étapes.</h2>
-      <p>De la recherche sur le terrain jusqu'à l'adoption. À chaque étape, des livrables concrets et un résultat clair.</p>
-    </div>
-    <div class="offers">
-      <article class="offer reveal">
-        <span class="tag">01 · Recherche</span><h3>Immersion & terrain</h3><div class="dur">2 à 3 semaines</div>
-        <ul><li>Cartographie des systèmes technologiques</li><li>Entretiens avec les collaborateurs</li><li>Cartographie de l'écosystème et des partenaires</li><li>Lecture des valeurs</li></ul>
-        <div class="res"><b>Une lecture claire de votre terrain.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
-      </article>
-      <article class="offer reveal d1">
-        <span class="tag">02 · Audit</span><h3>Audit & recommandations</h3><div class="dur">1 à 2 semaines</div>
-        <ul><li>Où la technologie est un vrai levier (et où non)</li><li>Cas d'usage chiffrés et priorisés</li><li>Feuille de route</li></ul>
-        <div class="res"><b>Des recommandations applicables.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
-      </article>
-      <article class="offer reveal d2">
-        <span class="tag">03 · Déploiement</span><h3>Lancement & exécution</h3><div class="dur">accompagnement sur mesure</div>
-        <ul><li>Mise en oeuvre et intégration</li><li>Accompagnement des équipes</li><li>Pilotage, mesure de l'usage et de l'impact</li></ul>
-        <div class="res"><b>Une technologie adoptée et utile.</b><div class="price">Tarif sur devis, estimation sous 48 h</div></div>
-      </article>
-      <article class="offer offer-wide reveal d3">
-        <div><span class="tag">04 · Prise de parole</span><h3>Conférences et formations</h3><p>La technologie au service de l'usage, et le rôle de l'Humain × IA. Pour comités de direction, accélérateurs et écoles.</p></div>
-        <a href="#contact" class="btn">Demander une intervention</a>
-      </article>
+    <div class="reveal" style="max-width:58ch">
+      <span class="label eyebrow">La méthode</span>
+      <h2 style="font-size:clamp(1.9rem,4.4vw,3.2rem);max-width:18ch">Je ne me contente pas de conseiller. J'applique une méthode.</h2>
+      <p style="color:var(--slate);margin-top:18px;font-size:1.08rem">Un cadre éprouvé en quatre temps, du terrain à l'usage, déroulé sur chaque mission. Structuré, réplicable, jamais improvisé.</p>
+      <a class="arrow-link" href="./manifeste.html" style="margin-top:24px;display:inline-block">Voir la méthode</a>
     </div>
   </div>
 </section>
 
-<section class="no-top">
-  <div class="wrap">
-    <div class="head reveal"><span class="label">Ce que vous repartez avec</span><h2>Livrables</h2></div>
-    <div class="deliv reveal">
-      <div><h3>Recherche & lecture</h3><ul><li>Cartographie des systèmes technologiques</li><li>Synthèse des entretiens</li><li>Écosystème et partenaires</li><li>Lecture des valeurs</li></ul></div>
-      <div><h3>Audit & cap</h3><ul><li>Opportunités où la technologie crée de la valeur</li><li>Cas d'usage chiffrés</li><li>Feuille de route priorisée</li></ul></div>
-      <div><h3>Déploiement & adoption</h3><ul><li>Plan de mise en oeuvre</li><li>Accompagnement des équipes</li><li>Indicateurs d'usage et d'impact</li></ul></div>
-    </div>
-  </div>
-</section>
 
-<section id="livre">
-  <div class="wrap">
-    <div class="book reveal">
-      <div class="book-cover">
-        <div class="bc-top">ÉDITIONS INVERSE</div>
-        <div class="bc-title">Stratégie<br>Ikigai</div>
-        <div class="bc-author">Nathalie Beugé</div>
-      </div>
-      <div>
-        <span class="label">Le livre</span>
-        <h3>Stratégie Ikigai</h3>
-        <p>Manifeste pour une stratégie vivante, incarnée, unique. Pour faire grandir votre entreprise à l'ère de l'IA.</p>
-        <p class="quote">La stratégie n'est pas un plan à imiter. C'est une identité à clarifier.</p>
-        <a href="https://beugenathalie.gumroad.com/l/ymeuu" class="btn btn-primary" target="_blank" rel="noopener">Acheter la pré vente</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="no-top" id="ressources">
-  <div class="wrap">
-    <div class="head reveal"><span class="label">Ressources</span><h2>Notes</h2><p>Technologie, usage, exécution. Sans bruit.</p></div>
-    <div class="res-grid">
-      <a class="res-card reveal" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener"><span class="tag">Infolettre, Substack</span><h3>Articles et méthodes</h3><p>Formats courts, méthodes applicables, exemples concrets.</p><span class="arrow">Lire</span></a>
-      <a class="res-card reveal d1" href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener"><span class="tag">LinkedIn</span><h3>Idées courtes</h3><p>Des prises de position et des idées applicables, à reprendre dans vos réunions.</p><span class="arrow">Voir</span></a>
-    </div>
-  </div>
-</section>
-
+<!-- CONTACT -->
 <section class="dark contact" id="contact">
   <div class="wrap">
-    <span class="label label--inv reveal">Contact</span>
-    <h2 class="reveal d1">Prêts à décoller ?</h2>
+    <span class="label label--inv eyebrow reveal">Contact</span>
+    <h2 class="reveal d1" style="color:var(--paper)">Parlons de votre produit.</h2>
+    <div class="signame reveal d2">Nathalie Beugé · Head of Product</div>
     <div class="em reveal d2">nathalie@stratospherique.com</div>
     <div class="meta reveal d2">Premier échange, 30 minutes, sans engagement.</div>
-    <div class="actions reveal d3"><a class="btn" href="https://calendly.com/nathalie-stratospherique/30min" target="_blank" rel="noopener">Réserver un échange de 30 min</a><a class="btn" href="mailto:nathalie@stratospherique.com?subject=Stratosph%C3%A9rique%2C%20%C3%A9change%2030%20min&body=Bonjour%20Nathalie%2C%0A%0AContexte%20%3A%20%0AEnjeu%20%3A%20%0A%C3%89ch%C3%A9ance%20%3A%20%0A%0AMerci%2C">Envoyer un email</a></div>
-    <div class="contact-promise reveal d4"><span>2 à 3 leviers technologiques identifiés</span><span>un format recommandé</span><span>une estimation de charge et de rythme</span></div>
+    <div class="actions reveal d3">
+      <a class="btn" href="https://calendar.app.google/BK3kgHikuWsr1CEn7" target="_blank" rel="noopener">Réserver un échange</a>
+      <a class="btn btn-ghost" href="mailto:nathalie@stratospherique.com?subject=Stratosph%C3%A9rique%2C%20%C3%A9change%2030%20min">Envoyer un email</a>
+    </div>
   </div>
 </section>
 
@@ -480,12 +565,13 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 
 <footer>
   <div class="wrap foot">
-    <div>© <span id="year"></span> Stratosphérique · Chamonix · Paris · À distance</div>
+    <div>© <span id="year"></span> Stratosphérique · Chamonix · Grenoble · Lyon · Paris</div>
     <div>
+      <a href="./manifeste.html">À propos</a> ·
+      <a href="./observatoire.html">Observatoire</a> ·
       <a href="./mentions-legales.html">Mentions légales</a> ·
-      <a href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Substack</a> ·
       <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
-      <a href="#top">Haut</a>
+      <a href="https://www.malt.fr/profile/nathaliebeuge" target="_blank" rel="noopener">Malt</a>
     </div>
   </div>
 </footer>
@@ -494,32 +580,49 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
 (function(){
   var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
   var site=document.getElementById('site');
-  function onScroll(){ if(site) site.style.boxShadow = window.scrollY>30 ? '0 10px 30px -24px rgba(0,0,0,.5)' : 'none'; }
+  function onScroll(){ if(site) site.style.boxShadow = window.scrollY>30 ? '0 8px 30px -24px rgba(0,0,0,.4)' : 'none'; }
   onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
-
   var burger=document.querySelector('.burger'), menu=document.getElementById('menu');
   if(burger&&menu){
     burger.addEventListener('click',function(){ var o=menu.classList.toggle('open'); burger.setAttribute('aria-expanded',o?'true':'false'); });
     menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
   }
 
+  var LEAD_ENDPOINT = ""; // Brevo / Tally / Formspree. Vide = email non stocké, analyse affichée quand même.
   var gen=document.getElementById('az-gen');
   if(gen){
     gen.addEventListener('click',function(){
+      var err=document.getElementById('az-err');
+      var email=(document.getElementById('az-email').value||'').trim();
+      var ok=document.getElementById('az-ok').checked;
+      var valid=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      err.textContent='';
+      if(!valid){ err.textContent='Indiquez un email valide.'; return; }
+      if(!ok){ err.textContent='Cochez la case pour recevoir votre analyse.'; return; }
       var n=(document.getElementById('az-name').value||'votre entreprise').trim();
       var s=(document.getElementById('az-sector').value||'secteur non précisé').trim();
       var g=(document.getElementById('az-goal').value||'').trim();
-      var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu précis identifié pour l'instant.";
-      var p="Tu es le cabinet Stratosphérique : la technologie au service de l'usage, jamais l'inverse. Style direct, concret, sans jargon.\n\n"
-        +"Entreprise : "+n+" ("+s+").\n"+goalLine+"\n\n"
-        +"Donne-moi une analyse synthétique et applicable :\n"
-        +"1. En une phrase, l'usage central que sert cette entreprise.\n"
-        +"2. Trois leviers technologiques concrets (automatisation, données, intelligence artificielle, application, réalité virtuelle) qui feraient gagner du temps ou de la valeur. Pour chacun : ce que cela change pour les équipes ou les clients, et l'effort estimé (faible, moyen, élevé).\n"
-        +"3. La première action à lancer ce mois-ci : le moins d'effort pour le plus d'impact.\n"
-        +"4. Deux fausses bonnes idées technologiques à éviter ici, et pourquoi.\n"
-        +"Reste synthétique : phrases courtes, pas de blabla.";
-      var out=document.getElementById('az-out');
-      out.value=p;
+      var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu précis pour l'instant.";
+      var p="Tu es Stratosphérique (Nathalie Beugé). Je fais décoller les produits. Ma méthode en 4 temps : Comprendre le terrain, Cibler où la tech est un vrai levier, Déployer, Ancrer l'usage. Style direct, concret, sans jargon.
+
+"
+        +"Entreprise : "+n+" ("+s+").
+"+goalLine+"
+
+"
+        +"Fais un mini-audit IA de cette entreprise, selon ma méthode :
+"
+        +"1. COMPRENDRE : en une phrase, l'usage central que sert l'entreprise, et où le produit risque de plafonner.
+"
+        +"2. CIBLER : trois endroits où l'IA serait un vrai levier (gagner du temps, dérisquer un projet, rendre visible l'avancement), et un endroit où elle n'apporterait rien.
+"
+        +"3. DÉPLOYER : la première action à lancer ce mois-ci, le moins d'effort pour le plus d'impact.
+"
+        +"4. ANCRER : un indicateur simple à suivre pour vérifier que ça décolle.
+"
+        +"Phrases courtes, priorisé, concret.";
+      if(LEAD_ENDPOINT){ try{ fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,entreprise:n,secteur:s,enjeu:g,source:'analyse-express'})}).catch(function(){}); }catch(e){} }
+      var out=document.getElementById('az-out'); out.value=p;
       try{ if(navigator.clipboard){ navigator.clipboard.writeText(p); } }catch(e){}
       var enc=encodeURIComponent(p);
       var gpt=document.getElementById('az-gpt'); if(gpt){ gpt.href='https://chatgpt.com/?q='+enc; }
@@ -529,13 +632,41 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
     });
   }
   var copy=document.getElementById('az-copy');
-  if(copy){
-    copy.addEventListener('click',function(){
-      var out=document.getElementById('az-out'); out.select();
-      if(navigator.clipboard){ navigator.clipboard.writeText(out.value); }
-      else { document.execCommand('copy'); }
-      copy.textContent='Copié'; setTimeout(function(){ copy.textContent='Copier la requête'; },1800);
-    });
+  if(copy){ copy.addEventListener('click',function(){ var out=document.getElementById('az-out'); out.select(); if(navigator.clipboard){navigator.clipboard.writeText(out.value);}else{document.execCommand('copy');} copy.textContent='Copié'; setTimeout(function(){copy.textContent='Copier';},1800); }); }
+})();
+</script>
+<script>
+(function(){
+  var el=document.getElementById('rot'); if(!el) return;
+  var box=el.parentNode;
+  var phrases=['Dérisquer vos innovations.',"Maximiser l'impact business.","Transformer vos idées en plan d'exécution."];
+  var i=0;
+  setInterval(function(){
+    box.classList.add('out');
+    setTimeout(function(){ i=(i+1)%phrases.length; el.textContent=phrases[i]; box.classList.remove('out'); }, 380);
+  }, 2800);
+})();
+</script>
+<div id="egg" aria-hidden="true">△ 4 808 m · sommet atteint</div>
+<script>
+(function(){
+  var seq=['arrowup','arrowup','arrowdown','arrowdown','arrowleft','arrowright','arrowleft','arrowright','b','a'];
+  var i=0, buf='';
+  window.addEventListener('keydown',function(e){
+    var k=(e.key||'').toLowerCase();
+    // code Konami (bonus)
+    if(k===seq[i]){ i++; if(i===seq.length){ i=0; summit(); } }
+    else { i=(k===seq[0])?1:0; }
+    // mot magique : tape "ikigai" ou "sommet" n'importe où
+    if(k.length===1 && /[a-z]/.test(k)){
+      buf=(buf+k).slice(-8);
+      if(buf.endsWith('ikigai') || buf.endsWith('sommet')){ buf=''; summit(); }
+    }
+  });
+  function summit(){
+    var egg=document.getElementById('egg'), topo=document.querySelector('.hero .topo');
+    if(topo){ topo.classList.remove('pulse'); void topo.offsetWidth; topo.classList.add('pulse'); }
+    if(egg){ egg.classList.add('on'); setTimeout(function(){ egg.classList.remove('on'); }, 3600); }
   }
 })();
 </script>
