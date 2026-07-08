@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#FAF6EE" />
+<title>Inner Self · La méthode des 5 portes — Stratosphérique</title>
+<meta name="description" content="Inner Self, la méthode des 5 portes par Nathalie Beugé : un chemin pour faire de la place en toi et révéler qui tu es. Livret à télécharger, et coaching des profils atypiques en position de direction." />
+<link rel="canonical" href="https://www.stratospherique.com/inner-self.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/logo_black.svg" type="image/svg+xml" />
+<style>
+:root{
+  --cream:#FAF6EE;--ink:#26221C;--muted:rgba(38,34,28,.62);--line:rgba(38,34,28,.16);--line-soft:rgba(38,34,28,.08);--warm:#EFE9DC;
+  --serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,sans-serif;
+  --gutter:clamp(22px,6vw,88px);--maxw:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+svg{display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--cream);padding:10px 16px;z-index:100}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.04;letter-spacing:.005em;text-wrap:balance}
+.it{font-style:italic;font-weight:400}
+.label{font-family:var(--sans);font-weight:500;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:14px 28px;font-family:var(--sans);font-weight:500;font-size:.92rem;border:1px solid var(--ink);background:var(--ink);color:var(--cream);cursor:pointer;transition:.25s ease;border-radius:2px}
+.btn:hover{background:transparent;color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--cream)}
+.arrow-link{font-family:var(--sans);font-weight:500;font-size:.82rem;letter-spacing:.02em;border-bottom:1px solid var(--ink);padding-bottom:2px;transition:.2s}
+.arrow-link:hover{opacity:.55}
+
+/* HEADER */
+header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(250,246,238,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-soft)}
+.bar{max-width:var(--maxw);margin:0 auto;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mark{width:30px;height:30px}
+.brand .word{font-family:var(--serif);font-size:1.5rem;font-weight:600;letter-spacing:.01em}
+.menu{display:flex;align-items:center;gap:26px}
+.menu a{font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.04em;color:var(--muted);transition:.2s}
+.menu a:hover,.menu a.current{color:var(--ink)}
+.menu .btn{padding:9px 18px;font-size:.76rem}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:24px;height:1.5px;background:var(--ink);display:block}
+@media(max-width:900px){.burger{display:flex}.menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:16px;background:var(--cream);border:1px solid var(--line);padding:24px 28px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.22s}.menu.open{opacity:1;transform:none;pointer-events:auto}}
+
+section{padding:clamp(72px,11vw,132px) 0;position:relative}
+.eyebrow{margin-bottom:22px}
+
+/* HERO */
+.ihero{padding-top:clamp(150px,18vw,220px);padding-bottom:clamp(40px,8vw,90px);text-align:center}
+.ihero .glyphs{display:flex;justify-content:center;gap:26px;margin-bottom:40px;color:var(--muted)}
+.ihero .glyphs svg{width:22px;height:22px;opacity:.5}
+.ihero .hook{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.6vw,1.7rem);color:var(--muted);max-width:34ch;margin:0 auto 30px;line-height:1.3}
+.ihero h1{font-size:clamp(2.4rem,6vw,4.4rem);max-width:16ch;margin:0 auto}
+.ihero .sub{font-size:1.12rem;color:var(--muted);max-width:46ch;margin:26px auto 0}
+.ihero .cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:38px}
+
+/* PORTES */
+.portes{background:var(--warm)}
+.portes .head{text-align:center;max-width:56ch;margin:0 auto 60px}
+.portes .head h2{font-size:clamp(2rem,4.6vw,3.2rem)}
+.portes .head p{margin-top:18px;color:var(--muted);font-size:1.08rem}
+.entry{max-width:640px;margin:0 auto 56px;text-align:center;padding-bottom:44px;border-bottom:1px solid var(--line)}
+.entry .k{font-family:var(--sans);font-weight:500;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.entry h3{font-size:1.9rem;margin:10px 0 6px}
+.entry p{color:var(--muted)}
+.doors{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;max-width:820px;margin:0 auto}
+.door{text-align:center;padding:26px 12px;border:1px solid var(--line);background:var(--cream);border-radius:4px}
+.door svg{width:32px;height:32px;margin:0 auto 16px;color:var(--ink)}
+.door .rn{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--muted)}
+.doors-note{text-align:center;margin-top:34px;font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.4vw,1.6rem);color:var(--ink)}
+@media(max-width:720px){.doors{grid-template-columns:repeat(5,1fr);gap:8px}.door{padding:18px 4px}.door svg{width:24px;height:24px}}
+
+/* LIVRET */
+.livret{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center}
+.booklet{aspect-ratio:1/1.414;background:var(--ink);color:var(--cream);border-radius:4px;padding:34px;display:flex;flex-direction:column;justify-content:space-between}
+.booklet .bt{font-family:var(--sans);font-weight:500;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,246,238,.6)}
+.booklet .bttl{font-family:var(--serif);font-size:2rem;line-height:1.05}
+.booklet .bsym{display:flex;gap:12px;color:rgba(250,246,238,.7)}
+.booklet .bsym svg{width:16px;height:16px}
+.livret .lbody .label{margin-bottom:16px}
+.livret h2{font-size:clamp(1.9rem,4vw,3rem)}
+.livret .lbody>p{color:var(--muted);font-size:1.08rem;margin:18px 0}
+.livret ul{list-style:none;margin:18px 0 26px;display:flex;flex-direction:column;gap:10px}
+.livret li{position:relative;padding-left:20px;color:var(--ink)}
+.livret li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--ink)}
+.livret .lprice{margin-bottom:18px;color:var(--muted);font-size:.98rem}
+.livret .lprice b{font-family:var(--serif);font-weight:600;font-size:1.5rem;color:var(--ink)}
+@media(max-width:760px){.livret{grid-template-columns:1fr;gap:34px}.booklet{max-width:280px}}
+
+/* COACHING */
+.coach{background:var(--warm)}
+.coach .inner{max-width:640px}
+.coach h2{font-size:clamp(1.9rem,4vw,3rem);margin-top:12px}
+.coach p{color:var(--muted);font-size:1.08rem;margin:18px 0}
+.coach .who{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.8vw,2rem);color:var(--ink);margin:8px 0 20px;line-height:1.2;max-width:24ch}
+
+/* CTA */
+.icta{text-align:center}
+.icta h2{font-size:clamp(2rem,5vw,3.6rem);max-width:18ch;margin:0 auto}
+.icta .actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:30px}
+
+footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size:.8rem}
+.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.foot a{color:var(--cream)}.foot a:hover{opacity:.7}
+
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.reveal{animation:rise .7s ease both}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Aller au contenu</a>
+
+<!-- symboles des 5 portes, réutilisés -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="s1" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.4" fill="currentColor"/></symbol>
+  <symbol id="s2" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.7" fill="currentColor"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/><circle cx="19" cy="12" r="1.7" fill="currentColor"/></symbol>
+  <symbol id="s3" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M12 3.5V20.5M3.5 12H20.5M6.2 6.2L17.8 17.8M17.8 6.2L6.2 17.8"/></g></symbol>
+  <symbol id="s4" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="s5" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.1" fill="currentColor"><path d="M4 8L11 15L18 5.5L20.5 15.5" fill="none"/><circle cx="4" cy="8" r="1.4"/><circle cx="11" cy="15" r="1.4"/><circle cx="18" cy="5.5" r="1.4"/><circle cx="20.5" cy="15.5" r="1.4"/></g></symbol>
+</svg>
+
+<header class="site" id="site">
+  <div class="bar">
+    <a class="brand" href="./" aria-label="Stratosphérique, accueil">
+      <img class="mark" src="./assets/logo_black.svg" alt="" width="30" height="30" />
+      <span class="word">Stratosphérique</span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Navigation">
+      <a href="./">Accueil</a>
+      <a href="./manifeste.html">À propos</a>
+      <a href="./inner-self.html" class="current" aria-current="page">Inner Self</a>
+      <a href="./observatoire.html">Observatoire</a>
+      <a class="btn" href="#contact">Prendre contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+
+<!-- HERO -->
+<section class="ihero" id="top">
+  <div class="wrap">
+    <div class="glyphs reveal">
+      <svg><use href="#s1"/></svg><svg><use href="#s2"/></svg><svg><use href="#s3"/></svg><svg><use href="#s4"/></svg><svg><use href="#s5"/></svg>
+    </div>
+    <span class="label eyebrow reveal">Inner Self · La méthode des 5 portes</span>
+    <p class="hook reveal">« J'ai coché toutes les cases. Et pourtant, certains soirs, la question revenait : qui je suis, qu'est-ce que je veux être ? »</p>
+    <h1 class="reveal">Tu es déjà la meilleure version de toi-même.</h1>
+    <p class="sub reveal">Il te faut juste un espace pour le révéler. Une méthode en cinq portes, pour t'y conduire, une à une.</p>
+    <div class="cta reveal">
+      <a href="#livret" class="btn">Télécharger le livret</a>
+      <a href="#coaching" class="btn btn-ghost">Le coaching</a>
+    </div>
+  </div>
+</section>
+
+<!-- LES 5 PORTES -->
+<section class="portes" id="portes">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label">La méthode</span>
+      <h2>Cinq portes, franchies une à une.</h2>
+      <p>Avant de les ouvrir, on prépare le terrain. On déblaie le bruit, on fait de la place. C'est la porte d'entrée.</p>
+    </div>
+    <div class="entry reveal">
+      <div class="k">La porte d'entrée</div>
+      <h3>Préparer le terrain</h3>
+      <p>Sept jours pour faire de la place en toi. Le point de départ, à parcourir avec le livret.</p>
+    </div>
+    <div class="doors reveal">
+      <div class="door"><svg><use href="#s1"/></svg><span class="rn">I</span></div>
+      <div class="door"><svg><use href="#s2"/></svg><span class="rn">II</span></div>
+      <div class="door"><svg><use href="#s3"/></svg><span class="rn">III</span></div>
+      <div class="door"><svg><use href="#s4"/></svg><span class="rn">IV</span></div>
+      <div class="door"><svg><use href="#s5"/></svg><span class="rn">V</span></div>
+    </div>
+    <!-- À COMPLÉTER : nommer chaque porte (I à V) une fois la méthode finalisée. -->
+    <p class="doors-note reveal">Chaque porte, un pas de plus vers toi.</p>
+  </div>
+</section>
+
+<!-- LE LIVRET -->
+<section id="livret">
+  <div class="wrap livret">
+    <div class="booklet reveal">
+      <div class="bt">Éditions Stratosphérique</div>
+      <div class="bttl">Préparer<br>le terrain</div>
+      <div class="bsym">
+        <svg><use href="#s1"/></svg><svg><use href="#s2"/></svg><svg><use href="#s3"/></svg><svg><use href="#s4"/></svg><svg><use href="#s5"/></svg>
+      </div>
+    </div>
+    <div class="lbody reveal">
+      <span class="label">Le livret</span>
+      <h2>7 jours pour faire de la place en toi.</h2>
+      <p>Un extrait de la méthode des 5 portes. Huit pages, à imprimer ou à garder sur ton écran, pour poser les premiers gestes.</p>
+      <ul>
+        <li>Trois rituels quotidiens : dix minutes d'écriture le matin, trois joies et une intention le soir.</li>
+        <li>Trois exercices : une journée sans téléphone, un repas sans écran avec quelqu'un, une marche d'une heure sans écouteurs.</li>
+        <li>Une page pour écrire ce que tu en retires.</li>
+      </ul>
+      <p class="lprice"><b>12 €</b> · PDF prêt à imprimer, livré par email.</p>
+      <!-- À REMPLACER : lien Gumroad exact du livret quand il est publié -->
+      <a href="https://beugenathalie.gumroad.com/" target="_blank" rel="noopener" class="btn">Obtenir le livret · 12 €</a>
+    </div>
+  </div>
+</section>
+
+<!-- LE COACHING -->
+<section class="coach" id="coaching">
+  <div class="wrap inner reveal">
+    <span class="label">Le coaching</span>
+    <p class="who">Pour les profils atypiques, en position de direction.</p>
+    <p>Haut potentiel, multipotentialité, pensée en arborescence : ces forces deviennent parfois des freins quand on dirige. Je t'accompagne à en faire un moteur, pas un poids.</p>
+    <p>Cet accompagnement se fait au sein du réseau international HPI Talents, spécialisé dans les profils atypiques aux postes de direction.</p>
+    <a class="arrow-link" href="https://www.hpitalents.com/fr/pages/5-reseau-international/" target="_blank" rel="noopener">Découvrir le réseau HPI Talents</a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="icta" id="contact">
+  <div class="wrap reveal">
+    <span class="label eyebrow">Faire un pas</span>
+    <h2>La porte d'entrée est ouverte.</h2>
+    <div class="actions">
+      <a class="btn" href="#livret">Télécharger le livret</a>
+      <a class="btn btn-ghost" href="mailto:nathalie@stratospherique.com?subject=Inner%20Self%20%C2%B7%20%C3%A9change">Écrire à Nathalie</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Stratosphérique · Nathalie Beugé</div>
+    <div>
+      <a href="./">Accueil</a> ·
+      <a href="./manifeste.html">À propos</a> ·
+      <a href="https://www.hpitalents.com/fr/pages/5-reseau-international/" target="_blank" rel="noopener">HPI Talents</a> ·
+      <a href="#top">Haut</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){ var o=menu.classList.toggle('open'); burger.setAttribute('aria-expanded',o?'true':'false'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
+  }
+})();
+</script>
+</body>
+</html>
