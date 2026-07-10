@@ -9,12 +9,12 @@
 <link rel="canonical" href="https://www.stratospherique.com/inner-self.html" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="./assets/logo_black.svg" type="image/svg+xml" />
 <style>
 :root{
   --cream:#FAF6EE;--ink:#26221C;--muted:rgba(38,34,28,.62);--line:rgba(38,34,28,.16);--line-soft:rgba(38,34,28,.08);--warm:#EFE9DC;
-  --serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,sans-serif;
+  --serif:'Archivo',system-ui,sans-serif;--sans:'Inter',system-ui,sans-serif;
   --gutter:clamp(22px,6vw,88px);--maxw:1120px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -24,7 +24,7 @@ a{color:inherit;text-decoration:none}
 svg{display:block}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
 .skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:var(--ink);color:var(--cream);padding:10px 16px;z-index:100}
-h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.04;letter-spacing:.005em;text-wrap:balance}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1;letter-spacing:-.02em;text-wrap:balance}
 .it{font-style:italic;font-weight:400}
 .label{font-family:var(--sans);font-weight:500;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
 .btn{display:inline-flex;align-items:center;gap:.5em;padding:14px 28px;font-family:var(--sans);font-weight:500;font-size:.92rem;border:1px solid var(--ink);background:var(--ink);color:var(--cream);cursor:pointer;transition:.25s ease;border-radius:2px}
@@ -39,7 +39,7 @@ header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(250,246,2
 .bar{max-width:var(--maxw);margin:0 auto;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:12px}
 .brand .mark{width:30px;height:30px}
-.brand .word{font-family:var(--serif);font-size:1.5rem;font-weight:600;letter-spacing:.01em}
+.brand .word{font-family:var(--serif);font-size:1.32rem;font-weight:700;letter-spacing:-.02em}
 .menu{display:flex;align-items:center;gap:26px}
 .menu a{font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.04em;color:var(--muted);transition:.2s}
 .menu a:hover,.menu a.current{color:var(--ink)}
@@ -129,7 +129,7 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
 <header class="site" id="site">
   <div class="bar">
     <a class="brand" href="./" aria-label="Stratosphérique, accueil">
-      <img class="mark" src="./assets/logo_black.svg" alt="" width="30" height="30" />
+      <img class="mark" src="./assets/logo_black.svg" alt="" width="32" height="32" />
       <span class="word">Stratosphérique</span>
     </a>
     <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
