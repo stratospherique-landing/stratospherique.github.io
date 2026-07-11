@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T09:50:44.924Z",
+  "generatedAt": "2026-07-11T13:20:52.408Z",
   "categories": [
     {
       "id": "radar",
@@ -26,16 +26,223 @@
       "label": "France & Europe"
     }
   ],
-  "count": 135,
+  "count": 119,
   "items": [
     {
-      "id": "https://www.numerama.com/cyberguerre/2293621-accusations-de-backdoor-dans-claude-code-la-chine-et-anthropic-saffrontent-par-medias-interposes.html",
-      "title": "Accusations de backdoor dans Claude Code : la Chine et Anthropic s’affrontent par médias interposés",
-      "link": "https://www.numerama.com/cyberguerre/2293621-accusations-de-backdoor-dans-claude-code-la-chine-et-anthropic-saffrontent-par-medias-interposes.html",
+      "id": "https://www.techmeme.com/260711/p5#a260711p5",
+      "title": "How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas (New York Times)",
+      "link": "https://www.techmeme.com/260711/p5#a260711p5",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783763100000,
+      "snippet": "New York Times: How members of the extremist group Boko Haram are using AI chatbots to design explosives, fix or upgrade weapons, and brainstorm attack ideas — A.I. chatbots are not just a propaganda tool for violent extremists but are aiding in bomb construction and attack plann"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2294553-apple-attaque-openai-en-justice-pour-vol-de-secrets-industriels.html",
+      "title": "Apple attaque OpenAI en justice pour vol de secrets industriels",
+      "link": "https://www.numerama.com/tech/2294553-apple-attaque-openai-en-justice-pour-vol-de-secrets-industriels.html",
       "source": "Numerama",
       "category": "france",
-      "ts": 1783671910000,
-      "snippet": "Après la découverte d'un mécanisme caché dans Claude Code visant à repérer les utilisateurs chinois, Pékin a exhorté les développeurs à désinstaller l'outil, évoquant une « porte dérobée ». Anthropic a répliqué en rappelant que la Chine n'avait de toute façon jamais été autorisée"
+      "ts": 1783754627000,
+      "snippet": "OpenAI est dans le viseur d'Apple, qui accuse le créateur de ChatGPT de lui avoir volé des informations confidentielles, via d'anciens employés. OpenAI s'en est bien évidemment défendu."
+    },
+    {
+      "id": "https://www.techmeme.com/260711/p4#a260711p4",
+      "title": "SK Hynix's historic US stock market listing is a bet that the AI boom is breaking the memory chip industry's decades-long boom-and-bust cycle (Bloomberg)",
+      "link": "https://www.techmeme.com/260711/p4#a260711p4",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783751401000,
+      "snippet": "Bloomberg: SK Hynix's historic US stock market listing is a bet that the AI boom is breaking the memory chip industry's decades-long boom-and-bust cycle — South Korean memory chipmaker SK Hynix Inc. just pulled off the largest public listing by a foreign company in US market hist"
+    },
+    {
+      "id": "https://www.techmeme.com/260711/p3#a260711p3",
+      "title": "An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% (Max Spero/Pangram Labs)",
+      "link": "https://www.techmeme.com/260711/p3#a260711p3",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783749001000,
+      "snippet": "Max Spero / Pangram Labs: An analysis of 1M+ social media posts from April 24 to June 30: ~25% of longform posts with 250+ words were fully AI-generated; on LinkedIn, the figure was 41% — A first look at analytics from our Pangram Chrome extension — Two months ago, we launched ou"
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p38#a260710p38",
+      "title": "OpenAI's head of safety, Johannes Heidecke, is leaving as OpenAI integrates its research and safety teams; Mia Glaese will become VP of research and safety (Maxwell Zeff/Wired)",
+      "link": "https://www.techmeme.com/260710/p38#a260710p38",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783734301000,
+      "snippet": "Maxwell Zeff / Wired: OpenAI's head of safety, Johannes Heidecke, is leaving as OpenAI integrates its research and safety teams; Mia Glaese will become VP of research and safety — Johannes Heidecke's departure comes as OpenAI tries to further integrate its research and safety tea"
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p37#a260710p37",
+      "title": "Thinking Machines says its mission is to build AI that people and organizations can shape and make their own, and that \"extends human will and judgment\" (Thinking Machines Lab)",
+      "link": "https://www.techmeme.com/260710/p37#a260710p37",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783729501000,
+      "snippet": "Thinking Machines Lab: Thinking Machines says its mission is to build AI that people and organizations can shape and make their own, and that “extends human will and judgment” — The mission of Thinking Machines is to build AI that extends human will and judgment. — Artificial int"
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "title": "Meta removes controversial AI feature on Instagram after backlash",
+      "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1783727707000,
+      "snippet": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\""
+    },
+    {
+      "id": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+      "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1783727390000,
+      "snippet": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account c"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+      "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
+      "link": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1783725806000,
+      "snippet": "The two companies struck a deal in 2024 to offer A.I. services on Apple devices, but their partnership has soured."
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p35#a260710p35",
+      "title": "Meta says it will discontinue a feature that allowed users to generate images in Meta AI using public Instagram accounts, following days of criticism (Corbin Bolies/Variety)",
+      "link": "https://www.techmeme.com/260710/p35#a260710p35",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783725608000,
+      "snippet": "Corbin Bolies / Variety: Meta says it will discontinue a feature that allowed users to generate images in Meta AI using public Instagram accounts, following days of criticism — Meta said it will discontinue an AI feature that allowed users to generate images using public Instagra"
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p34#a260710p34",
+      "title": "In response to Apple's trade secret theft lawsuit, OpenAI says \"we have no interest in other companies' trade secrets\" (Marcus Mendes/9to5Mac)",
+      "link": "https://www.techmeme.com/260710/p34#a260710p34",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783725001000,
+      "snippet": "Marcus Mendes / 9to5Mac: In response to Apple's trade secret theft lawsuit, OpenAI says “we have no interest in other companies' trade secrets” — OpenAI has issued a formal statement in response to Apple's lawsuit accusing the company of trade secret theft. Read it below. — OpenA"
+    },
+    {
+      "id": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
+      "link": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1783719411000,
+      "snippet": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsui"
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p30#a260710p30",
+      "title": "Apple says OpenAI leadership \"normalized\" misconduct and OpenAI's hardware business is \"rotten to its core by its illegal reliance\" on stolen trade secrets (Sarah Perez/TechCrunch)",
+      "link": "https://www.techmeme.com/260710/p30#a260710p30",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783718497000,
+      "snippet": "Sarah Perez / TechCrunch: Apple says OpenAI leadership “normalized” misconduct and OpenAI's hardware business is “rotten to its core by its illegal reliance” on stolen trade secrets — Apple filed a lawsuit Friday against OpenAI over allegations of trade secret theft and breach of"
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "title": "Apple sues OpenAI over alleged trade secret theft",
+      "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1783717229000,
+      "snippet": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee."
+    },
+    {
+      "id": "https://www.techmeme.com/260710/p29#a260710p29",
+      "title": "In its lawsuit, Apple chronicles in vivid detail how its former employees that went to work for OpenAI allegedly violated their confidentiality agreements (Aaron Tilley/The Information)",
+      "link": "https://www.techmeme.com/260710/p29#a260710p29",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1783717215000,
+      "snippet": "Aaron Tilley / The Information: In its lawsuit, Apple chronicles in vivid detail how its former employees that went to work for OpenAI allegedly violated their confidentiality agreements — In the months ahead of Apple's lawsuit against OpenAI on Friday, the iPhone maker's concern"
+    },
+    {
+      "id": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1783716429000,
+      "snippet": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 1218 # Comments: 644"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html",
+      "title": "New York Times and Other Publishers Ask Court to Penalize OpenAI",
+      "link": "https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1783712935000,
+      "snippet": "The Times, The New York Daily News and other media organizations accused OpenAI of withholding evidence in a lawsuit."
+    },
+    {
+      "id": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1783708159000,
+      "snippet": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805 Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 483 # Comments: 392"
+    },
+    {
+      "id": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/",
+      "title": "The Week’s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+      "link": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1783707119000,
+      "snippet": "AI once again dominated venture funding this week, claiming five of the 10 largest announced rounds, including a pair of billion-dollar financings for AI infrastructure and cybersecurity that led the pack."
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+      "link": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1783703832000,
+      "snippet": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories."
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "title": "Hugging Face’s CEO on why companies are done renting their AI",
+      "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1783692000000,
+      "snippet": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the sa"
+    },
+    {
+      "id": "https://restofworld.org/2026/china-seniors-ai-slop/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "title": "Older adults know AI is slop. They just like it",
+      "link": "https://restofworld.org/2026/china-seniors-ai-slop/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "category": "monde",
+      "ts": 1783688400000,
+      "snippet": "AI-generated singers, children, and even virtual lovers are providing seniors with comfort and companionship."
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+      "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
+      "link": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1783685400000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has got the clearest glimpse yet at what’s really goin"
+    },
+    {
+      "id": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare/",
+      "title": "5 Interesting Startup Deals You May Have Missed: AI That Dispatches The Plumber, Underground Warfare And Cutting Down Private-Market Paperwork",
+      "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-defense-tech-healthcare/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1783681246000,
+      "snippet": "The five most intriguing startup deals from the past month include one that’s simultaneously developing AI models for biology, a company that wants to prevent modern day private markets from the kind of paperwork crisis that shut down Wall Street in the ‘60s, and AI agents that c"
     },
     {
       "id": "https://siecledigital.fr/2026/07/09/apres-les-etats-unis-chatgpt-sapprete-a-lancer-la-publicite-en-france/",
@@ -83,51 +290,6 @@
       "snippet": "OpenAI affirmait ne pas pouvoir fouiller dans ses propres données d’entraînement. Le tribunal a fini par ordonner une déposition en avril. Vinnie Monaco, ingénieur en protection des données chez OpenAI, a révélé que l’entreprise avait déjà mené des recherches internes dans ses co"
     },
     {
-      "id": "https://www.techmeme.com/260710/p2#a260710p2",
-      "title": "A look at Meta Superintelligence Labs' growth in the past year, including a top-tier RL environment and compute ramp that could catch up to Anthropic and OpenAI (SemiAnalysis)",
-      "link": "https://www.techmeme.com/260710/p2#a260710p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783664401000,
-      "snippet": "SemiAnalysis: A look at Meta Superintelligence Labs' growth in the past year, including a top-tier RL environment and compute ramp that could catch up to Anthropic and OpenAI — A top tier RL environment startup spawns out of thin air, the most aggressive compute ramp we've ever s"
-    },
-    {
-      "id": "https://www.techmeme.com/260710/p1#a260710p1",
-      "title": "Sources: Manus investors and management are discussing unwinding Meta's $2B buyout at the same valuation, with Tencent in talks to become the largest investor (Zijing Wu/Financial Times)",
-      "link": "https://www.techmeme.com/260710/p1#a260710p1",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783658726000,
-      "snippet": "Zijing Wu / Financial Times: Sources: Manus investors and management are discussing unwinding Meta's $2B buyout at the same valuation, with Tencent in talks to become the largest investor — Chinese tech giant set to become largest shareholder in AI agent start-up after Beijing or"
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p47#a260709p47",
-      "title": "Carlyle agrees to sell US data center power and infrastructure platform Copia to EQT; sources: the deal values Copia at $2.6B, a fivefold return for Carlyle (Financial Times)",
-      "link": "https://www.techmeme.com/260709/p47#a260709p47",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783655401000,
-      "snippet": "Financial Times: Carlyle agrees to sell US data center power and infrastructure platform Copia to EQT; sources: the deal values Copia at $2.6B, a fivefold return for Carlyle — Deal underscores bright spot for private equity portfolio company sales amid strong demand for AI infras"
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p45#a260709p45",
-      "title": "MiniMax is looking to raise as much as $1.9B by selling 35.6M shares at ~$34 each and offering ~$830M in convertible bonds due 2027 (Bloomberg)",
-      "link": "https://www.techmeme.com/260709/p45#a260709p45",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783651521000,
-      "snippet": "Bloomberg: MiniMax is looking to raise as much as $1.9B by selling 35.6M shares at ~$34 each and offering ~$830M in convertible bonds due 2027 — MiniMax Group Inc. is joining a rush by Chinese technology companies to tap markets for funding aimed at the artificial intelligence bu"
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p43#a260709p43",
-      "title": "How the internet, smartphones, social media, and now generative AI are accelerating a drop in the reading of longer works like books (Rose Horowitch/The Atlantic)",
-      "link": "https://www.techmeme.com/260709/p43#a260709p43",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783645268000,
-      "snippet": "Rose Horowitch / The Atlantic: How the internet, smartphones, social media, and now generative AI are accelerating a drop in the reading of longer works like books — twenty-three hundred years ago, the legend goes, King Ptolemy I of Egypt asked his court adviser to assemble a com"
-    },
-    {
       "id": "https://www.nytimes.com/2026/07/09/technology/openai-fidji-simo-exit.html",
       "title": "A Top OpenAI Executive, Fidji Simo, Steps Down",
       "link": "https://www.nytimes.com/2026/07/09/technology/openai-fidji-simo-exit.html",
@@ -156,30 +318,12 @@
     },
     {
       "id": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-      "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+      "title": "Fidji Simo steps down from OpenAI’s No. 2 role",
       "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
       "source": "TechCrunch",
       "category": "capital",
       "ts": 1783640280000,
       "snippet": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1783639444000,
-      "snippet": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune conditio"
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p40#a260709p40",
-      "title": "Fidji Simo says she has decided to leave her full-time role at OpenAI and transition to being a part-time adviser after her medical condition worsened (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260709/p40#a260709p40",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783638227000,
-      "snippet": "Wall Street Journal: Fidji Simo says she has decided to leave her full-time role at OpenAI and transition to being a part-time adviser after her medical condition worsened — The head of artificial general intelligence won't return from extended medical leave, a major leadership c"
     },
     {
       "id": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
@@ -191,87 +335,6 @@
       "snippet": "Critics and boosters are both looking in the wrong place"
     },
     {
-      "id": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783635864000,
-      "snippet": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "title": "An AI agent startup just let its agent run its $100M fundraise",
-      "link": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783634938000,
-      "snippet": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-      "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783634634000,
-      "snippet": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
-      "link": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783634262000,
-      "snippet": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can."
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p39#a260709p39",
-      "title": "Mercor acquires Deeptune, which builds reinforcement learning environments for AI agents, three months after CEO Brendan Foody backed Deeptune's $43M Series A (Lily Mae Lazarus/Fortune)",
-      "link": "https://www.techmeme.com/260709/p39#a260709p39",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783634102000,
-      "snippet": "Lily Mae Lazarus / Fortune: Mercor acquires Deeptune, which builds reinforcement learning environments for AI agents, three months after CEO Brendan Foody backed Deeptune's $43M Series A — Brendan Foody started Mercor when he was 19 years old. Now he's 23, worth billions on paper"
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
-      "title": "Can AI answer the $3 trillion question?",
-      "link": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783633670000,
-      "snippet": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
-      "title": "OpenAI wants its new tool to do your work for you and with you",
-      "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1783632355000,
-      "snippet": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\""
-    },
-    {
-      "id": "https://www.techmeme.com/260709/p36#a260709p36",
-      "title": "Federal Reserve Chair Kevin Warsh names Marc Andreessen and Xbox CEO Asha Sharma to lead a task force on the economic impact of new technologies, including AI (Andrew Ackerman/Washington Post)",
-      "link": "https://www.techmeme.com/260709/p36#a260709p36",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1783629911000,
-      "snippet": "Andrew Ackerman / Washington Post: Federal Reserve Chair Kevin Warsh names Marc Andreessen and Xbox CEO Asha Sharma to lead a task force on the economic impact of new technologies, including AI — The billionaire investor will help shape how the Federal Reserve assesses a technolo"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-      "title": "The ChatGPT browser is already dead",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1783629245000,
-      "snippet": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\""
-    },
-    {
       "id": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
       "title": "Anthropic found a hidden space where Claude puzzles over concepts",
       "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
@@ -279,24 +342,6 @@
       "category": "monde",
       "ts": 1783628548000,
       "snippet": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company buil"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-      "title": "Google will now tell you if an ad was made with AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1783627898000,
-      "snippet": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was "
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-      "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783626045000,
-      "snippet": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide."
     },
     {
       "id": "https://www.nytimes.com/2026/07/09/technology/openai-sol-ai.html",
@@ -308,121 +353,13 @@
       "snippet": "The new release was delayed after the U.S. government restricted the latest artificial intelligence models over cybersecurity concerns."
     },
     {
-      "id": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-      "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783623958000,
-      "snippet": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
-      "link": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1783623473000,
-      "snippet": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html",
-      "title": "New York Times and Other Publishers Ask Court to Penalize OpenAI",
-      "link": "https://www.nytimes.com/2026/07/09/technology/new-york-times-openai.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1783623341000,
-      "snippet": "The Times, The New York Daily News and other media organizations accused OpenAI of withholding evidence in a lawsuit."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "title": "Google will now disclose which ads are made with AI",
-      "link": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783622451000,
-      "snippet": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
-      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
-      "link": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783622075000,
-      "snippet": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\""
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-      "link": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783621359000,
-      "snippet": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\""
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
-      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
-      "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783619807000,
-      "snippet": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "title": "Meta’s new AI chips will begin production in September",
-      "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1783617457000,
-      "snippet": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production."
-    },
-    {
-      "id": "https://openai.com/index/gpt-5-6/",
-      "title": "GPT-5.6",
-      "link": "https://openai.com/index/gpt-5-6/",
+      "id": "https://ai-2040.com/",
+      "title": "AI 2040: Plan A",
+      "link": "https://ai-2040.com/",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1783616654000,
-      "snippet": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf https://developers.openai.com/api/docs/guides/latest-model https://x.com/levie/status/2075287443411222628, https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Poin"
-    },
-    {
-      "id": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "title": "Microsoft’s patch Tuesdays are about to get bigger",
-      "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1783616400000,
-      "snippet": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security rel"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1783616400000,
-      "snippet": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Alt"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2293447-anthropic-lance-reflexion-un-recap-pour-mieux-comprendre-votre-usage-de-claude.html",
-      "title": "Anthropic lance « Réflexion », un récap pour mieux comprendre votre usage de Claude",
-      "link": "https://www.numerama.com/tech/2293447-anthropic-lance-reflexion-un-recap-pour-mieux-comprendre-votre-usage-de-claude.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1783611271000,
-      "snippet": "La société-mère de Claude vient d'introduire une nouvelle fonctionnalité baptisée « Réflexion ». Elle propose aux utilisateurs du chatbot de mieux analyser leur rapport à l’intelligence artificielle."
-    },
-    {
-      "id": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
-      "title": "No leap second will be introduced at the end of December 2026",
-      "link": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1783606594000,
-      "snippet": "Article URL: https://datacenter.iers.org/data/latestVersion/bulletinC.txt Comments URL: https://news.ycombinator.com/item?id=48846281 Points: 278 # Comments: 218"
+      "ts": 1783614104000,
+      "snippet": "Article URL: https://ai-2040.com/ Comments URL: https://news.ycombinator.com/item?id=48848425 Points: 307 # Comments: 324"
     },
     {
       "id": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
@@ -468,24 +405,6 @@
       "category": "usages",
       "ts": 1783584304000,
       "snippet": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this really surprised me. But then I thought, \"I wonder how it woul"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-      "link": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1783546964000,
-      "snippet": "AI cheating leads to \"a failed society,\" professor says."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-      "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
-      "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1783540597000,
-      "snippet": "More young girls sue X over Grok CSAM; X accused of shielding child predators."
     },
     {
       "id": "https://www.nytimes.com/2026/07/08/technology/san-francisco-home-sales-openai-anthropic-ipo.html",
@@ -758,15 +677,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-      "title": "Your family’s $300 stake in OpenAI",
-      "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1783360800000,
-      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday,"
-    },
-    {
       "id": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "title": "PRX Part 4: Our Data Strategy",
       "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
@@ -819,15 +729,6 @@
       "category": "capital",
       "ts": 1783012370000,
       "snippet": "U.S. startups announced sizable funding rounds at a steady clip during a truncated holiday week, with energy and AI leading the way. Houston-based energy startup Joulent secured the biggest round, a $1.75 billion strategic financing."
-    },
-    {
-      "id": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "title": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
-      "link": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1782990047000,
-      "snippet": "Investors poured more than $200 billion into startups globally in the just-ended quarter, making Q2 2026 the second-largest quarter on record, our data shows. And, with IPOs and acquisitions returning in force, the second quarter notched one of the strongest periods for venture-b"
     },
     {
       "id": "https://restofworld.org/2026/india-bhashini-open-source-offline-ai-hackathon/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -974,15 +875,6 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively out-persuade humans:…“AI systems were reliably more persuasive than expert human"
     },
     {
-      "id": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "title": "Chinese universities are cutting language majors to make way for AI",
-      "link": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "category": "monde",
-      "ts": 1782122452000,
-      "snippet": "Universities are dropping programs in translation and foreign languages while adding degrees in embodied intelligence, AI, and robotics."
-    },
-    {
       "id": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
       "title": "Apple Price Increases, Apple Intelligence and the E.U.",
       "link": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
@@ -1017,15 +909,6 @@
       "category": "capab",
       "ts": 1781806393000,
       "snippet": ""
-    },
-    {
-      "id": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
-      "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
-      "link": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
-      "source": "Stratechery",
-      "category": "radar",
-      "ts": 1781776800000,
-      "snippet": "An interview with Michael Morton about e-commerce and AI, including the challenges of unfalsifiable bear cases, distribution versus referal models, grocery, and autonomous vehicles."
     },
     {
       "id": "https://huggingface.co/blog/peft-beyond-lora",
@@ -1215,34 +1098,96 @@
       "category": "capab",
       "ts": 1780012800000,
       "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "title": "Reachy Mini goes fully local",
-      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1779840000000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/delta-weight-sync",
-      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "link": "https://huggingface.co/blog/delta-weight-sync",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1779840000000,
-      "snippet": ""
-    },
-    {
-      "id": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
-      "title": "Import AI 458: Reckoning with the future; and a singularity story",
-      "link": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
-      "source": "Import AI",
-      "category": "radar",
-      "ts": 1779798723000,
-      "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gave, and a fictional story attempting to th"
     }
   ],
-  "syntheses": {}
+  "syntheses": {
+    "capital": {
+      "titre": "L'IA se fragmente : les investisseurs financent l'infrastructure et les outils métier, mais les grands modèles cherchent leurs clients",
+      "resume": "Les investisseurs versent des records (392 milliards en H1 2026) surtout dans les puces IA et les outils sectoriels (RH, juridique, admissions), moins dans les modèles génériques. Meta, Apple et OpenAI se heurtent à des freins : usage réputationnel des données publiques, guerres de talent, pression réglementaire. L'open source (Hugging Face) gagne du terrain auprès des grandes entreprises. OpenAI doit affronter une fuite de cadres et une concurrence croissante d'Anthropic juste avant une entrée en Bourse.",
+      "faits": [
+        "Meta a retiré une fonctionnalité IA d'Instagram après critiques publiques : elle apprenait sur le contenu public des utilisateurs sans consentement explicite.",
+        "SK Hynix a levé 26,5 milliards de dollars (IPO étrangère record aux États-Unis), sous pression pour construire des usines de puces IA en Amérique du Nord.",
+        "Hugging Face (plateforme d'IA open source) est maintenant utilisée par environ la moitié du Fortune 500 : les grandes entreprises cessent de « louer » des modèles propriétaires.",
+        "OpenAI perd Fidji Simo (numéro 2) en congé maladie prolongé, en pleine course contre Anthropic et préparation d'une IPO.",
+        "Apple poursuit OpenAI pour vol de secrets commerciaux, impliquant sa direction senior et des anciens salariés.",
+        "92 % des cinq plus gros financements de la semaine visent l'infrastructure IA ou des outils métier (cybersécurité, gestion d'admissions, dispatch) : quasi rien pour les modèles génériques.",
+        "North American startups ont levé 392 milliards de dollars en H1 2026, porté par l'IA et l'énergie, surtout sur des cas d'usage spécialisés."
+      ],
+      "implications": [
+        {
+          "fait": "Meta retire sa fonctionnalité et Apple poursuit OpenAI sur les données",
+          "pourquoi": "Les éditeurs IA ne peuvent plus ignorer le droit des données et la confiance publique. Cela ralentit le déploiement et augmente les coûts légaux. Les modèles entraînés sur des données publiques sans consentement deviennent une cible réglementaire."
+        },
+        {
+          "fait": "SK Hynix lève un record et doit bâtir des usines américaines",
+          "pourquoi": "Le goulet d'étranglement n'est plus le modèle IA, c'est la puce. Celui qui contrôle la production locale (États-Unis) contrôle l'accès au marché. Les gouvernements imposent la localisation pour sécuriser leur base technologique."
+        },
+        {
+          "fait": "Hugging Face est utilisée par la moitié du Fortune 500",
+          "pourquoi": "Les grandes entreprises abandonnent progressivement les modèles propriétaires (OpenAI, Google) pour l'open source. Cela réduit les marges des éditeurs IA et bascule le profit vers ceux qui vendent des services ou des puces, pas des modèles."
+        },
+        {
+          "fait": "OpenAI perd un cadre clé avant une IPO et face à Anthropic",
+          "pourquoi": "Les talents quittent OpenAI parce qu'elle perd en avantage concurrentiel (Anthropic rattrape) et traverse une crise interne. Une IPO réussie dépend de la stabilité de direction : cette fuite signale un problème structurel."
+        },
+        {
+          "fait": "Le capital se concentre sur les outils métier et l'infrastructure, pas les modèles génériques",
+          "pourquoi": "Les investisseurs ont compris que les modèles génériques (GPT, Claude) ne rapportent qu'à l'éditeur, pas à 100 startups. L'argent va aux outils qui résolvent un vrai problème métier (RH, admissions, dispatch) : c'est où le ROI se fait."
+        }
+      ],
+      "signaux": [
+        "Fuite de cadres chez les grands éditeurs (OpenAI, Google) : premiers signes d'une consolidation par absorption ou chute.",
+        "Montée des procès sur données (Apple vs OpenAI) : la législation va durcir sur l'usage des contenus publics pour l'entraînement.",
+        "Croissance d'Anthropic comme alternative directe à OpenAI dans l'enterprise : risque de guerre des prix et consolidation.",
+        "Demandes gouvernementales de localisation de la production (puces, data centers) : les États-Unis et alliés réservent l'accès.",
+        "Accélération des outils sectoriels (RH, juridique, logistique) : le prochain vainqueur sera celui qui vend des solutions, pas des modèles.",
+        "Émergence d'une couche middleware (Hugging Face) entre les modèles open source et les utilisateurs finals : le contrôle passe du modèle au système."
+      ],
+      "conclusion": "Investissez dans l'infrastructure de puces et les outils métier spécialisés, pas dans les modèles génériques ; les modèles propriétaires perdent face à l'open source et aux procès sur les données, tandis que les services à haut ROI (admissions, dispatch, cybersécurité) captent le capital et les clients du Fortune 500.",
+      "generatedAt": "2026-07-11T13:19:50.664Z"
+    },
+    "capab": {
+      "titre": "Meta recule sur les deepfakes IA, Apple attaque OpenAI pour vol de secrets, Hugging Face accélère l'IA open source accessible à tous",
+      "resume": "Meta désactive sa fonction de création de deepfakes (fausses vidéos) d'utilisateurs publics après une vive protestation. Apple poursuit OpenAI, accusant ses anciens salariés d'avoir volé des secrets sur le matériel informatique. Pendant ce temps, Hugging Face (plateforme open source) multiplie les outils pour que n'importe quelle entreprise lance des modèles IA sans dépendre d'une seule plateforme ou d'un seul cloud : intégration avec Amazon, stockage sans coût de transfert, ou lancement d'IA vocale en temps réel avec Cerebras.",
+      "faits": [
+        "Meta a fermé une fonction lancée cette semaine qui laissait les utilisateurs générer des images IA en taguant des comptes Instagram publics, face aux critiques.",
+        "Apple accuse OpenAI d'avoir recruté ses anciens ingénieurs pour voler ses secrets commerciaux et avancer ses plans matériels.",
+        "Hugging Face integre ses outils directement chez Amazon SageMaker, permettant aux clients d'Amazon de lancer des modèles IA en un clic sans quitter la plateforme.",
+        "Hugging Face et Cerebras ont annoncé une IA capable de comprendre et générer la voix en temps réel, utilisant un processeur spécialisé (Cerebras).",
+        "Hugging Face propose un stockage sans frais de transfert entre clouds (via SkyPilot), éliminant un coût clé qui bloque actuellement beaucoup d'entreprises.",
+        "Hugging Face publie chaque semaine ses outils open source avec des mises à jour (vLLM, optimisations de vitesse, benchmarks publics) pour que tous puissent comparer les modèles."
+      ],
+      "implications": [
+        {
+          "fait": "Meta ferme sa fonction de deepfakes après protestation",
+          "pourquoi": "Les grandes plateformes abandonnent les outils IA qui créent du contenu trompeur sur des personnes réelles, par peur de poursuites et de régulation. Pour les entreprises, cela signifie : si votre produit peut faire du mal, même technique, il sera bloqué."
+        },
+        {
+          "fait": "Apple poursuit OpenAI pour vol de secrets matériels",
+          "pourquoi": "Les disputes entre géants sur le talent et les secrets de fabrication s'accélèrent. Pour une startup ou scale-up, c'est un signal : embaucher chez les grands n'est plus simple, et les contrats de non-concurrence vont se durcir."
+        },
+        {
+          "fait": "Hugging Face s'intègre chez Amazon et supprime les coûts de transfert",
+          "pourquoi": "L'IA open source devient aussi facile à utiliser que les solutions propriétaires, mais moins cher et sans dépendance à un seul éditeur. Les entreprises peuvent enfin changer de fournisseur sans pénalité. Cela menace la rente des géants du cloud sur l'IA."
+        },
+        {
+          "fait": "Hugging Face et Cerebras lancent l'IA vocale temps réel",
+          "pourquoi": "Un nouveau marché s'ouvre : les applications vocales IA (assistants, transcription, traduction) deviennent viables même pour les petits budgets. Les entreprises de télécoms, support client et logiciels doivent s'y préparer."
+        },
+        {
+          "fait": "Hugging Face publie des benchmarks publics chaque semaine",
+          "pourquoi": "Chaque entreprise peut maintenant comparer objectivement les modèles sans faire confiance aux claims marketing d'OpenAI ou Google. La transparence réduit le pouvoir des leaders actuels."
+        }
+      ],
+      "signaux": [
+        "Les procès entre géants sur le talent et les secrets (Apple/OpenAI) vont se multiplier : surveiller les annonces de départs de cadres d'OpenAI, Google, Meta.",
+        "Les startups de matériel spécialisé (comme Cerebras) gagnent du terrain face aux GPUs génériques : moins cher, plus rapide pour des usages précis (voix, agents).",
+        "Les régulations sur les deepfakes et l'usurpation d'identité vont accélérer (attendre des lois UE, US, UK dans 12-18 mois) : tout produit qui génère du contenu sur des vraies personnes sera visé.",
+        "Les startups qui vendent une intégration facile avec Hugging Face (pas besoin d'ingénieur IA) vont prospérer : ETL, no-code, entreprise généraliste.",
+        "La migration des modèles entre clouds (zéro coût) devient un argument commercial : prévoir les requêtes « peut-on changer de cloud ? »."
+      ],
+      "conclusion": "L'IA cesse d'être un monopole des géants : Hugging Face rend les bons modèles gratuits, interopérables, et bon marché, tandis que Meta et Apple s'étreignent légalement. Pour votre entreprise : si vous n'aviez pas osé l'IA par peur du coût ou de la dépendance, c'est le moment d'essayer sur vos vrais cas métier, avant que un concurrent le fasse.",
+      "generatedAt": "2026-07-11T13:20:04.524Z"
+    }
+  }
 }
