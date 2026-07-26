@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T07:29:08.946Z",
+  "generatedAt": "2026-07-26T07:46:29.811Z",
   "categories": [
     {
       "id": "radar",
@@ -26,8 +26,161 @@
       "label": "France & Europe"
     }
   ],
-  "count": 138,
+  "count": 132,
   "items": [
+    {
+      "id": "https://www.techmeme.com/260726/p3#a260726p3",
+      "title": "Sources including AI lab staff say users have been persuading chatbots to accurately answer prompts about planning mass-casualty attacks and making bio-weapons (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260726/p3#a260726p3",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1785045602000,
+      "snippet": "Wall Street Journal: Sources including AI lab staff say users have been persuading chatbots to accurately answer prompts about planning mass-casualty attacks and making bio-weapons — AI companies play a cat-and-mouse game, trying to boost the capabilities of their creations while"
+    },
+    {
+      "id": "https://www.techmeme.com/260726/p1#a260726p1",
+      "title": "Elio, which is developing a new type of image sensor designed for AI rather than human vision, raised a $21M Series A led by Innovation Endeavors and Xora (Meir Orbach/CTech)",
+      "link": "https://www.techmeme.com/260726/p1#a260726p1",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1785043200000,
+      "snippet": "Meir Orbach / CTech: Elio, which is developing a new type of image sensor designed for AI rather than human vision, raised a $21M Series A led by Innovation Endeavors and Xora — Elio's founders, Nadav Grossinger and Nitay Romano, spent seven years developing physical sensing syst"
+    },
+    {
+      "id": "https://www.techmeme.com/260725/p17#a260725p17",
+      "title": "A look at China's bid to build an alternative global order in AI by making open models widely available and training people in developing countries to use them (Financial Times)",
+      "link": "https://www.techmeme.com/260725/p17#a260725p17",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1785034501000,
+      "snippet": "Financial Times: A look at China's bid to build an alternative global order in AI by making open models widely available and training people in developing countries to use them — Beijing makes most ambitious offer yet to build alternative global order — China's President Xi Jinpi"
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1785029400000,
+      "snippet": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor."
+    },
+    {
+      "id": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+      "link": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1785026190000,
+      "snippet": "Article URL: https://huggingface.co/owensong/Inflect-Micro-v2 Comments URL: https://news.ycombinator.com/item?id=49053375 Points: 102 # Comments: 7"
+    },
+    {
+      "id": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1785012155000,
+      "snippet": "Article URL: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models Comments URL: https://news.ycombinator.com/item?id=49051361 Points: 291 # Comments: 181"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html",
+      "title": "Silicon Valley Splits Over Closing the Borders to Chinese A.I.",
+      "link": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1785010053000,
+      "snippet": "Anthropic and OpenAI are clashing with the rest of the tech industry over whether “open-source” models from China should be freely available or restricted."
+    },
+    {
+      "id": "https://www.debian.org/vote/2026/vote_002",
+      "title": "LLM Usage in Debian: Three Proposals",
+      "link": "https://www.debian.org/vote/2026/vote_002",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1785008679000,
+      "snippet": "Article URL: https://www.debian.org/vote/2026/vote_002 Comments URL: https://news.ycombinator.com/item?id=49050859 Points: 134 # Comments: 117"
+    },
+    {
+      "id": "https://github.com/slvDev/esp32-ai",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "link": "https://github.com/slvDev/esp32-ai",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1785005990000,
+      "snippet": "Article URL: https://github.com/slvDev/esp32-ai Comments URL: https://news.ycombinator.com/item?id=49050512 Points: 160 # Comments: 34"
+    },
+    {
+      "id": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
+      "title": "Google basically confirms the Pixel 11 is getting a price hike",
+      "link": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1785003216000,
+      "snippet": "Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hik"
+    },
+    {
+      "id": "https://www.techmeme.com/260725/p15#a260725p15",
+      "title": "Several universities including Yale, Johns Hopkins, and the University of Waterloo have restricted or disabled their use of AI detectors over accuracy concerns (Ima Jackson-Obot/Financial Times)",
+      "link": "https://www.techmeme.com/260725/p15#a260725p15",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1785002701000,
+      "snippet": "Ima Jackson-Obot / Financial Times: Several universities including Yale, Johns Hopkins, and the University of Waterloo have restricted or disabled their use of AI detectors over accuracy concerns — Some institutions are overhauling assessment and trying to move away from the emph"
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1784995200000,
+      "snippet": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand."
+    },
+    {
+      "id": "https://www.techmeme.com/260725/p14#a260725p14",
+      "title": "Sources: DeepSeek told investors it is suspending its second funding round after remarks attributed to Liang Wenfeng on US-China AI competition went viral (Pei Li/Bloomberg)",
+      "link": "https://www.techmeme.com/260725/p14#a260725p14",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1784994001000,
+      "snippet": "Pei Li / Bloomberg: Sources: DeepSeek told investors it is suspending its second funding round after remarks attributed to Liang Wenfeng on US-China AI competition went viral — DeepSeek has told prospective investors in its second fundraising round that it's suspending the deal f"
+    },
+    {
+      "id": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "link": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1784990989000,
+      "snippet": "Article URL: https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/ Comments URL: https://news.ycombinator.com/item?id=49048034 Points: 369 # Comments: 287"
+    },
+    {
+      "id": "https://www.techmeme.com/260725/p13#a260725p13",
+      "title": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
+      "link": "https://www.techmeme.com/260725/p13#a260725p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1784990701000,
+      "snippet": "New York Times: Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI — Anthropic and OpenAI are clashing with the rest of the tech industry over whether “open-source” model"
+    },
+    {
+      "id": "https://www.techmeme.com/260725/p12#a260725p12",
+      "title": "SK Group Chair Chey Tae Won says Anthropic has asked SK Hynix for supplies to make its own chips, calling it remarkable that an AI developer has chip ambitions (Ian King/Bloomberg)",
+      "link": "https://www.techmeme.com/260725/p12#a260725p12",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1784987401000,
+      "snippet": "Ian King / Bloomberg: SK Group Chair Chey Tae Won says Anthropic has asked SK Hynix for supplies to make its own chips, calling it remarkable that an AI developer has chip ambitions — AI developer Anthropic PBC has asked SK Hynix Inc., one of the world's biggest manufacturers of "
+    },
+    {
+      "id": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1784984700000,
+      "snippet": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem."
+    },
     {
       "id": "https://www.techmeme.com/260725/p8#a260725p8",
       "title": "A profile of Yang Zhilin, founder of Moonshot AI, which faced early doubts over revenue and model capabilities before its Kimi K3 delivered a \"DeepSeek moment\" (Financial Times)",
@@ -47,51 +200,6 @@
       "snippet": "Lily Mae Lazarus / Fortune: Candid Health, which develops tech and AI agents to automate medical billing and claims processing workflows, raised a $120M Series D led by Sixth Street Growth — Candid Health cofounder Doug Proctor spun his laptop around to show me a herd of wild hor"
     },
     {
-      "id": "https://www.techmeme.com/260725/p5#a260725p5",
-      "title": "Meshy, whose AI-powered tech lets users generate 3D assets from text and image prompts, raised a ~$400M Series B at a $1.5B valuation (Abhinaya Prabhu/Tech Funding News)",
-      "link": "https://www.techmeme.com/260725/p5#a260725p5",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784960101000,
-      "snippet": "Abhinaya Prabhu / Tech Funding News: Meshy, whose AI-powered tech lets users generate 3D assets from text and image prompts, raised a ~$400M Series B at a $1.5B valuation — - Meshy raises nearly $400 million at a $1.5 billion valuation, which it says is the largest round any dedi"
-    },
-    {
-      "id": "https://www.techmeme.com/260725/p3#a260725p3",
-      "title": "Progress Software agrees to acquire Domo's AI and data platform business for $400M; Domo will remain publicly listed and change its name after the deal closes (Larry Dignan/Constellation Research)",
-      "link": "https://www.techmeme.com/260725/p3#a260725p3",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784957102000,
-      "snippet": "Larry Dignan / Constellation Research: Progress Software agrees to acquire Domo's AI and data platform business for $400M; Domo will remain publicly listed and change its name after the deal closes — Progress Software said it will acquire Domo's AI and data platform business for "
-    },
-    {
-      "id": "https://www.techmeme.com/260725/p2#a260725p2",
-      "title": "Neocloud Fluidstack, which has partnered with Anthropic, announces that it raised an $830M Series A led by Situational Awareness at a $7.5B valuation in January (Maria Deutscher/SiliconANGLE)",
-      "link": "https://www.techmeme.com/260725/p2#a260725p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784956501000,
-      "snippet": "Maria Deutscher / SiliconANGLE: Neocloud Fluidstack, which has partnered with Anthropic, announces that it raised an $830M Series A led by Situational Awareness at a $7.5B valuation in January — Fluidstack Ltd., a startup helping Anthropic PBC build artificial intelligence data c"
-    },
-    {
-      "id": "https://www.techmeme.com/260724/p38#a260724p38",
-      "title": "Nvidia and SK Group unveil a $500B+ AI initiative that includes an SK Hynix partnership to secure next-gen memory supply for Nvidia and joint development of HBM (Reuters)",
-      "link": "https://www.techmeme.com/260724/p38#a260724p38",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784940300000,
-      "snippet": "Reuters: Nvidia and SK Group unveil a $500B+ AI initiative that includes an SK Hynix partnership to secure next-gen memory supply for Nvidia and joint development of HBM — Nvidia (NVDA.O) and South Korea's SK Group on Friday unveiled a more than $500 billion AI initiative spannin"
-    },
-    {
-      "id": "https://www.techmeme.com/260724/p37#a260724p37",
-      "title": "Nvidia plans to invest $1B in Naver to help finance an AI data center in South Korea, and partners with SK Group to build more than 2 GW of AI data centers (Ian King/Bloomberg)",
-      "link": "https://www.techmeme.com/260724/p37#a260724p37",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784939701000,
-      "snippet": "Ian King / Bloomberg: Nvidia plans to invest $1B in Naver to help finance an AI data center in South Korea, and partners with SK Group to build more than 2 GW of AI data centers — Nvidia Corp. will invest $1 billion in Naver Corp. to help finance an AI data center under construct"
-    },
-    {
       "id": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
       "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
       "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
@@ -99,33 +207,6 @@
       "category": "capital",
       "ts": 1784938991000,
       "snippet": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it."
-    },
-    {
-      "id": "https://www.techmeme.com/260724/p36#a260724p36",
-      "title": "A joint preliminary evaluation by the UK's AISI and the US' CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability (AI Security Institute)",
-      "link": "https://www.techmeme.com/260724/p36#a260724p36",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784937902000,
-      "snippet": "AI Security Institute: A joint preliminary evaluation by the UK's AISI and the US' CAISI finds Kimi K3 trails leading US frontier closed weight models on cyber capability — The UK Artificial Intelligence Security Institute (UK AISI) and the U.S. Center for AI Standards and Innova"
-    },
-    {
-      "id": "https://www.techmeme.com/260724/p35#a260724p35",
-      "title": "The US, China, and other APEC economies release a statement supporting open models, while emphasizing respect for security, data protection, and IP rights (Evelyn Cheng/CNBC)",
-      "link": "https://www.techmeme.com/260724/p35#a260724p35",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784935500000,
-      "snippet": "Evelyn Cheng / CNBC: The US, China, and other APEC economies release a statement supporting open models, while emphasizing respect for security, data protection, and IP rights — CHENGDU, China — Governments increasingly want to control artificial intelligence, as companies releas"
-    },
-    {
-      "id": "https://www.techmeme.com/260724/p34#a260724p34",
-      "title": "Sources: OpenAI's models breached Hugging Face from July 11 to 13 and OpenAI realized their models were behind the hack several days later (Reuters)",
-      "link": "https://www.techmeme.com/260724/p34#a260724p34",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1784934900000,
-      "snippet": "Reuters: Sources: OpenAI's models breached Hugging Face from July 11 to 13 and OpenAI realized their models were behind the hack several days later — The OpenAI agent that broke into tech firm Hugging Face went on a dayslong hacking spree that OpenAI didn't notice until well afte"
     },
     {
       "id": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
@@ -173,15 +254,6 @@
       "snippet": "Startup investors poured capital into a varied lineup of large rounds this week, targeting sectors including physical AI, biotech, cybersecurity, AI infrastructure and fintech."
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "title": "Midjourney bought the astrology app Co-Star",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1784920018000,
-      "snippet": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free ap"
-    },
-    {
       "id": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
       "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
       "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
@@ -227,51 +299,6 @@
       "snippet": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases."
     },
     {
-      "id": "https://www.anthropic.com/news/claude-opus-5",
-      "title": "Claude Opus 5",
-      "link": "https://www.anthropic.com/news/claude-opus-5",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1784912261000,
-      "snippet": "https://www.anthropic.com/claude-opus-5-system-card Comments URL: https://news.ycombinator.com/item?id=49038433 Points: 1482 # Comments: 814"
-    },
-    {
-      "id": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/",
-      "title": "OpenAI’s own model went rogue before Kimi had Wall Street sweating",
-      "link": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1784911808000,
-      "snippet": "Chinese AI lab Moonshot’s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a"
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-      "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1784908309000,
-      "snippet": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-      "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
-      "link": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1784906037000,
-      "snippet": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol."
-    },
-    {
-      "id": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-      "title": "Midjourney acquired the astrology app Co-Star",
-      "link": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1784905795000,
-      "snippet": "The AI lab Midjourney continues to expand its purview beyond image and video generation."
-    },
-    {
       "id": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
       "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
       "link": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
@@ -281,24 +308,6 @@
       "snippet": "Rule would allow states to decide how much—if any—public input there can be."
     },
     {
-      "id": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-      "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
-      "link": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1784900202000,
-      "snippet": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents."
-    },
-    {
-      "id": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1784899950000,
-      "snippet": "Letter: https://images.nvidia.com/pdf/Open-Weights-and-American-AI-L... [pdf] https://x.com/JensenHuang/status/2080643682408321103, https://xcancel.com/JensenHuang/status/2080643682408321103 https://www.wired.com/story/silicon-valley-is-completely-div..., https://archive.ph/LAkVI"
-    },
-    {
       "id": "https://restofworld.org/2026/ai-government-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "title": "Why state-owned AI won’t solve inequality",
       "link": "https://restofworld.org/2026/ai-government-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -306,15 +315,6 @@
       "category": "monde",
       "ts": 1784898000000,
       "snippet": "Government ownership of AI companies may promise shared wealth, but it risks weakening oversight and accountability."
-    },
-    {
-      "id": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "link": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1784897639000,
-      "snippet": "Article URL: https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18 Comments URL: https://news.ycombinator.com/item?id=49034868 Points: 291 # Comments: 54"
     },
     {
       "id": "https://news.crunchbase.com/ai/biggest-talent-challenge-resilience-vaidya-crafting/",
@@ -333,15 +333,6 @@
       "category": "usages",
       "ts": 1784890803000,
       "snippet": "“The story that we’re talking about in this segment was science fiction until Tuesday, OK?”"
-    },
-    {
-      "id": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "title": "IRGC claims it destroyed Amazon's Bahrain data center",
-      "link": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1784886778000,
-      "snippet": "Article URL: https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/ Comments URL: https://news.ycombinator.com/item?id=49033240 Points: 279 # Comments: 342"
     },
     {
       "id": "https://siecledigital.fr/2026/07/24/la-presse-francaise-accuse-google-de-piller-ses-contenus-pour-nourrir-ses-resumes-ia/",
@@ -369,33 +360,6 @@
       "category": "capab",
       "ts": 1784834065000,
       "snippet": "Google's selfie videos can be used for account access, AI Avatars, and age verification."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
-      "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
-      "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1784833681000,
-      "snippet": "Bill would let Homeland Security chief decide when an AI should be shut down."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html",
-      "title": "China Rewrites the ‘Soft Power’ Playbook for the A.I. Age",
-      "link": "https://www.nytimes.com/2026/07/23/business/china-ai-soft-power.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1784826664000,
-      "snippet": "China is seeking global influence and good will with its open, low-cost artificial intelligence software."
-    },
-    {
-      "id": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "title": "Kimi K3 exploited the latest Redis server",
-      "link": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1784826602000,
-      "snippet": "https://xcancel.com/fried_rice/status/2080059356322918777 Comments URL: https://news.ycombinator.com/item?id=49024938 Points: 196 # Comments: 55"
     },
     {
       "id": "https://www.nytimes.com/2026/07/23/technology/personaltech/chatgpt-gemini-prompts-privacy.html",
@@ -1251,25 +1215,46 @@
       "category": "radar",
       "ts": 1781523053000,
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers launch new safety startup because “alignment is not on track”:…Sequent will have a "
-    },
-    {
-      "id": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-      "title": "Why AI hasn’t replaced software engineers, and won’t",
-      "link": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-      "source": "AI Snake Oil",
-      "category": "usages",
-      "ts": 1781144991000,
-      "snippet": "Coding agents as normal technology"
-    },
-    {
-      "id": "https://huggingface.co/blog/torch-mlp-fusion",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1781136000000,
-      "snippet": ""
     }
   ],
-  "syntheses": {}
+  "syntheses": {
+    "monde": {
+      "titre": "Les États-Unis tentent de bloquer l'IA chinoise, mais les entreprises l'utilisent quand même — et cela crée des tensions géopolitiques",
+      "resume": "Les autorités américaines veulent empêcher la Chine de progresser en IA, mais Apple, des startups et des développeurs du monde entier adoptent déjà les modèles IA chinois comme Kimi K3 parce qu'ils sont performants et accessibles. En parallèle, la Chine recrute des talents dès le lycée pour rattraper son retard, tandis que les pays du Golfe (Arabie saoudite, Émirats) investissent massivement mais restent dépendants de Nvidia et des fournisseurs occidentaux. Ces deux mouvements fragilisent la stratégie de confinement américaine et risquent de fragmenter le marché mondial de l'IA.",
+      "faits": [
+        "Apple, Thinking Machines et d'autres entreprises mondiales utilisent des modèles IA chinois malgré les avertissements des autorités américaines.",
+        "Des conseillers de Trump sur l'IA sont en désaccord public sur la menace réelle posée par les modèles chinois.",
+        "La Chine recrute des adolescents dans des camps et programmes de recherche pour constituer sa réserve d'ingénieurs IA, faute d'offre suffisante sur le marché.",
+        "L'Arabie saoudite et les Émirats arabes investissent des milliards en IA mais ne peuvent pas remplacer Nvidia, qui domine technologiquement et sur les chaînes d'approvisionnement.",
+        "L'IA crée des disparités de revenus visibles : elle multiplie la productivité des gros studios de jeu mais élimine les postes juniors (écrivains, artistes, programmeurs débutants)."
+      ],
+      "implications": [
+        {
+          "fait": "Les entreprises utilisent l'IA chinoise malgré l'interdiction américaine",
+          "pourquoi": "L'interdiction n'a pas de poids si la technologie est meilleure, plus rapide ou moins chère. Cela signifie que le contrôle américain ne fonctionne que si les alternatives restent inférieures — ce qui devient faux au fur et à mesure que la Chine innove."
+        },
+        {
+          "fait": "La Chine recrute massivement dès le secondaire",
+          "pourquoi": "Le talent est le goulet d'étranglement. En sécurisant 10 ans d'avance, la Chine construit une base solide et rend plus tard une contre-attaque américaine plus coûteuse."
+        },
+        {
+          "fait": "L'Arabie saoudite et les Émirats restent dépendants de Nvidia",
+          "pourquoi": "Pas de vraie souveraineté technologique possible sans accès aux puces. L'argent seul ne suffit pas. Les pays du Golfe sont emprisonnés dans une chaîne d'approvisionnement contrôlée par les États-Unis, ce qui limite leur indépendance stratégique."
+        },
+        {
+          "fait": "L'IA détruit des postes juniors dans les secteurs créatifs (jeux vidéo, arts)",
+          "pourquoi": "Les juniors et les pigistes absorberaient normalement les chocs technologiques. Ici, ils sont mis de côté. C'est un risque social et économique : une génération de créateurs ne se constitue pas, et cela peut fragiliser l'industrie à long terme."
+        }
+      ],
+      "signaux": [
+        "Monitorage : combien d'entreprises Fortune 500 adoptent des outils IA chinois ? Si le chiffre augmente, la stratégie de confinement a échoué.",
+        "Talents : où vont les meilleurs ingénieurs IA ? Si davantage se tournent vers des équipes chinoises ou des startups non-américaines, cela signale un basculement de puissance.",
+        "Régulation : les États-Unis vont-ils durcir les sanctions sur Nvidia ou les transactions avec la Chine ? Chaque restriction intensifie la fragmentation du marché.",
+        "Alternatives à Nvidia : émerge-t-il des fabricants de puces non-américains ou chinois viables ? Si oui, l'étranglement géopolitique se desserre.",
+        "Bien-être senior : la dépendance des personnes âgées à des compagnons IA synthétiques s'accentue-t-elle ? C'est un indicateur de vide social et de vulnérabilité à la manipulation."
+      ],
+      "conclusion": "Le blocus américain sur l'IA chinoise échoue car la technologie chinoise devient trop bonne pour être ignorée, pendant que la Chine verrouille son avenir en talent — ce qui signifie que l'avantage américain en IA ne se maintient que s'il reste techniquement incontestable, ce qui devient faux dans 5 à 10 ans; pour une entreprise, cela veut dire que parier sur une suprématie occidentale durable est un pari perdant.",
+      "generatedAt": "2026-07-26T07:46:13.082Z"
+    }
+  }
 }
