@@ -4,9 +4,16 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="theme-color" content="#0B0B0C" />
-<title>Stratosphérique — Conseil produit · Sport &amp; SaaS fintech</title>
-<meta name="description" content="Stratosphérique : je fais décoller vos produits. Diagnostic, stratégie et exécution produit, du sport au SaaS fintech. Par Nathalie Beugé, Head of Product, 15 ans (Decathlon, Pennylane)." />
+<title>Stratosphérique — De la technologie déployée à la technologie adoptée</title>
+<meta name="description" content="De la technologie déployée à la technologie adoptée. VR dans 100 magasins de 20 pays, agents IA en production, une organisation portée de 22 à 50 personnes. Diagnostic, déploiement et suivi, par Nathalie Beugé." />
 <link rel="canonical" href="https://www.stratospherique.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.stratospherique.com/" />
+<meta property="og:title" content="Stratosphérique — De la technologie déployée à la technologie adoptée" />
+<meta property="og:description" content="La technologie est la partie facile. Ce qui fait la différence se joue en dessous, dans la donnée, la mesure et la discipline." />
+<meta property="og:image" content="https://www.stratospherique.com/assets/og-cover.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
 
 <script type="application/ld+json">
 {
@@ -17,14 +24,14 @@
       "@id": "https://www.stratospherique.com/#org",
       "name": "Stratosphérique",
       "alternateName": "Stratospherique",
-      "description": "Conseil produit : du plan au marché. Des produits dérisqués, organisés et pilotés par la data, qui font du business.",
+      "description": "La technologie est la partie facile. J'installe la donnée, la mesure et la discipline qui font décoller un déploiement.",
       "url": "https://www.stratospherique.com/",
       "email": "nathalie@stratospherique.com",
       "identifier": "SIRET 97899900100016",
       "founder": { "@id": "https://www.stratospherique.com/#nathalie" },
       "address": { "@type": "PostalAddress", "streetAddress": "442 avenue de la Gare", "postalCode": "74310", "addressLocality": "Les Houches", "addressCountry": "FR" },
       "areaServed": "FR",
-      "knowsAbout": ["stratégie produit", "product management", "design produit", "user research", "business model", "go-to-market", "intelligence artificielle"],
+      "knowsAbout": ["conduite du changement", "adoption technologique", "stratégie produit", "product management", "agents IA", "réalité virtuelle", "modèle opératoire"],
       "sameAs": [
         "https://www.linkedin.com/company/stratospherique/",
         "https://www.linkedin.com/in/nathaliebeuge/",
@@ -55,7 +62,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@0;600;700;800&family=Inter:wght@400;0;600&family=JetBrains+Mono:wght@0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="icon" href="./assets/logo_black.svg" type="image/svg+xml" />
 <style>
 :root{
@@ -83,7 +90,6 @@ h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-h
 .arrow-link{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border-bottom:1.5px solid var(--ink);padding-bottom:3px;transition:.2s}
 .arrow-link:hover{opacity:.6}
 
-/* HEADER */
 header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .bar{max-width:var(--maxw);margin:0 auto;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:12px}
@@ -97,20 +103,20 @@ header.site{position:fixed;inset:0 0 auto 0;z-index:60;background:rgba(255,255,2
 .burger span{width:24px;height:2px;background:var(--ink);display:block}
 @media(max-width:1040px){.burger{display:flex}.menu{position:absolute;top:100%;right:var(--gutter);flex-direction:column;align-items:flex-start;gap:16px;background:var(--paper);border:1px solid var(--line);padding:24px 28px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.22s}.menu.open{opacity:1;transform:none;pointer-events:auto}}
 
-section{padding:clamp(72px,11vw,1px) 0;position:relative}
+section{padding:clamp(72px,11vw,140px) 0;position:relative}
 .dark{background:var(--ink);color:var(--paper)}
 .dark .label{color:rgba(255,255,255,.55)}
 .wash{background:var(--wash)}
 .eyebrow{margin-bottom:22px}
-.h-lead{max-width:22ch}
 
 /* HERO */
 .hero{padding-top:clamp(130px,17vw,210px);padding-bottom:clamp(60px,9vw,120px);position:relative;overflow:hidden}
-.hero .topo{position:absolute;top:%;left:50%;transform:translate(-50%,-46%);width:min(1400px,140%);height:auto;color:var(--ink);opacity:.09;z-index:0;pointer-events:none}
+.hero .topo{position:absolute;top:0;left:50%;transform:translate(-50%,-46%);width:min(1400px,140%);height:auto;color:var(--ink);opacity:.09;z-index:0;pointer-events:none}
 .hero .topo path{fill:none;stroke:currentColor;stroke-width:1.1}
-.hero .inner{position:relative;z-index:1;max-width:40ch}
-.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800}
-.hero .sub{font-size:clamp(1.05rem,1.9vw,1.35rem);color:var(--slate);max-width:44ch;margin-top:26px;line-height:1.45}
+.hero .inner{position:relative;z-index:1;max-width:min(100%,1020px)}
+.hero h1{font-size:clamp(2rem,4.2vw,3.8rem);font-weight:800;line-height:1.06;max-width:19ch}
+.hero .sub{font-size:clamp(1rem,1.5vw,1.22rem);color:var(--slate);max-width:58ch;margin-top:24px;line-height:1.5}
+.hero .byline{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-top:18px}
 .hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}
 .hero .proof{margin-top:clamp(56px,8vw,96px);position:relative;z-index:1;display:flex;gap:16px 36px;flex-wrap:wrap;align-items:flex-start;border-top:1px solid var(--line);padding-top:28px}
 .hero .proof .pitems{display:flex;flex-wrap:wrap;gap:16px 40px}
@@ -119,50 +125,68 @@ section{padding:clamp(72px,11vw,1px) 0;position:relative}
 .hero .proof .pl{font-family:var(--mono);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--slate)}
 .hero .proof .n{font-family:var(--display);font-weight:600;font-size:1.2rem;color:var(--ink);line-height:1}
 
+/* PREUVE CHIFFREE */
+.evid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:44px;border-top:1px solid rgba(255,255,255,.18);padding-top:38px}
+.evid .v{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,5vw,3.6rem);letter-spacing:-.03em;line-height:1;color:var(--paper)}
+.evid .kk{display:block;margin-top:12px;color:rgba(255,255,255,.66);font-size:.95rem;max-width:32ch}
+.evid .src{display:block;margin-top:10px;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:rgba(255,255,255,.4)}
+@media(max-width:760px){.evid{grid-template-columns:1fr;gap:28px}}
+
 /* STATEMENT */
-.statement h2{font-size:clamp(2rem,5.4vw,4.2rem);font-weight:700;max-width:20ch;line-height:1.02}
-.statement .k{color:var(--slate)}
+.statement h2{font-size:clamp(1.75rem,3.6vw,3.1rem);font-weight:700;max-width:22ch;line-height:1.08}
+.mission-lead{font-family:var(--display);font-weight:600;font-size:clamp(1.35rem,2.8vw,2rem);line-height:1.16;margin-top:26px;max-width:32ch;color:var(--ink)}
+.mission-text{margin-top:22px;font-size:1.08rem;line-height:1.55;color:var(--slate);max-width:64ch}
 .smetrics{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:52px;border-top:1px solid var(--line);padding-top:38px}
 .smetrics .v{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,5vw,3.8rem);letter-spacing:-.03em;line-height:1}
 .smetrics .kk{display:block;margin-top:12px;color:var(--slate);font-size:.95rem;max-width:30ch}
 @media(max-width:760px){.smetrics{grid-template-columns:1fr;gap:26px}}
-.case .media + .ck{margin-top:20px}
+
+/* IMAGES */
+figure.shot{margin:0;position:relative;overflow:hidden;background:var(--wash);border:1px solid var(--line)}
+figure.shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+figure.shot:hover img{transform:scale(1.03)}
+figure.shot figcaption{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);padding:12px 14px;background:var(--paper);border-top:1px solid var(--line)}
+.shot-16x9{aspect-ratio:16/9}
+.shot-4x3{aspect-ratio:4/3}
+.shot-3x4{aspect-ratio:3/4}
+.band{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:stretch;margin-top:52px}
+@media(max-width:820px){.band{grid-template-columns:1fr}}
 
 /* CASES */
 .cases-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:44px}
 .cases-head h2{font-size:clamp(1.8rem,4vw,3rem)}
 .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
-.case{display:flex;flex-direction:column}
-.media{position:relative;aspect-ratio:4/3;background:var(--wash);border:1px solid var(--line);overflow:hidden;display:flex;align-items:center;justify-content:center}
-.media::after{content:attr(data-ph);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);padding:0 16px;text-align:center}
-.media.tall{aspect-ratio:3/4}
-.case .num{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,4.4vw,3.4rem);line-height:1;margin-top:22px;letter-spacing:-.03em}
-.case .ck{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-top:14px}
-.case p{font-size:1rem;color:var(--ink);margin-top:8px;max-width:34ch}
-.case .go{margin-top:14px}
+.case{border:1px solid var(--line);background:var(--paper);display:flex;flex-direction:column;transition:.2s;overflow:hidden}
+.case:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.case:hover .ck{color:rgba(255,255,255,.55)}
+.case:hover .go{color:var(--paper);border-color:rgba(255,255,255,.5)}
+.case .body{padding:26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.case .thumb{aspect-ratio:16/10;background:var(--wash);overflow:hidden}
+.case .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.case:hover .thumb img{transform:scale(1.04)}
+.case .ck{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.case .ct{font-family:var(--display);font-weight:700;font-size:1.4rem;line-height:1.14;color:inherit;text-wrap:balance}
+.case .go{margin-top:auto}
 @media(max-width:900px){.cases{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.cases{grid-template-columns:1fr}}
 
 /* TERRAINS */
 .terr{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:44px}
-.terr .card{display:flex;flex-direction:column;gap:18px}
-.terr .media{aspect-ratio:16/11}
+.terr .card{display:flex;flex-direction:column;gap:16px;border-top:2px solid var(--ink);padding-top:20px}
 .terr .tk{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
-.terr h3{font-size:1.7rem;font-weight:700;margin-top:-6px}
+.terr h3{font-size:1.7rem;font-weight:700}
 .terr p{color:var(--slate);font-size:.98rem;max-width:36ch}
 @media(max-width:820px){.terr{grid-template-columns:1fr;max-width:520px}}
 
-/* METHOD */
-.method-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;border-top:2px solid var(--ink)}
-.mstep{padding:30px 26px 34px 0;border-right:1px solid var(--line)}
-.mstep:last-child{border-right:none;padding-right:0}
-.mstep .mn{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--slate)}
-.mstep h3{font-size:1.6rem;font-weight:700;margin:14px 0 12px}
-.mstep p{font-size:.96rem;color:var(--slate)}
-.method-foot{margin-top:38px;font-family:var(--mono);font-size:.8rem;letter-spacing:.02em;color:var(--slate)}
-.method-foot a{color:var(--ink);border-bottom:1px solid var(--line)}
-@media(max-width:820px){.method-grid{grid-template-columns:1fr 1fr}.mstep{padding-right:26px;border-right:1px solid var(--line)}.mstep:nth-child(2n){border-right:none;padding-right:0}}
-@media(max-width:480px){.method-grid{grid-template-columns:1fr}.mstep{border-right:none;padding-right:0;border-bottom:1px solid var(--line)}.mstep:last-child{border-bottom:none}}
+/* FACETS */
+.facets{display:grid;grid-template-columns:repeat(4,1fr);margin-top:40px;border-top:2px solid var(--ink)}
+.facets>div{padding:28px 26px 30px 0;border-right:1px solid var(--line)}
+.facets>div:last-child{border-right:none;padding-right:0}
+.facets .fn{font-family:var(--mono);font-size:.72rem;color:var(--slate)}
+.facets h3{font-family:var(--display);font-weight:700;font-size:1.6rem;margin:14px 0 12px}
+.facets p{font-size:.96rem;color:var(--slate)}
+@media(max-width:960px){.facets{grid-template-columns:1fr 1fr}.facets>div:nth-child(2n){border-right:none}}
+@media(max-width:520px){.facets{grid-template-columns:1fr}.facets>div{border-right:none!important;padding-right:0;border-bottom:1px solid var(--line)}.facets>div:last-child{border-bottom:none}}
 
 /* OFFER */
 .offers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
@@ -170,32 +194,23 @@ section{padding:clamp(72px,11vw,1px) 0;position:relative}
 .offer:hover{border-color:var(--ink)}
 .offer .tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
 .offer h3{font-size:1.5rem;font-weight:700;margin:14px 0 4px}
-.offer .dur{font-family:var(--mono);font-size:.72rem;color:var(--slate);margin-bottom:22px}
+.offer .dur{font-family:var(--mono);font-size:.78rem;color:var(--ink);margin-bottom:22px;font-weight:500}
 .offer ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
 .offer li{font-size:.94rem;color:var(--slate);padding-left:18px;position:relative}
 .offer li::before{content:"";position:absolute;left:0;top:.6em;width:5px;height:5px;background:var(--ink)}
-.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line);font-weight:600;font-size:1.02rem}
-.offer .price{font-family:var(--mono);font-size:.7rem;color:var(--slate);margin-top:8px}
+.offer .res{margin-top:auto;padding-top:20px;border-top:1px solid var(--line);font-weight:600;font-size:1.02rem;display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.offer .price{font-family:var(--mono);font-size:.7rem;color:var(--slate)}
+.offer-btn{align-self:stretch;justify-content:center;padding:12px 18px;font-size:.9rem}
 .offer-wide{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--ink);color:var(--paper);border:none}
 .offer-wide:hover{border:none}
 .offer-wide h3{color:var(--paper)}
 .offer-wide .tag{color:rgba(255,255,255,.55)}
-.offer-wide p{color:rgba(255,255,255,.66);max-width:52ch;font-size:.96rem}
+.offer-wide p{color:rgba(255,255,255,.66);max-width:56ch;font-size:.96rem}
 .offer-wide .btn{background:var(--paper);color:var(--ink);border-color:var(--paper)}
 .offer-wide .btn:hover{background:transparent;color:var(--paper)}
 .offer-anchor{margin-top:20px;font-family:var(--mono);font-size:.78rem;color:var(--slate)}
 .offer-anchor b{color:var(--ink)}
 @media(max-width:900px){.offers{grid-template-columns:1fr;max-width:520px}.offer-wide{flex-direction:column;align-items:flex-start}}
-
-/* IA */
-.ia-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:44px}
-.ia-c h3{font-size:1.25rem;font-weight:600;color:var(--paper);margin-bottom:8px}
-.ia-c .un{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;color:rgba(255,255,255,.5)}
-.ia-c p{font-size:.92rem;color:rgba(255,255,255,.66);margin-top:8px}
-.ia-rule{margin-top:44px;font-family:var(--display);font-weight:600;font-size:clamp(1.3rem,2.6vw,1.9rem);color:var(--paper);max-width:40ch;line-height:1.2}
-.ia-obs{margin-top:20px}
-@media(max-width:900px){.ia-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.ia-grid{grid-template-columns:1fr}}
 
 /* ANALYSE */
 .az-form{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:760px;margin-top:40px}
@@ -214,32 +229,8 @@ section{padding:clamp(72px,11vw,1px) 0;position:relative}
 .az-note{margin-top:14px;font-family:var(--mono);font-size:.7rem;color:var(--slate)}
 @media(max-width:620px){.az-form{grid-template-columns:1fr}}
 
-/* BOOK TEASER */
-.book-teaser{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:center;border:1px solid var(--line);padding:40px;transition:.2s}
-.book-teaser:hover{background:var(--ink);color:var(--paper)}
-.book-teaser:hover .label,.book-teaser:hover p{color:rgba(255,255,255,.6)}
-.book-teaser:hover .arrow-link{color:var(--paper);border-color:rgba(255,255,255,.4)}
-.bt-cover{aspect-ratio:3/4.2;background:var(--ink);color:var(--paper);padding:24px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--ink)}
-.book-teaser:hover .bt-cover{border-color:rgba(255,255,255,.3)}
-.bt-cover .t1{font-family:var(--mono);font-size:.56rem;letter-spacing:.2em}
-.bt-cover .t2{font-family:var(--display);font-weight:700;font-size:1.9rem;line-height:1}
-.bt-cover .t3{font-family:var(--mono);font-size:.62rem;color:rgba(255,255,255,.6)}
-.bt-body h3{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;margin:12px 0;line-height:1.08}
-.bt-body p{color:var(--slate);margin-bottom:18px;max-width:48ch}
-@media(max-width:640px){.book-teaser{grid-template-columns:1fr;gap:24px}.bt-cover{max-width:160px}}
-
-/* FAQ */
-.faq{border-top:1px solid var(--line);margin-top:40px}
-.faq details{border-bottom:1px solid var(--line)}
-.faq summary{list-style:none;cursor:pointer;padding:26px 0;display:flex;justify-content:space-between;gap:24px;align-items:center;font-family:var(--display);font-weight:600;font-size:clamp(1.15rem,2.2vw,1.5rem)}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary .pm{font-family:var(--mono);color:var(--slate);flex-shrink:0;transition:.2s}
-.faq details[open] summary .pm{transform:rotate(45deg)}
-.faq .a{padding:0 0 26px;color:var(--slate);font-size:1.02rem;max-width:70ch}
-
 /* CONTACT */
-.contact{text-align:left}
-.contact h2{font-size:clamp(2.2rem,6vw,4.4rem);font-weight:800;max-width:16ch}
+.contact h2{font-size:clamp(1.9rem,4vw,3.4rem);font-weight:800;max-width:18ch;line-height:1.08}
 .contact .em{font-family:var(--mono);font-size:1.05rem;color:var(--paper);margin:28px 0 4px}
 .contact .meta{color:rgba(255,255,255,.6)}
 .contact .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
@@ -247,6 +238,7 @@ section{padding:clamp(72px,11vw,1px) 0;position:relative}
 .contact .btn:hover{background:transparent;color:var(--paper)}
 .contact .btn-ghost{background:transparent;color:var(--paper);border-color:rgba(255,255,255,.4)}
 .contact .btn-ghost:hover{background:var(--paper);color:var(--ink)}
+.signame{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:16px}
 
 footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-size:.8rem}
 .foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-family:var(--mono);letter-spacing:.03em}
@@ -255,46 +247,12 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
 @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 .reveal{animation:rise .6s ease both}
 .d1{animation-delay:.07s}.d2{animation-delay:.14s}.d3{animation-delay:.21s}
-@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}.hero .topo{opacity:.09}}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1;transform:none}figure.shot img,.case .thumb img{transition:none}}
 
-/* cartes-liens (travaux / idées), sans photo */
-.case{border:1px solid var(--line);background:var(--paper);padding:28px;display:flex;flex-direction:column;gap:12px;min-height:186px;transition:.2s}
-.case:hover{background:var(--ink);color:var(--paper)}
-.case:hover .ck{color:rgba(255,255,255,.55)}
-.case:hover .go{color:var(--paper);border-color:rgba(255,255,255,.5)}
-.case .ct{font-family:var(--display);font-weight:700;font-size:1.4rem;line-height:1.14;color:inherit;text-wrap:balance}
-.case .go{margin-top:auto}
-.terr .card{border-top:2px solid var(--ink);padding-top:20px}
-/* easter egg */
 #egg{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(18px);background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;padding:12px 22px;opacity:0;pointer-events:none;transition:.4s;z-index:200}
 #egg.on{opacity:1;transform:translateX(-50%) translateY(0)}
 .hero .topo.pulse{animation:topopulse 2.6s ease}
 @keyframes topopulse{0%{opacity:.09}30%{opacity:.32}100%{opacity:.09}}
-
-/* facets : product = stratégie + innovation + tech */
-.facets{display:grid;grid-template-columns:repeat(4,1fr);margin-top:40px;border-top:2px solid var(--ink)}
-.facets>div{padding:28px 26px 30px 0;border-right:1px solid var(--line)}
-.facets>div:last-child{border-right:none;padding-right:0}
-.facets .fn{font-family:var(--mono);font-size:.72rem;color:var(--slate)}
-.facets h3{font-family:var(--display);font-weight:700;font-size:1.6rem;margin:14px 0 12px}
-.facets p{font-size:.96rem;color:var(--slate)}
-@media(max-width:960px){.facets{grid-template-columns:1fr 1fr}.facets>div:nth-child(2n){border-right:none}}
-@media(max-width:520px){.facets{grid-template-columns:1fr}.facets>div{border-right:none!important;padding-right:0;border-bottom:1px solid var(--line)}.facets>div:last-child{border-bottom:none}}
-.signame{font-family:var(--mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:16px}
-.offer-anchor a,.faq .a a{color:var(--ink);border-bottom:1px solid var(--line)}
-.offer .res{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
-.offer-btn{align-self:stretch;justify-content:center;padding:12px 18px;font-size:.9rem}
-.values{display:grid;grid-template-columns:1fr 1fr;gap:26px 48px;margin-top:40px;max-width:1000px}
-.values>div{font-size:1.06rem;line-height:1.45;color:var(--ink);padding-left:18px;border-left:2px solid var(--ink)}
-@media(max-width:760px){.values{grid-template-columns:1fr}}
-.hero .rotator{position:relative;font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,5.6vw,4.4rem);color:var(--ink);line-height:1.03;margin:0}
-.hero .rotator .rot-sizer{visibility:hidden}
-.hero .rotator .rot-live{position:absolute;left:0;top:0;right:0;transition:opacity .35s ease,transform .35s ease}
-.hero .rotator .rot-live.out{opacity:0;transform:translateY(-8px)}
-.hero .byline{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-top:16px}
-@media(prefers-reduced-motion:reduce){.hero .cursor{animation:none}.hero .rotator{transition:none}}
-.mission-lead{font-family:var(--display);font-weight:600;font-size:clamp(1.35rem,2.8vw,2rem);line-height:1.16;margin-top:26px;max-width:30ch;color:var(--ink)}
-.mission-text{margin-top:22px;font-size:1.08rem;line-height:1.55;color:var(--slate);max-width:62ch}
 </style>
 </head>
 
@@ -310,6 +268,7 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
     <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span><span></span></button>
     <nav class="menu" id="menu" aria-label="Navigation">
       <a href="#top">Accueil</a>
+      <a href="#offre">Offre</a>
       <a href="./manifeste.html">À propos</a>
       <a href="./inner-self.html">Inner Self</a>
       <a href="./observatoire.html">Observatoire</a>
@@ -322,27 +281,32 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
 
 <!-- HERO -->
 <section class="hero" id="top">
-  <svg class="topo" viewBox="0 0 1440 700" aria-hidden="true"><path d="M820.4,357.4 L822.7,359.8 L824.4,362.3 L825.4,364.9 L825.8,367.5 L825.4,370.0 L824.4,372.5 L822.9,374.9 L821.0,377.2 L818.8,379.3 L816.3,381.3 L813.6,383.2 L810.8,385.0 L807.8,386.7 L804.7,388.2 L801.4,389.6 L798.0,390.8 L794.4,391.8 L790.7,392.6 L786.9,393.1 L783.0,393.3 L779.1,393.4 L775.3,393.3 L771.6,393.0 L768.1,392.8 L764.8,392.6 L761.6,392.6 L758.6,392.8 L755.6,393.3 L752.7,394.2 L749.6,395.4 L746.2,396.9 L742.6,398.7 L738.6,400.5 L734.2,402.2 L729.5,403.8 L724.6,405.0 L719.7,405.7 L714.8,405.8 L710.3,405.2 L706.2,404.0 L702.8,402.1 L700.1,399.6 L698.3,396.7 L697.2,393.5 L696.9,390.1 L697.2,386.7 L697.8,383.4 L698.7,380.4 L699.5,377.6 L700.0,375.2 L700.0,373.1 L699.5,371.3 L698.3,369.6 L696.4,368.1 L694.0,366.7 L691.0,365.1 L687.9,363.5 L684.6,361.7 L681.5,359.6 L678.7,357.4 L676.4,355.1 L674.7,352.6 L673.7,350.0 L673.4,347.4 L673.7,344.8 L674.7,342.4 L676.2,340.0 L678.1,337.7 L680.3,335.6 L682.8,333.5 L685.5,331.6 L688.3,329.9 L691.3,328.2 L694.4,326.6 L697.7,325.3 L701.1,324.1 L704.7,323.1 L708.4,322.3 L712.2,321.8 L716.1,321.5 L720.0,321.5 L723.8,321.6 L727.5,321.8 L731.0,322.1 L734.4,322.3 L737.5,322.3 L740.5,322.1 L743.5,321.5 L746.5,320.7 L749.6,319.4 L752.9,317.9 L756.6,316.2 L760.6,314.4 L764.9,312.6 L769.6,311.1 L774.5,309.9 L779.4,309.2 L784.3,309.1 L788.8,309.6 L792.9,310.9 L796.3,312.8 L799.0,315.2 L800.9,318.2 L801.9,321.4 L802.2,324.8 L802.0,328.2 L801.3,331.5 L800.4,334.5 L799.7,337.3 L799.1,339.7 L799.1,341.8 L799.6,343.6 L800.8,345.2 L802.7,346.7 L805.2,348.2 L808.1,349.7 L811.3,351.4 L814.5,353.2 L817.6,355.2 L820.4,357.4 Z"/>
-<path d="M840.3,343.5 L839.9,346.6 L840.1,349.8 L840.8,353.0 L841.8,356.4 L842.9,360.0 L843.8,363.7 L844.5,367.5 L844.7,371.4 L844.3,375.3 L843.2,379.1 L841.4,382.9 L839.0,386.4 L835.9,389.8 L832.3,393.0 L828.2,396.0 L823.8,398.7 L819.1,401.3 L814.1,403.7 L808.8,405.8 L803.4,407.8 L797.8,409.5 L792.0,410.9 L786.0,412.0 L779.9,412.8 L773.6,413.2 L767.4,413.1 L761.2,412.6 L755.1,411.7 L749.2,410.4 L743.5,408.9 L738.1,407.2 L733.0,405.6 L728.1,403.9 L723.3,402.5 L718.5,401.4 L713.6,400.6 L708.4,400.2 L702.8,400.1 L696.9,400.2 L690.4,400.5 L683.5,400.8 L676.3,400.8 L668.9,400.6 L661.6,399.9 L654.5,398.6 L648.1,396.8 L642.4,394.2 L637.8,391.1 L634.3,387.4 L632.2,383.3 L631.2,378.9 L631.4,374.4 L632.6,369.8 L634.6,365.4 L637.0,361.2 L639.5,357.2 L642.0,353.4 L644.1,349.9 L645.8,346.6 L646.8,343.5 L647.1,340.3 L646.9,337.2 L646.2,333.9 L645.3,330.5 L644.2,327.0 L643.2,323.3 L642.6,319.4 L642.4,315.5 L642.8,311.6 L643.9,307.8 L645.7,304.1 L648.1,300.5 L651.2,297.1 L654.8,293.9 L658.8,290.9 L663.2,288.2 L668.0,285.6 L673.0,283.3 L678.2,281.1 L683.6,279.1 L689.3,277.4 L695.1,276.0 L701.1,274.9 L707.2,274.1 L713.4,273.8 L719.7,273.8 L725.9,274.3 L732.0,275.3 L737.9,276.5 L743.5,278.0 L748.9,279.7 L754.1,281.4 L759.0,283.0 L763.8,284.4 L768.6,285.5 L773.5,286.3 L778.7,286.7 L784.2,286.8 L790.2,286.7 L796.7,286.4 L803.5,286.2 L810.8,286.1 L818.2,286.3 L825.5,287.0 L832.5,288.3 L839.0,290.2 L844.6,292.7 L849.3,295.8 L852.7,299.5 L854.9,303.6 L855.8,308.0 L855.6,312.5 L854.4,317.1 L852.5,321.5 L850.1,325.8 L847.5,329.8 L845.1,333.5 L842.9,337.0 L841.3,340.3 L840.3,343.5 Z"/>
-<path d="M865.0,332.7 L867.3,337.4 L869.2,342.3 L870.6,347.3 L871.4,352.4 L871.5,357.5 L870.9,362.7 L869.5,367.8 L867.4,372.9 L864.6,377.8 L861.2,382.6 L857.2,387.2 L852.6,391.6 L847.7,395.9 L842.3,399.9 L836.6,403.8 L830.6,407.6 L824.3,411.1 L817.7,414.5 L810.9,417.7 L803.7,420.6 L796.3,423.3 L788.6,425.6 L780.6,427.5 L772.3,429.0 L763.9,430.0 L755.4,430.6 L746.9,430.6 L738.4,430.0 L730.0,429.0 L721.8,427.6 L714.0,425.7 L706.4,423.5 L699.2,421.2 L692.4,418.6 L685.8,416.1 L679.4,413.6 L673.2,411.2 L667.0,409.0 L660.8,407.0 L654.4,405.2 L647.7,403.5 L640.7,401.9 L633.4,400.4 L625.8,398.8 L617.9,397.1 L609.8,395.2 L601.7,393.0 L593.8,390.4 L586.1,387.3 L578.9,383.8 L572.4,379.9 L566.7,375.5 L561.9,370.8 L558.1,365.7 L555.4,360.3 L553.8,354.8 L553.3,349.2 L553.7,343.6 L555.0,338.1 L557.0,332.7 L559.7,327.4 L562.9,322.3 L566.4,317.4 L570.1,312.7 L574.0,308.1 L577.9,303.7 L582.0,299.4 L586.0,295.2 L590.2,291.1 L594.4,287.1 L598.9,283.2 L603.5,279.4 L608.3,275.7 L613.4,272.2 L618.8,268.8 L624.5,265.7 L630.5,262.7 L636.7,260.0 L643.1,257.5 L649.7,255.2 L656.5,253.1 L663.3,251.1 L670.2,249.2 L677.2,247.4 L684.2,245.6 L691.4,243.8 L698.7,242.0 L706.2,240.1 L713.9,238.3 L721.8,236.6 L730.1,235.0 L738.6,233.6 L747.4,232.5 L756.4,231.9 L765.5,231.6 L774.6,232.0 L783.6,232.9 L792.3,234.6 L800.6,236.8 L808.4,239.8 L815.4,243.3 L821.7,247.4 L827.2,252.0 L831.9,256.9 L835.7,262.1 L838.7,267.4 L841.1,272.8 L843.0,278.1 L844.4,283.3 L845.7,288.4 L846.8,293.2 L848.0,297.8 L849.4,302.3 L851.0,306.7 L852.9,310.9 L855.1,315.1 L857.5,319.4 L860.0,323.7 L862.6,328.1 L865.0,332.7 Z"/>
-<path d="M907.8,330.4 L904.1,337.0 L899.6,343.4 L894.6,349.6 L889.2,355.4 L883.6,361.0 L877.9,366.4 L872.3,371.6 L866.8,376.7 L861.4,381.7 L856.1,386.6 L850.9,391.5 L845.6,396.4 L840.3,401.3 L834.8,406.2 L829.0,411.0 L822.8,415.7 L816.3,420.2 L809.3,424.5 L801.8,428.6 L794.0,432.4 L785.7,435.9 L777.0,439.1 L768.0,441.9 L758.8,444.5 L749.2,446.8 L739.5,448.8 L729.6,450.5 L719.6,452.1 L709.3,453.4 L698.9,454.5 L688.4,455.4 L677.6,456.0 L666.8,456.3 L655.8,456.2 L644.8,455.7 L633.8,454.7 L622.9,453.1 L612.4,450.9 L602.2,448.1 L592.5,444.6 L583.5,440.5 L575.3,435.9 L568.0,430.6 L561.5,425.0 L556.0,419.0 L551.5,412.7 L547.7,406.3 L544.7,399.8 L542.3,393.4 L540.3,387.1 L538.6,381.0 L536.9,375.1 L535.2,369.3 L533.2,363.7 L531.0,358.3 L528.5,352.8 L525.6,347.4 L522.5,341.9 L519.1,336.2 L515.8,330.4 L512.6,324.3 L509.7,318.0 L507.4,311.6 L505.7,304.9 L504.9,298.1 L505.1,291.3 L506.3,284.5 L508.7,277.8 L512.1,271.3 L516.6,265.1 L522.1,259.2 L528.5,253.6 L535.6,248.4 L543.5,243.6 L551.8,239.1 L560.5,235.0 L569.6,231.3 L578.9,227.9 L588.3,224.8 L598.0,221.9 L607.7,219.4 L617.6,217.1 L627.5,215.0 L637.6,213.4 L647.8,212.0 L658.0,211.0 L668.3,210.5 L678.6,210.4 L688.8,210.7 L698.9,211.5 L708.9,212.7 L718.6,214.3 L728.1,216.2 L737.3,218.5 L746.2,220.9 L754.9,223.5 L763.4,226.2 L771.8,228.9 L780.1,231.5 L788.5,234.2 L797.0,236.7 L805.7,239.2 L814.7,241.8 L823.8,244.4 L833.2,247.1 L842.8,250.1 L852.4,253.3 L861.8,257.0 L871.0,261.1 L879.8,265.6 L887.8,270.7 L895.0,276.2 L901.1,282.2 L906.1,288.6 L909.7,295.4 L911.9,302.3 L912.8,309.4 L912.3,316.5 L910.6,323.5 L907.8,330.4 Z"/>
-<path d="M925.0,337.6 L927.6,345.4 L929.2,353.2 L929.8,361.2 L929.3,369.2 L927.7,377.1 L925.0,385.0 L921.4,392.7 L916.8,400.2 L911.4,407.6 L905.2,414.7 L898.4,421.5 L890.9,428.1 L883.0,434.5 L874.5,440.6 L865.6,446.5 L856.2,452.1 L846.4,457.3 L836.1,462.2 L825.3,466.7 L814.0,470.8 L802.3,474.2 L790.2,477.2 L777.8,479.4 L765.2,481.1 L752.4,482.0 L739.6,482.3 L726.9,482.0 L714.4,481.1 L702.0,479.8 L690.0,478.0 L678.3,476.0 L667.0,473.8 L655.8,471.5 L644.9,469.2 L634.1,467.0 L623.4,464.9 L612.5,462.9 L601.4,461.1 L590.1,459.3 L578.5,457.5 L566.5,455.5 L554.4,453.4 L542.0,451.0 L529.7,448.1 L517.5,444.6 L505.6,440.6 L494.2,435.9 L483.7,430.6 L474.0,424.6 L465.5,418.0 L458.3,410.9 L452.4,403.2 L447.8,395.3 L444.7,387.1 L442.9,378.7 L442.3,370.3 L442.7,361.9 L444.1,353.7 L446.3,345.6 L449.0,337.6 L452.2,329.9 L455.8,322.4 L459.6,315.0 L463.7,307.8 L467.9,300.7 L472.3,293.8 L477.0,286.9 L481.9,280.2 L487.2,273.6 L493.0,267.1 L499.2,260.8 L505.9,254.7 L513.1,248.8 L520.8,243.2 L529.0,237.8 L537.7,232.8 L546.8,228.0 L556.3,223.5 L566.0,219.2 L576.0,215.2 L586.2,211.3 L596.6,207.5 L607.2,203.9 L618.1,200.4 L629.2,197.0 L640.7,193.7 L652.5,190.5 L664.6,187.6 L677.1,185.1 L690.0,182.9 L703.3,181.3 L716.7,180.3 L730.3,180.0 L743.9,180.5 L757.3,181.9 L770.4,184.2 L783.1,187.4 L795.0,191.5 L806.2,196.3 L816.5,201.9 L825.8,208.0 L834.1,214.7 L841.6,221.6 L848.2,228.7 L854.0,236.0 L859.3,243.1 L864.2,250.2 L868.7,257.1 L873.2,263.9 L877.7,270.4 L882.4,276.9 L887.2,283.2 L892.2,289.5 L897.4,295.9 L902.7,302.3 L907.9,308.9 L912.9,315.8 L917.5,322.8 L921.6,330.1 L925.0,337.6 Z"/>
-<path d="M987.6,351.0 L991.7,360.4 L994.5,370.1 L995.9,379.9 L995.7,389.8 L993.8,399.6 L990.2,409.2 L985.0,418.5 L978.2,427.4 L969.9,435.9 L960.4,443.8 L949.9,451.1 L938.5,457.9 L926.5,464.1 L914.0,469.8 L901.2,475.1 L888.3,479.9 L875.3,484.4 L862.4,488.6 L849.4,492.6 L836.4,496.3 L823.4,499.9 L810.4,503.2 L797.2,506.3 L783.9,509.1 L770.5,511.6 L756.9,513.7 L743.1,515.5 L729.2,516.7 L715.1,517.5 L701.1,517.8 L687.0,517.6 L672.9,517.0 L658.9,515.9 L645.0,514.5 L631.2,512.7 L617.4,510.6 L603.7,508.2 L590.0,505.6 L576.3,502.8 L562.5,499.7 L548.7,496.4 L535.0,492.7 L521.2,488.6 L507.7,484.1 L494.4,479.1 L481.5,473.5 L469.3,467.3 L457.9,460.5 L447.5,453.0 L438.4,445.0 L430.6,436.4 L424.4,427.3 L419.7,417.9 L416.7,408.2 L415.3,398.4 L415.4,388.6 L416.9,378.9 L419.6,369.3 L423.2,360.0 L427.6,351.0 L432.4,342.2 L437.6,333.8 L442.8,325.6 L447.9,317.6 L452.9,309.7 L457.6,301.9 L462.2,294.1 L466.6,286.2 L470.9,278.3 L475.4,270.2 L480.2,262.0 L485.4,253.8 L491.3,245.6 L497.8,237.5 L505.3,229.6 L513.6,221.9 L522.9,214.6 L533.2,207.7 L544.4,201.4 L556.4,195.6 L569.2,190.5 L582.6,186.0 L596.6,182.2 L610.9,178.9 L625.6,176.2 L640.4,174.1 L655.5,172.5 L670.6,171.4 L685.8,170.8 L701.1,170.6 L716.3,170.9 L731.5,171.7 L746.5,173.0 L761.4,174.9 L776.1,177.3 L790.4,180.4 L804.4,184.1 L817.7,188.5 L830.5,193.5 L842.5,199.1 L853.7,205.2 L864.1,211.8 L873.7,218.8 L882.4,226.1 L890.4,233.6 L897.7,241.2 L904.5,248.8 L911.0,256.4 L917.2,263.9 L923.4,271.4 L929.6,278.8 L936.0,286.1 L942.5,293.5 L949.3,300.9 L956.2,308.6 L963.2,316.4 L970.0,324.5 L976.5,333.0 L982.4,341.8 L987.6,351.0 Z"/>
-<path d="M1054.3,363.8 L1047.8,374.3 L1040.7,384.4 L1033.3,394.1 L1025.9,403.5 L1018.8,412.7 L1012.1,421.7 L1005.8,430.7 L999.9,439.8 L994.1,448.9 L988.4,458.2 L982.3,467.5 L975.7,476.9 L968.4,486.1 L960.1,495.2 L950.9,504.0 L940.6,512.5 L929.2,520.4 L916.9,527.8 L903.6,534.6 L889.6,540.9 L874.9,546.6 L859.7,551.8 L843.9,556.3 L827.7,560.4 L811.2,563.9 L794.3,566.7 L777.1,569.0 L759.7,570.4 L742.2,571.0 L724.7,570.8 L707.3,569.5 L690.2,567.3 L673.5,564.1 L657.4,560.1 L642.0,555.2 L627.3,549.7 L613.3,543.7 L599.9,537.5 L587.1,531.2 L574.6,525.0 L562.1,519.0 L549.6,513.2 L536.6,507.8 L523.2,502.5 L509.2,497.4 L494.7,492.2 L479.7,486.8 L464.6,481.0 L449.7,474.5 L435.4,467.4 L422.1,459.4 L410.3,450.6 L400.4,441.0 L392.7,430.7 L387.4,419.8 L384.5,408.6 L384.2,397.2 L386.0,385.9 L389.8,374.7 L395.1,363.8 L401.6,353.3 L408.7,343.2 L416.1,333.5 L423.5,324.1 L430.6,314.9 L437.3,305.9 L443.6,296.9 L449.5,287.8 L455.2,278.7 L461.0,269.4 L467.1,260.1 L473.7,250.7 L481.0,241.5 L489.2,232.4 L498.5,223.6 L508.8,215.2 L520.2,207.2 L532.5,199.8 L545.7,193.0 L559.8,186.7 L574.5,181.0 L589.7,175.9 L605.5,171.3 L621.7,167.2 L638.2,163.7 L655.1,160.9 L672.3,158.7 L689.7,157.2 L707.2,156.6 L724.7,156.8 L742.1,158.1 L759.2,160.3 L775.9,163.5 L792.0,167.5 L807.4,172.4 L822.1,177.9 L836.1,183.9 L849.4,190.1 L862.3,196.4 L874.8,202.6 L887.2,208.6 L899.8,214.4 L912.7,219.8 L926.2,225.1 L940.2,230.2 L954.7,235.4 L969.7,240.8 L984.8,246.6 L999.7,253.1 L1014.0,260.2 L1027.3,268.2 L1039.1,277.0 L1049.0,286.6 L1056.7,296.9 L1062.0,307.8 L1064.8,319.0 L1065.2,330.4 L1063.4,341.7 L1059.6,352.9 L1054.3,363.8 Z"/>
-<path d="M1126.1,369.9 L1129.6,382.4 L1131.2,395.1 L1130.8,407.8 L1128.3,420.4 L1123.7,432.8 L1117.1,444.8 L1108.7,456.4 L1098.5,467.4 L1086.9,477.9 L1074.1,487.7 L1060.3,496.8 L1045.8,505.3 L1030.8,513.3 L1015.4,520.8 L999.8,527.8 L984.1,534.4 L968.3,540.7 L952.4,546.7 L936.4,552.5 L920.3,557.9 L904.0,563.1 L887.4,567.9 L870.6,572.4 L853.4,576.4 L835.9,579.9 L818.2,582.8 L800.2,585.2 L782.0,586.9 L763.6,588.0 L745.2,588.5 L726.7,588.4 L708.3,587.7 L689.8,586.6 L671.5,584.9 L653.1,582.9 L634.8,580.5 L616.5,577.7 L598.2,574.6 L579.9,571.0 L561.6,567.0 L543.4,562.5 L525.4,557.5 L507.6,551.8 L490.3,545.4 L473.6,538.3 L457.8,530.3 L443.1,521.6 L429.8,512.0 L417.9,501.7 L407.8,490.7 L399.5,479.1 L393.1,467.1 L388.6,454.8 L385.9,442.3 L384.9,429.8 L385.5,417.3 L387.3,405.1 L390.2,393.0 L393.9,381.3 L398.1,369.9 L402.6,358.8 L407.2,347.9 L411.8,337.2 L416.2,326.6 L420.5,316.0 L424.7,305.4 L429.0,294.7 L433.5,283.9 L438.3,273.0 L443.7,262.0 L449.8,251.0 L456.9,240.0 L465.0,229.3 L474.4,218.8 L485.1,208.6 L497.0,199.0 L510.2,190.0 L524.5,181.6 L539.9,173.9 L556.3,167.1 L573.5,160.9 L591.3,155.6 L609.7,151.0 L628.4,147.1 L647.5,143.9 L666.8,141.3 L686.3,139.4 L705.9,138.0 L725.5,137.3 L745.2,137.1 L764.8,137.6 L784.4,138.8 L803.7,140.8 L822.8,143.4 L841.6,146.9 L859.8,151.2 L877.4,156.3 L894.3,162.2 L910.4,168.8 L925.6,176.1 L939.9,184.0 L953.3,192.3 L965.7,201.1 L977.4,210.0 L988.4,219.1 L998.8,228.3 L1008.9,237.5 L1018.7,246.7 L1028.5,255.8 L1038.3,265.0 L1048.1,274.2 L1058.1,283.5 L1068.2,293.0 L1078.3,302.8 L1088.1,312.9 L1097.6,323.5 L1106.4,334.4 L1114.2,345.9 L1120.9,357.7 L1126.1,369.9 Z"/>
-<path d="M1167.1,366.3 L1172.9,380.1 L1176.3,394.1 L1177.0,408.3 L1174.9,422.4 L1169.9,436.2 L1162.0,449.5 L1151.6,462.1 L1139.0,474.0 L1124.7,485.0 L1109.0,495.2 L1092.5,504.6 L1075.5,513.4 L1058.5,521.7 L1041.5,529.6 L1024.8,537.3 L1008.3,544.9 L992.1,552.4 L975.9,559.9 L959.6,567.4 L943.0,574.7 L926.1,581.8 L908.6,588.6 L890.5,595.0 L871.8,600.7 L852.5,605.8 L832.6,610.2 L812.2,613.9 L791.4,616.8 L770.3,619.0 L748.9,620.4 L727.4,621.3 L705.7,621.4 L683.9,621.0 L662.0,619.8 L640.2,617.9 L618.6,615.1 L597.2,611.4 L576.3,606.7 L556.2,600.9 L536.9,593.9 L518.9,585.9 L502.3,576.8 L487.3,566.7 L473.8,555.7 L462.0,544.2 L451.7,532.3 L442.6,520.1 L434.5,507.9 L427.1,495.9 L419.9,484.1 L412.6,472.6 L404.9,461.3 L396.5,450.2 L387.5,439.1 L377.8,428.0 L367.6,416.5 L357.4,404.7 L347.5,392.5 L338.4,379.6 L330.8,366.3 L325.0,352.5 L321.6,338.4 L320.8,324.3 L323.0,310.2 L328.0,296.4 L335.9,283.1 L346.3,270.5 L358.9,258.6 L373.2,247.6 L388.9,237.4 L405.4,228.0 L422.4,219.2 L439.4,210.9 L456.4,203.0 L473.1,195.3 L489.6,187.7 L505.8,180.2 L522.0,172.7 L538.3,165.2 L554.8,157.9 L571.8,150.7 L589.3,143.9 L607.4,137.6 L626.1,131.9 L645.4,126.8 L665.3,122.4 L685.7,118.7 L706.5,115.8 L727.6,113.6 L748.9,112.1 L770.5,111.3 L792.2,111.1 L814.0,111.6 L835.9,112.8 L857.7,114.7 L879.3,117.5 L900.7,121.2 L921.6,125.9 L941.7,131.7 L960.9,138.6 L979.0,146.7 L995.6,155.8 L1010.6,165.9 L1024.1,176.8 L1035.9,188.4 L1046.2,200.3 L1055.3,212.5 L1063.4,224.7 L1070.8,236.7 L1078.0,248.5 L1085.3,260.0 L1093.0,271.3 L1101.4,282.4 L1110.4,293.5 L1120.1,304.6 L1130.2,316.0 L1140.5,327.8 L1150.4,340.1 L1159.4,353.0 L1167.1,366.3 Z"/>
-<path d="M1205.8,354.7 L1210.2,370.2 L1210.6,385.8 L1207.0,401.2 L1199.5,416.1 L1188.5,430.3 L1174.8,443.6 L1159.1,456.0 L1142.3,467.6 L1125.1,478.4 L1108.2,488.9 L1092.0,499.1 L1076.8,509.4 L1062.4,519.9 L1048.6,530.7 L1035.1,541.8 L1021.5,553.1 L1007.4,564.4 L992.3,575.6 L976.0,586.3 L958.5,596.4 L939.5,605.5 L919.4,613.6 L898.1,620.6 L875.9,626.5 L853.0,631.3 L829.5,635.0 L805.7,637.7 L781.7,639.4 L757.6,640.1 L733.4,639.7 L709.5,638.3 L685.8,635.8 L662.6,632.1 L640.0,627.3 L618.2,621.5 L597.2,614.7 L577.1,607.3 L557.8,599.4 L539.0,591.3 L520.6,583.3 L502.2,575.5 L483.5,568.0 L464.1,560.9 L444.1,554.0 L423.3,547.0 L401.9,539.8 L380.5,531.9 L359.6,523.1 L339.8,513.2 L322.1,502.0 L307.1,489.4 L295.4,475.6 L287.4,460.9 L283.2,445.4 L282.6,429.6 L285.1,413.8 L290.0,398.3 L296.3,383.2 L303.2,368.7 L309.8,354.7 L315.4,341.1 L319.6,327.7 L322.1,314.3 L323.1,300.6 L323.1,286.5 L322.7,272.0 L322.6,256.9 L323.7,241.6 L326.8,226.2 L332.3,211.1 L340.6,196.5 L351.9,182.8 L366.0,170.3 L382.7,158.9 L401.6,149.0 L422.0,140.3 L443.5,132.7 L465.6,126.2 L488.0,120.4 L510.5,115.3 L532.8,110.5 L554.9,106.1 L577.0,102.0 L599.0,98.2 L621.1,94.7 L643.2,91.6 L665.6,89.0 L688.0,86.9 L710.7,85.3 L733.4,84.2 L756.4,83.6 L779.5,83.3 L802.7,83.4 L826.3,83.9 L850.1,84.9 L874.1,86.4 L898.2,88.6 L922.2,91.9 L945.8,96.3 L968.6,102.2 L990.2,109.6 L1010.1,118.6 L1028.0,129.2 L1043.6,141.1 L1056.8,154.2 L1067.8,168.1 L1076.8,182.3 L1084.4,196.6 L1091.3,210.6 L1098.1,224.2 L1105.4,237.2 L1113.9,249.7 L1123.9,261.8 L1135.4,273.7 L1148.1,285.8 L1161.5,298.3 L1174.9,311.4 L1187.4,325.1 L1198.0,339.6 L1205.8,354.7 Z"/>
-<path d="M1172.0,340.8 L1170.3,355.8 L1168.4,370.8 L1166.2,385.7 L1163.5,400.7 L1160.1,415.8 L1155.9,430.9 L1150.7,446.0 L1144.3,461.0 L1136.5,475.9 L1127.3,490.6 L1116.5,504.9 L1104.2,518.9 L1090.4,532.3 L1075.1,545.2 L1058.5,557.5 L1040.6,569.2 L1021.6,580.2 L1001.6,590.5 L980.7,600.2 L959.0,609.3 L936.5,617.7 L913.4,625.5 L889.6,632.6 L865.2,638.9 L840.3,644.5 L814.7,649.3 L788.8,653.0 L762.4,655.8 L735.8,657.3 L709.0,657.7 L682.3,656.7 L655.8,654.4 L629.8,650.8 L604.4,645.8 L579.9,639.6 L556.3,632.3 L533.7,624.0 L512.3,614.8 L491.9,605.0 L472.6,594.7 L454.2,584.1 L436.6,573.3 L419.6,562.4 L402.9,551.6 L386.5,540.8 L370.2,530.0 L353.8,519.2 L337.3,508.3 L320.7,497.2 L304.2,485.7 L287.8,473.9 L271.7,461.5 L256.3,448.6 L241.9,434.9 L228.8,420.6 L217.2,405.6 L207.6,390.1 L200.0,374.0 L194.8,357.5 L192.0,340.8 L191.7,324.0 L193.8,307.3 L198.3,290.7 L204.9,274.4 L213.5,258.5 L223.9,243.1 L235.8,228.2 L249.0,213.9 L263.3,200.0 L278.6,186.8 L294.6,174.0 L311.4,161.7 L328.8,149.9 L346.8,138.6 L365.5,127.9 L384.8,117.6 L404.9,108.0 L425.6,99.0 L446.9,90.6 L469.0,83.1 L491.6,76.3 L514.8,70.4 L538.4,65.3 L562.4,61.1 L586.6,57.6 L611.0,54.9 L635.5,52.9 L660.0,51.5 L684.5,50.6 L709.0,50.1 L733.6,50.0 L758.3,50.1 L783.1,50.7 L808.2,51.5 L833.5,52.7 L859.1,54.4 L884.9,56.7 L910.9,59.7 L936.8,63.6 L962.6,68.5 L988.0,74.5 L1012.6,81.7 L1036.3,90.2 L1058.7,100.0 L1079.5,111.1 L1098.5,123.4 L1115.4,136.8 L1130.2,151.1 L1142.6,166.2 L1152.9,181.9 L1160.9,198.1 L1167.0,214.4 L1171.3,230.8 L1174.0,247.2 L1175.4,263.4 L1175.8,279.3 L1175.5,295.0 L1174.7,310.5 L1173.5,325.7 L1172.0,340.8 Z"/>
-<path d="M1225.7,331.4 L1231.4,349.0 L1234.3,366.8 L1234.3,384.7 L1231.1,402.5 L1225.1,420.0 L1216.3,437.1 L1205.3,453.6 L1192.2,469.5 L1177.4,484.8 L1161.3,499.5 L1144.0,513.5 L1125.6,526.8 L1106.2,539.5 L1085.8,551.4 L1064.6,562.5 L1042.4,572.8 L1019.6,582.3 L996.1,591.1 L972.3,599.2 L948.2,606.7 L924.1,614.0 L899.9,621.1 L875.7,628.3 L851.3,635.6 L826.6,643.2 L801.4,650.8 L775.4,658.2 L748.5,665.2 L720.6,671.2 L691.9,675.7 L662.5,678.4 L633.0,678.9 L603.7,676.8 L575.1,672.1 L547.8,664.9 L522.1,655.5 L498.2,644.3 L476.2,631.8 L455.7,618.8 L436.4,605.7 L417.8,593.1 L399.1,581.2 L379.9,570.3 L359.6,560.2 L338.0,550.9 L315.0,541.8 L291.1,532.7 L266.7,523.0 L242.6,512.3 L219.6,500.5 L198.8,487.2 L180.9,472.5 L166.4,456.5 L155.9,439.4 L149.3,421.6 L146.5,403.3 L146.9,384.9 L150.1,366.7 L155.3,348.9 L161.7,331.4 L168.8,314.4 L176.1,297.8 L183.4,281.5 L190.4,265.3 L197.3,249.3 L204.4,233.2 L211.9,217.2 L220.2,201.2 L229.4,185.3 L239.9,169.6 L251.6,154.2 L264.8,139.1 L279.3,124.3 L295.1,110.0 L312.2,96.0 L330.5,82.6 L350.0,69.7 L370.7,57.4 L392.8,45.9 L416.2,35.4 L441.0,26.2 L467.1,18.5 L494.4,12.4 L522.5,8.3 L551.2,6.0 L580.1,5.5 L608.9,6.7 L637.2,9.1 L664.9,12.4 L691.9,16.1 L718.2,19.7 L744.2,22.8 L770.1,25.2 L796.3,26.8 L823.2,27.7 L850.9,28.1 L879.5,28.4 L908.9,29.2 L938.8,31.0 L968.4,34.4 L997.3,39.8 L1024.6,47.5 L1049.5,57.6 L1071.5,70.0 L1090.3,84.4 L1105.7,100.4 L1118.0,117.5 L1127.5,135.2 L1134.9,153.1 L1141.1,170.6 L1146.8,187.7 L1152.9,204.2 L1159.8,220.1 L1167.8,235.6 L1177.0,250.8 L1187.2,266.2 L1197.8,281.7 L1208.3,297.8 L1217.8,314.3 L1225.7,331.4 Z"/></svg>
+
+  <svg class="topo" viewBox="0 0 1440 700" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+<path d="M846.0,352.0 L846.8,354.0 L847.4,356.1 L847.8,358.2 L847.8,360.3 L847.4,362.4 L846.8,364.5 L845.8,366.5 L844.7,368.4 L843.3,370.3 L841.7,372.2 L840.0,374.0 L838.3,375.7 L836.4,377.4 L834.5,379.1 L832.5,380.7 L830.3,382.2 L828.0,383.6 L825.7,385.0 L823.2,386.3 L820.7,387.5 L818.1,388.7 L815.5,389.9 L812.9,391.0 L810.3,392.1 L807.6,393.1 L804.9,394.2 L802.2,395.2 L799.3,396.1 L796.4,396.9 L793.4,397.5 L790.4,398.1 L787.2,398.4 L784.1,398.7 L781.0,398.8 L777.8,398.9 L774.7,398.9 L771.6,398.9 L768.4,398.9 L765.3,398.9 L762.2,398.9 L759.0,398.8 L755.9,398.7 L752.8,398.4 L749.6,398.1 L746.6,397.5 L743.6,396.9 L740.7,396.1 L737.8,395.2 L735.1,394.2 L732.4,393.1 L729.7,392.1 L727.1,391.0 L724.5,389.9 L721.9,388.7 L719.3,387.5 L716.8,386.3 L714.3,385.0 L712.0,383.6 L709.7,382.2 L707.5,380.7 L705.5,379.1 L703.6,377.4 L701.7,375.7 L700.0,374.0 L698.3,372.2 L696.7,370.3 L695.3,368.4 L694.2,366.5 L693.2,364.5 L692.6,362.4 L692.2,360.3 L692.2,358.2 L692.6,356.1 L693.2,354.0 L694.0,352.0 L694.9,350.0 L696.0,348.1 L697.0,346.2 L697.9,344.3 L698.8,342.4 L699.6,340.6 L700.3,338.7 L701.1,336.8 L701.9,335.0 L702.9,333.1 L703.9,331.3 L705.1,329.5 L706.4,327.7 L707.9,325.9 L709.5,324.2 L711.2,322.6 L713.0,320.9 L714.9,319.3 L716.9,317.7 L719.0,316.2 L721.2,314.8 L723.6,313.4 L726.1,312.1 L728.8,311.0 L731.6,310.0 L734.5,309.1 L737.4,308.3 L740.4,307.6 L743.4,306.9 L746.5,306.2 L749.5,305.6 L752.5,305.0 L755.6,304.4 L758.7,303.9 L761.9,303.4 L765.1,303.1 L768.4,303.0 L771.6,303.0 L774.9,303.1 L778.1,303.4 L781.3,303.9 L784.4,304.4 L787.5,305.0 L790.5,305.6 L793.5,306.2 L796.6,306.9 L799.6,307.6 L802.6,308.3 L805.5,309.1 L808.4,310.0 L811.2,311.0 L813.9,312.1 L816.4,313.4 L818.8,314.8 L821.0,316.2 L823.1,317.7 L825.1,319.3 L827.0,320.9 L828.8,322.6 L830.5,324.2 L832.1,325.9 L833.6,327.7 L834.9,329.5 L836.1,331.3 L837.1,333.1 L838.1,335.0 L838.9,336.8 L839.7,338.7 L840.4,340.6 L841.2,342.4 L842.1,344.3 L843.0,346.2 L844.0,348.1 L845.1,350.0 Z"/>
+<path d="M853.8,351.3 L854.1,353.7 L854.3,356.1 L854.4,358.5 L854.4,361.0 L854.2,363.4 L853.7,365.8 L852.8,368.2 L851.7,370.6 L850.2,372.8 L848.4,375.0 L846.4,377.1 L844.3,379.1 L842.0,381.1 L839.6,383.0 L837.3,384.9 L834.9,386.7 L832.4,388.6 L829.9,390.3 L827.2,392.0 L824.4,393.6 L821.4,395.1 L818.3,396.4 L814.9,397.5 L811.5,398.5 L807.9,399.3 L804.4,400.0 L800.8,400.6 L797.3,401.2 L793.8,401.8 L790.4,402.5 L786.9,403.1 L783.5,403.7 L780.1,404.4 L776.6,405.0 L773.0,405.5 L769.5,406.0 L765.8,406.4 L762.2,406.7 L758.4,407.0 L754.7,407.2 L750.9,407.3 L747.0,407.4 L743.2,407.3 L739.3,407.2 L735.3,406.9 L731.5,406.4 L727.7,405.7 L724.1,404.8 L720.6,403.6 L717.4,402.2 L714.4,400.6 L711.6,398.9 L709.0,397.0 L706.4,395.2 L704.0,393.3 L701.5,391.5 L699.1,389.8 L696.6,388.0 L694.1,386.3 L691.6,384.5 L689.2,382.7 L686.9,380.7 L684.8,378.8 L683.0,376.7 L681.3,374.5 L679.8,372.3 L678.6,370.1 L677.5,367.8 L676.6,365.5 L675.8,363.1 L675.2,360.8 L674.7,358.4 L674.4,356.1 L674.4,353.7 L674.6,351.3 L675.0,349.0 L675.7,346.7 L676.7,344.4 L677.7,342.1 L678.9,339.9 L680.1,337.8 L681.3,335.6 L682.5,333.4 L683.6,331.3 L684.7,329.1 L685.9,326.9 L687.2,324.7 L688.7,322.6 L690.4,320.5 L692.3,318.5 L694.4,316.6 L696.8,314.7 L699.3,313.0 L701.8,311.3 L704.5,309.7 L707.2,308.1 L709.9,306.4 L712.6,304.8 L715.4,303.1 L718.3,301.5 L721.3,299.9 L724.5,298.4 L727.8,297.1 L731.3,296.0 L735.0,295.0 L738.7,294.3 L742.6,293.8 L746.5,293.4 L750.4,293.2 L754.3,293.2 L758.2,293.3 L762.1,293.5 L765.9,293.8 L769.7,294.2 L773.4,294.8 L777.1,295.5 L780.6,296.4 L784.1,297.4 L787.4,298.4 L790.7,299.5 L794.0,300.6 L797.2,301.6 L800.4,302.6 L803.7,303.5 L807.0,304.4 L810.4,305.2 L813.9,306.1 L817.3,307.1 L820.7,308.2 L823.9,309.4 L826.9,310.8 L829.7,312.4 L832.3,314.2 L834.5,316.1 L836.6,318.1 L838.5,320.1 L840.2,322.2 L841.9,324.3 L843.5,326.5 L845.0,328.6 L846.5,330.8 L847.8,332.9 L849.1,335.1 L850.2,337.4 L851.1,339.7 L851.9,342.0 L852.5,344.3 L853.0,346.6 L853.4,349.0 Z"/>
+<path d="M868.2,350.7 L867.5,353.6 L866.3,356.4 L864.8,359.2 L863.2,361.9 L861.4,364.5 L859.6,367.1 L857.8,369.6 L856.0,372.1 L854.3,374.6 L852.5,377.1 L850.6,379.6 L848.6,382.0 L846.5,384.4 L844.2,386.7 L841.8,389.0 L839.2,391.2 L836.6,393.3 L833.9,395.5 L831.1,397.6 L828.2,399.7 L825.2,401.8 L822.0,403.7 L818.6,405.5 L815.0,407.1 L811.1,408.5 L807.0,409.7 L802.8,410.6 L798.5,411.2 L794.1,411.7 L789.7,412.1 L785.4,412.4 L781.2,412.8 L777.0,413.2 L772.8,413.7 L768.6,414.3 L764.4,415.0 L760.2,415.7 L755.8,416.4 L751.4,416.9 L746.9,417.3 L742.3,417.4 L737.8,417.4 L733.2,417.2 L728.7,416.7 L724.2,416.1 L719.8,415.4 L715.4,414.5 L711.1,413.4 L706.8,412.3 L702.7,410.9 L698.7,409.4 L695.0,407.7 L691.5,405.8 L688.3,403.7 L685.3,401.5 L682.6,399.1 L680.1,396.7 L677.7,394.3 L675.5,391.8 L673.3,389.4 L671.1,387.0 L668.9,384.6 L666.9,382.2 L664.9,379.7 L663.2,377.2 L661.7,374.7 L660.5,372.0 L659.6,369.4 L659.0,366.7 L658.6,364.0 L658.3,361.3 L658.1,358.6 L657.8,356.0 L657.4,353.3 L656.9,350.7 L656.4,348.0 L655.8,345.3 L655.2,342.5 L654.8,339.7 L654.7,336.9 L655.0,334.0 L655.5,331.2 L656.5,328.4 L657.8,325.7 L659.5,323.1 L661.4,320.5 L663.5,318.0 L665.8,315.5 L668.2,313.1 L670.8,310.8 L673.7,308.6 L676.7,306.5 L679.9,304.5 L683.3,302.7 L686.8,300.9 L690.5,299.3 L694.3,297.8 L698.0,296.4 L701.8,294.9 L705.5,293.4 L709.2,291.9 L712.9,290.3 L716.6,288.7 L720.5,287.2 L724.4,285.7 L728.6,284.4 L732.9,283.4 L737.4,282.6 L741.9,282.2 L746.6,282.2 L751.2,282.4 L755.7,282.8 L760.2,283.5 L764.6,284.3 L769.0,285.1 L773.2,286.0 L777.4,286.9 L781.5,287.8 L785.5,288.7 L789.5,289.7 L793.4,290.8 L797.2,291.9 L801.0,293.2 L804.7,294.5 L808.3,295.8 L812.0,297.2 L815.6,298.6 L819.2,299.9 L822.9,301.3 L826.7,302.7 L830.4,304.2 L834.1,305.7 L837.6,307.4 L841.0,309.3 L844.2,311.3 L847.0,313.4 L849.6,315.7 L852.0,318.2 L854.2,320.6 L856.2,323.2 L858.1,325.7 L860.0,328.3 L861.9,330.9 L863.6,333.6 L865.3,336.3 L866.6,339.1 L867.7,341.9 L868.3,344.8 L868.5,347.8 Z"/>
+<path d="M882.8,350.0 L882.5,353.4 L881.5,356.8 L879.8,360.1 L877.6,363.3 L874.9,366.4 L871.9,369.3 L868.6,372.1 L865.3,374.8 L862.1,377.4 L859.1,380.0 L856.4,382.6 L854.0,385.2 L851.7,387.9 L849.6,390.7 L847.4,393.5 L845.1,396.3 L842.6,399.1 L839.8,401.7 L836.7,404.3 L833.4,406.8 L829.9,409.1 L826.2,411.3 L822.3,413.5 L818.4,415.7 L814.3,417.7 L810.0,419.7 L805.7,421.6 L801.1,423.3 L796.4,424.9 L791.4,426.2 L786.4,427.2 L781.2,428.1 L775.9,428.6 L770.6,429.0 L765.3,429.3 L760.0,429.5 L754.7,429.6 L749.3,429.7 L744.0,429.8 L738.7,429.7 L733.3,429.5 L728.0,429.1 L722.7,428.4 L717.6,427.4 L712.6,426.1 L707.8,424.5 L703.3,422.8 L698.8,420.9 L694.6,419.0 L690.3,417.1 L686.1,415.2 L681.8,413.4 L677.5,411.6 L673.2,409.8 L668.9,408.0 L664.6,406.0 L660.6,403.9 L656.8,401.6 L653.4,399.0 L650.4,396.3 L647.8,393.5 L645.5,390.5 L643.5,387.5 L641.7,384.4 L640.2,381.3 L638.8,378.1 L637.5,375.0 L636.4,371.9 L635.5,368.8 L634.8,365.6 L634.3,362.5 L634.0,359.4 L633.9,356.2 L633.8,353.1 L633.8,350.0 L633.6,346.9 L633.2,343.7 L632.7,340.5 L632.0,337.3 L631.3,333.9 L630.6,330.4 L630.1,326.9 L630.1,323.3 L630.5,319.8 L631.6,316.3 L633.3,313.0 L635.7,309.9 L638.7,306.9 L642.1,304.2 L645.9,301.6 L649.9,299.2 L654.0,296.9 L658.2,294.7 L662.4,292.6 L666.7,290.5 L671.1,288.6 L675.6,286.8 L680.2,285.1 L684.9,283.6 L689.7,282.3 L694.7,281.1 L699.6,280.1 L704.6,279.2 L709.5,278.3 L714.5,277.5 L719.4,276.6 L724.3,275.8 L729.2,275.0 L734.2,274.3 L739.2,273.8 L744.3,273.4 L749.4,273.3 L754.6,273.4 L759.6,273.7 L764.7,274.2 L769.7,274.8 L774.7,275.4 L779.6,276.1 L784.6,276.7 L789.6,277.4 L794.7,278.0 L799.8,278.6 L804.9,279.4 L810.0,280.4 L814.9,281.6 L819.6,283.2 L824.0,285.0 L828.1,287.0 L832.0,289.3 L835.5,291.8 L838.9,294.3 L842.2,296.8 L845.4,299.4 L848.6,301.9 L851.9,304.4 L855.2,306.9 L858.5,309.5 L861.8,312.1 L864.8,314.8 L867.7,317.7 L870.4,320.6 L872.7,323.6 L874.9,326.7 L876.8,329.9 L878.4,333.1 L879.9,336.4 L881.2,339.8 L882.1,343.1 L882.7,346.6 Z"/>
+<path d="M891.9,349.3 L891.4,353.2 L890.8,357.0 L890.0,360.7 L889.1,364.5 L887.9,368.2 L886.4,371.9 L884.5,375.5 L882.3,379.1 L879.7,382.5 L876.8,385.8 L873.7,389.0 L870.4,392.2 L867.2,395.3 L864.0,398.5 L860.8,401.6 L857.7,404.8 L854.5,408.0 L851.1,411.2 L847.4,414.2 L843.5,417.2 L839.2,419.9 L834.5,422.4 L829.5,424.6 L824.3,426.7 L819.0,428.6 L813.6,430.4 L808.2,432.2 L802.9,434.1 L797.5,436.0 L792.0,438.1 L786.5,440.2 L780.8,442.2 L774.8,444.0 L768.7,445.5 L762.3,446.7 L755.8,447.4 L749.3,447.6 L742.7,447.4 L736.2,446.7 L729.8,445.7 L723.6,444.4 L717.5,442.9 L711.6,441.2 L705.9,439.4 L700.4,437.4 L695.0,435.2 L689.9,433.0 L685.0,430.5 L680.4,428.0 L675.9,425.4 L671.6,422.7 L667.4,420.2 L663.2,417.7 L658.8,415.4 L654.3,413.2 L649.5,411.1 L644.5,409.1 L639.3,407.1 L634.1,404.9 L629.0,402.6 L624.2,400.1 L619.8,397.2 L616.1,394.1 L612.9,390.7 L610.3,387.2 L608.3,383.5 L606.7,379.7 L605.3,375.9 L604.1,372.2 L602.9,368.4 L601.8,364.6 L600.7,360.8 L599.6,357.0 L598.8,353.2 L598.2,349.3 L598.0,345.4 L598.1,341.6 L598.7,337.7 L599.5,333.8 L600.7,330.0 L602.0,326.2 L603.4,322.4 L605.0,318.6 L606.7,314.8 L608.5,311.0 L610.6,307.2 L613.1,303.6 L616.0,300.0 L619.4,296.6 L623.3,293.5 L627.6,290.5 L632.2,287.8 L637.0,285.2 L642.0,282.8 L647.0,280.4 L652.0,278.1 L656.9,275.8 L661.9,273.5 L667.0,271.3 L672.2,269.2 L677.6,267.3 L683.2,265.7 L689.1,264.4 L695.1,263.6 L701.3,263.1 L707.5,262.9 L713.7,263.0 L719.8,263.3 L725.8,263.5 L731.6,263.7 L737.4,263.8 L743.1,263.7 L748.9,263.4 L754.7,263.1 L760.5,262.7 L766.5,262.4 L772.5,262.1 L778.7,262.1 L784.9,262.1 L791.1,262.4 L797.4,262.8 L803.7,263.3 L810.1,264.0 L816.4,264.9 L822.8,266.0 L829.0,267.4 L835.0,269.1 L840.7,271.1 L846.0,273.6 L850.8,276.4 L854.9,279.6 L858.5,283.1 L861.6,286.8 L864.2,290.6 L866.5,294.5 L868.8,298.2 L871.0,301.9 L873.4,305.5 L875.9,308.9 L878.6,312.3 L881.3,315.8 L884.0,319.2 L886.4,322.8 L888.5,326.4 L890.2,330.1 L891.3,333.9 L892.0,337.8 L892.3,341.6 L892.2,345.5 Z"/>
+<path d="M904.5,348.7 L903.2,352.9 L901.7,357.2 L900.3,361.3 L899.0,365.5 L898.1,369.7 L897.6,374.0 L897.4,378.4 L897.4,382.9 L897.4,387.6 L897.1,392.4 L896.4,397.2 L895.1,402.0 L893.0,406.6 L890.0,411.0 L886.3,415.2 L882.0,419.0 L877.1,422.6 L871.7,426.0 L866.1,429.2 L860.2,432.2 L854.2,435.0 L847.9,437.6 L841.5,440.0 L834.9,442.2 L828.1,444.1 L821.2,445.8 L814.1,447.2 L807.1,448.4 L800.0,449.6 L793.0,450.7 L786.1,451.9 L779.2,453.2 L772.3,454.6 L765.4,456.1 L758.3,457.7 L751.1,459.1 L743.7,460.2 L736.2,460.8 L728.7,461.0 L721.2,460.5 L713.9,459.4 L706.7,457.7 L699.9,455.6 L693.3,453.2 L687.0,450.7 L680.9,448.1 L674.9,445.5 L669.0,443.0 L663.1,440.7 L657.2,438.3 L651.4,436.0 L645.7,433.5 L640.2,430.9 L634.8,428.2 L629.6,425.3 L624.7,422.3 L619.8,419.2 L615.0,416.1 L610.2,413.0 L605.4,409.8 L600.4,406.7 L595.4,403.4 L590.4,400.1 L585.5,396.6 L581.0,392.9 L577.0,389.0 L573.4,384.9 L570.4,380.7 L567.9,376.3 L565.8,371.8 L564.0,367.3 L562.5,362.7 L561.0,358.1 L559.6,353.4 L558.3,348.7 L557.3,343.9 L556.8,339.0 L556.8,334.2 L557.7,329.4 L559.5,324.7 L562.3,320.1 L566.0,315.8 L570.5,311.7 L575.5,307.9 L580.9,304.4 L586.3,301.0 L591.7,297.7 L596.8,294.4 L601.7,291.2 L606.2,287.9 L610.6,284.6 L615.0,281.2 L619.4,277.8 L623.9,274.5 L628.6,271.3 L633.5,268.2 L638.6,265.1 L643.9,262.2 L649.4,259.4 L655.0,256.6 L660.8,253.9 L666.7,251.3 L672.9,248.9 L679.3,246.6 L686.0,244.8 L693.0,243.3 L700.1,242.4 L707.4,241.9 L714.8,242.0 L722.1,242.3 L729.4,243.0 L736.5,243.7 L743.5,244.4 L750.4,244.9 L757.4,245.2 L764.4,245.2 L771.6,245.1 L778.9,244.9 L786.4,244.7 L794.0,244.8 L801.6,245.1 L809.1,245.9 L816.4,247.1 L823.5,248.8 L830.3,250.8 L836.9,253.2 L843.3,255.7 L849.5,258.5 L855.5,261.4 L861.3,264.4 L866.9,267.6 L872.2,271.0 L877.1,274.6 L881.6,278.5 L885.4,282.6 L888.7,286.9 L891.5,291.3 L893.7,295.8 L895.6,300.3 L897.3,304.9 L898.8,309.3 L900.3,313.7 L901.8,318.1 L903.2,322.5 L904.4,326.8 L905.4,331.2 L905.9,335.6 L906.0,340.0 L905.5,344.3 Z"/>
+<path d="M930.1,348.0 L929.3,353.1 L928.3,358.2 L926.9,363.2 L925.4,368.2 L923.7,373.2 L922.0,378.1 L920.4,383.1 L919.0,388.2 L917.9,393.5 L917.1,398.9 L916.4,404.5 L915.6,410.3 L914.4,416.2 L912.6,422.1 L909.9,427.8 L906.2,433.2 L901.3,438.1 L895.3,442.6 L888.4,446.4 L880.8,449.8 L872.7,452.6 L864.3,455.1 L855.8,457.4 L847.4,459.5 L839.0,461.5 L830.7,463.5 L822.5,465.3 L814.2,467.0 L805.8,468.5 L797.3,469.6 L788.8,470.4 L780.1,470.8 L771.6,470.9 L763.0,470.7 L754.6,470.3 L746.3,470.0 L738.1,469.6 L729.9,469.3 L721.8,469.1 L713.7,468.8 L705.5,468.5 L697.3,468.0 L689.2,467.2 L681.2,466.1 L673.3,464.7 L665.5,463.0 L657.8,461.2 L650.1,459.2 L642.5,457.3 L634.7,455.3 L626.8,453.5 L618.7,451.6 L610.5,449.6 L602.3,447.4 L594.3,444.8 L586.8,441.8 L579.9,438.3 L573.8,434.3 L568.6,429.8 L564.2,425.0 L560.6,419.9 L557.5,414.7 L554.7,409.5 L552.0,404.4 L549.1,399.4 L546.1,394.4 L542.7,389.6 L539.2,384.7 L535.7,379.8 L532.2,374.8 L529.1,369.6 L526.5,364.4 L524.4,359.0 L522.9,353.5 L522.0,348.0 L521.5,342.4 L521.5,336.9 L522.0,331.3 L522.9,325.7 L524.4,320.2 L526.6,314.8 L529.6,309.5 L533.6,304.4 L538.5,299.7 L544.3,295.3 L550.8,291.2 L557.9,287.6 L565.3,284.2 L572.7,281.1 L579.7,278.0 L586.3,274.9 L592.3,271.7 L597.8,268.2 L602.9,264.4 L607.7,260.5 L612.5,256.3 L617.5,252.2 L622.9,248.2 L628.7,244.4 L634.9,240.9 L641.6,237.7 L648.7,234.8 L656.0,232.2 L663.5,229.7 L671.2,227.3 L679.0,225.0 L686.9,222.8 L695.1,220.6 L703.4,218.7 L711.9,217.0 L720.7,215.7 L729.5,214.9 L738.5,214.6 L747.4,214.8 L756.3,215.5 L765.1,216.5 L773.8,217.7 L782.4,219.2 L790.9,220.7 L799.4,222.4 L807.7,224.3 L815.9,226.3 L823.9,228.7 L831.6,231.5 L838.8,234.7 L845.5,238.4 L851.6,242.4 L857.2,246.7 L862.5,251.1 L867.4,255.5 L872.4,259.8 L877.4,263.9 L882.8,267.8 L888.4,271.6 L894.4,275.3 L900.5,278.9 L906.6,282.8 L912.4,286.8 L917.6,291.1 L922.0,295.8 L925.5,300.7 L928.2,305.8 L929.9,311.1 L931.0,316.4 L931.5,321.8 L931.6,327.1 L931.4,332.4 L931.1,337.7 L930.7,342.9 Z"/>
+<path d="M971.0,347.3 L970.4,353.7 L969.9,360.0 L969.5,366.3 L969.1,372.7 L968.4,379.2 L967.2,385.6 L965.4,392.0 L962.7,398.2 L959.1,404.3 L954.8,410.2 L949.8,415.9 L944.2,421.4 L938.4,426.7 L932.5,432.0 L926.4,437.1 L920.2,442.2 L913.9,447.3 L907.2,452.2 L900.2,456.9 L892.6,461.2 L884.6,465.2 L876.0,468.8 L867.0,471.9 L857.8,474.8 L848.5,477.3 L839.1,479.8 L829.9,482.2 L820.6,484.6 L811.4,487.1 L802.2,489.5 L792.7,491.8 L783.1,493.7 L773.2,495.0 L763.2,495.7 L753.0,495.6 L742.9,494.7 L732.9,493.1 L723.2,491.0 L713.7,488.6 L704.6,486.2 L695.6,484.1 L686.7,482.2 L677.7,480.9 L668.6,479.9 L659.1,479.4 L649.4,479.0 L639.4,478.7 L629.1,478.2 L618.8,477.4 L608.4,476.3 L598.1,474.8 L587.9,472.9 L577.8,470.6 L567.9,467.9 L558.1,464.9 L548.6,461.5 L539.4,457.6 L530.8,453.4 L522.9,448.6 L516.1,443.3 L510.4,437.4 L506.0,431.1 L502.9,424.4 L501.0,417.5 L500.0,410.6 L499.6,403.7 L499.4,396.9 L499.2,390.4 L498.6,384.0 L497.5,377.9 L496.0,371.8 L494.1,365.7 L492.3,359.7 L490.7,353.5 L489.8,347.3 L489.6,341.1 L490.4,334.9 L492.1,328.8 L494.6,322.7 L497.7,316.8 L501.1,311.1 L504.7,305.3 L508.2,299.7 L511.7,294.0 L515.2,288.3 L518.7,282.6 L522.6,277.0 L526.8,271.4 L531.7,266.1 L537.1,260.9 L543.1,256.0 L549.6,251.4 L556.4,247.0 L563.5,242.7 L570.6,238.5 L577.8,234.3 L585.1,230.0 L592.4,225.8 L600.0,221.7 L607.9,217.7 L616.2,214.1 L625.0,210.9 L634.2,208.3 L643.7,206.1 L653.5,204.4 L663.3,203.1 L673.2,201.8 L683.1,200.6 L692.9,199.2 L702.7,197.5 L712.7,195.5 L722.8,193.4 L733.2,191.3 L743.9,189.5 L754.9,188.1 L765.9,187.5 L776.9,187.8 L787.6,189.0 L798.0,191.2 L807.8,194.3 L817.1,198.1 L825.8,202.3 L834.0,207.0 L841.7,211.8 L849.0,216.7 L856.0,221.7 L862.5,226.7 L868.8,231.8 L874.6,236.9 L880.1,242.1 L885.3,247.3 L890.2,252.5 L895.1,257.5 L900.0,262.4 L905.4,267.1 L911.2,271.5 L917.6,275.8 L924.6,280.0 L932.0,284.3 L939.6,288.7 L947.0,293.3 L953.9,298.3 L959.9,303.7 L964.7,309.5 L968.2,315.5 L970.4,321.8 L971.5,328.2 L971.8,334.6 L971.5,341.0 Z"/>
+<path d="M1016.4,346.7 L1017.3,354.4 L1017.5,362.1 L1017.2,369.9 L1016.6,377.6 L1015.8,385.5 L1014.8,393.4 L1013.2,401.3 L1010.9,409.2 L1007.6,417.0 L1002.8,424.4 L996.5,431.4 L988.5,437.7 L978.9,443.4 L968.0,448.3 L956.2,452.4 L943.9,456.0 L931.7,459.2 L919.9,462.2 L908.8,465.3 L898.6,468.6 L889.0,472.2 L880.1,476.2 L871.6,480.5 L863.2,485.0 L854.7,489.5 L845.9,493.9 L836.7,498.2 L827.1,502.2 L817.2,505.9 L807.0,509.3 L796.5,512.6 L785.8,515.7 L774.7,518.6 L763.4,521.2 L751.9,523.4 L740.1,525.1 L728.0,526.0 L716.0,526.2 L703.9,525.5 L692.0,523.9 L680.5,521.6 L669.2,518.8 L658.2,515.7 L647.4,512.7 L636.7,509.9 L625.8,507.5 L614.6,505.5 L603.0,503.9 L591.1,502.4 L578.9,500.8 L566.7,498.8 L554.7,496.4 L543.1,493.2 L532.4,489.2 L522.4,484.5 L513.3,479.1 L505.1,473.3 L497.4,467.2 L490.3,460.9 L483.4,454.4 L476.7,448.0 L470.2,441.5 L464.0,434.8 L458.3,428.0 L453.3,421.0 L449.2,413.8 L446.3,406.4 L444.4,398.8 L443.6,391.1 L443.6,383.4 L444.3,375.9 L445.4,368.4 L446.6,361.0 L447.8,353.8 L449.1,346.7 L450.5,339.6 L452.2,332.6 L454.4,325.6 L457.3,318.8 L460.9,312.2 L465.3,305.7 L470.1,299.4 L475.2,293.2 L480.1,287.1 L484.6,280.9 L488.3,274.6 L491.3,267.8 L493.6,260.7 L495.5,253.1 L497.2,245.1 L499.3,236.9 L502.3,228.8 L506.4,220.8 L511.9,213.3 L519.0,206.5 L527.4,200.4 L537.1,195.3 L547.8,190.9 L559.2,187.2 L571.0,184.1 L583.0,181.4 L595.1,179.1 L607.3,177.0 L619.5,175.3 L631.7,173.9 L644.0,172.9 L656.2,172.3 L668.4,172.1 L680.6,172.3 L692.6,172.6 L704.4,173.1 L716.2,173.4 L727.8,173.6 L739.5,173.5 L751.3,173.1 L763.3,172.7 L775.5,172.3 L787.8,172.4 L800.0,173.0 L812.0,174.5 L823.5,177.0 L834.4,180.4 L844.5,184.8 L853.9,189.8 L862.5,195.3 L870.6,201.1 L878.4,206.7 L886.1,212.2 L894.0,217.4 L902.0,222.4 L910.3,227.1 L918.6,231.9 L926.9,236.7 L934.9,241.8 L942.3,247.1 L949.2,252.8 L955.5,258.8 L961.1,264.9 L966.4,271.2 L971.6,277.6 L976.7,284.0 L982.0,290.4 L987.5,296.8 L993.1,303.4 L998.6,310.1 L1003.7,317.0 L1008.2,324.2 L1011.9,331.5 L1014.6,339.0 Z"/>
+<path d="M1049.3,346.0 L1051.7,354.7 L1053.8,363.6 L1055.1,372.6 L1055.3,381.6 L1054.3,390.6 L1052.1,399.5 L1048.9,408.4 L1044.7,417.0 L1039.7,425.5 L1033.9,433.8 L1027.4,441.9 L1020.1,449.7 L1011.8,457.2 L1002.4,464.1 L991.7,470.3 L979.9,475.8 L967.1,480.5 L953.6,484.4 L939.8,487.8 L926.0,490.7 L912.8,493.6 L900.3,496.6 L888.7,500.1 L877.9,504.3 L867.7,509.0 L857.9,514.4 L848.0,520.1 L837.9,525.9 L827.2,531.5 L815.8,536.5 L803.7,540.9 L791.0,544.5 L777.9,547.4 L764.5,549.6 L750.8,551.5 L737.0,553.1 L723.0,554.8 L708.9,556.4 L694.5,558.1 L679.8,559.7 L664.9,560.8 L649.8,561.5 L634.6,561.3 L619.6,560.2 L605.0,558.0 L590.8,554.9 L577.1,551.0 L564.1,546.3 L551.5,541.2 L539.4,535.7 L527.8,530.0 L516.5,524.1 L505.7,517.9 L495.5,511.4 L486.1,504.4 L477.7,497.0 L470.4,489.1 L464.3,480.8 L459.2,472.3 L454.8,463.7 L450.8,455.3 L446.7,447.2 L442.0,439.4 L436.5,432.1 L429.8,425.0 L422.2,418.2 L413.8,411.3 L405.3,404.2 L397.1,396.8 L389.8,389.0 L384.1,380.8 L380.3,372.3 L378.5,363.6 L378.7,354.8 L380.4,346.0 L383.5,337.4 L387.3,328.9 L391.5,320.6 L395.8,312.4 L400.1,304.3 L404.3,296.3 L408.6,288.4 L413.0,280.5 L417.8,272.7 L422.9,265.0 L428.4,257.4 L434.0,249.8 L439.7,242.2 L445.3,234.4 L450.6,226.4 L455.8,218.0 L460.8,209.3 L466.0,200.4 L471.8,191.3 L478.5,182.3 L486.4,173.8 L495.9,166.1 L507.0,159.4 L519.5,153.9 L533.3,149.7 L548.0,146.6 L563.3,144.6 L578.7,143.3 L594.0,142.5 L609.1,141.9 L623.8,141.2 L638.3,140.5 L652.6,139.7 L666.8,139.1 L680.9,138.8 L695.0,139.0 L709.0,139.9 L722.9,141.6 L736.5,144.0 L749.7,146.9 L762.6,150.3 L775.1,153.8 L787.3,157.3 L799.5,160.5 L811.6,163.4 L823.9,166.0 L836.3,168.4 L848.8,170.8 L861.4,173.4 L873.9,176.4 L886.2,179.6 L898.2,183.3 L910.1,187.3 L921.9,191.6 L933.7,196.0 L945.7,200.5 L958.0,205.0 L970.6,209.6 L983.3,214.5 L995.9,219.8 L1007.9,225.7 L1018.8,232.2 L1028.2,239.5 L1035.6,247.6 L1040.9,256.3 L1044.1,265.4 L1045.5,274.8 L1045.6,284.3 L1044.9,293.6 L1044.1,302.7 L1043.6,311.6 L1043.9,320.3 L1045.0,328.9 L1046.9,337.4 Z"/>
+<path d="M1095.3,345.3 L1091.6,355.2 L1089.0,365.0 L1087.2,374.8 L1085.7,384.7 L1084.0,394.6 L1081.5,404.4 L1077.6,414.1 L1072.2,423.4 L1065.2,432.4 L1056.9,441.0 L1047.7,449.1 L1038.1,457.0 L1028.5,464.8 L1019.3,472.6 L1010.6,480.6 L1002.4,488.8 L994.5,497.4 L986.5,506.1 L978.0,514.8 L968.8,523.3 L958.5,531.3 L947.1,538.8 L934.7,545.5 L921.4,551.6 L907.4,557.1 L893.0,562.1 L878.4,566.9 L863.5,571.5 L848.5,575.9 L833.2,580.1 L817.6,584.0 L801.6,587.2 L785.3,589.7 L768.6,591.2 L751.8,591.8 L735.0,591.5 L718.3,590.7 L701.7,589.5 L685.3,588.4 L668.9,587.6 L652.3,587.4 L635.3,587.9 L617.8,588.7 L599.8,589.7 L581.4,590.4 L562.8,590.4 L544.5,589.2 L526.8,586.4 L510.3,581.9 L495.2,575.7 L481.8,568.0 L470.2,559.0 L460.1,549.2 L451.4,538.9 L443.7,528.5 L436.7,518.2 L430.1,508.1 L423.8,498.3 L417.7,488.8 L411.9,479.5 L406.4,470.2 L401.3,461.1 L396.4,452.1 L391.6,443.2 L386.5,434.5 L381.0,426.0 L374.5,417.7 L366.9,409.5 L358.2,401.3 L348.6,392.9 L338.6,384.2 L328.7,375.2 L319.6,365.6 L312.1,355.7 L306.8,345.3 L303.8,334.8 L303.2,324.2 L304.9,313.6 L308.2,303.3 L312.7,293.0 L317.7,283.0 L322.7,272.9 L327.5,262.9 L332.1,252.7 L336.6,242.4 L341.4,232.0 L347.1,221.8 L354.0,211.8 L362.5,202.4 L372.6,193.6 L384.4,185.5 L397.6,178.3 L411.7,171.9 L426.3,166.0 L441.1,160.4 L455.9,155.1 L470.3,149.8 L484.6,144.5 L498.8,139.3 L513.1,134.2 L527.7,129.4 L542.6,125.1 L558.0,121.4 L573.6,118.3 L589.5,115.8 L605.5,113.7 L621.6,111.8 L637.5,110.0 L653.4,108.2 L669.4,106.2 L685.5,104.2 L701.8,102.5 L718.3,101.3 L734.8,101.1 L751.3,102.0 L767.5,104.4 L783.0,108.2 L797.9,113.3 L811.9,119.4 L825.1,126.1 L837.7,132.7 L850.0,139.0 L862.6,144.6 L875.6,149.2 L889.5,152.8 L904.4,155.7 L920.2,158.0 L936.9,160.2 L954.0,162.7 L971.3,165.6 L988.4,169.3 L1004.9,173.9 L1020.7,179.3 L1035.7,185.5 L1049.8,192.4 L1063.2,200.0 L1075.7,208.2 L1087.4,216.9 L1097.9,226.1 L1106.9,235.9 L1114.1,246.3 L1119.1,257.1 L1121.8,268.3 L1122.0,279.8 L1119.9,291.4 L1116.1,302.8 L1111.0,314.0 L1105.4,324.8 L1100.0,335.2 Z"/>
+<path d="M1174.2,344.7 L1169.8,356.7 L1163.7,368.5 L1156.6,380.0 L1149.0,391.2 L1141.1,402.1 L1133.3,412.8 L1125.5,423.3 L1117.5,433.7 L1109.2,443.8 L1100.2,453.7 L1090.3,463.2 L1079.6,472.3 L1068.3,481.0 L1056.7,489.5 L1045.4,497.9 L1034.8,506.7 L1025.2,516.0 L1016.8,526.2 L1009.5,537.5 L1002.9,549.8 L996.2,563.0 L988.9,576.6 L980.2,590.3 L969.6,603.3 L956.6,615.0 L941.2,625.1 L923.6,633.1 L904.2,639.0 L883.5,642.9 L861.9,645.0 L840.1,645.8 L818.2,645.7 L796.7,644.9 L775.5,643.8 L754.6,642.4 L734.1,640.7 L714.0,638.7 L694.1,636.1 L674.6,633.0 L655.6,629.4 L636.9,625.3 L618.7,621.0 L600.8,616.7 L582.9,612.6 L565.0,609.0 L546.9,605.8 L528.4,602.9 L509.5,600.1 L490.6,596.9 L471.9,593.1 L454.0,588.2 L437.1,582.0 L421.9,574.4 L408.4,565.5 L396.6,555.7 L386.2,545.2 L376.9,534.5 L367.9,523.9 L358.8,513.7 L349.1,504.0 L338.5,494.8 L327.0,485.8 L315.1,476.8 L303.1,467.7 L291.7,458.1 L281.6,448.0 L273.1,437.4 L266.4,426.3 L261.5,414.9 L258.0,403.3 L255.4,391.6 L253.1,379.9 L250.8,368.2 L247.9,356.5 L244.6,344.7 L241.0,332.7 L237.4,320.5 L234.3,308.0 L232.4,295.4 L231.8,282.6 L232.9,269.9 L235.5,257.3 L239.6,244.7 L244.8,232.3 L250.9,220.0 L257.6,207.7 L264.9,195.5 L273.1,183.4 L282.4,171.6 L293.3,160.3 L306.2,149.8 L321.5,140.6 L339.2,132.9 L359.1,127.0 L380.8,122.8 L403.7,120.3 L426.9,119.0 L449.7,118.5 L471.4,118.2 L491.8,117.5 L510.5,116.0 L527.8,113.3 L544.0,109.4 L559.4,104.4 L574.6,98.6 L590.1,92.5 L605.9,86.3 L622.5,80.5 L639.7,75.4 L657.5,71.0 L675.8,67.3 L694.5,64.3 L713.6,61.7 L733.0,59.6 L752.8,58.0 L772.7,56.9 L792.9,56.6 L813.1,57.3 L832.9,59.3 L852.3,62.6 L870.9,67.3 L888.6,73.3 L905.4,80.2 L921.3,87.8 L936.7,95.5 L952.1,103.1 L967.7,110.2 L983.9,116.7 L1000.9,122.8 L1018.6,128.7 L1036.7,134.7 L1054.6,141.2 L1071.7,148.5 L1087.4,156.9 L1101.2,166.3 L1112.8,176.8 L1122.2,188.1 L1129.7,200.0 L1135.8,212.2 L1141.0,224.4 L1145.9,236.5 L1151.0,248.5 L1156.4,260.3 L1161.9,272.0 L1167.3,283.8 L1172.0,295.7 L1175.4,307.9 L1177.1,320.1 L1176.8,332.4 Z"/>
+<path d="M1230.1,344.0 L1239.9,358.0 L1247.0,372.4 L1250.4,387.0 L1249.8,401.6 L1245.3,415.7 L1237.3,429.4 L1226.7,442.5 L1214.5,454.9 L1201.6,467.0 L1188.7,478.7 L1176.2,490.4 L1164.2,502.1 L1152.7,513.8 L1141.2,525.6 L1129.5,537.4 L1117.2,548.9 L1104.2,560.3 L1090.4,571.3 L1076.1,582.2 L1061.5,593.0 L1046.7,604.0 L1031.9,615.3 L1016.9,627.0 L1001.6,639.1 L985.6,651.3 L968.5,663.1 L949.9,674.2 L929.6,683.8 L907.5,691.5 L883.9,696.9 L859.1,699.8 L833.6,700.5 L807.9,699.4 L782.5,696.8 L757.6,693.5 L733.3,690.1 L709.6,686.9 L686.4,684.2 L663.5,681.9 L640.8,679.6 L618.3,677.1 L596.0,673.7 L574.3,669.2 L553.5,663.3 L533.7,655.9 L515.1,647.3 L497.8,637.8 L481.4,628.0 L465.5,618.3 L449.9,609.1 L433.8,600.8 L417.1,593.3 L399.5,586.6 L381.0,580.3 L361.9,574.2 L342.4,568.0 L322.9,561.3 L303.7,553.9 L284.8,546.0 L266.3,537.4 L248.1,528.4 L229.8,518.9 L211.4,509.0 L192.8,498.7 L174.4,487.8 L156.6,476.2 L140.2,463.8 L126.3,450.5 L115.6,436.2 L109.0,421.2 L106.8,405.7 L108.9,389.9 L114.9,374.2 L123.7,358.8 L134.1,344.0 L144.9,329.7 L154.8,315.9 L163.0,302.3 L169.1,288.8 L173.2,275.2 L175.7,261.3 L177.5,247.1 L179.5,232.6 L182.6,218.1 L187.4,203.8 L194.5,189.8 L203.8,176.4 L215.2,163.7 L228.4,151.5 L242.8,140.0 L258.3,129.0 L274.5,118.5 L291.5,108.5 L309.3,99.2 L328.1,90.6 L348.1,83.1 L369.2,76.8 L391.4,71.9 L414.4,68.3 L437.6,65.8 L460.7,64.1 L483.2,62.5 L504.9,60.6 L525.5,57.9 L545.2,53.9 L564.3,48.7 L583.3,42.4 L602.5,35.3 L622.4,28.1 L643.0,21.3 L664.5,15.4 L686.7,11.1 L709.4,8.3 L732.4,7.2 L755.4,7.3 L778.4,8.3 L801.4,9.7 L824.6,11.1 L848.2,12.2 L872.4,13.0 L897.2,13.7 L922.5,14.6 L948.0,16.3 L973.3,19.2 L997.9,23.7 L1021.1,30.0 L1042.6,38.2 L1062.1,48.1 L1079.7,59.4 L1095.3,71.9 L1109.2,85.0 L1121.9,98.5 L1133.3,112.2 L1143.7,126.1 L1153.0,140.1 L1160.9,154.3 L1167.3,168.7 L1171.8,183.3 L1174.5,198.1 L1175.6,212.8 L1175.6,227.4 L1175.3,241.5 L1175.5,255.1 L1177.2,268.1 L1181.0,280.7 L1187.4,292.9 L1196.3,305.2 L1207.0,317.6 L1218.7,330.5 Z"/>
+</svg>
+
   <div class="wrap">
     <div class="inner">
-      <span class="label eyebrow reveal">Stratégie &amp; opérations</span>
-      <h1 class="rotator reveal d1" aria-live="polite"><span class="rot-sizer" aria-hidden="true">Transformer vos idées en plan d'exécution.</span><span class="rot-live"><span id="rot">Dérisquer vos innovations.</span></span></h1>
+      <span class="label eyebrow reveal">Adoption &amp; passage à l'échelle</span>
+      <h1 class="reveal d1">De la technologie déployée à la technologie adoptée.</h1>
       <div class="byline reveal d2">Nathalie Beugé · Head of Product</div>
-      <p class="sub reveal d2">Mener vos produits au succès, de la stratégie au terrain.</p>
+      <p class="sub reveal d2">La technologie est la partie facile. Ce qui fait la différence se joue en dessous, dans la donnée, la mesure et la discipline. Quinze ans passés sur ce terrain, de la VR en magasin aux agents IA en production.</p>
       <div class="cta reveal d3">
         <a href="https://calendar.app.google/BK3kgHikuWsr1CEn7" target="_blank" rel="noopener" class="btn">Réserver un échange</a>
-        <a href="#travaux" class="btn btn-ghost">Voir les travaux</a>
+        <a href="#offre" class="btn btn-ghost">Voir l'offre</a>
       </div>
     </div>
     <div class="proof reveal">
@@ -357,82 +321,62 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
   </div>
 </section>
 
+<!-- PREUVE : mes chiffres -->
+<section class="dark">
+  <div class="wrap">
+    <span class="label label--inv eyebrow reveal">Déploiements menés</span>
+    <h2 class="reveal d1" style="color:var(--paper);font-size:clamp(1.7rem,3.4vw,2.8rem);max-width:24ch;line-height:1.1">Une technologie ne vaut que par l'usage qu'on en fait.</h2>
+    <div class="evid reveal d2">
+      <div><span class="v">100</span><span class="kk">magasins équipés en VR, AR et XR dans 20 pays, avec HTC. Formation des équipes terrain incluse</span><span class="src">Decathlon · 2016-2018</span></div>
+      <div><span class="v">22 → 50</span><span class="kk">une organisation portée à l'échelle européenne en huit mois, en remote written-first, conduite du changement comprise</span><span class="src">Pennylane · 2025</span></div>
+      <div><span class="v">×8</span><span class="kk">de 100K à 800K utilisateurs actifs mensuels en un an sur l'écosystème d'applications grand public</span><span class="src">Decathlon Digital · 2023-2024</span></div>
+    </div>
+    <p class="reveal d3" style="margin-top:36px;color:rgba(255,255,255,.66);max-width:58ch;font-size:1.06rem">Huit pour cent des entreprises ont réellement passé l'échelle sur l'IA. Quinze ans de terrain ont suffi à comprendre ce qui les distingue des autres, et à en tirer une méthode.</p>
+    <a class="arrow-link reveal d3" href="https://nathaliebeuge.substack.com/p/in-innovation-projects-the-technology" target="_blank" rel="noopener" style="margin-top:24px;display:inline-block;color:var(--paper);border-color:rgba(255,255,255,.5)">Lire mon analyse</a>
+  </div>
+</section>
+
 <!-- STATEMENT -->
 <section class="statement">
   <div class="wrap">
-    <h2 class="reveal">Ma mission : des produits que vos utilisateurs adoptent, et qui font grandir votre entreprise.</h2>
-    <p class="mission-lead reveal">Transformer un système complexe en un produit simple, marquant, unique.</p>
-    <p class="mission-text reveal">Je travaille avec des équipes produit responsabilisées et pluridisciplinaires, capables de livrer des expériences complètes, soignées jusque dans le détail. Les décisions se prennent en découverte continue : expérimentation, données d'usage, écoute permanente des utilisateurs. Et l'IA, pensée autant comme dimension du produit que comme manière plus affûtée de concevoir et de livrer.</p>
-    <div class="smetrics reveal">
-      <div><span class="v">×8</span><span class="kk">de 100K à 800K utilisateurs actifs mensuels (MAU) en un an, via une nouvelle stratégie produit sur les expériences, applications et produits connectés de Decathlon</span></div>
-      <div><span class="v">2 mois</span><span class="kk">gagnés sur le time-to-market en développement produit, grâce à la conception VR des tentes familiales et casques de ski</span></div>
-      <div><span class="v">22 → 50</span><span class="kk">Scale de l'équipe Design au sein d'une scale up, change management et accompagnement pour passer une équipe de 22 à 50 personnes : l'organisation produit portée à l'échelle européenne en 8 mois</span></div>
+    <span class="label eyebrow reveal">Ma mission</span>
+    <h2 class="reveal">Une technologie n'existe qu'à partir du moment où les équipes s'en emparent.</h2>
+    <p class="mission-lead reveal">Toute ambition devient un plan chiffré, puis une mesure.</p>
+    <p class="mission-text reveal">Avant que rien ne démarre, le point de départ est fixé et le succès défini, en chiffres et en mots. Le pari est chiffré avant l'engagement du budget. L'incertitude est mesurée plutôt que contournée. Et la démarche demeure reproductible, afin que le projet suivant s'appuie sur le précédent. Une règle : fail fast, kill cheap.</p>
+
+    <!-- BANDE IMAGE : remplace les deux src par tes photos -->
+    <div class="band reveal">
+      <figure class="shot shot-16x9">
+        <img src="./assets/photos/vr-magasin.webp" alt="Déploiement de la conception VR dans la chaîne produit Decathlon" loading="lazy" decoding="async" width="1600" height="900" />
+        <figcaption>Conception VR · chaîne produit Decathlon</figcaption>
+      </figure>
+      <figure class="shot shot-4x3">
+        <img src="./assets/photos/atelier-equipe.webp" alt="Atelier de conduite du changement avec une équipe produit" loading="lazy" decoding="async" width="1200" height="900" />
+        <figcaption>Atelier · conduite du changement</figcaption>
+      </figure>
     </div>
-  </div>
+
 </section>
 
-<!-- LE PRODUIT EN PROFONDEUR : stratégie + innovation + tech -->
-<section id="facets">
-  <div class="wrap">
-    <div class="lead reveal" style="max-width:62ch">
-      <span class="label eyebrow">Le produit, en profondeur</span>
-      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Stratégie, innovation, tech et management.</h2>
-    </div>
-    <div class="facets reveal">
-      <div><span class="fn">01</span><h3>Stratégie</h3><p>Vision, Storytelling, Prospective, Design Thinking, Hackathons, Priorisation, Business model, Arbitrages, Intégration de l'IA, Etudes de tendances.</p></div>
-      <div><span class="fn">02</span><h3>Innovation</h3><p>Discovery, validation, nouveaux relais de croissance.</p></div>
-      <div><span class="fn">03</span><h3>Tech</h3><p>L'IA et la donnée, branchées là où elles créent de la valeur, Vibe Coding.</p></div>
-      <div><span class="fn">04</span><h3>Management</h3><p>Je pilote et fais grandir des équipes produit : recrutement, montée en compétences, culture de la qualité, working models efficents, intégration de l'IA dans les workflows.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- TRAVAUX : cas orientés résultat -->
-<section class="wash" id="travaux">
-  <div class="wrap">
-    <div class="cases-head reveal">
-      <div><span class="label eyebrow">Réalisations</span><h2>Projets sélectionnés.</h2></div>
-      <a class="arrow-link" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Tout voir sur Behance</a>
-    </div>
-    <div class="cases reveal">
-      <a class="case" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener">
-        <div class="ck">Decathlon · One App</div>
-        <h3 class="ct">Un écosystème produit cohérent</h3>
-        <span class="go arrow-link">Voir sur Behance</span>
-      </a>
-      <a class="case" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener">
-        <div class="ck">Decathlon · Conception VR</div>
-        <h3 class="ct">Une chaîne de conception en réalité virtuelle</h3>
-        <span class="go arrow-link">Voir sur Behance</span>
-      </a>
-      <a class="case" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener">
-        <div class="ck">Outdoor · Nature</div>
-        <h3 class="ct">Remettre les enfants dehors</h3>
-        <span class="go arrow-link">Voir sur Behance</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- TERRAINS : positif, façon secteurs -->
-<section id="terrains">
+<!-- OU J'INTERVIENS -->
+<section id="terrains" class="wash">
   <div class="wrap">
     <div class="reveal" style="max-width:60ch">
-      <span class="label eyebrow">Secteurs</span>
-      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Domaines d'intervention.</h2>
+      <span class="label eyebrow">Où j'interviens</span>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.6rem)">La tech au service de ceux qui l'utilisent.</h2>
     </div>
     <div class="terr reveal">
       <div class="card">
-        <div><span class="tk">01</span><h3>Sport &amp; outdoor</h3></div>
-        <p>Du produit grand public à l'équipement de montagne, l'usage réel avant l'outil.</p>
+        <div><span class="tk">01</span><h3>Efficience interne</h3></div>
+        <p>Conduite du changement, modèles opératoires, conception VR dans la chaîne produit. Deux mois gagnés sur le time-to-market chez Decathlon.</p>
       </div>
       <div class="card">
-        <div><span class="tk">02</span><h3>SaaS fintech</h3></div>
-        <p>Activation, rétention, unit economics : le produit qui soutient la croissance.</p>
+        <div><span class="tk">02</span><h3>Expérience client</h3></div>
+        <p>VR, AR et écrans en magasin, événements réparabilité, dispositifs de terrain. Déployé dans 100 magasins de 20 pays avec HTC.</p>
       </div>
       <div class="card">
-        <div><span class="tk">03</span><h3>IA appliquée</h3></div>
-        <p>L'IA branchée là où elle fait gagner du temps et ouvre des angles.</p>
+        <div><span class="tk">03</span><h3>Agents IA en production</h3></div>
+        <p>RH, recherche, workflows internes. Des agents qui tournent en production, dans les mains des équipes, avec des indicateurs d'usage réel.</p>
       </div>
     </div>
   </div>
@@ -443,66 +387,137 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
   <div class="wrap">
     <div class="reveal" style="max-width:64ch">
       <span class="label eyebrow">L'offre</span>
-      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Un accompagnement structuré, du diagnostic à l'exécution.</h2>
-      <p class="offer-anchor">Premier échange et cadrage <b>offerts</b>. Tarifs et disponibilités sur <a href="https://www.malt.fr/profile/nathaliebeuge" target="_blank" rel="noopener">mon profil Malt</a>.</p>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.6rem)">De la démo au quotidien de vos équipes.</h2>
+      <p class="mission-text">La VR et l'AR déployées dans 100 magasins de 20 pays. Des agents IA mis en production. Une organisation portée de 22 à 50 personnes en huit mois. À chaque fois, la même mécanique : une ambition chiffrée, une mesure branchée sur l'usage réel, et des équipes qui s'emparent de l'outil.</p>
+      <p class="offer-anchor">Premier échange, 30 minutes, <b>offert</b>. Le cadrage, lui, c'est le diagnostic.</p>
     </div>
+
     <div class="offers reveal">
+
       <article class="offer">
-        <span class="tag">01 · Diagnostic</span><h3>Savoir où votre produit décroche</h3><div class="dur">à partir de 6 jours</div>
-        <ul><li>Une carte claire de ce qui bloque vos utilisateurs</li><li>Les points de fuite chiffrés, du plus coûteux au plus mineur</li><li>Les trois chantiers à lancer en premier</li></ul>
-        <div class="res">Vous repartez avec une lecture nette de vos leviers.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+        <span class="tag">01 · Diagnostic</span>
+        <h3>Voir précisément où se joue l'adoption</h3>
+        <div class="dur">5 jours · 2 500 €</div>
+        <ul>
+          <li>Six entretiens dans vos équipes, et la lecture de vos usages réels sur le terrain</li>
+          <li>La carte de vos leviers d'adoption, nommés, localisés et hiérarchisés</li>
+          <li>Les trois chantiers à ouvrir, dans l'ordre, avec le gain attendu de chacun</li>
+        </ul>
+        <div class="res">Dix pages que votre comité s'approprie dès la lecture.<a class="btn offer-btn" href="#contact">Réserver le diagnostic</a></div>
       </article>
+
       <article class="offer">
-        <span class="tag">02 · Insights</span><h3>Comprendre pourquoi vos utilisateurs restent ou partent</h3><div class="dur">à partir de 12 jours</div>
-        <ul><li>Ce que vos utilisateurs veulent vraiment, dans leurs mots</li><li>Les vraies raisons du départ et de la fidélité</li><li>Les décisions produit à prendre, étayées</li></ul>
-        <div class="res">Vous décidez sur des faits, plus sur des intuitions.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+        <span class="tag">02 · Déploiement</span>
+        <h3>L'adoption installée dans le quotidien</h3>
+        <div class="dur">6 semaines · 18 000 €</div>
+        <ul>
+          <li>Rôles et zones de décision cartographiés. Chacun sait ce qu'il tranche</li>
+          <li>Le modèle opératoire écrit : rituels, artefacts, circuits de décision, montée en compétence des équipes</li>
+          <li>Un plan à 90 jours, avec ses points de bascule et ses indicateurs d'usage réel</li>
+        </ul>
+        <div class="res">L'outil entre dans le quotidien, et l'organisation tient d'elle-même.<a class="btn offer-btn" href="#contact">En parler</a></div>
       </article>
+
       <article class="offer">
-        <span class="tag">03 · Stratégique</span><h3>Un cap produit clair pour vos six prochains mois</h3><div class="dur">à partir de 19 jours</div>
-        <ul><li>Le diagnostic et les insights réunis</li><li>Un modèle économique qui tient : offre, prix</li><li>Une feuille de route priorisée, prête à pitcher</li></ul>
-        <div class="res">Le document qui aligne votre équipe et vos investisseurs.<a class="btn offer-btn" href="#contact">Contactez-moi</a></div>
+        <span class="tag">03 · Suivi</span>
+        <h3>Présente quand les arbitrages se prennent</h3>
+        <div class="dur">Une demi-journée par semaine · 2 400 € / mois</div>
+        <ul>
+          <li>Une demi-journée par semaine, chez vous ou à distance</li>
+          <li>Présence sur les arbitrages, au moment précis où ils se prennent</li>
+          <li>Le modèle ajusté à mesure qu'il rencontre le terrain</li>
+        </ul>
+        <div class="res">Trois clients en simultané. C'est ce qui rend cette présence réellement utile.<a class="btn offer-btn" href="#contact">En parler</a><span class="price">Engagement 3 mois minimum</span></div>
       </article>
+
       <article class="offer offer-wide">
-        <div><span class="tag">04 · Et après</span><h3>Je reste pour faire décoller le produit avec vos équipes</h3><p>Direction produit à temps partagé, advisor, ou prise en charge d'un chantier prioritaire jusqu'à l'adoption.</p></div>
-        <a href="#contact" class="btn">Contactez-moi</a>
+        <div>
+          <span class="tag">Le périmètre</span>
+          <h3>Tout est écrit avant de démarrer</h3>
+          <p>Le recrutement, l'exécution des chantiers identifiés et l'accompagnement au-delà des 90 jours font l'objet de modules complémentaires, à périmètre et prix fixes. On les décide ensemble, au moment où vous en avez besoin.</p>
+        </div>
+        <a href="#contact" class="btn">Poser une question</a>
       </article>
+
     </div>
   </div>
 </section>
 
-<!-- IDÉES : articles Substack -->
-<section class="wash" id="idees">
+<!-- TRAVAUX -->
+<section class="wash" id="travaux">
+  <div class="wrap">
+    <div class="cases-head reveal">
+      <div><span class="label eyebrow">Réalisations</span><h2>Projets sélectionnés.</h2></div>
+      <a class="arrow-link" href="https://www.behance.net/natbeuge" target="_blank" rel="noopener">Tout voir sur Behance</a>
+    </div>
+    <div class="cases reveal">
+      <a class="case" href="https://www.behance.net/gallery/250733705/Decathlon-One-App-one-coherent-experience" target="_blank" rel="noopener">
+        <div class="thumb"><img src="./assets/photos/case-one-app.webp" alt="Decathlon One App, écosystème produit cohérent" loading="lazy" decoding="async" width="800" height="500" /></div>
+        <div class="body">
+          <div class="ck">Decathlon · One App</div>
+          <h3 class="ct">Un écosystème produit cohérent</h3>
+          <span class="go arrow-link">Voir sur Behance</span>
+        </div>
+      </a>
+      <a class="case" href="https://www.behance.net/gallery/250732241/How-VR-built-Decathlons-digital-design-chain" target="_blank" rel="noopener">
+        <div class="thumb"><img src="./assets/photos/case-vr.webp" alt="Chaîne de conception en réalité virtuelle chez Decathlon" loading="lazy" decoding="async" width="800" height="500" /></div>
+        <div class="body">
+          <div class="ck">Decathlon · Conception VR</div>
+          <h3 class="ct">Une chaîne de conception en réalité virtuelle</h3>
+          <span class="go arrow-link">Voir sur Behance</span>
+        </div>
+      </a>
+      <a class="case" href="https://www.behance.net/gallery/250732959/Childhood-in-the-Woods-Outdoor-Kids-venture" target="_blank" rel="noopener">
+        <div class="thumb"><img src="./assets/photos/case-outdoor.webp" alt="Childhood in the Woods, remettre les enfants dehors" loading="lazy" decoding="async" width="800" height="500" /></div>
+        <div class="body">
+          <div class="ck">Outdoor · Nature</div>
+          <h3 class="ct">Remettre les enfants dehors</h3>
+          <span class="go arrow-link">Voir sur Behance</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- IDEES -->
+<section id="idees">
   <div class="wrap">
     <div class="cases-head reveal">
       <div><span class="label eyebrow">Publications</span><h2>Analyses &amp; points de vue.</h2></div>
       <a class="arrow-link" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Tout lire sur Substack</a>
     </div>
     <div class="cases reveal">
-      <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
-        <div class="ck">Human × AI · 2/4</div>
-        <h3 class="ct">AI isn't replacing us: it's rewriting how work works</h3>
-        <span class="go arrow-link">Lire</span>
+      <a class="case" href="https://nathaliebeuge.substack.com/p/in-innovation-projects-the-technology" target="_blank" rel="noopener">
+        <div class="body">
+          <div class="ck">Adoption · Discipline</div>
+          <h3 class="ct">In innovation projects, the technology is the easy part</h3>
+          <span class="go arrow-link">Lire</span>
+        </div>
       </a>
       <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
-        <div class="ck">Human × AI · 1/4</div>
-        <h3 class="ct">Human × AI = where clarity becomes velocity</h3>
-        <span class="go arrow-link">Lire</span>
+        <div class="body">
+          <div class="ck">Human × AI · 2/4</div>
+          <h3 class="ct">AI isn't replacing us: it's rewriting how work works</h3>
+          <span class="go arrow-link">Lire</span>
+        </div>
       </a>
       <a class="case" href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">
-        <div class="ck">Altitude Note #3</div>
-        <h3 class="ct">The age of acceleration and the cost of not choosing</h3>
-        <span class="go arrow-link">Lire</span>
+        <div class="body">
+          <div class="ck">Altitude Note #3</div>
+          <h3 class="ct">The age of acceleration and the cost of not choosing</h3>
+          <span class="go arrow-link">Lire</span>
+        </div>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ANALYSE EXPRESS (lead magnet) -->
-<section id="analyse">
+<!-- MINI-AUDIT IA -->
+<section class="wash" id="analyse">
   <div class="wrap">
     <div class="reveal" style="max-width:60ch">
       <span class="label eyebrow">Mini-audit IA</span>
-      <h2 style="font-size:clamp(1.8rem,4vw,3rem)">Votre entreprise au crible de ma méthode, en deux minutes.</h2>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.6rem)">Votre entreprise au crible de ma méthode, en deux minutes.</h2>
       <p style="color:var(--slate);margin-top:18px">Trois infos, et vous repartez avec un mini-audit IA structuré sur ma méthode, prêt à coller dans ChatGPT ou Claude.</p>
     </div>
     <div class="az-form reveal">
@@ -528,24 +543,23 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
   </div>
 </section>
 
-<!-- MÉTHODE : la revendication (le détail vit sur l'à propos) -->
-<section class="wash" id="methode-teaser">
+<!-- METHODE -->
+<section id="methode-teaser">
   <div class="wrap">
     <div class="reveal" style="max-width:58ch">
       <span class="label eyebrow">La méthode</span>
-      <h2 style="font-size:clamp(1.9rem,4.4vw,3.2rem);max-width:18ch">Je ne me contente pas de conseiller. J'applique une méthode.</h2>
-      <p style="color:var(--slate);margin-top:18px;font-size:1.08rem">Un cadre éprouvé en quatre temps, du terrain à l'usage, déroulé sur chaque mission. Structuré, réplicable, jamais improvisé.</p>
+      <h2 style="font-size:clamp(1.7rem,3.4vw,2.8rem);max-width:22ch;line-height:1.1">La même méthode, déroulée sur chaque mission.</h2>
+      <p style="color:var(--slate);margin-top:18px;font-size:1.08rem">Un cadre en quatre temps, du terrain à l'usage. Le point de départ y est fixé, le succès défini en chiffres, et la mesure branchée dès le premier jour.</p>
       <a class="arrow-link" href="./manifeste.html" style="margin-top:24px;display:inline-block">Voir la méthode</a>
     </div>
   </div>
 </section>
 
-
 <!-- CONTACT -->
 <section class="dark contact" id="contact">
   <div class="wrap">
     <span class="label label--inv eyebrow reveal">Contact</span>
-    <h2 class="reveal d1" style="color:var(--paper)">Parlons de votre produit.</h2>
+    <h2 class="reveal d1" style="color:var(--paper)">Dites-moi ce que vous voulez déployer.</h2>
     <div class="signame reveal d2">Nathalie Beugé · Head of Product</div>
     <div class="em reveal d2">nathalie@stratospherique.com</div>
     <div class="meta reveal d2">Premier échange, 30 minutes, sans engagement.</div>
@@ -566,7 +580,7 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
       <a href="./observatoire.html">Observatoire</a> ·
       <a href="./mentions-legales.html">Mentions légales</a> ·
       <a href="https://www.linkedin.com/company/stratospherique/" target="_blank" rel="noopener">LinkedIn</a> ·
-      <a href="https://www.malt.fr/profile/nathaliebeuge" target="_blank" rel="noopener">Malt</a>
+      <a href="https://nathaliebeuge.substack.com/" target="_blank" rel="noopener">Substack</a>
     </div>
   </div>
 </footer>
@@ -583,7 +597,7 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
     menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
   }
 
-  var LEAD_ENDPOINT = ""; // Brevo / Tally / Formspree. Vide = email non stocké, analyse affichée quand même.
+  var LEAD_ENDPOINT = ""; // Brevo / Tally / Formspree. Vide = email non stocke, analyse affichee quand meme.
   var gen=document.getElementById('az-gen');
   if(gen){
     gen.addEventListener('click',function(){
@@ -595,21 +609,21 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
       if(!valid){ err.textContent='Indiquez un email valide.'; return; }
       if(!ok){ err.textContent='Cochez la case pour recevoir votre analyse.'; return; }
       var n=(document.getElementById('az-name').value||'votre entreprise').trim();
-      var s=(document.getElementById('az-sector').value||'secteur non précisé').trim();
+      var s=(document.getElementById('az-sector').value||'secteur non precise').trim();
       var g=(document.getElementById('az-goal').value||'').trim();
-      var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu déclaré : identifie l'enjeu le plus probable pour ce secteur et annonce-le en une phrase avant l'audit.";
-      var p="Tu es le mini-audit Stratosphérique.\n"
-        +"Tu appliques la méthode de Nathalie Beugé, stratège produit (Decathlon, Pennylane, ESSEC), auteure de Stratégie Ikigai (Éditions Inverse).\n"
-        +"Sa thèse : une stratégie ne se copie pas, elle se révèle. L'IA amplifie la clarté comme le flou.\n"
-        +"Style : direct, affirmatif, phrases courtes, zéro jargon, aucun tiret long.\n\n"
+      var goalLine = g ? ('Enjeu du moment : '+g+'.') : "Pas d'enjeu declare : identifie l'enjeu le plus probable pour ce secteur et annonce-le en une phrase avant l'audit.";
+      var p="Tu es le mini-audit Stratospherique.\n"
+        +"Tu appliques la methode de Nathalie Beuge, stratege produit (Decathlon, Pennylane, ESSEC), auteure de Strategie Ikigai (Editions Inverse).\n"
+        +"Sa these : la technologie est la partie facile. Le difficile est en dessous, dans la donnee, la mesure et la discipline.\n"
+        +"Style : direct, affirmatif, phrases courtes, zero jargon, aucun tiret long.\n\n"
         +"Entreprise : "+n+" ("+s+").\n"+goalLine+"\n\n"
-        +"Déroule le mini-audit en 4 temps :\n\n"
-        +"1. COMPRENDRE, au filtre ikigai. Quatre réponses d'une ligne : ce que cette entreprise sait vraiment faire, ce que le monde attend d'elle, ce pour quoi ses clients paient, ce qui sert le vivant. Puis une phrase : sa singularité, celle qu'aucun concurrent ne peut copier. Ferme ce temps par le signal faible à surveiller en priorité, celui qui annonce l'accident lié à l'enjeu.\n\n"
-        +"2. CIBLER. Trois endroits où l'IA devient vélocité parce que la clarté existe déjà : gagner du temps, dérisquer, rendre l'avancement visible. Et un endroit où l'IA amplifierait le flou : à clarifier avant d'outiller.\n\n"
-        +"3. DÉPLOYER. 10 % stratégie, 90 % exécution. La première action du mois : effort minimal, impact maximal. Puis les trois clés de son exécution : le récit (la phrase que toute l'équipe répétera à l'identique), la cordée (le rôle qui porte l'action, nommé), le rythme (le rituel hebdomadaire qui garde le contact avec les utilisateurs). Ajoute un quick win : exécutable en 7 jours, sans budget, par une seule personne.\n\n"
-        +"4. ANCRER. Deux indicateurs à croiser : un financier, un vivant (usage réel, engagement, apprentissage). Outcome, pas output. Donne le seuil qui prouve que ça décolle.\n\n"
-        +"Ferme l'audit par une ligne d'altitude : une métaphore d'alpinisme, une seule phrase, qui donne le cap. Signe : △\n"
-        +"Si on te répond « sommet », livre le bonus : les trois questions que le dirigeant doit poser à sa cordée cette semaine.";
+        +"Deroule le mini-audit en 4 temps :\n\n"
+        +"1. COMPRENDRE, au filtre ikigai. Quatre reponses d'une ligne : ce que cette entreprise sait vraiment faire, ce que le monde attend d'elle, ce pour quoi ses clients paient, ce qui sert le vivant. Puis une phrase : sa singularite, celle qu'aucun concurrent ne peut copier. Ferme ce temps par le signal faible a surveiller en priorite, celui qui annonce l'accident lie a l'enjeu.\n\n"
+        +"2. CIBLER. Trois endroits ou l'IA devient velocite parce que la clarte existe deja : gagner du temps, derisquer, rendre l'avancement visible. Et un endroit ou l'IA amplifierait le flou : a clarifier avant d'outiller.\n\n"
+        +"3. DEPLOYER. 10 % strategie, 90 % execution. La premiere action du mois : effort minimal, impact maximal. Puis les trois cles de son execution : le recit (la phrase que toute l'equipe repetera a l'identique), la cordee (le role qui porte l'action, nomme), le rythme (le rituel hebdomadaire qui garde le contact avec les utilisateurs). Ajoute un quick win : executable en 7 jours, sans budget, par une seule personne.\n\n"
+        +"4. ANCRER. Deux indicateurs a croiser : un financier, un vivant (usage reel, engagement, apprentissage). Outcome, pas output. Donne le seuil qui prouve que ca decolle.\n\n"
+        +"Ferme l'audit par une ligne d'altitude : une metaphore d'alpinisme, une seule phrase, qui donne le cap. Signe : \u25b3\n"
+        +"Si on te repond \u00ab sommet \u00bb, livre le bonus : les trois questions que le dirigeant doit poser a sa cordee cette semaine.";
       if(LEAD_ENDPOINT){ try{ fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,entreprise:n,secteur:s,enjeu:g,source:'analyse-express'})}).catch(function(){}); }catch(e){} }
       var out=document.getElementById('az-out'); out.value=p;
       try{ if(navigator.clipboard){ navigator.clipboard.writeText(p); } }catch(e){}
@@ -621,32 +635,19 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
     });
   }
   var copy=document.getElementById('az-copy');
-  if(copy){ copy.addEventListener('click',function(){ var out=document.getElementById('az-out'); out.select(); if(navigator.clipboard){navigator.clipboard.writeText(out.value);}else{document.execCommand('copy');} copy.textContent='Copié'; setTimeout(function(){copy.textContent='Copier';},1800); }); }
+  if(copy){ copy.addEventListener('click',function(){ var out=document.getElementById('az-out'); out.select(); if(navigator.clipboard){navigator.clipboard.writeText(out.value);}else{document.execCommand('copy');} copy.textContent='Copie'; setTimeout(function(){copy.textContent='Copier';},1800); }); }
 })();
 </script>
-<script>
-(function(){
-  var el=document.getElementById('rot'); if(!el) return;
-  var box=el.parentNode;
-  var phrases=['Dérisquer vos innovations.',"Résoudre vos problemes.","Maximiser l'impact business.","Transformer vos idées en plan d'exécution."];
-  var i=0;
-  setInterval(function(){
-    box.classList.add('out');
-    setTimeout(function(){ i=(i+1)%phrases.length; el.textContent=phrases[i]; box.classList.remove('out'); }, 380);
-  }, 2800);
-})();
-</script>
-<div id="egg" aria-hidden="true">△ 4 808 m · sommet atteint</div>
+
+<div id="egg" aria-hidden="true">&#9651; 4 808 m &middot; sommet atteint</div>
 <script>
 (function(){
   var seq=['arrowup','arrowup','arrowdown','arrowdown','arrowleft','arrowright','arrowleft','arrowright','b','a'];
   var i=0, buf='';
   window.addEventListener('keydown',function(e){
     var k=(e.key||'').toLowerCase();
-    // code Konami (bonus)
     if(k===seq[i]){ i++; if(i===seq.length){ i=0; summit(); } }
     else { i=(k===seq[0])?1:0; }
-    // mot magique : tape "ikigai" ou "sommet" n'importe où
     if(k.length===1 && /[a-z]/.test(k)){
       buf=(buf+k).slice(-8);
       if(buf.endsWith('ikigai') || buf.endsWith('sommet')){ buf=''; summit(); }
