@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:40:35.305Z",
+  "generatedAt": "2026-08-23T05:43:06.488Z",
   "categories": [
     {
       "id": "radar",
@@ -26,25 +26,169 @@
       "label": "France & Europe"
     }
   ],
-  "count": 103,
+  "count": 109,
   "items": [
     {
-      "id": "https://www.numerama.com/tech/2316177-fuites-de-gta-6-et-cartes-pokemon-30%e1%b5%89-anniversaire-le-recap-pop-culture-de-la-semaine.html",
-      "title": "Fuites de GTA 6 et cartes Pokémon 30ᵉ anniversaire, le recap Pop Culture de la semaine",
-      "link": "https://www.numerama.com/tech/2316177-fuites-de-gta-6-et-cartes-pokemon-30%e1%b5%89-anniversaire-le-recap-pop-culture-de-la-semaine.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1787376600000,
-      "snippet": "Le futur n’attend pas : anticipez l’avenir des nouvelles technologies et de l’IA en lisant gratuitement ToujoursPlus, chaque jeudi dans votre boîte mail !"
-    },
-    {
-      "id": "https://www.techmeme.com/260822/p2#a260822p2",
-      "title": "OpenAI President Greg Brockman's role has expanded significantly, giving him control over its product and scaling teams following a wave of executive departures (Hayden Field/The Verge)",
-      "link": "https://www.techmeme.com/260822/p2#a260822p2",
+      "id": "https://www.techmeme.com/260822/p16#a260822p16",
+      "title": "Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models like DeepSeek and Kimi (Robbie Whelan/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260822/p16#a260822p16",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1787376301000,
-      "snippet": "Hayden Field / The Verge: OpenAI President Greg Brockman's role has expanded significantly, giving him control over its product and scaling teams following a wave of executive departures — OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Mu"
+      "ts": 1787455801000,
+      "snippet": "Robbie Whelan / Wall Street Journal: Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models like DeepSeek and Kimi — A sweeping agreement with startup Poolside aims to build an open AI ecosystem in the U.S. to compe"
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p13#a260822p13",
+      "title": "AI agents' growing capabilities are driving productivity FOMO among some startup founders, who feel compelled to work long hours managing and guiding the agents (Katherine Bindley/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260822/p13#a260822p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787436002000,
+      "snippet": "Katherine Bindley / Wall Street Journal: AI agents' growing capabilities are driving productivity FOMO among some startup founders, who feel compelled to work long hours managing and guiding the agents — The growing capabilities of AI give new meaning to working yourself to the b"
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787435216000,
+      "snippet": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings."
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p12#a260822p12",
+      "title": "London-based Inherent, founded by DeepMind alumni and with $50M in seed funding, says its new Faraday agent beats GPT-5.5 at reproducing research paper findings (Anna Heim/TechCrunch)",
+      "link": "https://www.techmeme.com/260822/p12#a260822p12",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787428813000,
+      "snippet": "Anna Heim / TechCrunch: London-based Inherent, founded by DeepMind alumni and with $50M in seed funding, says its new Faraday agent beats GPT-5.5 at reproducing research paper findings — Inherent, a London AI lab founded by Google DeepMind alumni, says its AI agent just outperfor"
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p11#a260822p11",
+      "title": "Sources: some of Nvidia's top customers have been told that prices will jump 15%+ on systems, including Vera Rubin and Grace Blackwell, starting in early 2027 (Bloomberg)",
+      "link": "https://www.techmeme.com/260822/p11#a260822p11",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787425201000,
+      "snippet": "Bloomberg: Sources: some of Nvidia's top customers have been told that prices will jump 15%+ on systems, including Vera Rubin and Grace Blackwell, starting in early 2027 — Some of Nvidia Corp.'s biggest customers have been told that the prices of servers containing its artificial"
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787425200000,
+      "snippet": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation."
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p10#a260822p10",
+      "title": "Apparel retailers like Zalando, Zara, and ASOS are betting on AI virtual fitting rooms to create a better online shopping experience and cut costly returns (Sonja Wind/Bloomberg)",
+      "link": "https://www.techmeme.com/260822/p10#a260822p10",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787424302000,
+      "snippet": "Sonja Wind / Bloomberg: Apparel retailers like Zalando, Zara, and ASOS are betting on AI virtual fitting rooms to create a better online shopping experience and cut costly returns — Buying clothes online can leave shoppers frustrated and retailers drowning in returned goods. Now "
+    },
+    {
+      "id": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "title": "Why your local LLM feels dumber than it is",
+      "link": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1787422456000,
+      "snippet": "Article URL: https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917 Comments URL: https://news.ycombinator.com/item?id=49402232 Points: 257 # Comments: 84"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2316147-gemini-gratuit-chatgpt-avec-des-pubs-et-gta-6-en-fuite-sur-pc-le-recap-tech-de-la-semaine.html",
+      "title": "Gemini gratuit, ChatGPT avec des pubs et GTA 6 en fuite sur PC – le récap’ tech de la semaine",
+      "link": "https://www.numerama.com/tech/2316147-gemini-gratuit-chatgpt-avec-des-pubs-et-gta-6-en-fuite-sur-pc-le-recap-tech-de-la-semaine.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1787420940000,
+      "snippet": "Cette semaine, l'actualité numérique a surtout été rythmée par la multiplication des fuites sur GTA 6 : le leaker prétend posséder une build du jeu et menace Rockstar Games. Dans le monde de l'IA, Google a relancé sa promotion « Gemini gratuit » pour les étudiants et ChatGPT s'ap"
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
+      "title": "Doodle generative compositions in your browser with Musical Spirograph",
+      "link": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1787418000000,
+      "snippet": "So pretty. | Screenshot: Terrence O’Brien / The Verge I remember having a Spirograph as a kid and being obsessed with it. Its geometric patterns are hypnotic and gorgeous. I also love generative music composition. So bringing those two things together in a browser tab, I'm hooked"
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p8#a260822p8",
+      "title": "A look at the narrowing US-China AI gap, as a spate of compelling, low-cost releases makes Chinese AI models increasingly attractive to businesses (Bloomberg)",
+      "link": "https://www.techmeme.com/260822/p8#a260822p8",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787416801000,
+      "snippet": "Bloomberg: A look at the narrowing US-China AI gap, as a spate of compelling, low-cost releases makes Chinese AI models increasingly attractive to businesses — A spate of compelling releases at budget prices have made China the frontrunner in the race for global adoption."
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787416234000,
+      "snippet": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed."
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787414400000,
+      "snippet": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior."
+    },
+    {
+      "id": "https://www.numerama.com/tech/2314897-de-bordouse-a-bordeaux-cette-carte-de-france-montre-les-progres-de-chatgpt-en-un-an-et-demi.html",
+      "title": "De « Bordouse » à Bordeaux : cette carte de France montre les progrès de ChatGPT en un an et demi",
+      "link": "https://www.numerama.com/tech/2314897-de-bordouse-a-bordeaux-cette-carte-de-france-montre-les-progres-de-chatgpt-en-un-an-et-demi.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1787410920000,
+      "snippet": "En mars 2025, ChatGPT produisait une carte de France complètement délirante, remplie de villes imaginaires. Dix-sept mois plus tard, le résultat est méconnaissable -- mais pas 100 % convaincant. L'occasion de ressortir un autre petit défi des générateurs d’images : le verre de vi"
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p7#a260822p7",
+      "title": "Ox Alpha, a \"stealth model\" from an unknown AI lab with a 1M-token multimodal context and capacity for 100T tokens/day, goes viral after launching on OpenRouter (Rohail Saleem/Wccftech)",
+      "link": "https://www.techmeme.com/260822/p7#a260822p7",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787409302000,
+      "snippet": "Rohail Saleem / Wccftech: Ox Alpha, a “stealth model” from an unknown AI lab with a 1M-token multimodal context and capacity for 100T tokens/day, goes viral after launching on OpenRouter — When an unknown AI lab drops an anonymous model - Ox Alpha - for free, while declaring that"
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+      "link": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787407200000,
+      "snippet": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners."
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p6#a260822p6",
+      "title": "Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 data centers built or under construction (Zeyi Yang/Wired)",
+      "link": "https://www.techmeme.com/260822/p6#a260822p6",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787406601000,
+      "snippet": "Zeyi Yang / Wired: Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 data centers built or under construction — Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a cr"
+    },
+    {
+      "id": "https://www.techmeme.com/260822/p5#a260822p5",
+      "title": "Inside the World Robot Conference in Beijing, drawing over 300 exhibitors; Unitree founder Wang Xingxing said the industry's \"ChatGPT moment\" has yet to come (Financial Times)",
+      "link": "https://www.techmeme.com/260822/p5#a260822p5",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787394601000,
+      "snippet": "Financial Times: Inside the World Robot Conference in Beijing, drawing over 300 exhibitors; Unitree founder Wang Xingxing said the industry's “ChatGPT moment” has yet to come — Beijing policymakers have made robotics a ‘strategic priority’ — At the World Robot Conference in Beiji"
     },
     {
       "id": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
@@ -56,31 +200,13 @@
       "snippet": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now "
     },
     {
-      "id": "https://www.techmeme.com/260821/p32#a260821p32",
-      "title": "Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent discussions with potential investors (New York Times)",
-      "link": "https://www.techmeme.com/260821/p32#a260821p32",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787358976000,
-      "snippet": "New York Times: Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent discussions with potential investors — The offering could value the five-year-old A.I. start-up at $2 trillion, its bankers have told potential inve"
-    },
-    {
       "id": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
       "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
       "link": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
       "source": "The New York Times",
       "category": "usages",
-      "ts": 1787358260000,
+      "ts": 1787358261000,
       "snippet": "The offering could value the five-year-old A.I. start-up at $2 trillion, its bankers have told potential investors, which would exceed Elon Musk’s SpaceX."
-    },
-    {
-      "id": "https://www.techmeme.com/260821/p29#a260821p29",
-      "title": "OpenAI says California should amend SB 53 to expand safeguards, including requiring monitoring of frontier models under training, following AI agent hacks (Chase DiFeliciantonio/Politico)",
-      "link": "https://www.techmeme.com/260821/p29#a260821p29",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787353811000,
-      "snippet": "Chase DiFeliciantonio / Politico: OpenAI says California should amend SB 53 to expand safeguards, including requiring monitoring of frontier models under training, following AI agent hacks — SAN FRANCISCO — OpenAI urged its home state of California on Friday to “strengthen” its l"
     },
     {
       "id": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
@@ -101,24 +227,6 @@
       "snippet": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia."
     },
     {
-      "id": "https://www.techmeme.com/260821/p27#a260821p27",
-      "title": "Nvidia makes a minority investment in Cloverleaf, which works with utilities and energy providers to secure infrastructure for data center sites (Rashika Singh/Reuters)",
-      "link": "https://www.techmeme.com/260821/p27#a260821p27",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787351701000,
-      "snippet": "Rashika Singh / Reuters: Nvidia makes a minority investment in Cloverleaf, which works with utilities and energy providers to secure infrastructure for data center sites — Nvidia (NVDA.O) has made a minority investment in privately held Cloverleaf Infrastructure to develop infras"
-    },
-    {
-      "id": "https://www.techmeme.com/260821/p26#a260821p26",
-      "title": "OpenAI cuts GPT-5.6 Sol's API and credit prices by over 20% for the next three months, to $4/1M input tokens and $20/1M output tokens (Anzar Mehraj/Reuters)",
-      "link": "https://www.techmeme.com/260821/p26#a260821p26",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787350503000,
-      "snippet": "Anzar Mehraj / Reuters: OpenAI cuts GPT-5.6 Sol's API and credit prices by over 20% for the next three months, to $4/1M input tokens and $20/1M output tokens — OpenAI said on Friday it is cutting the prices of its frontier GPT-5.6 Sol model for developers by more than 20% for the"
-    },
-    {
       "id": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
       "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
       "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
@@ -126,15 +234,6 @@
       "category": "capital",
       "ts": 1787350201000,
       "snippet": "Rillet CEO Nicolas Kopp shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying."
-    },
-    {
-      "id": "https://www.techmeme.com/260821/p25#a260821p25",
-      "title": "Sources: Devoted Health, which uses AI to help coordinate medical care for those enrolled in Medicare Advantage, is raising new funding at a $25B valuation (Katie Roof/Business Insider)",
-      "link": "https://www.techmeme.com/260821/p25#a260821p25",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787348100000,
-      "snippet": "Katie Roof / Business Insider: Sources: Devoted Health, which uses AI to help coordinate medical care for those enrolled in Medicare Advantage, is raising new funding at a $25B valuation — Devoted Health is the latest startup to show that combining health and AI commands a premiu"
     },
     {
       "id": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
@@ -146,31 +245,13 @@
       "snippet": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible"
     },
     {
-      "id": "https://www.techmeme.com/260821/p24#a260821p24",
-      "title": "Nvidia says its general-purpose coding agent system AVO scored 100% across all 25 environments in the ARC-AGI-3 public set, completing all 183 levels (Terry Chen/NVIDIA Technical Blog)",
-      "link": "https://www.techmeme.com/260821/p24#a260821p24",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787345400000,
-      "snippet": "Terry Chen / NVIDIA Technical Blog: Nvidia says its general-purpose coding agent system AVO scored 100% across all 25 environments in the ARC-AGI-3 public set, completing all 183 levels — The research project elevates Claude Opus 5 from a 30% model baseline to 100% as part of the"
-    },
-    {
-      "id": "https://www.techmeme.com/260821/p23#a260821p23",
-      "title": "Anthropic hires Amir Salek, who ran Google's TPU business until 2022, to join its compute team as part of a push to develop its own chips (Dina Bass/Bloomberg)",
-      "link": "https://www.techmeme.com/260821/p23#a260821p23",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787343901000,
-      "snippet": "Dina Bass / Bloomberg: Anthropic hires Amir Salek, who ran Google's TPU business until 2022, to join its compute team as part of a push to develop its own chips — Anthropic PBC has hired Amir Salek, a founder of the custom chip program at Alphabet Inc.'s Google, as the AI lab lay"
-    },
-    {
-      "id": "https://www.techmeme.com/260821/p21#a260821p21",
-      "title": "OpenAI's VP of sales in the Americas, Kaylin Voss, has resigned a week after Denise Dresser left, and is returning to Salesforce, where she was Slack's CRO (Laura Bratton/The Information)",
-      "link": "https://www.techmeme.com/260821/p21#a260821p21",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787341501000,
-      "snippet": "Laura Bratton / The Information: OpenAI's VP of sales in the Americas, Kaylin Voss, has resigned a week after Denise Dresser left, and is returning to Salesforce, where she was Slack's CRO — Kaylin Voss, OpenAI's vice president of sales in the Americas, has resigned a week after "
+      "id": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "title": "A week of using Codex more than Claude",
+      "link": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1787341908000,
+      "snippet": "Article URL: https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/ Comments URL: https://news.ycombinator.com/item?id=49393051 Points: 168 # Comments: 183"
     },
     {
       "id": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
@@ -200,13 +281,13 @@
       "snippet": "Spotify, LinkedIn and others are trying to dig out of a digital sewage heap full of low-quality content made with artificial intelligence."
     },
     {
-      "id": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
-      "link": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "id": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "link": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1787322712000,
-      "snippet": "Article URL: https://github.com/adnanakil/nobuzz/blob/main/README.md Comments URL: https://news.ycombinator.com/item?id=49388752 Points: 233 # Comments: 164"
+      "ts": 1787319813000,
+      "snippet": "Article URL: https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/ Comments URL: https://news.ycombinator.com/item?id=49387959 Points: 140 # Comments: 45"
     },
     {
       "id": "https://restofworld.org/2026/china-ai-adoption-jinguyuan/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -225,15 +306,6 @@
       "category": "monde",
       "ts": 1787314200000,
       "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for many A company that plans to beam sunlight from space to Earth"
-    },
-    {
-      "id": "https://cymerys.com/w/im-becoming-ai-blind",
-      "title": "I'm becoming AI-blind",
-      "link": "https://cymerys.com/w/im-becoming-ai-blind",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1787312885000,
-      "snippet": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 317 # Comments: 324"
     },
     {
       "id": "https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html",
@@ -371,15 +443,6 @@
       "snippet": "À partir du 24 août prochain, OpenAI va intégrer de la publicité dans ChatGPT auprès des utilisateurs français. Une annonce qui inquiète les utilisateurs même si l’entreprise promet que cela n’influencera pas les réponses de l’IA. Après une série de tests aux États-Unis, la publi"
     },
     {
-      "id": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1787230835000,
-      "snippet": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail."
-    },
-    {
       "id": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/",
       "title": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
       "link": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/",
@@ -486,15 +549,6 @@
       "category": "capital",
       "ts": 1787136284000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "title": "AI boosted homework scores, then exam scores dropped: study",
-      "link": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1787120011000,
-      "snippet": "https://archive.is/w1eng https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 Comments URL: https://news.ycombinator.com/item?id=49357530 Points: 272 # Comments: 305"
     },
     {
       "id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -957,49 +1011,97 @@
     }
   ],
   "syntheses": {
-    "radar": {
-      "titre": "OpenAI perd ses talents commerciaux pendant qu'Anthropic lève à 2 000 milliards et que Nvidia finance les centres de données IA",
-      "resume": "OpenAI traverse une crise interne : son président reprend le contrôle après des départs d'cadres, et ses responsables commerciaux quittent pour d'autres entreprises. Pendant ce temps, Anthropic (son concurrent) prépare une introduction en bourse valorisée à 2 000 milliards de dollars et embauche des ingénieurs experts pour construire ses propres puces. Nvidia, le fournisseur de processeurs clé, investit maintenant dans les centres de données IA pour aider ses clients à lever de l'argent, ce qui les rend dépendants. OpenAI baisse ses prix de 20 % pour rester compétitif mais demande au gouvernement californien de surveiller davantage les systèmes IA en développement.",
+    "capab": {
+      "titre": "Les coûts de calcul baissent, mais la qualité des données et la sécurité deviennent les vrais enjeux",
+      "resume": "Les entreprises qui construisent des outils d'IA réduisent massivement le coût de fonctionnement : des modèles tournent 3 fois plus vite, consomment moins de mémoire, et des techniques comme la distillation de connaissance (copier un grand modèle dans un petit) deviennent enfin accessibles à grande échelle. En parallèle, la sécurité craque : des incidents de piratage révèlent des failles, et les utilisateurs crient famine face à des contenus générés automatiquement sans valeur (« AI slop »). Le vrai défi n'est plus « avoir assez de puissance de calcul » mais « déployer vite, en toute confiance, avec des données fiables ».",
       "faits": [
-        "Le président d'OpenAI Greg Brockman prend le contrôle des équipes produit et croissance après plusieurs démissions de cadres dirigeants.",
-        "Anthropic préparerait une introduction en bourse à 2 000 milliards de dollars selon ses banquiers, surpassant largement la valorisation actuelle d'OpenAI.",
-        "OpenAI réduit les prix de son modèle GPT-5.6 Sol de plus de 20 % pendant trois mois pour concurrencer Anthropic.",
-        "Anthropic recrute Amir Salek, ancien responsable des processeurs TPU chez Google, pour développer ses propres puces et réduire sa dépendance à Nvidia.",
-        "Nvidia investit dans Cloverleaf Infrastructure pour sécuriser les terrains et l'approvisionnement électrique des centres de données IA.",
-        "Deux hauts responsables des ventes d'OpenAI (Kaylin Voss et Denise Dresser) démissionnent et quittent pour Salesforce.",
-        "OpenAI demande à la Californie de renforcer sa loi SB 53 pour surveiller les modèles IA en cours de développement après des incidents de piratage."
+        "Meta réduit les temps d'exécution jusqu'à 3,2 fois plus rapides et le besoin en mémoire grâce à des optimisations d'inférence (coût de faire tourner un modèle).",
+        "Hugging Face documente comment faire tourner des agents IA avec 33 % moins de ressources GPU en optimisant juste l'ordre des tâches.",
+        "Plus d'un million d'utilisateurs LinkedIn ont cliqué sur le bouton « c'est du contenu généré automatique sans valeur » en un mois, signalant une saturation.",
+        "Meta lance Muse Glimmer, un modèle open source léger qui fonctionne localement sur des appareils sans dépendre d'un serveur cloud.",
+        "NVIDIA déploie des modèles de simulation en temps réel pour la robotique chirurgicale, réduisant le temps d'attente pour les applications critiques.",
+        "Un incident de sécurité en juillet 2026 expose comment les laboratoires d'IA frontière restent vulnérables aux intrusions.",
+        "Des techniques comme la distillation de connaissance et la compression 4-bit deviennent assez efficaces pour être utilisées à l'échelle industrielle."
       ],
       "implications": [
         {
-          "fait": "Anthropic prépare une levée de 2 000 milliards de dollars contre OpenAI qui perd ses cadres commerciaux",
-          "pourquoi": "Anthropic devient le concurrent direct dominant : plus de capital, une trajectoire ascendante, tandis qu'OpenAI doit consolider internement. Les investisseurs migrent vers le challenger."
+          "fait": "Réduction de 3 à 33 % des coûts de calcul en quelques mois",
+          "pourquoi": "Les barrières à l'entrée baissent : une PME peut désormais déployer en production ce qui coûtait un million il y a un an. Les marges des gros fournisseurs se compriment."
         },
         {
-          "fait": "OpenAI baisse ses prix de 20 % et son président reprend le contrôle opérationnel",
-          "pourquoi": "Signal d'une bataille de prix qui érode les marges : OpenAI réduit la rentabilité pour conserver ses clients face à Anthropic. Le resserrement du contrôle suggère des problèmes de coordination ou de confiance."
+          "fait": "Plus d'un million de clics sur « c'est du AI slop » en un mois",
+          "pourquoi": "Le marché sature de contenu auto-généré sans utilité. Les entreprises qui produisent du contenu générique par lot perdront du crédit ; celles qui vérifient la qualité avant publication gagnent la confiance."
         },
         {
-          "fait": "Anthropic embauche un expert des puces pour construire ses propres processeurs",
-          "pourquoi": "Anthropic réduit sa dépendance à Nvidia et gagne un avantage coûts et technologique majeur. OpenAI reste client de Nvidia, donc moins flexible et plus exposé à ses prix."
+          "fait": "Meta pousse les modèles locaux et open source (Muse Glimmer)",
+          "pourquoi": "Les clients veulent garder les données sur leurs serveurs, ne pas payer à chaque requête cloud, et réduire la dépendance aux gros fournisseurs. Meta prend une position défensive."
         },
         {
-          "fait": "Nvidia investit dans les centres de données IA pour aider ses clients à lever de l'argent",
-          "pourquoi": "Nvidia lie ses clients à sa propre chaîne d'approvisionnement énergétique et immobilière : c'est une expansion de son emprise au-delà des puces. Les labos IA ne peuvent plus changer de fournisseur sans perdre aussi leurs sites."
+          "fait": "Incident de sécurité juillet 2026 sur un laboratoire frontière",
+          "pourquoi": "Les gouvernements et clients critiques (finance, santé) vont exiger des audits de sécurité stricts avant de faire confiance. Les défaillances augmentent le coût de conformité."
         },
         {
-          "fait": "OpenAI demande une surveillance accrue des modèles en développement",
-          "pourquoi": "OpenAI cherche à codifier sa position dominante via la régulation : une surveillance stricte ralentit les concurrents. C'est une stratégie d'auto-régulation pour bloquer les challengers."
+          "fait": "Modèles de simulation temps réel pour la robotique chirurgicale",
+          "pourquoi": "Les applications où une seconde d'attente peut coûter une vie deviennent accessibles. Cela crée une nouvelle catégorie de produits critiques requérant des garanties de fiabilité."
         }
       ],
       "signaux": [
-        "Départ massif des talents commerciaux d'OpenAI vers Salesforce : les cadres anticipent une perte de leadership commercial.",
-        "Anthropic recrute massivement en puces et infrastructure : elle prépare l'indépendance technologique vis-à-vis de Nvidia en 18-24 mois.",
-        "Nvidia élargit son modèle économique vers l'immobilier et l'énergie des centres de données : les fournisseurs deviennent intégrateurs verticaux, verrouillant leurs clients.",
-        "Les startups IA santé (Devoted Health à 25 milliards) lèvent des sommes massives : le déploiement en industries spécialisées crée des poches de valeur moins visibles que les modèles génériques.",
-        "Stripe acquiert OpenRouter (agrégateur de modèles) : la consolidation par les paiements suggère une commoditisation des modèles IA et une bataille sur le flux, pas sur la technologie."
+        "Montée en puissance des modèles open source légers (Muse Glimmer, OlmoEarth) : les grandes entreprises perdent le monopole du déploiement en production.",
+        "Régulation implicite par les utilisateurs : le bouton « AI slop » prouve que le marché rejette la production de masse sans filtre.",
+        "Nouvelles exigences en sécurité : après l'incident Frontier Lab, attendez des audits obligatoires et des certifications pour les outils en production.",
+        "Robotique et simulation deviennent des domaines clés : NVIDIA et les startups robotiques accélèrent ; c'est un vrai différenciant vs. le texte/image générique.",
+        "Migration vers l'inférence locale et décentralisée : moins de dépendance aux clouds, plus de contrôle client."
       ],
-      "conclusion": "OpenAI perd sa cohésion interne et ses talents commerciaux au moment où Anthropic lève 2 000 milliards et construit son indépendance technologique : pour les dirigeants, cela signifie qu'aucun fournisseur unique d'IA ne dominera durablement, que Nvidia contrôle désormais l'accès physique (énergie, terrain) autant que les puces, et qu'investir dans une architecture maison (puces, données, modèles) devient un impératif stratégique, pas une option.",
-      "generatedAt": "2026-08-22T05:39:14.013Z"
+      "conclusion": "Les éditeurs d'IA ne gagnent plus en rajoutant de la puissance, mais en réduisant les coûts d'exploitation, en garantissant la qualité des données, et en renforçant la sécurité : les trois entreprises qui maîtriseront cela (et non la simple taille du modèle) domineront les trois prochaines années.",
+      "generatedAt": "2026-08-23T05:42:16.803Z"
+    },
+    "france": {
+      "titre": "OpenAI gagne du terrain commercial en Europe, mais la région reste fragile face aux géants américains",
+      "resume": "OpenAI rattrape Anthropic auprès des entreprises américaines et lance des nouvelles fonctionnalités en Europe, notamment la lecture de messages sur macOS et bientôt la publicité en France. En parallèle, Anthropic tente de marquer ses textes générés pour en tracer l'origine, mais des outils contournent déjà cette protection. L'Europe, elle, accumule du retard technologique selon Christine Lagarde, tandis que les États-Unis renforcent leurs garde-fous contre les deepfakes sexuels.",
+      "faits": [
+        "OpenAI progresse auprès des entreprises américaines et resserre l'écart avec Anthropic selon Ramp.",
+        "ChatGPT peut désormais lire et envoyer des messages depuis macOS, posant des questions de confidentialité.",
+        "La publicité arrive dans ChatGPT en France à partir du 24 août, sans modifier les réponses de l'IA selon OpenAI.",
+        "Anthropic ajoute un filigrane invisible à ses textes générés pour en marquer l'origine, mais des outils le contournent déjà.",
+        "Le Minnesota interdit les deepfakes sexuels (fausses vidéos déshabillant les gens), première loi de ce type aux États-Unis.",
+        "Mozilla améliore Firefox avec l'IA pour accompagner la navigation, mais les Européens attendront.",
+        "Christine Lagarde (Banque centrale européenne) affirme que l'Europe risque de rater aussi le virage de l'IA après celui du numérique."
+      ],
+      "implications": [
+        {
+          "fait": "OpenAI rattrape Anthropic auprès des entreprises",
+          "pourquoi": "Les clients d'entreprise choisissent de plus en plus ChatGPT : OpenAI consolide une position commerciale dominante et peut imposer ses conditions (publicités, nouvelles fonctionnalités)."
+        },
+        {
+          "fait": "ChatGPT peut lire et envoyer des messages depuis votre ordinateur",
+          "pourquoi": "Cela crée un accès direct aux communications professionnelles et personnelles ; les entreprises devront clarifier rapidement si elles autorisent cet usage ou l'interdisent pour des raisons de sécurité et de confidentialité."
+        },
+        {
+          "fait": "La publicité arrive dans ChatGPT en France le 24 août",
+          "pourquoi": "OpenAI diversifie ses revenus au-delà des abonnements. Les utilisateurs gratuits vont subir de la publicité ; les entreprises devront décider si elles acceptent d'exposer leurs équipes à du contenu publicitaire dans un outil de travail."
+        },
+        {
+          "fait": "Anthropic marque ses textes, mais des outils contournent le filigrane",
+          "pourquoi": "La traçabilité des contenus générés par IA devient une course : marquer un texte pour prouver son origine perd rapidement sa valeur si n'importe qui peut effacer la marque."
+        },
+        {
+          "fait": "Le Minnesota interdit les deepfakes sexuels",
+          "pourquoi": "Un précédent législatif se crée aux États-Unis sur les usages nuisibles de l'IA ; les entreprises devront adapter leurs outils selon les États et anticiper une fragmentation réglementaire."
+        },
+        {
+          "fait": "L'Europe accumule du retard sur l'IA selon Lagarde",
+          "pourquoi": "Les décideurs européens reconnaissent officiellement que le continent perd en capacité technologique face aux États-Unis ; cela freine l'innovation locale et renforce la dépendance envers les acteurs américains."
+        }
+      ],
+      "signaux": [
+        "Fractionnement réglementaire : chaque État américain légifère isolément sur les deepfakes ; attendez une mosaïque croissante de règles différentes par géographie.",
+        "Contournement de protections : outils open-source qui effacent les filigranes d'Anthropic apparaissent en temps réel ; aucune marque technique ne tiendra longtemps.",
+        "Publicité comme levier de rétention : OpenAI monétise l'audience gratuite en France ; d'autres éditeurs d'IA suivront cette stratégie.",
+        "Accès aux données personnelles : ChatGPT lisant vos messages crée une précédent pour des outils IA qui accèdent à votre vie professionnelle ; les exigences de conformité (RGPD, etc.) vont exploser.",
+        "Voix critique des banquiers centraux : Lagarde parle en public du retard européen ; attendez des annonces de soutien public à des startups IA européennes dans les 6-12 mois."
+      ],
+      "conclusion": "OpenAI consolide sa domination commerciale en Europe grâce à ChatGPT, tandis que les protections techniques (filigranes, régulation) restent fragiles et facilement contournables ; les entreprises doivent décider maintenant si elles autorisent ces outils accédant à leurs données internes et si elles acceptent la publicité, car les arbitrages se ferment rapidement.",
+      "generatedAt": "2026-08-23T05:43:06.488Z"
     }
   }
 }
