@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T17:26:32.728Z",
+  "generatedAt": "2026-08-29T11:40:18.141Z",
   "categories": [
     {
       "id": "radar",
@@ -26,8 +26,125 @@
       "label": "France & Europe"
     }
   ],
-  "count": 123,
+  "count": 116,
   "items": [
+    {
+      "id": "https://www.techmeme.com/260829/p9#a260829p9",
+      "title": "New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas on Douyin in May were AI productions (Financial Times)",
+      "link": "https://www.techmeme.com/260829/p9#a260829p9",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787999401000,
+      "snippet": "Financial Times: New AI-powered video tools have accelerated the surge in AI dramas in China; DataEye: 89 of the top 100 animated dramas on Douyin in May were AI productions — Online performers left jobless as new video-generation programmes sweep industry — Chinese actors and on"
+    },
+    {
+      "id": "https://www.techmeme.com/260829/p8#a260829p8",
+      "title": "Trade unions threaten to withhold support for politicians opposing data center projects, warning that blocking the projects endangers building-related jobs (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260829/p8#a260829p8",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787985001000,
+      "snippet": "Wall Street Journal: Trade unions threaten to withhold support for politicians opposing data center projects, warning that blocking the projects endangers building-related jobs — Trade unions threaten to withhold support for politicians, joining the building backlash — Much of th"
+    },
+    {
+      "id": "https://www.techmeme.com/260829/p5#a260829p5",
+      "title": "SK Hynix breaks ground for its $4B advanced memory chip packaging facility in Indiana, with mass production of next-generation HBM scheduled to begin in H2 2029 (Bloomberg)",
+      "link": "https://www.techmeme.com/260829/p5#a260829p5",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787982002000,
+      "snippet": "Bloomberg: SK Hynix breaks ground for its $4B advanced memory chip packaging facility in Indiana, with mass production of next-generation HBM scheduled to begin in H2 2029 — SK Hynix Inc. held a groundbreaking ceremony Thursday for its advanced memory packaging facility in Indian"
+    },
+    {
+      "id": "https://www.techmeme.com/260828/p28#a260828p28",
+      "title": "OpenAI says it plans to stop providing its models to Cursor from November 12, as \"we cannot be confident that SpaceX will use our technology within our ToS\" (OpenAI)",
+      "link": "https://www.techmeme.com/260828/p28#a260828p28",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787968902000,
+      "snippet": "OpenAI: OpenAI says it plans to stop providing its models to Cursor from November 12, as “we cannot be confident that SpaceX will use our technology within our ToS” — Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a prop"
+    },
+    {
+      "id": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1787968073000,
+      "snippet": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 559 # Comments: 314"
+    },
+    {
+      "id": "https://github.com/stemdeckapp/stemdeck",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "link": "https://github.com/stemdeckapp/stemdeck",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1787966653000,
+      "snippet": "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 111 # Comments: 24"
+    },
+    {
+      "id": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "link": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1787959665000,
+      "snippet": "Article URL: https://pwning.systems/posts/llm-memory-program-analysis/ Comments URL: https://news.ycombinator.com/item?id=49485416 Points: 166 # Comments: 38"
+    },
+    {
+      "id": "https://www.techmeme.com/260828/p25#a260828p25",
+      "title": "Z.ai releases GLM-5.3's weights under a new license requiring companies with $10B+ in revenue over 12 months to pass Z.ai's security review to host the model (Frederic Lardinois/The New Stack)",
+      "link": "https://www.techmeme.com/260828/p25#a260828p25",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1787959201000,
+      "snippet": "Frederic Lardinois / The New Stack: Z.ai releases GLM-5.3's weights under a new license requiring companies with $10B+ in revenue over 12 months to pass Z.ai's security review to host the model — Z.ai put the GLM-5.3 weights on Hugging Face, but dropped the MIT license. Providers"
+    },
+    {
+      "id": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "title": "Google further buries search results under AI mode",
+      "link": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1787957291000,
+      "snippet": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead o"
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787948651000,
+      "snippet": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom."
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787945438000,
+      "snippet": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance."
+    },
+    {
+      "id": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1787941180000,
+      "snippet": "There's a lot of capital pouring into the business of giving models away."
+    },
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1787940475000,
+      "snippet": "Anthropic refused to support lethal autonomous warfare and mass surveillance."
+    },
     {
       "id": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/",
       "title": "The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
@@ -56,31 +173,13 @@
       "snippet": "The unofficial version of DLSS 5 makes Jesse Faden’s features much more pronounced. | Image: gabdeg via YouTube Modders are trying out an unofficial version of Nvidia's DLSS 5 on Skyrim, Cyberpunk 2077, GTA V, and a bunch of other games after code for the AI upscaling tech appear"
     },
     {
-      "id": "https://www.techmeme.com/260828/p15#a260828p15",
-      "title": "Sources: the US is drafting a rule to close an export controls loophole that lets Chinese companies access AI chips via data centers in countries like Thailand (The Information)",
-      "link": "https://www.techmeme.com/260828/p15#a260828p15",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787933718000,
-      "snippet": "The Information: Sources: the US is drafting a rule to close an export controls loophole that lets Chinese companies access AI chips via data centers in countries like Thailand — Soon after President Donald Trump began his second term in office in 2025, the White House announced "
-    },
-    {
-      "id": "https://www.numerama.com/tech/2320745-a-singapour-de-vrais-neurones-humains-cultives-en-labo-font-tourner-lia.html",
-      "title": "À Singapour, de vrais neurones humains cultivés en labo font tourner l’IA",
-      "link": "https://www.numerama.com/tech/2320745-a-singapour-de-vrais-neurones-humains-cultives-en-labo-font-tourner-lia.html",
+      "id": "https://www.numerama.com/tech/2320745-a-singapour-un-rack-de-serveurs-fonctionne-avec-16-millions-de-neurones-humains-cultives-en-labo.html",
+      "title": "À Singapour, un rack de serveurs fonctionne avec 16 millions de neurones humains cultivés en labo",
+      "link": "https://www.numerama.com/tech/2320745-a-singapour-un-rack-de-serveurs-fonctionne-avec-16-millions-de-neurones-humains-cultives-en-labo.html",
       "source": "Numerama",
       "category": "france",
       "ts": 1787932860000,
       "snippet": "À Singapour, un rack de serveurs calcule désormais avec de vrais neurones humains cultivés en laboratoire, et non avec des puces en silicium. Derrière ce prototype, un pari : alléger la facture énergétique de l'intelligence artificielle."
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p14#a260828p14",
-      "title": "a16z creates a $1.1B Machine Age fund focusing on hardware to \"open the throttle and accelerate the physical buildout of AI\" (Sean O'Kane/TechCrunch)",
-      "link": "https://www.techmeme.com/260828/p14#a260828p14",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787931979000,
-      "snippet": "Sean O'Kane / TechCrunch: a16z creates a $1.1B Machine Age fund focusing on hardware to “open the throttle and accelerate the physical buildout of AI” — Andreessen Horowitz has launched a new “Machine Age” fund with $1.1 billion raised. The firm's aim with the new fund is to “ope"
     },
     {
       "id": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
@@ -92,15 +191,6 @@
       "snippet": "Meta fixes AI glasses to stop recording any time users cover up the safety light."
     },
     {
-      "id": "https://www.techmeme.com/260828/p12#a260828p12",
-      "title": "How Meta founded FAIR in 2013, fell behind as it was distracted by the metaverse, and is spending an unprecedented amount of money trying to catch up (Harry McCracken/Fast Company)",
-      "link": "https://www.techmeme.com/260828/p12#a260828p12",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787926200000,
-      "snippet": "Harry McCracken / Fast Company: How Meta founded FAIR in 2013, fell behind as it was distracted by the metaverse, and is spending an unprecedented amount of money trying to catch up — Meta's CEO, Mark Zuckerberg, posted an AI manifesto to his company's website in August. The 6,53"
-    },
-    {
       "id": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
       "title": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
       "link": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
@@ -108,24 +198,6 @@
       "category": "capital",
       "ts": 1787923483000,
       "snippet": "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI."
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p10#a260828p10",
-      "title": "Sources: Meta is testing robots from ABB and others to handle data center tasks such as swapping cables and resetting servers as it seeks to lower labor costs (Paresh Dave/Wired)",
-      "link": "https://www.techmeme.com/260828/p10#a260828p10",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787923272000,
-      "snippet": "Paresh Dave / Wired: Sources: Meta is testing robots from ABB and others to handle data center tasks such as swapping cables and resetting servers as it seeks to lower labor costs — The company is testing robots that can swap cables, reset servers, and take on other tasks perform"
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p9#a260828p9",
-      "title": "Meta's India and Southeast Asia VP Sandhya Devanathan is joining OpenAI to oversee consumer growth and enterprise adoption across SE Asia and Australia (Jagmeet Singh/TechCrunch)",
-      "link": "https://www.techmeme.com/260828/p9#a260828p9",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787922370000,
-      "snippet": "Jagmeet Singh / TechCrunch: Meta's India and Southeast Asia VP Sandhya Devanathan is joining OpenAI to oversee consumer growth and enterprise adoption across SE Asia and Australia — Meta's India and Southeast Asia vice president, Sandhya Devanathan, is leaving the social media gi"
     },
     {
       "id": "https://restofworld.org/2026/china-us-ai-future/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -146,15 +218,6 @@
       "snippet": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington."
     },
     {
-      "id": "https://www.techmeme.com/260828/p8#a260828p8",
-      "title": "A look at Beijing's AGI Bar, the unofficial clubhouse for China's AI industry where entrepreneurs trade gossip, recruit talent, and court investors over beers (Bloomberg)",
-      "link": "https://www.techmeme.com/260828/p8#a260828p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787920568000,
-      "snippet": "Bloomberg: A look at Beijing's AGI Bar, the unofficial clubhouse for China's AI industry where entrepreneurs trade gossip, recruit talent, and court investors over beers — Beloved by entrepreneurs, coders and investors, AGI Bar offers a window into the startup ecosystem challengi"
-    },
-    {
       "id": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
       "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
       "link": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
@@ -165,21 +228,12 @@
     },
     {
       "id": "https://github.com/openai/openai-python/blob/main/httpx2.md",
-      "title": "OpenAI: Migrating to HTTPX2",
+      "title": "Migrating to HTTPX2",
       "link": "https://github.com/openai/openai-python/blob/main/httpx2.md",
       "source": "Hacker News",
       "category": "usages",
       "ts": 1787917880000,
-      "snippet": "Article URL: https://github.com/openai/openai-python/blob/main/httpx2.md Comments URL: https://news.ycombinator.com/item?id=49477212 Points: 149 # Comments: 61"
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p7#a260828p7",
-      "title": "Chinese memory chipmaker CXMT reports H1 revenue of ~$22.4B, more than double its 2025 sales, and ~$11.5B in profit, compared to a loss a year earlier (Bloomberg)",
-      "link": "https://www.techmeme.com/260828/p7#a260828p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787917201000,
-      "snippet": "Bloomberg: Chinese memory chipmaker CXMT reports H1 revenue of ~$22.4B, more than double its 2025 sales, and ~$11.5B in profit, compared to a loss a year earlier — CXMT Corp.'s first-half revenue leapt almost 10-fold while profit surged, reflecting a rush for AI hardware that's m"
+      "snippet": "Article URL: https://github.com/openai/openai-python/blob/main/httpx2.md Comments URL: https://news.ycombinator.com/item?id=49477212 Points: 197 # Comments: 89"
     },
     {
       "id": "https://www.nytimes.com/2026/08/28/podcasts/hardfork-meta-settlement.html",
@@ -189,24 +243,6 @@
       "category": "usages",
       "ts": 1787914803000,
       "snippet": "Meta negotiated an unusual provision in their landmark settlement: If TikTok and YouTube also agree to penalties and changes to their products, Meta will pay more."
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p6#a260828p6",
-      "title": "South Korea unveils a project with KT, SK Telecom, and Kakao to provide premium AI tools to the public for free, a move that treats AI like a public utility (Jiyoung Sohn/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260828/p6#a260828p6",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787913601000,
-      "snippet": "Jiyoung Sohn / Wall Street Journal: South Korea unveils a project with KT, SK Telecom, and Kakao to provide premium AI tools to the public for free, a move that treats AI like a public utility — Seoul wants to direct use of homegrown AI chatbots to reduce reliance on U.S. or Chin"
-    },
-    {
-      "id": "https://www.techmeme.com/260828/p3#a260828p3",
-      "title": "Tencent releases Hy4 Preview, a 770B-parameter open model with 1M context window, and says it outperforms Z.AI and Moonshot models in internal tests (Bloomberg)",
-      "link": "https://www.techmeme.com/260828/p3#a260828p3",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1787910007000,
-      "snippet": "Bloomberg: Tencent releases Hy4 Preview, a 770B-parameter open model with 1M context window, and says it outperforms Z.AI and Moonshot models in internal tests — Tencent Holdings Ltd. released a foundation model it says outperforms rivals Z.AI Co. and Moonshot AI in internal test"
     },
     {
       "id": "https://siecledigital.fr/2026/08/27/trois-francais-viennent-de-vendre-leur-entreprise-a-nvidia-pour-pres-de-13-milliards-de-dollars/",
@@ -225,15 +261,6 @@
       "category": "france",
       "ts": 1787898967000,
       "snippet": "Alors que Google a lancé ses AI Overviews il y a seulement deux semaines en France, elles apparaissent déjà sur plus de la moitié des requêtes analysées dans une nouvelle étude. De quoi forcer les sites à s’adapter à ce nouveau mode de recherche. 52,63 % des mots-clés déclenchent"
-    },
-    {
-      "id": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "link": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1787898837000,
-      "snippet": "Article URL: https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/ Comments URL: https://news.ycombinator.com/item?id=49475079 Points: 261 # Comments: 77"
     },
     {
       "id": "https://siecledigital.fr/2026/08/27/face-aux-memes-symptomes-les-ia-envoient-les-hommes-aux-urgences-mais-pas-les-femmes/",
@@ -264,12 +291,12 @@
     },
     {
       "id": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "title": "Trump Administration’s Blacklisting of Anthropic Was Illegal, Judge Rules",
       "link": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "source": "Hacker News",
+      "source": "The New York Times",
       "category": "usages",
-      "ts": 1787882618000,
-      "snippet": "https://archive.ph/ni6I3 https://storage.courtlistener.com/recap/gov.uscourts.cand.46... Comments URL: https://news.ycombinator.com/item?id=49473522 Points: 289 # Comments: 251"
+      "ts": 1787884093000,
+      "snippet": "The government retaliated against the A.I. start-up “for constitutionally protected expressive activities,” a federal judge in California wrote."
     },
     {
       "id": "https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10/",
@@ -279,6 +306,15 @@
       "category": "capital",
       "ts": 1787882564000,
       "snippet": "A boutique StrictlyVC evening returns to New York's West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deven Parekh — covering AI, sports investing, community-building, venture economics, and politics, with cocktails, fo"
+    },
+    {
+      "id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787875200000,
+      "snippet": ""
     },
     {
       "id": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
@@ -299,15 +335,6 @@
       "snippet": "Standardized driver interface aims to let devices talk to AI and each other."
     },
     {
-      "id": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
-      "title": "Meta addresses ‘pervert glasses’ reputation with a privacy fix and a new marketing campaign",
-      "link": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1787866665000,
-      "snippet": "Meta is updating its AI-powered smart glasses to close a loophole that allowed wearers to keep recording after covering the front-facing LED. Alex Himel, Meta's vice president of augmented reality, writes in a post on Threads that \"the camera will now stop working if the light is"
-    },
-    {
       "id": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
       "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
       "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
@@ -324,15 +351,6 @@
       "category": "capab",
       "ts": 1787860522000,
       "snippet": "Nvidia is nabbing critical infrastructure for open models as interest grows."
-    },
-    {
-      "id": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1787860372000,
-      "snippet": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google."
     },
     {
       "id": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
@@ -353,24 +371,6 @@
       "snippet": "In an open letter, OpenAI, Anthropic, Google and others said that a wave of A.I.-enabled cyberattacks was coming and that organizations and governments needed to prepare themselves."
     },
     {
-      "id": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1787852604000,
-      "snippet": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats."
-    },
-    {
-      "id": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
-      "title": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
-      "link": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1787849630000,
-      "snippet": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change."
-    },
-    {
       "id": "https://sifted.eu/articles/nscale-athropic-deal-data-centre/",
       "title": "Anthropic strikes $45bn deal with Nscale to rent compute capacity",
       "link": "https://sifted.eu/articles/nscale-athropic-deal-data-centre/",
@@ -389,24 +389,6 @@
       "snippet": "The social networking giant projected it could spend $10 billion annually on Anthropic’s tools, illustrating the friend-foe relationships underlying the A.I. race."
     },
     {
-      "id": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1787839213000,
-      "snippet": "227 install commands were found in corporate docs pointing at code nobody owns."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
-      "title": "How much of a problem is AI’s water use?",
-      "link": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1787839028000,
-      "snippet": "AI’s water footprint is growing, but location and cooling technology make a difference."
-    },
-    {
       "id": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/",
       "title": "Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity",
       "link": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/",
@@ -414,15 +396,6 @@
       "category": "capital",
       "ts": 1787835625000,
       "snippet": "Identity verification and fraud prevention company Socure announced Thursday that it raised $156 million in a strategic growth investment valuing it at $5.2 billion. The Incline Village, Nevada-based company also says it is acquiring agentic AI startup Fravity, which will be inco"
-    },
-    {
-      "id": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
-      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-      "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1787835539000,
-      "snippet": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test."
     },
     {
       "id": "https://sifted.eu/articles/nvidia-hugging-face-acquisition-deal/",
@@ -495,15 +468,6 @@
       "category": "usages",
       "ts": 1787792758000,
       "snippet": "Quarterly revenue also more than doubled, to $96.22 billion, the company said, topping expectations on Wall Street."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-      "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1787779527000,
-      "snippet": "Report shows Meta's challenges replacing people with AI agents."
     },
     {
       "id": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
@@ -756,15 +720,6 @@
       "category": "capital",
       "ts": 1787547658000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
-      "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
-      "link": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1787358261000,
-      "snippet": "The offering could value the five-year-old A.I. start-up at $2 trillion, its bankers have told potential investors, which would exceed Elon Musk’s SpaceX."
     },
     {
       "id": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/",
@@ -1115,24 +1070,6 @@
       "source": "Hugging Face",
       "category": "capab",
       "ts": 1784136421000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "title": "Welcome Inkling by Thinking Machines",
-      "link": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1784073600000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/real-world-voiceeq",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "link": "https://huggingface.co/blog/real-world-voiceeq",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1784073600000,
       "snippet": ""
     }
   ],
