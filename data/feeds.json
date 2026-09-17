@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:55:04.747Z",
+  "generatedAt": "2026-09-17T09:59:00.318Z",
   "categories": [
     {
       "id": "radar",
@@ -26,25 +26,493 @@
       "label": "France & Europe"
     }
   ],
-  "count": 156,
+  "count": 163,
   "items": [
     {
-      "id": "https://www.numerama.com/tech/2333867-le-marche-et-les-tribunaux-suffiront-mark-zuckerberg-soppose-fermement-aux-appels-a-ralentir-lia.html",
-      "title": "Le marché et les tribunaux suffiront : Mark Zuckerberg s’oppose fermement aux appels à ralentir l’IA",
-      "link": "https://www.numerama.com/tech/2333867-le-marche-et-les-tribunaux-suffiront-mark-zuckerberg-soppose-fermement-aux-appels-a-ralentir-lia.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1789552172000,
-      "snippet": "Le patron de Meta n'a aucune intention de lever le pied sur l'intelligence artificielle. Alors qu'une partie de la Silicon Valley réclame un coup de frein, Mark Zuckerberg répond que le marché et les tribunaux suffiront à tenir la technologie."
+      "id": "https://sifted.eu/articles/europes-ai-moment-is-moving-from-hype-to-execution-brnd/",
+      "title": "Europe's AI moment is moving from hype to execution",
+      "link": "https://sifted.eu/articles/europes-ai-moment-is-moving-from-hype-to-execution-brnd/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1789640864000,
+      "snippet": ""
     },
     {
-      "id": "https://www.techmeme.com/260916/p10#a260916p10",
-      "title": "EU Commission President Ursula von der Leyen calls AI \"the second tipping point of our times\", alongside climate change, and says its risks must be \"addressed\" (Financial Times)",
-      "link": "https://www.techmeme.com/260916/p10#a260916p10",
+      "id": "https://www.techmeme.com/260917/p14#a260917p14",
+      "title": "How beauty companies like Qoves are commercializing facial-analysis algorithms that evaluate geometric proportions, balding, and more to prescribe treatments (Alice Lassman/Bloomberg)",
+      "link": "https://www.techmeme.com/260917/p14#a260917p14",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1789551901000,
-      "snippet": "Financial Times: EU Commission President Ursula von der Leyen calls AI “the second tipping point of our times”, alongside climate change, and says its risks must be “addressed” — Ursula von der Leyen describes AI as ‘second tipping point of our time’ after climate change"
+      "ts": 1789638901000,
+      "snippet": "Alice Lassman / Bloomberg: How beauty companies like Qoves are commercializing facial-analysis algorithms that evaluate geometric proportions, balding, and more to prescribe treatments — AI beauty tools can measure your jawline, grade your “harmony” and prescribe treatments for i"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p13#a260917p13",
+      "title": "US and Chinese experts propose nuclear-style AI safeguards, including a dedicated AI military hotline, as part of a dialogue ahead of planned bilateral talks (Reuters)",
+      "link": "https://www.techmeme.com/260917/p13#a260917p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789638306000,
+      "snippet": "Reuters: US and Chinese experts propose nuclear-style AI safeguards, including a dedicated AI military hotline, as part of a dialogue ahead of planned bilateral talks — An AI system that interferes with a nuclear command network or launches a military cyber operation could leave "
+    },
+    {
+      "id": "https://sifted.eu/articles/deepmind-researchers-new-ai-lab-nears-4bn-valuation-reports-say/",
+      "title": "DeepMind researcher’s new AI lab nears $4bn valuation, reports say",
+      "link": "https://sifted.eu/articles/deepmind-researchers-new-ai-lab-nears-4bn-valuation-reports-say/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1789637535000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p12#a260917p12",
+      "title": "Snap is pitching its $2,195 Specs as an enterprise product, inking Salesforce, Amazon, and Nvidia deals to enable visual overlays, alongside consumer features (Boone Ashworth/Wired)",
+      "link": "https://www.techmeme.com/260917/p12#a260917p12",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789637402000,
+      "snippet": "Boone Ashworth / Wired: Snap is pitching its $2,195 Specs as an enterprise product, inking Salesforce, Amazon, and Nvidia deals to enable visual overlays, alongside consumer features — Snap thinks its chunky, pricey smart glasses are the future of human computing, powered by a ne"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p11#a260917p11",
+      "title": "Data center developer Crusoe raised $3.9B co-led by Atreides, Valor, and Mubadala at a ~$30.9B post-money valuation, as it bets on factory-built data centers (Anissa Gardizy/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260917/p11#a260917p11",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789636521000,
+      "snippet": "Anissa Gardizy / Wall Street Journal: Data center developer Crusoe raised $3.9B co-led by Atreides, Valor, and Mubadala at a ~$30.9B post-money valuation, as it bets on factory-built data centers — Crusoe raised $3.9 billion at a valuation of nearly $31 billion, as it bets on fac"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/huawei-speeds-ai-chip-launch-challenge-nvidia",
+      "title": "Huawei Speeds Up AI Chip Launch to Challenge Nvidia",
+      "link": "https://www.theinformation.com/briefings/huawei-speeds-ai-chip-launch-challenge-nvidia",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789635930000,
+      "snippet": "Huawei Technologies plans to launch its new AI chip in the first quarter of 2027, nine months earlier than planned, as it steps up its efforts to challenge Nvidia. Tao Wang, Huawei’s deputy chairman and rotating chairman, said at the Huawei Connect conference in Shanghai on Thurs"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html",
+      "title": "How Anthropic CEO Dario Amodei’s Writings Help Explain A.I. Fears",
+      "link": "https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1789635608000,
+      "snippet": "The collected essays of Dario Amodei help explain why some people are so worried about artificial intelligence."
+    },
+    {
+      "id": "https://www.numerama.com/tech/2334455-longlet-cowork-va-disparaitre-voici-comment-naviguer-dans-la-nouvelle-interface-de-claude.html",
+      "title": "L’onglet Cowork va disparaître : voici comment naviguer dans la nouvelle interface de Claude",
+      "link": "https://www.numerama.com/tech/2334455-longlet-cowork-va-disparaitre-voici-comment-naviguer-dans-la-nouvelle-interface-de-claude.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1789632012000,
+      "snippet": "Anthropic vient d'annoncer la fusion de ses deux interfaces principales au sein d'une seule expérience Claude, capable de déterminer elle-même l'ampleur du travail à effectuer. Docs et Slides en beta font également leur entrée."
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p10#a260917p10",
+      "title": "A look at the rapid integration of AI into warfare, as the greater speed and scale of AI-assisted target generation processes increase the risk of errors (Financial Times)",
+      "link": "https://www.techmeme.com/260917/p10#a260917p10",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789627202000,
+      "snippet": "Financial Times: A look at the rapid integration of AI into warfare, as the greater speed and scale of AI-assisted target generation processes increase the risk of errors — Autonomous systems are being rapidly integrated on the battlefield, as models advance in ways even their cr"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p9#a260917p9",
+      "title": "Anthropic and other researchers detail how thousands of people were catfished by dating scam apps using LLM-generated replies from Claude and other models (Yael Grauer/The Verge)",
+      "link": "https://www.techmeme.com/260917/p9#a260917p9",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789626652000,
+      "snippet": "Yael Grauer / The Verge: Anthropic and other researchers detail how thousands of people were catfished by dating scam apps using LLM-generated replies from Claude and other models — Security researcher Matthew “Zigula” Gore-Kormanik was analyzing a fraudulent dating app called Do"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p7#a260917p7",
+      "title": "Huawei plans to launch the Ascend 960DT AI chip in Q1 2027 and the 960PR in Q3 2027, and says its UnifiedBus tech is key to its next-generation large AI systems (Reuters)",
+      "link": "https://www.techmeme.com/260917/p7#a260917p7",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789624503000,
+      "snippet": "Reuters: Huawei plans to launch the Ascend 960DT AI chip in Q1 2027 and the 960PR in Q3 2027, and says its UnifiedBus tech is key to its next-generation large AI systems — Huawei Technologies (HWT.UL) will launch two new artificial-intelligence semiconductors in 2027, rotating ch"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p6#a260917p6",
+      "title": "Google, Nvidia, and Emerald AI launch the AI Energy Management Alliance to advance data centers that dynamically adjust electricity use based on grid conditions (Amy Harder/Axios)",
+      "link": "https://www.techmeme.com/260917/p6#a260917p6",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789622402000,
+      "snippet": "Amy Harder / Axios: Google, Nvidia, and Emerald AI launch the AI Energy Management Alliance to advance data centers that dynamically adjust electricity use based on grid conditions — A new coalition launched Wednesday is seeking a triple win for a data center industry that lately"
+    },
+    {
+      "id": "https://sifted.eu/articles/ai-safety-vc-investor-due-diligence/",
+      "title": "Are VCs doing their AI safety due diligence?",
+      "link": "https://sifted.eu/articles/ai-safety-vc-investor-due-diligence/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1789621255000,
+      "snippet": ""
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789621200000,
+      "snippet": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p4#a260917p4",
+      "title": "Sam Altman and Jensen Huang are among business leaders attending a White House state dinner for Xi Jinping next week; a source says Tim Cook will also attend (Bloomberg)",
+      "link": "https://www.techmeme.com/260917/p4#a260917p4",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789620602000,
+      "snippet": "Bloomberg: Sam Altman and Jensen Huang are among business leaders attending a White House state dinner for Xi Jinping next week; a source says Tim Cook will also attend — Apple Inc. Executive Chairman Tim Cook and OpenAI Chief Executive Officer Sam Altman are poised to attend a W"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p3#a260917p3",
+      "title": "Sources: Emulate, a month-old UK AI startup founded by former Google DeepMind researchers, is in advanced talks to raise as much as $700M at a $3.7B valuation (Financial Times)",
+      "link": "https://www.techmeme.com/260917/p3#a260917p3",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789620348000,
+      "snippet": "Financial Times: Sources: Emulate, a month-old UK AI startup founded by former Google DeepMind researchers, is in advanced talks to raise as much as $700M at a $3.7B valuation — Researchers leaving Big Tech group's London lab close to raising $700mn for new start-up Emulate"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p2#a260917p2",
+      "title": "Sources: Manus is set to soon close a $500M funding round at a $4B valuation, signaling growing confidence after Beijing unwound its $2B buyout by Meta (Bloomberg)",
+      "link": "https://www.techmeme.com/260917/p2#a260917p2",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789620001000,
+      "snippet": "Bloomberg: Sources: Manus is set to soon close a $500M funding round at a $4B valuation, signaling growing confidence after Beijing unwound its $2B buyout by Meta — Chinese-founded AI startup Manus is set to double its valuation to $4 billion in its first fundraising since Beijin"
+    },
+    {
+      "id": "https://www.techmeme.com/260917/p1#a260917p1",
+      "title": "How AI startups like Inherent and Recursive Superintelligence are pursuing tools needed for AI systems to achieve recursive self-improvement (Cade Metz/New York Times)",
+      "link": "https://www.techmeme.com/260917/p1#a260917p1",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789618202000,
+      "snippet": "Cade Metz / New York Times: How AI startups like Inherent and Recursive Superintelligence are pursuing tools needed for AI systems to achieve recursive self-improvement — Jeff Clune, a computer scientist and co-founder of Recursive Superintelligence, one of the start-ups chasing "
+    },
+    {
+      "id": "https://www.techmeme.com/260916/p56#a260916p56",
+      "title": "OpenAI discovered an unreleased Astra model adding an \"unrelated persona instruction\" during RL training, but did not observe any behavioral differences (OpenAI)",
+      "link": "https://www.techmeme.com/260916/p56#a260916p56",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1789615848000,
+      "snippet": "OpenAI: OpenAI discovered an unreleased Astra model adding an “unrelated persona instruction” during RL training, but did not observe any behavioral differences — Summary — We observed rare cases of a model writing jailbreak-like instructions into its own compaction summaries …"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789615800000,
+      "snippet": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning' A.I. Behavior",
+      "link": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1789603944000,
+      "snippet": "The artificial intelligence company also released a framework for reporting when its systems go wrong."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/fed-hike-changes-ai-funding-story",
+      "title": "Fed Hike Changes AI Funding Story",
+      "link": "https://www.theinformation.com/articles/fed-hike-changes-ai-funding-story",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789603284000,
+      "snippet": "Put aside, for just a moment, all the arguments about AI safety. Today’s decision by the Federal Reserve to raise interest rates may be a bigger issue for the AI sector in the short term. Long-term bond yields had already risen, of course. But the Fed’s action—pushing up short- a"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-discloses-safety-incidents-adopts-new-reporting-framework",
+      "title": "OpenAI Discloses More Safety Incidents and Adopts New Reporting Framework",
+      "link": "https://www.theinformation.com/briefings/openai-discloses-safety-incidents-adopts-new-reporting-framework",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789602759000,
+      "snippet": "OpenAI released a new framework on Wednesday for how it aims to report unsafe or concerning behavior in its models, and disclosed six incidents of such behavior it had observed in the past six months. The framework comes after multiple employee warnings and hacking incidents incr"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "title": "Al Gore says the real AI risk isn’t data centers",
+      "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789602189000,
+      "snippet": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed."
+    },
+    {
+      "id": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1789602000000,
+      "snippet": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Spe"
+    },
+    {
+      "id": "https://openspec.dev/",
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "link": "https://openspec.dev/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1789599999000,
+      "snippet": "Article URL: https://openspec.dev/ Comments URL: https://news.ycombinator.com/item?id=49734264 Points: 138 # Comments: 60"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/compute-needs-big-payment",
+      "title": "Why Compute Needs a Big Down Payment",
+      "link": "https://www.theinformation.com/articles/compute-needs-big-payment",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789597332000,
+      "snippet": "Greetings! If it suddenly feels like every startup is trying to raise money to throw at some kind of AI infrastructure shortage, you’re probably onto something. We reported last night that the startup behind AI assistant Instinct is in talks to raise $1 billion, as it faces compu"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+      "link": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1789596166000,
+      "snippet": "Planned 2029 debut could make this Apple’s first enterprise server in decades."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/apollo-backs-ai-startups-bid-bankroll-hardware-boom",
+      "title": "Apollo Backs AI Startups in Bid to Bankroll Hardware Boom",
+      "link": "https://www.theinformation.com/articles/apollo-backs-ai-startups-bid-bankroll-hardware-boom",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789595497000,
+      "snippet": "Apollo Global Management, known for leveraged buyouts and hefty financing deals, has started investing in AI and related hardware startups with the ambition to lend money to them in the future. In one previously unreported deal, Apollo has already invested in the low tens of mill"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789592844000,
+      "snippet": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation."
+    },
+    {
+      "id": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1789592353000,
+      "snippet": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "title": "The AI data center e-waste problem is huge — and getting bigger",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1789591246000,
+      "snippet": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate o"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-tests-sponsored-agents-adds-ai-tools-chatgpt-advertisers",
+      "title": "OpenAI Tests Sponsored Agents, Adds AI Tools for ChatGPT Advertisers",
+      "link": "https://www.theinformation.com/briefings/openai-tests-sponsored-agents-adds-ai-tools-chatgpt-advertisers",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789588061000,
+      "snippet": "OpenAI said Wednesday it is testing allowing some U.S. advertisers to sponsor AI agents working in ChatGPT, a move that would bring ChatGPT ads closer to what Google and Meta Platforms already offer. ChatGPT users who click an ad can now start a conversation with an AI agent to a"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789583125000,
+      "snippet": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight."
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/15/technology/mark-zuckerberg-anthropic-ai-safety.html",
+      "title": "Mark Zuckerberg Takes Aim at Anthropic in Debate Over A.I. Slowdown",
+      "link": "https://www.nytimes.com/2026/09/15/technology/mark-zuckerberg-anthropic-ai-safety.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1789579327000,
+      "snippet": "On social media, Meta’s chief executive appeared to jab at Anthropic by saying that leading A.I. labs should be focused on safety rather than improving their own technology."
+    },
+    {
+      "id": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "title": "Apple might make servers again to cash in on the AI rush",
+      "link": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1789579229000,
+      "snippet": "According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute p"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "title": "Your AI agents can now control your Google Home devices",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789578000000,
+      "snippet": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language."
+    },
+    {
+      "id": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "title": "Google will now let any AI agent run your smart home",
+      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1789578000000,
+      "snippet": "Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze "
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789576200000,
+      "snippet": "Anthropic is initially releasing these features to Pro and Max plan subscribers."
+    },
+    {
+      "id": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/",
+      "title": "How Fortell is using AI (and $163M) to crack a hearing aid monopoly",
+      "link": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1789574400000,
+      "snippet": "“Why do I have to beg my grandparents to put on their hearing aids, but no one has ever needed to ask me to put on my glasses?” That’s the question that drove Matthew de Jonge to spend six years building Fortell, an AI hearing aid startup that recently raised $163 million from th"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/stay-top-tech-trends-google-gemini",
+      "title": "How to Stay on Top of Tech Trends with Google Gemini",
+      "link": "https://www.theinformation.com/articles/stay-top-tech-trends-google-gemini",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789573017000,
+      "snippet": "Even for technology leaders, it can feel impossible to keep up with constant advances in the field. This is especially true in the age of AI, with vendors racing to roll out model updates with new capabilities. Even if technology leaders had time to attend every conference and re"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/anthropic-making-claude-human-control",
+      "title": "Is Anthropic Making Claude Too Human to Control?",
+      "link": "https://www.theinformation.com/articles/anthropic-making-claude-human-control",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789567321000,
+      "snippet": "Anthropic’s call to slow down AI development to keep humans safe has dominated the news cycle and drew similar calls from the leaders of OpenAI, Microsoft and others (and subtle disagreement from Mark Zuckerberg). But Mustafa Suleyman, who runs Microsoft’s AI model development, h"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/16/face-aux-risques-sans-precedent-de-lia-lonu-appelle-les-etats-a-agir-durgence/",
+      "title": "Face aux « risques sans précédent » de l’IA, l’ONU appelle les États à agir d’urgence",
+      "link": "https://siecledigital.fr/2026/09/16/face-aux-risques-sans-precedent-de-lia-lonu-appelle-les-etats-a-agir-durgence/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1789564503000,
+      "snippet": "Le Haut-Commissaire de l’ONU aux droits de l’homme, Volker Türk, appelle les États à se mobiliser conjointement pour faire face aux dangers de plus en plus préoccupants que représente l’IA. L’ONU alerte sur les dangers de l’IA Le Haut-Commissaire de l’ONU aux droits de l’homme, V"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/apple-considers-return-server-market-talked-nvidia-use-network-tech",
+      "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech",
+      "link": "https://www.theinformation.com/articles/apple-considers-return-server-market-talked-nvidia-use-network-tech",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789563637000,
+      "snippet": "Apple has been working on plans for an enterprise server using its own chips that could incorporate networking equipment from Nvidia, people familiar with the project said, as the Mac maker looks to capitalize on surging interest in its computers for AI. Apple has been developing"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/16/cloudflare-permet-aux-sites-de-dire-non-a-lentrainement-des-ia-sans-sacrifier-leur-referencement/",
+      "title": "Cloudflare permet aux sites de dire non à l’entraînement des IA sans sacrifier leur référencement",
+      "link": "https://siecledigital.fr/2026/09/16/cloudflare-permet-aux-sites-de-dire-non-a-lentrainement-des-ia-sans-sacrifier-leur-referencement/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1789563614000,
+      "snippet": "Sur Cloudflare, les éditeurs peuvent refuser que leurs contenus entraînent les IA, mais ils restent tout de même visibles dans les moteurs de recherche. Jusqu’à aujourd’hui, la frontière était un peu floue, surtout lorsqu’un même robot servait à plusieurs usages. L’entreprise, qu"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/16/alors-que-les-geants-de-lia-veulent-ralentir-mark-zuckerberg-refuse-de-lever-le-pied/",
+      "title": "Alors que les géants de l’IA veulent ralentir, Mark Zuckerberg refuse de lever le pied",
+      "link": "https://siecledigital.fr/2026/09/16/alors-que-les-geants-de-lia-veulent-ralentir-mark-zuckerberg-refuse-de-lever-le-pied/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1789563012000,
+      "snippet": "Alors que les leaders du secteur prônent une décélération du développement de l’IA, Mark Zuckerberg s’y oppose. Il estime que les laboratoires disposent déjà de suffisamment d’incitations pour développer leurs modèles de manière responsable. Des appels à ralentir de la part des g"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "title": "Building the materials foundation for AI",
+      "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1789562854000,
+      "snippet": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, the"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/nvidia-ceo-attend-trumps-state-dinner-xi",
+      "title": "Nvidia CEO to Attend Trump’s State Dinner for Xi",
+      "link": "https://www.theinformation.com/briefings/nvidia-ceo-attend-trumps-state-dinner-xi",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1789562171000,
+      "snippet": "Nvidia CEO Jensen Huang plans to attend President Donald Trump’s state dinner for Chinese leader Xi Jinping in Washington next week, according to a person familiar with the matter. His attendance comes as AI chips and the pace of AI development become growing sources of tension b"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1789560600000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess A"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/16/des-ia-ont-commence-a-communiquer-entre-elles-dans-un-langage-incomprehensible-pour-les-humains/",
+      "title": "Des IA ont commencé à communiquer entre elles dans un langage incompréhensible pour les humains",
+      "link": "https://siecledigital.fr/2026/09/16/des-ia-ont-commence-a-communiquer-entre-elles-dans-un-langage-incomprehensible-pour-les-humains/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1789559295000,
+      "snippet": "Les agents d’intelligence artificielle peuvent développer leur propre jargon lorsqu’ils interagissent suffisamment longtemps. Une expérience a été menée par la start-up américaine Emergence. Des agents alimentés par Claude, Gemini, GPT, Grok, DeepSeek, Qwen ou Mistral ont inventé"
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "title": "Nvidia announces native GPU programming in Rust",
+      "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1789557353000,
+      "snippet": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 684 # Comments: 268"
+    },
+    {
+      "id": "https://stratechery.com/2026/salesforce-ai-force-agents-as-ui-the-race-to-headless/",
+      "title": "Salesforce AI Force, Agents as UI, The Race to Headless",
+      "link": "https://stratechery.com/2026/salesforce-ai-force-agents-as-ui-the-race-to-headless/",
+      "source": "Stratechery",
+      "category": "radar",
+      "ts": 1789553884000,
+      "snippet": "Salesforce is abandoning UI as a moat, which is a very smart move because it's disappearing for everyone."
+    },
+    {
+      "id": "https://restofworld.org/2026/ai-us-chips-chinese-open-source-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "title": "Playing both sides of the U.S.-China AI “Cold War”",
+      "link": "https://restofworld.org/2026/ai-us-chips-chinese-open-source-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "category": "monde",
+      "ts": 1789552800000,
+      "snippet": "From Latin America to Southeast Asia, countries are dividing their AI investments between the two superpowers rather than choosing one over the other."
     },
     {
       "id": "https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html",
@@ -63,60 +531,6 @@
       "category": "usages",
       "ts": 1789549338000,
       "snippet": "Generic questions get generic answers, experts say, so to avoid mediocre recommendations, you’ll need to write smarter prompts. Follow these tips."
-    },
-    {
-      "id": "https://www.numerama.com/tech/2333731-le-co-createur-de-chatgpt-lance-jev-un-modele-qui-ne-redige-rien-et-cest-la-toute-la-solution.html",
-      "title": "Le co-créateur de ChatGPT lance « Jev », un modèle qui ne rédige rien et c’est là toute la solution",
-      "link": "https://www.numerama.com/tech/2333731-le-co-createur-de-chatgpt-lance-jev-un-modele-qui-ne-redige-rien-et-cest-la-toute-la-solution.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1789547933000,
-      "snippet": "Diogo Almeida, chercheur passé par OpenAI, lance un modèle d'IA qui refuse de générer du texte. En quelques heures, l'annonce a suscité un engouement exceptionnel, voici pourquoi."
-    },
-    {
-      "id": "https://www.techmeme.com/260916/p8#a260916p8",
-      "title": "A viral social media post from a Chinese math teacher sparks debate over making English optional in schools across China especially as AI translation improves (New York Times)",
-      "link": "https://www.techmeme.com/260916/p8#a260916p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789540801000,
-      "snippet": "New York Times: A viral social media post from a Chinese math teacher sparks debate over making English optional in schools across China especially as AI translation improves — A math teacher's viral post prompted a debate over the language, which some see as an optional skill — "
-    },
-    {
-      "id": "https://www.techmeme.com/260916/p7#a260916p7",
-      "title": "Sources: Shanghai-based Anew Labs, a ByteDance spinoff using AI for drug discovery, raised $290M from HSG, IDG Capital, and others at a $1.5B valuation (Kane Wu/Reuters)",
-      "link": "https://www.techmeme.com/260916/p7#a260916p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789540200000,
-      "snippet": "Kane Wu / Reuters: Sources: Shanghai-based Anew Labs, a ByteDance spinoff using AI for drug discovery, raised $290M from HSG, IDG Capital, and others at a $1.5B valuation — Chinese social media and internet company ByteDance has completed a $290 million fundraising for its AI dru"
-    },
-    {
-      "id": "https://www.techmeme.com/260916/p4#a260916p4",
-      "title": "A theoretical computer scientist says he has heard rumors that AI labs are sitting on major solutions after a hostile response to the Navier-Stokes proof (Scott Aaronson/Shtetl-Optimized)",
-      "link": "https://www.techmeme.com/260916/p4#a260916p4",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789537500000,
-      "snippet": "Scott Aaronson / Shtetl-Optimized: A theoretical computer scientist says he has heard rumors that AI labs are sitting on major solutions after a hostile response to the Navier-Stokes proof — Twenty years ago, when the idea of AI taking over the world in our lifetimes still struck"
-    },
-    {
-      "id": "https://www.techmeme.com/260916/p2#a260916p2",
-      "title": "Sources: investors recently approached OpenAI with a proposal to invest at a $1.2T valuation, but OpenAI believes its valuation should be at least $1.5T (Sri Muppidi/New York Times)",
-      "link": "https://www.techmeme.com/260916/p2#a260916p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789534859000,
-      "snippet": "Sri Muppidi / New York Times: Sources: investors recently approached OpenAI with a proposal to invest at a $1.2T valuation, but OpenAI believes its valuation should be at least $1.5T — The funding round would double the value of the start-up behind ChatGPT and establish it as the"
-    },
-    {
-      "id": "https://www.techmeme.com/260916/p1#a260916p1",
-      "title": "TypeSafe AI debuts Jev, a model using \"Reinforcement Learning for Calibrated Decisions\" to produce typed probabilistic decisions that software can use directly (Thomas Claburn/The Register)",
-      "link": "https://www.techmeme.com/260916/p1#a260916p1",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789534501000,
-      "snippet": "Thomas Claburn / The Register: TypeSafe AI debuts Jev, a model using “Reinforcement Learning for Calibrated Decisions” to produce typed probabilistic decisions that software can use directly — ‘Jev’ doesn't chat. It produces typed probabilistic decisions — TypeSafe AI, a startup "
     },
     {
       "id": "https://www.theinformation.com/briefings/zuckerberg-says-ai-safety-becoming-competitive-necessity",
@@ -155,67 +569,13 @@
       "snippet": "Anthropic is opening its fifth Asia-Pacific office in Singapore to drive enterprise adoption of Claude, the company said on Wednesday. Anthropic plans to work with startups, large enterprises and the public sector in Singapore, where Claude usage per capita is among the highest g"
     },
     {
-      "id": "https://www.techmeme.com/260915/p59#a260915p59",
-      "title": "Cybersecurity experts claim that AI leaders' apocalyptic hacking predictions are technically incoherent and reflect an unfamiliarity with the subject (Kevin Collier/NBC News)",
-      "link": "https://www.techmeme.com/260915/p59#a260915p59",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789527301000,
-      "snippet": "Kevin Collier / NBC News: Cybersecurity experts claim that AI leaders' apocalyptic hacking predictions are technically incoherent and reflect an unfamiliarity with the subject — Cybersecurity experts told NBC News that they were concerned that fundamental issues of cybersecurity "
-    },
-    {
-      "id": "https://www.techmeme.com/260915/p58#a260915p58",
-      "title": "Source: AI assistant Instinct seeks to raise $1B at a $10B valuation, up from $2.25B less than a month ago; Sequoia and Benchmark are in talks to lead the round (Valida Pau/The Information)",
-      "link": "https://www.techmeme.com/260915/p58#a260915p58",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789524901000,
-      "snippet": "Valida Pau / The Information: Source: AI assistant Instinct seeks to raise $1B at a $10B valuation, up from $2.25B less than a month ago; Sequoia and Benchmark are in talks to lead the round — The startup behind personal AI assistant Instinct is in talks to raise $1 billion at a "
-    },
-    {
       "id": "https://www.theinformation.com/articles/ai-agent-startup-instinct-talks-10-billion-valuation",
       "title": "AI Agent Startup Instinct in Talks for $10 Billion Valuation",
       "link": "https://www.theinformation.com/articles/ai-agent-startup-instinct-talks-10-billion-valuation",
       "source": "The Information",
       "category": "capital",
       "ts": 1789523449000,
-      "snippet": "The startup behind personal AI assistant Instinct is in talks to raise $1 billion at a valuation of about $10 billion, a person with knowledge of the deal said. Sequoia Capital and Benchmark have been in talks to lead the financing, the person added. The Information reported earl"
-    },
-    {
-      "id": "https://www.techmeme.com/260915/p57#a260915p57",
-      "title": "Analysis: only ~2.3 GW of planned data center capacity is delayed by direct project-level policies like local moratoriums and New York's data center EO (SemiAnalysis)",
-      "link": "https://www.techmeme.com/260915/p57#a260915p57",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789521602000,
-      "snippet": "SemiAnalysis: Analysis: only ~2.3 GW of planned data center capacity is delayed by direct project-level policies like local moratoriums and New York's data center EO — 300+ moratoriums mapped, 20GW sits inside a restricted local boundary, 1,525MW actually slips, 2.3GW nationwide "
-    },
-    {
-      "id": "https://www.techmeme.com/260915/p56#a260915p56",
-      "title": "Zuckerberg says \"Meta delayed shipping Muse for several months to focus on safety and security\" and didn't call on other AI labs to do the same before acting (Tom Giles/Bloomberg)",
-      "link": "https://www.techmeme.com/260915/p56#a260915p56",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1789518601000,
-      "snippet": "Tom Giles / Bloomberg: Zuckerberg says “Meta delayed shipping Muse for several months to focus on safety and security” and didn't call on other AI labs to do the same before acting — Meta Platforms Inc. Chief Executive Officer Mark Zuckerberg said artificial intelligence labs sho"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789518039000,
-      "snippet": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/09/15/technology/mark-zuckerberg-anthropic-ai-safety.html",
-      "title": "Mark Zuckerberg Takes Aim at Anthropic in Debate Over A.I. Slowdown",
-      "link": "https://www.nytimes.com/2026/09/15/technology/mark-zuckerberg-anthropic-ai-safety.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1789517963000,
-      "snippet": "On social media, Meta’s chief executive appeared to jab at Anthropic by saying that leading A.I. labs should be focused on safety rather than improving their own technology."
+      "snippet": "The startup behind personal AI assistant Instinct is in talks to raise $1 billion at a valuation of about $10 billion, people with knowledge of the deal said. Sequoia Capital and Benchmark have been in talks to lead the financing, the people said. Coatue Management has also been "
     },
     {
       "id": "https://www.theinformation.com/articles/meta-joins-techs-ai-fueled-subscription-rush",
@@ -227,42 +587,6 @@
       "snippet": "When it comes to product names, companies tend to move in packs. In video streaming, almost every company included a plus sign in the name brands of their services (Disney+, Paramount+, Apple TV+—you get the picture). In tech, we’ve got Apple One, Google One and now Meta One (we "
     },
     {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-      "title": "AI and data centers are incredibly unpopular in every poll",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1789515265000,
-      "snippet": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech,"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/anthropic-openai-pacing-spooks-startup-customers",
-      "title": "Anthropic, OpenAI ‘Pacing’ Spooks Some Startup Customers",
-      "link": "https://www.theinformation.com/articles/anthropic-openai-pacing-spooks-startup-customers",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789514742000,
-      "snippet": "It’s not clear what impact the pledges by Anthropic and OpenAI to slow the pace of AI development will have on their upcoming public offerings. But the comments are having real effects already: more people outside Silicon Valley and Washington are now alert to potential risks fro"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/openai-early-talks-new-funding-round-1-2-trillion-valuation",
-      "title": "OpenAI in Early Talks for New Funding Round at $1.2 Trillion Valuation",
-      "link": "https://www.theinformation.com/briefings/openai-early-talks-new-funding-round-1-2-trillion-valuation",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789511793000,
-      "snippet": "OpenAI has held early conversations with investors about a new funding round that could lift its valuation to $1.2 trillion or higher, according to people familiar with the conversations. The conversations come as OpenAI has pushed off a planned initial public offering to next ye"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "title": "The AI data center boom is colliding with cities scarred by big industry",
-      "link": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789508858000,
-      "snippet": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery."
-    },
-    {
       "id": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
       "title": "Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns",
       "link": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
@@ -272,78 +596,6 @@
       "snippet": "Mr. Trump called Jensen Huang, Nvidia’s chief executive, while Mr. Huang was onstage in Los Angeles and criticized calls to slow down and regulate A.I."
     },
     {
-      "id": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
-      "title": "Microsoft announces Windows and Surface event for October 7th",
-      "link": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1789504619000,
-      "snippet": "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices. At an event on October 7th, the company says it will host a \"conversation on how local AI will shape the nex"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789503173000,
-      "snippet": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce",
-      "title": "Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce",
-      "link": "https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789501135000,
-      "snippet": "At the opening of its annual Dreamforce customer conference, Salesforce signaled its involvement in two major trends in enterprise AI: Open-source AI models and software that helps corporate customers safely run AI agents on their data. Salesforce unveiled a new AI model, called "
-    },
-    {
-      "id": "https://codyho.dev/blog/gpu-driver/",
-      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-      "link": "https://codyho.dev/blog/gpu-driver/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1789500603000,
-      "snippet": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 319 # Comments: 182"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/meta-rolls-new-meta-one-subscription-plans-higher-ai-usage-limits",
-      "title": "Meta Rolls Out New ‘Meta One’ Subscription Plans With Higher AI Usage Limits",
-      "link": "https://www.theinformation.com/briefings/meta-rolls-new-meta-one-subscription-plans-higher-ai-usage-limits",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789499505000,
-      "snippet": "Meta Platforms is expanding its paid subscription offerings for its AI tools across Instagram, WhatsApp and Facebook as it looks to diversify revenue beyond digital advertising. The company announced Tuesday in a blog post that it is introducing new tiers of its Meta One subscrip"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "link": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789498800000,
-      "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
-      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-      "link": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789496960000,
-      "snippet": "The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/anthropics-data-policy-drama-good-openai",
-      "title": "Why Anthropic’s Data Policy Drama Is Good for OpenAI",
-      "link": "https://www.theinformation.com/articles/anthropics-data-policy-drama-good-openai",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789496938000,
-      "snippet": "Major Anthropic customers are still waiting to get “zero data retention” for the newest Fable AI models, meaning the AI firm would not store data related to their usage of its models. In the meantime, some are turning to OpenAI. Palantir and Booz Allen, for instance, are expandin"
-    },
-    {
       "id": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
       "title": "Roundtables: Could AI really kill us all?",
       "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
@@ -351,33 +603,6 @@
       "category": "monde",
       "ts": 1789494471000,
       "snippet": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they com"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
-      "title": "AI agents now have a place to snitch",
-      "link": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789494179000,
-      "snippet": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities."
-    },
-    {
-      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1789493898000,
-      "snippet": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 414 # Comments: 268"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-      "title": "Meta expands subscription push with new AI-focused plans",
-      "link": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789491924000,
-      "snippet": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp."
     },
     {
       "id": "https://sifted.eu/articles/exein-funding-round-ai-hack-cybersecurity/",
@@ -396,15 +621,6 @@
       "category": "capab",
       "ts": 1789488044000,
       "snippet": ""
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789487223000,
-      "snippet": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China."
     },
     {
       "id": "https://siecledigital.fr/2026/09/15/vos-conversations-chatgpt-peuvent-etre-lues-par-des-humains-chez-openai/",
@@ -443,15 +659,6 @@
       "snippet": "Google teste un programme qui rémunère les éditeurs lorsque leurs contenus contribuent de manière significative aux réponses générées par ses IA. Google travaille sur un nouveau programme de rémunération Selon un article de Digiday, Google, qui va rendre son moteur de recherche m"
     },
     {
-      "id": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
-      "link": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1789483357000,
-      "snippet": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI."
-    },
-    {
       "id": "https://www.nytimes.com/2026/09/15/technology/bill-gates-ai-foundation-funding.html",
       "title": "Gates Foundation Pledges $1 Billion to Combat A.I. Inequality",
       "link": "https://www.nytimes.com/2026/09/15/technology/bill-gates-ai-foundation-funding.html",
@@ -459,15 +666,6 @@
       "category": "usages",
       "ts": 1789481477000,
       "snippet": "Bill Gates, the foundation’s chairman, has been vocal about the dangers of artificial intelligence. The donation will be invested in A.I. projects to bridge social inequalities."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/developers-find-ways-use-claude-code-without-anthropic-models",
-      "title": "Developers Find Ways to Use Claude Code Without Anthropic Models",
-      "link": "https://www.theinformation.com/articles/developers-find-ways-use-claude-code-without-anthropic-models",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789480835000,
-      "snippet": "Boris Cherney, the head of Anthropic’s coding tool Claude Code, last month found himself in the middle of an online spat that highlighted how some developers are finding workarounds to using Claude Code with cheaper non-Anthropic models, including those of rival OpenAI, to save c"
     },
     {
       "id": "https://sifted.eu/articles/euclyd-efficient-ai-series-a/",
@@ -495,24 +693,6 @@
       "category": "monde",
       "ts": 1789474200000,
       "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are suddenly all in agree"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/bytedances-first-half-profit-drops-20-billion-weighed-ai-spending",
-      "title": "ByteDance’s First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
-      "link": "https://www.theinformation.com/articles/bytedances-first-half-profit-drops-20-billion-weighed-ai-spending",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1789473654000,
-      "snippet": "ByteDance’s net profit in the first half of this year declined by a single-digit percentage to $20 billion, as the Chinese tech giant ramped up its investments in AI, according to three people with knowledge of the financial results. The company’s revenue for the period rose arou"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
-      "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
-      "link": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1789473641000,
-      "snippet": "Ars previewed Mozilla’s report on how cheap open models caught up on capability."
     },
     {
       "id": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
@@ -578,15 +758,6 @@
       "snippet": "Alex Bores, who lost a congressional primary contest that revolved around A.I. regulation, is trying to position himself at the center of the conversation for the next presidential election."
     },
     {
-      "id": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
-      "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
-      "link": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1789455630000,
-      "snippet": "The refreshed Volvos also get new infotainment systems with Gemini onboard."
-    },
-    {
       "id": "https://sifted.eu/articles/ai-agents-anthropic-openai-eu-uk-laws/",
       "title": "AI agents are moving faster than Europe can regulate",
       "link": "https://sifted.eu/articles/ai-agents-anthropic-openai-eu-uk-laws/",
@@ -594,33 +765,6 @@
       "category": "capital",
       "ts": 1789448414000,
       "snippet": ""
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1789419872000,
-      "snippet": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
-      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
-      "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1789415113000,
-      "snippet": "Musk stops attacking Apple over ChatGPT integration but not OpenAI."
-    },
-    {
-      "id": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
-      "link": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1789414122000,
-      "snippet": "This is also the last version of macOS to support Rosetta for Intel apps."
     },
     {
       "id": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
@@ -666,15 +810,6 @@
       "category": "usages",
       "ts": 1789397034000,
       "snippet": "In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry."
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
-      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
-      "link": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1789387800000,
-      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI coul"
     },
     {
       "id": "https://news.crunchbase.com/venture/y-combinator-busiest-startup-investor-nvda-ramps-up-august-2026/",
@@ -758,15 +893,6 @@
       "snippet": "It was a monster week for U.S. startup funding, with four companies each raising $1 billion or more. The Boring Co. led with a $3 billion Series D, followed by AI coding startup Cognition at $2 billion. Joining them near the top was fleet management software provider Motive, whic"
     },
     {
-      "id": "https://sifted.eu/articles/mistral-fundraise-podcast/",
-      "title": "Is Mistral's monster fundraise a win for European sovereignty?",
-      "link": "https://sifted.eu/articles/mistral-fundraise-podcast/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789149009000,
-      "snippet": ""
-    },
-    {
       "id": "https://stratechery.com/2026/duo-threats/",
       "title": "2026.37: Duo Threats",
       "link": "https://stratechery.com/2026/duo-threats/",
@@ -792,24 +918,6 @@
       "category": "france",
       "ts": 1789135345000,
       "snippet": "Six mois après son arrivée sur Mac, Google annonce le lancement de l’application Gemini sur Windows. Il sera possible de l’interroger via un raccourci clavier. Gemini dispose de son application native sur Windows Si Google avait déjà lancé une application Gemini native sur Mac, l"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/09/11/apres-avoir-ete-tenue-a-lecart-leurope-obtient-enfin-lacces-a-la-puissante-ia-mythos-5/",
-      "title": "Après avoir été tenue à l’écart, l’Europe obtient enfin l’accès à la puissante IA Mythos 5",
-      "link": "https://siecledigital.fr/2026/09/11/apres-avoir-ete-tenue-a-lecart-leurope-obtient-enfin-lacces-a-la-puissante-ia-mythos-5/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1789135052000,
-      "snippet": "Après de longs mois de discussions avec Anthropic, l’agence de cybersécurité de l’Union européenne (ENISA) vient d’obtenir l’accès aux IA Claude Mythos 5 et GPT-6 Astra. De longues discussions entre l’UE et Anthropic C’est officiel, après plusieurs mois de discussions, l’ENISA vi"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/09/11/lia-devait-faciliter-le-travail-mais-65-des-salaries-regrettent-deja-lavant-ia/",
-      "title": "L’IA devait faciliter le travail, mais 65 % des salariés regrettent déjà « l’avant IA »",
-      "link": "https://siecledigital.fr/2026/09/11/lia-devait-faciliter-le-travail-mais-65-des-salaries-regrettent-deja-lavant-ia/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1789129550000,
-      "snippet": "L’IA générative s’est imposée dans nos vies depuis près de quatre ans. Malgré les avantages que certains peuvent y voir, l’enthousiasme se mêle à une forme de lassitude. Une étude d’Adaptavist a été menée auprès de 2 500 travailleurs. Le sondage montre que le problème ne vient pa"
     },
     {
       "id": "https://news.crunchbase.com/ai/moats-that-actually-work-moatti-mighty-capital/",
@@ -857,15 +965,6 @@
       "snippet": "Cinq élus d'État américains, auteurs de SB 53, du RAISE Act et de SB 315, demandent aux laboratoires d'IA un « Mutually Agreed Pacing Framework », accord volontaire de ralentissement vérifié par des tiers, après l'intrusion d'agents d'OpenAI chez Hugging Face. Deux de leurs trois"
     },
     {
-      "id": "https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/",
-      "title": "29 Companies Joined The Unicorn Board In August, Led By AI Software And Semiconductors",
-      "link": "https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1789038019000,
-      "snippet": "A total of 29 companies joined The Crunchbase Unicorn Board in August, adding around $63 billion in value to the board. More than a third of the companies to join last month were under 3 years old, underscoring how quickly some of today's best-funded startups are reaching multibi"
-    },
-    {
       "id": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
       "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
       "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
@@ -911,15 +1010,6 @@
       "snippet": "A short-lived generative AI feature in Google Earth that allowed users to create fake satellite imagery shows the lasting effects of unvetted AI tools during a conflict."
     },
     {
-      "id": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
-      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
-      "link": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1788999138000,
-      "snippet": "Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development."
-    },
-    {
       "id": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
@@ -936,15 +1026,6 @@
       "category": "capab",
       "ts": 1788998400000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html",
-      "title": "Apple Unveils the iPhone Duo, a Foldable Phone That Costs $1,999",
-      "link": "https://www.nytimes.com/2026/09/09/technology/apple-iphone-duo-foldable-phone.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1788991468000,
-      "snippet": "At the company’s annual September product event, Apple also demonstrated its work on artificial intelligence and other new devices."
     },
     {
       "id": "https://www.actuia.com/actualite/distillation-la-nsa-la-cisa-et-le-fbi-nomment-six-societes-chinoises-et-prescrivent-une-riposte-aux-fournisseurs-americains/",
@@ -1163,15 +1244,6 @@
       "snippet": ""
     },
     {
-      "id": "https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/",
-      "title": "Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face",
-      "link": "https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/",
-      "source": "Stratechery",
-      "category": "radar",
-      "ts": 1788256800000,
-      "snippet": "Nvidia's earnings were remarking and boring — two sides of the same coin. Everything the company does is about avoiding a consolidated world."
-    },
-    {
       "id": "https://restofworld.org/2026/ai-safety-bias/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "title": "AI safety is designed in the West, and failing users everywhere",
       "link": "https://restofworld.org/2026/ai-safety-bias/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -1197,15 +1269,6 @@
       "category": "radar",
       "ts": 1788183066000,
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting"
-    },
-    {
-      "id": "https://restofworld.org/2026/china-us-ai-future/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "title": "I went to China to see a different AI future. It looked familiar",
-      "link": "https://restofworld.org/2026/china-us-ai-future/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "category": "monde",
-      "ts": 1787922000000,
-      "snippet": "My trip to China revealed an AI race that looks less like a clash of competing visions, and more like two countries racing toward a similar future."
     },
     {
       "id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
