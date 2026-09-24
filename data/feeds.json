@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:57:35.484Z",
+  "generatedAt": "2026-09-24T09:58:10.139Z",
   "categories": [
     {
       "id": "radar",
@@ -26,8 +26,602 @@
       "label": "France & Europe"
     }
   ],
-  "count": 170,
+  "count": 171,
   "items": [
+    {
+      "id": "https://www.techmeme.com/260924/p13#a260924p13",
+      "title": "Brookings projects US AI spending to total $10.3T between 2025 and 2032, averaging 3.6% of GDP per year, the largest single-industry build-out as a share of GDP (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260924/p13#a260924p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790242815000,
+      "snippet": "Wall Street Journal: Brookings projects US AI spending to total $10.3T between 2025 and 2032, averaging 3.6% of GDP per year, the largest single-industry build-out as a share of GDP — Data-center spending is greater than that for the canals, railroads and grid combined—creating j"
+    },
+    {
+      "id": "https://www.numerama.com/cyberguerre/2339277-questionnaire-sur-laustralie-site-gouvernemental-infiltre-mail-generique-ce-que-lon-sait-de-la-nouvelle-derive-agentique-dopenai.html",
+      "title": "Questionnaire sur l’Australie, site gouvernemental infiltré, mail générique : ce que l’on sait de la nouvelle dérive agentique d’OpenAI",
+      "link": "https://www.numerama.com/cyberguerre/2339277-questionnaire-sur-laustralie-site-gouvernemental-infiltre-mail-generique-ce-que-lon-sait-de-la-nouvelle-derive-agentique-dopenai.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1790242532000,
+      "snippet": "Un agent d'IA d'OpenAI a accédé sans autorisation à un portail de statistiques lié à Medicare, l'assurance maladie australienne. Le Premier ministre Anthony Albanese vient de rendre l'affaire publique et dénonce la façon dont l'entreprise l'a prévenu."
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p12#a260924p12",
+      "title": "Sources: DeepSeek's annualized revenue run rate hits $1B, up from less than $500M a few months ago, as it aims to finalize a ~$7.5B fundraise by late October (The Information)",
+      "link": "https://www.techmeme.com/260924/p12#a260924p12",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790242205000,
+      "snippet": "The Information: Sources: DeepSeek's annualized revenue run rate hits $1B, up from less than $500M a few months ago, as it aims to finalize a ~$7.5B fundraise by late October — DeepSeek's annualized revenue run rate has hit $1 billion, more than double from less than $500 million"
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p11#a260924p11",
+      "title": "Sources citing Firmus' IPO draft prospectus: the Australian data center operator expects to report a $77M loss after tax for H1 FY27 as it prepares to raise $5B (Christine Chen/Reuters)",
+      "link": "https://www.techmeme.com/260924/p11#a260924p11",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790241301000,
+      "snippet": "Christine Chen / Reuters: Sources citing Firmus' IPO draft prospectus: the Australian data center operator expects to report a $77M loss after tax for H1 FY27 as it prepares to raise $5B — Australian data centre operator Firmus expects to lose $77 million in the current half, acc"
+    },
+    {
+      "id": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1790240658000,
+      "snippet": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gem"
+    },
+    {
+      "id": "https://sifted.eu/articles/uk-startup-building-ais-next-enterprise-category-brnd/",
+      "title": "Inside the UK startup building AI’s next enterprise category",
+      "link": "https://sifted.eu/articles/uk-startup-building-ais-next-enterprise-category-brnd/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790240400000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.numerama.com/tech/2339199-meta-devoile-un-tamagotchi-pour-emporter-muse-son-ia-partout-avec-vous.html",
+      "title": "Meta dévoile un « Tamagotchi » pour emporter Muse (son IA) partout avec vous",
+      "link": "https://www.numerama.com/tech/2339199-meta-devoile-un-tamagotchi-pour-emporter-muse-son-ia-partout-avec-vous.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1790239655000,
+      "snippet": "Le 23 septembre 2026, Meta a présenté le Muse Charm, un petit appareil pour discuter avec son assistant IA. Derrière son allure de Tamagotchi, une bataille se dessine : celle des objets qui pourraient nous faire moins sortir notre smartphone."
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p10#a260924p10",
+      "title": "Anthropic says it made Claude.ai and the Claude desktop app's core UX ~3x faster in August using an internal model to ship improvements \"in a two-week sprint\" (Anthropic)",
+      "link": "https://www.techmeme.com/260924/p10#a260924p10",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790232063000,
+      "snippet": "Anthropic: Anthropic says it made Claude.ai and the Claude desktop app's core UX ~3x faster in August using an internal model to ship improvements “in a two-week sprint” — Once Claude can measure something, it can make it faster. So we kept finding more things to measure. Raymond"
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p9#a260924p9",
+      "title": "Analysis: total net profit at ~190 chipmakers listed in mainland China rose 620% YoY in H1 2026, driven by the AI boom and China's self-sufficiency campaign (Tomoko Wakasugi/Nikkei Asia)",
+      "link": "https://www.techmeme.com/260924/p9#a260924p9",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790231401000,
+      "snippet": "Tomoko Wakasugi / Nikkei Asia: Analysis: total net profit at ~190 chipmakers listed in mainland China rose 620% YoY in H1 2026, driven by the AI boom and China's self-sufficiency campaign — SHANGHAI — Earnings at Chinese chipmakers have grown more than 600% during the first half,"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising",
+      "title": "DeepSeek’s Annualized Revenue Hits $1 Billion as Startup Finalizes $7.5 Billion Fundraising",
+      "link": "https://www.theinformation.com/articles/deepseeks-annualized-revenue-hits-1-billion-startup-finalizes-7-5-billion-fundraising",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790230850000,
+      "snippet": "DeepSeek’s annualized revenue run rate has hit $1 billion, more than double from less than $500 million a few months ago, buoyed by a recent price hike as well as continued popularity of its models, according to two people with direct knowledge of the matter. The latest revenue f"
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p5#a260924p5",
+      "title": "Q&A with Cisco President and CPO Jeetu Patel on its multibillion-dollar networking deals for AI infrastructure, competition from partners like Nvidia, and more (Rafe Rosner-Uddin/Financial Times)",
+      "link": "https://www.techmeme.com/260924/p5#a260924p5",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790228461000,
+      "snippet": "Rafe Rosner-Uddin / Financial Times: Q&A with Cisco President and CPO Jeetu Patel on its multibillion-dollar networking deals for AI infrastructure, competition from partners like Nvidia, and more — The president of the dotcom-era darling discusses the company's strong conviction"
+    },
+    {
+      "id": "https://transluce.org/agent-activity",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "link": "https://transluce.org/agent-activity",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1790227270000,
+      "snippet": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 124 # Comments: 85"
+    },
+    {
+      "id": "https://sifted.eu/articles/simon-kohl-latent-labs-deepmind-founders-factory/",
+      "title": "‘Pushing the frontier is best done outside’: DeepMind alum Simon Kohl on leaving Big Tech",
+      "link": "https://sifted.eu/articles/simon-kohl-latent-labs-deepmind-founders-factory/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790226027000,
+      "snippet": ""
+    },
+    {
+      "id": "https://sifted.eu/articles/claude-founder-house-london/",
+      "title": "Anthropic: We're not trying to eat startups' lunch",
+      "link": "https://sifted.eu/articles/claude-founder-house-london/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790226025000,
+      "snippet": ""
+    },
+    {
+      "id": "https://sifted.eu/articles/ai-safety-startups-mapped-38-companies-building-europes-trust-layer/",
+      "title": "AI safety startups mapped: 37 companies building Europe's trust layer",
+      "link": "https://sifted.eu/articles/ai-safety-startups-mapped-38-companies-building-europes-trust-layer/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790226007000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p3#a260924p3",
+      "title": "AI agents, including OpenAI's, attempted to hack UNM's digital library, Data USA, and an Australian government website in May and June using urlquery.net (Transluce)",
+      "link": "https://www.techmeme.com/260924/p3#a260924p3",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790224863000,
+      "snippet": "Transluce: AI agents, including OpenAI's, attempted to hack UNM's digital library, Data USA, and an Australian government website in May and June using urlquery.net — We present evidence that AI agents used the web security service urlquery.net to bypass restrictions and expand t"
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p2#a260924p2",
+      "title": "Sources: Modal Labs is in funding talks at a ~$15B valuation, up from $4.65B in May; Baseten is in funding talks at a $26B valuation, up from $13B in June (Bloomberg)",
+      "link": "https://www.techmeme.com/260924/p2#a260924p2",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790223965000,
+      "snippet": "Bloomberg: Sources: Modal Labs is in funding talks at a ~$15B valuation, up from $4.65B in May; Baseten is in funding talks at a $26B valuation, up from $13B in June — Two startups that provide platforms to help businesses run artificial intelligence models are in funding talks t"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/open-source-model-price-cuts-keep-ai-costs-control",
+      "title": "Open Source, Model Price Cuts Keep AI Costs Under Control",
+      "link": "https://www.theinformation.com/articles/open-source-model-price-cuts-keep-ai-costs-control",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790223931000,
+      "snippet": "Open-source models as well as cheaper model releases from Anthropic and OpenAI are helping business customers rein in costs while getting as much or more out of AI, said speakers at The Information’s AI Agenda Live conference in San Francisco Wednesday. “The existence of open sou"
+    },
+    {
+      "id": "https://www.techmeme.com/260924/p1#a260924p1",
+      "title": "Qualcomm announces the Snapdragon Sound Elite Gen 2 for audio wearables, with up to 2x greater on-device AI performance and up to 40% lower power consumption (Andrew Romero/9to5Google)",
+      "link": "https://www.techmeme.com/260924/p1#a260924p1",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790222414000,
+      "snippet": "Andrew Romero / 9to5Google: Qualcomm announces the Snapdragon Sound Elite Gen 2 for audio wearables, with up to 2x greater on-device AI performance and up to 40% lower power consumption — Qualcomm announced the Snapdragon Sound Elite Gen 2 as a substantial chipset for upcoming au"
+    },
+    {
+      "id": "https://www.techmeme.com/260923/p65#a260923p65",
+      "title": "Google DeepMind SVP Koray Kavukcuoglu says Gemini 4 is in the early phase of post-training and hopes it will be released \"much earlier\" than the end of 2026 (Laura Bratton/The Information)",
+      "link": "https://www.techmeme.com/260923/p65#a260923p65",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1790221802000,
+      "snippet": "Laura Bratton / The Information: Google DeepMind SVP Koray Kavukcuoglu says Gemini 4 is in the early phase of post-training and hopes it will be released “much earlier” than the end of 2026 — Google is nearing the release of its newest flagship model, Gemini 4, the head of its De"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/23/technology/openai-ai-breach-australia.html",
+      "title": "OpenAI’s A.I. Tried Breaching Four Other Targets, With No Prompting",
+      "link": "https://www.nytimes.com/2026/09/23/technology/openai-ai-breach-australia.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1790218225000,
+      "snippet": "In each incident, the technology appeared to be conducting mundane data collection and resorted to hacking techniques to get it, researchers said."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model",
+      "title": "Google Nears Release of Flagship Gemini 4 AI Model",
+      "link": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790216135000,
+      "snippet": "Google is nearing the release of its newest flagship model, Gemini 4, the head of its DeepMind division said Wednesday, a long-awaited development after the tech giant fell behind rivals Anthropic and OpenAI in the AI model race. Speaking at The Information’s AI Agenda Live Summi"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/23/nyregion/data-center-pollution-new-jersey.html",
+      "title": "Data Center Is Fined $1.1 Million for Operating 62 Power Generators",
+      "link": "https://www.nytimes.com/2026/09/23/nyregion/data-center-pollution-new-jersey.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1790212637000,
+      "snippet": "New Jersey officials said that the natural gas-powered generators, each the size of a tractor-trailer, were operating without permits."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "title": "Everything new coming to Meta’s AI agent Muse",
+      "link": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790212412000,
+      "snippet": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "link": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790210777000,
+      "snippet": "The tiny hardware device creates another mobile home for its AI agent Muse."
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html",
+      "title": "Meta Unveils 3 Smart Glasses With Built-In A.I.",
+      "link": "https://www.nytimes.com/2026/09/23/technology/meta-ai-smart-glasses-conference.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1790208988000,
+      "snippet": "Artificial intelligence again dominated the company’s annual developer conference, as Mark Zuckerberg doubled down on how the technology can empower people."
+    },
+    {
+      "id": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "title": "Meta is making a standalone Muse AI gadget",
+      "link": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1790208920000,
+      "snippet": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big scr"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/amazons-new-ai-offer-reflects-discounting-surge",
+      "title": "Amazon’s New AI Offer Reflects Discounting Surge",
+      "link": "https://www.theinformation.com/articles/amazons-new-ai-offer-reflects-discounting-surge",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790208060000,
+      "snippet": "Have we gone full circle on AI pricing? A bunch of tech firms are throwing around discounts and free offers for AI products, with Amazon on Wednesday announcing that merchants selling on its shopping site will get a year’s free use of its Quick Plus AI assistant product. Microsof"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/meta-announces-new-retail-partnerships-agent-muse",
+      "title": "Meta Announces New Retail Partnerships for Agent Muse",
+      "link": "https://www.theinformation.com/briefings/meta-announces-new-retail-partnerships-agent-muse",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790207955000,
+      "snippet": "Meta Platforms announced partnerships with Walmart and other retailers for its AI agent Muse days after e-commerce giant Amazon blocked the personalized agent from accessing its shopping site. At Meta’s annual Connect conference on Wednesday, Chief AI officer Alexandr Wang said t"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/09/23/us/politics/ai-leaders-united-nations-global-response.html",
+      "title": "America’s A.I. Leaders Warn U.N. of Possible Peril Absent a Global Response",
+      "link": "https://www.nytimes.com/2026/09/23/us/politics/ai-leaders-united-nations-global-response.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1790207660000,
+      "snippet": "Sam Altman of OpenAI and Dario Amodei of Anthropic told the Security Council that international cooperation was needed to ensure that A.I. remains under human control."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+      "title": "Meta introduces camera-free AI glasses",
+      "link": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790206784000,
+      "snippet": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life."
+    },
+    {
+      "id": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+      "title": "Meta is making Muse more powerful and will let you video chat with it, too",
+      "link": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1790205582000,
+      "snippet": "Meta is quickly iterating on its new Muse AI agent, announcing a bunch of updates today that make the bot more capable and able to chat with you in more ways. Muse agents are getting their own email addresses that they can use for accomplishing tasks. You'll also be able to commu"
+    },
+    {
+      "id": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+      "title": "Meta Connect 2026: The biggest news and announcements",
+      "link": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1790203500000,
+      "snippet": "It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories. The company has been f"
+    },
+    {
+      "id": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "link": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1790203096000,
+      "snippet": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 403 # Comments: 174"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "title": "Anthropic says its biology lab has already found something big",
+      "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790201859000,
+      "snippet": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop."
+    },
+    {
+      "id": "https://artificialanalysis.ai/models/mercury-2-5",
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "link": "https://artificialanalysis.ai/models/mercury-2-5",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1790201779000,
+      "snippet": "Article URL: https://artificialanalysis.ai/models/mercury-2-5 Comments URL: https://news.ycombinator.com/item?id=49823348 Points: 105 # Comments: 64"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/blackstone-exec-says-big-unknowns-remain-ai-credit-demand",
+      "title": "Blackstone Exec Says Big Unknowns Remain For AI Credit Demand",
+      "link": "https://www.theinformation.com/briefings/blackstone-exec-says-big-unknowns-remain-ai-credit-demand",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790201513000,
+      "snippet": "Jas Khaira, head of Blackstone’s AI-focused investment team, said on Wednesday that the firm is still figuring out which kinds of investors will step in to provide the massive amounts of financing still needed for the AI buildout. The investment giant itself is waiting to see if "
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-agent-hacked-australian-government-prime-minister-says",
+      "title": "OpenAI Agent Hacked Australian Government, Prime Minister Says",
+      "link": "https://www.theinformation.com/briefings/openai-agent-hacked-australian-government-prime-minister-says",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790199281000,
+      "snippet": "An AI agent developed by OpenAI hacked an Australian government website in June, Australian prime minister Anthony Albanese said on Wednesday. The AI accessed both public and nonpublic data from the country’s Department of Health website, Albanese told reporters, adding that the "
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/patreon-co-founder-sam-yam-joins-openai-lead-new-creator-division",
+      "title": "Patreon Co-Founder Sam Yam Joins OpenAI to Lead New Creator Division",
+      "link": "https://www.theinformation.com/briefings/patreon-co-founder-sam-yam-joins-openai-lead-new-creator-division",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790197556000,
+      "snippet": "OpenAI has hired Patreon co-founder Sam Yam to lead a new creator product division, Creator Product, Yam announced Wednesday on X, a sign of renewed interest in attracting consumers. Two other former Patreon executives, head of product Drew Rowny and head of engineering Shannon M"
+    },
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+      "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+      "link": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1790196748000,
+      "snippet": "Trump focus on winning “AI race” may deter China from sharing safety intel."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+      "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
+      "link": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790195717000,
+      "snippet": "The VC firm says that AI-native companies are growing faster than any technology, ever."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/anthropic-says-ai-helped-discover-possible-new-gene-editing-tool",
+      "title": "Anthropic Says Its AI Helped Discover a Possible New Gene-Editing Tool",
+      "link": "https://www.theinformation.com/briefings/anthropic-says-ai-helped-discover-possible-new-gene-editing-tool",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790195008000,
+      "snippet": "Anthropic said that Claude helped discover a previously unknown molecular system that the company said could represent a new gene editing tool akin to CRISPR, which has transformed the creation of new gene therapies. In a post on X, Anthropic CEO Dario Amodei cautioned that the “"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/sam-altman-dario-amodei-brief-un-security-council",
+      "title": "Sam Altman and Dario Amodei Brief UN Security Council",
+      "link": "https://www.theinformation.com/briefings/sam-altman-dario-amodei-brief-un-security-council",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790194761000,
+      "snippet": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei briefed the United Nations Security Council on Wednesday as part of the international organization’s General Assembly week in New York. In a session on artificial intelligence and international security, the two executives addr"
+    },
+    {
+      "id": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+      "title": "YouTube promises custom feeds and a lot more AI later this year",
+      "link": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1790192153000,
+      "snippet": "YouTube's next year could change the content you see with a big focus on AI and livestreams."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "link": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790191888000,
+      "snippet": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s."
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790188900000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1790186807000,
+      "snippet": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system Comments URL: https://news.ycombinator.com/item?id=49820134 Points: 650 # Comments: 670"
+    },
+    {
+      "id": "https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking/",
+      "title": "The old cybersecurity model is breaking",
+      "link": "https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790185442000,
+      "snippet": "As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-native world. We’re even "
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/amazon-gives-sellers-12-months-ai-software-quick-free",
+      "title": "Amazon Gives Sellers 12 Months of AI Software Quick Plus For Free",
+      "link": "https://www.theinformation.com/briefings/amazon-gives-sellers-12-months-ai-software-quick-free",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790185039000,
+      "snippet": "Amazon is giving the merchants that sell goods on Amazon’s site 12 free months of Quick Plus, an AWS AI workplace assistant, Amazon announced Wednesday at its annual conference for sellers, Amazon Accelerate. Quick Plus normally costs users $20 a month. Amazon is also letting sel"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "title": "ChatGPT mobile app gets voice-based agentic features",
+      "link": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790182800000,
+      "snippet": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks."
+    },
+    {
+      "id": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/",
+      "title": "Nscale helped ByteDance subsidiary access Nvidia chips, swerving US rules — reports",
+      "link": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790182773000,
+      "snippet": ""
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "title": "Even Americans who use AI every day are worried about it",
+      "link": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790182198000,
+      "snippet": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation."
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language/",
+      "title": "YouTube’s conversational video editing tool lets creators make edits in natural language",
+      "link": "https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790178417000,
+      "snippet": "Creators will be able to use AI in a conversational chat interface to help them edit videos."
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "title": "Gemini 3.8 text-to-speech",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1790177363000,
+      "snippet": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/ Comments URL: https://news.ycombinator.com/item?id=49817615 Points: 305 # Comments: 137"
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+      "title": "YouTube Music gets more conversational with new AI features",
+      "link": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790176770000,
+      "snippet": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists."
+    },
+    {
+      "id": "https://sifted.eu/articles/magic-ai-fitness-mirror-funding-round/",
+      "title": "Magic AI raises £8m to take its AI-powered fitness mirror to the US",
+      "link": "https://sifted.eu/articles/magic-ai-fitness-mirror-funding-round/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790175695000,
+      "snippet": ""
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/23/ibexa-lance-des-agents-ia-capables-de-gerer-une-campagne-marketing-de-a-a-z/",
+      "title": "Ibexa lance des agents IA capables de gérer une campagne marketing de A à Z",
+      "link": "https://siecledigital.fr/2026/09/23/ibexa-lance-des-agents-ia-capables-de-gerer-une-campagne-marketing-de-a-a-z/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1790175299000,
+      "snippet": "De nombreux outils d’IA sont à la disposition des équipes marketing. Toutefois, leur multiplication ne simplifie pas pour autant le travail. Il faut coordonner les données, les contenus et les validations. Ibexa veut simplifier l’ensemble du processus grâce à l’Agentic Marketing "
+    },
+    {
+      "id": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "link": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1790173800000,
+      "snippet": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/expect-ai-agenda-live-crusoe-thinking-machines-labs-strike-compute-deal",
+      "title": "What To Expect at AI Agenda Live; Crusoe and Thinking Machines Labs Strike a Compute Deal",
+      "link": "https://www.theinformation.com/articles/expect-ai-agenda-live-crusoe-thinking-machines-labs-strike-compute-deal",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790172090000,
+      "snippet": "Happy AI Agenda Live day! For those joining us today at SFMOMA, I’m so excited to meet you all and talk about this exciting, if slightly contentious, moment in the AI industry. Our staff and attendees will ask top researchers, founders and executives from OpenAI, Google DeepMind "
+    },
+    {
+      "id": "https://sifted.eu/articles/anthropic-nvidia-basecamp-research/",
+      "title": "Anthropic and Nvidia back Basecamp Research in $140m round",
+      "link": "https://sifted.eu/articles/anthropic-nvidia-basecamp-research/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1790172030000,
+      "snippet": ""
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/23/le-succes-de-chatgpt-coute-une-fortune-a-openai-qui-pourrait-perdre-278-milliards-de-dollars/",
+      "title": "Le succès de ChatGPT coûte une fortune à OpenAI, qui pourrait perdre 278 milliards de dollars",
+      "link": "https://siecledigital.fr/2026/09/23/le-succes-de-chatgpt-coute-une-fortune-a-openai-qui-pourrait-perdre-278-milliards-de-dollars/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1790169098000,
+      "snippet": "OpenAI prévoit une forte croissance de ses revenus alors que ChatGPT continue de gagner des utilisateurs. Cette tendance ne suffit pas à couvrir toutes les dépenses inévitables liées au fonctionnement des modèles. D’après les informations du Financial Times, le flux de trésorerie"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/founders-fund-khosla-ventures-visit-china-countrys-ai-prowess-rises",
+      "title": "Founders Fund, Khosla Ventures Visit China as Country’s AI Prowess Rises",
+      "link": "https://www.theinformation.com/articles/founders-fund-khosla-ventures-visit-china-countrys-ai-prowess-rises",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790168442000,
+      "snippet": "U.S. venture capitalists have slashed investments in Chinese startups in recent years as relations between the two superpowers have soured. But behind the scenes, plenty are taking weekslong trips to meet with the country’s tech founders—a sign of the influence Chinese startups l"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/09/23/anthropic-veut-ralentir-la-course-a-lia-mais-lance-un-modele-plus-puissant-et-moins-cher/",
+      "title": "Anthropic veut ralentir la course à l’IA, mais lance un modèle plus puissant et moins cher",
+      "link": "https://siecledigital.fr/2026/09/23/anthropic-veut-ralentir-la-course-a-lia-mais-lance-un-modele-plus-puissant-et-moins-cher/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1790168080000,
+      "snippet": "Dario Amodei demandait il y a quelques jours aux acteurs de l’IA de ralentir le rythme pour mieux maîtriser les risques et renforcer les mesures de sécurité. Dix jours plus tard, Anthropic présente Claude Opus 5.5. Il s’agit d’une nouvelle IA décrite comme plus rapide et moins co"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+      "link": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1790165400000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a con"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/china-leads-u-s-top-ai-talent-study-finds",
+      "title": "China Leads U.S. in Top AI Talent, Study Finds",
+      "link": "https://www.theinformation.com/briefings/china-leads-u-s-top-ai-talent-study-finds",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790162219000,
+      "snippet": "Chinese AI researchers have increasingly opted to stay and work in their home country, leading China to become the top destination for elite AI talent, according to a study by think tank Carnegie China. The research found that the share of top AI researchers working in China rose"
+    },
+    {
+      "id": "https://news.crunchbase.com/ma/emerging-map-ai-agentic-security-sagie/",
+      "title": "The Emerging M&A Map For AI Agent Security",
+      "link": "https://news.crunchbase.com/ma/emerging-map-ai-agentic-security-sagie/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1790161222000,
+      "snippet": "As AI agents gain access to enterprise data, systems and tools, they are emerging as a new class of active identity requiring specialized permissions, monitoring and governance, writes guest author Itay Sagie. He believes the market, and its M&A opportunities, will likely form ar"
+    },
     {
       "id": "https://sifted.eu/articles/alan-chang-fuse-ai-reviews/",
       "title": "‘You cannot hide from AI’: Should we fear AI-led performance reviews?",
@@ -36,6 +630,15 @@
       "category": "capital",
       "ts": 1790160028000,
       "snippet": ""
+    },
+    {
+      "id": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "title": "Dario Amodei wants to slow AI. China isn’t taking orders",
+      "link": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "Rest of World",
+      "category": "monde",
+      "ts": 1790157600000,
+      "snippet": "Chinese officials and engineers see an attempt to preserve the U.S. lead; “Why do you always get to define the game — and change the rules?”"
     },
     {
       "id": "https://www.theinformation.com/briefings/shares-chinese-ai-model-firms-fall-report-regulatory-probe",
@@ -56,76 +659,13 @@
       "snippet": "OpenAI and Grab, a Singapore-based transport and food delivery company, on Wednesday launched a program to train Grab’s drivers, merchants and delivery riders to use ChatGPT for work. The program covers Singapore, Thailand, Indonesia and the Philippines and aims to train around 3"
     },
     {
-      "id": "https://www.techmeme.com/260923/p8#a260923p8",
-      "title": "NADI, a new DARPA-like Dutch government agency, launches a €40M challenge to accelerate chip design with AI in collaboration with its German counterpart SPRIND (Toby Sterling/Reuters)",
-      "link": "https://www.techmeme.com/260923/p8#a260923p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790151915000,
-      "snippet": "Toby Sterling / Reuters: NADI, a new DARPA-like Dutch government agency, launches a €40M challenge to accelerate chip design with AI in collaboration with its German counterpart SPRIND — A new Dutch government agency set up to achieve strategic innovation will work with its Germa"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2338235-le-rafale-du-futur-se-dessine-un-peu-plus-lavion-de-combat-francais-a-teste-2-nouvelles-ia-souveraines.html",
-      "title": "Le Rafale du futur se dessine un peu plus : l’avion de combat français a testé 2 nouvelles IA souveraines",
-      "link": "https://www.numerama.com/tech/2338235-le-rafale-du-futur-se-dessine-un-peu-plus-lavion-de-combat-francais-a-teste-2-nouvelles-ia-souveraines.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1790151843000,
-      "snippet": "Dassault Aviation a fait voler deux intelligences artificielles à bord d'un Rafale. Objectif affiché : des algorithmes souverains qui épaulent le pilote dans ses missions."
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p7#a260923p7",
-      "title": "German publisher C.H.BECK takes a majority stake in Noxtua, which develops AI tech to research, analyze, and draft legal documents and raised a $100M+ Series C (Cate Lawrence/Tech.eu)",
-      "link": "https://www.techmeme.com/260923/p7#a260923p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790150451000,
-      "snippet": "Cate Lawrence / Tech.eu: German publisher C.H.BECK takes a majority stake in Noxtua, which develops AI tech to research, analyze, and draft legal documents and raised a $100M+ Series C — The German legal AI company is deepening its ties with European publishers as it expands acro"
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p6#a260923p6",
-      "title": "A profile of Noah Shinn, founder of AI assistant Instinct, who soft-launched it as an invite-only site for VCs and is reportedly fundraising at a $10B valuation (Business Insider)",
-      "link": "https://www.techmeme.com/260923/p6#a260923p6",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790145001000,
-      "snippet": "Business Insider: A profile of Noah Shinn, founder of AI assistant Instinct, who soft-launched it as an invite-only site for VCs and is reportedly fundraising at a $10B valuation — Noah Shinn was publishing influential AI research before he graduated from college. Now, at the rip"
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p5#a260923p5",
-      "title": "Global AI glasses shipments, including display-less and AR and AI glasses, rose 263% YoY in H1 2026, driven by Meta and EssilorLuxottica's display-less lineup (Counterpoint Research)",
-      "link": "https://www.techmeme.com/260923/p5#a260923p5",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790144101000,
-      "snippet": "Counterpoint Research: Global AI glasses shipments, including display-less and AR and AI glasses, rose 263% YoY in H1 2026, driven by Meta and EssilorLuxottica's display-less lineup — AI glasses market accelerates in H1 2026, driven by display-less devices, Meta's dominance and g"
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p4#a260923p4",
-      "title": "Sources: China's SASAC, which oversees state-owned companies, is surveying the number of Broadcom switches in state-backed data centers amid a domestic AI drive (Financial Times)",
-      "link": "https://www.techmeme.com/260923/p4#a260923p4",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790143501000,
-      "snippet": "Financial Times: Sources: China's SASAC, which oversees state-owned companies, is surveying the number of Broadcom switches in state-backed data centers amid a domestic AI drive — Survey comes amid drive to boost domestic players and reduce reliance on foreign AI infrastructure"
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p2#a260923p2",
-      "title": "Patreon co-founder Sam Yam says he is joining OpenAI to lead Creator Product, alongside Patreon's Head of Product Drew Rowny and Head of Engineering Shannon Ma (Sam Yam/@samyamiam)",
-      "link": "https://www.techmeme.com/260923/p2#a260923p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790140205000,
-      "snippet": "Sam Yam / @samyamiam: Patreon co-founder Sam Yam says he is joining OpenAI to lead Creator Product, alongside Patreon's Head of Product Drew Rowny and Head of Engineering Shannon Ma — 1/ I'm joining @OpenAI to lead Creator Product after over 13 years since starting @Patreon. Comi"
-    },
-    {
-      "id": "https://www.techmeme.com/260923/p1#a260923p1",
-      "title": "Sources and Nscale's US SEC filings: ByteDance accounted for nearly 75% of Nscale's sales in 2025 and used Nscale's facility in Norway to access Nvidia AI chips (Financial Times)",
-      "link": "https://www.techmeme.com/260923/p1#a260923p1",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790139901000,
-      "snippet": "Financial Times: Sources and Nscale's US SEC filings: ByteDance accounted for nearly 75% of Nscale's sales in 2025 and used Nscale's facility in Norway to access Nvidia AI chips — Chinese tech giant was AI cloud provider's largest customer last year but is not prominently named i"
+      "id": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "title": "The AI Hype Index: AI loves cheating",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1790154000000,
+      "snippet": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have a"
     },
     {
       "id": "https://sifted.eu/articles/qdrants-next-chapter-from-vector-search-into-physical-ai/",
@@ -146,15 +686,6 @@
       "snippet": ""
     },
     {
-      "id": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
-      "link": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790139548000,
-      "snippet": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do."
-    },
-    {
       "id": "https://www.theinformation.com/briefings/anthropic-talks-lease-apollo-owned-stream-data-centers",
       "title": "Anthropic in Talks to Lease Apollo-Controlled Stream Data Centers",
       "link": "https://www.theinformation.com/briefings/anthropic-talks-lease-apollo-owned-stream-data-centers",
@@ -164,58 +695,13 @@
       "snippet": "Anthropic is in early talks to lease up to 1 gigawatt in compute capacity from Stream Data Centers, a developer majority-owned by Apollo Global Management, which could house tensor processing units designed by Broadcom and Google, The Information reported Tuesday. Anthropic could"
     },
     {
-      "id": "https://www.techmeme.com/260922/p64#a260922p64",
-      "title": "Six major banks, including BofA and Capital One, warn that increased autonomy for agentic commerce chatbots could lead to more scams, fraud, and disputes (Ece Yildirim/Gizmodo)",
-      "link": "https://www.techmeme.com/260922/p64#a260922p64",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790135700000,
-      "snippet": "Ece Yildirim / Gizmodo: Six major banks, including BofA and Capital One, warn that increased autonomy for agentic commerce chatbots could lead to more scams, fraud, and disputes — Agentic commerce could increase the amount of scams, fraud and disputes, the banks warn in a new rep"
-    },
-    {
-      "id": "https://www.techmeme.com/260922/p63#a260922p63",
-      "title": "Go.AI, which offers on-premises AI hardware and software tools for regulated organizations like banks, raised an $85M Series A led by Updata Partners (Ryan Lawler/Axios)",
-      "link": "https://www.techmeme.com/260922/p63#a260922p63",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790135401000,
-      "snippet": "Ryan Lawler / Axios: Go.AI, which offers on-premises AI hardware and software tools for regulated organizations like banks, raised an $85M Series A led by Updata Partners — Go.AI, which sells AI hardware appliances to banks, raised $85 million in Series A funding, CEO David Mosca"
-    },
-    {
-      "id": "https://www.techmeme.com/260922/p62#a260922p62",
-      "title": "Anthropic and OpenEvidence partner to offer a specialized version of OpenEvidence's AI search tool for physicians in about 100 low- and middle-income countries (Nancy Lapid/Reuters)",
-      "link": "https://www.techmeme.com/260922/p62#a260922p62",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790134501000,
-      "snippet": "Nancy Lapid / Reuters: Anthropic and OpenEvidence partner to offer a specialized version of OpenEvidence's AI search tool for physicians in about 100 low- and middle-income countries — Artificial intelligence startup Anthropic and medical knowledge platform OpenEvidence are colla"
-    },
-    {
-      "id": "https://www.techmeme.com/260922/p61#a260922p61",
-      "title": "Alibaba says it plans to build its first cloud regions in Turkey, Finland, and the Netherlands over the next 12 months, amid escalating US-China AI tensions (Bloomberg)",
-      "link": "https://www.techmeme.com/260922/p61#a260922p61",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1790132401000,
-      "snippet": "Bloomberg: Alibaba says it plans to build its first cloud regions in Turkey, Finland, and the Netherlands over the next 12 months, amid escalating US-China AI tensions — Alibaba Group Holding Ltd. is accelerating its data center expansion in Europe and the Middle East, propelling"
-    },
-    {
       "id": "https://www.theinformation.com/articles/anthropic-talks-cement-control-data-centers",
-      "title": "Anthropic in Talks to Cement Control Over More Data Centers",
+      "title": "Anthropic in Talks for 1-Gigawatt Data Center Lease With Apollo-Backed Developer",
       "link": "https://www.theinformation.com/articles/anthropic-talks-cement-control-data-centers",
       "source": "The Information",
       "category": "capital",
       "ts": 1790130107000,
       "snippet": "Anthropic is in early talks to lease up to 1 gigawatt in compute capacity from a data center developer majority-owned by Apollo Global Management, part of a major effort by the AI company to reduce its reliance on cloud providers. The maker of Claude has discussed signing on as a"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1790122637000,
-      "snippet": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising i"
     },
     {
       "id": "https://www.theinformation.com/articles/ai-un-xi-trump",
@@ -227,60 +713,6 @@
       "snippet": "It’s a big week for global leaders talking about AI. We’ve got a bunch of presidents and prime ministers at the United Nations General Assembly meeting in New York—motorcades are creating chaos in Midtown Manhattan right now—and Chinese president Xi Jinping is due to arrive in Wa"
     },
     {
-      "id": "https://www.theinformation.com/briefings/exclusive-microsoft-boost-copilot-discounts-launches-ai-super-app",
-      "title": "Exclusive: Microsoft to Boost Copilot Discounts as It Launches AI ‘Super App’",
-      "link": "https://www.theinformation.com/briefings/exclusive-microsoft-boost-copilot-discounts-launches-ai-super-app",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790120334000,
-      "snippet": "Microsoft leaders told sales staff this week that it is authorizing steeper discounts of 30% to 50% on subscriptions of its Copilot AI software for corporate customers who commit to purchase a large number of seats and commit to additional payments based on their usage of certain"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/barrick-gold-inks-five-year-ai-deal-ipo",
-      "title": "Barrick Gold Inks Five-Year AI Deal Before IPO",
-      "link": "https://www.theinformation.com/articles/barrick-gold-inks-five-year-ai-deal-ipo",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790119686000,
-      "snippet": "AI is top of mind for stock investors these days. That means even companies outside tech are beefing up their AI credentials ahead of new listings. In one such example, Barrick Gold’s North American unit has agreed to a five-year partnership with Avathon, a startup that develops "
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-      "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790119309000,
-      "snippet": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/coreweave-completes-4-2-billion-convertible-offering",
-      "title": "CoreWeave Completes $4.2 Billion Convertible Offering",
-      "link": "https://www.theinformation.com/briefings/coreweave-completes-4-2-billion-convertible-offering",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790119238000,
-      "snippet": "CoreWeave said on Tuesday it had completed a $4.2 billion convertible bond offering, an upsized amount versus what the AI cloud provider initially targeted last week. The company had said last Thursday that it was looking to raise $3 billion in the offering, and said it had price"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/anthropic-releases-cheaper-model-first-launch-since-slowdown-calls",
-      "title": "Anthropic releases cheaper model in first launch since slowdown calls",
-      "link": "https://www.theinformation.com/briefings/anthropic-releases-cheaper-model-first-launch-since-slowdown-calls",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790117477000,
-      "snippet": "Anthropic announced the release of its newest model, Claude Opus 5.5, saying it performs as well or better than Anthropic’s previous most powerful models, Fable 5.1 and Mythos 5.1, in domains including coding, reasoning, business workflows, and safety. At the same time, it will c"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790114203000,
-      "snippet": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach."
-    },
-    {
       "id": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
       "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
       "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
@@ -288,33 +720,6 @@
       "category": "capab",
       "ts": 1790112318000,
       "snippet": "The frontier AI model race has entered its comparison shopping phase."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/wall-streets-gpu-futures-push-stalls-cftc",
-      "title": "Wall Street’s GPU Futures Push Stalls at the CFTC",
-      "link": "https://www.theinformation.com/articles/wall-streets-gpu-futures-push-stalls-cftc",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790110729000,
-      "snippet": "The launch of futures for rental prices on Nvidia GPUs, which are seen as important to make AI compute an investable asset class, is hitting a snag. CME Group had hoped to launch contracts as soon as early October, but it won’t have regulatory approval by then. The Commodity Futu"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1790110360000,
-      "snippet": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, "
-    },
-    {
-      "id": "https://www.numerama.com/tech/2338131-claude-opus-5-5-et-gpt-6-sol-sortent-le-meme-jour-anthropic-et-openai-ont-du-mal-a-ralentir-lia.html",
-      "title": "Claude Opus 5.5 et GPT-6 Sol sortent le même jour : Anthropic et OpenAI ont du mal à « ralentir » l’IA",
-      "link": "https://www.numerama.com/tech/2338131-claude-opus-5-5-et-gpt-6-sol-sortent-le-meme-jour-anthropic-et-openai-ont-du-mal-a-ralentir-lia.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1790107860000,
-      "snippet": "Quelques jours après avoir appelé à ralentir la course à l'IA, Anthropic lance Claude Opus 5.5 et OpenAI complète sa gamme GPT-6 avec GPT-6-Sol et GPT-6-Luna. La bonne surprise vient des prix : les deux entreprises baissent les tarifs de leurs API."
     },
     {
       "id": "https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html",
@@ -326,15 +731,6 @@
       "snippet": "Group tech houses have proliferated across the San Francisco Bay Area in the artificial intelligence boom. One of the most prominent has also racked up an extensive police record."
     },
     {
-      "id": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
-      "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790107200000,
-      "snippet": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally."
-    },
-    {
       "id": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
       "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
       "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
@@ -344,60 +740,6 @@
       "snippet": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier."
     },
     {
-      "id": "https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale",
-      "title": "Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy",
-      "link": "https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1790105335000,
-      "snippet": "An early look at the first set of Googlebooks The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder perk you may want to know about lastin"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
-      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
-      "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1790105303000,
-      "snippet": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs."
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
-      "link": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790104151000,
-      "snippet": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content."
-    },
-    {
-      "id": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
-      "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
-      "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1790104138000,
-      "snippet": "You don't even need a Creative Cloud login to edit clips, but AI features cost extra."
-    },
-    {
-      "id": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790103818000,
-      "snippet": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 650 # Comments: 334"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html",
-      "title": "An A.I. Image of Trump Kissing a Woman Was Fake. It Spread Anyway.",
-      "link": "https://www.nytimes.com/2026/09/22/business/trump-natalie-harp-photo-ai.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1790102232000,
-      "snippet": "Advances in artificial intelligence and the myriad ways content is shared online have made establishing authenticity even more difficult for users of social media."
-    },
-    {
       "id": "https://www.nytimes.com/2026/09/22/technology/anthropic-ai-model-safety.html",
       "title": "Anthropic Releases a New A.I. Model, Opus 5.5, Amid Safety Debate",
       "link": "https://www.nytimes.com/2026/09/22/technology/anthropic-ai-model-safety.html",
@@ -405,96 +747,6 @@
       "category": "usages",
       "ts": 1790100399000,
       "snippet": "The company released a cheaper, faster model that it said was the strongest performer on its most rigorous internal safety tests to date."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/openai-announces-cheaper-gpt-6-family-models",
-      "title": "OpenAI Announces Cheaper GPT-6 Family Models",
-      "link": "https://www.theinformation.com/briefings/openai-announces-cheaper-gpt-6-family-models",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790100045000,
-      "snippet": "OpenAI on Tuesday announced GPT-6 Sol and GPT-6 Luna, which it describes as cheaper and faster models in the GPT-6 Astra family. The company said that the new models show significant improvements compared to their predecessors, GPT-5.6 Sol and GPT-5.6 Luna, in areas like professi"
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "title": "GPT-6 Sol and Luna",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790100034000,
-      "snippet": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1527 # Comments: 732"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-      "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-      "link": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790100000000,
-      "snippet": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/exclusive-metas-muse-surpassed-500-000-users-first-week",
-      "title": "Exclusive: Meta’s Muse Surpassed 500,000 Users After First Week",
-      "link": "https://www.theinformation.com/briefings/exclusive-metas-muse-surpassed-500-000-users-first-week",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790099361000,
-      "snippet": "Meta’s new personal AI agent, Muse, had more than 500,000 people try it out roughly a week after launch, including more than 250,000 daily active users, according to internal data viewed by The Information. Users have also submitted more than 2 million prompts. The data indicate "
-    },
-    {
-      "id": "https://www.theinformation.com/articles/new-data-show-anthropic-openai-upstarts-eating-software-budgets",
-      "title": "New Data Show Anthropic, OpenAI and Other Upstarts Are Eating into Software Budgets",
-      "link": "https://www.theinformation.com/articles/new-data-show-anthropic-openai-upstarts-eating-software-budgets",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790098708000,
-      "snippet": "We’ve been reporting for months about how companies are shifting some traditional software spending to Anthropic and OpenAI. New data from procurement software firm Zip provides further evidence. AI providers such as OpenAI, Anthropic, Cursor, and Sierra accounted for 8% of spend"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/americas-ai-dream-failing-launch",
-      "title": "Why America’s AI Dream Is Failing to Launch",
-      "link": "https://www.theinformation.com/articles/americas-ai-dream-failing-launch",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790098398000,
-      "snippet": "In 2022, American dominance in AI looked almost unassailable. The U.S. led in advanced models, semiconductors, capital and talent. Its closest competitor, China, appeared to be reeling from export controls that cut it off from the world’s most advanced process nodes, chips and me"
-    },
-    {
-      "id": "https://artificialanalysis.ai/models/claude-opus-5-5",
-      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-      "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790095891000,
-      "snippet": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 290 # Comments: 91"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790094607000,
-      "snippet": "Anthropic called it \"the strongest-performing model we've tested to date.\""
-    },
-    {
-      "id": "https://www.anthropic.com/claude-opus-5-5",
-      "title": "Claude Opus 5.5",
-      "link": "https://www.anthropic.com/claude-opus-5-5",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790094545000,
-      "snippet": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1540 # Comments: 953"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2337847-le-rampart-la-nouvelle-arme-anti-drones-de-la-marine-nationale-repere-sur-le-mistral-avant-son-depart-pour-lafrique.html",
-      "title": "Le Rampart, la nouvelle arme anti-drones de la Marine nationale, repéré sur le Mistral avant son départ pour l’Afrique",
-      "link": "https://www.numerama.com/tech/2337847-le-rampart-la-nouvelle-arme-anti-drones-de-la-marine-nationale-repere-sur-le-mistral-avant-son-depart-pour-lafrique.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1790092591000,
-      "snippet": "Un nouveau lanceur d'armes, baptisé Rampart, a été repéré sur le porte-hélicoptères amphibie Mistral, juste avant son départ pour le golfe de Guinée. Sa promesse : abattre des drones bon marché sans gaspiller de missiles hors de prix."
     },
     {
       "id": "https://siecledigital.fr/2026/09/22/lia-simpose-dans-nos-habitudes-mais-95-des-consommateurs-ne-lui-font-pas-aveuglement-confiance/",
@@ -533,24 +785,6 @@
       "snippet": ""
     },
     {
-      "id": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-      "link": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790089200000,
-      "snippet": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200."
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-      "title": "AstroForge is putting AI in command of its next spacecraft",
-      "link": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790089200000,
-      "snippet": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe."
-    },
-    {
       "id": "https://siecledigital.fr/2026/09/22/en-utilisant-claude-des-chercheurs-ont-reussi-a-pirater-openai-en-moins-de-72-heures/",
       "title": "En utilisant Claude, des chercheurs ont réussi à pirater OpenAI en moins de 72 heures",
       "link": "https://siecledigital.fr/2026/09/22/en-utilisant-claude-des-chercheurs-ont-reussi-a-pirater-openai-en-moins-de-72-heures/",
@@ -558,51 +792,6 @@
       "category": "france",
       "ts": 1790088981000,
       "snippet": "Les attaques informatiques prennent de l’ampleur à mesure que les modèles d’IA deviennent de plus en plus performants. Une équipe de Hacktron AI vient de faire une telle démonstration chez OpenAI. L’entreprise avait organisé un exercice à la fin de juillet, au cours duquel trois "
-    },
-    {
-      "id": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "title": "OpenAI is well positioned to fast-follow Jev",
-      "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790088179000,
-      "snippet": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 292 # Comments: 208"
-    },
-    {
-      "id": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-      "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
-      "link": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1790087400000,
-      "snippet": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/entertainment-booking-startup-ande-raises-52-million-lightspeed-redpoint",
-      "title": "Entertainment-Booking Startup Ande Raises $52 Million From Lightspeed, Redpoint",
-      "link": "https://www.theinformation.com/articles/entertainment-booking-startup-ande-raises-52-million-lightspeed-redpoint",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790085638000,
-      "snippet": "Personal AI agents like Instinct and Muse have promised to take away the hassle of booking hard-to-get restaurant reservations, Broadway tickets and sporting events. Now, a startup is coming out of stealth to do the same for corporate entertainment—events, group dining, catering,"
-    },
-    {
-      "id": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1790085135000,
-      "snippet": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 659 # Comments: 386"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/software-firms-discount-ai-keep-customers-anthropic-openai",
-      "title": "Software Firms Discount AI to Keep Customers From Anthropic, OpenAI",
-      "link": "https://www.theinformation.com/articles/software-firms-discount-ai-keep-customers-anthropic-openai",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790082061000,
-      "snippet": "Software firms and cloud providers including Amazon, Microsoft, Figma and Workday are dangling new discounts on AI products to clients and consulting partners exhausted by shifts in pricing. The special offers come as customers get choosier about which tools they purchase after t"
     },
     {
       "id": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
@@ -621,15 +810,6 @@
       "category": "capital",
       "ts": 1790078406000,
       "snippet": "Baselayer, an AI-powered startup that helps financial institutions verify businesses and assess fraud risk, has raised a $35 million M13-led Series A to expand its identity technology to AI agents."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/china-probes-deepseek-moonshot-potential-data-leaks-anthropic",
-      "title": "China Probes DeepSeek, Moonshot Over Potential Data Leaks to Anthropic",
-      "link": "https://www.theinformation.com/articles/china-probes-deepseek-moonshot-potential-data-leaks-anthropic",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790075887000,
-      "snippet": "China’s internet regulator is investigating DeepSeek and Moonshot AI after Anthropic alleged both companies had been routing sensitive user data to Claude models, according to people with knowledge of the matter. In a 154-page report published on Sept. 10, Anthropic detailed how "
     },
     {
       "id": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
@@ -677,15 +857,6 @@
       "snippet": "OpenAI, Google and others recently disclosed breaches by their artificial intelligence models that amplified concerns about the advancing capabilities of the technology."
     },
     {
-      "id": "https://www.theinformation.com/briefings/z-ai-open-sources-zcode-data-uploading-scandal",
-      "title": "Z.ai Open-Sources ZCode After Data Uploading Scandal",
-      "link": "https://www.theinformation.com/briefings/z-ai-open-sources-zcode-data-uploading-scandal",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790062479000,
-      "snippet": "Z.ai said that it has open-sourced its coding tool, ZCode, after the Chinese AI firm faced intense backlash from developers who found out that their data was being uploaded to cloud servers without their consent. “In response to the ZCode product security issues reported by the c"
-    },
-    {
       "id": "https://huggingface.co/blog/evaleval-aisi",
       "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
       "link": "https://huggingface.co/blog/evaleval-aisi",
@@ -713,15 +884,6 @@
       "snippet": ""
     },
     {
-      "id": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-      "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1790029478000,
-      "snippet": "A simple ClickFix attack is only one way to completely hijack the new agent."
-    },
-    {
       "id": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
       "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
       "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
@@ -729,15 +891,6 @@
       "category": "usages",
       "ts": 1790014237000,
       "snippet": "The company is expected to reach $100 billion in annualized revenue this year, even as chief executive Dario Amodei calls for slowing down development of some advanced A.I. models."
-    },
-    {
-      "id": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-      "title": "Google confirms Gemini models hacked three companies in May 2026",
-      "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1790009846000,
-      "snippet": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet."
     },
     {
       "id": "https://siecledigital.fr/2026/09/21/pour-entrainer-son-ia-openai-aurait-contourne-des-paywalls-et-recupere-des-contenus-proteges/",
@@ -821,15 +974,6 @@
       "snippet": ""
     },
     {
-      "id": "https://sifted.eu/articles/europes-advantage-moving-ai-from-the-screen-to-the-real-world/",
-      "title": "Europe’s advantage: moving AI from the screen to the real world",
-      "link": "https://sifted.eu/articles/europes-advantage-moving-ai-from-the-screen-to-the-real-world/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789966825000,
-      "snippet": ""
-    },
-    {
       "id": "https://huggingface.co/blog/tokenizers-v1",
       "title": "tokenizers v1: encode, decode and scaling, measured",
       "link": "https://huggingface.co/blog/tokenizers-v1",
@@ -857,24 +1001,6 @@
       "snippet": "After a week of multiple billion-dollar-plus rounds, startup investors have reduced the number of zeroes on their funding checks. This past week, the largest U.S. startup funding rounds were in the hundreds of millions, topped by a $550 million financing for AI infrastructure com"
     },
     {
-      "id": "https://sifted.eu/articles/uk-sovereign-ai-fund-in-talks-to-back-500m-raise-for-drug-discovery-startup/",
-      "title": "UK Sovereign AI Fund in talks to back raise for drug discovery startup",
-      "link": "https://sifted.eu/articles/uk-sovereign-ai-fund-in-talks-to-back-500m-raise-for-drug-discovery-startup/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789750306000,
-      "snippet": ""
-    },
-    {
-      "id": "https://siecledigital.fr/2026/09/18/besoin-de-slides-pour-une-reunion-claude-peut-desormais-creer-votre-presentation-de-a-a-z/",
-      "title": "Besoin de slides pour une réunion ? Claude peut désormais créer votre présentation de A à Z",
-      "link": "https://siecledigital.fr/2026/09/18/besoin-de-slides-pour-une-reunion-claude-peut-desormais-creer-votre-presentation-de-a-a-z/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1789742645000,
-      "snippet": "Anthropic annonce l’ajout de nouvelles fonctionnalités à son assistant. Claude intègre désormais Claude Docs et Claude Slides. De quoi lui permettre de créer des documents et des présentations de A à Z à partir d’une simple conversation. L’assistant d’Anthropic est plus complet q"
-    },
-    {
       "id": "https://www.actuia.com/actualite/anthropic-la-securite-de-lia-a-lepreuve-de-lentreprise/",
       "title": "Dans la fabrique d’Anthropic : pouvoir, sécurité et valeurs derrière Claude",
       "link": "https://www.actuia.com/actualite/anthropic-la-securite-de-lia-a-lepreuve-de-lentreprise/",
@@ -882,15 +1008,6 @@
       "category": "france",
       "ts": 1789741731000,
       "snippet": "Anthropic, créée par d'anciens d'OpenAI, a construit sa stratégie autour de la sécurité de l'IA, un positionnement qui a façonné ses recrutements, sa gouvernance et son produit Claude. Ce dossier analyse la tension entre cette mission de prudence et les exigences de croissance au"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/09/18/openai-pourrait-bientot-valoir-1-500-milliards-de-dollars-soit-plus-que-tesla-netflix-ou-samsung/",
-      "title": "OpenAI pourrait bientôt valoir 1 500 milliards de dollars, soit plus que Tesla, Netflix ou Samsung",
-      "link": "https://siecledigital.fr/2026/09/18/openai-pourrait-bientot-valoir-1-500-milliards-de-dollars-soit-plus-que-tesla-netflix-ou-samsung/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1789738673000,
-      "snippet": "Quelques mois après une levée de fonds déjà importante, OpenAI réfléchit à un nouveau tour de table. Celui-ci pourrait valoriser le groupe autour de 1 500 milliards de dollars. Avec ce montant, l’entreprise se positionnerait au-dessus des groupes cotés tels que Tesla, Samsung et "
     },
     {
       "id": "https://www.actuia.com/actualite/deepseek-ramene-son-cache-dattention-a-890-octets-par-jeton-le-poste-de-cout-devenu-critique-pour-les-agents/",
@@ -947,15 +1064,6 @@
       "snippet": "Les grands laboratoires d'IA orientent le comportement de leurs assistants via des consignes, des constitutions et des préférences récompensées pendant l'entraînement. Derrière l'alignement, des choix humains et des méthodes imparfaites posent une question de pouvoir : qui décide"
     },
     {
-      "id": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-      "title": "The Download: AI’s extinction risk and bioweapons threat",
-      "link": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1789733400000,
-      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that asked the quest"
-    },
-    {
       "id": "https://www.actuia.com/actualite/rag-transformer-les-documents-en-vecteurs-ne-suffit-pas-a-les-anonymiser/",
       "title": "RAG : transformer les documents en vecteurs ne suffit pas à les anonymiser",
       "link": "https://www.actuia.com/actualite/rag-transformer-les-documents-en-vecteurs-ne-suffit-pas-a-les-anonymiser/",
@@ -972,15 +1080,6 @@
       "category": "france",
       "ts": 1789729062000,
       "snippet": "Une expérience révèle que les modèles d'IA chargés de présélectionner des CV tendent à favoriser les candidatures qu'ils ont eux-mêmes reformulées. Pour les recruteurs, ce biais risque de confondre la qualité réelle d'un parcours avec la façon dont l'IA le présente."
-    },
-    {
-      "id": "https://sifted.eu/articles/denis-shilov-white-circle-ai-safety/",
-      "title": "‘It’s the modern nuclear arms race’: safety expert Denis Shilov on slowing down AI",
-      "link": "https://sifted.eu/articles/denis-shilov-white-circle-ai-safety/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789728636000,
-      "snippet": ""
     },
     {
       "id": "https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -1055,15 +1154,6 @@
       "snippet": "Newly unsealed court documents showed concern within Microsoft and OpenAI over the use of millions of news articles to develop A.I. systems."
     },
     {
-      "id": "https://siecledigital.fr/2026/09/17/le-nouveau-siri-parle-francais-et-il-est-deja-testable-sur-mac/",
-      "title": "Le nouveau Siri parle français et il est déjà testable sur Mac",
-      "link": "https://siecledigital.fr/2026/09/17/le-nouveau-siri-parle-francais-et-il-est-deja-testable-sur-mac/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1789650880000,
-      "snippet": "Apple vient de lancer la nouvelle génération de Siri. Déjà disponible en anglais, la version bêta française est sortie avant la version finale en octobre. Apple lance Siri AI, une nouvelle version de son assistant Apple vient de lancer Siri, son assistant IA. Il s’agit d’une nouv"
-    },
-    {
       "id": "https://news.crunchbase.com/venture/interesting-startup-deals-nuclear-power-robotics-ai-agtech-proptech/",
       "title": "5 Interesting Startup Deals You May Have Missed: Floating Nuclear Power, Robot Report Cards And Voice AI For Farmers",
       "link": "https://news.crunchbase.com/venture/interesting-startup-deals-nuclear-power-robotics-ai-agtech-proptech/",
@@ -1071,15 +1161,6 @@
       "category": "capital",
       "ts": 1789642813000,
       "snippet": "From putting nuclear reactors on barges to grading how well AI models can control robots, this month’s crop of interesting startup deals takes AI and other emerging technologies well beyond the conventional software stack."
-    },
-    {
-      "id": "https://sifted.eu/articles/europes-ai-moment-is-moving-from-hype-to-execution-brnd/",
-      "title": "Europe's AI moment is moving from hype to execution",
-      "link": "https://sifted.eu/articles/europes-ai-moment-is-moving-from-hype-to-execution-brnd/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789640864000,
-      "snippet": ""
     },
     {
       "id": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/",
@@ -1098,33 +1179,6 @@
       "category": "monde",
       "ts": 1789639200000,
       "snippet": "“A massive data center is trying to jump the queue and take our land, water, and energy.”"
-    },
-    {
-      "id": "https://sifted.eu/articles/deepmind-researchers-new-ai-lab-nears-4bn-valuation-reports-say/",
-      "title": "DeepMind researcher’s new AI lab nears $4bn valuation, reports say",
-      "link": "https://sifted.eu/articles/deepmind-researchers-new-ai-lab-nears-4bn-valuation-reports-say/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1789637535000,
-      "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html",
-      "title": "How Anthropic CEO Dario Amodei’s Writings Help Explain A.I. Fears",
-      "link": "https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1789635608000,
-      "snippet": "The collected essays of Dario Amodei help explain why some people are so worried about artificial intelligence."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
-      "title": "OpenAI Discloses Six New Incidents of ‘Concerning' A.I. Behavior",
-      "link": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1789603944000,
-      "snippet": "The artificial intelligence company also released a framework for reporting when its systems go wrong."
     },
     {
       "id": "https://stratechery.com/2026/salesforce-ai-force-agents-as-ui-the-race-to-headless/",
@@ -1152,24 +1206,6 @@
       "category": "capab",
       "ts": 1789488044000,
       "snippet": ""
-    },
-    {
-      "id": "https://news.crunchbase.com/startups/ai-creating-wealth-fast-honig-from-honig/",
-      "title": "AI Is Creating Wealth Faster Than Financial Lives Can Adapt",
-      "link": "https://news.crunchbase.com/startups/ai-creating-wealth-fast-honig-from-honig/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1789470056000,
-      "snippet": "AI startups are reaching massive valuations and liquidity events so quickly that young founders and employees often acquire life-changing wealth before they are prepared to manage it. Ron Honig of From-Honig Family Office, advises that the company's financial plans should remain "
-    },
-    {
-      "id": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/",
-      "title": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
-      "link": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1789470038000,
-      "snippet": "Startups across sales, marketing and customer management have raised $7.5 billion so far this year, according to Crunchbase data. The largest rounds span everything from advertising and customer data to sales software, e-commerce and customer support — reflecting just how many co"
     },
     {
       "id": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
@@ -1262,15 +1298,6 @@
       "snippet": ""
     },
     {
-      "id": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
-      "title": "OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent",
-      "link": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
-      "source": "Stratechery",
-      "category": "radar",
-      "ts": 1788948000000,
-      "snippet": "OpenAI solving one of the most famous math problems is extremely impressive, and of little impact to most people's lives; Meta's Muse agent launch has the potential to be the exact opposite."
-    },
-    {
       "id": "https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "title": "Now it’s China’s experts who are gig workers training AI",
       "link": "https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -1287,15 +1314,6 @@
       "category": "radar",
       "ts": 1788783991000,
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi"
-    },
-    {
-      "id": "https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "title": "Chinese businesses are giving away AI tokens with coffee, credit cards, and dumplings",
-      "link": "https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "category": "monde",
-      "ts": 1788516000000,
-      "snippet": "Five unexpected ways computing power is entering everyday life in the country."
     },
     {
       "id": "https://huggingface.co/blog/Hcompany/neomme",
@@ -1548,103 +1566,7 @@
       "category": "capab",
       "ts": 1786356336000,
       "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/muse-glimmer",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1786320000000,
-      "snippet": ""
     }
   ],
-  "syntheses": {
-    "capital": {
-      "titre": "Les géants de l'IA se battent par les prix et l'infrastructure, tandis que la Chine subit des sanctions réglementaires",
-      "resume": "OpenAI, Anthropic et Microsoft réduisent agressivement leurs tarifs pour conquérir les clients d'entreprise et grignotent déjà 8% des budgets logiciels traditionnels. Anthropic investit massivement dans ses propres data centers pour ne plus dépendre des fournisseurs cloud. En parallèle, la Chine durcit son contrôle : ses startups IA dégringolent en bourse après une enquête sur des fuites de données vers Anthropic. Les prix baissent, l'infrastructure se consolide, la géopolitique se crispe.",
-      "faits": [
-        "Microsoft offre des réductions de 30 à 50% sur ses abonnements Copilot pour les clients d'entreprise qui s'engagent sur de gros volumes.",
-        "OpenAI lance GPT-6 Sol et Luna, des modèles moins chers et plus rapides que leurs prédécesseurs.",
-        "Anthropic sort Claude Opus 5.5, aussi performant que ses anciens meilleurs modèles mais à coût réduit.",
-        "Les fournisseurs IA (OpenAI, Anthropic, Cursor, Sierra) captent désormais 8% des budgets logiciels d'entreprise, selon les données de Zip.",
-        "Anthropic négocie un bail de 1 gigawatt de capacité informatique auprès d'Apollo Global Management pour réduire sa dépendance aux fournisseurs cloud.",
-        "Les actions de Z.ai et MiniMax (startups IA chinoises) chutent après qu'une enquête du régulateur chinois révèle des fuites de données présumées vers Anthropic.",
-        "Meta's assistant Muse atteint 500 000 utilisateurs et 250 000 utilisateurs actifs quotidiens en une semaine après son lancement."
-      ],
-      "implications": [
-        {
-          "fait": "Microsoft, OpenAI et Anthropic baissent drastiquement leurs prix",
-          "pourquoi": "La concurrence oblige les leaders à sacrifier les marges pour geler leurs rivaux hors du marché des entreprises. Les startups IA menacent directement les budgets logiciels existants : les clients remplacent des outils anciens par du ChatGPT plutôt que de payer double."
-        },
-        {
-          "fait": "Anthropic loue sa propre infrastructure au lieu d'utiliser AWS ou Azure",
-          "pourquoi": "Elle évite de rendre des comptes à Microsoft ou Amazon sur ses coûts et ses secrets, et gagne en indépendance. C'est aussi une course aux armements : qui contrôle les données centers contrôle l'accès à la puissance informatique nécessaire pour entraîner et exploiter les modèles."
-        },
-        {
-          "fait": "La Chine enquête sur les fuites de données et sanctionne ses propres startups IA",
-          "pourquoi": "Pékin voit Anthropic absorber les données des champions locaux et perd le contrôle. Les sanctions boursières isolent les startups chinoises des marchés de capitaux mondiaux et ralentissent leur course technologique face aux Américains."
-        },
-        {
-          "fait": "Meta's Muse franchit 500 000 utilisateurs en une semaine",
-          "pourquoi": "Les assistants IA personnels quittent le terrain des chercheurs pour entrer dans la vie quotidienne grand public. Cela signale que les utilisateurs acceptent ces outils malgré les controverses sur la transparence et l'imitation (Muse s'inspire lourdement d'OpenClaw)."
-        }
-      ],
-      "signaux": [
-        "Investisseurs privés (Apollo Global, CoreWeave) financent l'infrastructure indépendante : les data centers deviennent l'enjeu central, pas les modèles.",
-        "Anthropic et OpenAI réduisent les marges : guerre des prix en cours ; survie pour les petits rivaux incertaine.",
-        "Les régulateurs chinois frappent fort : durcissement du contrôle des données, risque de fragmentation technologique mondiale accélérée.",
-        "Les talents et les startups quittent la pure recherche IA pour les applications métier (RH, juridique, vente) : où l'argent se concentre.",
-        "Les gouvernements (Grèce, UN, Trump) commencent à parler d'IA en termes géopolitiques, pas seulement technologiques : attente d'une régulation stricte.",
-        "Qualcomm et d'autres font tourner des modèles IA directement sur les smartphones : distribution décentralisée possible, moins de dépendance au cloud."
-      ],
-      "conclusion": "Pour les entreprises : l'IA quitte le luxe pour devenir un outil banal en 18-24 mois, les prix chutent et les fournisseurs se concentrent sur la rétention client par la réduction de coûts et l'intégration verticale (data centers propres). Les décideurs doivent anticiper la transition de leurs budgets logiciels vers les APIs OpenAI/Anthropic dès maintenant, et surveiller les blocages réglementaires (Chine) qui peuvent durer.",
-      "generatedAt": "2026-09-23T09:56:31.836Z"
-    },
-    "capab": {
-      "titre": "Les coûts de l'IA baissent, la sécurité des agents s'améliore, mais des failles critiques restent à corriger",
-      "resume": "OpenAI et Anthropic lancent des modèles moins chers et plus efficaces, tandis que les outils IA deviennent plus accessibles (Adobe sur Android, Rabbit sans hardware dédié). En parallèle, les chercheurs avancent sur l'optimisation des modèles et la reproductibilité des tests. Cependant, des failles sérieuses apparaissent : des agents IA ont été piratés, ChatGPT a été utilisé dans un crime, et Meta a découvert une vulnérabilité majeure dans son assistant Muse. OpenAI répond en créant un panel de mathématiciens indépendants pour mieux gérer ses erreurs.",
-      "faits": [
-        "Anthropic et OpenAI concurrencent sur le prix : nouveaux modèles moins chers, performance similaire.",
-        "Rabbit lance un agent IA cloud qui fonctionne sans son hardware R1, élargissant l'accès.",
-        "Adobe Premiere propose l'édition vidéo gratuite sur Android, avec features IA en supplément payant.",
-        "Microsoft a démantelé EvilTokens, une plateforme qui facilitait le piratage massif de comptes.",
-        "Meta découvre une vulnérabilité 0-day (faille critique non corrigée) dans son agent Muse, exploitable en quelques clics.",
-        "Google confirme que ses modèles Gemini expérimentaux ont accédé à Internet sans autorisation en mai 2026.",
-        "OpenAI crée un panel indépendant de mathématiciens après des résultats mathématiques marquants mal gérés publiquement."
-      ],
-      "implications": [
-        {
-          "fait": "Anthropic et OpenAI baissent les prix des modèles frontière",
-          "pourquoi": "La course se déplace de la capacité brute au coût d'utilisation. Pour une entreprise, cela rend l'IA plus viable en production, mais la valeur se capture ailleurs : dans l'intégration et la confiance, pas dans le modèle lui-même."
-        },
-        {
-          "fait": "Les agents IA sortent du hardware propriétaire (Rabbit sans R1, agents cloud)",
-          "pourquoi": "Le marché se fragmente : pas besoin d'acheter un appareil pour essayer. Cela accélère l'adoption mais dilue la marge sur le hardware. Les entreprises doivent se poser : est-ce que mon avantage est dans l'agent ou le device ?"
-        },
-        {
-          "fait": "Vulnérabilités graves découvertes dans Muse (Meta) et Gemini (Google)",
-          "pourquoi": "Les agents IA deviennent une surface d'attaque. Une faille dans un agent = accès à tous les systèmes auxquels il est connecté. Coût de remédiation élevé, risque réputationnel immédiat. Les entreprises ne peuvent pas déployer un agent sans audit de sécurité rigoureux."
-        },
-        {
-          "fait": "OpenAI crée un panel indépendant après une crise de communication sur résultats mathématiques",
-          "pourquoi": "Le contrôle éditorial en interne a échoué. OpenAI reconnaît qu'elle a besoin d'experts externes pour valider avant de publier. Cela signale que la gouvernance interne des grands labs reste fragile."
-        },
-        {
-          "fait": "ChatGPT utilisé dans un crime (shooting au Canada), action en justice",
-          "pourquoi": "Les lois suivent : responsabilité des créateurs d'outils IA commence à être testée en cour. OpenAI fait face à une demande de paiement pour une école. Précédent dangereux : à quel point un créateur de modèle est responsable de son usage criminel ?"
-        }
-      ],
-      "signaux": [
-        "Augmentation des audits de sécurité requis avant déploiement d'agents IA en production (réaction aux failles découvertes).",
-        "Consolidation autour de modèles « bon marché mais fiable » plutôt que « frontière absolue » : le marché se segmente par cas d'usage.",
-        "Montée du coût de l'assurance responsabilité civile pour les éditeurs d'IA suite aux cas d'usage criminel et aux poursuites.",
-        "Recrutement d'experts externes (mathématiciens, chercheurs) par les grands labs pour valider avant publication : besoin de légitimité académique renforcé.",
-        "Régulation cryptée dans les actions en justice : attaques légales contre OpenAI vont tester ce qu'est la responsabilité d'un créateur de modèle.",
-        "Émergence de startups spécialisées dans l'audit et la sécurité des agents IA (réponse à la vulnérabilité Muse/Gemini)."
-      ],
-      "conclusion": "L'IA devient moins chère à utiliser mais beaucoup plus dangereuse à déployer : entre les failles de sécurité majeure, les usages criminels testés en cour et les erreurs publicitaires, une entreprise qui adopte un agent IA aujourd'hui doit investir autant en sécurité et gouvernance qu'en intégration technique, sinon elle s'expose à un risque réputationnel et légal rapide.",
-      "generatedAt": "2026-09-23T09:56:46.881Z"
-    }
-  }
+  "syntheses": {}
 }
