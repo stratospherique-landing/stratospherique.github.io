@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:11:27.275Z",
+  "generatedAt": "2026-09-25T10:22:56.316Z",
   "categories": [
     {
       "id": "radar",
@@ -26,8 +26,17 @@
       "label": "France & Europe"
     }
   ],
-  "count": 137,
+  "count": 169,
   "items": [
+    {
+      "id": "https://www.theinformation.com/briefings/chinese-leader-xi-calls-u-s-china-cooperation-prevent-ai-abuse",
+      "title": "Chinese Leader Xi Calls for U.S.-China Cooperation to Prevent AI Abuse",
+      "link": "https://www.theinformation.com/briefings/chinese-leader-xi-calls-u-s-china-cooperation-prevent-ai-abuse",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1790331297000,
+      "snippet": "Chinese leader Xi Jinping said during his summit with U.S. President Donald Trump that the two nations can “jointly prevent the misuse and abuse of AI” through more cooperation. Trump and Xi held talks on Thursday at the White House, and a major topic on the agenda was AI safety "
+    },
     {
       "id": "https://www.techmeme.com/260925/p3#a260925p3",
       "title": "The US stood alone in dismissing AI safety concerns at the UN, leaving nations to set nonbinding rules without buy-in from the home of the biggest AI companies (Ashley Gold/Semafor)",
@@ -461,6 +470,15 @@
       "snippet": "La nouvelle intelligence artificielle de Meta est sur la première marche du podium des applications gratuites de l’App Store américain. Les premières estimations montrent un nombre de téléchargements et d’utilisateurs quotidiens plus élevés que ceux de ChatGPT sur une même périod"
     },
     {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790258937000,
+      "snippet": ""
+    },
+    {
       "id": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
       "title": "Meta puts its AI assistant on a keychain",
       "link": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
@@ -686,15 +704,6 @@
       "snippet": "Have we gone full circle on AI pricing? A bunch of tech firms are throwing around discounts and free offers for AI products, with Amazon on Wednesday announcing that merchants selling on its shopping site will get a year’s free use of its Quick Plus AI assistant product. Microsof"
     },
     {
-      "id": "https://www.theinformation.com/briefings/meta-announces-new-retail-partnerships-agent-muse",
-      "title": "Meta Announces New Retail Partnerships for Agent Muse",
-      "link": "https://www.theinformation.com/briefings/meta-announces-new-retail-partnerships-agent-muse",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1790207955000,
-      "snippet": "Meta Platforms announced partnerships with Walmart and other retailers for its AI agent Muse days after e-commerce giant Amazon blocked the personalized agent from accessing its shopping site. At Meta’s annual Connect conference on Wednesday, Chief AI officer Alexandr Wang said t"
-    },
-    {
       "id": "https://www.nytimes.com/2026/09/23/us/politics/ai-leaders-united-nations-global-response.html",
       "title": "America’s A.I. Leaders Warn U.N. of Possible Peril Absent a Global Response",
       "link": "https://www.nytimes.com/2026/09/23/us/politics/ai-leaders-united-nations-global-response.html",
@@ -711,6 +720,15 @@
       "category": "capab",
       "ts": 1790196748000,
       "snippet": "Trump focus on winning “AI race” may deter China from sharing safety intel."
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790188900000,
+      "snippet": ""
     },
     {
       "id": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/",
@@ -947,6 +965,33 @@
       "snippet": "OpenAI, Google and others recently disclosed breaches by their artificial intelligence models that amplified concerns about the advancing capabilities of the technology."
     },
     {
+      "id": "https://huggingface.co/blog/evaleval-aisi",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "link": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790035200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "title": "Transformers now runs llama.cpp quants",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790035200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/omlx",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "link": "https://huggingface.co/blog/omlx",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1790035200000,
+      "snippet": ""
+    },
+    {
       "id": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
       "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
       "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
@@ -974,6 +1019,15 @@
       "snippet": "Depuis quelques mois, Google intègre l’IA dans Discover. Un nouveau test a été déployé sur ce flux d’actualités personnalisé. Baptisé Dive Deeper, il ajoute une étape entre les contenus affichés dans Discover et l’accès aux sites. L’internaute peut consulter un aperçu généré par "
     },
     {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1789998274000,
+      "snippet": ""
+    },
+    {
       "id": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
       "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
       "link": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
@@ -990,6 +1044,15 @@
       "category": "monde",
       "ts": 1789984800000,
       "snippet": "The Emirates owns the machines but rents the intelligence. Nvidia’s next free AI model could change that."
+    },
+    {
+      "id": "https://huggingface.co/blog/tokenizers-v1",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "link": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1789948800000,
+      "snippet": ""
     },
     {
       "id": "https://www.nytimes.com/2026/09/18/technology/google-gemini-ai.html",
@@ -1154,6 +1217,15 @@
       "snippet": "From Latin America to Southeast Asia, countries are dividing their AI investments between the two superpowers rather than choosing one over the other."
     },
     {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1789488044000,
+      "snippet": ""
+    },
+    {
       "id": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
       "title": "OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay",
       "link": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
@@ -1217,6 +1289,24 @@
       "snippet": "A short-lived generative AI feature in Google Earth that allowed users to create fake satellite imagery shows the lasting effects of unvetted AI tools during a conflict."
     },
     {
+      "id": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788998400000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/gradio-workflow-1111",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788998400000,
+      "snippet": ""
+    },
+    {
       "id": "https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "title": "Now it’s China’s experts who are gig workers training AI",
       "link": "https://restofworld.org/2026/china-expert-ai-trainers/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -1235,6 +1325,60 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi"
     },
     {
+      "id": "https://huggingface.co/blog/Hcompany/neomme",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "link": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788441228000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788393600000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/funes",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "link": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788393600000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/train-to-paint-with-code",
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "link": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788393600000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/benchmirt",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "link": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788298747000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/webgpu-kernels",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1788220800000,
+      "snippet": ""
+    },
+    {
       "id": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
       "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
       "link": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
@@ -1242,6 +1386,51 @@
       "category": "radar",
       "ts": 1788183066000,
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting"
+    },
+    {
+      "id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787875200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787702400000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787670854000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787657964000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/gradio-workflow-guide",
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787616000000,
+      "snippet": ""
     },
     {
       "id": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
@@ -1253,6 +1442,60 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceler"
     },
     {
+      "id": "https://huggingface.co/blog/pwc-search",
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787270400000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787270400000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787244777000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787076578000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/multi-vector-encoder",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1787011200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786995981000,
+      "snippet": ""
+    },
+    {
       "id": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
       "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
       "link": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
@@ -1260,6 +1503,51 @@
       "category": "radar",
       "ts": 1786971936000,
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition:…The new frontier for analyzing AI sys"
+    },
+    {
+      "id": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786665600000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786641364000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786579200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786551276000,
+      "snippet": ""
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1786455430000,
+      "snippet": ""
     }
   ],
   "syntheses": {}
