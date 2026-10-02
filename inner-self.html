@@ -252,9 +252,9 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
         <li>La lettre à moi dans trois semaines, à cacheter ce soir.</li>
       </ul>
 
-      <!-- À BRANCHER : remplacer l'action par l'URL "sibforms.com/serve/..." du code d'intégration Brevo.
-           Les attributs EMAIL, PRENOM, SOURCE doivent exister dans le formulaire Brevo. -->
-      <form class="optin" method="POST" action="https://A_REMPLACER.sibforms.com/serve/A_REMPLACER">
+      <!-- Formulaire Brevo « Inner Self · Liste d'attente Jour 0 » → liste Inner Self (double opt-in, template n°5).
+           Les noms de champs doivent rester EXACTEMENT : PRENOM, EMAIL, OPT_IN, email_address_check, locale. -->
+      <form class="optin" method="POST" action="https://618cb27d.sibforms.com/serve/MUIFAP8GPl0Jeo_6OHHj4MGgtVUWY3lhh_VIbCuUzG3fIW1AiMPOJrjXhwB2nChIkdYIIh5TRHa-XISFYNnBMF7ZoHTbrEXRx9QxaAtmDHoqiUoaMU8lbRMMCrYQqnhvlHCkK1x_-BWFcWfKmrdG-tH3YY0-aIIci2ftsfVSN7WdvYMPVnhNSRvWHY94sK7sG8bfsvTK7lHWIP2jVA==">
         <div class="row">
           <div>
             <label class="f" for="f-prenom">Prénom</label>
@@ -265,15 +265,14 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
             <input type="email" id="f-email" name="EMAIL" autocomplete="email" required>
           </div>
         </div>
-        <input type="hidden" name="SOURCE" value="site-inner-self">
         <input type="hidden" name="locale" value="fr">
         <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <label class="consent">
           <input type="checkbox" name="OPT_IN" value="1" required>
-          <span>J'accepte de recevoir le Jour 0 et les emails d'Inner Self. Désinscription en un clic, à tout moment.</span>
+          <span>J'accepte de recevoir les emails d'Inner Self et j'ai pris connaissance de la <a href="/mentions-legales.html#donnees" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:2px">politique de confidentialité</a>. Désinscription en un clic, à tout moment.</span>
         </label>
-        <button type="submit" class="btn">Recevoir le Jour 0</button>
-        <p class="after">Confirme ton email, le Jour 0 arrive dans la foulée. La suite s'ouvre à mesure que tu avances.</p>
+        <button type="submit" class="btn">Je rejoins la liste d'attente</button>
+        <p class="after">Le Jour 0 est en préparation. Confirme ton email, et je te l'envoie dès qu'il est prêt.</p>
         <p class="after">Un espace de travail sur soi, à côté d'un médecin ou d'un thérapeute, jamais à leur place. Si ça ne va pas, le 3114 répond, gratuit, jour et nuit.</p>
       </form>
     </div>
