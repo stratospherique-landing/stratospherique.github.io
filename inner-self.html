@@ -266,7 +266,7 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
           </div>
         </div>
         <input type="hidden" name="locale" value="fr">
-        <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="text" name="email_address_check" value="" class="hp" tabindex="-1" autocomplete="new-password" aria-hidden="true">
         <label class="consent">
           <input type="checkbox" name="OPT_IN" value="1" required>
           <span>J'accepte de recevoir les emails d'Inner Self et j'ai pris connaissance de la <a href="/mentions-legales.html#donnees" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:2px">politique de confidentialité</a>. Désinscription en un clic, à tout moment.</span>
@@ -385,6 +385,9 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
   if(!f||!window.fetch)return;
   f.addEventListener('submit',function(e){
     e.preventDefault();
+    /* Le remplissage automatique du navigateur peut remplir le champ piège anti-robots :
+       Brevo répond alors "success" mais n'envoie rien. On le vide avant l'envoi. */
+    var hp=f.querySelector('[name=email_address_check]'); if(hp) hp.value='';
     var b=f.querySelector('button[type=submit]');
     if(b){b.disabled=true;b.textContent='Envoi…';}
     fetch(f.action,{method:'POST',body:new URLSearchParams(new FormData(f)),mode:'no-cors'})
