@@ -377,5 +377,24 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
   }
 })();
 </script>
+<script>
+/* Liste d'attente : envoi à Brevo en arrière-plan, puis redirection vers la page « Vérifie ta boîte ».
+   Brevo répond {"success":true} en JSON et n'applique pas sa redirection pour un envoi HTML classique. */
+(function(){
+  var f=document.querySelector('form.optin');
+  if(!f||!window.fetch)return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var b=f.querySelector('button[type=submit]');
+    if(b){b.disabled=true;b.textContent='Envoi…';}
+    fetch(f.action,{method:'POST',body:new FormData(f),mode:'no-cors'})
+      .then(function(){window.location.href='/inner-self-merci.html';})
+      .catch(function(){
+        if(b){b.disabled=false;b.textContent="Je rejoins la liste d'attente";}
+        alert("L'inscription n'est pas passée. Réessaie dans un instant.");
+      });
+  });
+})();
+</script>
 </body>
 </html>
