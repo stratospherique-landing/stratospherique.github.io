@@ -375,7 +375,7 @@ footer{background:var(--carbon);color:var(--paper-muted);padding:40px 0;font-siz
       const ageH=Math.max(0,(now-ts)/3.6e6);const recency=Math.max(0,Math.min(1,1-ageH/168));
       const dts=new Date(ts);dts.setHours(0,0,0,0);
       const day=it.day!=null?it.day:Math.max(0,Math.round((startMs-dts.getTime())/86400000));
-      return{title:it.title||'',source:it.source||'',link:it.link||'#',day,recency,heat:recency,tk:toks(it.title)};
+      return{title:it.title||'',source:it.source||'',link:(/^https?:\/\//i.test(it.link||'')?it.link:'#'),day,recency,heat:recency,tk:toks(it.title)};
     });
   }
 

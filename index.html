@@ -344,7 +344,6 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
     <p class="mission-lead reveal">Toute ambition devient un plan chiffré, puis une mesure.</p>
     <p class="mission-text reveal">Avant que rien ne démarre, le point de départ est fixé et le succès défini, en chiffres et en mots. Le pari est chiffré avant l'engagement du budget. L'incertitude est mesurée plutôt que contournée. Et la démarche demeure reproductible, afin que le projet suivant s'appuie sur le précédent. Une règle : fail fast, kill cheap.</p>
 
-    <!-- BANDE IMAGE : remplace les deux src par tes photos -->
     <div class="band reveal">
       <figure class="shot shot-16x9">
         <img src="./assets/photos/vr-magasin.webp" alt="Déploiement de la conception VR dans la chaîne produit Decathlon" loading="lazy" decoding="async" width="1600" height="900" />
@@ -597,7 +596,7 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
     menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
   }
 
-  var LEAD_ENDPOINT = ""; // Brevo / Tally / Formspree. Vide = email non stocke, analyse affichee quand meme.
+  var LEAD_ENDPOINT = "COLLER_ICI_URL_FORMULAIRE_BREVO";
   var gen=document.getElementById('az-gen');
   if(gen){
     gen.addEventListener('click',function(){
@@ -624,7 +623,7 @@ footer{background:var(--carbon);color:rgba(255,255,255,.6);padding:44px 0;font-s
         +"4. ANCRER. Deux indicateurs a croiser : un financier, un vivant (usage reel, engagement, apprentissage). Outcome, pas output. Donne le seuil qui prouve que ca decolle.\n\n"
         +"Ferme l'audit par une ligne d'altitude : une metaphore d'alpinisme, une seule phrase, qui donne le cap. Signe : \u25b3\n"
         +"Si on te repond \u00ab sommet \u00bb, livre le bonus : les trois questions que le dirigeant doit poser a sa cordee cette semaine.";
-      if(LEAD_ENDPOINT){ try{ fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,entreprise:n,secteur:s,enjeu:g,source:'analyse-express'})}).catch(function(){}); }catch(e){} }
+      if(/^https:\/\/[a-z0-9]+\.sibforms\.com\//.test(LEAD_ENDPOINT)){ try{ var fd=new URLSearchParams();fd.append('EMAIL',email);fd.append('ENTREPRISE',(document.getElementById('az-name').value||'').trim());fd.append('SECTEUR',(document.getElementById('az-sector').value||'').trim());fd.append('ENJEU',g);fd.append('SOURCE','mini-audit');fd.append('OPT_IN','1');fd.append('email_address_check','');fd.append('locale','fr');fetch(LEAD_ENDPOINT,{method:'POST',body:fd,mode:'no-cors'}).catch(function(){}); }catch(e){} }
       var out=document.getElementById('az-out'); out.value=p;
       try{ if(navigator.clipboard){ navigator.clipboard.writeText(p); } }catch(e){}
       var enc=encodeURIComponent(p);
