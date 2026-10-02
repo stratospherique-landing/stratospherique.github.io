@@ -271,8 +271,8 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
           <input type="checkbox" name="OPT_IN" value="1" required>
           <span>J'accepte de recevoir les emails d'Inner Self et j'ai pris connaissance de la <a href="/mentions-legales.html#donnees" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:2px">politique de confidentialité</a>. Désinscription en un clic, à tout moment.</span>
         </label>
-        <button type="submit" class="btn">Je rejoins la liste d'attente</button>
-        <p class="after">Le Jour 0 est en préparation. Confirme ton email, et je te l'envoie dès qu'il est prêt.</p>
+        <button type="submit" class="btn">Recevoir le Jour 0</button>
+        <p class="after">Confirme ton email, ton Jour 0 arrive dans la foulée.</p>
         <p class="after">Un espace de travail sur soi, à côté d'un médecin ou d'un thérapeute, jamais à leur place. Si ça ne va pas, le 3114 répond, gratuit, jour et nuit.</p>
       </form>
     </div>
@@ -393,7 +393,7 @@ footer{background:var(--ink);color:rgba(250,246,238,.6);padding:44px 0;font-size
     fetch(f.action,{method:'POST',body:new URLSearchParams(new FormData(f)),mode:'no-cors'})
       .then(function(){window.location.href='/inner-self-merci.html';})
       .catch(function(){
-        if(b){b.disabled=false;b.textContent="Je rejoins la liste d'attente";}
+        if(b){b.disabled=false;b.textContent="Recevoir le Jour 0";}
         alert("L'inscription n'est pas passée. Réessaie dans un instant.");
       });
   });
