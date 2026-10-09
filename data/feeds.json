@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T12:01:18.252Z",
+  "generatedAt": "2026-10-09T11:54:06.462Z",
   "categories": [
     {
       "id": "radar",
@@ -26,16 +26,385 @@
       "label": "France & Europe"
     }
   ],
-  "count": 157,
+  "count": 143,
   "items": [
     {
-      "id": "https://www.techmeme.com/261008/p19#a261008p19",
-      "title": "Analysis: the hacker who targeted South Korean banks is likely Chinese-speaking, financially motivated, and used LLMs and open-source Chinese agentic tool ARTEX (Ashley Campion/CrowdStrike)",
-      "link": "https://www.techmeme.com/261008/p19#a261008p19",
+      "id": "https://www.techmeme.com/261009/p9#a261009p9",
+      "title": "Sources detail Mark Zuckerberg's decision to launch Muse despite safety concerns, after seeing that AI startup Instinct's similar agent product gained traction (Eli Tan/New York Times)",
+      "link": "https://www.techmeme.com/261009/p9#a261009p9",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1791459300000,
-      "snippet": "Ashley Campion / CrowdStrike: Analysis: the hacker who targeted South Korean banks is likely Chinese-speaking, financially motivated, and used LLMs and open-source Chinese agentic tool ARTEX — CrowdStrike Intelligence identified infrastructure associated with a targeted campaign "
+      "ts": 1791543900000,
+      "snippet": "Eli Tan / New York Times: Sources detail Mark Zuckerberg's decision to launch Muse despite safety concerns, after seeing that AI startup Instinct's similar agent product gained traction — Meta had delayed releasing Muse, its A.I. agent app, for months over safety concerns. Then n"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/09/podcasts/hardfork-anthropic-ai-morals.html",
+      "title": "Anthropic’s Quest to Give A.I. Morals",
+      "link": "https://www.nytimes.com/2026/10/09/podcasts/hardfork-anthropic-ai-morals.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1791543681000,
+      "snippet": "“For Anthropic, it was part research and part evangelism.”"
+    },
+    {
+      "id": "https://news.crunchbase.com/venture/q3-2026-active-investors-kept-deal-pace-a16z-insight-sequoia/",
+      "title": "Active Investors Kept Up The Deal Pace In Q3, Even As Funding Fell",
+      "link": "https://news.crunchbase.com/venture/q3-2026-active-investors-kept-deal-pace-a16z-insight-sequoia/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1791543656000,
+      "snippet": "Active startup investors largely kept up or increased their dealmaking pace in the third quarter, even as overall venture funding declined with the absence of new record megarounds for AI leaders."
+    },
+    {
+      "id": "https://news.crunchbase.com/ma/customer-workflows-moat-ai-era-sagie/",
+      "title": "Why Customer Workflows Are Becoming The Moat In The AI Era",
+      "link": "https://news.crunchbase.com/ma/customer-workflows-moat-ai-era-sagie/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1791543636000,
+      "snippet": "AI companies can build durable moats by embedding their products in essential customer workflows, explains tech adviser Itay Sagie, who shares why founders should prioritize measurable customer dependence, while investors and acquirers should assess how integrations, trusted rela"
+    },
+    {
+      "id": "https://www.techmeme.com/261009/p8#a261009p8",
+      "title": "Nvidia commits $1B over five years to build out the US' \"capacity for super intelligence research\" in fields including quantum computing, healthcare, and energy (Tobias Mann/The Register)",
+      "link": "https://www.techmeme.com/261009/p8#a261009p8",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1791542701000,
+      "snippet": "Tobias Mann / The Register: Nvidia commits $1B over five years to build out the US' “capacity for super intelligence research” in fields including quantum computing, healthcare, and energy — Commitment comes as GPUzilla prepares to fortify Uncle Sam's arsenal with at least seven "
+    },
+    {
+      "id": "https://www.techmeme.com/261009/p7#a261009p7",
+      "title": "A slew of cyberattacks hit Japanese companies in September, exposing the data of millions and prompting calls for security checks, as AI lowers hacking barriers (Sarah Hilton/Bloomberg)",
+      "link": "https://www.techmeme.com/261009/p7#a261009p7",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1791540072000,
+      "snippet": "Sarah Hilton / Bloomberg: A slew of cyberattacks hit Japanese companies in September, exposing the data of millions and prompting calls for security checks, as AI lowers hacking barriers — A cascade of cyberattacks has hit Japanese companies over the past few weeks, prompting the"
+    },
+    {
+      "id": "https://sifted.eu/articles/ex-openai-robotics-leads-factory-startup-in-insolvency-proceedings/",
+      "title": "Ex-OpenAI robotics lead’s factory startup in insolvency proceedings",
+      "link": "https://sifted.eu/articles/ex-openai-robotics-leads-factory-startup-in-insolvency-proceedings/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1791539562000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1791539306000,
+      "snippet": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear poli"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/softbanks-son-seeks-100-billion-gulf-investors-ai-bets",
+      "title": "SoftBank’s Son Seeks $100 Billion From Gulf Investors for AI Bets",
+      "link": "https://www.theinformation.com/briefings/softbanks-son-seeks-100-billion-gulf-investors-ai-bets",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791538011000,
+      "snippet": "SoftBank Group CEO Masayoshi Son is looking to raise up to $100 billion from Gulf investors to finance his AI investments, The Financial Times reported. Son has held fundraising discussions in recent weeks in the United Arab Emirates and other parts of the region, according to th"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1791536400000,
+      "snippet": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, caut"
+    },
+    {
+      "id": "https://www.techmeme.com/261009/p5#a261009p5",
+      "title": "OpenAI says it didn't fire three researchers for \"raising safety concerns or speaking out\", but due to violating \"clear policies on handling sensitive\" info (Michael Considine/CNBC)",
+      "link": "https://www.techmeme.com/261009/p5#a261009p5",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1791535801000,
+      "snippet": "Michael Considine / CNBC: OpenAI says it didn't fire three researchers for “raising safety concerns or speaking out”, but due to violating “clear policies on handling sensitive” info — OpenAI on Friday defended its decision to fire three safety researchers, saying they had commit"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2349909-il-est-desormais-interdit-de-harceler-claude-ai.html",
+      "title": "Il est désormais interdit de harceler Claude AI",
+      "link": "https://www.numerama.com/tech/2349909-il-est-desormais-interdit-de-harceler-claude-ai.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1791534608000,
+      "snippet": "Anthropic met à jour sa politique d'utilisation et interdira à partir du 12 novembre les comportements cruels et répétés envers Claude. Une décision qui relance un débat sur les réseaux sociaux : pourquoi n'aurait-on pas le droit de maltraiter une IA dont rien n'indique qu'elle p"
+    },
+    {
+      "id": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+      "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
+      "link": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1791530072000,
+      "snippet": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and"
+    },
+    {
+      "id": "https://www.techmeme.com/261009/p2#a261009p2",
+      "title": "Sources: SoftBank is seeking to raise up to $100B from Gulf investors for a fund to buy companies and improve their operations with AI and other advanced tech (Financial Times)",
+      "link": "https://www.techmeme.com/261009/p2#a261009p2",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1791522301000,
+      "snippet": "Financial Times: Sources: SoftBank is seeking to raise up to $100B from Gulf investors for a fund to buy companies and improve their operations with AI and other advanced tech — Founder and chief executive Masayoshi Son has held talks with senior figures in the UAE in recent week"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble",
+      "title": "Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble",
+      "link": "https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791521122000,
+      "snippet": "Firmus Grid, an AI cloud company backed by Nvidia, has pulled what would have been Australia’s biggest initial public offering in almost 30 years. The Sydney-based company had planned to raise nearly $5 billion at a valuation above $30 billion. It cited market volatility and said"
+    },
+    {
+      "id": "https://www.techmeme.com/261009/p1#a261009p1",
+      "title": "Anthropic is setting up a \"presidential engagement\" program for the 2028 US elections that will offer AI policy education to candidates in both parties (Emily Forlini/Fortune)",
+      "link": "https://www.techmeme.com/261009/p1#a261009p1",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1791518701000,
+      "snippet": "Emily Forlini / Fortune: Anthropic is setting up a “presidential engagement” program for the 2028 US elections that will offer AI policy education to candidates in both parties — Anthropic is setting up a “presidential engagement” program ahead of the 2028 elections, building an "
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/south-korean-banks-hacked-using-chinese-ai-agent-researchers-say",
+      "title": "South Korean Banks Were Hacked Using Chinese AI Agent, Researchers Say",
+      "link": "https://www.theinformation.com/briefings/south-korean-banks-hacked-using-chinese-ai-agent-researchers-say",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791509977000,
+      "snippet": "The perpetrator of a recent hack of South Korean financial institutions that resulted in data leaks used an open-source Chinese AI agent called Artex and Chinese large language models, according to a report published this week by cybersecurity firm CrowdStrike. The analysis of th"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program",
+      "title": "Anthropic Announces Broader Cyber Defense Program",
+      "link": "https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791507733000,
+      "snippet": "Anthropic said Thursday it is launching new programs to support cybersecurity for critical infrastructure and open-source software. In a blog post, Anthropic said it would offer threat research, on-site engineers, and access to its frontier Claude models to infrastructure operato"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/networking-startup-eliyan-draws-takeover-interest-held-early-talks-arm",
+      "title": "Networking Startup Eliyan Draws Takeover Interest, Held Early Talks With Arm",
+      "link": "https://www.theinformation.com/articles/networking-startup-eliyan-draws-takeover-interest-held-early-talks-arm",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791504946000,
+      "snippet": "Semiconductor M&A has been humming. One of the next deals could be for Eliyan, whose technology allows separate chips inside an AI system to talk to one another more quickly and efficiently. The five-year-old startup, valued at $1 billion in July, has notified some of its investo"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1791504504000,
+      "snippet": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, bu"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/openai-arr-snafu-highlights-flawed-metric",
+      "title": "OpenAI ARR Snafu Highlights Flawed Metric",
+      "link": "https://www.theinformation.com/articles/openai-arr-snafu-highlights-flawed-metric",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791504047000,
+      "snippet": "Here’s a news flash: The quasi-revenue numbers for OpenAI that got wide circulation last week were off— way off. Instead of $70 billion in annualized revenue, as we and others reported, OpenAI is generating closer to $50 billion in annualized revenue (sometimes shortened to ARR)."
+    },
+    {
+      "id": "https://karagila.org/2026/openai-pp/",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "link": "https://karagila.org/2026/openai-pp/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1791502183000,
+      "snippet": "Article URL: https://karagila.org/2026/openai-pp/ Comments URL: https://news.ycombinator.com/item?id=50013902 Points: 133 # Comments: 201"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/nvidia-invest-chip-rival-d-matrix-challengers-choose-partnership",
+      "title": "Nvidia to Invest in Chip Rival d-Matrix as Its Challengers Choose Partnership",
+      "link": "https://www.theinformation.com/articles/nvidia-invest-chip-rival-d-matrix-challengers-choose-partnership",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791501854000,
+      "snippet": "Nvidia plans to invest in d-Matrix, a seven-year-old developer of server chips for AI that aims to compete with Nvidia, according to three people with knowledge of the deal. The planned investment is part of Nvidia’s effort to make its technology compatible with rival chip design"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openais-annualized-revenue-neared-50-billion-lower-past-reports",
+      "title": "OpenAI’s Annualized Revenue Neared $50 Billion, Lower Than Past Reports",
+      "link": "https://www.theinformation.com/briefings/openais-annualized-revenue-neared-50-billion-lower-past-reports",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791500377000,
+      "snippet": "OpenAI recently told investors that its annualized revenue was approaching $50 billion at the end of September, according to a person with knowledge of the communications. That’s around $20 billion less than revenue figures disclosed in other recent reports, including The Informa"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1791496431000,
+      "snippet": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source proje"
+    },
+    {
+      "id": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1791492385000,
+      "snippet": "Article URL: https://biohub.org/news/virtual-biology-initiative-expansion/ Comments URL: https://news.ycombinator.com/item?id=50011999 Points: 131 # Comments: 18"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-researchers-say-fired-prioritizing-safety",
+      "title": "OpenAI Researchers Say They Were Fired for “Prioritizing Safety”",
+      "link": "https://www.theinformation.com/briefings/openai-researchers-say-fired-prioritizing-safety",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791490852000,
+      "snippet": "The three safety researchers whom OpenAI fired last week challenged OpenAI’s decision, saying on Thursday they were punished for raising safety concerns. “I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation,” Mikita Balesni, one"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/ais-boom-infrastructure-investors-looking-garbage",
+      "title": "AI’s Boom Has Infrastructure Investors Looking at Garbage",
+      "link": "https://www.theinformation.com/articles/ais-boom-infrastructure-investors-looking-garbage",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791490297000,
+      "snippet": "The investing frenzy in data centers that the AI boom sparked has created a bargain-hunting opportunity—in everything but AI assets. AI has pulled investors’ attention away from unglamorous assets in sectors like transportation and waste management over the past few years, as the"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791489866000,
+      "snippet": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483632000,
+      "snippet": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "link": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483585000,
+      "snippet": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "link": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483582000,
+      "snippet": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483480000,
+      "snippet": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483384000,
+      "snippet": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/chinese-open-models-win-one-five-informations-subscribers",
+      "title": "Chinese Open Models Win Over One in Five of The Information’s Subscribers",
+      "link": "https://www.theinformation.com/articles/chinese-open-models-win-one-five-informations-subscribers",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791483111000,
+      "snippet": "Nearly two-thirds of The Information’s subscribers surveyed last month said their organizations develop AI applications, and a third of subscribers said they receive a return from AI that is a “multiple of what we spend.” The result suggests enterprises have made some progress si"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+      "link": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791483055000,
+      "snippet": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
+      "title": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
+      "link": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791477900000,
+      "snippet": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find jobs, housing, community, and even dates."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+      "title": "Natura’s $99 smart ring puts AI agents on your finger",
+      "link": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791475200000,
+      "snippet": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+      "link": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791475200000,
+      "snippet": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/openai-beat-math",
+      "title": "How OpenAI Beat Math",
+      "link": "https://www.theinformation.com/articles/openai-beat-math",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1791471650000,
+      "snippet": "Mathematicians are likely feeling the kind of anxiety that software engineers have experienced for months in the wake of OpenAI release on Tuesday of a whopping 722 research papers with AI-created solutions to a range of problems across math subjects. AI’s success solving ultra-d"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+      "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1791471600000,
+      "snippet": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%."
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1791461400000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes fr"
     },
     {
       "id": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
@@ -45,24 +414,6 @@
       "category": "capab",
       "ts": 1791458133000,
       "snippet": "Full-stack safety solution for physical AI is being used by robotics companies."
-    },
-    {
-      "id": "https://www.numerama.com/tech/2349233-ce-nest-pas-une-demonstration-derudition-mais-de-force-des-mathematiciens-appellent-au-boycott-dopenai-apres-son-nouveau-coup.html",
-      "title": "« Ce n’est pas une démonstration d’érudition, mais de force » : des mathématiciens appellent au boycott d’OpenAI après son nouveau coup",
-      "link": "https://www.numerama.com/tech/2349233-ce-nest-pas-une-demonstration-derudition-mais-de-force-des-mathematiciens-appellent-au-boycott-dopenai-apres-son-nouveau-coup.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1791457200000,
-      "snippet": "L'Association for Human Mathematics, un collectif de mathématiciens fondé en septembre 2026, appelle ses pairs à cesser toute collaboration avec OpenAI, au lendemain de la publication par l'entreprise de 722 manuscrits produits par son IA. Terence Tao, médaillé Fields, a republié"
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p17#a261008p17",
-      "title": "Analysis: planned and active data center investments in Finland surpass €67B, driven by AI demand, cool climate conditions, and renewable energy access (Kirsi Heikel/Bloomberg)",
-      "link": "https://www.techmeme.com/261008/p17#a261008p17",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791456901000,
-      "snippet": "Kirsi Heikel / Bloomberg: Analysis: planned and active data center investments in Finland surpass €67B, driven by AI demand, cool climate conditions, and renewable energy access — Finland's data center boom is gathering pace, with several new projects unveiled since after Alphabe"
     },
     {
       "id": "https://siecledigital.fr/2026/10/08/chatgpt-transforme-ses-reponses-avec-des-visuels-et-des-outils-interactifs/",
@@ -83,33 +434,6 @@
       "snippet": "Mike Kubzansky, the former CEO of philanthropic investment firm Omidyar Network, is launching a group for large investors that will facilitate information sharing about the AI industry to foster more trustworthy practices, he told The Information. The investor network, called And"
     },
     {
-      "id": "https://www.numerama.com/pop-culture/2349049-cette-plateforme-de-jeux-generes-par-ia-attire-deja-10-millions-de-joueuses-et-de-joueurs-chaque-mois.html",
-      "title": "Cette plateforme de jeux générés par IA attire déjà 10 millions de joueuses et de joueurs chaque mois",
-      "link": "https://www.numerama.com/pop-culture/2349049-cette-plateforme-de-jeux-generes-par-ia-attire-deja-10-millions-de-joueuses-et-de-joueurs-chaque-mois.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1791455400000,
-      "snippet": "À l’heure où il est possible de trouver de très nombreux jeux indé vendus pour une bouchée de pain, sur console, PC comme sur mobile, on se demande bien qui a envie de jouer à des jeux générés entièrement par IA. Des millions de personnes, visiblement."
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p15#a261008p15",
-      "title": "The US Federal Reserve's September meeting shows officials are increasingly citing surging AI investments, not tariffs, as the driver of rising goods inflation (Steve Thompson/Washington Post)",
-      "link": "https://www.techmeme.com/261008/p15#a261008p15",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791454800000,
-      "snippet": "Steve Thompson / Washington Post: The US Federal Reserve's September meeting shows officials are increasingly citing surging AI investments, not tariffs, as the driver of rising goods inflation — At their September meeting, Fed officials cited “surging AI-related investments” as "
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p13#a261008p13",
-      "title": "ICANN receives 1,615 TLD applications from 481 applicants; Meta, OpenAI, and eight others applied for .agent, seven companies applied for .agi, and six for .asi (David Pierce/The Verge)",
-      "link": "https://www.techmeme.com/261008/p13#a261008p13",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791452700000,
-      "snippet": "David Pierce / The Verge: ICANN receives 1,615 TLD applications from 481 applicants; Meta, OpenAI, and eight others applied for .agent, seven companies applied for .agi, and six for .asi — ICANN's latest top-level domain applications are out, and they are all about AI. … For the "
-    },
-    {
       "id": "https://siecledigital.fr/2026/10/08/chatgpt-et-google-privilegient-ils-les-marques-actives-sur-les-reseaux-sociaux/",
       "title": "ChatGPT et Google privilégient-ils les marques actives sur les réseaux sociaux ?",
       "link": "https://siecledigital.fr/2026/10/08/chatgpt-et-google-privilegient-ils-les-marques-actives-sur-les-reseaux-sociaux/",
@@ -128,15 +452,6 @@
       "snippet": "Anthropic a décidé d’élargir l’accès à ses modèles les plus performants pour la cybersécurité. Les professionnels vérifiés grâce au Cyber Verification Program pourront en profiter. Entre avril et juillet 2026, le groupe annonce que près de 129 000 failles ont été identifiées. Ce "
     },
     {
-      "id": "https://www.numerama.com/pop-culture/2349045-netflix-consacre-deja-un-documentaire-a-laffaire-hugging-face-a-quoi-peut-on-sattendre.html",
-      "title": "Netflix consacre déjà un documentaire à l’affaire Hugging Face : à quoi peut-on s’attendre ?",
-      "link": "https://www.numerama.com/pop-culture/2349045-netflix-consacre-deja-un-documentaire-a-laffaire-hugging-face-a-quoi-peut-on-sattendre.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1791450300000,
-      "snippet": "Le 12 octobre 2026, Netflix diffusera AI Gone Wild, un épisode de sa collection Instadocs consacré à l'attaque menée en juillet par des agents d'OpenAI contre Hugging Face."
-    },
-    {
       "id": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
       "title": "AI breakthroughs in robotics won’t change your life any time soon",
       "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
@@ -144,15 +459,6 @@
       "category": "monde",
       "ts": 1791450000000,
       "snippet": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been poppin"
-    },
-    {
-      "id": "https://www.numerama.com/tech/2349055-irifi-le-drone-dattaque-autonome-francais-concu-pour-voler-2-000-km-sans-gps-et-frapper-tres-loin.html",
-      "title": "IRIFI : le drone d’attaque autonome français conçu pour voler 2 000 km sans GPS et frapper très loin",
-      "link": "https://www.numerama.com/tech/2349055-irifi-le-drone-dattaque-autonome-francais-concu-pour-voler-2-000-km-sans-gps-et-frapper-tres-loin.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1791449781000,
-      "snippet": "La start-up française Harmattan AI a présenté ce mardi 6 octobre IRIFI, un drone de frappe autonome d'une portée annoncée de 2 000 kilomètres. Le Maroc a signé dès le lendemain une lettre d'intention pour l'acheter, le développer et le produire sur son sol."
     },
     {
       "id": "https://siecledigital.fr/2026/10/08/samsung-affole-les-compteurs-avec-80-milliards-de-dollars-de-benefice-grace-a-lia/",
@@ -173,40 +479,22 @@
       "snippet": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that ope"
     },
     {
-      "id": "https://www.numerama.com/tech/2348987-chatgpt-accueille-un-nouveau-gpt-6-et-des-reponses-interactives-meme-sans-abonnement.html",
-      "title": "ChatGPT accueille un nouveau GPT‑6 et des réponses interactives, même sans abonnement",
-      "link": "https://www.numerama.com/tech/2348987-chatgpt-accueille-un-nouveau-gpt-6-et-des-reponses-interactives-meme-sans-abonnement.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1791447365000,
-      "snippet": "OpenAI a annoncé le 7 octobre 2026 l’arrivée de GPT‑6 pour tous les utilisateurs de ChatGPT. Au programme : des réponses interactives et un accès élargi, mais des modèles différents selon votre abonnement."
+      "id": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1791443254000,
+      "snippet": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 203 # Comments: 88"
     },
     {
-      "id": "https://www.techmeme.com/261008/p11#a261008p11",
-      "title": "Manus' parent Butterfly Effect raised $500M+, led by Boyu Capital and IDG Capital, in its first funding since Beijing forced Meta to unwind its $2B acquisition (Anniek Bao/CNBC)",
-      "link": "https://www.techmeme.com/261008/p11#a261008p11",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791442500000,
-      "snippet": "Anniek Bao / CNBC: Manus' parent Butterfly Effect raised $500M+, led by Boyu Capital and IDG Capital, in its first funding since Beijing forced Meta to unwind its $2B acquisition — AI agent startup Manus has raised more than $500 million in its first funding round since Meta was "
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p9#a261008p9",
-      "title": "The Association for Human Mathematics says OpenAI's new math documents show power, not scholarship, and urges mathematicians to stop working with the company (AHM)",
-      "link": "https://www.techmeme.com/261008/p9#a261008p9",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791440707000,
-      "snippet": "AHM: The Association for Human Mathematics says OpenAI's new math documents show power, not scholarship, and urges mathematicians to stop working with the company — Yesterday, on October 6th, 2026, OpenAI - which is currently defending lawsuits against accusations of illegal plag"
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p8#a261008p8",
-      "title": "A look at Emeryville, CA-based Atomic Machines, which is training AI on materials and designs to revamp how microelectromechanical systems (MEMS) are built (Cade Metz/New York Times)",
-      "link": "https://www.techmeme.com/261008/p8#a261008p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791440400000,
-      "snippet": "Cade Metz / New York Times: A look at Emeryville, CA-based Atomic Machines, which is training AI on materials and designs to revamp how microelectromechanical systems (MEMS) are built — Atomic Machines is training artificial intelligence on materials and designs — and then using "
+      "id": "https://twitter.com/danintheory/status/2108065033070789090",
+      "title": "OpenAI withdraws three mathematical results",
+      "link": "https://twitter.com/danintheory/status/2108065033070789090",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1791443140000,
+      "snippet": "https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50002650 Points: 327 # Comments: 580"
     },
     {
       "id": "https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal",
@@ -218,33 +506,6 @@
       "snippet": "The parent company of Manus, the AI agent startup that recently separated from Meta Platforms, said Thursday that it has raised more than $500 million in a new funding round. Butterfly Effect said in a social media post on WeChat that the funding round was led by new investors Bo"
     },
     {
-      "id": "https://www.techmeme.com/261008/p7#a261008p7",
-      "title": "SemiAnalysis: China has 24 GW of operational compute capacity and another 50 GW planned or under construction, compared to 56 GW operational in the US (Financial Times)",
-      "link": "https://www.techmeme.com/261008/p7#a261008p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791437100000,
-      "snippet": "Financial Times: SemiAnalysis: China has 24 GW of operational compute capacity and another 50 GW planned or under construction, compared to 56 GW operational in the US — Beijing is rolling out AI infrastructure at breakneck speed in Inner Mongolia — News — Samsung Electronics Co "
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p6#a261008p6",
-      "title": "A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols (Scott Aaronson/Shtetl-Optimized)",
-      "link": "https://www.techmeme.com/261008/p6#a261008p6",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791436211000,
-      "snippet": "Scott Aaronson / Shtetl-Optimized: A theoretical computer scientist, citing sources, says AI labs have quietly started probing whether their models can break important cryptographic protocols — -friend-of-the-blog Omer Reingold (shared with permission) — Last night my 9-year-old "
-    },
-    {
-      "id": "https://www.techmeme.com/261008/p5#a261008p5",
-      "title": "Vitalik Buterin says \"we should take the risks to cryptography from AI-accelerated math seriously\", backing a \"bunker mode\" call for the blockchain industry (Felix Ng/Cointelegraph)",
-      "link": "https://www.techmeme.com/261008/p5#a261008p5",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1791435901000,
-      "snippet": "Felix Ng / Cointelegraph: Vitalik Buterin says “we should take the risks to cryptography from AI-accelerated math seriously”, backing a “bunker mode” call for the blockchain industry — Ethereum researchers say crypto users should consider moving funds to fresh addresses …"
-    },
-    {
       "id": "https://www.theinformation.com/articles/ais-simmering-question-where-f-automation",
       "title": "AI's Simmering Question: \"Where the F--- Is All the Automation?\"",
       "link": "https://www.theinformation.com/articles/ais-simmering-question-where-f-automation",
@@ -252,6 +513,15 @@
       "category": "capital",
       "ts": 1791418852000,
       "snippet": "A new age of discovery and automation is here. Can you feel it? The leading AI companies certainly can. But you may not. The rare slow news day gave us more time to marinate on the significance of OpenAI’s late-breaking announcement on Tuesday that its unreleased AI model had sol"
+    },
+    {
+      "id": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "link": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1791418488000,
+      "snippet": "Article URL: https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/ Comments URL: https://news.ycombinator.com/item?id=50000488 Points: 823 # Comments: 731"
     },
     {
       "id": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
@@ -263,22 +533,13 @@
       "snippet": "Get ready for more AI in your Windows and more AI on the desktop."
     },
     {
-      "id": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-      "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
-      "link": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791416217000,
-      "snippet": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/former-white-house-ai-adviser-sriram-krishnan-raising-venture-fund",
-      "title": "Former White House AI Adviser Sriram Krishnan Raising a Venture Fund",
-      "link": "https://www.theinformation.com/briefings/former-white-house-ai-adviser-sriram-krishnan-raising-venture-fund",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791415182000,
-      "snippet": "Sriram Krishnan, who advised President Donald Trump on AI policy before leaving the White House in June, is raising a venture fund that is targeting about $500 million to invest in growth- and later-stage AI companies, The Information reported. Krishnan would be the sole general "
+      "id": "https://huggingface.co/blog/building-with-ml-intern",
+      "title": "The model that didn't exist, so you made it yourself",
+      "link": "https://huggingface.co/blog/building-with-ml-intern",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1791417600000,
+      "snippet": ""
     },
     {
       "id": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
@@ -290,123 +551,6 @@
       "snippet": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished."
     },
     {
-      "id": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791406125000,
-      "snippet": "The developer of Hermes Agent raised a $90 million Series B."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791404557000,
-      "snippet": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1791400242000,
-      "snippet": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms,"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/ex-trump-ai-adviser-sriram-krishnan-targets-raising-500-million-venture-fund",
-      "title": "Ex-Trump AI Adviser Sriram Krishnan Targets Raising a $500 Million Venture Fund",
-      "link": "https://www.theinformation.com/articles/ex-trump-ai-adviser-sriram-krishnan-targets-raising-500-million-venture-fund",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791400124000,
-      "snippet": "Sriram Krishnan, a key AI adviser to President Donald Trump who left the White House in June, is raising an AI-focused venture fund, according to three people familiar with the matter. The fund will target raising around $500 million to invest in growth- and later-stage companies"
-    },
-    {
-      "id": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
-      "title": "The first Nvidia RTX Spark laptops cost up to $7,000",
-      "link": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1791399952000,
-      "snippet": "The 15-inch Surface Laptop Ultra starts at $2,599. | Photo by Tom Warren / The Verge The first array of laptops powered by Nvidia's new RTX Spark chip are designed to compete with high-end MacBook Pros - and they've got some high-end prices to match. The flagship Surface Laptop U"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-      "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
-      "link": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1791398542000,
-      "snippet": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-      "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
-      "link": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791397857000,
-      "snippet": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai",
-      "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit",
-      "link": "https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791397284000,
-      "snippet": "Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers. The announcement is Microsoft’s response to Apple’s Mac Mini, which has become"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
-      "link": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791396928000,
-      "snippet": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself."
-    },
-    {
-      "id": "https://www.anthropic.com/claude-haiku-5-5",
-      "title": "Claude Haiku 5.5",
-      "link": "https://www.anthropic.com/claude-haiku-5-5",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1791396092000,
-      "snippet": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 922 # Comments: 437"
-    },
-    {
-      "id": "https://openai.com/index/gpt-6-for-everyone/",
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "link": "https://openai.com/index/gpt-6-for-everyone/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1791396058000,
-      "snippet": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 663 # Comments: 374"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
-      "link": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791396019000,
-      "snippet": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
-      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
-      "link": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1791395859000,
-      "snippet": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties."
-    },
-    {
       "id": "https://huggingface.co/blog/LiquidAI/open-d1",
       "title": "Multimodal open d1 decision models for the edge",
       "link": "https://huggingface.co/blog/LiquidAI/open-d1",
@@ -416,15 +560,6 @@
       "snippet": ""
     },
     {
-      "id": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-      "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-      "link": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791392026000,
-      "snippet": "Meta launches new AI tools after discovering ads on its platforms that may look normal but direct users to harmful content elsewhere online."
-    },
-    {
       "id": "https://siecledigital.fr/2026/10/07/des-agents-ia-dopenai-ont-pris-dassaut-wikipedia-avec-des-millions-de-requetes/",
       "title": "Des agents IA d’OpenAI ont pris d’assaut Wikipédia avec des millions de requêtes",
       "link": "https://siecledigital.fr/2026/10/07/des-agents-ia-dopenai-ont-pris-dassaut-wikipedia-avec-des-millions-de-requetes/",
@@ -432,15 +567,6 @@
       "category": "france",
       "ts": 1791387333000,
       "snippet": "Les agents IA en lien avec l’environnement d’OpenAI auraient une activité suspecte selon la Wikimedia Foundation. Divers services de la fondation, Wikimedia Commons, Wikidata ou encore Wikipédia ont été visés par des millions de requêtes. Actuellement, il ne s’agit pas d’une cybe"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/ai-agenda-live-token-maxing-value-maxing-getting-every-unit-compute",
-      "title": "AI Agenda Live: From Token Maxing to Value maxing: Getting More From Every Unit of Compute",
-      "link": "https://www.theinformation.com/articles/ai-agenda-live-token-maxing-value-maxing-getting-every-unit-compute",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791387243000,
-      "snippet": "In AI circles, conversations about compute shortages are as common as talk of the weather. As agentic workflows threaten to multiply token consumption further, it’s little wonder that talk has shifted from securing GPUs to optimizing them. At a recent panel, The Information’s Pho"
     },
     {
       "id": "https://siecledigital.fr/2026/10/07/google-remunere-desormais-certains-sites-utilises-pour-generer-ses-reponses-ia/",
@@ -470,60 +596,6 @@
       "snippet": "Les entreprises pourraient être les clients de demain d’Anthropic. Le groupe vient donc d’élargir Claude for Startups en proposant un an gratuit. Ce sont les jeunes sociétés qui sont éligibles et peuvent obtenir jusqu’à cinq accès premium. En parallèle, elles obtiennent 1 000 dol"
     },
     {
-      "id": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-      "link": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791385628000,
-      "snippet": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
-      "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
-      "link": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791384098000,
-      "snippet": "The “father of the iPod” says the first generation of AI gadgets failed to solve real problems — and the next wave will need to earn consumers’ trust."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-      "title": "Google experiments with an AI-powered gaming platform",
-      "link": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791383783000,
-      "snippet": "Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-      "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
-      "link": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791383400000,
-      "snippet": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/musk-says-spacex-will-sometimes-use-rival-models-power-grok-bot",
-      "title": "Musk Says SpaceX Will Sometimes Use Rival Models to Power Grok Bot",
-      "link": "https://www.theinformation.com/briefings/musk-says-spacex-will-sometimes-use-rival-models-power-grok-bot",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791382868000,
-      "snippet": "Elon Musk announced on Tuesday night that SpaceX’s AI unit will now use some AI models from competitors to power Grok Bot, signaling a shift away from relying exclusively on models developed in-house. “Going forward, @SpaceX will use the best back end model for any given task, in"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
-      "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1791382500000,
-      "snippet": "From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off."
-    },
-    {
       "id": "https://siecledigital.fr/2026/10/07/mistral-revient-dans-la-course-a-lia-avec-un-modele-qui-se-rapproche-des-meilleurs/",
       "title": "Mistral revient dans la course à l’IA avec un modèle qui se rapproche des meilleurs",
       "link": "https://siecledigital.fr/2026/10/07/mistral-revient-dans-la-course-a-lia-avec-un-modele-qui-se-rapproche-des-meilleurs/",
@@ -531,42 +603,6 @@
       "category": "france",
       "ts": 1791382431000,
       "snippet": "Mistral est toujours dans la course des IA les plus performantes. Après plusieurs mois sans nouvelle version, la start-up présente Mistral 4 Large baptisé Le Chonk. Certes, il ne devrait pas concurrencer les modèles les plus avancés d’OpenAI et d’Anthropic. Le groupe révèle qu’il"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-      "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
-      "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1791382357000,
-      "snippet": "Mistral says Le Chonk can rival top closed models while remaining open-weight."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/former-tesla-optimus-lead-launching-industrial-robot-startup",
-      "title": "Former Tesla Optimus Lead is Launching an Industrial Robot Startup",
-      "link": "https://www.theinformation.com/articles/former-tesla-optimus-lead-launching-industrial-robot-startup",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791381689000,
-      "snippet": "Ashish Kumar, a former AI lead for Tesla’s Optimus humanoid robots, has co-founded a startup developing non-humanoid robots that handle a variety of tasks that would normally be done by highly skilled workers in industries such as manufacturing and aerospace, according to two peo"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-      "title": "Google rolls out improved SynthID AI content detector, now available globally",
-      "link": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1791381608000,
-      "snippet": "The new SynthID website can now identify AI content from Google, OpenAI, and more."
-    },
-    {
-      "id": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
-      "title": "AI/ML is becoming a performance factor in motorsport",
-      "link": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1791381398000,
-      "snippet": "More than just a sponsor: OpenAI has been helping Ganassi with setups."
     },
     {
       "id": "https://siecledigital.fr/2026/10/07/les-francais-sont-ils-prets-a-laisser-des-agents-ia-agir-a-leur-place-une-etude-revele-leurs-inquietudes/",
@@ -578,13 +614,13 @@
       "snippet": "Alors que les IA sont de plus en plus présentes dans notre quotidien, une étude menée par Ping Identity révèle que la majorité des Français ne sont pas prêts à laisser des agents IA agir à leur place. Les utilisateurs ne veulent pas laisser trop d’autonomie aux agents IA L’IA occ"
     },
     {
-      "id": "https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next",
-      "title": "Where Nvidia’s $100 Billion Dealmaking Juggernaut Will Go Next",
-      "link": "https://www.theinformation.com/articles/nvidias-100-billion-dealmaking-juggernaut-will-go-next",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791378036000,
-      "snippet": "This July, Nvidia caught wind of a looming takeover of OpenRouter, a three-year-old startup that had emerged as a popular marketplace for AI models, including many cheaper open-source ones. Databricks and Stripe had already been talking to the startup about a potential sale. Nvid"
+      "id": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Introducing Falcon ASR",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1791379263000,
+      "snippet": ""
     },
     {
       "id": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
@@ -603,15 +639,6 @@
       "category": "capital",
       "ts": 1791376776000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/former-google-nvidia-execs-launch-company-ease-gpu-crunch",
-      "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch",
-      "link": "https://www.theinformation.com/briefings/former-google-nvidia-execs-launch-company-ease-gpu-crunch",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791374440000,
-      "snippet": "Anjney Midha, a former general partner at Andreessen Horowitz, and former executives at Google, Apple and Nvidia have launched a company that aims to make it easier and more affordable for smaller companies or startups to access such compute. The move comes as Microsoft and other"
     },
     {
       "id": "https://news.crunchbase.com/venture/ai-startup-investors-raising-bar-ipo-farid-leo/",
@@ -657,60 +684,6 @@
       "category": "france",
       "ts": 1791349200000,
       "snippet": "Mise à jour du 7 octobre 2026. Première version de cette page de référence. Elle recense les décisions françaises publiées sur la consultation du CSE avant un déploiement d'IA, le calendrier du règlem..."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips",
-      "title": "SpaceX Seeks to Raise $40 Billion From Apollo to Buy Nvidia Chips",
-      "link": "https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791335114000,
-      "snippet": "SpaceX, the AI and rocket company led by Elon Musk, is seeking to raise $40 billion to buy Nvidia chips in a financing round led by Apollo Global Management, the Financial Times reported on Tuesday. The deal is expected to close in 2027 and consist of around $10 billion in bank l"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/openai-publishes-700-new-math-papers-ai-made-solutions",
-      "title": "OpenAI Publishes Over 700 New Math Papers with AI-Made Solutions",
-      "link": "https://www.theinformation.com/briefings/openai-publishes-700-new-math-papers-ai-made-solutions",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791333325000,
-      "snippet": "Less than a month after OpenAI set off a mathematics firestorm by announcing it had solved one of the field’s most challenging problems, the AI company dropped more than 700 new research papers detailing results on a range of math subjects. The new results were produced by an unr"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/hubspot-lays-7-workforce-says-ai",
-      "title": "HubSpot Lays Off 7% of Workforce, Says It’s Not Because of AI",
-      "link": "https://www.theinformation.com/briefings/hubspot-lays-7-workforce-says-ai",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791326728000,
-      "snippet": "Software provider HubSpot is laying off 660 employees, or 7% of its staff, as part of a restructuring that will include eliminating some management layers and reorganizing product teams, CEO Yamini Rangan announced in a blog post. The job cuts are “not simply a cost-cutting exerc"
-    },
-    {
-      "id": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "title": "Sharing AI progress in mathematics",
-      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1791325041000,
-      "snippet": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints Comments URL: https://news.ycombinator.com/item?id=49984923 Points: 1286 # Comments: 1459"
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
-      "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1791319832000,
-      "snippet": "Like other solutions, it is not especially reliable, and it's easy to circumvent."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/anthropic-expands-cyberdefenders-access-top-models",
-      "title": "Anthropic Expands Cyberdefenders’ Access to Top Models",
-      "link": "https://www.theinformation.com/briefings/anthropic-expands-cyberdefenders-access-top-models",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1791313580000,
-      "snippet": "Anthropic said it is expanding and restructuring its cybersecurity access programs to enable more cyberdefenders to use its most advanced Claude models to secure their systems against potential AI attacks. Under the changes, announced Tuesday, all members of Anthropic’s Cyber Ver"
     },
     {
       "id": "https://www.actuia.com/actualite/deepseek-trie-ses-investisseurs-pour-un-tour-de-80-milliards-de-yuans/",
@@ -893,24 +866,6 @@
       "snippet": ""
     },
     {
-      "id": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
-      "title": "Exclusive: Hadrian raises $40m as AI cyberattacks accelerate",
-      "link": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1791262814000,
-      "snippet": ""
-    },
-    {
-      "id": "https://sifted.eu/articles/is-it-illegal-to-train-frontier-ai-in-the-uk/",
-      "title": "Is it illegal to train frontier AI in the UK?",
-      "link": "https://sifted.eu/articles/is-it-illegal-to-train-frontier-ai-in-the-uk/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1791262805000,
-      "snippet": ""
-    },
-    {
       "id": "https://www.actuia.com/actualite/six-entreprises-sur-dix-utilisent-lia-sans-cadre-selon-coface/",
       "title": "Six entreprises françaises sur dix sans cadre pour l'IA (Coface)",
       "link": "https://www.actuia.com/actualite/six-entreprises-sur-dix-utilisent-lia-sans-cadre-selon-coface/",
@@ -945,15 +900,6 @@
       "category": "france",
       "ts": 1791207581000,
       "snippet": "Déposé sur arXiv le 2 octobre 2026 et listé parmi les nouveautés du lundi 5 octobre, le papier du Jailbreak Benchmark v1.0 de MLCommons, le consortium qui publie aussi les bancs MLPerf et AILuminate, livre ce que ses aut"
-    },
-    {
-      "id": "https://sifted.eu/articles/the-best-ai-opportunities-may-not-look-like-ai-companies-brnd/",
-      "title": "The best AI opportunities for investors may not look like AI companies",
-      "link": "https://sifted.eu/articles/the-best-ai-opportunities-may-not-look-like-ai-companies-brnd/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1791207415000,
-      "snippet": ""
     },
     {
       "id": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
@@ -1010,15 +956,6 @@
       "snippet": "Selon une étude mise en ligne le 2 octobre 2026 par Reputation Age et Bubbling, 40 % des chiffres semestriels de 39 sociétés du CAC 40 restitués par ChatGPT et Gemini sont incorrects, de 81 % de réponses justes pour Capgemini à 32 % pour Crédit Agricole. Une partie des erreurs vi"
     },
     {
-      "id": "https://sifted.eu/articles/8-pre-seed-rounds-led-by-tier-1-us-investors-in-ai-native-companies/",
-      "title": "8 pre-seed rounds led by Tier 1 US investors in AI-native companies",
-      "link": "https://sifted.eu/articles/8-pre-seed-rounds-led-by-tier-1-us-investors-in-ai-native-companies/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1791176458000,
-      "snippet": ""
-    },
-    {
       "id": "https://huggingface.co/blog/microsoft/thinkingbox",
       "title": "The Agent Said It Was Done. The Database Disagreed.",
       "link": "https://huggingface.co/blog/microsoft/thinkingbox",
@@ -1026,15 +963,6 @@
       "category": "capab",
       "ts": 1791068208000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html",
-      "title": "Who’s to Blame When A.I. Goes Rogue?",
-      "link": "https://www.nytimes.com/2026/10/01/technology/ai-rogue-agents-liability.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1791039100000,
-      "snippet": "Many think artificial intelligence companies should be held liable for their runaway technology. But legal scholars say applying existing law could be messy."
     },
     {
       "id": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
@@ -1062,24 +990,6 @@
       "category": "capab",
       "ts": 1790954390000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html",
-      "title": "Amazon Promises More Local Funding and Less Secrecy Around Data Centers",
-      "link": "https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1790945788000,
-      "snippet": "The internet giant is the latest technology company trying to address increasingly hostile local sentiment toward data center projects."
-    },
-    {
-      "id": "https://news.crunchbase.com/ai/humanx-amsterdam-europe-sovereign-ai-user-push/",
-      "title": "Reporter’s Notebook: Europe’s Sovereign AI Push Needs Customers As Well As Capital",
-      "link": "https://news.crunchbase.com/ai/humanx-amsterdam-europe-sovereign-ai-user-push/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1790938813000,
-      "snippet": "Crunchbase News Research Lead Gené Teare moderated panels and spoke with leaders building Europe and the Middle East’s AI ecosystems at HumanX in Amsterdam. Here we share a snippet of her conversation with Axelera AI CEO Fabrizio Del Maffeo and AI71 CPTO Mehdi Ghissassi."
     },
     {
       "id": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
@@ -1262,15 +1172,6 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly wh"
     },
     {
-      "id": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "title": "Nvidia’s free AI model could push the UAE closer to the U.S.",
-      "link": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "category": "monde",
-      "ts": 1789984800000,
-      "snippet": "The Emirates owns the machines but rents the intelligence. Nvidia’s next free AI model could change that."
-    },
-    {
       "id": "https://huggingface.co/blog/tokenizers-v1",
       "title": "tokenizers v1: encode, decode and scaling, measured",
       "link": "https://huggingface.co/blog/tokenizers-v1",
@@ -1413,33 +1314,6 @@
       "category": "capab",
       "ts": 1787670854000,
       "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1787657964000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/gradio-workflow-guide",
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "link": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1787616000000,
-      "snippet": ""
-    },
-    {
-      "id": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
-      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
-      "link": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
-      "source": "Import AI",
-      "category": "radar",
-      "ts": 1787577160000,
-      "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceler"
     }
   ],
   "syntheses": {}
