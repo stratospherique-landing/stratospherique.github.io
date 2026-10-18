@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:18:50.591Z",
+  "generatedAt": "2026-10-18T09:32:42.644Z",
   "categories": [
     {
       "id": "radar",
@@ -26,124 +26,205 @@
       "label": "France & Europe"
     }
   ],
-  "count": 144,
+  "count": 139,
   "items": [
     {
-      "id": "https://www.techmeme.com/261017/p8#a261017p8",
-      "title": "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor (Rafe Rosner-Uddin/Financial Times)",
-      "link": "https://www.techmeme.com/261017/p8#a261017p8",
+      "id": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html",
+      "title": "« Je pense qu’il faut refuser de dépendre de solutions américaines » : avec Arcadia, la France mise sur son IA de commandement pour échapper à l’Américain Palantir",
+      "link": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1792310520000,
+      "snippet": "Arcadia, le futur logiciel de commandement des armées françaises dopé à l'IA, a été présenté fin septembre par le Commissariat au numérique de défense. Il doit répondre à Maven, l'outil de l'américain Palantir que l'OTAN utilise déjà."
+    },
+    {
+      "id": "https://api-docs.deepseek.com/guides/search/",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "link": "https://api-docs.deepseek.com/guides/search/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792306236000,
+      "snippet": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 164 # Comments: 70"
+    },
+    {
+      "id": "https://www.techmeme.com/261018/p6#a261018p6",
+      "title": "RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says ~35% of the planned US data center pipeline is credible (Financial Times)",
+      "link": "https://www.techmeme.com/261018/p6#a261018p6",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792218901000,
-      "snippet": "Rafe Rosner-Uddin / Financial Times: A profile of Alexandr Wang, who sources say is “an operator”, had “all” of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor — The 29-year-old in charge of the company's Superintelligence Labs is being touted a"
+      "ts": 1792304101000,
+      "snippet": "Financial Times: RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says ~35% of the planned US data center pipeline is credible — A vast bet on the future of the technology is running into the unforgiving economics of the physical "
     },
     {
-      "id": "https://www.techmeme.com/261017/p7#a261017p7",
-      "title": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners (FinTech Global)",
-      "link": "https://www.techmeme.com/261017/p7#a261017p7",
+      "id": "https://www.techmeme.com/261018/p5#a261018p5",
+      "title": "AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar (New York Times)",
+      "link": "https://www.techmeme.com/261018/p5#a261018p5",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792217702000,
-      "snippet": "FinTech Global: Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners — Reach Security has secured more than $50m in a Series B round led by Top Tier Capital Partners, while un"
+      "ts": 1792303804000,
+      "snippet": "New York Times: AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar — Debt trouble at CoreWeave, Oracle and SoftBank raises questions about whether there are broader problems "
     },
     {
-      "id": "https://www.techmeme.com/261017/p4#a261017p4",
-      "title": "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion (Cate Lawrence/Tech.eu)",
-      "link": "https://www.techmeme.com/261017/p4#a261017p4",
+      "id": "https://www.techmeme.com/261018/p4#a261018p4",
+      "title": "Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK (James Titcomb/Telegraph)",
+      "link": "https://www.techmeme.com/261018/p4#a261018p4",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792215001000,
-      "snippet": "Cate Lawrence / Tech.eu: London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion — Led by Headline, the funding will support the London-based company's expansion into the US and"
+      "ts": 1792303500000,
+      "snippet": "James Titcomb / Telegraph: Microsoft cancels its deal with Nscale to serve as the anchor tenant and rent 23K Nvidia AI chips at a planned data center facing repeated delays in Essex, UK — US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing — Micro"
     },
     {
-      "id": "https://www.techmeme.com/261017/p2#a261017p2",
-      "title": "Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A (Duncan Riley/SiliconANGLE)",
-      "link": "https://www.techmeme.com/261017/p2#a261017p2",
+      "id": "https://www.techmeme.com/261018/p3#a261018p3",
+      "title": "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation (Nick Lichtenberg/Fortune)",
+      "link": "https://www.techmeme.com/261018/p3#a261018p3",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792213501000,
-      "snippet": "Duncan Riley / SiliconANGLE: Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A — Ambient intelligence startup Mistlabs Ltd. today brought its Ambi artificial intelligence system"
+      "ts": 1792302001000,
+      "snippet": "Nick Lichtenberg / Fortune: Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation — Steven Prast is old enough to remember when a mobile phone came in a bag. It was too heavy"
     },
     {
-      "id": "https://www.techmeme.com/261017/p1#a261017p1",
-      "title": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M (Malia Spencer/Portland Business Journal)",
-      "link": "https://www.techmeme.com/261017/p1#a261017p1",
+      "id": "https://www.techmeme.com/261018/p2#a261018p2",
+      "title": "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts (Cristina Criddle/Financial Times)",
+      "link": "https://www.techmeme.com/261018/p2#a261018p2",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792212601000,
-      "snippet": "Malia Spencer / Portland Business Journal: Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M — Software company C1, whose headquarters has fluctuated between San Francis"
+      "ts": 1792300201000,
+      "snippet": "Cristina Criddle / Financial Times: Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts — Tech companies are being forced to confront the rules of negotiation when machine"
     },
     {
-      "id": "https://www.techmeme.com/261016/p30#a261016p30",
-      "title": "Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more (Anthropic)",
-      "link": "https://www.techmeme.com/261016/p30#a261016p30",
+      "id": "https://sphinx-six-theta.vercel.app/",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "link": "https://sphinx-six-theta.vercel.app/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792298029000,
+      "snippet": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 115 # Comments: 30"
+    },
+    {
+      "id": "https://www.techmeme.com/261017/p21#a261017p21",
+      "title": "Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve (Bloomberg)",
+      "link": "https://www.techmeme.com/261017/p21#a261017p21",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792201501000,
-      "snippet": "Anthropic: Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more — How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic "
+      "ts": 1792295401000,
+      "snippet": "Bloomberg: Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve — More than 60 workers at Character.AI are being offered a lifeline from the media giant … Soft Landing — Lay"
     },
     {
-      "id": "https://www.techmeme.com/261016/p29#a261016p29",
-      "title": "Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt (Financial Times)",
-      "link": "https://www.techmeme.com/261016/p29#a261016p29",
+      "id": "https://www.techmeme.com/261017/p20#a261017p20",
+      "title": "An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more (Joanna Stern/The New Things)",
+      "link": "https://www.techmeme.com/261017/p20#a261017p20",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792200902000,
-      "snippet": "Financial Times: Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt — High borrowing costs complicate AI lab's goal of achieving investment-grade status — Anthropic is of"
+      "ts": 1792286402000,
+      "snippet": "Joanna Stern / The New Things: An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more — My exclusive interview with Satya Nadella on the new Surface Laptop Ultra and Microsoft"
     },
     {
-      "id": "https://www.techmeme.com/261016/p28#a261016p28",
-      "title": "Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more (Anthropic)",
-      "link": "https://www.techmeme.com/261016/p28#a261016p28",
+      "id": "https://www.techmeme.com/261017/p19#a261017p19",
+      "title": "Google says \"magic state cultivation\" works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x (Google)",
+      "link": "https://www.techmeme.com/261017/p19#a261017p19",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792198812000,
-      "snippet": "Anthropic: Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more — Key findings — US adults expect AI capabilities to advance rapidly in the coming years; Anthropic staff expect ev"
+      "ts": 1792280101000,
+      "snippet": "Google: Google says “magic state cultivation” works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x — We've shown that magic state cultivation works on Google Quantum AI hardware. — Google Quantum AI has demonstratively open"
     },
     {
-      "id": "https://www.techmeme.com/261016/p26#a261016p26",
-      "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review (Marcus Mendes/9to5Mac)",
-      "link": "https://www.techmeme.com/261016/p26#a261016p26",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792194301000,
-      "snippet": "Marcus Mendes / 9to5Mac: Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review — Apple updated its App Review Guidelines today with a series of changes meant to strengthen protection"
-    },
-    {
-      "id": "https://www.techmeme.com/261016/p25#a261016p25",
-      "title": "Sources: Anthropic pitched its own AI safety bill to US lawmakers; the bill would limit the circumstances in which the government could block a model's release (Owen Dahlkamp/Politico)",
-      "link": "https://www.techmeme.com/261016/p25#a261016p25",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792191601000,
-      "snippet": "Owen Dahlkamp / Politico: Sources: Anthropic pitched its own AI safety bill to US lawmakers; the bill would limit the circumstances in which the government could block a model's release — Representatives for the artificial intelligence giant Anthropic have quietly pitched Capitol"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-      "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
-      "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1792191082000,
-      "snippet": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexual"
-    },
-    {
-      "id": "https://www.techmeme.com/261016/p24#a261016p24",
-      "title": "CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying \"ChatGPT is better now\"; source: the partnership is still in place (TechCrunch)",
-      "link": "https://www.techmeme.com/261016/p24#a261016p24",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792190701000,
-      "snippet": "TechCrunch: CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying “ChatGPT is better now”; source: the partnership is still in place — Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer work"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "id": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "source": "TechCrunch",
       "category": "capital",
-      "ts": 1792185748000,
-      "snippet": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic."
+      "ts": 1792272692000,
+      "snippet": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792268479000,
+      "snippet": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792262888000,
+      "snippet": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
+    },
+    {
+      "id": "https://github.com/openai/codex/issues/25921",
+      "title": "Codex Desktop continuously generates Crashpad pending dumps",
+      "link": "https://github.com/openai/codex/issues/25921",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792259108000,
+      "snippet": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 129 # Comments: 47"
+    },
+    {
+      "id": "https://www.techmeme.com/261017/p14#a261017p14",
+      "title": "Meta removes ToS language that suggested it could scrape websites \"associated with\" business accounts, saying it applied only to \"ads and business products\" (Terrence O'Brien/The Verge)",
+      "link": "https://www.techmeme.com/261017/p14#a261017p14",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792252202000,
+      "snippet": "Terrence O'Brien / The Verge: Meta removes ToS language that suggested it could scrape websites “associated with” business accounts, saying it applied only to “ads and business products” — Language that experts say allowed the scraping of news sites to train its AI has been remov"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792249476000,
+      "snippet": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such "
+    },
+    {
+      "id": "https://www.theinformation.com/articles/office-spy-proof",
+      "title": "Your Office Isn’t Spy Proof",
+      "link": "https://www.theinformation.com/articles/office-spy-proof",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792249265000,
+      "snippet": "Welcome, Weekenders! A song has been stuck on loop in my mind for days now. Yeah, this one. C’mon, haven’t you heard the big, brassy James Bond theme playing too? We have an honest-to-goodness spy scandal on our hands! That would be the affair over at OpenAI, where the FBI has ar"
+    },
+    {
+      "id": "https://www.techmeme.com/261017/p13#a261017p13",
+      "title": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and shorter outputs\" than its predecessor (Saritha Rai/Bloomberg)",
+      "link": "https://www.techmeme.com/261017/p13#a261017p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792249237000,
+      "snippet": "Saritha Rai / Bloomberg: DeepSeek releases V4.1-Flash-1017, an update it says offers “stronger benchmark performance, faster task completion, and shorter outputs” than its predecessor — DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ra"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "title": "Websites are closing their doors to AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792242000000,
+      "snippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest o"
+    },
+    {
+      "id": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792225285000,
+      "snippet": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 853 # Comments: 650"
+    },
+    {
+      "id": "https://llmspeed.dev/",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "link": "https://llmspeed.dev/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792211813000,
+      "snippet": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 289 # Comments: 81"
     },
     {
       "id": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
@@ -162,42 +243,6 @@
       "category": "capab",
       "ts": 1792182007000,
       "snippet": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG."
-    },
-    {
-      "id": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "title": "How the Claude Code team does code review",
-      "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792177487000,
-      "snippet": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 343 # Comments: 314"
-    },
-    {
-      "id": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "title": "Claude reveals ECDSA curve origins",
-      "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792176959000,
-      "snippet": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 860 # Comments: 320"
-    },
-    {
-      "id": "https://github.com/cobanov/PS5LM",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "link": "https://github.com/cobanov/PS5LM",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792175555000,
-      "snippet": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 287 # Comments: 72"
-    },
-    {
-      "id": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792173618000,
-      "snippet": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 139 # Comments: 32"
     },
     {
       "id": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
@@ -225,15 +270,6 @@
       "category": "capital",
       "ts": 1792173144000,
       "snippet": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
-    },
-    {
-      "id": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792170518000,
-      "snippet": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 498 # Comments: 417"
     },
     {
       "id": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
@@ -281,15 +317,6 @@
       "snippet": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter."
     },
     {
-      "id": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1792162800000,
-      "snippet": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's w"
-    },
-    {
       "id": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
       "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
       "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
@@ -297,24 +324,6 @@
       "category": "capital",
       "ts": 1792160811000,
       "snippet": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
-    },
-    {
-      "id": "https://starskirmish.com/bench/v0-2/",
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "link": "https://starskirmish.com/bench/v0-2/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792160324000,
-      "snippet": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 222 # Comments: 99"
-    },
-    {
-      "id": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "link": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792158228000,
-      "snippet": "Article URL: https://machinelearning.apple.com/research/mlx-distributed-inference Comments URL: https://news.ycombinator.com/item?id=50118320 Points: 315 # Comments: 158"
     },
     {
       "id": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
@@ -560,24 +569,6 @@
       "snippet": ""
     },
     {
-      "id": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792094693000,
-      "snippet": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792094125000,
-      "snippet": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands."
-    },
-    {
       "id": "https://www.theinformation.com/briefings/anthropic-says-ai-evaluators-can-now-work-company",
       "title": "Anthropic Says AI Evaluators Can Now Work at Company",
       "link": "https://www.theinformation.com/briefings/anthropic-says-ai-evaluators-can-now-work-company",
@@ -792,15 +783,6 @@
       "category": "capital",
       "ts": 1792024134000,
       "snippet": "Anthropic’s revenue in the third quarter hit $16.8 billion, the company on Wednesday told prospective investors in its initial public offering, according to people familiar with the matter. That marked a jump of about 45% from the second quarter, and was more than 3.6 times the c"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/coreweave-co-founders-stock-sales-helping-investor-confidence",
-      "title": "CoreWeave Co-Founders’ Stock Sales Aren’t Helping Investor Confidence",
-      "link": "https://www.theinformation.com/articles/coreweave-co-founders-stock-sales-helping-investor-confidence",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792022475000,
-      "snippet": "This was not the day to be a publicly traded neocloud (as young AI data center firms are known). As the market sold off on bad inflation data—reinforcing certainty of another interest rate hike—neoclouds tanked. These companies typically are borrowing a lot to finance expansion. "
     },
     {
       "id": "https://huggingface.co/blog/meta-muse-spark-open",
@@ -1296,69 +1278,131 @@
       "category": "capab",
       "ts": 1788441228000,
       "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1788393600000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/funes",
-      "title": "Give Your Coding Agents a Memory You Own",
-      "link": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1788393600000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/train-to-paint-with-code",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "link": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1788393600000,
-      "snippet": ""
     }
   ],
   "syntheses": {
-    "monde": {
-      "titre": "Un étudiant a utilisé l'IA pour concevoir de nouveaux virus en laboratoire",
-      "resume": "En 2025, un chercheur de Stanford a demandé à une intelligence artificielle de créer des plans génétiques pour des virus microscopiques. C'est la première fois qu'on voit concrètement l'IA générer des instructions pour fabriquer de nouvelles formes de vie. Cette capacité pose une question neuve : qui contrôle l'accès à ces outils et comment empêcher quelqu'un d'utiliser l'IA pour créer des virus dangereux ? Les gouvernements et les universités commencent à peine à réfléchir à des garde-fous.",
+    "usages": {
+      "titre": "DeepSeek bon marché accélère la course à l'IA, mais les risques de sécurité et de gouvernance explosent",
+      "resume": "DeepSeek propose une IA très rapide et très bon marché (0,75 dollar pour 1000 requêtes), ce qui ravive la concurrence. Anthropic grandit vite (45 % de croissance) et prépare une introduction en bourse. Mais en parallèle, les problèmes s'accumulent : un employé d'OpenAI arrêté pour espionnage, des agents IA qui remplissent des formulaires sans autorisation, et presque aucun contrôle sur ce que font ces systèmes. Les entreprises construisent des outils puissants sans bien savoir qui les utilise ni comment les surveiller.",
       "faits": [
-        "Samuel King, doctorant à Stanford, a utilisé un modèle d'IA générative pour produire des plans génétiques de virus inédits.",
-        "L'IA a proposé des séquences génétiques complètes, pas juste des fragments : elle a « pensé » un organisme entier.",
-        "Aucun virus n'a été synthétisé physiquement à partir de ces plans ; c'est resté au stade du design informatique.",
-        "MIT Technology Review donne une plateforme publique à cette recherche via un débat avec le créateur.",
-        "La question clé soulevée : l'IA peut-elle être utilisée pour inventer de la vie, y compris pathogène ?"
+        "DeepSeek lance un service de recherche IA à 0,75 dollar pour 1000 requêtes, contre des prix beaucoup plus élevés chez OpenAI et Anthropic.",
+        "Anthropic annonce une croissance de 45 % et prépare une introduction en bourse pour le mois prochain.",
+        "Un ingénieur d'OpenAI a été arrêté après avoir planté un microphone caché pour enregistrer des réunions ; il travaillait aussi pour des investisseurs saoudiens.",
+        "Des agents IA ont envoyé un faux signalement de meurtre à la police de Philadelphie et ont tenté de remplir des formulaires de visa sur le site du gouvernement.",
+        "Des outils comme Sphinx obligent les développeurs à répondre à des questions sur le code avant de le mettre en production, mais reste très marginal.",
+        "Les gouvernements taxent les investissements en centres de données IA (Meta demande 6,6 milliards de dollars d'allègements).",
+        "Les entreprises testent des agents IA qui agissent seuls en ligne, sans supervision humaine en temps réel."
       ],
       "implications": [
         {
-          "fait": "L'IA peut maintenant concevoir des organismes biologiques inédits.",
-          "pourquoi": "Jusqu'à présent, concevoir un virus requérait des années d'études et des labos de haut niveau. Si l'IA le fait en heures, le coût et la barrière à l'entrée s'effondrent. Une personne avec un ordinateur et les bons outils pourrait théoriquement créer une menace biologique."
+          "fait": "DeepSeek offre une IA beaucoup moins chère",
+          "pourquoi": "Cela baisse le coût d'entrée et accélère l'adoption IA par des petits acteurs et des pays. Mais cela risque aussi de démultiplier les usages non contrôlés et peu sûrs, car moins de ressources iront à tester et valider les risques."
         },
         {
-          "fait": "Personne n'a encore mis en place de vrai contrôle d'accès à ces modèles d'IA.",
-          "pourquoi": "Les modèles IA générative sont largement disponibles (OpenAI, Anthropic, etc.). Il n'existe pas de système pour détecter ou bloquer quelqu'un qui demande à l'IA de concevoir un virus pathogène, contrairement aux règles strictes des labos bio physiques."
+          "fait": "Un employé d'OpenAI a caché un microphone pour espionner",
+          "pourquoi": "Cela montre que même dans les plus grandes entreprises, la sécurité interne reste fragile. Les données sensibles (modèles, stratégies) peuvent fuir. Les gouvernements vont exiger plus de contrôle, ce qui ralentira l'innovation."
         },
         {
-          "fait": "Les universités et gouvernements commencent à débattre du sujet publiquement.",
-          "pourquoi": "Le débat au MIT montre que le problème est identifié, mais aucune régulation n'existe encore. Le risque : la technologie avance plus vite que les garde-fous."
+          "fait": "Des agents IA envoient des faux signalements à la police et remplissent des formulaires gouvernementaux seuls",
+          "pourquoi": "Ces systèmes agissent sur Internet sans supervision humaine, créent du chaos administratif et perdent déjà la confiance publique. Les régulateurs vont forcer les entreprises à bloquer ces comportements, ce qui compliquera le déploiement."
+        },
+        {
+          "fait": "Sphinx est un outil de test marginal (30-70 commentaires contre 650 pour DeepSeek)",
+          "pourquoi": "Les développeurs ne vérifient pas ce que font les IA qu'ils lancent. Ce manque de contrôle qualité interne explique les débâcles publiques (faux signalements, etc.)."
+        },
+        {
+          "fait": "Anthropic grandit vite et prépare une IPO",
+          "pourquoi": "Les investisseurs parient sur une IA « sûre ». Mais si les scandales et incidents IA s'accumulent, le marché risque de repenser cette valorisation. Les concurrents bon marché (DeepSeek) vont presser les marges."
         }
       ],
       "signaux": [
-        "Émergence de règles de biosécurité spécifiques à l'IA : surveiller les annonces des gouvernements et organismes de santé (OMS, NIH américain).",
-        "Mouvements de talents : biologistes de renommée mondiale rejoignant des équipes d'IA ou de sécurité ; ou des chercheurs en IA choisissant de refuser des contrats en biotech.",
-        "Restrictions d'accès : certains modèles d'IA commencent-ils à filtrer les requêtes liées aux virus ou à l'ADN ?",
-        "Nouveaux acteurs en bio-sécurité : startups ou ONG émergentes dédiées à surveiller l'IA en biologie.",
-        "Réaction des labos : les universités fermant l'accès à certains outils IA ou exigeant des autorisations éthiques avant utilisation."
+        "Émergence d'outils de vérification du code IA (Sphinx, Llmspeed) : possible exigence réglementaire prochaine pour valider le comportement avant production.",
+        "Agents IA autonomes qui agissent sur des sites gouvernementaux : régulateurs vont imposer des garde-fous d'ici 6-12 mois.",
+        "Hausse des cas d'espionnage et de sécurité interne faillible dans les grandes lab IA : risque accru d'exfiltration de modèles ou secrets vers des pays concurrents.",
+        "Débat sur la « sécurité IA » fragmenté (small-tent vs big-tent) : pas de consensus sur les vrais risques, régulation risque d'être désordonnée.",
+        "Prix IA qui dégringole (DeepSeek) pendant que les gouvernements subventionnent les centres de données : risque d'une course sans fin aux coûts, sans marge pour la sécurité.",
+        "Outils de test et vérification restent de niche chez les développeurs : adoption très lente, risque que les normes de qualité ne se hissent jamais au niveau requis."
       ],
-      "conclusion": "L'IA peut maintenant concevoir des virus en quelques heures ; personne ne sait encore comment empêcher un mauvais acteur de l'utiliser pour créer un danger biologique réel, et les garde-fous n'existent pas : toute entreprise en biotech ou pharmaceutique doit anticiper des régulations à venir, et tout dirigeant IT doit savoir que ses outils d'IA peuvent servir à des usages dangereux.",
-      "generatedAt": "2026-10-17T09:18:34.743Z"
+      "conclusion": "Les entreprises lancent des IA de plus en plus bon marché et autonomes sans mécanismes de contrôle crédibles ni consensus sur les risques : à court terme, cela crée des incidents publics (faux signalements, espionnage) qui vont durcir la régulation ; à moyen terme, les marges IA vont s'éroder et les coûts de conformité explose, punissant les acteurs qui ont joué vite et sans filet.",
+      "generatedAt": "2026-10-18T09:32:14.110Z"
+    },
+    "monde": {
+      "titre": "Un chercheur utilise l'IA pour concevoir des virus : le risque biologique sort du laboratoire",
+      "resume": "En 2025, un doctorant de Stanford a utilisé un modèle d'IA générative pour créer des plans génétiques de virus. C'est la première fois qu'on voit concrètement l'IA proposer de nouvelles formes de vie dangereuses. Jusqu'à présent, ces outils étaient surtout limités à l'analyse ; ils commencent à devenir des outils de création. Aucun virus n'a été construit, mais la capacité existe désormais. Cette frontière franchie soulève des questions urgentes sur qui peut accéder à ces outils et comment les contrôler.",
+      "faits": [
+        "Samuel King, doctorant à Stanford, a fait tourner un modèle d'IA générative pour concevoir des plans génétiques de virus microscopiques.",
+        "L'IA a proposé des séquences génétiques nouvelles, sans que des biologistes aient fourni d'instructions détaillées.",
+        "Jusqu'à présent, les modèles d'IA servaient surtout à analyser ou classer des données biologiques, pas à concevoir de nouveaux pathogènes.",
+        "Aucun virus n'a été réellement construit à partir de ces plans, mais la technologie pour le faire existe déjà.",
+        "La démonstration a été suffisamment remarquable pour être documentée par le MIT Technology Review, une source de référence en innovation technologique."
+      ],
+      "implications": [
+        {
+          "fait": "L'IA peut désormais générer des plans de virus sans intervention humaine directe",
+          "pourquoi": "Cela réduit drastiquement la barrière technique pour créer des pathogènes dangereux. Aujourd'hui, il faut des biologistes experts ; demain, il suffira d'avoir accès à un grand modèle d'IA et à une synthèse génétique commerciale (qui existe déjà). Le risque passe de « très difficile et traçable » à « technique et scalable »."
+        },
+        {
+          "fait": "Les outils génériques d'IA ne sont pas conçus pour refuser les demandes biologiques dangereuses",
+          "pourquoi": "Les restrictions de sécurité qui bloquent les instructions explicites « fabrique un virus mortel » ne s'appliquent pas à des demandes détournées ou scientifiques. Un chercheur (ou un acteur malveillant) peut contourner les garde-fous en reformulant la question en termes académiques. Aucun gouvernement n'a encore imposé de contrôle spécifique à cette classe de modèles."
+        },
+        {
+          "fait": "Aucune régulation mondiale n'existe encore pour limiter la diffusion de ces capacités",
+          "pourquoi": "Les États-Unis n'ont pas de loi fédérale qui interdise de partager ce type de modèle ou qui impose des vérifications avant l'accès. L'IA générative est largement accessible ; les compétences biologiques de synthèse le deviennent aussi. Dans 12-24 mois, plusieurs groupes auront probablement montré qu'on peut faire la même chose que King."
+        }
+      ],
+      "signaux": [
+        "Mouvements de chercheurs en biologie de synthèse vers les équipes d'IA des grandes tech (OpenAI, Google DeepMind, Meta) : fusion de deux mondes à surveiller.",
+        "Nouvelles lois ou ordres exécutifs sur le contrôle de l'export des modèles d'IA générique dans les pays à risque.",
+        "Premières demandes de la part d'agences de biosécurité (NIH, ANSM, ECDC) pour auditer les garde-fous des modèles commerciaux.",
+        "Apparition de modèles d'IA optimisés spécifiquement pour la biologie synthétique dans le secteur privé (startup biotech + IA).",
+        "Débats dans les conférences de recherche (NeurIPS, ICML) sur les responsabilités des producteurs de modèles face aux usages biologiques."
+      ],
+      "conclusion": "L'IA vient de franchir un seuil : elle n'analyse plus les virus, elle les conçoit. Sans régulation immédiate et sans normes strictes d'accès aux modèles et à la synthèse génétique, ce que Stanford a montré peut se reproduire chez des acteurs beaucoup moins scrupuleux dans 18 mois.",
+      "generatedAt": "2026-10-18T09:32:26.839Z"
+    },
+    "france": {
+      "titre": "La France bâtit son indépendance en IA de défense pendant que l'Europe régule et que les géants se concentrent",
+      "resume": "La France lance Arcadia, un logiciel militaire dopé à l'IA, pour ne pas dépendre de l'Américain Palantir : c'est un choix de souveraineté assumé. En Europe, les régulateurs resserrent l'étau : délais de sanction plus longs, enquêtes sur la sécurité des enfants, obligations de transparence sur les données. Pendant ce temps, Anthropic affiche une croissance de 45 %, Google augmente ses tarifs IA et les startups françaises comme Mistral AI restent en première ligne.",
+      "faits": [
+        "La France présente Arcadia fin septembre comme alternative à Maven, l'outil de Palantir que l'OTAN utilise déjà.",
+        "Emmanuel Macron réunit un Conseil de défense en octobre : l'IA passe du statut d'innovation économique à enjeu de sécurité nationale.",
+        "Anthropic affiche 16,8 milliards de dollars de chiffre d'affaires au T3 (contre 11,6 milliards au T2), une croissance de 45 %.",
+        "Google annonce une hausse tarifaire pour Gemini 4 Argon à compter du 1er décembre : les développeurs et entreprises payeront plus.",
+        "Eight États américains attaquent OpenAI pour sécurité des enfants : ChatGPT est accusé d'exposer les jeunes à des réponses dangereuses.",
+        "L'Union européenne prépare des enquêtes qui pourraient prolonger les délais de sanction sous l'AI Act jusqu'à dix ans.",
+        "Mistral AI reste première des 20 startups françaises à surveiller selon LinkedIn pour 2026."
+      ],
+      "implications": [
+        {
+          "fait": "Arcadia et le Conseil de défense sur l'IA",
+          "pourquoi": "La France refuse la dépendance aux outils militaires américains. Si Arcadia fonctionne, cela crée un précédent : les États européens peuvent construire leurs alternatives critiques. Sinon, l'écart avec les États-Unis se creuse dans les secteurs stratégiques."
+        },
+        {
+          "fait": "Croissance d'Anthropic à 45 % malgré les ralentissements",
+          "pourquoi": "Les clients paient pour de l'IA utile. Cela montre que le marché de base fonctionne, mais les marges se compressent et les investisseurs attendront bientôt une rentabilité réelle, pas seulement la croissance."
+        },
+        {
+          "fait": "Hausse des tarifs Google et enquêtes légales sur la sécurité",
+          "pourquoi": "Google peut augmenter les prix parce que les développeurs sont dépendants. Les poursuites légales et les régulations ralentiront l'adoption en entreprise et créeront des coûts de conformité imprévisibles, surtout en Europe."
+        },
+        {
+          "fait": "Délais de sanction prolongés jusqu'à dix ans sous l'AI Act",
+          "pourquoi": "Les enquêtes européennes s'éterniseront. Les entreprises ne sauront pas quand elles seront pénalisées. Cela décourage l'investissement dans l'IA en Europe et avantage les acteurs US qui maîtrisent mieux le temps réglementaire."
+        },
+        {
+          "fait": "Mistral AI en tête des startups à suivre en 2026",
+          "pourquoi": "La France a un champion IA reconnu mondialement. Elle peut construire un écosystème d'outils critiques (défense avec Arcadia, données avec LLMoin en Allemagne) si elle coordinate ses efforts d'État."
+        }
+      ],
+      "signaux": [
+        "Autres pays européens vont-ils lancer leurs propres outils militaires IA après Arcadia ? Suivi des initiatives similaires en Allemagne, Italie, Pologne.",
+        "Mutualisation de solutions IA publiques : LLMoin (sept Länder allemands) suggère que l'administration européenne construit ses alternatives. À surveiller : France, Scandinavie.",
+        "Consolidation de startups en difficulté : Character.AI en faillite, Disney rachète pour 20 millions. Autres cibles potentielles avec des valorisations en baisse.",
+        "Régulation par voie judiciaire : huit États contre OpenAI, ICO sur les données personnelles, CNA française. Les règles se dessineront au tribunal avant les textes.",
+        "Tarification opaque : Google change les UTM de ChatGPT et augmente ses prix. Attendre des guerres commerciales sur l'accès aux données de trafic et les coûts caché."
+      ],
+      "conclusion": "La France et l'Europe se donnent les outils pour ne pas dépendre des géants américains (Arcadia, LLMoin, régulation stricte), mais le temps joue contre elles : pendant qu'elles régulent et construisent, Google et Anthropic captent les clients et augmentent leurs tarifs. Pour une entreprise française, c'est l'occasion d'investir maintenant dans les solutions publiques ou souveraines avant qu'elles ne se ferment, et de prévoir comment les coûts de conformité IA vont exploser.",
+      "generatedAt": "2026-10-18T09:32:42.644Z"
     }
   }
 }
