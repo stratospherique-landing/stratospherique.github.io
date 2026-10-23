@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T10:07:52.168Z",
+  "generatedAt": "2026-10-23T10:01:30.949Z",
   "categories": [
     {
       "id": "radar",
@@ -26,25 +26,574 @@
       "label": "France & Europe"
     }
   ],
-  "count": 141,
+  "count": 138,
   "items": [
     {
-      "id": "https://www.techmeme.com/261022/p12#a261022p12",
-      "title": "A look at Huawei and DeepSeek's mutual reliance, where Huawei provides compute hardware while DeepSeek contributes model workloads and kernel optimization (SemiAnalysis)",
-      "link": "https://www.techmeme.com/261022/p12#a261022p12",
+      "id": "https://www.techmeme.com/261023/p5#a261023p5",
+      "title": "Anthropic says it partnered with Theorem to use Claude to formally prove security properties at the assembly level across 100+ real-world open-source libraries (Anthropic)",
+      "link": "https://www.techmeme.com/261023/p5#a261023p5",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792662901000,
-      "snippet": "SemiAnalysis: A look at Huawei and DeepSeek's mutual reliance, where Huawei provides compute hardware while DeepSeek contributes model workloads and kernel optimization — Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend, AICPU, Tilel"
+      "ts": 1792746903000,
+      "snippet": "Anthropic: Anthropic says it partnered with Theorem to use Claude to formally prove security properties at the assembly level across 100+ real-world open-source libraries — Introduction — Even mature, heavily tested software contains bugs, and LLMs are increasingly adept at findi"
     },
     {
-      "id": "https://www.techmeme.com/261022/p11#a261022p11",
-      "title": "Barclays plans to cut 5,000 jobs, or ~5% of its workforce, by the end of 2026 as part of AI-driven cost cutting, with ~60% coming from support and developers (William Shaw/Bloomberg)",
-      "link": "https://www.techmeme.com/261022/p11#a261022p11",
+      "id": "https://www.numerama.com/tech/2359611-vous-avez-deteste-les-failles-critiques-de-php-le-chef-de-la-securite-danthropic-previent-que-ca-va-etre-pire.html",
+      "title": "Vous avez détesté les failles critiques de PHP ? Le chef de la sécurité d’Anthropic prévient que ça va être pire",
+      "link": "https://www.numerama.com/tech/2359611-vous-avez-deteste-les-failles-critiques-de-php-le-chef-de-la-securite-danthropic-previent-que-ca-va-etre-pire.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1792744103000,
+      "snippet": "Jason Clinton, RSSI adjoint d'Anthropic, a prévenu que la crise ouverte par les failles critiques de PHP allait encore empirer, pendant environ 18 mois. Il annonçait déjà ce « tsunami » de vulnérabilités trouvées par l'IA au mois d'août."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/deepseek-raises-nearly-16-billion-second-funding-round",
+      "title": "DeepSeek Raises Nearly $16 billion in Second Funding Round",
+      "link": "https://www.theinformation.com/briefings/deepseek-raises-nearly-16-billion-second-funding-round",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792735982000,
+      "snippet": "DeepSeek has closed its second funding round, raising 106 billion yuan ($15.9 billion) in one of the biggest-ever fundraising deals in China’s AI sector, according to three people with knowledge of the matter. The amount is more than double DeepSeek’s original fundraising target "
+    },
+    {
+      "id": "https://www.techmeme.com/261023/p4#a261023p4",
+      "title": "SK Telecom unit SK Hyper is in talks with tech firms and investors to finance 15GW of data center capacity in South Korea by 2035; the first 5GW will cost $350B (Bloomberg)",
+      "link": "https://www.techmeme.com/261023/p4#a261023p4",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1792662301000,
-      "snippet": "William Shaw / Bloomberg: Barclays plans to cut 5,000 jobs, or ~5% of its workforce, by the end of 2026 as part of AI-driven cost cutting, with ~60% coming from support and developers — Barclays to Cut 5,000 Jobs as AI Starts to Create Efficiency — Video Player is loading. — Unmu"
+      "ts": 1792735256000,
+      "snippet": "Bloomberg: SK Telecom unit SK Hyper is in talks with tech firms and investors to finance 15GW of data center capacity in South Korea by 2035; the first 5GW will cost $350B — SK Hyper Co. is in talks with big tech firms and financial investors to secure funding for an envisioned $"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/10/22/avec-10-millions-dutilisateurs-lia-de-meta-connait-un-demarrage-spectaculaire/",
+      "title": "Avec 10 millions d’utilisateurs, l’IA de Meta connaît un démarrage spectaculaire",
+      "link": "https://siecledigital.fr/2026/10/22/avec-10-millions-dutilisateurs-lia-de-meta-connait-un-demarrage-spectaculaire/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1792733400000,
+      "snippet": "Lancé le 8 septembre dernier, le nouvel agent IA de Meta rencontre d’ores et déjà un franc succès auprès du public. Baptisé Muse, ce dernier est parvenu à séduire plus de 10 millions d’utilisateurs en quelques semaines seulement. Muse compte déjà plus de 10 millions d’utilisateur"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/10/22/microsoft-transforme-onedrive-avec-copilot-voici-tout-ce-qui-change/",
+      "title": "Microsoft transforme OneDrive avec Copilot, voici tout ce qui change",
+      "link": "https://siecledigital.fr/2026/10/22/microsoft-transforme-onedrive-avec-copilot-voici-tout-ce-qui-change/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1792732441000,
+      "snippet": "Lors d’un événement dédié au stockage, Microsoft a présenté plusieurs nouveautés pour OneDrive. Parmi elles figure l’intégration de nouvelles fonctionnalités de Copilot dans OneDrive et SharePoint. Certaines sont déjà disponibles, tandis que d’autres seront déployées dans les pro"
+    },
+    {
+      "id": "https://sifted.eu/articles/nvidia-european-investments-2026/",
+      "title": "Nvidia funds European startups. They spend it on Nvidia",
+      "link": "https://sifted.eu/articles/nvidia-european-investments-2026/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1792731655000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+      "title": "Administration : l'IA fait basculer le rapport de force vers les usagers",
+      "link": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792731600000,
+      "snippet": "L'IA générative rend presque gratuite la rédaction de demandes, de réclamations et de recours ; leur instruction reste humaine. Le droit français permet déjà d'écarter les demandes abusives et d'imposer un téléservice, mais un recours fondé reste dû quel que soit le nombre de ceu"
+    },
+    {
+      "id": "https://www.techmeme.com/261023/p2#a261023p2",
+      "title": "Chinese state media: DeepSeek and MiniMax completed registration and won approval to open-source and deploy AI models overseas under proposed export controls (Bloomberg)",
+      "link": "https://www.techmeme.com/261023/p2#a261023p2",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792731055000,
+      "snippet": "Bloomberg: Chinese state media: DeepSeek and MiniMax completed registration and won approval to open-source and deploy AI models overseas under proposed export controls — DeepSeek and MiniMax Group Inc. have won approval to deploy models overseas, part of a wave of homegrown AI t"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792728000000,
+      "snippet": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p61#a261022p61",
+      "title": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats (Wall Street Journal)",
+      "link": "https://www.techmeme.com/261022/p61#a261022p61",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792723850000,
+      "snippet": "Wall Street Journal: OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats — The company fired three safety researchers for mishandling sensitive information. They had been f"
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p59#a261022p59",
+      "title": "US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other \"countries of concern\" (Associated Press)",
+      "link": "https://www.techmeme.com/261022/p59#a261022p59",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792717801000,
+      "snippet": "Associated Press: US Treasury proposes rules tightening restrictions on US investments in areas including AI and supercomputing in China, Russia, and other “countries of concern” — The U.S. Treasury Department proposed a rule Thursday to crack down on American high-tech investmen"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792716337000,
+      "snippet": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/anthropics-elevator-problem-persuading-investors-share-ai-dream",
+      "title": "Anthropic’s Elevator Problem: Persuading Investors to Share Its AI Dream",
+      "link": "https://www.theinformation.com/articles/anthropics-elevator-problem-persuading-investors-share-ai-dream",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792715458000,
+      "snippet": "One quotation has rattled around in my head for a while, which I first heard from early Anthropic investor Jaan Tallinn: “The future of the world will be decided by a group of people who fit in an elevator.” The enigmatic billionaire said on a podcast earlier this year that a fri"
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p57#a261022p57",
+      "title": "German energy company PreussenElektra says it is working with Nvidia to assess whether the country's idle nuclear plants could be turned into data centers (Eva Brendel/Bloomberg)",
+      "link": "https://www.techmeme.com/261022/p57#a261022p57",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792714502000,
+      "snippet": "Eva Brendel / Bloomberg: German energy company PreussenElektra says it is working with Nvidia to assess whether the country's idle nuclear plants could be turned into data centers — Germany's idle nuclear plants could find a new life as data centers, with operators looking for wa"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "title": "Etsy is cracking down on AI slop listings",
+      "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792714198000,
+      "snippet": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your wo"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/blackstone-thinks-ai-bottlenecks-work-favor",
+      "title": "Why Blackstone Thinks AI Bottlenecks Could Work in its Favor",
+      "link": "https://www.theinformation.com/articles/blackstone-thinks-ai-bottlenecks-work-favor",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792713660000,
+      "snippet": "Greetings! On their earnings calls earlier in the week, Meta Platforms and SpaceX delivered the same underlying message to investors: demand for AI is running ahead of the supply of AI compute. On Thursday, another important player in the AI ecosystem—Blackstone, the alternative "
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p56#a261022p56",
+      "title": "a16z rebrands a16z Crypto as a16z Frontier and expands the fund's scope to back startups developing AI, robotics, and other emerging technologies (Camila Grigera Naón/Fortune)",
+      "link": "https://www.techmeme.com/261022/p56#a261022p56",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792710343000,
+      "snippet": "Camila Grigera Naón / Fortune: a16z rebrands a16z Crypto as a16z Frontier and expands the fund's scope to back startups developing AI, robotics, and other emerging technologies — In 2018, Andreessen Horowitz made a splash in the venture capital world by launching a spin-off dedic"
+    },
+    {
+      "id": "https://www.anthropic.com/research/formal-verification",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "link": "https://www.anthropic.com/research/formal-verification",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792709683000,
+      "snippet": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 347 # Comments: 203"
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p55#a261022p55",
+      "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)",
+      "link": "https://www.techmeme.com/261022/p55#a261022p55",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792708533000,
+      "snippet": "Financial Times: Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors — AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT — OpenAI h"
+    },
+    {
+      "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1792707874000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-fundraising-round-set-close-soon-uae-investors-coatue-leading-investment",
+      "title": "OpenAI Fundraising Round Set to Close Soon With UAE Investors, Coatue Leading Investment",
+      "link": "https://www.theinformation.com/briefings/openai-fundraising-round-set-close-soon-uae-investors-coatue-leading-investment",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792707818000,
+      "snippet": "OpenAI is aiming to close a $30 billion fundraising round that will value the AI company at up to $1.25 trillion, not including the new investment, before the end of next week, according to a person familiar with the deal. New York-based investment firm Coatue Management and inve"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792706904000,
+      "snippet": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792705885000,
+      "snippet": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "title": "Designing an AI serving harness built to last",
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1792703849000,
+      "snippet": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, lar"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
+      "title": "Fall 2026 earnings watch",
+      "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792703716000,
+      "snippet": "Every company is suddenly an AI company. Compute is an asset. Cars are flying. We’ve been promised robots — again. It’s time again to dig through earnings reports, listen to investor calls, and call out the latest wins and losses from around the tech sector and what it means for "
+    },
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
+      "title": "Comcast loses more customers, claims other ISPs' cheap prices are \"irrational\"",
+      "link": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1792703229000,
+      "snippet": "Comcast plans job cuts and more AI agents for its shrinking cable customer base."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
+      "title": "Rivian buys world model startup to accelerate self-driving ambitions",
+      "link": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792703105000,
+      "snippet": "Third Dimension's technology uses AI to match the physical world, which when combined with Rivian's reams of data could turn into a valuable simulator."
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50200997",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "link": "https://news.ycombinator.com/item?id=50200997",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792703035000,
+      "snippet": "Title is a bit of an exaggeration but the question is more: if the frontier models are so good, why even sell them as your primary money maker? Couldn't OpenAI or Anthropic make a lot more money by just starting companies themselves that leverage the models and building their own"
+    },
+    {
+      "id": "https://www.techmeme.com/261022/p53#a261022p53",
+      "title": "Anthropic donates the Agent Skills open standard to the Agentic AI Foundation and says 70+ platforms have integrated it, after donating MCP to the AAIF in 2025 (Anthropic)",
+      "link": "https://www.techmeme.com/261022/p53#a261022p53",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1792701610000,
+      "snippet": "Anthropic: Anthropic donates the Agent Skills open standard to the Agentic AI Foundation and says 70+ platforms have integrated it, after donating MCP to the AAIF in 2025 — Today, we're donating Agent Skills, the open standard that gives AI agents specialized knowledge and workfl"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+      "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792701125000,
+      "snippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your product"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1792698300000,
+      "snippet": "Mars not depicted. | Image: Cath Virginia / The Verge, Getty Images Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merge"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792696029000,
+      "snippet": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792695600000,
+      "snippet": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "title": "The Foundations of Scalable AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1792694884000,
+      "snippet": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792694633000,
+      "snippet": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself."
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+      "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792694327000,
+      "snippet": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/salesforce-customers-brace-new-fees-use-claude-apps",
+      "title": "Salesforce Customers Brace For New Fees to Use Claude in Its Apps",
+      "link": "https://www.theinformation.com/articles/salesforce-customers-brace-new-fees-use-claude-apps",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792692257000,
+      "snippet": "Salesforce is leading the software industry’s attempt to collect fees from businesses that use Claude and other external AI tools to automate work in enterprise apps. As soon as next month, Salesforce plans to require companies to register outside AI agents, a step toward chargin"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/sb-energy-considers-waiting-december-later-ipo",
+      "title": "SB Energy Considers Waiting Until December or Later for an IPO",
+      "link": "https://www.theinformation.com/articles/sb-energy-considers-waiting-december-later-ipo",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792691491000,
+      "snippet": "SB Energy, the SoftBank Group–controlled developer of a massive planned Ohio data center project for OpenAI, is considering going public in December or possibly waiting until next year, according to people familiar with the discussions. That is a later timeline than previously ex"
+    },
+    {
+      "id": "https://github.com/NVIDIA/OpenShell",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792691046000,
+      "snippet": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 395 # Comments: 194"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html",
+      "title": "A.I. and Its Dangers Are Embedded In the Midterm Elections",
+      "link": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1792688864000,
+      "snippet": "The midterms are the first elections in which artificial intelligence is integrated into every major social media platform. Efforts to blunt its harms are uneven."
+    },
+    {
+      "id": "https://sifted.eu/articles/aaron-rosenberg-radical-ventures-podcast/",
+      "title": "Meet Aaron Rosenberg: The man DeepMind researchers call before they quit",
+      "link": "https://sifted.eu/articles/aaron-rosenberg-radical-ventures-podcast/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1792687783000,
+      "snippet": ""
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792687637000,
+      "snippet": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers."
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1792685491000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1792685280000,
+      "snippet": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 425 # Comments: 426"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/exclusive-physical-ai-startup-tractian-becomes-unicorn",
+      "title": "Exclusive: Physical AI Startup Tractian Becomes a Unicorn",
+      "link": "https://www.theinformation.com/briefings/exclusive-physical-ai-startup-tractian-becomes-unicorn",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792684847000,
+      "snippet": "Tractian, a 7-year-old physical AI startup based in Atlanta, Georgia, has raised $130 million at a valuation of $1.4 billion in a Series D funding round led by Sapphire Ventures. Tractian provides sensors to assess the condition of machines, predicting how long it will take for t"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1792684800000,
+      "snippet": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/google-pay-homes-businesses-curb-energy-usage",
+      "title": "Google To Pay Homes and Businesses To Curb Energy Usage",
+      "link": "https://www.theinformation.com/briefings/google-pay-homes-businesses-curb-energy-usage",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792684114000,
+      "snippet": "Google said it is partnering with energy company Voltus to pay homes and businesses to curb electricity use during peak hours, in the latest effort to mitigate the data center boom’s impact on power demand. The companies on Thursday announced what they call a 1-gigawatt “virtual "
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-numerous-vulnerabilities-ai-exploit-evaluators-find",
+      "title": "OpenAI Had Numerous Vulnerabilities Its AI Could Exploit, Evaluators Find",
+      "link": "https://www.theinformation.com/briefings/openai-numerous-vulnerabilities-ai-exploit-evaluators-find",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792681253000,
+      "snippet": "OpenAI’s systems had multiple vulnerabilities that would allow AI agents to circumvent monitoring and take arbitrary unauthorized actions, evaluators from AI safety nonprofits METR and Redwood Research found during a three-week pilot with OpenAI from late July to early August. Th"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes",
+      "title": "Utopai Becomes a Unicorn as Video AI Takes Off",
+      "link": "https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792677682000,
+      "snippet": "While much of the AI industry has fixated on new personal AI assistants from Meta and OpenAI, video AI is enjoying a quiet renaissance. Hollywood mogul Jeffrey Katzenberg is teaming up with the former head of OpenAI’s Sora app to launch a new AI film company. Startup Higgsfield q"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/microsoft-un-groupe-aligne-sur-pekin-a-detourne-des-applications-connectwise-avec-des-agents-dia/",
+      "title": "Microsoft : un groupe aligné sur Pékin a détourné des applications ConnectWise avec des agents d'IA",
+      "link": "https://www.actuia.com/actualite/microsoft-un-groupe-aligne-sur-pekin-a-detourne-des-applications-connectwise-avec-des-agents-dia/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792676760000,
+      "snippet": "Microsoft attribue à Storm-0940, un groupe qu'il dit aligné sur l'État chinois, la compromission de ConnectWise Cloud Backup et affirme que l'outil open source ARTEX, piloté par des agents d'IA, a accéléré l'exploitation d'applications ConnectWise autorisées dans des tenants Micr"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/clause-llm-de-la-gsa-ce-quelle-impose-aux-editeurs-europeens/",
+      "title": "Clause LLM de la GSA : ce qu'elle impose aux éditeurs européens",
+      "link": "https://www.actuia.com/actualite/clause-llm-de-la-gsa-ce-quelle-impose-aux-editeurs-europeens/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792674960000,
+      "snippet": "La GSA, centrale d'achat fédérale américaine, devait insérer au plus tard le 19 octobre 2026 la clause 552.239-7001 dans ses nouveaux appels d'offres de LLM, de chatbots et d'agents : pas d'entraînement sur les données de l'État, effacement des poids affinés et des embeddings en "
+    },
+    {
+      "id": "https://siecledigital.fr/2026/10/22/wordpress-et-des-millions-de-sites-web-menaces-par-deux-failles-de-securite-critiques/",
+      "title": "WordPress et des millions de sites web menacés par deux failles de sécurité critiques",
+      "link": "https://siecledigital.fr/2026/10/22/wordpress-et-des-millions-de-sites-web-menaces-par-deux-failles-de-securite-critiques/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1792674646000,
+      "snippet": "Deux failles sévères qui affectent le langage de programmation PHP viennent d’être dévoilées grâce aux modèles d’IA de Google et d’OpenAI. Des failles qui peuvent permettre de prendre le contrôle à distance d’un serveur. De nombreux sites en alerte de sécurité Ce mardi 20 octobre"
+    },
+    {
+      "id": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
+      "title": "Exclusive: Slingshot Raises $27M In Seed Funding To Build An Insurer For Those Small Policies Sold At Checkout",
+      "link": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1792674023000,
+      "snippet": "Slingshot Insurance, a Minneapolis-based AI-native embedded insurance startup, is emerging from stealth with $27 million in a seed funding round co-led by Rally Ventures and Skyward Group, it tells Crunchbase News exclusively."
+    },
+    {
+      "id": "https://www.actuia.com/actualite/pekin-veut-encadrer-les-agents-dia-du-commerce-selon-leur-usage/",
+      "title": "Pékin veut encadrer les agents d'IA du commerce selon leur usage",
+      "link": "https://www.actuia.com/actualite/pekin-veut-encadrer-les-agents-dia-du-commerce-selon-leur-usage/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792673160000,
+      "snippet": "Le 19 octobre 2026, neuf administrations chinoises ont publié un avis de 18 mesures pour le commerce. La quinzième reprend pour les agents d'IA commerciaux (guide d'achat, exploitation, logistique) la gouvernance par niveaux posée en mai : enregistrement, tests et rappel dans les"
+    },
+    {
+      "id": "https://siecledigital.fr/2026/10/22/avec-claude-duet-anthropic-veut-concurrencer-meta-muse-et-openai-dots/",
+      "title": "Avec Claude Duet, Anthropic veut concurrencer Meta Muse et OpenAI Dots",
+      "link": "https://siecledigital.fr/2026/10/22/avec-claude-duet-anthropic-veut-concurrencer-meta-muse-et-openai-dots/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1792672430000,
+      "snippet": "Avec son nouvel agent IA, Claude Duet, Anthropic a bien l’intention de concurrencer Meta Muse et OpenAI Dots. L’entreprise vient d’ailleurs d’ouvrir une liste d’attente pour permettre à ceux qui le souhaitent de le tester en priorité. Un assistant capable d’agir à la place de l’u"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
+      "title": "AI Act : la première norme harmonisée ne couvre que le système qualité",
+      "link": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792671360000,
+      "snippet": "La norme EN 18286, référencée au JOUE le 14 octobre 2026, est la première norme harmonisée de l'AI Act. Selon la Commission, elle vaut présomption de conformité pour le système qualité exigé des fournisseurs de systèmes à haut risque (article 17). Neuf des dix domaines de la dema"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/nvidias-powerful-b300-chips-spotted-chinese-state-owned-network",
+      "title": "Nvidia’s Powerful B300 Chips Spotted on Chinese State-Owned Network",
+      "link": "https://www.theinformation.com/briefings/nvidias-powerful-b300-chips-spotted-chinese-state-owned-network",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1792670444000,
+      "snippet": "Israeli security firm Lava said it found 32 Nvidia Blackwell Ultra B300 chips through monitoring systems linked to the network of China Telecom, a state-owned telecommunications company. The B300 is one of Nvidia’s most powerful data-center chips and is barred from being sold to "
+    },
+    {
+      "id": "https://www.actuia.com/actualite/deux-agents-de-code-dopenai-ont-affaibli-la-surveillance-des-derives-de-ses-modeles/",
+      "title": "Deux agents de code d'OpenAI ont affaibli la surveillance des dérives de ses modèles",
+      "link": "https://www.actuia.com/actualite/deux-agents-de-code-dopenai-ont-affaibli-la-surveillance-des-derives-de-ses-modeles/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792669560000,
+      "snippet": "Le 20 octobre 2026, OpenAI a publié son vingtième rapport de désalignement : deux agents de code internes ont affaibli la surveillance des dérives des modèles. Un agent GPT-6.1 Sol a coupé les alertes destinées à l'équipe de sécurité au nom d'une consigne « pas de messages » ; un"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/pourquoi-le-credit-agricole-associe-mistral-a-sa-plateforme-dia/",
+      "title": "Le Crédit Agricole associe Mistral à la fabrication de sa plateforme d'IA",
+      "link": "https://www.actuia.com/actualite/pourquoi-le-credit-agricole-associe-mistral-a-sa-plateforme-dia/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1792667717000,
+      "snippet": "Le 20 octobre 2026, le Crédit Agricole a associé Mistral à la fabrication de sa plateforme d'IA : agent pour les clients des banques de proximité, processus agentiques et cybersécurité, présentée comme un axe majeur. Les accords de BNP Paribas et de HSBC avec Mistral ne mentionne"
+    },
+    {
+      "id": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
+      "title": "The AI IPO Wave Is The Dot-Com Bubble’s Evil Twin. Anthropic’s Delay Just Proved It.",
+      "link": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1792666842000,
+      "snippet": "In this guest article from Airrived co-founder and CEO Anurag Gurtu, he contends that Anthropic’s rapid revenue growth does not justify its proposed $2 trillion IPO valuation, given enormous infrastructure commitments, safety concerns, customer concentration and competition from "
+    },
+    {
+      "id": "https://news.crunchbase.com/startups/building-brands-ai-agents-human-customers-coulthard-jacquard/",
+      "title": "Your Next Customer Might Be An Agent. Here’s How To Build Your Brand For Both Humans And AI.",
+      "link": "https://news.crunchbase.com/startups/building-brands-ai-agents-human-customers-coulthard-jacquard/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1792666807000,
+      "snippet": "As AI agents increasingly recommend and purchase products, brands must appeal to both machines and humans by documenting their voice, creating clear product descriptions and checking how AI summarizes their messaging. Guest author Toby Coulthard suggests that startups should buil"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "title": "Making the case for context-aware AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1792663200000,
+      "snippet": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the rig"
     },
     {
       "id": "https://www.actuia.com/actualite/faillite-de-getty-images-lia-narrive-quen-quatrieme-position/",
@@ -74,15 +623,6 @@
       "snippet": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data th"
     },
     {
-      "id": "https://www.numerama.com/tech/2358555-anthropic-devoile-claude-duet-un-agent-ia-qui-travaille-pour-vous-comme-muse-meta-et-dots-openai.html",
-      "title": "Anthropic dévoile Claude Duet, un agent IA qui travaille pour vous comme Muse (Meta) et Dots (OpenAI)",
-      "link": "https://www.numerama.com/tech/2358555-anthropic-devoile-claude-duet-un-agent-ia-qui-travaille-pour-vous-comme-muse-meta-et-dots-openai.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1792657584000,
-      "snippet": "Anthropic lance Claude Duet, une nouvelle application où Claude se transforme en assistant personnel. Cet agent IA surveille vos applications, vous envoie un résumé chaque matin et exécute des tâches en arrière-plan depuis une machine virtuelle dans le cloud."
-    },
-    {
       "id": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/",
       "title": "Commerce agentique : Walmart impose ses règles aux agents d'IA",
       "link": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/",
@@ -110,51 +650,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.techmeme.com/261022/p9#a261022p9",
-      "title": "How AI is an inherently imperial technology, and how the US and China are building rival \"AI empires\" with different approaches to extend their power (Foreign Affairs)",
-      "link": "https://www.techmeme.com/261022/p9#a261022p9",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792653301000,
-      "snippet": "Foreign Affairs: How AI is an inherently imperial technology, and how the US and China are building rival “AI empires” with different approaches to extend their power — The Rise and Fall of a New Global Order — In the span of a few years, China and the United States have each ass"
-    },
-    {
-      "id": "https://www.techmeme.com/261022/p8#a261022p8",
-      "title": "Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations (Bloomberg)",
-      "link": "https://www.techmeme.com/261022/p8#a261022p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792651801000,
-      "snippet": "Bloomberg: Pressure to back promising AI startups is upending the VC investment process, with investors willing to buy into the same round at rapidly escalating valuations — Venture capitalists are fighting to invest in AI startup Emulate, driving its valuation into the billions "
-    },
-    {
-      "id": "https://www.techmeme.com/261022/p5#a261022p5",
-      "title": "Microsoft says China-linked hackers used AI penetration testing tool ARTEX to compromise ConnectWise as part of a campaign targeting hundreds of organizations (AJ Vicens/Reuters)",
-      "link": "https://www.techmeme.com/261022/p5#a261022p5",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792650301000,
-      "snippet": "AJ Vicens / Reuters: Microsoft says China-linked hackers used AI penetration testing tool ARTEX to compromise ConnectWise as part of a campaign targeting hundreds of organizations — A Chinese state-aligned hacking group used an AI-driven penetration testing tool to compromise IT "
-    },
-    {
-      "id": "https://www.numerama.com/tech/2358551-thelyson-orelien-a-utilise-lia-pour-ecrire-son-roman-cetait-ca-ou-mourir-annonce-son-editeur.html",
-      "title": "Thélyson Orélien a utilisé l’IA pour écrire son roman C’était ça ou mourir, annonce son éditeur",
-      "link": "https://www.numerama.com/tech/2358551-thelyson-orelien-a-utilise-lia-pour-ecrire-son-roman-cetait-ca-ou-mourir-annonce-son-editeur.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1792649896000,
-      "snippet": "La polémique de la rentrée littéraire 2026 vient de prendre un tournant. L’éditeur québécois Boréal affirme désormais disposer d’éléments attestant d’un recours à l’IA dans le processus d’écriture de C'était ça ou mourir."
-    },
-    {
-      "id": "https://github.com/openai/openai-cli",
-      "title": "OpenAI CLI",
-      "link": "https://github.com/openai/openai-cli",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792646591000,
-      "snippet": "Article URL: https://github.com/openai/openai-cli Comments URL: https://news.ycombinator.com/item?id=50191507 Points: 120 # Comments: 71"
-    },
-    {
       "id": "https://sifted.eu/articles/irelands-ai-scene/",
       "title": "Ireland’s AI scene has buzz. Now it needs breakouts",
       "link": "https://sifted.eu/articles/irelands-ai-scene/",
@@ -162,24 +657,6 @@
       "category": "capital",
       "ts": 1792645256000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.techmeme.com/261021/p62#a261021p62",
-      "title": "Walmart unveils Agent Gateway, an MCP server for AI agents to shop its site, and Agent Profiles to authorize agents and track their purchases separately (Sarah Perez/TechCrunch)",
-      "link": "https://www.techmeme.com/261021/p62#a261021p62",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792641003000,
-      "snippet": "Sarah Perez / TechCrunch: Walmart unveils Agent Gateway, an MCP server for AI agents to shop its site, and Agent Profiles to authorize agents and track their purchases separately — Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactio"
-    },
-    {
-      "id": "https://www.techmeme.com/261021/p61#a261021p61",
-      "title": "Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among the biggest contributors (Lulu Yilun Chen/Bloomberg)",
-      "link": "https://www.techmeme.com/261021/p61#a261021p61",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1792638046000,
-      "snippet": "Lulu Yilun Chen / Bloomberg: Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among the biggest contributors — The Chinese AI pioneer DeepSeek has raised about 100 billion yuan ($15 billion) in its latest fundraisi"
     },
     {
       "id": "https://www.theinformation.com/briefings/microsoft-warns-chinese-state-linked-cyberattacks-powered-ai-agent",
@@ -209,24 +686,6 @@
       "snippet": "OpenAI would support requirements for AI companies to have shutdown controls for their models, mandated annual independent audits, and stronger cybersecurity practices, a senior company official wrote in a letter to California Gov. Gavin Newsom. OpenAI “would recommend strengthen"
     },
     {
-      "id": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792623082000,
-      "snippet": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792622734000,
-      "snippet": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services."
-    },
-    {
       "id": "https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html",
       "title": "Anthropic Joins the A.I. Agent Race With Claude Duet",
       "link": "https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html",
@@ -234,159 +693,6 @@
       "category": "usages",
       "ts": 1792622712000,
       "snippet": "The tool, which is not yet widely available, will compete with OpenAI’s dots and Meta’s Muse. It is built for work and not personal errands."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-      "title": "Data centers could erase decades of air quality gains",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1792622024000,
-      "snippet": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How de"
-    },
-    {
-      "id": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "title": "Meta to create a new class of shares to fund AI push",
-      "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1792618202000,
-      "snippet": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792617259000,
-      "snippet": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-      "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792616260000,
-      "snippet": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
-    },
-    {
-      "id": "https://www.theverge.com/tech/1015906/php2shell-vulnerability-october-2026",
-      "title": "PHP: The three letters that shut down sites all over the internet today",
-      "link": "https://www.theverge.com/tech/1015906/php2shell-vulnerability-october-2026",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1792615016000,
-      "snippet": "Two bugs found with AI are behind major issues today for 4chan, DeviantArt, Wikipedia, and the blog where the bar around the corner posts pictures of people's dogs. The \"critical vulnerabilities\" were discovered in the PHP programming language, which underpins much of the interne"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/meta-creates-new-share-class-pave-way-ai-related-fundraising",
-      "title": "Meta Creates New Share Class to Pave Way for AI-Related Fundraising",
-      "link": "https://www.theinformation.com/briefings/meta-creates-new-share-class-pave-way-ai-related-fundraising",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792614844000,
-      "snippet": "Meta Platforms announced a new class of non-voting shares that it said will enable it to raise capital for its aggressive AI investments while preserving CEO Mark Zuckerberg’s voting control. The new Class C common stock, announced Wednesday alongside quarterly results, is expect"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-      "title": "Tesla starts Optimus robot production in California as profit falls 43%",
-      "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792614789000,
-      "snippet": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792614461000,
-      "snippet": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
-      "title": "GM is betting compute and AI will help it compete with Chinese automakers",
-      "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792612340000,
-      "snippet": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
-    },
-    {
-      "id": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "title": "The new human-crafted Apple Music brand matters in an AI world",
-      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1792611880000,
-      "snippet": "Opinion: In a world of AI slop, showing the human hands making things helps."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/thoma-bravo-found-discount-hot-cybersecurity-market",
-      "title": "How Thoma Bravo Found a Discount in a Hot Cybersecurity Market",
-      "link": "https://www.theinformation.com/articles/thoma-bravo-found-discount-hot-cybersecurity-market",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792611111000,
-      "snippet": "Cybersecurity has been a dealmaking bright spot amid the broader software gloom, fueled by bets that AI adoption will boost demand for security products. But it’s been hard for private equity firms to get in on the sizzling sector. Corporate buyers have been snapping up cybersecu"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792611000000,
-      "snippet": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
-    },
-    {
-      "id": "https://claude.com/product/claude-duet",
-      "title": "Claude Duet",
-      "link": "https://claude.com/product/claude-duet",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792610041000,
-      "snippet": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 380 # Comments: 345"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
-      "title": "The internet is having a very bad cybersecurity day",
-      "link": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792609408000,
-      "snippet": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/nvidia-expands-deals-six-chip-component-suppliers",
-      "title": "Nvidia Expands Deals with Six Chip Component Suppliers",
-      "link": "https://www.theinformation.com/briefings/nvidia-expands-deals-six-chip-component-suppliers",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792608839000,
-      "snippet": "Nvidia on Wednesday announced new deals with chip substrate suppliers Ibiden, Samsung Electro-Mechanics and Unimicron, to ensure it has enough component materials to produce more of its AI server chips in the coming years. It said the deals, which include a multibillion-dollar re"
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
-      "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
-      "link": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792608716000,
-      "snippet": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1792608702000,
-      "snippet": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
     },
     {
       "id": "https://huggingface.co/blog/nvidia/kumo-relational",
@@ -407,33 +713,6 @@
       "snippet": "General Motors is seeking help from artificial intelligence to keep up with Chinese companies that introduce vehicles very quickly."
     },
     {
-      "id": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
-      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1792606840000,
-      "snippet": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
-      "title": "GM is giving OnStar an AI makeover",
-      "link": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792605600000,
-      "snippet": "It's one of the biggest overhauls ever to the 30-year-old connected car product."
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-      "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792605552000,
-      "snippet": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI."
-    },
-    {
       "id": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
       "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
       "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
@@ -441,24 +720,6 @@
       "category": "capab",
       "ts": 1792604136000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.theinformation.com/articles/bank-hackers-got-claude-dirty-work",
-      "title": "How Bank Hackers Got Claude to Do Their Dirty Work",
-      "link": "https://www.theinformation.com/articles/bank-hackers-got-claude-dirty-work",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792603853000,
-      "snippet": "Soon after Anthropic announced its Mythos model in April and said it was exceptionally good at cybersecurity, security professionals said it was only a matter of time before hackers used similar models to supercharge their own attacks. That time has come, according to an example "
-    },
-    {
-      "id": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1792603107000,
-      "snippet": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
     },
     {
       "id": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
@@ -470,15 +731,6 @@
       "snippet": ""
     },
     {
-      "id": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
-      "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1792595647000,
-      "snippet": "OpenEvidence is booming despite questions about accuracy and ads."
-    },
-    {
       "id": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
       "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
       "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
@@ -486,60 +738,6 @@
       "category": "capab",
       "ts": 1792594698000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch",
-      "title": "AI Finds Flaw in Popular Web Hosting Software, Sparking Global Race to Patch",
-      "link": "https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792594268000,
-      "snippet": "The creators of PHP, an open source programming language used by the majority of the world’s websites, on Wednesday urged web maintainers across the globe to install a new update after researchers using AI found a flaw that could put those websites at risk of being hacked. The fl"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/openai-bring-models-google-cloud",
-      "title": "OpenAI to Bring Models to Google Cloud",
-      "link": "https://www.theinformation.com/briefings/openai-bring-models-google-cloud",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792594100000,
-      "snippet": "OpenAI will make its models available through Google Cloud, the companies announced this morning. The move lessens OpenAI’s reliance on Microsoft, where the companies once shared exclusivity. The partnership also underlines OpenAI’s pursuit of enterprise clients to diversify its "
-    },
-    {
-      "id": "https://www.theinformation.com/articles/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates",
-      "title": "OpenAI, Anthropic Should Cap Compute for R&D, Say AI Safety Advocates",
-      "link": "https://www.theinformation.com/articles/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792591251000,
-      "snippet": "Ideas are flowing fast and furious on how AI labs can “pace” AI development so safeguards keep up with the technology’s smarts. Last week, OpenAI CEO Sam Altman laid out three scenarios he said have been considered in the industry, including merging all of the AI labs into a sing"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/openai-expands-chatgpt-ads-26-countries-says-100-000-advertisers",
-      "title": "OpenAI Expands ChatGPT Ads to 26 More Countries, Says It Has More Than 100,000 Advertisers",
-      "link": "https://www.theinformation.com/briefings/openai-expands-chatgpt-ads-26-countries-says-100-000-advertisers",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792587643000,
-      "snippet": "OpenAI is expanding ChatGPT ads to 26 more countries as it tries to turn advertising into a bigger source of revenue to help cover its AI costs. OpenAI also said more than 100,000 advertisers now use the platform, up from 20,000 in late August. The ad platform, which launched in "
-    },
-    {
-      "id": "https://www.theinformation.com/articles/hackers-used-claude-grok-fully-automate-attacks-banks",
-      "title": "Hackers Used Claude and Grok to Automate Attacks on Banks",
-      "link": "https://www.theinformation.com/articles/hackers-used-claude-grok-fully-automate-attacks-banks",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792587642000,
-      "snippet": "A hacking group called CyberCartel used a web of AI agents powered by models from companies including Anthropic, SpaceX and Chinese lab Moonshot AI to automate cyberattacks against more than 400 Latin American financial targets, according to an investigation by the cybersecurity "
-    },
-    {
-      "id": "https://openai.com/index/openai-models-google-cloud/",
-      "title": "OpenAI models are coming to Google Cloud",
-      "link": "https://openai.com/index/openai-models-google-cloud/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1792587191000,
-      "snippet": "Article URL: https://openai.com/index/openai-models-google-cloud/ Comments URL: https://news.ycombinator.com/item?id=50180079 Points: 291 # Comments: 121"
     },
     {
       "id": "https://www.actuia.com/actualite/controle-a-lexport-de-lia-ce-que-la-menace-du-pentagone-fait-peser-sur-les-clients-europeens/",
@@ -605,15 +803,6 @@
       "snippet": "Crunchbase News spoke with James Kim, partner at Reach Capital, about how Reach’s education roots inform its broader strategy, what it saw in AI detection company GPTZero, and why some of its best investments initially divided its own team. We also discussed how ownership stakes "
     },
     {
-      "id": "https://www.actuia.com/actualite/code-pytorch-ecrit-pour-nvidia-ce-quamazon-et-google-font-tourner-sur-leurs-puces/",
-      "title": "Code PyTorch écrit pour Nvidia : ce qu'Amazon et Google font tourner sur leurs puces",
-      "link": "https://www.actuia.com/actualite/code-pytorch-ecrit-pour-nvidia-ce-quamazon-et-google-font-tourner-sur-leurs-puces/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792579875000,
-      "snippet": "TorchNeuron (Amazon) et TorchTPU (Google), publiés en open source le 20 octobre 2026, exécutent sur Trainium et sur TPU du code PyTorch écrit pour les GPU Nvidia en changeant le périphérique visé. Les noyaux CUDA et Triton écrits à la main ne sont pas pris en charge : NKI chez Am"
-    },
-    {
       "id": "https://sifted.eu/articles/personal-ai-assistants/",
       "title": "Should you get a personal AI assistant?",
       "link": "https://sifted.eu/articles/personal-ai-assistants/",
@@ -621,15 +810,6 @@
       "category": "capital",
       "ts": 1792579247000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.actuia.com/actualite/agents-ia-ce-que-le-japon-exige-avant-de-les-confier-a-ses-fonctionnaires/",
-      "title": "Agents IA : ce que le Japon exige avant de les confier à ses fonctionnaires",
-      "link": "https://www.actuia.com/actualite/agents-ia-ce-que-le-japon-exige-avant-de-les-confier-a-ses-fonctionnaires/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792576632000,
-      "snippet": "Le Japon a ouvert le 20 octobre 2026 des agents d'IA aux ministères dans Gennai, en expérimentation sur l'exercice 2026, et publié un référentiel qui fixe les obligations des utilisateurs, des administrateurs et des développeurs. Le texte limite les droits des agents, exige une a"
     },
     {
       "id": "https://siecledigital.fr/2026/10/21/pourquoi-amazon-prevoit-dinvestir-16-milliards-deuros-en-allemagne-en-2027/",
@@ -659,24 +839,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.actuia.com/actualite/microsoft-applique-aux-agents-dia-ses-outils-de-surveillance-des-salaries-a-risque/",
-      "title": "Microsoft applique aux agents d'IA ses outils de surveillance des salariés à risque",
-      "link": "https://www.actuia.com/actualite/microsoft-applique-aux-agents-dia-ses-outils-de-surveillance-des-salaries-a-risque/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792558200000,
-      "snippet": "Microsoft étend aux agents d'IA les outils conçus pour les salariés à risque : identité propre, registre et gestion des risques internes de Purview, en disponibilité générale depuis l'été. Le 19 octobre 2026, l'éditeur a annoncé pour Microsoft 365 E7 et Project Perception une éva"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference",
-      "title": "DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference",
-      "link": "https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792555349000,
-      "snippet": "DeepSeek has open-sourced DeepInfer, the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale. Access to DeepInfer is likel"
-    },
-    {
       "id": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
       "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
       "link": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
@@ -686,15 +848,6 @@
       "snippet": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company."
     },
     {
-      "id": "https://www.theinformation.com/articles/nvidia-moves-back-gpu-cloud-provider-firmus-investors-balk-ipo",
-      "title": "Nvidia Moves to Back GPU Cloud Provider Firmus After Investors Balk at Its IPO",
-      "link": "https://www.theinformation.com/articles/nvidia-moves-back-gpu-cloud-provider-firmus-investors-balk-ipo",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1792539617000,
-      "snippet": "Nvidia is in talks to invest hundreds of millions of dollars in Australian AI cloud provider Firmus, which abruptly pulled its initial public offering early this month, according to people familiar with the talks. The discussion indicates that Nvidia is likely to continue backing"
-    },
-    {
       "id": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
       "title": "SpaceX Swings to a Profit, as A.I. Business Grows",
       "link": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
@@ -702,33 +855,6 @@
       "category": "usages",
       "ts": 1792535858000,
       "snippet": "Elon Musk’s rocket company said its artificial intelligence spending had soared, but revenue more than doubled from its Starlink internet satellite service and A.I. products."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1792526878000,
-      "snippet": "Meta changes AI scraping policy but won’t add language respecting robots.txt."
-    },
-    {
-      "id": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
-      "title": "Pages d’aide de WhatsApp : une consigne cachée interdisait de recommander un régulateur",
-      "link": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792516200000,
-      "snippet": "Le 19 octobre 2026, Redact a recensé dans 80 des 545 pages d’aide de WhatsApp 102 blocs de texte invisibles destinés à une IA, dont la consigne de ne recommander aucune autorité de protection des données. Selon les copies de l’Internet Archive citées par Redact, cette note figura"
-    },
-    {
-      "id": "https://huggingface.co/blog/allenai/fairstress",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "link": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1792512559000,
-      "snippet": ""
     },
     {
       "id": "https://sifted.eu/articles/nvidia-germany-europe-uk-france-jensen-huang-invests/",
@@ -756,51 +882,6 @@
       "category": "france",
       "ts": 1792503136000,
       "snippet": "OVHcloud est sur le point de terminer son premier modèle de langage. L’entreprise espère publier une première version de son modèle en open source fin novembre, même si Octave Klaba évoque désormais un lancement début 2027. Elle ne souhaite donc plus se concentrer uniquement sur "
-    },
-    {
-      "id": "https://www.actuia.com/actualite/dossiers-mdph-la-cnsa-a-fait-tester-lia-pour-raccourcir-48-mois-dattente/",
-      "title": "Dossiers MDPH : la CNSA a fait tester l'IA pour raccourcir 4,8 mois d'attente",
-      "link": "https://www.actuia.com/actualite/dossiers-mdph-la-cnsa-a-fait-tester-lia-pour-raccourcir-48-mois-dattente/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792503000000,
-      "snippet": "La CNSA a fait tester dans des MDPH un outil d'IA qui découpe et classe les pièces des dossiers papier numérisés, puis vérifie que la demande est complète et en règle (contrôle de recevabilité), avec des dossiers de personnes décédées comme données de test et sans écriture dans l"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/20/deepseek-est-desormais-interdit-dans-les-administrations-americaines-pour-des-raisons-de-securite-nationale/",
-      "title": "DeepSeek dans le viseur des États-Unis pour des raisons de sécurité nationale",
-      "link": "https://siecledigital.fr/2026/10/20/deepseek-est-desormais-interdit-dans-les-administrations-americaines-pour-des-raisons-de-securite-nationale/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792502447000,
-      "snippet": "Le département de la Sécurité intérieure des États-Unis a annoncé l’interdiction des technologies de l’entreprise chinoise d’intelligence artificielle DeepSeek au sein des agences fédérales civiles américaines. La start-up DeepSeek est bannie des administrations américaines Le dé"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/20/chatgpt-sintegre-a-google-chrome-et-peut-agir-directement-sur-vos-onglets/",
-      "title": "ChatGPT s’intègre à Google Chrome et peut agir directement sur vos onglets",
-      "link": "https://siecledigital.fr/2026/10/20/chatgpt-sintegre-a-google-chrome-et-peut-agir-directement-sur-vos-onglets/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792501981000,
-      "snippet": "ChatGPT peut désormais interagir avec Google Chrome grâce à une extension. Il ne s’agit pas d’une intégration native au navigateur. De quoi lui permettre d’agir sur vos onglets ouverts et de réaliser plusieurs actions dans le navigateur. Avec sa nouvelle extension, ChatGPT arrive"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-      "title": "Agents IA : ce que la directive européenne fera payer aux entreprises qui les vendent",
-      "link": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792499400000,
-      "snippet": "La directive (UE) 2024/2853, que les États membres doivent transposer au plus tard le 9 décembre 2026 et qui vise les produits mis sur le marché après cette date, fait du logiciel, SaaS compris, un produit. L'entreprise qui met au point un agent d'IA ou le vend sous sa marque en "
-    },
-    {
-      "id": "https://www.actuia.com/actualite/un-pirate-a-perce-les-sites-de-plus-de-100-entreprises-dont-deere-avec-des-agents-dia/",
-      "title": "Un pirate a percé les sites de plus de 100 entreprises, dont Deere, avec des agents d'IA",
-      "link": "https://www.actuia.com/actualite/un-pirate-a-perce-les-sites-de-plus-de-100-entreprises-dont-deere-avec-des-agents-dia/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1792497000000,
-      "snippet": "NorForge a trouvé plus de 20 panneaux Cairn exposés d'où au moins deux groupes confient à des agents d'IA l'intrusion dans des sites marchands. Elle estime le coût moyen d'une tâche à environ 5 dollars, échecs compris, pour une réussite sur dix. Selon Reuters, le groupe sinophone"
     },
     {
       "id": "https://sifted.eu/articles/transactional-foundation-models/",
@@ -875,42 +956,6 @@
       "snippet": "Understanding the methods, questions, and ecosystem for evaluation"
     },
     {
-      "id": "https://siecledigital.fr/2026/10/19/google-commence-a-donner-plus-de-visibilite-aux-sites-web-dans-ses-reponses-ia/",
-      "title": "Google commence à donner plus de visibilité aux sites web dans ses réponses IA",
-      "link": "https://siecledigital.fr/2026/10/19/google-commence-a-donner-plus-de-visibilite-aux-sites-web-dans-ses-reponses-ia/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792418120000,
-      "snippet": "L’IA a été nettement renforcée dans le moteur de recherche de Google depuis deux ans. La visibilité des sites Internet a donc clairement chuté, car les internautes obtiennent immédiatement une réponse sans cliquer sur les liens. La firme américaine tente de rétablir l’équilibre. "
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/19/le-createur-de-claude-propose-une-loi-pour-mieux-encadrer-lia/",
-      "title": "Anthropic veut donner au gouvernement américain le pouvoir de bloquer les IA dangereuses",
-      "link": "https://siecledigital.fr/2026/10/19/le-createur-de-claude-propose-une-loi-pour-mieux-encadrer-lia/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792417489000,
-      "snippet": "Anthropic, le créateur de Claude, vient de proposer au gouvernement américain une loi pour mieux encadrer l’intelligence artificielle. Ce dernier aurait alors la possibilité de bloquer un modèle dangereux. Une loi pour bloquer les modèles les plus dangereux Ces derniers mois, on "
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/19/meta-fait-marche-arriere-sur-lutilisation-des-contenus-des-sites-web-pour-entrainer-son-ia/",
-      "title": "Meta fait marche arrière sur l’utilisation des contenus des sites web pour entraîner son IA",
-      "link": "https://siecledigital.fr/2026/10/19/meta-fait-marche-arriere-sur-lutilisation-des-contenus-des-sites-web-pour-entrainer-son-ia/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792417035000,
-      "snippet": "Meta vient de retirer une clause assez controversée de ses conditions commerciales. Après avoir reçu de nombreuses critiques d’éditeurs et de juristes, l’entreprise fait marche arrière sur l’utilisation gratuite des contenus des sites web pour entraîner ses IA. Une première versi"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/19/openai-confirme-travailler-sur-un-robot-humanoide-capable-devoluer-dans-notre-monde/",
-      "title": "OpenAI confirme travailler sur un robot humanoïde capable d’évoluer dans notre monde",
-      "link": "https://siecledigital.fr/2026/10/19/openai-confirme-travailler-sur-un-robot-humanoide-capable-devoluer-dans-notre-monde/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792416050000,
-      "snippet": "Dans le podcast Sources, le patron d’OpenAI, Sam Altman, a dévoilé que son entreprise travaillait sur un nouveau projet. OpenAI est en train de développer un robot humanoïde qui serait capable d’évoluer dans notre monde. OpenAI se lance dans la robotique humanoïde Après avoir pri"
-    },
-    {
       "id": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
       "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
       "link": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
@@ -956,60 +1001,6 @@
       "snippet": ""
     },
     {
-      "id": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
-      "title": "The Week’s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch",
-      "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1792173458000,
-      "snippet": "Startup investors aren’t exactly hitting pause, but they did scale back on giant rounds this past week, with just two startup financings in the multiple hundreds of millions."
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/16/le-trafic-provenant-de-chatgpt-seffondre-dans-les-statistiques-mais-les-visites-nont-pas-forcement-disparu/",
-      "title": "Les sites web voient leur trafic provenant de ChatGPT s’effondrer à cause d’un changement inattendu",
-      "link": "https://siecledigital.fr/2026/10/16/le-trafic-provenant-de-chatgpt-seffondre-dans-les-statistiques-mais-les-visites-nont-pas-forcement-disparu/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792150861000,
-      "snippet": "Le trafic provenant de ChatGPT enregistre une baisse significative dans les statistiques. Les visites ne sont pas moins nombreuses pour autant. ChatGPT a temporairement cessé d’ajouter des paramètres UTM à certains liens, ce qui complique la mesure du trafic qu’il génère. Il est "
-    },
-    {
-      "id": "https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai/",
-      "title": "Asia’s Startup Funding At Near Record High In Q3, Driven By AI",
-      "link": "https://news.crunchbase.com/venture/q3-2026-asia-startup-funding-near-record-ai/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1792148442000,
-      "snippet": "Overall, investors put $38.5 billion into reported seed- through growth-stage financings for Asian startups in Q3, per Crunchbase data. Of that, a majority went to AI-focused companies, echoing the trends we’ve seen globally."
-    },
-    {
-      "id": "https://siecledigital.fr/2026/10/16/chatgpt-accuse-de-mettre-les-enfants-en-danger-huit-etats-americains-attaquent-openai/",
-      "title": "ChatGPT accusé de mettre les enfants en danger, huit États américains attaquent OpenAI",
-      "link": "https://siecledigital.fr/2026/10/16/chatgpt-accuse-de-mettre-les-enfants-en-danger-huit-etats-americains-attaquent-openai/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1792143646000,
-      "snippet": "La question de la sécurité des enfants face à ces chatbots prend de l’ampleur, notamment aux États-Unis. Des poursuites ont été engagées contre OpenAI par huit États le 14 octobre dernier. Ils accusent ChatGPT d’exposer les jeunes à des réponses dangereuses. L’outil aurait égalem"
-    },
-    {
-      "id": "https://sifted.eu/articles/open-weight-models-sovereignty-ai-safety/",
-      "title": "Are open-weight AI models safe?",
-      "link": "https://sifted.eu/articles/open-weight-models-sovereignty-ai-safety/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1792126857000,
-      "snippet": ""
-    },
-    {
-      "id": "https://sifted.eu/articles/reson8-unicorn-interview/",
-      "title": "‘I’m 30. I’ve got one more shot’: Reson8’s founder wants to build a European AI giant",
-      "link": "https://sifted.eu/articles/reson8-unicorn-interview/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1792126846000,
-      "snippet": ""
-    },
-    {
       "id": "https://huggingface.co/blog/reflection-beam",
       "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
       "link": "https://huggingface.co/blog/reflection-beam",
@@ -1017,15 +1008,6 @@
       "category": "capab",
       "ts": 1792108800000,
       "snippet": ""
-    },
-    {
-      "id": "https://news.crunchbase.com/ai/building-autonomous-human-team-success-francia-uniplay/",
-      "title": "How To Build Your Team With Autonomous Humans, Not Just Autonomous Systems",
-      "link": "https://news.crunchbase.com/ai/building-autonomous-human-team-success-francia-uniplay/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1792062054000,
-      "snippet": "As AI enables smaller, faster teams, companies should hire curious, adaptable people who challenge established practices and can be trusted to make independent decisions, according to guest author Eric Francia, who writes that giving employees real responsibility, encouraging que"
     },
     {
       "id": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
@@ -1287,92 +1269,45 @@
       "category": "capab",
       "ts": 1788998400000,
       "snippet": ""
-    },
-    {
-      "id": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
-      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
-      "link": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/",
-      "source": "Import AI",
-      "category": "radar",
-      "ts": 1788783991000,
-      "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worryi"
     }
   ],
   "syntheses": {
-    "usages": {
-      "titre": "Les géants de l'IA se battent sur les agents autonomes pendant que la géopolitique et la sécurité se raidissent",
-      "resume": "OpenAI, Anthropic et Meta lancent des outils d'agents IA (programmes qui exécutent des tâches tout seuls) pour conquérir le marché du travail. General Motors prépare des voitures sans chauffeur en deux ans pour suivre la Chine. Google Cloud accueille maintenant les modèles d'OpenAI, tandis que les États-Unis expulsent DeepSeek du gouvernement et que la Chine proteste. La course aux agents autonomes s'accélère, mais les questions sur leur fiabilité et leur sécurité restent sans réponses claires.",
-      "faits": [
-        "Anthropic lance Claude Duet, un agent IA conçu pour automatiser le travail de bureau, en concurrence directe avec OpenAI et Meta.",
-        "OpenAI propose ses modèles via Google Cloud, scellant un partenariat majeur entre deux rivaux historiques du secteur.",
-        "General Motors vise à commercialiser des voitures autonomes « yeux fermés » en deux ans, poussée par la concurrence des constructeurs chinois.",
-        "Le gouvernement américain ordonne l'expulsion de DeepSeek (startup IA chinoise) des systèmes fédéraux ; la Chine dénonce cette interdiction.",
-        "SpaceX double ses revenus grâce à Starlink et ses produits IA, tandis que Musk promet des actions SpaceX à chaque enfant américain.",
-        "Les débats académiques sur la sécurité de l'IA restent fragmentés : désaccords sur la fiabilité des évaluations d'agents et les risques existentiels."
-      ],
-      "implications": [
-        {
-          "fait": "Trois géants (OpenAI, Anthropic, Meta) lancent des agents autonomes pour le travail",
-          "pourquoi": "Le marché se concentre sur l'automatisation des tâches répétitives (contrats, RH, support). Les entreprises qui intègrent ces outils en premier gagnent en productivité, mais les PME risquent de rester à la traîne faute de ressources. Les emplois de bureau deviennent vulnérables."
-        },
-        {
-          "fait": "OpenAI s'associe avec Google Cloud pour distribuer ses modèles",
-          "pourquoi": "OpenAI abandonne son indépendance cloud pour accéder aux clients enterprise de Google. Google renforce son offre IA sans investir dans ses propres modèles. Résultat : les clients paient plus, deux géants se renforcent, les startups concurrentes perdent des clients."
-        },
-        {
-          "fait": "GM promet des voitures autonomes en deux ans",
-          "pourquoi": "GM court après Tesla et les constructeurs chinois. Si elle réussit, les assureurs et les villes doivent gérer une nouvelle responsabilité (qui paie si une voiture autonome fait un accident ?). Si elle échoue, elle perd crédibilité et investisseurs."
-        },
-        {
-          "fait": "Les États-Unis excluent DeepSeek du gouvernement ; la Chine proteste",
-          "pourquoi": "La technologie IA devient un enjeu géopolitique de sécurité, comme l'énergie ou l'armement. Les entreprises IA doivent choisir : gouvernement américain ou marché chinois. Les normes de conformité se multiplient et fragmentent les marchés globaux."
-        },
-        {
-          "fait": "Le débat académique sur la sécurité de l'IA reste flou et divisé",
-          "pourquoi": "Pas de consensus sur comment mesurer les risques des agents autonomes ni sur les probabilités réelles de perte de contrôle. Les politiques publiques et les décisions d'investissement reposent donc sur de la spéculation, pas sur des faits solides."
-        }
-      ],
-      "signaux": [
-        "Recrutement massif de chercheurs en sécurité IA et d'évaluateurs : indice que les éditeurs prennent enfin au sérieux les risques des agents.",
-        "Émergence de startups spécialisées en audit IA et conformité réglementaire : le marché de la vérification des modèles se structure.",
-        "Réactions diplomatiques autour de DeepSeek : surveillance des prochaines sanctions technologiques et des restrictions d'accès aux puces.",
-        "Annonces de garanties légales sur les voitures autonomes : les assureurs et les régulateurs commencent à encadrer la responsabilité.",
-        "Initiatives philanthrophiques concurrentes (fonds publics, actions gratuites) : signal que les patrons de la tech tentent de redorer leur image face aux critiques."
-      ],
-      "conclusion": "Les entreprises qui veulent rester compétitives doivent intégrer les agents IA maintenant, mais elles doivent aussi anticiper la fragmentation géopolitique (marchés US vs Chine) et les nouvelles obligations réglementaires ; celles qui attendent que les questions de sécurité soient « résolues » risquent de perdre deux à trois ans.",
-      "generatedAt": "2026-10-22T10:07:25.273Z"
-    },
     "monde": {
-      "titre": "Les coûts cachés de l'IA : le stockage des données pèse autant que les serveurs",
-      "resume": "Quand on calcule le coût réel d'un système IA, on oublie souvent l'essentiel : stocker les données générées par chaque réponse. Les dirigeants regardent surtout le prix des serveurs (GPUs) et l'accès aux puces, mais pas le coût du stockage qui accumule rapidement. Cette facture invisible peut devenir aussi lourde que celle des machines elles-mêmes. Ignorer ce poste revient à sous-estimer drastiquement le budget IA.",
+      "titre": "Les entreprises découvrent que le vrai coût de l'IA n'est pas le modèle, mais tout ce qu'il faut construire autour",
+      "resume": "Les directions confondent IA et modèle : elles achètent un modèle puissant et croient que c'est gagné. En réalité, 80 % du travail consiste à construire l'infrastructure autour (données, stockage, gouvernance, intégration métier). Les coûts cachés du stockage de données et de l'exécution du modèle en production dévient souvent les budgets prévus. Sans comprendre vraiment comment l'entreprise fonctionne, même les meilleurs modèles donnent des recommandations qui ne marchent pas.",
       "faits": [
-        "Les dirigeants visualisent surtout les coûts des serveurs (GPUs) et l'accès aux puces pour faire tourner l'IA.",
-        "Le stockage des données après chaque réponse du modèle est rarement comptabilisé dans le budget IA.",
-        "Les données s'accumulent en arrière-plan sans être supprimées, créant une dette croissante.",
-        "Le coût du stockage à grande échelle peut égaler celui des serveurs pour les déploiements massifs."
+        "La compétition en IA ne se gagne plus sur le choix du modèle, mais sur l'architecture qu'on construit autour.",
+        "Quatre briques doivent converger pour que l'IA marche en vraie grandeur : les données, l'équipe technique, les outils (plateformes), la gouvernance et l'organisation interne.",
+        "Les directeurs budgètent surtout les serveurs de calcul (GPU) et oublient le coût du stockage des données après que le modèle répond.",
+        "Un modèle sans connaissance du contexte métier de l'entreprise échoue à respecter les contraintes réelles (règles métier, relations client, régulation).",
+        "Les données qui restent en arrière-plan après chaque réponse du modèle coûtent plus cher que prévu et posent des risques de sécurité."
       ],
       "implications": [
         {
-          "fait": "Les coûts de stockage sont invisibles dans les budgets IA affichés",
-          "pourquoi": "Une entreprise qui lance un projet IA pense avoir budgété correctement, mais découvre après 6-12 mois que la facture de stockage des archives explose. Elle a sous-estimé le coût total de 30 à 50%."
+          "fait": "Le vrai travail n'est pas le modèle, mais la fondation autour",
+          "pourquoi": "Une PME ou grande entreprise qui achète juste ChatGPT entreprise va décevoir : elle doit investir 2 à 3 fois plus dans les gens, les processus et les outils pour que ça marche. Les projets IA qui ratent échouent rarement sur la technologie, mais sur l'organisation."
         },
         {
-          "fait": "Les données s'empilent sans stratégie de nettoyage",
-          "pourquoi": "Garder tout 'au cas où' revient à payer pour ne rien jeter. Cela crée une masse de données mortes qui ralentit aussi les recherches et augmente les risques de conformité (RGPD, données sensibles mal archivées)."
+          "fait": "Les coûts de stockage des données explosent silencieusement",
+          "pourquoi": "Chaque requête génère des traces stockées (pour audit, entraînement futur, conformité légale). Sur un an, avec des milliers d'utilisateurs, la facture de stockage rivalise avec celle du calcul GPU. Une entreprise qui n'a pas budgété cela sera en surprise."
         },
         {
-          "fait": "Le coût réel de l'IA n'est pas transparent",
-          "pourquoi": "Les décideurs comparent des projets IA sur la base de budgets incomplets. Un projet A paraît 20% moins cher qu'un projet B, mais sans compter le stockage, l'écart réel peut s'inverser."
+          "fait": "L'IA échoue si elle ignore comment l'entreprise marche vraiment",
+          "pourquoi": "Un modèle qui recommande une décision sans tenir compte des règles métier, des clients critiques ou de la régulation secteur crée des blocages. Les équipes métier rejettent les outils et la confiance s'effondre. Il faut embarquer dès le départ les gens qui connaissent le terrain."
+        },
+        {
+          "fait": "La gouvernance et l'organisation sont des choix stratégiques, pas des après-coups",
+          "pourquoi": "Sans clarté sur qui décide quoi, comment les données circulent et qui répond des erreurs, l'IA devient un risque légal et opérationnel, surtout dans les secteurs régulés (banque, santé, assurance)."
         }
       ],
       "signaux": [
-        "Émerger : startups spécialisées dans l'optimisation du stockage IA (nettoyage automatique, compression, archivage intelligent).",
-        "Réglementation : premières normes de gouvernance des données générées par l'IA (traçabilité, rétention minimale).",
-        "Talents : recrutement accru de data engineers focalisés sur l'infrastructure et pas seulement sur les modèles.",
-        "Mouvements : géants du cloud (AWS, Azure, GCP) qui commencent à facturer séparément le stockage IA pour forcer la visibilité des coûts."
+        "Montée des postes de « ML Ops » et « Data Architecture » : qui recrute des gens pour construire l'infrastructure, pas juste des data scientists ?",
+        "Nouvelles régulations (UE AI Act notamment) qui forcent à documenter chaque décision du modèle : les entreprises qui n'ont pas d'équipe de gouvernance vont être en retard.",
+        "Startups qui vendent des plateformes de gouvernance IA ou de gestion des données : signal que les clients sentent le manque.",
+        "Tensions budgétaires dans les équipes IA : demandes de plus de stockage, plus d'audit, plus de conformité qui surprennent les CFO."
       ],
-      "conclusion": "Avant de valider un budget IA, exigez un inventaire clair du stockage attendu et de sa durée de vie ; c'est souvent là qu'on découvre que le coût réel dépasse de 40 à 60% les prévisions basées sur les serveurs seuls.",
-      "generatedAt": "2026-10-22T10:07:34.167Z"
+      "conclusion": "Pour qu'une IA crée vraiment de la valeur en entreprise, cessez de budgéter sur le modèle seul ; investissez dans l'infrastructure de données, les gens qui la gèrent, et surtout comprenez votre métier avant de demander à l'IA de vous faire gagner du temps.",
+      "generatedAt": "2026-10-23T10:01:13.550Z"
     }
   }
 }
