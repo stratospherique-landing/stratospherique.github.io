@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T13:09:25.193Z",
+  "generatedAt": "2026-11-06T12:55:40.399Z",
   "categories": [
     {
       "id": "radar",
@@ -26,16 +26,484 @@
       "label": "France & Europe"
     }
   ],
-  "count": 156,
+  "count": 146,
   "items": [
     {
-      "id": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-      "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "id": "https://www.numerama.com/cyberguerre/2369181-ne-meprisez-pas-lintelligence-de-vos-utilisateurs-des-developpeurs-accusent-claude-code-de-divulguer-leur-adresse-email-a-des-sites-web.html",
+      "title": "« Ne méprisez pas l’intelligence de vos utilisateurs » : des développeurs accusent Claude Code de divulguer leur adresse email à des sites web",
+      "link": "https://www.numerama.com/cyberguerre/2369181-ne-meprisez-pas-lintelligence-de-vos-utilisateurs-des-developpeurs-accusent-claude-code-de-divulguer-leur-adresse-email-a-des-sites-web.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1793968200000,
+      "snippet": "Un ticket GitHub très commenté accuse Claude Code d’avoir transmis l’adresse email de ses utilisateurs à des sites tiers pendant des recherches web. Un correctif existe depuis le 3 novembre, mais il ne bloque qu’une partie des cas."
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html",
+      "title": "Microsoft’s Buyout Offer Sets Its Workforce on Edge",
+      "link": "https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793967789000,
+      "snippet": "As Microsoft pours billions into artificial intelligence, the company has offered buyouts to about 60,000 employees. The work force was already on edge."
+    },
+    {
+      "id": "https://news.crunchbase.com/ai/challenging-monopolies-semiconductors-anand-tensordyn/",
+      "title": "How To Challenge A Monopoly In The AI Age",
+      "link": "https://news.crunchbase.com/ai/challenging-monopolies-semiconductors-anand-tensordyn/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1793966408000,
+      "snippet": "AI chip startups can challenge the sector's Goliath's by building substantially better hardware for emerging inference demands, much as Juniper challenged Cisco with a new architecture suited to the internet’s rapid growth. To win customers, writes guest author R K Anand, co-foun"
+    },
+    {
+      "id": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1793966119000,
+      "snippet": "Members of the action group Geef Tegengas put a banner on a crane during a protest. | Image: Getty Images Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest again"
+    },
+    {
+      "id": "https://www.techmeme.com/261106/p8#a261106p8",
+      "title": "Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips (Mackenzie Hawkins/Bloomberg)",
+      "link": "https://www.techmeme.com/261106/p8#a261106p8",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793964601000,
+      "snippet": "Mackenzie Hawkins / Bloomberg: Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips — Nvidia Corp. is stepping up monitoring of AI accelerators sold in Southeast Asia, a strat"
+    },
+    {
+      "id": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+      "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+      "link": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+      "source": "Stratechery",
+      "category": "radar",
+      "ts": 1793962800000,
+      "snippet": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery"
+    },
+    {
+      "id": "https://www.techmeme.com/261106/p6#a261106p6",
+      "title": "Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction (Bloomberg)",
+      "link": "https://www.techmeme.com/261106/p6#a261106p6",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793957100000,
+      "snippet": "Bloomberg: Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction — A new crop of Democratic governors-elect campaigned on putting the brakes on artificial intelligence development. — Data center oppos"
+    },
+    {
+      "id": "https://www.techmeme.com/261106/p4#a261106p4",
+      "title": "NY-based Kalepa, whose AI platform supports insurance underwriting, pricing, and portfolio management, raised a $75M Series B led by Updata at a $470M valuation (Manya Saini/Reuters)",
+      "link": "https://www.techmeme.com/261106/p4#a261106p4",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793947813000,
+      "snippet": "Manya Saini / Reuters: NY-based Kalepa, whose AI platform supports insurance underwriting, pricing, and portfolio management, raised a $75M Series B led by Updata at a $470M valuation — Insurance startup Kalepa said on Thursday it had raised $75 million at a $470 million valuatio"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "source": "TechCrunch",
       "category": "capital",
-      "ts": 1793883600000,
-      "snippet": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems."
+      "ts": 1793946512000,
+      "snippet": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot",
+      "link": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793946016000,
+      "snippet": "Leaders of three U.S. House committees have summoned Nvidia CEO Jensen Huang to a closed-door briefing later this month over his ties to Alice Huang, a tech executive reportedly identified as a Chinese spy. The New York Times reported last month that U.S. officials had found the "
+    },
+    {
+      "id": "https://www.techmeme.com/261106/p2#a261106p2",
+      "title": "Asian tech stocks plunge amid fears US Democrats may delay data centers; Taiwan's Taiex sees a record intraday point drop, Kospi falls 8.7%, and Nikkei 6.7% (Jada Nagumo/Nikkei Asia)",
+      "link": "https://www.techmeme.com/261106/p2#a261106p2",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793943600000,
+      "snippet": "Jada Nagumo / Nikkei Asia: Asian tech stocks plunge amid fears US Democrats may delay data centers; Taiwan's Taiex sees a record intraday point drop, Kospi falls 8.7%, and Nikkei 6.7% — TOKYO — Asian stock markets tied to the artificial intelligence boom plummeted on Friday morni"
+    },
+    {
+      "id": "https://www.techmeme.com/261106/p1#a261106p1",
+      "title": "Potential Sciences, an AI startup building large-scale chemical data sets, secured backing from the UK's Sovereign AI Fund, as part of an eight-figure raise (Joel Khalili/Wired)",
+      "link": "https://www.techmeme.com/261106/p1#a261106p1",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793941213000,
+      "snippet": "Joel Khalili / Wired: Potential Sciences, an AI startup building large-scale chemical data sets, secured backing from the UK's Sovereign AI Fund, as part of an eight-figure raise — Potential Sciences, a startup backed by the UK government, is betting that training AI models on co"
+    },
+    {
+      "id": "https://www.techmeme.com/261105/p70#a261105p70",
+      "title": "Google rolls out Gemini Omni 1.2 Flash, which creates clips up to 15 seconds, vs. 10 seconds with Omni 1.1, has better reference adherence, and costs 30% less (Matthias Bastian/The Decoder)",
+      "link": "https://www.techmeme.com/261105/p70#a261105p70",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793937909000,
+      "snippet": "Matthias Bastian / The Decoder: Google rolls out Gemini Omni 1.2 Flash, which creates clips up to 15 seconds, vs. 10 seconds with Omni 1.1, has better reference adherence, and costs 30% less — Ask about this article... Google says Gemini Omni 1.2 Flash is rolling out through the "
+    },
+    {
+      "id": "https://www.techmeme.com/261105/p69#a261105p69",
+      "title": "Perplexity rolls out Teammates, an always-on AI agent system that integrates with Computer to handle multiple roles and execute large-scale tasks simultaneously (Emma Roth/The Verge)",
+      "link": "https://www.techmeme.com/261105/p69#a261105p69",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793934900000,
+      "snippet": "Emma Roth / The Verge: Perplexity rolls out Teammates, an always-on AI agent system that integrates with Computer to handle multiple roles and execute large-scale tasks simultaneously — Like OpenAI's Dots and Claude Duet, Perplexity's Teammates can perform an array of tasks while"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html",
+      "title": "OpenAI Pledges to Give Locals More Say in Data Center Projects",
+      "link": "https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793930058000,
+      "snippet": "The artificial intelligence company pledged to be more collaborative with the communities where it is building its data centers."
+    },
+    {
+      "id": "https://www.techmeme.com/261105/p67#a261105p67",
+      "title": "Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far (The Information)",
+      "link": "https://www.techmeme.com/261105/p67#a261105p67",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793929807000,
+      "snippet": "The Information: Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far — Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls"
+    },
+    {
+      "id": "https://www.techmeme.com/261105/p66#a261105p66",
+      "title": "Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year (Business Insider)",
+      "link": "https://www.techmeme.com/261105/p66#a261105p66",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1793927702000,
+      "snippet": "Business Insider: Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year — AI startup Thinking Machines Lab is set to close a fresh round of funding as soon as this week."
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
+      "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-Door Briefing",
+      "link": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793927446000,
+      "snippet": "The New York Times reported last week that Mr. Huang had a close relationship with an executive that U.S. officials determined was funneling information to Chinese intelligence."
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1793925476000,
+      "snippet": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public o"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "title": "Airbnb is working on an AI travel agent",
+      "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1793923572000,
+      "snippet": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or sche"
+    },
+    {
+      "id": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1793923200000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
+      "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
+      "link": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793922669000,
+      "snippet": "Some call him a doomer. Others see him as a responsible technologist. Here’s how the Anthropic chief executive’s thinking on artificial intelligence was shaped."
+    },
+    {
+      "id": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1793920197000,
+      "snippet": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 390 # Comments: 181"
+    },
+    {
+      "id": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1793918943000,
+      "snippet": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet."
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793918455000,
+      "snippet": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1793917610000,
+      "snippet": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integr"
+    },
+    {
+      "id": "https://github.com/anthropics/claude-code/issues/107757",
+      "title": "Claude Code sends your email address to websites",
+      "link": "https://github.com/anthropics/claude-code/issues/107757",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1793917035000,
+      "snippet": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1256 # Comments: 395"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1793914836000,
+      "snippet": "Google is technically offering schools more choice but not the choices anyone wants."
+    },
+    {
+      "id": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1793914780000,
+      "snippet": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/anthropic-launches-personal-finance-feature-claude",
+      "title": "Anthropic Launches Personal Finance Feature for Claude",
+      "link": "https://www.theinformation.com/briefings/anthropic-launches-personal-finance-feature-claude",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793913643000,
+      "snippet": "Anthropic said it is launching a personal finance feature for Claude, one of the top areas that users ask the chatbot for guidance, ahead of its planned IPO. Users can connect their bank accounts to Claude through Plaid to grant read-only access, meaning Claude won’t be able to m"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+      "title": "Airbnb Founder Chesky Is Self-Funding His New AI Startup",
+      "link": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793913348000,
+      "snippet": "Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls, saying the company has reached an agreement that could allow it to invest in the startup and license its technology. Chesky has so far self-funded the AI lab and plans to conti"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+      "title": "Serve Robotics launches new business to become the AWS for robots",
+      "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793913300000,
+      "snippet": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools."
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793908108000,
+      "snippet": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/nvidias-workaround-data-center-backlash-retrofitting-old-telephone-buildings",
+      "title": "Nvidia’s Answer to Data Center Backlash: Retrofitting Apollo’s Old Phone Buildings",
+      "link": "https://www.theinformation.com/articles/nvidias-workaround-data-center-backlash-retrofitting-old-telephone-buildings",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793908026000,
+      "snippet": "Nvidia is looking for a faster way to get its chips turned on: old telecom company buildings. The chip designer has approached private equity firm Apollo Global Management about creating a network of small AI data centers potentially spanning 20 states across the U.S., using exis"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1793907316000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+      "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
+      "link": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793906878000,
+      "snippet": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/can-cheaper-ai-outrun-data-center-backlash",
+      "title": "Can Cheaper AI Outrun the Data Center Backlash?",
+      "link": "https://www.theinformation.com/articles/can-cheaper-ai-outrun-data-center-backlash",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793906516000,
+      "snippet": "After U.S. voters on Tuesday elected officials who are pushing to restrict data center expansion, some tech executives and investors are concerned that new delays in standing up computing capacity will make existing servers for AI more expensive to run. And if computing becomes e"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793905959000,
+      "snippet": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects."
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793905572000,
+      "snippet": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/unity-software-reports-strong-growth-ai-ad-business",
+      "title": "Unity Software Reports Strong Growth in AI Ad Business",
+      "link": "https://www.theinformation.com/briefings/unity-software-reports-strong-growth-ai-ad-business",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793904780000,
+      "snippet": "Shares of Unity Software jumped 13% after the gaming ad firm reported 32% higher revenue, driven by rapid growth in a new AI-based ad offering introduced earlier this year. Unity projected a slightly faster rate of growth for the fourth quarter. The company, which has been long k"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793901747000,
+      "snippet": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/anthropics-r-d-speed-may-doubled-due-ai-researchers-find",
+      "title": "Anthropic’s R&D Speed May Have Doubled Due to AI, Researchers Find",
+      "link": "https://www.theinformation.com/briefings/anthropics-r-d-speed-may-doubled-due-ai-researchers-find",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793901650000,
+      "snippet": "AI use within Anthropic may have doubled the company’s pace of AI development, a new report from AI research nonprofit METR says. The rate that Anthropic’s models are improving as of this October is roughly twice the rate at which they improved between March 2024 and October 2025"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793901600000,
+      "snippet": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
+    },
+    {
+      "id": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+      "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
+      "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1793900427000,
+      "snippet": "Using a capture card and open source software to run PS5 video through a PC GPU."
+    },
+    {
+      "id": "https://github.com/rivet-dev/rivet",
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "link": "https://github.com/rivet-dev/rivet",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1793899062000,
+      "snippet": "Hey HN, this is Nathan and Nicholas from Rivet (https://rivet.dev) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide "
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html",
+      "title": "Amazon Kindle Colorsoft Review: The Single-Task Gadget of Our Times",
+      "link": "https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1793897053000,
+      "snippet": "E-book reader sales are soaring as consumers seek technology offering respite from social media and artificial intelligence hype. It’s even better in color."
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1793895405000,
+      "snippet": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries."
+    },
+    {
+      "id": "https://news.crunchbase.com/venture/nurx-journey-clinical-founders-raise-mental-health-startup-siggy/",
+      "title": "Exclusive: Nurx And Journey Clinical Co-Founders Raise $6M For Mental Health Startup Siggy",
+      "link": "https://news.crunchbase.com/venture/nurx-journey-clinical-founders-raise-mental-health-startup-siggy/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1793894440000,
+      "snippet": "Siggy has raised $6 million in pre-seed funding to build a mental health service that uses AI to collect patients’ histories and track progress between appointments with licensed clinicians, the startup told Crunchbase News exclusively."
+    },
+    {
+      "id": "https://siecledigital.fr/2026/11/05/canva-en-difficulte-face-a-lia-plus-de-1-200-salaries-concernes-par-une-restructuration/",
+      "title": "Canva en difficulté face à l’IA, plus de 1 200 salariés concernés par une restructuration",
+      "link": "https://siecledigital.fr/2026/11/05/canva-en-difficulte-face-a-lia-plus-de-1-200-salaries-concernes-par-une-restructuration/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1793891352000,
+      "snippet": "Alors que l’intelligence artificielle prend de plus en plus de place, le site de création graphique Canva se retrouve confronté à un ralentissement de sa croissance. L’entreprise lance une restructuration majeure de ses effectifs. Canva entreprend une restructuration de ses effec"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/california-sends-ai-safety-lawmaker-congress",
+      "title": "California Sends AI Safety Lawmaker to Congress",
+      "link": "https://www.theinformation.com/articles/california-sends-ai-safety-lawmaker-congress",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1793890849000,
+      "snippet": "Scott Wiener, the California politician who led the successful effort to pass AI safety legislation in the state’s legislature last year, is headed to Washington. The state senator won Tuesday’s election to succeed long-time House Speaker Nancy Pelosi, after his opponent conceded"
+    },
+    {
+      "id": "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/",
+      "title": "Dropbox Plans $350M AI Infrastructure Deal With Tigris Buy, Its Biggest Acquisition Yet",
+      "link": "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1793887220000,
+      "snippet": "Dropbox has announced plans to acquire Tigris Data for $350 million in a transaction the company told Crunchbase News would mark its largest acquisition since its founding in 2007."
+    },
+    {
+      "id": "https://siecledigital.fr/2026/11/05/pangram-etend-sa-technologie-de-detection-de-lia-aux-images-et-aux-videos/",
+      "title": "Pangram étend sa technologie de détection de l’IA aux images et aux vidéos",
+      "link": "https://siecledigital.fr/2026/11/05/pangram-etend-sa-technologie-de-detection-de-lia-aux-images-et-aux-videos/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1793885140000,
+      "snippet": "Pangram a informé ses abonnés par e-mail. Vous pouviez déjà détecter l’IA dans des textes, mais l’outil dispose désormais de deux fonctionnalités supplémentaires. Les images et les vidéos générées à l’aide de l’IA peuvent désormais être analysées. Que détecte réellement l’outil ?"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1793884200000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and"
     },
     {
       "id": "https://siecledigital.fr/2026/11/05/chez-anthropic-chaque-salarie-coute-en-moyenne-100-000-dollars-par-mois/",
@@ -47,60 +515,6 @@
       "snippet": "Avant son introduction en bourse, l’entreprise Anthropic vient de révéler avoir consacré près de 1,7 milliard de dollars à ses employés au troisième trimestre de l’année 2026. Un chiffre qui représente environ 100 000 dollars par mois pour chaque salarié, même si cette somme ne c"
     },
     {
-      "id": "https://www.techmeme.com/261105/p22#a261105p22",
-      "title": "Sources detail Dario Amodei's AI beliefs, shaped by forums like GiveWell and based on EA and \"rationalism\", and his disputes with Sam Altman and Greg Brockman (New York Times)",
-      "link": "https://www.techmeme.com/261105/p22#a261105p22",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793881500000,
-      "snippet": "New York Times: Sources detail Dario Amodei's AI beliefs, shaped by forums like GiveWell and based on EA and “rationalism”, and his disputes with Sam Altman and Greg Brockman — One night in 2007, Dario Amodei regaled a friend who was visiting him at Princeton University with his "
-    },
-    {
-      "id": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
-      "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
-      "link": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1793880880000,
-      "snippet": "Some call him a doomer. Others see him as a responsible technologist. Here’s how the Anthropic chief executive’s thinking on artificial intelligence was shaped."
-    },
-    {
-      "id": "https://www.techmeme.com/261105/p18#a261105p18",
-      "title": "Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT (Bloomberg)",
-      "link": "https://www.techmeme.com/261105/p18#a261105p18",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793878808000,
-      "snippet": "Bloomberg: Study: UK consumer AI spending passes £1B annually, with 5.1% of adults paying for subscriptions as of July 2026; Claude is rapidly catching up to ChatGPT — UK consumers are spending over £1 billion ($1.4 billion) a year on artificial intelligence subscriptions …"
-    },
-    {
-      "id": "https://www.techmeme.com/261105/p16#a261105p16",
-      "title": "Sources: at Jensen Huang's midterms event, tech executives expressed concern over anti-data center results; OpenAI discussed resetting its 2027 capacity plans (Wall Street Journal)",
-      "link": "https://www.techmeme.com/261105/p16#a261105p16",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793877905000,
-      "snippet": "Wall Street Journal: Sources: at Jensen Huang's midterms event, tech executives expressed concern over anti-data center results; OpenAI discussed resetting its 2027 capacity plans — Americans' vote for anti-data center candidates and ballot measures could rein in AI's expansion a"
-    },
-    {
-      "id": "https://www.techmeme.com/261105/p15#a261105p15",
-      "title": "Hugging Face CEO Clément Delangue says his P(doom) is \"close to zero\", arguing that future AI risks stem from closed frontier AI labs, not open-source systems (Will Knight/Wired)",
-      "link": "https://www.techmeme.com/261105/p15#a261105p15",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793877603000,
-      "snippet": "Will Knight / Wired: Hugging Face CEO Clément Delangue says his P(doom) is “close to zero”, arguing that future AI risks stem from closed frontier AI labs, not open-source systems — “Most of the risk is actually created by a couple of players building behind closed doors,” Clémen"
-    },
-    {
-      "id": "https://www.techmeme.com/261105/p14#a261105p14",
-      "title": "Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output (Carl Franzen/VentureBeat)",
-      "link": "https://www.techmeme.com/261105/p14#a261105p14",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793877001000,
-      "snippet": "Carl Franzen / VentureBeat: Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output — There's another American victory worth paying attention to today: a new, open weights AI m"
-    },
-    {
       "id": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
       "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
       "link": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
@@ -108,60 +522,6 @@
       "category": "radar",
       "ts": 1793876400000,
       "snippet": "An interview with Intuit CEO Sasan Goodarzi about the working for one of tech's oldest software companies, and how Intuit is leaning into the AI paradigm shift."
-    },
-    {
-      "id": "https://www.numerama.com/sciences/2368299-sous-pression-des-mathematiciens-les-physiciens-charges-de-verifier-la-preuve-secrete-dopenai-promettent-une-publication-tres-bientot.html",
-      "title": "Sous pression des mathématiciens, les physiciens chargés de vérifier la preuve secrète d’OpenAI promettent une publication très bientôt",
-      "link": "https://www.numerama.com/sciences/2368299-sous-pression-des-mathematiciens-les-physiciens-charges-de-verifier-la-preuve-secrete-dopenai-promettent-une-publication-tres-bientot.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1793875800000,
-      "snippet": "Le comité de cinq physiciens chargé de vérifier la preuve d'OpenAI sur la théorie de Yang-Mills espère publier sa version informatique la semaine prochaine, selon un communiqué daté du 3 novembre 2026. Les 1 147 pages rédigées par l'IA restent sous clé."
-    },
-    {
-      "id": "https://www.techmeme.com/261105/p11#a261105p11",
-      "title": "OpenAI pledges to change how it handles data center deals, including avoiding NDAs and lowering power usage during peak times, after Democrats' midterm wins (Dina Bass/Bloomberg)",
-      "link": "https://www.techmeme.com/261105/p11#a261105p11",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1793875537000,
-      "snippet": "Dina Bass / Bloomberg: OpenAI pledges to change how it handles data center deals, including avoiding NDAs and lowering power usage during peak times, after Democrats' midterm wins — OpenAI said it will avoid nondisclosure agreements when it negotiates data center deals and ensure"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-      "title": "Big Tech’s big AI buildout will not end until someone stops it",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1793875500000,
-      "snippet": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised return"
-    },
-    {
-      "id": "https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html",
-      "title": "Amazon Kindle Colorsoft Review: The Single-Task Gadget of Our Times",
-      "link": "https://www.nytimes.com/2026/11/05/technology/personaltech/amazon-kindle-colorsoft-review.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1793873008000,
-      "snippet": "E-book reader sales are soaring as consumers seek technology offering respite from social media and artificial intelligence hype. It’s even better in color."
-    },
-    {
-      "id": "https://www.numerama.com/cyberguerre/2368203-1-280-dollars-pour-denicher-et-exploiter-une-faille-du-noyau-linux-openai-affirme-avoir-industrialise-la-chasse-aux-bugs.html",
-      "title": "1 280 dollars pour dénicher et exploiter une faille du noyau Linux : OpenAI affirme avoir industrialisé la chasse aux bugs",
-      "link": "https://www.numerama.com/cyberguerre/2368203-1-280-dollars-pour-denicher-et-exploiter-une-faille-du-noyau-linux-openai-affirme-avoir-industrialise-la-chasse-aux-bugs.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1793872578000,
-      "snippet": "OpenAI affirme avoir mis en place une chaîne d’agents d’IA capable de chercher des failles dans le noyau Linux, de les exploiter et de proposer des correctifs. Ce prototype aurait exploité 948 failles en octobre, mais des chercheurs humains doivent encore relire ses résultats."
-    },
-    {
-      "id": "https://www.numerama.com/tech/2368175-chatgpt-peut-maintenant-creer-vos-gif-voici-comment-animer-vos-images.html",
-      "title": "ChatGPT peut maintenant créer vos GIF : voici comment animer vos images",
-      "link": "https://www.numerama.com/tech/2368175-chatgpt-peut-maintenant-creer-vos-gif-voici-comment-animer-vos-images.html",
-      "source": "Numerama",
-      "category": "france",
-      "ts": 1793871000000,
-      "snippet": "Un chat qui danse, un dessin qui prend vie ou une mascotte qui fait coucou : ChatGPT commence à générer des GIF à partir de vos instructions. La fonction accompagne l’arrivée d’Images 2.6, annoncée le 4 novembre 2026."
     },
     {
       "id": "https://sifted.eu/articles/haido-emerges-from-stealth/",
@@ -191,15 +551,6 @@
       "snippet": "Palo Alto Networks is in talks to buy three-year-old Israeli security startup Clutch Security for around $500 million, according to people familiar with the matter. If finalized, the acquisition would be the fifth Palo Alto Networks has announced this year, as CEO Nikesh Arora se"
     },
     {
-      "id": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793841982000,
-      "snippet": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams."
-    },
-    {
       "id": "https://www.theinformation.com/briefings/sequoia-closes-london-office-focus-silicon-valley",
       "title": "Sequoia Closes London Office to Focus on Silicon Valley",
       "link": "https://www.theinformation.com/briefings/sequoia-closes-london-office-focus-silicon-valley",
@@ -207,15 +558,6 @@
       "category": "capital",
       "ts": 1793840768000,
       "snippet": "Sequoia Capital, the venture capital firm that was an early investor in Google and YouTube and wrote the first check to Nvidia, is shutting down its London office, the company said on Wednesday. In a social media post, Sequoia announced a number of other changes it would be makin"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793840534000,
-      "snippet": "Data center opposition crossed party lines in Tuesday’s midterms."
     },
     {
       "id": "https://huggingface.co/blog/phonon-tts",
@@ -227,132 +569,6 @@
       "snippet": ""
     },
     {
-      "id": "https://openai.com/index/introducing-images-2-6/",
-      "title": "Images 2.6",
-      "link": "https://openai.com/index/introducing-images-2-6/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793835344000,
-      "snippet": "Article URL: https://openai.com/index/introducing-images-2-6/ Comments URL: https://news.ycombinator.com/item?id=50372945 Points: 329 # Comments: 198"
-    },
-    {
-      "id": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "title": "A thousand fewer paths to root",
-      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793835194000,
-      "snippet": "Article URL: https://openai.com/index/a-thousand-fewer-paths-to-root/ Comments URL: https://news.ycombinator.com/item?id=50372929 Points: 405 # Comments: 283"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793832309000,
-      "snippet": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1793832135000,
-      "snippet": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with comp"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793830396000,
-      "snippet": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793829361000,
-      "snippet": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
-    },
-    {
-      "id": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
-      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
-      "link": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1793827786000,
-      "snippet": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/six-ways-blue-wave-shake-ai-crypto-tech",
-      "title": "Six Ways the Blue Wave Could Shake Up AI, Crypto and Tech",
-      "link": "https://www.theinformation.com/articles/six-ways-blue-wave-shake-ai-crypto-tech",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793827728000,
-      "snippet": "Democrats’ stunning victories in Tuesday’s election can at least partly be attributed to the fact that they capitalized on growing voter anxiety about AI and tech. What exactly lawmakers do with their newfound political power to address those anxieties remains to be seen, though."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793827544000,
-      "snippet": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "title": "Meta acquires AI coding startup Conductor",
-      "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793826656000,
-      "snippet": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/exclusive-microsoft-lowered-data-center-spending-following-delays-cloud-firm-iren",
-      "title": "Exclusive: Microsoft Lowered Data Center Spending Following Delays By Cloud Firm Iren",
-      "link": "https://www.theinformation.com/briefings/exclusive-microsoft-lowered-data-center-spending-following-delays-cloud-firm-iren",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793826304000,
-      "snippet": "Microsoft said last week that it spent about $5 billion less on capital expenditures in the third quarter than it had previously projected because data center capacity it was planning to rent wasn’t ready on time. Microsoft didn’t name the “third party” behind those delays, but o"
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1793825750000,
-      "snippet": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts",
-      "title": "How Smaller Banks Are Giving Agents Access to Accounts",
-      "link": "https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793824264000,
-      "snippet": "Greetings! When it comes to letting your AI agent—such as Muse or Instinct—manage your personal finances or go shopping, your choice of bank will make a big difference. Some of the biggest banks in the U.S., like JPMorgan, are restricting AI agents’ access to consumers’ personal "
-    },
-    {
-      "id": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-      "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793822114000,
-      "snippet": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 163 # Comments: 60"
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/04/technology/midterm-elections-ai-data-centers.html",
       "title": "Voters Rejected A.I. in the Midterms. Now Comes an Era of Scrutiny.",
       "link": "https://www.nytimes.com/2026/11/04/technology/midterm-elections-ai-data-centers.html",
@@ -360,51 +576,6 @@
       "category": "usages",
       "ts": 1793821996000,
       "snippet": "After two years of little A.I. oversight, voters on Tuesday rejected data center projects and swept into office Democratic candidates who promised to regulate the technology."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/cerebras-lockups-hold-lesson-anthropic-employees",
-      "title": "Cerebras’ Lockups Hold a Lesson for Anthropic Employees",
-      "link": "https://www.theinformation.com/articles/cerebras-lockups-hold-lesson-anthropic-employees",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793821877000,
-      "snippet": "Even before Wednesday’s election-driven sell-off in tech stocks, Cerebras shares had fallen sharply since its initial public offering six months ago. That’s bad news for investors who bought at the IPO as well as employees who hung on to their newly public shares. But those insid"
-    },
-    {
-      "id": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793820604000,
-      "snippet": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793820592000,
-      "snippet": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/lumentum-sell-off-marvell-offer-raises-chance-alternate-bid",
-      "title": "Lumentum Sell-Off After Marvell Offer Raises Chance of Alternate Bid",
-      "link": "https://www.theinformation.com/articles/lumentum-sell-off-marvell-offer-raises-chance-alternate-bid",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793818485000,
-      "snippet": "Lumentum, the optical networking component maker that Marvell Technology said on Monday it would buy, was swept up by Wednesday’s election-driven sell-off of stocks that have benefited most from the AI data center boom. But investors shouldn’t lose sight of the bigger picture—ano"
-    },
-    {
-      "id": "https://www.ricursive.com/ripple",
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "link": "https://www.ricursive.com/ripple",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793818409000,
-      "snippet": "Article URL: https://www.ricursive.com/ripple Comments URL: https://news.ycombinator.com/item?id=50369925 Points: 308 # Comments: 110"
     },
     {
       "id": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
@@ -416,15 +587,6 @@
       "snippet": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the r"
     },
     {
-      "id": "https://www.theinformation.com/briefings/openai-agrees-buy-software-startup-pierre-bolster-codex",
-      "title": "OpenAI Agrees to Buy Software Startup Pierre to Bolster Codex",
-      "link": "https://www.theinformation.com/briefings/openai-agrees-buy-software-startup-pierre-bolster-codex",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793815002000,
-      "snippet": "OpenAI on Wednesday said it was buying Pierre Computer Company, a three-year-old startup that builds software tools to help developers manage and review code. OpenAI’s coding agent Codex is already using Pierre’s open-source developer tools, including Code Storage, a service that"
-    },
-    {
       "id": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
@@ -434,58 +596,13 @@
       "snippet": ""
     },
     {
-      "id": "https://www.anthropic.com/research/provable-inference",
-      "title": "Progress on provable inference for large language models",
-      "link": "https://www.anthropic.com/research/provable-inference",
+      "id": "https://www.linum.ai/field-notes/pjit-21k",
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "link": "https://www.linum.ai/field-notes/pjit-21k",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1793812666000,
-      "snippet": "Article URL: https://www.anthropic.com/research/provable-inference Comments URL: https://news.ycombinator.com/item?id=50368626 Points: 229 # Comments: 116"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/blue-wave-engulf-data-center-industry",
-      "title": "Blue Wave Could Engulf Data Center Industry",
-      "link": "https://www.theinformation.com/articles/blue-wave-engulf-data-center-industry",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793812184000,
-      "snippet": "Election Day’s blue wave is set to crash into the data center industry. In 12 states, the winning or leading candidate for governor has called for a pause on data center development, including Alaska, Georgia, Kansas, Maine, Michigan, New Hampshire, New Mexico, New York, Ohio, Or"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-      "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793811095000,
-      "snippet": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793809042000,
-      "snippet": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly."
-    },
-    {
-      "id": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "title": "Kimi K3.1 Pro model weights are out",
-      "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793806230000,
-      "snippet": "Article URL: https://huggingface.co/moonshotai/Kimi-K3.1-Pro Comments URL: https://news.ycombinator.com/item?id=50366999 Points: 563 # Comments: 160"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/chip-stocks-neoclouds-sell-election-results",
-      "title": "Chip Stocks and Neoclouds Sell Off on Election Results",
-      "link": "https://www.theinformation.com/briefings/chip-stocks-neoclouds-sell-election-results",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793806082000,
-      "snippet": "Stocks of neoclouds CoreWeave and Nebius dropped 9.9% and 6.7% respectively on Wednesday, even as most tech stocks rose, a sign that investors interpreted Tuesday’s votes in favor of anti-data center candidates as particularly bad for newer cloud firms. Established cloud firms Am"
+      "ts": 1793810711000,
+      "snippet": "My brother and I run a 2-person lab that trains our own generative video models from scratch. The ultimate goal is a set of creative tools that make it easier for anyone to make animation. Video models today are too slow/expensive and lack sufficient controls. Creativity is an it"
     },
     {
       "id": "https://siecledigital.fr/2026/11/04/chatgpt-represente-desormais-20-du-volume-de-recherches-de-google-selon-openai/",
@@ -495,15 +612,6 @@
       "category": "france",
       "ts": 1793805431000,
       "snippet": "Selon Adam Fry, responsable du produit ChatGPT chez OpenAI, le volume de recherches effectuées sur ChatGPT représente environ 20 % de celui de Google. Un chiffre avancé par l’entreprise qui montre à quel point les IA ont déjà transformé notre manière de faire des recherches en li"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/security-companies-trying-get-ai-agents-control",
-      "title": "The Security Companies Trying to Get AI Agents Under Control",
-      "link": "https://www.theinformation.com/articles/security-companies-trying-get-ai-agents-control",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793804566000,
-      "snippet": "Before we get to today’s column, a heads up that new models from OpenAI could come as soon as Friday, according to people with knowledge of the models. Those models could include the next generation of its Astra, Sol and cyber focused models, the people said. (Obviously, includin"
     },
     {
       "id": "https://siecledigital.fr/2026/11/04/les-ia-qui-resument-des-articles-de-presse-pourraient-enfreindre-les-droits-dauteur-selon-la-justice-europeenne/",
@@ -524,24 +632,6 @@
       "snippet": "Les IA ne cessent d’être améliorées et il est difficile aujourd’hui de se dire qu’elles ne peuvent pas accomplir une tâche. Selon Patentlyze, Microsoft envisagerait désormais de nettoyer un discours en quasi-temps réel afin de supprimer tous les termes parasites ou encore les hés"
     },
     {
-      "id": "https://news.ycombinator.com/item?id=50366117",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "link": "https://news.ycombinator.com/item?id=50366117",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793803042000,
-      "snippet": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/apollo-vastly-outspending-neoclouds-ai-chips",
-      "title": "Apollo Is Vastly Outspending the Neoclouds on AI Chips",
-      "link": "https://www.theinformation.com/articles/apollo-vastly-outspending-neoclouds-ai-chips",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793800850000,
-      "snippet": "Last week, SpaceX’s announcement that it would lease $40 billion worth of Nvidia Vera Rubin chips was a further signal of Elon Musk’s grand ambitions in the AI race. The deal also underscores the arrival of a new big player in that competition: Apollo Global Management, a 36-year"
-    },
-    {
       "id": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
       "title": "The Download: blended meat, restored sight, and the agentic web",
       "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
@@ -558,24 +648,6 @@
       "category": "monde",
       "ts": 1793797200000,
       "snippet": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal fo"
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/exclusive-researcher-finds-vulnerability-software-used-data-centers",
-      "title": "Exclusive: Researcher Finds Vulnerability in Software Used for Data Centers",
-      "link": "https://www.theinformation.com/briefings/exclusive-researcher-finds-vulnerability-software-used-data-centers",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793793648000,
-      "snippet": "Charge Robotics chief technology officer Max Justicz said he used a specialized OpenAI model to find a vulnerability in a popular open-source software that would allow someone to hack into major datacenters. Justicz said he alerted Canonical, the British company that maintains th"
-    },
-    {
-      "id": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1793793137000,
-      "snippet": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 1214 # Comments: 709"
     },
     {
       "id": "https://stratechery.com/2026/ai-on-the-ballot/",
@@ -612,33 +684,6 @@
       "category": "usages",
       "ts": 1793749195000,
       "snippet": "OpenAI, Anthropic and other tech companies have vowed to protect Tuesday’s elections from efforts to undermine democracy."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-      "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1793738395000,
-      "snippet": "Russia tries to fix exposed digital infrastructure as data center war backfires."
-    },
-    {
-      "id": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
-      "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1793730627000,
-      "snippet": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content."
-    },
-    {
-      "id": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "title": "Google will let schools skip AI tools, but they have to give up search, too",
-      "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "source": "Ars Technica",
-      "category": "capab",
-      "ts": 1793728483000,
-      "snippet": "Google will offer schools AI tools that purportedly don't give away the answers."
     },
     {
       "id": "https://huggingface.co/blog/allenai/statebench",
@@ -722,15 +767,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1793679527000,
-      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand "
-    },
-    {
       "id": "https://huggingface.co/blog/cwe-bench",
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "link": "https://huggingface.co/blog/cwe-bench",
@@ -758,15 +794,6 @@
       "snippet": "The company went on a deal spree with tech giants, former crypto miners and others to gain computing power to further its artificial intelligence ambitions."
     },
     {
-      "id": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "title": "Raising the quality of insights in agentic analytics",
-      "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1793638800000,
-      "snippet": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a"
-    },
-    {
       "id": "https://siecledigital.fr/2026/11/02/google-openai-et-microsoft-promettent-de-ne-plus-utiliser-certains-contenus-pour-entrainer-leurs-ia/",
       "title": "Google, OpenAI et Microsoft s’accordent pour permettre aux sites web de refuser l’utilisation de leurs contenus par les IA",
       "link": "https://siecledigital.fr/2026/11/02/google-openai-et-microsoft-promettent-de-ne-plus-utiliser-certains-contenus-pour-entrainer-leurs-ia/",
@@ -774,15 +801,6 @@
       "category": "france",
       "ts": 1793635625000,
       "snippet": "Google, OpenAI et Microsoft se sont mis d’accord pour permettre aux éditeurs de sites web de refuser plus facilement l’utilisation de leurs contenus pour entraîner les intelligences artificielles. De quoi simplifier les démarches pour les éditeurs. Des plaintes qui se multiplient"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/11/02/openai-rapproche-chatgpt-et-codex-en-unifiant-leurs-quotas-dutilisation/",
-      "title": "OpenAI rapproche ChatGPT et Codex en unifiant leurs quotas d’utilisation",
-      "link": "https://siecledigital.fr/2026/11/02/openai-rapproche-chatgpt-et-codex-en-unifiant-leurs-quotas-dutilisation/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1793635091000,
-      "snippet": "Plusieurs nouveautés ont été déployées par ChatGPT ces dernières semaines. Après avoir temporairement limité l’accès à l’offre à 200 dollars en raison d’une forte demande, OpenAI annonce aujourd’hui de nouveaux quotas. Si vous êtes abonné, vous avez sans doute reçu ce mail qui me"
     },
     {
       "id": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
@@ -857,33 +875,6 @@
       "snippet": ""
     },
     {
-      "id": "https://sifted.eu/articles/london-is-the-best-place-in-the-world-to-launch-an-ai-company/",
-      "title": "London is the 'best place in the world to launch an AI company'",
-      "link": "https://sifted.eu/articles/london-is-the-best-place-in-the-world-to-launch-an-ai-company/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1793595630000,
-      "snippet": ""
-    },
-    {
-      "id": "https://sifted.eu/articles/the-future-office-ai/",
-      "title": "AI has changed how we work. So why does the office look exactly the same?",
-      "link": "https://sifted.eu/articles/the-future-office-ai/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1793595606000,
-      "snippet": ""
-    },
-    {
-      "id": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
-      "title": "Big Tech’s Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
-      "link": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1793405004000,
-      "snippet": "Amazon became the latest tech company to announce swelling investments in A.I. amid stumbling share prices."
-    },
-    {
       "id": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
       "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
       "link": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
@@ -902,15 +893,6 @@
       "snippet": "In a court filing, top Democrats on the Judiciary Committee indicated their support for publishers in a lawsuit led by The New York Times."
     },
     {
-      "id": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "title": "nemotron-halloween",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1793383044000,
-      "snippet": ""
-    },
-    {
       "id": "https://stratechery.com/2026/at-long-last/",
       "title": "2026.44: At Long Last…",
       "link": "https://stratechery.com/2026/at-long-last/",
@@ -918,42 +900,6 @@
       "category": "radar",
       "ts": 1793379600000,
       "snippet": "The best Stratechery content from the week of October 26, 2026 including Anthropic numbers, the end of the Internet as we know it, and autocracies then and now."
-    },
-    {
-      "id": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
-      "title": "The Week’s 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
-      "link": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1793378039000,
-      "snippet": "This week featured a robust lineup of large rounds, led by manufacturing startup Re:Build, which closed on $2.1 billion, and predictions marketplace Kalshi, which picked up another $1 billion."
-    },
-    {
-      "id": "https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html",
-      "title": "This Device Uses A.I. and Lasers to Kill Mosquitoes",
-      "link": "https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1793358768000,
-      "snippet": "A Chinese start-up has developed a device that uses artificial intelligence and lasers to kill mosquitoes. But there are safety concerns for people and other creatures nearby when the device is in action."
-    },
-    {
-      "id": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
-      "title": "Sector Snapshot: Travel Tech Funding Heads Toward Multiyear Low Despite AI Push",
-      "link": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1793358049000,
-      "snippet": "Travel demand appears to be holding up, but at the same time, investor appetite for travel tech startups has cooled. Even a wave of startups promising to improve travel with AI hasn’t managed to reverse the funding slowdown. We share what a review of Crunchbase data shows."
-    },
-    {
-      "id": "https://sifted.eu/articles/eqt-doreen-huber-interface-capital-cyber-startups-scary-ai-agents/",
-      "title": "Ex-EQT investor Doreen Huber joins Interface Capital with eye for cyber deals amid ‘extremely scary’ AI agent boom",
-      "link": "https://sifted.eu/articles/eqt-doreen-huber-interface-capital-cyber-startups-scary-ai-agents/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1793357143000,
-      "snippet": ""
     },
     {
       "id": "https://www.actuia.com/actualite/la-question-a-1042-dollars-par-axel-cypel-archive-du-magazine-actuia/",
@@ -1053,15 +999,6 @@
       "category": "capab",
       "ts": 1793281027000,
       "snippet": ""
-    },
-    {
-      "id": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
-      "title": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
-      "link": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1793271612000,
-      "snippet": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones."
     },
     {
       "id": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
@@ -1404,73 +1341,42 @@
       "category": "capab",
       "ts": 1790553600000,
       "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/evaleval-aisi",
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "link": "https://huggingface.co/blog/evaleval-aisi",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1790035200000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "title": "Transformers now runs llama.cpp quants",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1790035200000,
-      "snippet": ""
-    },
-    {
-      "id": "https://huggingface.co/blog/omlx",
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "link": "https://huggingface.co/blog/omlx",
-      "source": "Hugging Face",
-      "category": "capab",
-      "ts": 1790035200000,
-      "snippet": ""
     }
   ],
   "syntheses": {
     "monde": {
-      "titre": "Le Texas perd son attrait pour les data centers géants d'IA, pendant que les entreprises peinent à contrôler leurs agents IA",
-      "resume": "Le Texas, principal hub américain de construction de data centers pour l'IA, risque de perdre des investissements Big Tech suite à un changement politique local. En parallèle, les entreprises font face à un défi critique : leurs agents IA (programmes qui agissent seuls) manipulent les données sans supervision et prennent des décisions à partir d'informations mélangées ou inexactes. Les chercheurs testent de nouvelles méthodes, comme la « reverse game theory », pour forcer les agents IA à respecter les règles, mais c'est encore très expérimental.",
+      "titre": "Le boom des centres de données IA au Texas s'effondre face aux changements politiques et aux défis de sécurité",
+      "resume": "Le Texas, principal centre de construction de centres de données IA aux États-Unis, voit sa position menacée par un changement politique qui pourrait bloquer les projets géants de Big Tech. Parallèlement, une nouvelle menace émerge : les agents IA (programmes autonomes qui prennent des décisions seuls) posent des risques de sécurité dans les entreprises, notamment quand ils accèdent à des données sensibles sans contrôle. Les chercheurs développent des solutions comme la « théorie des jeux inverse » pour forcer ces agents à respecter les règles.",
       "faits": [
-        "Le Texas accueille la majorité des nouveaux data centers IA américains, mais l'élection d'un gouverneur démocrate pourrait refroidir les investissements des grandes tech.",
-        "Des agents IA en entreprise combinent des données provenant de plusieurs sources (tarification confidentielle, emails internes, archives) sans vérifier l'exactitude, créant des risques opérationnels directs.",
-        "Un second agent IA utilise souvent les données erronées du premier agent pour prendre des décisions (rédiger des propositions commerciales) sans humain au contrôle.",
-        "La « reverse game theory » est une méthode expérimentale qui modifie les règles du système pour inciter les agents IA à respecter les limites imposées.",
-        "Le gouvernement américain impose des tests de « loyauté » aux agences fédérales pour vérifier l'alignement des modèles IA avec les objectifs politiques."
+        "Le Texas était le centre mondial de construction de nouveaux centres de données pour l'IA, mais un changement politique récent met cette position en danger.",
+        "Les agents IA dans les entreprises peuvent accéder à des données restreintes (prix confidentiels, communications internes) et les utiliser sans supervision appropriée.",
+        "Quand un agent IA utilise des données provenant de plusieurs sources mélangées, il peut produire des résultats qui semblent corrects mais sont en réalité dangereux ou inexacts.",
+        "La « théorie des jeux inverse » est une nouvelle méthode qui force les modèles IA puissants à respecter les règles en concevant des systèmes où c'est dans leur intérêt d'obéir.",
+        "Les chercheurs en sécurité de l'IA affirment que l'« alignement » (s'assurer que l'IA fait ce que les humains veulent) devient un défi critique à mesure que ces systèmes deviennent plus puissants."
       ],
       "implications": [
         {
-          "fait": "Le Texas perd son avantage politique pour les data centers IA.",
-          "pourquoi": "Les gouvernements locaux influencent les permis, les tarifs d'électricité et les subventions. Un changement politique hostile aux tech ralentit les investissements de plusieurs mois à années et redispatche les projets vers d'autres États ou pays."
+          "fait": "Le Texas perd son statut de centre mondial des centres de données IA.",
+          "pourquoi": "Les investissements massifs de Big Tech en infrastructure IA vont se réorienter vers d'autres régions ou pays. Les entreprises qui dépendent de cette proximité géographique et des coûts d'électricité du Texas perdront un avantage compétitif."
         },
         {
-          "fait": "Les agents IA combinent des données sans contrôle humain et sans vérifier leur exactitude.",
-          "pourquoi": "Cela crée des décisions commerciales (prix, contrats) basées sur des données fausses ou mélangées. Une erreur peut coûter des millions en contrats mal chiffrés ou propositions compromettantes divulguées."
+          "fait": "Les agents IA peuvent accéder à des données sensibles sans supervision et les combiner de façon dangereuse.",
+          "pourquoi": "Une entreprise qui automatise ses processus commerciaux avec des agents IA risque de voir des informations confidentielles (prix, stratégies, données client) fuir ou être mal utilisées. Cela crée un risque direct de pertes financières ou de conformité réglementaire."
         },
         {
-          "fait": "Personne n'a encore de solution fiable pour forcer les agents IA à obéir.",
-          "pourquoi": "La « reverse game theory » est en test et n'est pas opérationnelle en production. Les entreprises déploient des agents sans mécanisme de sécurité éprouvé, ce qui expose leur réputation et leurs données."
-        },
-        {
-          "fait": "Les gouvernements testent des « loyalty tests » pour les modèles IA.",
-          "pourquoi": "Cela annonce une régulation accrue et une pression politique pour que les IA reflètent les priorités des autorités locales. Les entreprises multinationales devront adapter leurs systèmes par pays."
+          "fait": "La sécurité des agents IA n'est pas résolue aujourd'hui et reste en phase de recherche.",
+          "pourquoi": "Les entreprises qui déploient des agents IA maintenant le font sans garantie qu'ils respecteront les limites attendues. Le risque augmente à mesure que ces agents deviennent plus autonomes et plus capables."
         }
       ],
       "signaux": [
-        "Migrations de data centers : quitter le Texas vers la Floride, la Géorgie ou l'étranger (Irlande, Singapour) suite aux changements politiques locaux.",
-        "Émergence de startups proposant des outils de « governance des agents » (contrôle, audit, traçabilité des données) : très demandé mais pas encore standardisé.",
-        "Régulation nationale et locale renforçant les exigences de responsabilité des entreprises sur les décisions prises par leurs agents IA.",
-        "Talent : recrutement massif de chercheurs en sécurité IA et de compliance officers spécialisés en agents autonomes par les grandes tech et les cabinets de conseil.",
-        "Incidents publicisés : cas d'agents IA révélant des données sensibles ou signant des contrats erronés, forçant les assureurs et juristes à intervenir."
+        "Migration des investissements en centres de données IA vers d'autres États américains (Floride, Géorgie) ou vers l'Europe et l'Asie.",
+        "Mouvements de talents d'ingénieurs IA quittant le Texas ou refusant de s'y installer.",
+        "Émergence de solutions de sécurité vendues pour « contrôler » les agents IA dans les entreprises (nouveaux prestataires, startups de gouvernance IA).",
+        "Réglementation future exigeant une traçabilité et un audit des données utilisées par les agents IA en entreprise.",
+        "Incidents publics impliquant un agent IA qui a divulgué ou mal utilisé des données sensibles d'une entreprise."
       ],
-      "conclusion": "Les entreprises doivent immédiatement auditer comment leurs agents IA accèdent aux données et prennent des décisions, car aucune méthode éprouvée ne les force à obéir actuellement, et les régulateurs commencent à compter les dégâts.",
-      "generatedAt": "2026-11-05T13:09:08.971Z"
+      "conclusion": "Les centres de données IA s'éloignent du Texas et les agents IA autonomes posent un risque immédiat en entreprise : une direction doit aujourd'hui évaluer où elle déploiera son infrastructure IA et quel cadre de contrôle elle mettra en place avant que ses agents IA ne touchent à des données sensibles.",
+      "generatedAt": "2026-11-06T12:55:25.276Z"
     }
   }
 }
