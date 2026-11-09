@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:55:24.927Z",
+  "generatedAt": "2026-11-09T13:51:41.576Z",
   "categories": [
     {
       "id": "radar",
@@ -26,79 +26,367 @@
       "label": "France & Europe"
     }
   ],
-  "count": 144,
+  "count": 153,
   "items": [
     {
-      "id": "https://www.techmeme.com/261108/p7#a261108p7",
-      "title": "Inside Inner Mongolia, China's fastest-growing AI data center region, where construction is accelerating with low building cost and no public backlash (SemiAnalysis)",
-      "link": "https://www.techmeme.com/261108/p7#a261108p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794135601000,
-      "snippet": "SemiAnalysis: Inside Inner Mongolia, China's fastest-growing AI data center region, where construction is accelerating with low building cost and no public backlash — A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design witho"
+      "id": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html",
+      "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+      "link": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1794231059000,
+      "snippet": "Mr. Huang, the company’s chief executive, acknowledged on Sunday that he was intimate with a business executive who U.S. officials had determined was working for Chinese intelligence."
     },
     {
-      "id": "https://www.numerama.com/sciences/2369401-avion-espion-de-la-nasa-changement-des-heures-creuses-edf-preuve-mathematique-dopenai-imminente-le-recap-sciences-de-la-semaine.html",
-      "title": "Avion espion de la Nasa, changement des heures creuses EDF, preuve mathématique d’OpenAI imminente – le récap’ sciences de la semaine",
-      "link": "https://www.numerama.com/sciences/2369401-avion-espion-de-la-nasa-changement-des-heures-creuses-edf-preuve-mathematique-dopenai-imminente-le-recap-sciences-de-la-semaine.html",
+      "id": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1794230100000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of t"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure",
+      "title": "Google Announces New TPUs It Says Are More Powerful and Secure",
+      "link": "https://www.theinformation.com/briefings/google-announces-new-tpus-says-powerful-secure",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1794229248000,
+      "snippet": "Google announced a new line of AI chips the company says are more secure than previous models and equipped for heavier workloads. The new versions of its tensor processing units—the TPU 8tx and the TPU 8i Max—further expand a growing chip business that threatens to loosen Nvidia’"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "title": "Innovating with AI in the special chemicals industry",
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1794229200000,
+      "snippet": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty "
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p22#a261109p22",
+      "title": "Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027 (Dina Bass/Bloomberg)",
+      "link": "https://www.techmeme.com/261109/p22#a261109p22",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794228600000,
+      "snippet": "Dina Bass / Bloomberg: Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027 — Alphabet Inc.'s Google is rolling out a broader array of artificial intelligence chips, aiming "
+    },
+    {
+      "id": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1794227669000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p19#a261109p19",
+      "title": "Meta says it is globally expanding Instagram's AI age estimation tech to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age (Jess Weatherbed/The Verge)",
+      "link": "https://www.techmeme.com/261109/p19#a261109p19",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794226500000,
+      "snippet": "Jess Weatherbed / The Verge: Meta says it is globally expanding Instagram's AI age estimation tech to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age — Meta says it will expand Teen Account protections to millions more kids, even if they've misr"
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p18#a261109p18",
+      "title": "A profile of Alice Huang, a suspected Chinese spy who founded Megaspeed in 2023 and spent years in Jensen Huang's orbit; Megaspeed's Nvidia imports top $4.6B (Mark Anderson/Bloomberg)",
+      "link": "https://www.techmeme.com/261109/p18#a261109p18",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794225901000,
+      "snippet": "Mark Anderson / Bloomberg: A profile of Alice Huang, a suspected Chinese spy who founded Megaspeed in 2023 and spent years in Jensen Huang's orbit; Megaspeed's Nvidia imports top $4.6B — At the heart of the biggest controversy to confront Nvidia Corp. in its three-decade history "
+    },
+    {
+      "id": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+      "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+      "link": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+      "source": "Crunchbase News",
+      "category": "capital",
+      "ts": 1794225632000,
+      "snippet": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, fo"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "title": "Instagram’s AI age detection is expanding globally",
+      "link": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794225600000,
+      "snippet": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, afte"
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p17#a261109p17",
+      "title": "US voters in Harwood, North Dakota rejected a ballot measure that opposed Applied Digital's $3B data center, set to open in 2027, bucking a nationwide backlash (Miriam Waldvogel/Washington Post)",
+      "link": "https://www.techmeme.com/261109/p17#a261109p17",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794225000000,
+      "snippet": "Miriam Waldvogel / Washington Post: US voters in Harwood, North Dakota rejected a ballot measure that opposed Applied Digital's $3B data center, set to open in 2027, bucking a nationwide backlash — On Election Day, much of the country turned against the massive projects that powe"
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p15#a261109p15",
+      "title": "Amsterdam police arrested between 150 and 200 protesters for trespassing and violence at a Microsoft data center construction site owned by Pure Data Centers (Jowi Morales/Tom's Hardware)",
+      "link": "https://www.techmeme.com/261109/p15#a261109p15",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794223501000,
+      "snippet": "Jowi Morales / Tom's Hardware: Amsterdam police arrested between 150 and 200 protesters for trespassing and violence at a Microsoft data center construction site owned by Pure Data Centers — The people were protesting against the use of fossil fuel generators to power data center"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang.html",
+      "title": "What to Know About Nvidia’s Investigation of Its C.E.O.",
+      "link": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1794223368000,
+      "snippet": "Jensen Huang, the chief executive of the A.I. chip company, admitted to a romantic relationship with a woman who U.S. intelligence says was recruited by China’s top spy agency."
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p13#a261109p13",
+      "title": "Jensen Huang maintains deep control over Nvidia, managing 60+ direct reports and owning a 3.56% stake, presenting a challenge for Nvidia's 10-person board (New York Times)",
+      "link": "https://www.techmeme.com/261109/p13#a261109p13",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794222001000,
+      "snippet": "New York Times: Jensen Huang maintains deep control over Nvidia, managing 60+ direct reports and owning a 3.56% stake, presenting a challenge for Nvidia's 10-person board — The chief executive has a tight grip on his company, presenting a challenge for Nvidia's board, which is in"
+    },
+    {
+      "id": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+      "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+      "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+      "source": "Stratechery",
+      "category": "radar",
+      "ts": 1794222000000,
+      "snippet": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same."
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p12#a261109p12",
+      "title": "Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a \"family matter\", throwing the event into disarray (Yoolim Lee/Bloomberg)",
+      "link": "https://www.techmeme.com/261109/p12#a261109p12",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794221400000,
+      "snippet": "Yoolim Lee / Bloomberg: Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a “family matter”, throwing the event into disarray — Nvidia Corp. co-founder Jensen Huang's daughter planned to showcase deepening ties with two of So"
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p11#a261109p11",
+      "title": "Nvidia drops ~5% pre-market after its board opens a probe into Jensen Huang; Nvidia previously dismissed the interactions as \"nothing unusual or unexpected\" (Demetri Sevastopulo/Financial Times)",
+      "link": "https://www.techmeme.com/261109/p11#a261109p11",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1794220800000,
+      "snippet": "Demetri Sevastopulo / Financial Times: Nvidia drops ~5% pre-market after its board opens a probe into Jensen Huang; Nvidia previously dismissed the interactions as “nothing unusual or unexpected” — Board of chipmaker opens investigation after chief executive Jensen Huang admits t"
+    },
+    {
+      "id": "https://www.numerama.com/tech/2370453-orange-change-completement-son-application-et-integre-gpt-claude-gemini-et-mistral.html",
+      "title": "Orange change complètement son application et intègre GPT, Claude, Gemini et Mistral",
+      "link": "https://www.numerama.com/tech/2370453-orange-change-completement-son-application-et-integre-gpt-claude-gemini-et-mistral.html",
       "source": "Numerama",
       "category": "france",
-      "ts": 1794125700000,
-      "snippet": "La Nasa jette un froid sur le mythique avion SR-71 Blackbird, EDF déploie de nouveaux horaires d'heures creuses auprès de ses clients, la preuve mathématique secrète d'OpenAI bientôt publiée : c'était l'actualité scientifique de la semaine."
+      "ts": 1794220623000,
+      "snippet": "À la veille d'une conférence de presse, Orange a déployé sur l'App Store une nouvelle version de son application mobile. Orange et moi devient « Orange France » et regroupe désormais l'espace client, la télévision et les mails au sein d'une même application. L'autre nouveauté maj"
     },
     {
-      "id": "https://www.techmeme.com/261108/p6#a261108p6",
-      "title": "Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers (Valerie Volcovici/Reuters)",
-      "link": "https://www.techmeme.com/261108/p6#a261108p6",
+      "id": "https://www.numerama.com/tech/2370333-on-peut-simplement-le-tenir-pour-acquis-linus-torvalds-renonce-a-signaler-les-correctifs-dus-a-lia-dans-linux.html",
+      "title": "« On peut simplement le tenir pour acquis » : Linus Torvalds renonce à signaler les correctifs dus à l’IA dans Linux",
+      "link": "https://www.numerama.com/tech/2370333-on-peut-simplement-le-tenir-pour-acquis-linus-torvalds-renonce-a-signaler-les-correctifs-dus-a-lia-dans-linux.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1794219706000,
+      "snippet": "Le créateur de Linux considère désormais comme une évidence que l’IA est à l’origine d’une grande partie des corrections apportées au noyau. Il a aussi relayé un premier signe d’accalmie, qui ne concerne pour l’instant qu’un seul sous-système."
+    },
+    {
+      "id": "https://www.numerama.com/vroom/2370307-lia-pourrait-mettre-en-danger-toute-lindustrie-automobile.html",
+      "title": "L’IA pourrait mettre en danger toute l’industrie automobile",
+      "link": "https://www.numerama.com/vroom/2370307-lia-pourrait-mettre-en-danger-toute-lindustrie-automobile.html",
+      "source": "Numerama",
+      "category": "france",
+      "ts": 1794219612000,
+      "snippet": "Alors que l'utilisation de l'IA explose et que les centres de données fleurissent dans le monde, la demande de composants électroniques n'a jamais été aussi forte. L'industrie automobile n'y échappera pas et pourrait se retrouver sous haute tension d'ici à la prochaine décennie."
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/09/technology/jensen-huang-affair-nvidia.html",
+      "title": "Is Jensen Huang Too Powerful to Be Punished by Nvidia?",
+      "link": "https://www.nytimes.com/2026/11/09/technology/jensen-huang-affair-nvidia.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1794218647000,
+      "snippet": "The chief executive has a tight grip on his company, presenting a challenge for Nvidia’s board, which is investigating his affair with a woman believed to be a Chinese spy."
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "title": "The climate case for AI has not been made",
+      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1794218400000,
+      "snippet": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in ways t"
+    },
+    {
+      "id": "https://www.techmeme.com/261109/p9#a261109p9",
+      "title": "US federal prosecutors say businesses have lost $129M+ to scam calls using AI-generated voices to mimic company executives in the 18 months since July 2024 (Adeel Hassan/New York Times)",
+      "link": "https://www.techmeme.com/261109/p9#a261109p9",
       "source": "Techmeme",
       "category": "radar",
-      "ts": 1794121270000,
-      "snippet": "Valerie Volcovici / Reuters: Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers — Environmental groups worldwide are using artificial intelligence to analyze climate data"
+      "ts": 1794217800000,
+      "snippet": "Adeel Hassan / New York Times: US federal prosecutors say businesses have lost $129M+ to scam calls using AI-generated voices to mimic company executives in the 18 months since July 2024 — A federal indictment alleges that three men used generative A.I. to impersonate voices of c"
     },
     {
-      "id": "https://www.techmeme.com/261108/p2#a261108p2",
-      "title": "Beijing-based GenRobot AI, which develops equipment and software for collecting human demonstrations that can be used to train robots, raised a $100M Series A+ (TechNode)",
-      "link": "https://www.techmeme.com/261108/p2#a261108p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794117901000,
-      "snippet": "TechNode: Beijing-based GenRobot AI, which develops equipment and software for collecting human demonstrations that can be used to train robots, raised a $100M Series A+ — GenRobot AI, a Beijing-based company providing data infrastructure for robot development, has completed a $1"
+      "id": "https://sifted.eu/articles/the-realities-of-scaling-ai-agents-brnd/",
+      "title": "The realities of scaling AI agents: ‘You don't have an AI problem, you have a content problem’",
+      "link": "https://sifted.eu/articles/the-realities-of-scaling-ai-agents-brnd/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1794216189000,
+      "snippet": ""
     },
     {
-      "id": "https://caleb.software/posts/claude-to-pi.html",
-      "title": "Goodbye Claude, Hello Pi",
-      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "id": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1794201989000,
+      "snippet": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO."
+    },
+    {
+      "id": "https://sifted.eu/articles/sf-confidence-reality-checks-and-ai-bubble-anxiety-come-to-the-rise-venture-salon-in-the-alps/",
+      "title": "SF confidence, reality checks and AI bubble anxiety come to the Rise venture salon in the Alps",
+      "link": "https://sifted.eu/articles/sf-confidence-reality-checks-and-ai-bubble-anxiety-come-to-the-rise-venture-salon-in-the-alps/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1794200420000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
+      "title": "Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy",
+      "link": "https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1794184020000,
+      "snippet": "The secretary of state’s role in drafting a secret memo highlights how top officials were concerned by this past spring about Jensen Huang’s relationship with a woman tied to Chinese intelligence."
+    },
+    {
+      "id": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "title": "I'm not convinced the AI bubble exists",
+      "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1794107508000,
-      "snippet": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 363 # Comments: 223"
+      "ts": 1794181476000,
+      "snippet": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 385 # Comments: 646"
     },
     {
-      "id": "https://www.techmeme.com/261107/p18#a261107p18",
-      "title": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms (Politico)",
-      "link": "https://www.techmeme.com/261107/p18#a261107p18",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794105902000,
-      "snippet": "Politico: How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms — For years, the policy debate over artificial intelligence belonged to those who counted progress in decades."
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794178490000,
+      "snippet": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown f"
     },
     {
-      "id": "https://www.techmeme.com/261107/p17#a261107p17",
-      "title": "Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections (Emily Birnbaum/Bloomberg)",
-      "link": "https://www.techmeme.com/261107/p17#a261107p17",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794098701000,
-      "snippet": "Emily Birnbaum / Bloomberg: Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections — Candidates who favor stricter oversight of artificial intelligence racked up wins in key congr"
+      "id": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "link": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1794176409000,
+      "snippet": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-aff..., https://archive.ph/Hxn5h https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-a..., https://archive.ph/atMcp https://www.cnn.com/2026/11/08/business/nvidia-investigation... Comments URL: https://news.ycombinat"
     },
     {
-      "id": "https://www.techmeme.com/261107/p15#a261107p15",
-      "title": "Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. (Arundhati Hazra/The Guardian)",
-      "link": "https://www.techmeme.com/261107/p15#a261107p15",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794087600000,
-      "snippet": "Arundhati Hazra / The Guardian: Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. — Power and water constraints are pressuring what seemed like a juggernaut of growth fo"
+      "id": "https://www.theinformation.com/articles/nvidia-inquiry-anthropic-coreweave-unity-news-promise-big-week",
+      "title": "Nvidia Inquiry, Anthropic, CoreWeave and Unity News Promise Big Week",
+      "link": "https://www.theinformation.com/articles/nvidia-inquiry-anthropic-coreweave-unity-news-promise-big-week",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1794174091000,
+      "snippet": "If you were hoping for a quiet week after the turmoil of the past few days, take a vacation. This week is promising to be nearly as busy as the last one was. Nvidia's announcement this afternoon that its board is “initiating an independent investigation” about reports that CEO Je"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1794171611000,
+      "snippet": "In a memo to the company, Huang admitted that he had an affair."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/nvidia-board-launching-investigation-reporting-ceo-targeted-chinese-informant",
+      "title": "Nvidia Board Is Launching Investigation After Reporting That CEO Targeted By Chinese Informant",
+      "link": "https://www.theinformation.com/briefings/nvidia-board-launching-investigation-reporting-ceo-targeted-chinese-informant",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1794169614000,
+      "snippet": "Nvidia announced that its board is initiating an investigation into recent reporting that its CEO Jensen Huang “has been the target of a foreign intelligence effort,” the company said in a press release on Sunday. Independent directors and outside independent counsel will oversee"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794169359000,
+      "snippet": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: "
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "title": "Apple is racing to make Siri more agentic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794165499000,
+      "snippet": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly sho"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794158599000,
+      "snippet": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Pres"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+      "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+      "link": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1794157320000,
+      "snippet": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+      "title": "AI’s $300 Billion Stock Binge Is Testing Investors",
+      "link": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1794153651000,
+      "snippet": "Volatile trading in AI-related stocks this past week has put a spotlight on investors’ appetite for additional share offerings—and the prices companies could get if they opt to sell. While tech giants, chip companies and AI cloud providers have sold or priced more than $300 billi"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+      "title": "Chatbots might be coming to Apple’s HomeView",
+      "link": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1794150030000,
+      "snippet": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like Chat"
+    },
+    {
+      "id": "https://github.com/synchopate/llama-modchip",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "link": "https://github.com/synchopate/llama-modchip",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1794133324000,
+      "snippet": "Article URL: https://github.com/synchopate/llama-modchip Comments URL: https://news.ycombinator.com/item?id=50411961 Points: 440 # Comments: 196"
     },
     {
       "id": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
@@ -110,51 +398,6 @@
       "snippet": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
     },
     {
-      "id": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1794084332000,
-      "snippet": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 428 # Comments: 289"
-    },
-    {
-      "id": "https://www.techmeme.com/261107/p14#a261107p14",
-      "title": "Public records appear to show SpaceX building a \"Starbase supercomputer\" in TX, but Gina Hinojosa's election as governor may delay some of the data center plans (Ann Davis Vaughan/The Information)",
-      "link": "https://www.techmeme.com/261107/p14#a261107p14",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794080404000,
-      "snippet": "Ann Davis Vaughan / The Information: Public records appear to show SpaceX building a “Starbase supercomputer” in TX, but Gina Hinojosa's election as governor may delay some of the data center plans — Elon Musk moved early to build AI data centers in Tennessee and Mississippi and "
-    },
-    {
-      "id": "https://hunch.net/?p=13764006",
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "link": "https://hunch.net/?p=13764006",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1794074537000,
-      "snippet": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 466 # Comments: 278"
-    },
-    {
-      "id": "https://www.techmeme.com/261107/p12#a261107p12",
-      "title": "Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof \"shocking news\"; it could one day speed up chip design and break encryption (Cade Metz/New York Times)",
-      "link": "https://www.techmeme.com/261107/p12#a261107p12",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794071701000,
-      "snippet": "Cade Metz / New York Times: Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof “shocking news”; it could one day speed up chip design and break encryption — A longstanding hypothesis held that some problems would always be hard for computers to so"
-    },
-    {
-      "id": "https://www.techmeme.com/261107/p11#a261107p11",
-      "title": "Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees \"shaky\" projects killed (Cecile Daurat/Bloomberg)",
-      "link": "https://www.techmeme.com/261107/p11#a261107p11",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1794069301000,
-      "snippet": "Cecile Daurat / Bloomberg: Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees “shaky” projects killed — Guardrails against data-center expansion in states won by Democrats may help spread investme"
-    },
-    {
       "id": "https://www.theinformation.com/articles/will-democrats-crush-data-centers",
       "title": "Will Democrats Really Crush Data Centers?",
       "link": "https://www.theinformation.com/articles/will-democrats-crush-data-centers",
@@ -164,24 +407,6 @@
       "snippet": "Welcome, Weekenders! Might I suggest a weekend of yoga, deep breathing—or perhaps a tin of edibles? In the aftermath of a Democratic romp on Tuesday that also partially seemed like a voter referendum against the AI era, anxiety sure seems to be running high in Silicon Valley and "
     },
     {
-      "id": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1794066600000,
-      "snippet": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1794066225000,
-      "snippet": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offi"
-    },
-    {
       "id": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
       "title": "The Blue Wave May Not Stop Musk’s Texas Data Center Ambitions",
       "link": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
@@ -189,24 +414,6 @@
       "category": "capital",
       "ts": 1794063685000,
       "snippet": "Elon Musk moved early to build AI data centers in Tennessee and Mississippi and reaped the rewards. Later, he began working on ambitious plans to open SpaceX data centers in Texas, following on the heels of OpenAI and others that are farther along in the state. Democrat Gina Hino"
-    },
-    {
-      "id": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1794063600000,
-      "snippet": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so d"
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1794054600000,
-      "snippet": "Anthropic CEO Dario Amodei. | Photo: Jason Henry/Bloomberg via Getty Images Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing"
     },
     {
       "id": "https://www.theinformation.com/briefings/exclusive-meta-strategy-chief-dave-wehner-become-fireworks-cfo",
@@ -225,24 +432,6 @@
       "category": "capital",
       "ts": 1794015628000,
       "snippet": "The deal highlights the challenges of developing massive AI data centers."
-    },
-    {
-      "id": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1794008778000,
-      "snippet": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1794005626000,
-      "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
     },
     {
       "id": "https://www.theinformation.com/briefings/openai-secured-11-billion-targets-9-billion-fundraising",
@@ -290,24 +479,6 @@
       "snippet": "This week brought another plethora of large funding rounds for startups and growth-stage companies. Shield AI, a defense tech player focused on autonomy and virtual simulations, secured the largest financing, bringing in $2 billion. Next on the list was drone delivery provider Zi"
     },
     {
-      "id": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793990678000,
-      "snippet": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793990660000,
-      "snippet": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
-    },
-    {
       "id": "https://stratechery.com/2026/falling-leaves-and-stocks/",
       "title": "2026.45: Falling Leaves (and Stocks)",
       "link": "https://stratechery.com/2026/falling-leaves-and-stocks/",
@@ -326,15 +497,6 @@
       "snippet": "Meta won't force Facebook page owners to allow AI training on linked content."
     },
     {
-      "id": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793985832000,
-      "snippet": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even "
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
       "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
       "link": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
@@ -351,15 +513,6 @@
       "category": "capab",
       "ts": 1793981952000,
       "snippet": "A former Rockstar tech director thinks the developer is facing new time pressures."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1793980487000,
-      "snippet": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth."
     },
     {
       "id": "https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time",
@@ -486,24 +639,6 @@
       "category": "capab",
       "ts": 1793923200000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/anthropic-launches-personal-finance-feature-claude",
-      "title": "Anthropic Launches Personal Finance Feature for Claude",
-      "link": "https://www.theinformation.com/briefings/anthropic-launches-personal-finance-feature-claude",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793913643000,
-      "snippet": "Anthropic said it is launching a personal finance feature for Claude, one of the top areas that users ask the chatbot for guidance, ahead of its planned IPO. Users can connect their bank accounts to Claude through Plaid to grant read-only access, meaning Claude won’t be able to m"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
-      "title": "Airbnb Founder Chesky Is Self-Funding His New AI Startup",
-      "link": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1793913348000,
-      "snippet": "Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls, saying the company has reached an agreement that could allow it to invest in the startup and license its technology. Chesky has so far self-funded the AI lab and plans to conti"
     },
     {
       "id": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
@@ -677,24 +812,6 @@
       "snippet": "Les IA ne cessent d’être améliorées et il est difficile aujourd’hui de se dire qu’elles ne peuvent pas accomplir une tâche. Selon Patentlyze, Microsoft envisagerait désormais de nettoyer un discours en quasi-temps réel afin de supprimer tous les termes parasites ou encore les hés"
     },
     {
-      "id": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-      "title": "The Download: blended meat, restored sight, and the agentic web",
-      "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1793797800000,
-      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall of 2025, Jeff Dodge served hungry students steaming marinara"
-    },
-    {
-      "id": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "title": "Securing the agentic enterprise with data lineage",
-      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1793797200000,
-      "snippet": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal fo"
-    },
-    {
       "id": "https://stratechery.com/2026/ai-on-the-ballot/",
       "title": "AI on the Ballot",
       "link": "https://stratechery.com/2026/ai-on-the-ballot/",
@@ -758,15 +875,6 @@
       "snippet": "Le trafic issu des IA est en pleine croissance, car il a progressé de 71 % sur un an. Au vu des dernières données, les visiteurs provenant des LLM sont de plus en plus nombreux sur les sites de vente en ligne. Les chiffres concernent le marché américain et sont le fruit d’une étu"
     },
     {
-      "id": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-      "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
-      "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-      "source": "MIT Technology Review",
-      "category": "monde",
-      "ts": 1793711400000,
-      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by de"
-    },
-    {
       "id": "https://sifted.eu/articles/breakthrough-from-stealth-frontier-ai-lab-brnd/",
       "title": "Professor James Whittington and Dr Ruairidh Battleday unveil breakthrough from stealth frontier AI lab",
       "link": "https://sifted.eu/articles/breakthrough-from-stealth-frontier-ai-lab-brnd/",
@@ -774,15 +882,6 @@
       "category": "capital",
       "ts": 1793709606000,
       "snippet": ""
-    },
-    {
-      "id": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
-      "title": "China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October",
-      "link": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1793707244000,
-      "snippet": "Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China’s DeepSeek."
     },
     {
       "id": "https://sifted.eu/articles/photonics-mapped-74-european-startups-using-light-to-power-the-ai-era/",
@@ -830,15 +929,6 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can p"
     },
     {
-      "id": "https://sifted.eu/articles/creandum-750-largest-vc-fund-back-ai-san-francisco/",
-      "title": "Lovable backer Creandum raises $750m for largest-ever fund to back AI boom",
-      "link": "https://sifted.eu/articles/creandum-750-largest-vc-fund-back-ai-san-francisco/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1793621051000,
-      "snippet": ""
-    },
-    {
       "id": "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
       "title": "La justice coréenne plaide pour une amende contre les faux arrêts de l'IA",
       "link": "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
@@ -873,15 +963,6 @@
       "category": "france",
       "ts": 1793601000000,
       "snippet": "ActuIA met gratuitement à disposition de ses membres une revue d'actualité IA regroupant plus de 1 300 brèves des trente derniers jours, classées par secteur et reliées à leur source. Chaque secteur peut être suivi en un clic pour alimenter une veille personnalisée."
-    },
-    {
-      "id": "https://sifted.eu/articles/enterprise-customers-want-to-see-ais-roi-heres-how-startups-can-show-it/",
-      "title": "Enterprise customers want to see AI’s ROI. Here’s how startups can show it",
-      "link": "https://sifted.eu/articles/enterprise-customers-want-to-see-ais-roi-heres-how-startups-can-show-it/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1793595654000,
-      "snippet": ""
     },
     {
       "id": "https://stratechery.com/2026/at-long-last/",
@@ -1325,86 +1406,5 @@
       "snippet": ""
     }
   ],
-  "syntheses": {
-    "radar": {
-      "titre": "Les données et les centres informatiques deviennent le vrai champ de bataille politique de l'IA",
-      "resume": "Les élections américaines récentes ont montré que les citoyens s'opposent massivement à la construction de nouveaux centres de données (immenses usines informatiques) sur leur territoire. En parallèle, la Chine construit rapidement en Mongolie-Intérieure sans opposition, tandis que l'Asie du Sud-Est freine aussi les projets faute d'eau et d'électricité. Les groupes de sécurité de l'IA investissent lourdement en politique pour encadrer cette expansion. Résultat : où on construit l'IA détermine désormais qui la contrôle.",
-      "faits": [
-        "Aux élections américaines 2026, les électeurs ont rejeté les expansions de centres de données dans les États démocrates, menaçant les plans d'investissement des géants de la tech.",
-        "La Chine construit des centres de données géants en Mongolie-Intérieure (800 MW en construction accélérée) sans opposition publique ni frais de construction élevés.",
-        "Malaysia et Thailand ont pausé 49 projets de centre de données et retardé 117 approbations en septembre 2026 par manque d'eau et d'électricité.",
-        "Anthropic (une firme de sécurité IA) finance un super PAC politique qui a dépensé 63 millions de dollars et fait élire 10 candidats favorables à l'encadrement de l'IA aux midterms 2026.",
-        "GenRobot AI, une entreprise chinoise, lève 100 millions de dollars pour construire l'infrastructure de données qui entraîne les robots.",
-        "SpaceX préparerait un « superordinateur » au Texas, mais l'élection d'une gouverneure démocrate pourrait ralentir les projets de centre de données.",
-        "Les groupes environnementaux adoptent l'IA pour analyser le climat et suivre les incendies, mais dénoncent parallèlement l'impact écologique des centres de données."
-      ],
-      "implications": [
-        {
-          "fait": "Les électeurs américains rejettent les centres de données",
-          "pourquoi": "Les entreprises tech devront chercher ailleurs pour construire (coûts plus élevés, délais plus longs, dépendance accrue envers des pays autoritaires). Le rythme d'innovation et de déploiement de l'IA ralentit aux États-Unis."
-        },
-        {
-          "fait": "La Chine accélère la construction sans obstacles",
-          "pourquoi": "Cela crée un déséquilibre : la Chine accumule la capacité informatique (la ressource clé pour l'IA) plus vite que les États-Unis. À long terme, cela renforce le contrôle chinois sur les systèmes d'IA."
-        },
-        {
-          "fait": "L'Asie du Sud-Est freine les projets faute d'eau et d'électricité",
-          "pourquoi": "Cette région concentre 50 % des nouveaux centres de données en Asie-Pacifique, mais atteint ses limites. L'expansion mondiale de l'IA rencontre des obstacles physiques réels (pas assez d'énergie, pas assez d'eau)."
-        },
-        {
-          "fait": "Les groupes de sécurité IA investissent massivement en politique",
-          "pourquoi": "Ils comprennent que le contrôle de l'infrastructure détermine le contrôle de la technologie. Ils essaient de peser sur les règles du jeu avant que la course s'accélère."
-        },
-        {
-          "fait": "La Chine finance les chaînes d'approvisionnement (GenRobot, données robotiques)",
-          "pourquoi": "Pendant que l'Occident se dispute sur la sécurité et l'éthique, la Chine construit les couches techniques (données, robots, équipements) qui vont supporter l'IA de demain."
-        }
-      ],
-      "signaux": [
-        "Nouveaux lieux de construction : SpaceX au Texas, Inner Mongolia en Chine, Asie du Sud-Est — la localisation du pouvoir IA se redessine en temps réel.",
-        "Tensions politiques croissantes : opposition citoyenne documentée aux États-Unis, gouverneurs élus sur l'encadrement, risque que les règles durcissent rapidement.",
-        "Ressources physiques tendues : eau et électricité deviennent les vrais goulots (Malaysia, Thailand, régions d'Europe) — les projets « illimités » en IA vont buter sur la géographie.",
-        "Mouvements de capitaux vers la Chine et l'Asie : les 100 millions de GenRobot ne sont qu'un signal. Regarder où les VC occidentaux ne peuvent plus financer en raison des règles politiques.",
-        "Émergence d'une coalition politique contre l'expansion : le petit réseau de sécurité IA qui a battu les super PAC pro-IA aux midterms pourrait devenir structurant pour les prochaines années.",
-        "Compétition acérée sur l'infrastructure robotique : si la Chine contrôle les données de robots, elle contrôle l'apprentissage des robots; c'est une couche stratégique rarement évoquée."
-      ],
-      "conclusion": "Pour les 18 à 36 prochains mois, les entreprises d'IA devront choisir : construire en Chine vite et sans friction politique, ou aux États-Unis et en Europe lentement, cher et sous règles strictes; ce choix déterminera qui domine l'IA, pas la qualité du code.",
-      "generatedAt": "2026-11-08T11:54:07.250Z"
-    },
-    "monde": {
-      "titre": "Les robots humanoïdes arrivent, mais le boom IA des data centers au Texas s'effondre",
-      "resume": "Des robots humanoïdes commencent à nettoyer les appartements et Samsung investit massivement dans l'IA, marquant l'arrivée de machines autonomes dans la vie quotidienne. Mais au Texas, le plus grand marché américain pour les data centers IA, un changement politique menace les investissements géants des géants de la tech. En même temps, les entreprises découvrent que laisser les IA agents (programmes autonomes) accéder librement aux données crée des risques sérieux : elles peuvent combiner des informations sensibles et faire des erreurs difficiles à tracer.",
-      "faits": [
-        "Des robots humanoïdes fonctionnels nettoient maintenant les appartements, pas juste en démo : c'est une application concrète qui se déploie.",
-        "Samsung construit des usines et infrastructures IA à grande échelle, pari majeur sur la croissance du secteur.",
-        "Le Texas était le centre de construction des data centers IA pour la Big Tech, grâce à l'électricité bon marché et un climat politique favorable.",
-        "Un changement politique au Texas (élection de démocrates) remet en question les politiques énergétiques favorables aux data centers IA.",
-        "Les IA agents combinent des données depuis plusieurs sources (prix confidentiels, communications internes, archives) sans traçabilité claire, créant des risques de fuites ou d'erreurs.",
-        "Quand un agent IA commet une erreur basée sur des données mixtes, il est très difficile de retrouver d'où vient l'erreur."
-      ],
-      "implications": [
-        {
-          "fait": "Robots humanoïdes opérationnels et Samsung qui investit massivement",
-          "pourquoi": "Les machines autonomes physiques deviennent réelles. Les entreprises doivent anticiper comment elles impactent les emplois opérationnels (nettoyage, logistique, service) et la chaîne d'approvisionnement. Les fournisseurs de composants électroniques vont être sollicités intensément."
-        },
-        {
-          "fait": "Le boom IA du Texas menacé par le changement politique",
-          "pourquoi": "Les data centers IA coûtent des milliards et ont besoin de politique énergétique stable. Si le Texas devient moins attractif, les investissements basculent ailleurs (Floride, Géorgie). Pour les entreprises qui comptaient sur le coût bas du Texas, cela renchérit l'IA et ralentit les déploiements."
-        },
-        {
-          "fait": "Les IA agents accèdent librement à des données sensibles et combinables",
-          "pourquoi": "Une IA agent peut mélanger prix confidentiels, stratégie interne et données clients, puis agir dessus (proposer un devis, contacter un concurrent). C'est un risque de fuite, d'erreur coûteuse et de conformité légale. Les entreprises n'ont pas encore les outils pour tracer et contrôler ce que font les agents."
-        }
-      ],
-      "signaux": [
-        "Mouvements de data centers : où se relocalisent les investissements IA sortis du Texas ? Qui gagne (États voisins, autres régions) ?",
-        "Réglementation : les gouvernements mettent-ils en place des exigences de traçabilité pour les IA agents en entreprise ?",
-        "Déploiement de robots : quels secteurs (nettoyage, logistique, manufacturing) basculent au robot ? À quelle vitesse ?",
-        "Solutions de contrôle IA : émergence de startups qui vendent de la « traçabilité des données pour agents IA » et du contrôle d'accès granulaire.",
-        "Talents : les data scientists et ingénieurs IA quittent-ils le Texas ? Vers où ?"
-      ],
-      "conclusion": "Les machines autonomes et les IA agents arrivent vite en production, mais sans infrastructure stable (énergie, électricité bon marché) ni contrôle de sécurité des données : les entreprises qui déploient l'IA maintenant risquent des ralentissements coûteux et des fuites de données sensibles si elles ne posent pas d'abord les garde-fous sur l'accès des agents aux données.",
-      "generatedAt": "2026-11-08T11:55:08.400Z"
-    }
-  }
+  "syntheses": {}
 }
