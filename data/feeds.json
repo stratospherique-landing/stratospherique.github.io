@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:18:36.322Z",
+  "generatedAt": "2026-11-23T15:56:08.952Z",
   "categories": [
     {
       "id": "radar",
@@ -26,97 +26,475 @@
       "label": "France & Europe"
     }
   ],
-  "count": 189,
+  "count": 192,
   "items": [
     {
-      "id": "https://www.techmeme.com/261122/p6#a261122p6",
-      "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly (Tom Wilson/Financial Times)",
-      "link": "https://www.techmeme.com/261122/p6#a261122p6",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795345270000,
-      "snippet": "Tom Wilson / Financial Times: Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly — The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot us"
+      "id": "https://siecledigital.fr/2026/11/23/apple-prepare-un-agent-ia-capable-de-tout-faire-sur-votre-mac-mais-il-faudra-patienter/",
+      "title": "Apple prépare un agent IA capable de tout faire sur votre Mac, mais il faudra patienter",
+      "link": "https://siecledigital.fr/2026/11/23/apple-prepare-un-agent-ia-capable-de-tout-faire-sur-votre-mac-mais-il-faudra-patienter/",
+      "source": "Siècle Digital",
+      "category": "france",
+      "ts": 1795449199000,
+      "snippet": "Apple travaille au développement d’un nouvel assistant IA, proactif et agentique. Ce dernier serait capable de réaliser de nombreuses tâches sur votre Mac, de naviguer sur le net, comme d’écrire du code. Apple veut lancer son propre agent IA Ces derniers mois, les leaders de l’IA"
     },
     {
-      "id": "https://www.numerama.com/tech/2379779-cest-quoi-stryx-ai-cette-start-up-francaise-qui-veut-intercepter-les-drones.html",
-      "title": "C’est quoi Stryx AI, cette start-up française qui veut intercepter les drones ?",
-      "link": "https://www.numerama.com/tech/2379779-cest-quoi-stryx-ai-cette-start-up-francaise-qui-veut-intercepter-les-drones.html",
+      "id": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1795448778000,
+      "snippet": "Trump says he spoke to the board and that Huang \"did nothing wrong.\""
+    },
+    {
+      "id": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
+      "title": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
+      "link": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795447800000,
+      "snippet": "OpenAI a publié le 18 novembre 2026 un deuxième bilan de l'usage des agents de code dans sa recherche. Le taux de réussite sans intervention varie selon la tâche, de 79 % pour surveiller un entraînement à 43 % pour construire du code et des données et 25 % pour le code d'inférenc"
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p26#a261123p26",
+      "title": "President Trump says Jensen Huang \"did nothing wrong\", Nvidia's board \"did ask for assurance on the national security threat\", and he spoke to Xi about Huang (Dan Mangan/CNBC)",
+      "link": "https://www.techmeme.com/261123/p26#a261123p26",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795447200000,
+      "snippet": "Dan Mangan / CNBC: President Trump says Jensen Huang “did nothing wrong”, Nvidia's board “did ask for assurance on the national security threat”, and he spoke to Xi about Huang — Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p25#a261123p25",
+      "title": "Source: Trump dialed into Nvidia's board meeting to argue for Huang's return; a US official says he \"was totally involved\" and \"we have to protect our geniuses\" (Semafor)",
+      "link": "https://www.techmeme.com/261123/p25#a261123p25",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795446879000,
+      "snippet": "Semafor: Source: Trump dialed into Nvidia's board meeting to argue for Huang's return; a US official says he “was totally involved” and “we have to protect our geniuses” — US President Donald Trump had dialed into Nvidia's board meeting to argue for Jensen Huang's return …"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
+      "title": "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
+      "link": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795446600000,
+      "snippet": "OpenRouter a exclu le 22 novembre 2026 trois fournisseurs d'inférence, sans les nommer, et retiré 125 endpoints de l'éligibilité Zero Data Retention (ZDR), après l'expérience de Dragos qui a glissé des secrets traçables dans environ deux millions de prompts. Phala décrit une intr"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "link": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795446241000,
+      "snippet": "The president cited the U.S. Attorney General in defending Huang's return, while urging Nvidia to continue its export-control investigation."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/anthropics-math-breakthrough-matters-palo-alto-networks-bought-applied-compute",
+      "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute",
+      "link": "https://www.theinformation.com/articles/anthropics-math-breakthrough-matters-palo-alto-networks-bought-applied-compute",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795446061000,
+      "snippet": "Silicon Valley loves a good oust-and-reinstate moment. The latest example: Nvidia CEO Jensen Huang. The chipmaker announced Monday morning that Huang, who had resigned earlier this month after reports emerged about inappropriate relationships with a supplier and employees, would "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p23#a261123p23",
+      "title": "Amazon agrees to acquire much of startup Decart, including the Decart Optimization Stack and its founding team and AI researchers, a source says for ~$7.5B (Matt Day/Bloomberg)",
+      "link": "https://www.techmeme.com/261123/p23#a261123p23",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795445401000,
+      "snippet": "Matt Day / Bloomberg: Amazon agrees to acquire much of startup Decart, including the Decart Optimization Stack and its founding team and AI researchers, a source says for ~$7.5B — Amazon.com Inc. has agreed to acquire much of startup Decart AI, buying tools to bolster the cloud-c"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
+      "title": "La résolution mondiale sur l'IA à l'école vise d'abord les éditeurs",
+      "link": "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795445400000,
+      "snippet": "La 48e Assemblée mondiale pour la protection de la vie privée a adopté à Bruxelles une résolution sur l'IA à l'école, préparée par le groupe de travail que préside la CNIL. Sans force obligatoire, elle demande aux concepteurs d'outils d'exclure dès la conception six fonctionnalit"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795444983000,
+      "snippet": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/nvidia-reinstates-jensen-huang",
+      "title": "Nvidia Reinstates Jensen Huang",
+      "link": "https://www.theinformation.com/articles/nvidia-reinstates-jensen-huang",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795444826000,
+      "snippet": "Nvidia reinstated Jensen Huang as CEO on Monday morning, after “senior levels of the United States government” assured Nvidia’s board that his reinstatement “poses no national security risk.” The move is an extraordinary reversal by the company’s board, whose chair Harvey Jones j"
+    },
+    {
+      "id": "https://www.actuia.com/actualite/les-prix-de-pres-dun-marchand-sur-deux-echappent-aux-robots-dia/",
+      "title": "Les prix de près d'un marchand sur deux échappent aux robots d'IA",
+      "link": "https://www.actuia.com/actualite/les-prix-de-pres-dun-marchand-sur-deux-echappent-aux-robots-dia/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795444200000,
+      "snippet": "Fasterize a mesuré la préparation technique de 1 469 grands sites français face aux robots et aux agents d'IA. Chez près d'un marchand sur deux, des prix ou des stocks ne s'affichent qu'après exécution du JavaScript, que la plupart des robots d'IA n'exécutent pas, et trois sites "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p22#a261123p22",
+      "title": "Nvidia's board says it voted to reinstate Jensen Huang after receiving input from \"senior levels\" of the US government; a probe into his conduct is ongoing (Tim Bradshaw/Financial Times)",
+      "link": "https://www.techmeme.com/261123/p22#a261123p22",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795443852000,
+      "snippet": "Tim Bradshaw / Financial Times: Nvidia's board says it voted to reinstate Jensen Huang after receiving input from “senior levels” of the US government; a probe into his conduct is ongoing — Startling reversal of board's position on disgraced co-founder sends AI giant's share pric"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795443719000,
+      "snippet": "The stunning reversal was supported by senior officials in the U.S. government."
+    },
+    {
+      "id": "https://www.numerama.com/tech/2382845-immense-rebondissement-jensen-huang-redevient-le-patron-de-nvidia.html",
+      "title": "Immense rebondissement : Jensen Huang redevient le patron de Nvidia",
+      "link": "https://www.numerama.com/tech/2382845-immense-rebondissement-jensen-huang-redevient-le-patron-de-nvidia.html",
       "source": "Numerama",
       "category": "france",
-      "ts": 1795345260000,
-      "snippet": "Qu’est-ce que Stryx AI ? Une start-up française, fondée en 2025 par Armand Thiberge, le créateur de Brevo, qui conçoit des drones chargés d’en intercepter d’autres. Elle vient de lever 7,7 millions d’euros pour les produire en France. Son argument est de rendre l’interception pre"
+      "ts": 1795443275000,
+      "snippet": "À la surprise générale, le conseil d'administration de Nvidia a annoncé le 23 novembre réintégrer Jensen Huang comme CEO, président et membre du conseil d'administration. Deux semaines seulement après ses aveux et 11 jours après sa démission, l'emblématique fondateur de Nvidia es"
     },
     {
-      "id": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html",
-      "title": "Piratage de GTA 6, IPO d’Anthropic et Face Unlock sur iPhone Duo — le récap tech de la semaine",
-      "link": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html",
+      "id": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
+      "title": "Tesla’s FSD v15 turns driving visuals into Grand Theft Auto",
+      "link": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1795443148000,
+      "snippet": "Tesla has begun rolling out Full Self-Driving (Supervised) v15, calling it a ground-up overhaul of its end-to-end driver assist system. The centerpiece is Reality View, a real-time generative display that swaps out old wireframe graphics for a live, overhead camera angle that let"
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p21#a261123p21",
+      "title": "President Trump says Nvidia \"made the correct and proper decision\", the US \"needs Jensen's leadership\", and the US AG found no evidence of \"unlawful conduct\" (Donald J. Trump/@realDonaldTrump)",
+      "link": "https://www.techmeme.com/261123/p21#a261123p21",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795443112000,
+      "snippet": "Donald J. Trump / @realDonaldTrump: President Trump says Nvidia “made the correct and proper decision”, the US “needs Jensen's leadership”, and the US AG found no evidence of “unlawful conduct” — The NVIDIA Board of Directors has made the correct and proper decision to return Jen"
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/nvidia-reinstates-jensen-huang-ceo",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "link": "https://www.theinformation.com/briefings/nvidia-reinstates-jensen-huang-ceo",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795442951000,
+      "snippet": "Jensen Huang was reinstated as Nvidia’s CEO and chairman on Monday just 11 days after resigning from the company amid a scandal over several extramarital affairs, including one with a woman who U.S. authorities have said may have been a Chinese spy. Nvidia’s board said in a state"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "link": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1795442664000,
+      "snippet": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor an"
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p20#a261123p20",
+      "title": "Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding \"no national security risk\"; NVDA jumps 35%+ (Nvidia Newsroom)",
+      "link": "https://www.techmeme.com/261123/p20#a261123p20",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795442599000,
+      "snippet": "Nvidia Newsroom: Nvidia's board unanimously votes to reinstate Jensen Huang as CEO, president, and board director, after finding “no national security risk”; NVDA jumps 35%+ — NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as Pr"
+    },
+    {
+      "id": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1795442483000,
+      "snippet": "Article URL: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director Comments URL: https://news.ycombinator.com/item?id=50611588 Points: 1340 # Comments: 1107"
+    },
+    {
+      "id": "https://www.theinformation.com/articles/amds-valuation-getting-ahead-fundamentals",
+      "title": "AMD’s Valuation is Getting Ahead of Its Fundamentals",
+      "link": "https://www.theinformation.com/articles/amds-valuation-getting-ahead-fundamentals",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795442451000,
+      "snippet": "AMD has been the darling of large-cap semiconductor investors this year, with its stock up 98% so far even after Friday’s big selloff. While some on Wall Street think the recent turmoil at Nvidia could be an opportunity for AMD to sell more of its AI chips to customers and steal "
+    },
+    {
+      "id": "https://www.actuia.com/actualite/lia-de-conduite-de-yokogawa-devient-une-fonction-standard-de-centum/",
+      "title": "L'IA de conduite de Yokogawa devient une fonction standard de CENTUM",
+      "link": "https://www.actuia.com/actualite/lia-de-conduite-de-yokogawa-devient-une-fonction-standard-de-centum/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795442192000,
+      "snippet": "Yokogawa ajoute à CENTUM R7.02, sorti le 19 novembre 2026, un bloc de contrôle par apprentissage par renforcement et un capteur logiciel par IA. L'algorithme FKDPP conduit depuis 2022 une colonne de butadiène à Yokkaichi, et Yokogawa a annoncé en octobre 2025 son déploiement sur "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p19#a261123p19",
+      "title": "Oregon and Virginia sue SpaceX, alleging Grok Imagine's \"spicy mode\" violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children (New York Times)",
+      "link": "https://www.techmeme.com/261123/p19#a261123p19",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795442100000,
+      "snippet": "New York Times: Oregon and Virginia sue SpaceX, alleging Grok Imagine's “spicy mode” violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children — The states accused Elon Musk's company of violating consumer protection laws with its Grok Imagine artifi"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html",
+      "title": "SpaceX Sued By Oregon and Virginia Over A.I.-Generated Sexualized Images",
+      "link": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html",
+      "source": "The New York Times",
+      "category": "usages",
+      "ts": 1795441206000,
+      "snippet": "The states accused Elon Musk’s company of violating consumer protection laws with its Grok Imagine artificial intelligence tool, which created the images."
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p18#a261123p18",
+      "title": "Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more (Dom Cooke/Colossus)",
+      "link": "https://www.techmeme.com/261123/p18#a261123p18",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795439400000,
+      "snippet": "Dom Cooke / Colossus: Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more — A conversation with Bret Taylor, who has achieved nearly every feat in business except the one he"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "source": "MIT Technology Review",
+      "category": "monde",
+      "ts": 1795439400000,
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are"
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p17#a261123p17",
+      "title": "Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO (Bloomberg)",
+      "link": "https://www.techmeme.com/261123/p17#a261123p17",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795437002000,
+      "snippet": "Bloomberg: Arm CEO Rene Haas extends his contract through 2033 and will become SoftBank vice chair on December 1; a recruiting firm approached him over becoming Nvidia CEO — Arm Holdings Plc Chief Executive Officer Rene Haas has pledged to stay in his current role through 2033 af"
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p16#a261123p16",
+      "title": "Marlowe, which develops cloud infrastructure and performance tools to optimize non-Nvidia AI chips, raised a $277M seed led by Accel at a $1.15B valuation (Dina Bass/Bloomberg)",
+      "link": "https://www.techmeme.com/261123/p16#a261123p16",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795436100000,
+      "snippet": "Dina Bass / Bloomberg: Marlowe, which develops cloud infrastructure and performance tools to optimize non-Nvidia AI chips, raised a $277M seed led by Accel at a $1.15B valuation — Marlowe, a six-month-old startup co-founded by two Microsoft Corp. vice presidents, has raised $277 "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p15#a261123p15",
+      "title": "Bret Taylor's customer service AI startup Sierra says it's finalizing a $1.75B+ round led by Lightspeed and Greenoaks at a $30B valuation, up from $15.8B in May (Bloomberg)",
+      "link": "https://www.techmeme.com/261123/p15#a261123p15",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795435800000,
+      "snippet": "Bloomberg: Bret Taylor's customer service AI startup Sierra says it's finalizing a $1.75B+ round led by Lightspeed and Greenoaks at a $30B valuation, up from $15.8B in May — Sierra Technologies Inc., a startup that makes artificial intelligence software to automate customer servi"
+    },
+    {
+      "id": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "source": "Ars Technica",
+      "category": "capab",
+      "ts": 1795435200000,
+      "snippet": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents."
+    },
+    {
+      "id": "https://www.actuia.com/actualite/la-cedh-ecarte-pour-deux-ans-une-avocate-qui-citait-une-jurisprudence-inventee-par-lia/",
+      "title": "La CEDH écarte pour deux ans une avocate qui citait une jurisprudence inventée par l'IA",
+      "link": "https://www.actuia.com/actualite/la-cedh-ecarte-pour-deux-ans-une-avocate-qui-citait-une-jurisprudence-inventee-par-lia/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795435200000,
+      "snippet": "La CEDH a exclu pour deux ans une avocate roumaine dont les observations, rédigées avec des outils d'IA, citaient des affaires inexistantes et des paragraphes inventés. Prise par le président sur proposition d'une chambre, au titre de l'article 44D du règlement, la décision vaut "
+    },
+    {
+      "id": "https://www.techmeme.com/261123/p14#a261123p14",
+      "title": "Sources: Jensen Huang developed a close relationship with Trump and made lobbying calls to secure AI chip sales to China, which he called a $50B per year market (Ian Duncan/Washington Post)",
+      "link": "https://www.techmeme.com/261123/p14#a261123p14",
+      "source": "Techmeme",
+      "category": "radar",
+      "ts": 1795434001000,
+      "snippet": "Ian Duncan / Washington Post: Sources: Jensen Huang developed a close relationship with Trump and made lobbying calls to secure AI chip sales to China, which he called a $50B per year market — Jensen Huang wooed the president and pushed back against lawmakers as Nvidia sought a f"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "title": "Meta Muse can do your Black Friday shopping at Walmart",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "The Verge",
+      "category": "capab",
+      "ts": 1795431600000,
+      "snippet": "Muse can find Walmart’s Black Friday deals so that you don’t have to. | Image: Walmart Walmart will now let Meta's Muse shop on your behalf, allowing the AI agent to find and purchase Black Friday deals via Walmart's Sparky AI assistant. The retail giant is rolling out a live imp"
+    },
+    {
+      "id": "https://sifted.eu/articles/plural-fund-ai-podcast/",
+      "title": "Plural’s Sten Tamkivi on its €1bn fund, defence tech and why Europe didn’t miss the AI wave",
+      "link": "https://sifted.eu/articles/plural-fund-ai-podcast/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1795430968000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.numerama.com/cyberguerre/2382355-on-fait-ce-quon-peut-avec-les-outils-quon-a-signal-part-en-guerre-contre-deux-agents-ia-dapple-et-google.html",
+      "title": "« On fait ce qu’on peut avec les outils qu’on a » : Signal part en guerre contre deux agents IA d’Apple et Google",
+      "link": "https://www.numerama.com/cyberguerre/2382355-on-fait-ce-quon-peut-avec-les-outils-quon-a-signal-part-en-guerre-contre-deux-agents-ia-dapple-et-google.html",
       "source": "Numerama",
       "category": "france",
-      "ts": 1795338420000,
-      "snippet": "Cette semaine, GTA 6 était sur toutes les lèvres. Le jeu vidéo de Rockstar Games est enfin arrivé après 13 ans d'attente… et la communauté de l'émulation se bat désormais pour le pirater. En parallèle, la grosse actualité est l'entrée en bourse d'Anthropic, premier géant de l'IA "
+      "ts": 1795430743000,
+      "snippet": "Sur iOS 27 et Android, Signal empêche désormais Siri AI et Gemini Intelligence de lire ce qui s'affiche dans l'application. La messagerie chiffrée estime que l'arrivée de ces agents au cœur des systèmes d'exploitation menace directement la confidentialité de ses utilisateurs."
     },
     {
-      "id": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "id": "https://z.ai/blog/glm-5.4",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "link": "https://z.ai/blog/glm-5.4",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1795337854000,
-      "snippet": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 225 # Comments: 328"
+      "ts": 1795428403000,
+      "snippet": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 594 # Comments: 227"
     },
     {
-      "id": "https://www.techmeme.com/261122/p5#a261122p5",
-      "title": "Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips (New York Times)",
-      "link": "https://www.techmeme.com/261122/p5#a261122p5",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795330841000,
-      "snippet": "New York Times: Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips — China's espionage agency has been running a secret campaign to help the country's companies acquire adv"
+      "id": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
+      "title": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
+      "link": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795426200000,
+      "snippet": "Deuxième séance d'Anthropic (ANT) le 20 novembre : plus bas à 83,05 dollars, cinq cents au-dessus du prix d'introduction de 83 dollars, clôture à 88,91 dollars (-8,5 %), environ 400 millions d'actions échangées. Le Nasdaq a perdu 5,28 %, le S&P 500 et le Dow Jones sont entrés en "
     },
     {
-      "id": "https://www.techmeme.com/261122/p4#a261122p4",
-      "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines (Mike Pearl/Gizmodo)",
-      "link": "https://www.techmeme.com/261122/p4#a261122p4",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795329616000,
-      "snippet": "Mike Pearl / Gizmodo: Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines — FSD v15 was released to some vehicles on Saturday. Its visualization system may be the most rem"
+      "id": "https://sifted.eu/articles/why-ai-startups-should-build-governance-early-brnd/",
+      "title": "Why AI startups should build governance early",
+      "link": "https://sifted.eu/articles/why-ai-startups-should-build-governance-early-brnd/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1795424424000,
+      "snippet": ""
     },
     {
-      "id": "https://www.techmeme.com/261122/p2#a261122p2",
-      "title": "Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed (Financial Times)",
-      "link": "https://www.techmeme.com/261122/p2#a261122p2",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795326601000,
-      "snippet": "Financial Times: Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed — Dell, HPE, Lenovo and Supermicro demand more for equipment, with the increased costs hitting trading fi"
+      "id": "https://www.actuia.com/actualite/amd-mise-jusqua-29-milliards-de-dollars-sur-les-puces-a-modele-unique/",
+      "title": "AMD mise jusqu'à 2,9 milliards de dollars sur les puces à modèle unique",
+      "link": "https://www.actuia.com/actualite/amd-mise-jusqua-29-milliards-de-dollars-sur-les-puces-a-modele-unique/",
+      "source": "ActuIA",
+      "category": "france",
+      "ts": 1795419350000,
+      "snippet": "AMD a finalisé le 17 novembre 2026 le rachat de Taalas, start-up torontoise fondée en 2023, que son rapport trimestriel valorise environ 2,9 milliards de dollars en numéraire et en actions, dont jusqu'à 1,4 milliard conditionnel. Taalas grave les poids d'un modèle dans le siliciu"
     },
     {
-      "id": "https://www.techmeme.com/261122/p1#a261122p1",
-      "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China (Stu Woo/Wall Street Journal)",
-      "link": "https://www.techmeme.com/261122/p1#a261122p1",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795326301000,
-      "snippet": "Stu Woo / Wall Street Journal: Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — S"
+      "id": "https://sifted.eu/articles/black-forest-labs-nvidia-a16z-andreas-blattmann-interview/",
+      "title": "Backed by Nvidia and a16z, Black Forest Labs sets its sights on world models",
+      "link": "https://sifted.eu/articles/black-forest-labs-nvidia-a16z-andreas-blattmann-interview/",
+      "source": "Sifted",
+      "category": "capital",
+      "ts": 1795410045000,
+      "snippet": ""
     },
     {
-      "id": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-      "title": "Data Processing Incidents on Inference Providers",
-      "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "id": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795397153000,
+      "snippet": "Three significant backers share what gave them conviction to bet billions on Anthropic."
+    },
+    {
+      "id": "https://huggingface.co/blog/agentic-evals",
+      "title": "How to build and maintain an agentic evaluation",
+      "link": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face",
+      "category": "capab",
+      "ts": 1795392000000,
+      "snippet": ""
+    },
+    {
+      "id": "https://www.theinformation.com/articles/ai-bubble-deflating-dell-workday-deck",
+      "title": "AI Bubble Deflating? Dell, Workday on Deck",
+      "link": "https://www.theinformation.com/articles/ai-bubble-deflating-dell-workday-deck",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795388472000,
+      "snippet": "Friday’s tech stock bloodbath prompted much gnashing of teeth over the weekend. With stocks most exposed to AI—such as Nvidia, AMD, Broadcom, neoclouds such as CoreWeave, Nebius—falling in the 12-16% range, and Anthropic tanking on its second day of trading, it felt like the air "
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795382047000,
+      "snippet": "To establish a speed limit on AI development, you need to agree on how to measure speed."
+    },
+    {
+      "id": "https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits",
+      "title": "OpenAI Calls For Leading AI Firms to Agree on AI Development Limits",
+      "link": "https://www.theinformation.com/briefings/openai-calls-leading-ai-firms-agree-ai-development-limits",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795381695000,
+      "snippet": "OpenAI’s chief scientist called for leading AI model developers to agree on limits that they won’t cross “until our ability to understand and monitor AI behavior achieve a certain concrete milestone.” “I’d like an industry standard that specifies a first limit on development, mea"
+    },
+    {
+      "id": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "source": "Hacker News",
       "category": "usages",
-      "ts": 1795313654000,
-      "snippet": "Article URL: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ Comments URL: https://news.ycombinator.com/item?id=50595554 Points: 181 # Comments: 68"
+      "ts": 1795381276000,
+      "snippet": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 641 # Comments: 262"
     },
     {
-      "id": "https://www.techmeme.com/261121/p11#a261121p11",
-      "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends (Wired)",
-      "link": "https://www.techmeme.com/261121/p11#a261121p11",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795306202000,
-      "snippet": "Wired: Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches “zero espionage” executive girlfriends — The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers."
+      "id": "https://www.theinformation.com/articles/amazon-plays-long-expensive-data-center-game-neoclouds",
+      "title": "How Amazon Plays the Long, Expensive Data Center Game That Neoclouds Can’t",
+      "link": "https://www.theinformation.com/articles/amazon-plays-long-expensive-data-center-game-neoclouds",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795371519000,
+      "snippet": "INDIANA, Penn.—A visit this week to an Amazon data center project in Pennsylvania coal country gave me a glimpse of the era we all knew was coming: when tech giants lay claim to some of the hardest-to-secure AI infrastructure while smaller cloud providers, which Nvidia has proppe"
+    },
+    {
+      "id": "https://openai.com/index/perplexity-and-intelligence/",
+      "title": "Perplexity and Intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "Hacker News",
+      "category": "usages",
+      "ts": 1795367187000,
+      "snippet": "Article URL: https://openai.com/index/perplexity-and-intelligence/ Comments URL: https://news.ycombinator.com/item?id=50601525 Points: 649 # Comments: 418"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+      "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+      "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+      "source": "TechCrunch",
+      "category": "capital",
+      "ts": 1795367160000,
+      "snippet": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it."
+    },
+    {
+      "id": "https://www.theinformation.com/articles/apple-got-caught-google-search-ads-slowdown",
+      "title": "How Apple Got Caught Up in Google Search Ads Slowdown",
+      "link": "https://www.theinformation.com/articles/apple-got-caught-google-search-ads-slowdown",
+      "source": "The Information",
+      "category": "capital",
+      "ts": 1795363257000,
+      "snippet": "Google’s shares have fallen 18% since the company reported a sharp slowdown in search advertising revenue growth stemming in part from the increased popularity of its AI features. Google isn’t the only tech company feeling the pain from that shift. Growth in Apple’s services reve"
     },
     {
       "id": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
@@ -137,24 +515,6 @@
       "snippet": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
     },
     {
-      "id": "https://www.pandex.io",
-      "title": "Pandex – Official European Law for AI Agents, over MCP",
-      "link": "https://www.pandex.io",
-      "source": "Hacker News",
-      "category": "usages",
-      "ts": 1795294061000,
-      "snippet": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 108 # Comments: 28"
-    },
-    {
-      "id": "https://www.techmeme.com/261121/p10#a261121p10",
-      "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
-      "link": "https://www.techmeme.com/261121/p10#a261121p10",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795291802000,
-      "snippet": "Dan Goodin / Ars Technica: Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under “ZDR” policies, and saw “privacy” often broken, keys stolen — Researchers planted 2 million digital tripwires in requests sent through a sprawling netwo"
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/20/podcasts/hardfork-gta6-nvidia-anthropic.html",
       "title": "G.T.A. VI Is a Monumental Human Achievement",
       "link": "https://www.nytimes.com/2026/11/20/podcasts/hardfork-gta6-nvidia-anthropic.html",
@@ -164,15 +524,6 @@
       "snippet": "Anthropic goes public, Jensen Huang wants back in at Nvidia, and software patches seem to be breaking everything. But first, let’s talk about G.T.A."
     },
     {
-      "id": "https://www.techmeme.com/261121/p9#a261121p9",
-      "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
-      "link": "https://www.techmeme.com/261121/p9#a261121p9",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795287301000,
-      "snippet": "Financial Times: Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the luc"
-    },
-    {
       "id": "https://www.theinformation.com/briefings/amazon-nearing-7-5-billion-purchase-decart",
       "title": "Amazon Nearing $7.5 Billion Purchase of Decart",
       "link": "https://www.theinformation.com/briefings/amazon-nearing-7-5-billion-purchase-decart",
@@ -180,15 +531,6 @@
       "category": "capital",
       "ts": 1795286334000,
       "snippet": "Amazon is nearing a deal to buy Decart, an Israeli AI startup developing video models, for $7.5 billion, the Financial Times reported on Saturday. News that Amazon was considering a Decart purchase was first reported early last month by the Wall Street Journal. The three year old"
-    },
-    {
-      "id": "https://www.techmeme.com/261121/p8#a261121p8",
-      "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
-      "link": "https://www.techmeme.com/261121/p8#a261121p8",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795283701000,
-      "snippet": "Financial Times: Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week — Acquisition would help AWS compete with Nvidia in race for computing power — Amazon is nearing a $7.5bn deal to "
     },
     {
       "id": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -236,24 +578,6 @@
       "snippet": "The Nvidia co-founder’s belittling behavior toward employees goes back decades. It once led to a confidential settlement agreement with an executive who said Mr. Huang “terrorized” staff."
     },
     {
-      "id": "https://www.techmeme.com/261121/p7#a261121p7",
-      "title": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs (New York Times)",
-      "link": "https://www.techmeme.com/261121/p7#a261121p7",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795273801000,
-      "snippet": "New York Times: Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs — While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese "
-    },
-    {
-      "id": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "title": "Can Anthropic afford to put safety first?",
-      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "source": "The Verge",
-      "category": "capab",
-      "ts": 1795273200000,
-      "snippet": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that impor"
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
       "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
       "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
@@ -261,15 +585,6 @@
       "category": "usages",
       "ts": 1795271490000,
       "snippet": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them."
-    },
-    {
-      "id": "https://www.techmeme.com/261121/p6#a261121p6",
-      "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
-      "link": "https://www.techmeme.com/261121/p6#a261121p6",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795260601000,
-      "snippet": "Cristina Criddle / Financial Times: An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness — The in-house philosopher on the problem of consciousness and what it might feel li"
     },
     {
       "id": "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
@@ -288,15 +603,6 @@
       "category": "usages",
       "ts": 1795255330000,
       "snippet": "If artificial intelligence is giving rise to outages, cyberattacks and more, it’s consistent with history, in that it shows how new innovations often set off calamitous failure before they make life better."
-    },
-    {
-      "id": "https://www.techmeme.com/261121/p4#a261121p4",
-      "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution (Peter Hall/Scientific American)",
-      "link": "https://www.techmeme.com/261121/p4#a261121p4",
-      "source": "Techmeme",
-      "category": "radar",
-      "ts": 1795242600000,
-      "snippet": "Peter Hall / Scientific American: NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution — Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and Anthr"
     },
     {
       "id": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html",
@@ -380,24 +686,6 @@
       "snippet": "U.S. startups continued to secure sizable rounds, led by brain-computer interface company Science securing a fresh $400 million."
     },
     {
-      "id": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795204421000,
-      "snippet": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795203128000,
-      "snippet": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
-    },
-    {
       "id": "https://www.theinformation.com/briefings/spacex-closes-32-billion-debt-deal-steep-yields",
       "title": "SpaceX Closes $32 Billion Debt Deal at Steep Yields",
       "link": "https://www.theinformation.com/briefings/spacex-closes-32-billion-debt-deal-steep-yields",
@@ -405,15 +693,6 @@
       "category": "capital",
       "ts": 1795201208000,
       "snippet": "SpaceX has completed a $32 billion debt deal for access to Nvidia chips primarily at yields over 8%, Bloomberg reported. The steep yields, which are rarely seen in high-grade debt markets, underscore investors’ growing anxiety over returns on AI spending. Goldman Sachs and Apollo"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
-      "title": "Super-hot rock geothermal could end data center energy woes",
-      "link": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795199640000,
-      "snippet": "New geothermal startups are betting that they can leapfrog today's leaders to deliver terawatts of electricity nearly anywhere."
     },
     {
       "id": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
@@ -477,33 +756,6 @@
       "category": "capital",
       "ts": 1795184313000,
       "snippet": "On a sunny day in San Francisco last month, Anthropic Chief Financial Officer Krishna Rao and other executives huddled in the company’s downtown headquarters to brief major investors on its latest financials—and assuage concerns. Revenue growth in the third quarter had fallen fro"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795183200000,
-      "snippet": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-      "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-      "link": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795181100000,
-      "snippet": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-      "link": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795180871000,
-      "snippet": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said."
     },
     {
       "id": "https://sifted.eu/articles/hoplite-raise-stripe-founders/",
@@ -596,42 +848,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.theinformation.com/articles/anthropics-ipo-triumph",
-      "title": "Anthropic’s IPO Triumph",
-      "link": "https://www.theinformation.com/articles/anthropics-ipo-triumph",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795136457000,
-      "snippet": "Anthropic pulled it off. The biggest pure-play AI company out there, maker of the Claude line of AI models, went public on Thursday, with its shares jumping as much as 39% above its IPO price. The stock settled back a bit to close at $97.17, up 17% from its IPO price. That gave i"
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795136161000,
-      "snippet": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
-    },
-    {
-      "id": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "TechCrunch",
-      "category": "capital",
-      "ts": 1795135430000,
-      "snippet": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
-    },
-    {
-      "id": "https://www.theinformation.com/articles/anthropics-vc-investors-letting-go",
-      "title": "Why Anthropic’s VC Investors Aren’t Letting Go",
-      "link": "https://www.theinformation.com/articles/anthropics-vc-investors-letting-go",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795135284000,
-      "snippet": "Earlier this week I reported that at least four venture firms were in line to make at least 10 times their investment in Anthropic, whose shares closed up 17% on the first day of trading Thursday. For many venture capitalists and the endowments and foundations that invest in VC f"
-    },
-    {
       "id": "https://huggingface.co/blog/inkling2mini",
       "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
       "link": "https://huggingface.co/blog/inkling2mini",
@@ -650,15 +866,6 @@
       "snippet": ""
     },
     {
-      "id": "https://www.theinformation.com/briefings/apple-developing-ai-agent-rival-meta-openai",
-      "title": "Apple Developing AI Agent to Rival Meta and OpenAI",
-      "link": "https://www.theinformation.com/briefings/apple-developing-ai-agent-rival-meta-openai",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795128581000,
-      "snippet": "Apple is developing an AI agent that can browse the web, use apps, and write code, according to recent job postings. The iPhone maker is building an AI assistant that can use a computer much like a person does, the postings say. Such a product would put Apple in competition with "
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html",
       "title": "Anthropic Debuts on Wall Street as a $2 Trillion Company",
       "link": "https://www.nytimes.com/2026/11/19/technology/anthropic-2-trillion.html",
@@ -666,24 +873,6 @@
       "category": "usages",
       "ts": 1795128317000,
       "snippet": "The San Francisco company was the first major A.I. lab to go public in a highly anticipated moment for the tech industry, before ending the day valued at $1.7 trillion."
-    },
-    {
-      "id": "https://www.theinformation.com/briefings/anthropic-closes-first-trading-day-97-share-17-ipo-price",
-      "title": "Anthropic Closes First Trading Day at $97 a Share, 17% Above IPO Price",
-      "link": "https://www.theinformation.com/briefings/anthropic-closes-first-trading-day-97-share-17-ipo-price",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795128208000,
-      "snippet": "Anthropic’s shares closed up 17% at $97 on the company’s first day as a public company, well down on its opening trade. Even so, the company finished the day with a market capitalization of around $1.75 trillion on a fully diluted basis, making it one of the world’s largest compa"
-    },
-    {
-      "id": "https://www.theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million",
-      "title": "Nvidia Nears Acquisition of Diffusion AI Developer for More Than $500 Million",
-      "link": "https://www.theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795128181000,
-      "snippet": "Nvidia is in advanced talks to acquire Inception, a two-year-old startup that develops a type of AI that aims to perform faster than the one that powers products such as ChatGPT and Claude, according to three people with knowledge of the discussions. The proposed deal is worth at"
     },
     {
       "id": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html",
@@ -702,15 +891,6 @@
       "category": "usages",
       "ts": 1795116604000,
       "snippet": ""
-    },
-    {
-      "id": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
-      "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business",
-      "link": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
-      "source": "The Information",
-      "category": "capital",
-      "ts": 1795115518000,
-      "snippet": "Meta Platforms plans to charge $300 for its forthcoming Muse Charm device and offer user subsidies, according to a person familiar with the matter, betting that the pocket-sized AI gadget will help energize its hardware business and draw users to its new personal assistant. To lu"
     },
     {
       "id": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/anthropics-unusual-corporate-structure-mandates-it-balance-safety-and-profit",
@@ -857,15 +1037,6 @@
       "snippet": "JUPITER Booster, à Jülich, est cinquième du TOP500 avec 1 exaflop. C'est la seule machine européenne à ce niveau, et HPC7, HPC6 et Alps complètent la présence européenne dans le top 10. D'après le décompte de la liste par ActuIA, l'Europe aligne 161 systèmes pour 29 % de la puiss"
     },
     {
-      "id": "https://www.actuia.com/actualite/quatre-employeurs-francais-sur-dix-utilisent-ou-testent-lia/",
-      "title": "Quatre employeurs français sur dix utilisent ou testent l'IA",
-      "link": "https://www.actuia.com/actualite/quatre-employeurs-francais-sur-dix-utilisent-ou-testent-lia/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1795069800000,
-      "snippet": "France Travail a interrogé plus de 16 000 employeurs sur leur usage de l'IA. 38 % l'utilisent ou la testent, avec un fort écart selon la taille de l'établissement. 6 % pensent qu'elle pourrait concurrencer l'humain sur leur métier principal d'ici cinq ans. Parmi les employeurs ut"
-    },
-    {
       "id": "https://sifted.eu/articles/inside-the-next-big-bets-in-ai-compute/",
       "title": "The next big bets in AI compute",
       "link": "https://sifted.eu/articles/inside-the-next-big-bets-in-ai-compute/",
@@ -983,24 +1154,6 @@
       "snippet": "D’après une étude menée par Havas Market, plus de 3 Français sur 4 utilisent désormais l’IA générative. Parmi eux, 77 % s’en servent également pour préparer leurs achats. De quoi questionner l’objectivité des réponses avec l’arrivée de la publicité. Les Français sont de plus en p"
     },
     {
-      "id": "https://siecledigital.fr/2026/11/17/25-000-offres-demploi-en-moins-en-france-une-etude-revele-les-premiers-degats-de-lia/",
-      "title": "25 000 offres d’emploi en moins en France, une étude révèle les premiers dégâts de l’IA",
-      "link": "https://siecledigital.fr/2026/11/17/25-000-offres-demploi-en-moins-en-france-une-etude-revele-les-premiers-degats-de-lia/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1795019919000,
-      "snippet": "Une étude de la Coface, dévoilée mardi 17 novembre, révèle que 25 000 offres d’emploi de moins que prévu ont été publiées sur France Travail au troisième trimestre 2026. Une baisse significative qui pourrait témoigner des premiers effets de l’IA sur le marché du travail. L’IA ent"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/le-wall-street-journal-revele-une-enquete-de-la-sec-sur-nvidia/",
-      "title": "Le Wall Street Journal révèle une enquête de la SEC sur Nvidia",
-      "link": "https://www.actuia.com/actualite/le-wall-street-journal-revele-une-enquete-de-la-sec-sur-nvidia/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1795015800000,
-      "snippet": "D'après le Wall Street Journal, qui cite des personnes informées, la SEC a ouvert une enquête civile sur Nvidia, notamment pour savoir si les informations publiées par le groupe ont trompé les investisseurs. La SEC refuse de commenter, Nvidia n'a pas répondu et son communiqué de "
-    },
-    {
       "id": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
       "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
@@ -1028,24 +1181,6 @@
       "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their ca"
     },
     {
-      "id": "https://www.actuia.com/actualite/seuls-18-des-chief-ai-officers-controlent-les-investissements-en-ia-selon-ibm/",
-      "title": "Seuls 18 % des Chief AI Officers contrôlent les investissements en IA, selon IBM",
-      "link": "https://www.actuia.com/actualite/seuls-18-des-chief-ai-officers-controlent-les-investissements-en-ia-selon-ibm/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1795006800000,
-      "snippet": "Selon une étude d'IBM et d'Oxford Economics auprès de 1 667 responsables de l'IA, 18 % seulement contrôlent totalement les décisions d'investissement en IA. En Europe, 46 % disent que des agents exécutent déjà des actions dans les processus, mais 77 % jugent que la gouvernance et"
-    },
-    {
-      "id": "https://sifted.eu/articles/elevenlabs-lovable-deepl-yann-lecun-eu-ai-open-letter/",
-      "title": "ElevenLabs, Lovable and DeepL CEOs urge EU to back homegrown AI",
-      "link": "https://sifted.eu/articles/elevenlabs-lovable-deepl-yann-lecun-eu-ai-open-letter/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1795005018000,
-      "snippet": ""
-    },
-    {
       "id": "https://news.crunchbase.com/startups/arr-measure-ai-venture-growth-capital-zayani-rtp/",
       "title": "What To Measure When ARR Isn’t Enough",
       "link": "https://news.crunchbase.com/startups/arr-measure-ai-venture-growth-capital-zayani-rtp/",
@@ -1053,15 +1188,6 @@
       "category": "capital",
       "ts": 1795003254000,
       "snippet": "AI companies’ hybrid subscription, usage and outcome-based pricing makes headline ARR figures an unreliable measure of predictable revenue, often obscuring differences in customer commitments and spending patterns. Guest author Kenza Zayani, an early-stage investor at RTP Global,"
-    },
-    {
-      "id": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
-      "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
-      "link": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
-      "source": "Crunchbase News",
-      "category": "capital",
-      "ts": 1795003231000,
-      "snippet": "Voice AI is drawing billions of dollars from investors as startups find more ways to put it to work. According to Crunchbase data, companies developing or offering the technology have raised at least $9.5 billion in venture funding so far in 2026."
     },
     {
       "id": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
@@ -1073,15 +1199,6 @@
       "snippet": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates."
     },
     {
-      "id": "https://www.actuia.com/actualite/microsoft-mise-sur-ses-modeles-et-ses-puces-maison-a-ignite/",
-      "title": "Microsoft mise sur ses modèles et ses puces maison à Ignite",
-      "link": "https://www.actuia.com/actualite/microsoft-mise-sur-ses-modeles-et-ses-puces-maison-a-ignite/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1794999600000,
-      "snippet": "MAI Code 2 est disponible dans GitHub Copilot. Microsoft le dit à 96 % des performances de Claude Opus 5.5 pour 5 % du prix, sur sa propre moyenne de quatre tests de code, sans publier de tarif au token. Copilot Autopilot arrive chez les clients du programme Frontier avec son pro"
-    },
-    {
       "id": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
       "title": "This smell startup says its AI nose is as good as a human’s",
       "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
@@ -1089,51 +1206,6 @@
       "category": "monde",
       "ts": 1794997230000,
       "snippet": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/lappel-de-paris-laisse-aux-developpeurs-le-pouvoir-darreter-leurs-ia/",
-      "title": "L'Appel de Paris laisse aux développeurs le pouvoir d'arrêter leurs IA",
-      "link": "https://www.actuia.com/actualite/lappel-de-paris-laisse-aux-developpeurs-le-pouvoir-darreter-leurs-ia/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1794992400000,
-      "snippet": "L'Appel de Paris pour la sécurité de l'IA, publié par l'Élysée le 9 novembre 2026, réunissait le 18 novembre 18 États, 10 entreprises et 11 organisations. Les développeurs s'y engagent à des mécanismes d'arrêt de leurs modèles, entraînement et usage interne compris, mais seulemen"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/sans-jensen-huang-nvidia-releve-sa-prevision/",
-      "title": "Nvidia relève sa prévision et écarte le retour de Jensen Huang",
-      "link": "https://www.actuia.com/actualite/sans-jensen-huang-nvidia-releve-sa-prevision/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1794986797000,
-      "snippet": "Nvidia publie 115,8 milliards de dollars de chiffre d'affaires pour le trimestre clos le 25 octobre, au-dessus de sa prévision, et vise 130 milliards pour le suivant, qui compte quatorze semaines. Colette Kress, directrice générale par intérim, relève à environ 75 % la croissance"
-    },
-    {
-      "id": "https://www.actuia.com/actualite/h-company-rend-ses-agents-dia-disponibles-sur-le-cloud-souverain-europeen-daws/",
-      "title": "H Company rend ses agents d'IA disponibles sur le cloud souverain européen d'AWS",
-      "link": "https://www.actuia.com/actualite/h-company-rend-ses-agents-dia-disponibles-sur-le-cloud-souverain-europeen-daws/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1794985200000,
-      "snippet": "H Company rend sa plateforme d'agents d'IA disponible sur l'AWS European Sovereign Cloud. L'inférence des clients européens qui le demandent tourne dans l'Union, sur des instances gérées par Nvidia ; l'entraînement des modèles reste sur l'infrastructure mondiale d'AWS. Les conten"
-    },
-    {
-      "id": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-      "title": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
-      "link": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1794978046000,
-      "snippet": ""
-    },
-    {
-      "id": "https://sifted.eu/articles/disseqt-ai-agents-rogue/",
-      "title": "Exclusive: OpenAI and Meta insiders back startup policing rogue AI agents",
-      "link": "https://sifted.eu/articles/disseqt-ai-agents-rogue/",
-      "source": "Sifted",
-      "category": "capital",
-      "ts": 1794978024000,
-      "snippet": ""
     },
     {
       "id": "https://huggingface.co/blog/moe-expert-streaming",
@@ -1163,24 +1235,6 @@
       "snippet": "Mr. Huang resigned as chief executive of the company last week after revelations that he had affairs with an employee and a woman linked to Chinese intelligence."
     },
     {
-      "id": "https://www.actuia.com/actualite/genesis-ai-leve-500-millions-de-dollars-pour-mettre-ses-robots-eno-a-lusine/",
-      "title": "Genesis AI lève 500 millions de dollars pour mettre ses robots Eno à l'usine",
-      "link": "https://www.actuia.com/actualite/genesis-ai-leve-500-millions-de-dollars-pour-mettre-ses-robots-eno-a-lusine/",
-      "source": "ActuIA",
-      "category": "france",
-      "ts": 1794941909000,
-      "snippet": "Genesis AI, fondée en 2024 par Zhou Xian et Théophile Gervet et installée à Paris et en Californie, lève 500 millions de dollars en série A pour une valorisation de 3,5 milliards. Le tour est mené par Khosla Ventures, Premji Invest et Eclipse, avec Nvidia, Bpifrance et Xavier Nie"
-    },
-    {
-      "id": "https://siecledigital.fr/2026/11/17/openai-signe-un-accord-avec-17-medias-francais-dont-le-parisien-et-les-echos/",
-      "title": "OpenAI signe un accord avec 17 médias français dont Le Parisien et Les Échos",
-      "link": "https://siecledigital.fr/2026/11/17/openai-signe-un-accord-avec-17-medias-francais-dont-le-parisien-et-les-echos/",
-      "source": "Siècle Digital",
-      "category": "france",
-      "ts": 1794925548000,
-      "snippet": "OpenAI offre de la visibilité aux médias de LVMH, puisque plusieurs d’entre eux, dont Le Parisien et Les Échos, seront mis en avant. Cet accord stratégique comprend également l’utilisation de plusieurs outils, notamment ChatGPT Enterprise. L’annonce a été faite le 16 novembre et "
-    },
-    {
       "id": "https://www.nytimes.com/2026/11/16/technology/nvidia-jensen-madison-huang.html",
       "title": "Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia",
       "link": "https://www.nytimes.com/2026/11/16/technology/nvidia-jensen-madison-huang.html",
@@ -1188,15 +1242,6 @@
       "category": "usages",
       "ts": 1794881757000,
       "snippet": "Installed as her father’s de facto chief of staff, Jensen Huang’s daughter alienated top executives. Now her lingering role poses a test for interim C.E.O. Colette Kress."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
-      "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
-      "link": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1794863243000,
-      "snippet": "The rules have been a topic of fierce debate in the administration and would cut back on a booming data center business serving Chinese companies."
     },
     {
       "id": "https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html",
@@ -1233,15 +1278,6 @@
       "category": "monde",
       "ts": 1794826823000,
       "snippet": "MinoHealth researchers in Ghana jailbroke their own LLM as a test. What emerged were thousands of toxin recipes—and an urgent push for regulation."
-    },
-    {
-      "id": "https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html",
-      "title": "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic",
-      "link": "https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html",
-      "source": "The New York Times",
-      "category": "usages",
-      "ts": 1794823329000,
-      "snippet": "The founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic."
     },
     {
       "id": "https://huggingface.co/blog/openrouter",
@@ -1658,15 +1694,6 @@
       "snippet": ""
     },
     {
-      "id": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "title": "Western open-weight models still can’t beat China",
-      "link": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "source": "Rest of World",
-      "category": "monde",
-      "ts": 1792144800000,
-      "snippet": "Chinese open-weight AI models offer high capability at significantly lower costs than U.S. frontier systems, but face monetization and compute challenges, experts said at a Rest of World event in San Francisco."
-    },
-    {
       "id": "https://huggingface.co/blog/reflection-beam",
       "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
       "link": "https://huggingface.co/blog/reflection-beam",
@@ -1730,46 +1757,5 @@
       "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highligh"
     }
   ],
-  "syntheses": {
-    "capab": {
-      "titre": "Les modèles IA légers et locaux deviennent accessibles ; les géants acceptent des coûts énergétiques plus élevés",
-      "resume": "Anthropic s'introduit en bourse tandis que Google et Meta intègrent l'IA dans leurs produits grand public. Mais l'électricité consommée par les data centers IA explose : Meta abandonne son objectif climatique 2030. En parallèle, Hugging Face publie des outils pour faire tourner des modèles IA puissants sur des machines ordinaires, sans serveurs coûteux. Une fissure apparaît aussi : un chercheur a implanté des secrets traçables dans des modèles et les a retrouvés intacts dans les réponses, prouvant que les données privées ne restent pas privées.",
-      "faits": [
-        "Anthropic (créateur de Claude) est entrée en bourse sur le Nasdaq ; l'IPO marque l'arrivée à maturité financière des laboratoires IA, mais sans détails sur la rentabilité réelle.",
-        "Google ajoute un bouton chat IA directement sur sa page d'accueil de recherche, rendant l'IA omniprésente pour les utilisateurs.",
-        "Meta « réévalue » son engagement de neutralité carbone pour 2030 car ses data centers IA produisent un volume d'émissions record.",
-        "Un chercheur a inséré 2 millions de secrets traçables (canaries) dans des modèles IA et les a retrouvés intacts dans les sorties, confirmant que les données d'entraînement ne disparaissent pas.",
-        "Hugging Face lance des modèles « mini » (Inkling 2, Rumble-2-Flash) et des outils (llama.cpp v1.0.0, harness adapters) permettant de faire tourner une IA puissante sur un ordinateur personnel avec 32 Go de RAM.",
-        "OpenRouter et Hugging Face s'associent pour simplifier l'accès aux modèles ouverts, contournant les fournisseurs centralisés.",
-        "De nouveaux modèles spécialisés (texte-à-parole, extraction de documents, prédiction temporelle) se multiplient sur la plateforme open-source."
-      ],
-      "implications": [
-        {
-          "fait": "Meta abandonne son objectif climatique 2030 à cause de l'IA",
-          "pourquoi": "Les data centers consomment une électricité massive et croissante. Les entreprises intégrant l'IA à grande échelle verront leur facture énergétique et leurs émissions exploser, ce qui rend les promesses climatiques intenables. Cela affectera les bilans carbone corporate et les régulations futures."
-        },
-        {
-          "fait": "Les secrets d'entraînement restent accessibles dans les réponses IA",
-          "pourquoi": "Si des données sensibles (brevets, secrets client, données personnelles) entrent dans l'entraînement, elles peuvent être extraites par des utilisateurs malveillants. Cela crée un risque légal et réputationnel pour toute entreprise qui entraîne un modèle sur des données confidentielles."
-        },
-        {
-          "fait": "Des modèles légers tournent maintenant sur des ordinateurs ordinaires",
-          "pourquoi": "Jusqu'à présent, utiliser l'IA coûtait cher (louer du temps serveur, payer l'accès API). Maintenant, une PME ou un développeur peut déployer un modèle puissant en interne, sans dépendre d'un fournisseur. Cela démocratise l'IA mais aussi réduit le contrôle centralisé et augmente les risques de mauvais usages."
-        },
-        {
-          "fait": "Google et Meta intègrent l'IA dans leurs produits centraux",
-          "pourquoi": "L'IA devient un élément de base, pas un service distinct. Les utilisateurs interagissent avec elle sans le choisir. Cela augmente l'adoption massive et crée de nouvelles dépendances, mais aussi des points faibles en confidentialité et en fiabilité."
-        }
-      ],
-      "signaux": [
-        "Nouvelles régulations environnementales ciblant les data centers (l'UE, la Californie, etc. pourraient imposer des limites de consommation électrique ou exiger des compensations carbone).",
-        "Augmentation des litiges autour de la fuite de données d'entraînement et des secrets extraits des modèles ; création de standards de sécurité obligatoires.",
-        "Montée en puissance des startups et PME qui déploient des modèles ouverts en interne plutôt que via des API payantes ; réduction des revenus SaaS centralisés.",
-        "Talent : les chercheurs migrent vers Hugging Face et les projets open-source (rémunération, transparence, impact social) ; moins de concentration chez les trois géants (OpenAI, Google, Meta).",
-        "Modèles IA spécialisés (voix, images, documents, séries temporelles) se diffusent rapidement ; fin de la domination des modèles « tout-en-un »."
-      ],
-      "conclusion": "L'IA industrielle atteint un tournant : elle se décentralise techniquement (modèles légers, déploiement local) mais centralise ses coûts énergétiques et risques de fuite de données, forçant les entreprises à choisir entre contrôle interne et conformité énergético-légale.",
-      "generatedAt": "2026-11-22T13:17:50.445Z"
-    }
-  }
+  "syntheses": {}
 }
